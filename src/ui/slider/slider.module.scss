@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  padding: var(--space-8) 0;
+}
+
+.dot {
+  padding: var(--space-4);
+  cursor: pointer;
+
+  &::after {
+    display: block;
+    width: 8px;
+    height: 8px;
+    content: '';
+    background-color: var(--border-strong);
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+
+  &.active::after {
+    background-color: var(--text-primary);
+  }
+}

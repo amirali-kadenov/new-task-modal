@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 300px;
+  max-width: 100%;
+  aspect-ratio: 300 / 340;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+
+  &.fromOther {
+    border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xl)
+      var(--radius-xs);
+  }
+
+  &.fromPupil {
+    border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xs)
+      var(--radius-xl);
+  }
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.timeOverlay {
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  background: rgb(10 10 10 / 30%);
+  border-radius: 100px;
+  backdrop-filter: blur(2px);
+}
+
+.time {
+  @include caption-regular;
+
+  color: var(--text-on-brand);
+}

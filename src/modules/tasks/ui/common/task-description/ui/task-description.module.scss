@@ -1,0 +1,13 @@
+.container {
+  @include body-medium-regular;
+
+  margin-bottom: var(--space-16);
+}
+
+.highlighted {
+  color: var(--text-primary);
+}
+
+.remaining {
+  color: var(--text-tertiary);
+}

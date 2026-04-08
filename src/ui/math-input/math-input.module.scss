@@ -1,0 +1,37 @@
+/* stylelint-disable declaration-no-important */
+/* stylelint-disable selector-class-pattern */
+
+.mathInput {
+  @include body-lead-regular;
+
+  &:focus,
+  &:global(.mq-focused),
+  &:global(.focused) {
+    border: 1px solid var(--border-focus) !important;
+    border-radius: var(--radius-l) !important;
+    box-shadow: 0 0 0 1px var(--border-focus) !important;
+  }
+}
+
+:global {
+  .mq-text,
+  .mq-nonSymbola,
+  .mq-operator-name,
+  .mq-fraction,
+  .mq-sqrt,
+  .mq-sup,
+  .mq-sub,
+  .mq-nthroot {
+    font-family: var(--font-halvar) !important;
+  }
+
+  .mq-math-mode var {
+    font-family: var(--font-halvar) !important;
+    font-style: normal !important;
+  }
+
+  /* workarount for f symbol */
+  .mq-math-mode var.mq-f {
+    margin: 0;
+  }
+}

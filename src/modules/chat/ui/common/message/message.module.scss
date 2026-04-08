@@ -1,0 +1,61 @@
+.message {
+  position: relative;
+  width: fit-content;
+  padding: var(--space-8) var(--space-12);
+  overflow-wrap: break-word;
+  border-radius: var(--radius-xl);
+}
+
+.messageFromPupil {
+  margin-left: auto;
+  color: var(--text-secondary);
+  background: var(--bg-subtle);
+  border-bottom-right-radius: var(--radius-xs);
+}
+
+.messageFromOther {
+  margin-right: auto;
+  color: var(--text-primary);
+  background: var(--bg-surface);
+  border-bottom-left-radius: var(--radius-xs);
+}
+
+.messageTime {
+  @include caption-regular;
+
+  color: var(--text-tertiary);
+  text-align: right;
+}
+
+// skeleton
+
+.skeletonText {
+  width: max(70vw, 220px);
+  height: 24px;
+}
+
+.skeletonTextFirst {
+  width: 60%;
+}
+
+.skeletonMessage {
+  background: var(--bg-surface);
+}
+
+.skeletonMessageText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin: var(--space-8) 0;
+}
+
+.skeletonMessageTime {
+  width: 40px;
+  height: 24px;
+  margin-left: auto;
+}
+
+.skeletonTextHeader {
+  width: 80px;
+  height: 24px;
+}

@@ -1,0 +1,51 @@
+/* stylelint-disable declaration-no-important */
+/* stylelint-disable selector-class-pattern */
+
+.input {
+  @include body-medium-regular;
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  padding: var(--space-12);
+  color: var(--text-primary);
+  outline: none;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-l) !important;
+  transition:
+    border-color 120ms ease,
+    box-shadow 120ms ease,
+    background 120ms ease;
+
+  &::placeholder {
+    color: var(--text-tertiary);
+  }
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--border-focus) !important;
+    box-shadow: 0 0 0 1px var(--border-focus) !important;
+  }
+
+  &:focus-visible {
+    border: 1px solid var(--border-default);
+    box-shadow:
+      0 0 0 1px var(--border-default),
+      0 0 0 3px var(--border-strong);
+  }
+
+  &.error {
+    background: var(--status-bg-error);
+    border: 1px solid var(--border-error);
+    box-shadow: 0 0 0 1px var(--border-error);
+  }
+
+  &.disabled {
+    color: var(--text-disabled);
+    pointer-events: none;
+    background: var(--bg-disabled);
+  }
+}

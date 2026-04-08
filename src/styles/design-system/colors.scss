@@ -1,0 +1,84 @@
+@use './colors-palette' as *;
+
+:root {
+  /* font */
+  --font-halvar: 'Halvar Mittel', sans-serif;
+
+  /* bg */
+  --bg-canvas: #{$graphit-100};
+  --bg-surface: #{$white};
+  --bg-subtle: #{$graphit-200};
+  --bg-disabled: #{$graphit-200};
+  --bg-inverse: #{$graphit-900};
+  --bg-brand: #{$blue-500};
+  --bg-brand-pressed: #{$blue-600};
+  --bg-brand-disabled: #{$blue-200};
+
+  /* text */
+  --text-primary: #{$graphit-900};
+  --text-secondary: #{$graphit-600};
+  --text-tertiary: #{$graphit-400};
+  --text-disabled: #{$graphit-300};
+  --text-brand: #{$blue-500};
+  --text-brand-pressed: #{$blue-600};
+  --text-error: #{$red-500};
+  --text-accent: #{$yellow-500};
+  --text-on-brand: #{$white};
+
+  /* border */
+  --border-default: #{$graphit-200};
+  --border-strong: #{$graphit-300};
+  --border-subtle: #{$graphit-100};
+  --border-focus: #{$blue-500};
+  --border-error: #{$red-600};
+
+  /* status */
+  --status-bg-error: #{$red-100};
+  --status-bg-warning: #{$orange-100};
+  --status-bg-success: #{$green-100};
+  --status-bg-info: #{$blue-100};
+  --status-fg-error: #{$red-500};
+  --status-fg-warning: #{$orange-500};
+  --status-fg-success: #{$green-500};
+  --status-fg-info: #{$blue-500};
+}
+
+[data-theme='dark'] {
+  /* bg */
+  --bg-canvas: #{$graphit-900};
+  --bg-surface: #{$graphit-800};
+  --bg-subtle: #{$graphit-700};
+  --bg-disabled: #{$graphit-700};
+  --bg-inverse: #{$graphit-100};
+  --bg-brand: #{$blue-400};
+  --bg-brand-pressed: #{$blue-500};
+  --bg-brand-disabled: #{$blue-100};
+
+  /* text */
+  --text-primary: #{$graphit-100};
+  --text-secondary: #{$graphit-300};
+  --text-tertiary: #{$graphit-500};
+  --text-disabled: #{$graphit-500};
+  --text-brand: #{$blue-400};
+  --text-brand-pressed: #{$blue-500};
+  --text-error: #{$red-500};
+  --text-accent: #{$yellow-400};
+  --text-on-brand: #{$white};
+
+  /* border */
+  --border-default: #{$graphit-700};
+  --border-strong: #{$graphit-600};
+  --border-subtle: #{$graphit-800};
+  --border-focus: #{$blue-400};
+  --border-error: #{$red-500};
+
+  /* status */
+  --status-bg-error: #{$red-800};
+  --status-bg-warning: #{$orange-800};
+  --status-bg-success: #{$green-800};
+  --status-bg-info: #{$blue-800}; // Figma didn't explicitly list info bg for dark, but blue-800 fits pattern
+  --status-fg-error: #{$red-500};
+  --status-fg-warning: #{$orange-400};
+  --status-fg-success: #{$green-400};
+  --status-fg-info: #{$blue-400};
+}

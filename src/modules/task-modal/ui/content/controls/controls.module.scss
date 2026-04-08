@@ -1,0 +1,12 @@
+.adjusting {
+  position: absolute;
+  max-width: 100%;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.calculatorSkeleton {
+  @media (max-height: 708px) {
+    display: none;
+  }
+}

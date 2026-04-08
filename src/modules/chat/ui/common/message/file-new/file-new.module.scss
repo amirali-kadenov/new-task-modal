@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  flex: 1;
+  gap: var(--space-12);
+  align-items: center;
+  min-width: 0;
+}
+
+.fileIcon {
+  color: var(--text-primary);
+}
+
+.fileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.fileName {
+  @include caption-bold;
+
+  display: block; // For truncation to work
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.fileSize {
+  @include body-small-regular;
+
+  color: var(--text-secondary);
+}
+
+.iconButton {
+  width: to-rem(40px);
+  height: to-rem(40px);
+}

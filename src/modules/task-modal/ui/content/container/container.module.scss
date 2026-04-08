@@ -1,0 +1,31 @@
+.container {
+  // display: grid;
+  height: 100%;
+  padding: var(--space-8) var(--space-16);
+  overflow: hidden auto;
+}
+
+.adjusting {
+  position: absolute;
+  height: fit-content;
+  min-height: fit-content;
+  max-height: fit-content;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.textSkeleton {
+  width: 70%;
+  height: 23px;
+  margin-bottom: var(--space-8);
+}
+
+.inputSkeleton {
+  height: 58px;
+  margin-top: var(--space-24);
+}
+
+.azerbaijani {
+  /* stylelint-disable-next-line declaration-no-important */
+  font-family: Lora, 'Times New Roman', serif !important;
+}

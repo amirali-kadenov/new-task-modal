@@ -1,0 +1,72 @@
+.radioButton {
+  display: flex;
+  gap: var(--space-8);
+  align-items: center;
+  padding: var(--space-12);
+  color: var(--text-secondary);
+  cursor: pointer;
+  background-color: var(--bg-surface);
+
+  --border-color: var(--border-default);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-m);
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: var(--text-primary);
+
+    --border-color: var(--border-strong);
+  }
+
+  &.checked {
+    color: var(--text-primary);
+    box-shadow:
+      0 0 0 5px #3176f633,
+      0 0 0 1px var(--border-focus);
+
+    --border-color: var(--border-focus);
+  }
+}
+
+.radioInput {
+  position: relative;
+
+  --size: 20px;
+
+  width: var(--size);
+  min-width: var(--size);
+  height: var(--size);
+  appearance: none;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xxl);
+  transition: all 0.2s ease;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:checked {
+    background-color: #007aff;
+    border-color: #007aff;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: calc(var(--size) / 2);
+      height: calc(var(--size) / 2);
+      content: '';
+      background-color: var(--bg-surface);
+      border-radius: var(--radius-xxl);
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.radioLabel {
+  @include body-medium-regular;
+
+  user-select: none;
+}

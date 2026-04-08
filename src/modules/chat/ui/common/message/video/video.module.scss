@@ -1,0 +1,118 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 300px;
+  max-width: 100%;
+  aspect-ratio: 300 / 340;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+
+  &.fromOther {
+    border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xl)
+      var(--radius-xs);
+  }
+
+  &.fromPupil {
+    margin-left: auto;
+    border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xs)
+      var(--radius-xl);
+  }
+
+  video {
+    border-radius: inherit;
+  }
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s;
+}
+
+.playButtonHidden {
+  opacity: 0;
+}
+
+.container:hover .playButtonHidden {
+  opacity: 1;
+}
+
+.durationOverlay {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding: 2px 7px;
+  color: var(--text-on-brand);
+  background: rgb(10 10 10 / 30%);
+  border-radius: 100px;
+  backdrop-filter: blur(2px);
+}
+
+.duration {
+  @include caption-regular;
+}
+
+.muteIcon {
+  width: 12px;
+  height: 12px;
+}
+
+.timeOverlay {
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  background: rgb(10 10 10 / 30%);
+  border-radius: 100px;
+  backdrop-filter: blur(2px);
+}
+
+.time {
+  @include caption-regular;
+
+  color: var(--text-on-brand);
+}
+
+.progressFill {
+  height: 100%;
+  pointer-events: none;
+  background: var(--bg-surface);
+  border-radius: inherit;
+}
+
+.progressTrack {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  cursor: pointer;
+  background: rgb(255 255 255 / 30%);
+}
+
+.muteButton {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+}

@@ -1,0 +1,123 @@
+@use '../lib/functions.scss' as *;
+
+%title-base {
+  font-family: Platform, sans-serif;
+  font-weight: 700;
+}
+
+%body-base {
+  font-family: 'Halvar Mittel', sans-serif;
+}
+
+@mixin title-32 {
+  @extend %title-base;
+
+  font-size: to-rem(32px);
+  line-height: to-rem(38px);
+}
+
+@mixin title-28 {
+  @extend %title-base;
+
+  font-size: to-rem(28px);
+  line-height: 1;
+}
+
+@mixin title-24 {
+  @extend %title-base;
+
+  font-size: to-rem(24px);
+  line-height: 1;
+}
+
+@mixin body-lead-bold {
+  @extend %body-base;
+
+  font-size: to-rem(24px);
+  font-weight: 700;
+  line-height: to-rem(29px);
+}
+
+@mixin body-lead-regular {
+  @extend %body-base;
+
+  font-size: to-rem(24px);
+  line-height: to-rem(29px);
+}
+
+@mixin body-large-bold {
+  @extend %body-base;
+
+  font-size: to-rem(20px);
+  font-weight: 700;
+  line-height: to-rem(25px);
+}
+
+@mixin body-large-regular {
+  @extend %body-base;
+
+  font-size: to-rem(20px);
+  line-height: to-rem(25px);
+}
+
+@mixin body-medium-bold {
+  @extend %body-base;
+
+  font-size: to-rem(18px);
+  font-weight: 700;
+  line-height: to-rem(23px);
+}
+
+@mixin body-medium-regular {
+  @extend %body-base;
+
+  font-size: to-rem(18px);
+  line-height: to-rem(23px);
+}
+
+@mixin body-small-bold {
+  @extend %body-base;
+
+  font-size: to-rem(16px);
+  font-weight: 700;
+  line-height: to-rem(21px);
+}
+
+@mixin body-small-regular {
+  @extend %body-base;
+
+  font-size: to-rem(16px);
+  line-height: to-rem(21px);
+}
+
+@mixin label-bold {
+  @extend %body-base;
+
+  font-size: to-rem(14px);
+  font-weight: 700;
+  line-height: to-rem(18px);
+  letter-spacing: to-rem(1px);
+}
+
+@mixin label-regular {
+  @extend %body-base;
+
+  font-size: to-rem(14px);
+  line-height: to-rem(18px);
+  letter-spacing: to-rem(1px);
+}
+
+@mixin caption-bold {
+  @extend %body-base;
+
+  font-size: to-rem(14px);
+  font-weight: 700;
+  line-height: to-rem(18px);
+}
+
+@mixin caption-regular {
+  @extend %body-base;
+
+  font-size: to-rem(14px);
+  line-height: to-rem(18px);
+}

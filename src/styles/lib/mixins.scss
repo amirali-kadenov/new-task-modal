@@ -1,0 +1,55 @@
+@use 'sass:map' as map;
+
+$breakpoints: (
+  xs: 375px,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1536px,
+);
+
+@mixin max-width($size) {
+  @media (max-width: map.get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin min-width($size) {
+  @media (min-width: map.get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin thin-scrollbar {
+  /* scrollbar-color: thumb track */
+  scrollbar-color: var(--border-strong) transparent;
+
+  /* --- Firefox styles --- */
+
+  /* scrollbar-width: thin makes it close to 4px wide */
+  scrollbar-width: thin;
+
+  /* --- Chrome, Edge, Safari styles --- */
+
+  /* 1. Set the width of the entire scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  /* 2. Set the background (track) to transparent */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* 3. Set the color of the thumb (draggable handle) */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--border-strong);
+    border-radius: 4px; /* Optional: adds a slight curve to match the 4px width */
+  }
+}
+
+@mixin center-self-horizontally {
+  left: 50%;
+  transform: translateX(-50%);
+}

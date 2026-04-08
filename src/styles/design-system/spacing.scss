@@ -1,0 +1,14 @@
+@use '../lib/functions.scss' as *;
+
+:root {
+  --space-4: #{to-rem(4px)};
+  --space-8: #{to-rem(8px)};
+  --space-12: #{to-rem(12px)};
+  --space-16: #{to-rem(16px)};
+  --space-24: #{to-rem(24px)};
+  --space-32: #{to-rem(32px)};
+  --space-40: #{to-rem(40px)};
+  --space-48: #{to-rem(48px)};
+  --space-64: #{to-rem(64px)};
+  --space-128: #{to-rem(128px)};
+}

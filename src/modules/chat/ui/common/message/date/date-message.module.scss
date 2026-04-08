@@ -1,0 +1,7 @@
+.date {
+  padding: 12px 0;
+  color: var(--text-primary);
+  text-align: center;
+
+  @include body-small-regular;
+}

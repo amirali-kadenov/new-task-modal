@@ -1,0 +1,25 @@
+.spoiler {
+  max-width: fit-content;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.withPulse {
+  animation: pulse 1.75s linear infinite;
+}
+
+@keyframes pulse {
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.25;
+  }
+
+  75% {
+    opacity: 1;
+  }
+}

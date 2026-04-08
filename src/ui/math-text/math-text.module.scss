@@ -1,0 +1,35 @@
+/* stylelint-disable selector-max-compound-selectors */
+/* stylelint-disable declaration-no-important */
+/* stylelint-disable selector-class-pattern */
+
+.mathText {
+  /* Replace Latin letters & digits */
+  :global {
+    .mjx-n,
+    .mjx-i {
+      &,
+      & .TEX-I {
+        font-family: var(--font-halvar), MJXZERO, MJXTEX, sans-serif !important;
+      }
+    }
+
+    /** \Gamma \Delta \Theta \Lambda \Sigma \Upsilon \Phi */
+    .mjx-c393,
+    .mjx-c394,
+    .mjx-c398,
+    .mjx-c39B,
+    .mjx-c3A3,
+    .mjx-c3A5,
+    .mjx-c3A6 {
+      font-family: var(--font-halvar), MJXZERO, MJXTEX, sans-serif !important;
+    }
+
+    .mjx-c31::before {
+      padding-right: 0.38em;
+    }
+
+    .mjx-c34::before {
+      padding-top: 0.67em;
+    }
+  }
+}

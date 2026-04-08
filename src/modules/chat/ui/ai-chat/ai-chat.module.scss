@@ -1,0 +1,16 @@
+.buttons {
+  gap: var(--space-12);
+  padding: var(--space-16);
+}
+
+.button {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  max-width: 50%;
+  padding: var(--space-12) var(--space-12) to-rem(10px);
+  text-align: left;
+  background: var(--bg-surface);
+  border: none;
+  border-radius: var(--radius-xl) var(--radius-xl) var(--radius-s);
+}

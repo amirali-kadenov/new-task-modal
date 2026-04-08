@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.inputs {
+  display: flex;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+.sign {
+  @include body-lead-regular;
+}

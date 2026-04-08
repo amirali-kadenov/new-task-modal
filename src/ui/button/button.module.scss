@@ -1,0 +1,85 @@
+.button {
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  border-radius: var(--radius-xxl);
+  transition-duration: 200ms;
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus-visible {
+    outline: 2px solid var(--border-focus);
+  }
+}
+
+/* color */
+
+.gray {
+  color: var(--text-primary);
+  background-color: var(--bg-subtle);
+
+  &:hover {
+    color: var(--text-brand);
+  }
+}
+
+.white {
+  color: var(--text-primary);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-default);
+
+  &:hover {
+    color: var(--text-primary);
+    background-color: var(--bg-disabled);
+  }
+}
+
+.blue {
+  color: var(--text-on-brand);
+  background-color: var(--bg-brand);
+
+  &:hover {
+    background-color: var(--bg-brand-pressed);
+  }
+
+  &:disabled {
+    color: #ffffff80;
+    cursor: not-allowed;
+    background-color: var(--bg-brand);
+  }
+
+  &.loading {
+    color: var(--text-on-brand);
+    background-color: var(--bg-brand);
+  }
+}
+
+/* layout */
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  @include body-medium-bold;
+
+  padding-top: to-rem(17.5px);
+  padding-bottom: to-rem(18.5px);
+}
+
+/* size */
+
+.small {
+  @include body-small-bold;
+
+  display: flex;
+  align-items: center;
+  padding: var(--space-8) var(--space-16);
+}
+
+.sizeIcon {
+  width: to-rem(58px);
+  height: to-rem(58px);
+}

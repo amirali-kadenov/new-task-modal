@@ -1,0 +1,21 @@
+.container {
+  padding-bottom: to-rem(10px);
+  font-family: var(--font-halvar), sans-serif;
+  color: var(--text-primary);
+  background: var(--bg-canvas);
+  border-radius: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // &,
+  // & * {
+  @include thin-scrollbar;
+
+  // }
+
+  @include min-width(sm) {
+    max-width: 375px;
+    margin: 0 auto;
+    border: 1px solid #808080;
+  }
+}

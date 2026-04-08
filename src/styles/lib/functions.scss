@@ -1,0 +1,17 @@
+@use 'sass:math' as math;
+
+$base-font-size: 16px;
+
+// Utility function to convert pixels to rem
+// Assumes base font size of 16px (common default)
+@function to-rem($px, $base: $base-font-size) {
+  @return math.div($px, $base) * 1rem;
+}
+
+@function to-vw($px, $base) {
+  @if math.unit($px) != 'px' and math.unit($px) != '' {
+    @error "to-vw() expects a pixel value";
+  }
+
+  @return math.div($px, $base) * 100vw;
+}

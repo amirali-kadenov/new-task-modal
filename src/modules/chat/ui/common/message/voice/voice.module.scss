@@ -1,0 +1,49 @@
+/* stylelint-disable declaration-no-important */
+.voiceMessage {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  min-width: 80px;
+
+  &.error {
+    opacity: 0.5;
+  }
+}
+
+.waveformContainer {
+  display: flex;
+  flex: 1;
+  gap: var(--space-8);
+  align-items: center;
+  overflow: hidden;
+}
+
+.waveform {
+  display: flex;
+  flex: 1;
+  gap: 2px;
+  align-items: center;
+  max-width: 170px;
+  height: 24px;
+}
+
+.duration {
+  @include label-regular;
+
+  min-width: 32px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.errorText {
+  font-size: 0.8125rem;
+}
+
+.playButton {
+  width: to-rem(40px);
+  height: to-rem(40px);
+
+  &:hover {
+    background-color: var(--bg-surface);
+  }
+}

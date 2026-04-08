@@ -1,0 +1,41 @@
+.container {
+  @include body-medium-regular;
+
+  flex-grow: 1;
+  margin-top: var(--space-16);
+}
+
+.highlight {
+  @include body-medium-bold;
+
+  padding: var(--space-4) 0;
+
+  :global(mjx-math) {
+    font-weight: 700;
+  }
+}
+
+.answer {
+  margin-left: var(--space-4);
+}
+
+.delimeter {
+  margin: var(--space-24) 0;
+  border-top: 1px solid var(--border-strong);
+}
+
+.icon {
+  margin-right: var(--space-4);
+}
+
+.explanation {
+  @include caption-regular;
+
+  margin-top: var(--space-16);
+  color: var(--text-secondary);
+}
+
+.explanationContent {
+  margin-top: var(--space-4);
+  overflow: hidden auto;
+}

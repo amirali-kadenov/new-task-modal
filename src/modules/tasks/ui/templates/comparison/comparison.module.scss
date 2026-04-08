@@ -1,0 +1,46 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable declaration-no-important */
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.side {
+  flex: 1;
+  text-align: right;
+
+  &:last-child {
+    text-align: left;
+  }
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px !important;
+  height: 64px !important;
+  min-height: 64px !important;
+  font-size: 24px;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+
+  :global(.mq-editable-field) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  :global(.mq-root-block) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

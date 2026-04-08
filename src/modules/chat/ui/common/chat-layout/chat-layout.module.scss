@@ -1,0 +1,44 @@
+.body {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  overflow: hidden;
+}
+
+.messages {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-8) var(--space-16);
+  overflow: hidden auto;
+}
+
+.item {
+  list-style: none;
+}
+
+.skeletonMessage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-self: flex-start;
+  width: 70%;
+  padding: var(--space-8) var(--space-12);
+  background: var(--bg-surface);
+  border-radius: var(--radius-xl);
+  border-bottom-left-radius: var(--radius-s);
+}
+
+.skeletonMessageRight {
+  align-self: flex-end;
+  border-bottom-right-radius: var(--radius-s);
+  border-bottom-left-radius: var(--radius-xl);
+}
+
+.skeletonText {
+  height: 16px;
+  border-radius: var(--radius-s);
+}

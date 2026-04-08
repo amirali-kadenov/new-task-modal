@@ -1,0 +1,108 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable declaration-no-important */
+.keyboard {
+  display: grid;
+  gap: var(--space-4);
+  justify-content: center;
+  padding: 0 to-vw(16px, 375px);
+  margin: 0 auto;
+
+  @include min-width(sm) {
+    padding: 0 var(--space-16);
+  }
+
+  &.letters {
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    height: 100%;
+  }
+
+  &.main {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.letterKey {
+  height: to-vw(50px, 375px);
+
+  @include min-width(sm) {
+    height: 50px;
+  }
+}
+
+.mainKey {
+  height: to-vw(62px, 375px);
+
+  @include min-width(sm) {
+    height: 62px;
+  }
+}
+
+:global(.keen-slider__slide):has(.keyboard.letters) {
+  align-self: center;
+}
+
+.button {
+  @include body-lead-regular;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-m);
+  transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-duration: 200ms;
+  will-change: transform;
+
+  &:hover {
+    filter: brightness(0.99);
+  }
+
+  &:active {
+    filter: brightness(0.98);
+    transition-duration: 150ms;
+  }
+
+  :global(body.lang-ar) & {
+    /* important is needed, because when arabic language is selected it overrides everything */
+    @include body-lead-regular;
+
+    font-family: var(--font-halvar) !important;
+  }
+}
+
+.operator {
+  color: var(--text-on-brand);
+  background-color: var(--status-fg-warning);
+
+  &:hover {
+    filter: brightness(1.02) saturate(1.02);
+  }
+
+  &:active {
+    filter: brightness(1.04) saturate(1.04);
+  }
+}
+
+.number {
+  color: var(--text-primary);
+  background-color: var(--bg-surface);
+
+  &:hover {
+    filter: brightness(0.99);
+  }
+
+  &:active {
+    filter: brightness(0.98);
+  }
+}
+
+.paginationSkeleton {
+  width: 32px;
+  height: 16px;
+  margin: var(--space-8) auto;
+}

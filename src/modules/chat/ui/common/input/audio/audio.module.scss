@@ -1,0 +1,107 @@
+.voiceButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--text-secondary);
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--text-primary);
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  svg {
+    width: to-rem(24px);
+    height: to-rem(24px);
+  }
+}
+
+.recordingControls {
+  display: flex;
+  gap: var(--space-16);
+  align-items: center;
+  padding: var(--space-4) var(--space-8);
+  background: var(--bg-canvas);
+  border-radius: var(--radius-xl);
+}
+
+.cancelButton {
+  display: flex;
+  padding: 0;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--red-500);
+  }
+
+  svg {
+    width: to-rem(20px);
+    height: to-rem(20px);
+  }
+}
+
+.recordingInfo {
+  display: flex;
+  gap: var(--space-8);
+  align-items: center;
+  min-width: to-rem(60px);
+}
+
+.recordingDot {
+  width: to-rem(8px);
+  height: to-rem(8px);
+  background: var(--red-500);
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+.recordingTime {
+  @include label-bold;
+
+  color: var(--text-primary);
+}
+
+.sendButton {
+  display: flex;
+  padding: 0;
+  color: var(--text-brand);
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg {
+    width: to-rem(20px);
+    height: to-rem(20px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

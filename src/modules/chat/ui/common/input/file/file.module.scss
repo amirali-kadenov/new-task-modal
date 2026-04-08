@@ -1,0 +1,19 @@
+.fileButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  svg {
+    width: to-rem(24px);
+    height: to-rem(24px);
+  }
+}

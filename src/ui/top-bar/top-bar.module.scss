@@ -1,0 +1,19 @@
+.container {
+  padding: var(--space-8) var(--space-16);
+}
+
+.title {
+  @include body-large-regular;
+
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  &.rtl {
+    flex-direction: row-reverse;
+  }
+}
+
+.button {
+  padding: var(--space-8) var(--space-16) var(--space-12);
+}
