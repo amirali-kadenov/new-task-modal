@@ -16,7 +16,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:watch": "concurrently \"npm run build:vite:watch\" \"npm run yalc:watch\"",
-    "build:vite:watch": "vite build --watch",
+    "build:vite:watch": "vite build --watch --mode development",
     "yalc:watch": "nodemon --watch dist -x \"yalc push --changed\"",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -26,7 +26,8 @@
     "lint:stylelint:fix": "npm run lint:stylelint -- --fix",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate-available-tasks": "tsx scripts/generate-available-tasks.ts"
+    "generate-available-tasks": "tsx scripts/generate-available-tasks.ts",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@edtr-io/mathquill": "^0.11.0",
@@ -47,8 +48,7 @@
     "react-compiler-runtime": "^1.0.0",
     "react-dom": "^19.1.2",
     "react-modal": "^3.16.3",
-    "spoiled": "link:../../../Library/pnpm/global/5/node_modules/spoiled",
-    "spoilerjs": "^0.2.0",
+    "spoiled": "^0.4.0",
     "wavesurfer.js": "^7.12.4",
     "zustand": "^5.0.9"
   },
