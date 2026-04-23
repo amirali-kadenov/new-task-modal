@@ -42,7 +42,7 @@ export const useTheory = ({ props, onLoad, isTheoryShown }: Args) => {
   }, [isError, error])
 
   useEffect(() => {
-    if (isSuccess && data) {
+    if (isSuccess && data && !isTheoryShown) {
       const theory = data.theory.filter(
         (item) => item.type === LessonTheory.VideoUrl,
       )
@@ -63,7 +63,7 @@ export const useTheory = ({ props, onLoad, isTheoryShown }: Args) => {
         )
       }
     }
-  }, [isSuccess, data])
+  }, [isSuccess, data, isTheoryShown])
 
   return isFetched || isTheoryShown
 }
