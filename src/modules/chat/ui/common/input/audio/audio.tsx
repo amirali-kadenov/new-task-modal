@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 
+import ArrowUpIcon from '@/assets/icons/chat/arrow-up.svg'
 import MicrophoneIcon from '@/assets/icons/chat/microphone.svg'
-import StopIcon from '@/assets/icons/chat/stop.svg'
 import CloseIcon from '@/assets/icons/close.svg'
 import {
   Button,
@@ -9,18 +9,27 @@ import {
   ButtonLayout,
   ButtonSize,
 } from '@/ui/button/button'
+import { InputAsSpan } from '@/ui/input/input'
 
 import s from './audio.module.scss'
+import { LiveWaveform } from './live-waveform'
 import { MediaRecorderWrapper } from './media-recorder-wrapper'
 
 interface Props {
   onAddVoice: (blob: Blob, durationTime: number) => void
   disabled?: boolean
+  isRecording: boolean
+  setIsRecording: (value: boolean) => void
 }
 
-export const AudioInput = ({ onAddVoice, disabled }: Props) => {
-  const [isRecording, setIsRecording] = useState(false)
+export const AudioInput = ({
+  onAddVoice,
+  disabled,
+  isRecording,
+  setIsRecording,
+}: Props) => {
   const [recordingTime, setRecordingTime] = useState(0)
+  const [analyser, setAnalyser] = useState<AnalyserNode | null>(null)
   const recorderRef = useRef<MediaRecorderWrapper | null>(null)
   const timerRef = useRef<number | undefined | null>(null)
 
@@ -34,21 +43,24 @@ export const AudioInput = ({ onAddVoice, disabled }: Props) => {
 
   const startRecording = async () => {
     try {
-      recorderRef.current = new MediaRecorderWrapper()
-      await recorderRef.current.start()
+      const recorder = new MediaRecorderWrapper()
+      recorderRef.current = recorder
+      await recorder.start()
 
+      const audioAnalyser = recorder.getAnalyser()
+      setAnalyser(audioAnalyser as any as AnalyserNode | null)
       setIsRecording(true)
       setRecordingTime(0)
       timerRef.current = setInterval(() => {
         setRecordingTime((prev) => prev + 1)
       }, 1000)
-    } catch (error) {
+    } catch (error: unknown) {
       console.error('Error accessing microphone:', error)
       alert('Could not access microphone. Please check permissions.')
     }
   }
 
-  const stopRecording = async () => {
+  const finishRecording = async () => {
     if (recorderRef.current && isRecording) {
       const { blob, duration } = await recorderRef.current.stop()
 
@@ -56,6 +68,7 @@ export const AudioInput = ({ onAddVoice, disabled }: Props) => {
 
       setIsRecording(false)
       setRecordingTime(0)
+      setAnalyser(null)
       if (timerRef.current) {
         clearInterval(timerRef.current)
       }
@@ -68,6 +81,7 @@ export const AudioInput = ({ onAddVoice, disabled }: Props) => {
       recorderRef.current.cancel()
       setIsRecording(false)
       setRecordingTime(0)
+      setAnalyser(null)
       if (timerRef.current) {
         clearInterval(timerRef.current)
       }
@@ -84,28 +98,30 @@ export const AudioInput = ({ onAddVoice, disabled }: Props) => {
   if (isRecording) {
     return (
       <div className={s.recordingControls}>
-        <button
-          className={s.cancelButton}
+        <Button
           onClick={cancelRecording}
-          aria-label="Cancel recording"
-          type="button"
+          layout={ButtonLayout.Icon}
+          size={ButtonSize.SizeIcon}
+          color={ButtonColor.Gray}
         >
           <CloseIcon />
-        </button>
-        <div className={s.recordingInfo}>
-          <div className={s.recordingDot} />
+        </Button>
+
+        <InputAsSpan className={s.recordingInfo}>
+          <LiveWaveform analyser={analyser} />
           <span className={s.recordingTime}>
             {formatRecordingTime(recordingTime)}
           </span>
-        </div>
-        <button
-          className={s.sendButton}
-          onClick={stopRecording}
-          aria-label="Stop recording"
-          type="button"
+        </InputAsSpan>
+
+        <Button
+          onClick={finishRecording}
+          layout={ButtonLayout.Icon}
+          size={ButtonSize.SizeIcon}
+          color={ButtonColor.White}
         >
-          <StopIcon />
-        </button>
+          <ArrowUpIcon />
+        </Button>
       </div>
     )
   }

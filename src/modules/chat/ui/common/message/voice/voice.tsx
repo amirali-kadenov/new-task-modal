@@ -27,25 +27,28 @@ export default function VoiceMessage({
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (!waveformRef.current) return
+    console.log('🧪 VoiceMessage useEffect triggered for:', audioUrl)
+    if (!waveformRef.current) {
+      console.warn('⚠️ waveformRef.current is null!')
+      return
+    }
 
     const progressColor = '#0a0a0a'
     const waveColor = '#b4b4b4'
 
+    console.log('🏗️ Creating WaveSurfer instance...')
     wavesurferRef.current = WaveSurfer.create({
       container: waveformRef.current,
       waveColor,
-      // width: MIN_PX_PER_SEC * duration,
       width: 150,
       progressColor,
       barWidth: 3,
-      // minPxPerSec: MIN_PX_PER_SEC,
       barGap: 1.5,
       height: 24,
       barAlign: 'bottom',
       barRadius: 999,
-      url: audioUrl,
-      backend: 'WebAudio',
+      // Temporarily removing url from create to load it manually after listeners are attached
+      // url: audioUrl,
       normalize: true,
       cursorColor: 'transparent',
       cursorWidth: 0,
@@ -65,38 +68,61 @@ export default function VoiceMessage({
       setIsPlaying(false)
       setCurrentTime(0)
     }
-    const handleError = (e: Error) => {
-      console.error('WaveSurfer error:', e)
-      setHasError(true)
-      setIsPlaying(false)
-    }
 
     let peaksLoaded = false
 
     const handleReady = (durationVal: number) => {
-      if (Number.isFinite(durationVal) && durationVal > 0) {
-        setAudioDuration(durationVal)
+      console.log('🎵 WaveSurfer ready event! Reported duration:', durationVal)
+
+      const finalDuration =
+        Number.isFinite(durationVal) && durationVal > 0 ? durationVal : duration
+
+      console.log('⏱️ Final duration used:', finalDuration)
+
+      if (finalDuration !== audioDuration) {
+        setAudioDuration(finalDuration)
       }
       setHasError(false)
 
-      if (peaksLoaded) return
+      if (peaksLoaded) {
+        console.log('✅ Peaks already loaded, skipping re-load')
+        return
+      }
       peaksLoaded = true
 
+      console.log('🔍 Checking for decoded data...')
       const decoded = wav.getDecodedData()
-      if (!decoded) return
+      if (!decoded) {
+        console.warn('⚠️ Could not decode audio data for waveform peaks')
+        return
+      }
 
+      console.log('📊 Computing waveform peaks from AudioBuffer...')
       const peaks = computePeaks(decoded)
-      wav.load(audioUrl, [peaks], durationVal)
+      console.log('📥 Loading peaks into WaveSurfer. URL:', audioUrl)
+      wav.load(audioUrl, [peaks], finalDuration)
     }
 
     wav.on('timeupdate', handleTimeUpdate)
     wav.on('play', handlePlay)
     wav.on('pause', handlePause)
     wav.on('finish', handleFinish)
-    wav.on('error', handleError)
+    wav.on('error', (err) => {
+      console.error('❌ WaveSurfer error event:', err)
+      setHasError(true)
+      setIsPlaying(false)
+    })
     wav.on('ready', handleReady)
+    wav.on('loading', (pct) => console.log(`⏳ Loading audio: ${pct}%`))
+    wav.on('decode', (dur) => console.log(`🔓 Audio decoded. Duration: ${dur}`))
+
+    console.log('🛰️ Manually calling wav.load(audioUrl)...')
+    wav.load(audioUrl).catch((err) => {
+      console.error('❌ wav.load failed catch:', err)
+    })
 
     return () => {
+      console.log('🧹 Cleaning up WaveSurfer instance')
       wav.destroy()
     }
   }, [audioUrl])

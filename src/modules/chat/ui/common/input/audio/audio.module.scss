@@ -26,11 +26,8 @@
 
 .recordingControls {
   display: flex;
-  gap: var(--space-16);
+  gap: var(--space-4);
   align-items: center;
-  padding: var(--space-4) var(--space-8);
-  background: var(--bg-canvas);
-  border-radius: var(--radius-xl);
 }
 
 .cancelButton {
@@ -54,23 +51,36 @@
 
 .recordingInfo {
   display: flex;
+  flex: 1;
   gap: var(--space-8);
   align-items: center;
-  min-width: to-rem(60px);
+  min-width: to-rem(80px);
 }
 
-.recordingDot {
-  width: to-rem(8px);
-  height: to-rem(8px);
-  background: var(--red-500);
-  border-radius: 50%;
-  animation: pulse 1.5s infinite;
+.liveWaveform {
+  display: flex;
+  gap: 1.5px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 130px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.waveformBar {
+  flex-shrink: 0;
+  width: 3px;
+  background-color: var(--text-tertiary);
+  border-radius: 999px;
+  transition: height 0.05s ease;
 }
 
 .recordingTime {
   @include label-bold;
 
+  min-width: to-rem(40px);
   color: var(--text-primary);
+  text-align: right;
 }
 
 .sendButton {

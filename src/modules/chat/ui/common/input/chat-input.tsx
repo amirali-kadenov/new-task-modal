@@ -19,6 +19,7 @@ interface Props {
 }
 
 export const ChatInput = ({ onSend, onAddMessage, deps }: Props) => {
+  const [isRecording, setIsRecording] = useState(false)
   const [messageText, setMessageText] = useState('')
   const [isSending, setIsSending] = useState(false)
 
@@ -59,16 +60,20 @@ export const ChatInput = ({ onSend, onAddMessage, deps }: Props) => {
 
   return (
     <div className={s.container}>
-      <InputWithIcons
-        name="message"
-        value={messageText}
-        placeholder="Cообщение..."
-        disabled={isSending}
-        containerClassName={s.inputContainer}
-        onChange={(e) => setMessageText(e.target.value)}
-        onKeyDown={handleKeyDown}
-        leftIcon={<FileInput onAddFile={addFileMessage} disabled={isSending} />}
-      />
+      {!isRecording && (
+        <InputWithIcons
+          name="message"
+          value={messageText}
+          placeholder="Cообщение..."
+          disabled={isSending}
+          containerClassName={s.inputContainer}
+          onChange={(e) => setMessageText(e.target.value)}
+          onKeyDown={handleKeyDown}
+          leftIcon={
+            <FileInput onAddFile={addFileMessage} disabled={isSending} />
+          }
+        />
+      )}
 
       {messageText ? (
         <Button
@@ -79,7 +84,12 @@ export const ChatInput = ({ onSend, onAddMessage, deps }: Props) => {
           <SendIcon />
         </Button>
       ) : (
-        <AudioInput onAddVoice={addVoiceMessage} disabled={isSending} />
+        <AudioInput
+          onAddVoice={addVoiceMessage}
+          disabled={isSending}
+          isRecording={isRecording}
+          setIsRecording={setIsRecording}
+        />
       )}
     </div>
   )
