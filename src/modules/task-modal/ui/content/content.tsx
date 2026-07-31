@@ -26,7 +26,11 @@ export const TaskModalContent = ({ props, modals }: Props) => {
   const setIsAnswerChanged = useStore((s) => s.setIsAnswerChanged)
 
   const refs = useTaskModalRefs()
-  const calcState = useCalcSetup({ refs, activeTask })
+  const calcState = useCalcSetup({
+    refs,
+    activeTask,
+    isTesting: props.hostProps.isTesting,
+  })
   const lastFocusedInput = useInputFocus({ refs, activeTask, calcState })
 
   const onChange = (value: string) => {
@@ -36,7 +40,7 @@ export const TaskModalContent = ({ props, modals }: Props) => {
 
   const { root, header, mathInput, taskContainer } = refs
 
-  const isAdjusting = isTransitioning || !calcState.isSetupFinished
+  const isAdjusting = false //isTransitioning || !calcState.isSetupFinished
   // useEffect(() => {
   //   console.log(
   //     `tasks, chapter: ${new URLSearchParams(window.location.search).get('chapterId')}, lesson: ${new URLSearchParams(window.location.search).get('lessonId')}`,
@@ -49,7 +53,7 @@ export const TaskModalContent = ({ props, modals }: Props) => {
   //   isTaskLoaded,
   //   isTransitioning,
   // })
-  console.log({ activeTask })
+  console.log({ isAdjusting })
   return (
     <>
       <div ref={root} className={clsx('task-modal', styles.container)}>

@@ -71,6 +71,7 @@ export const TaskModalActions = ({ props, refs, className, modals }: Props) => {
         color={ButtonColor.White}
         layout={ButtonLayout.Icon}
         onClick={modals.canvas.open}
+        aria-label="Открыть доску"
         className={clsx(s.button, s.secondary)}
       >
         <Pen />
@@ -80,6 +81,7 @@ export const TaskModalActions = ({ props, refs, className, modals }: Props) => {
         color={ButtonColor.White}
         layout={ButtonLayout.Icon}
         onClick={modals.chat.open}
+        aria-label="Открыть чат"
         className={clsx(s.button, s.secondary)}
       >
         <Message />

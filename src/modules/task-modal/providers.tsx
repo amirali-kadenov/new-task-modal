@@ -8,6 +8,7 @@ interface Props {
 
 const MATH_JAX_CONFIG: MathJax3Config = {
   loader: { load: ['input/tex', 'output/chtml'] },
+  chtml: { matchFontHeight: false },
   options: {
     renderActions: {
       addMenu: [], // disables MathJax context menu

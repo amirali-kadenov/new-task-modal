@@ -47,6 +47,28 @@ const getRoot = () => {
   return root
 }
 
+/**
+ * Монтирует модальное окно задания `@qalan/new-task-modal` в DOM хост-приложения.
+ *
+ * Функция ищет контейнер `#task-modal-wrapper` в DOM хоста, автоматически инжектирует
+ * стили/шрифты библиотеки и рендерит автономный React 19 Root.
+ *
+ * @param props Параметры монтирования, включая активное задание, инжектируемые сервисы (`deps`) и коллбэки.
+ * @returns Всегда возвращает `null` (монтирование производится асинхронно в изолированный DOM-root).
+ *
+ * @example
+ * ```tsx
+ * TaskModalController({
+ *   activeTask,
+ *   deps,
+ *   state,
+ *   setState,
+ *   hostProps,
+ *   actions,
+ *   closeModal: () => console.log('Closed'),
+ * })
+ * ```
+ */
 export const TaskModalController = (props: TaskModalProps) => {
   setTimeout(() => {
     injectFonts()

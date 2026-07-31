@@ -12,11 +12,17 @@ export const useInitialSetup = (props: TaskModalProps) => {
 
   const setState = useSetAppState()
   const setAvailableTasks = useStore((s) => s.setAvailableTasks)
+  const setAnswer = useStore((s) => s.setAnswer)
+  const setPrevAnswer = useStore((s) => s.setPrevAnswer)
+  const setIsAnswerChanged = useStore((s) => s.setIsAnswerChanged)
 
   const initialSetup = useEffectEvent(() => {
     void (async () => {
       setAvailableTasks(await availableTasks)
       setState(props.state)
+      setAnswer('')
+      setPrevAnswer(null)
+      setIsAnswerChanged(false)
       setIsSetupDone(true)
     })()
   })

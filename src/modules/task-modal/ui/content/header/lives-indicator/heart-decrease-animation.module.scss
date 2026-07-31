@@ -12,6 +12,8 @@
 .img {
   position: absolute;
   top: -20px;
-  min-width: 50px;
+  width: to-rem(50px);
+  min-width: 150%;
+  height: auto;
   @include center-self-horizontally;
 }

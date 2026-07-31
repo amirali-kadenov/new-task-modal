@@ -68,6 +68,9 @@ const hasOverflow = (el: HTMLDivElement) => {
   return el.clientHeight < el.scrollHeight
 }
 
+/** Exported for unit tests / Storybook overflow asserts. */
+export const hasTaskContainerOverflow = hasOverflow
+
 // this is needed for first load
 const exceedsAvailableHeight = (
   taskContainer: HTMLDivElement,

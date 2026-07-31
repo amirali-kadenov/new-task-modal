@@ -16,6 +16,7 @@ type TypedDescriptionsMap = {
   table: TaskDescriptionTable
   comparison: TaskDescriptionComparison
   equation: TaskDescriptionEquation
+  formula: TaskDescriptionFormula
 }
 
 type DescriptionMap = TypedDescriptionsMap & {
@@ -62,16 +63,28 @@ interface TaskDescriptionText {
   content: Translation
 }
 
+export interface TaskDescriptionFormula {
+  type: 'formula'
+  content: string | Translation
+  direction?: string
+}
+
 export interface TaskDescriptionAnswerCell {
   withAudio: boolean
   type: 'answerCell'
-  textBefore: Translation
-  textAfter: string
-  tableBefore: null
-  isColumn: boolean
-  imageBefore: string
-  content: string // "answercell + answercell"
-  answerCellMargin: string
+  textBefore?: Translation | string
+  text_before?: Translation | string
+  textAfter?: string
+  text_after?: string
+  tableBefore?: null
+  table_before?: null
+  isColumn?: boolean
+  is_column?: boolean
+  imageBefore?: string
+  image_before?: string
+  content: string | Translation // "8107 q = answercell kg answercell q"
+  answerCellMargin?: string
+  answer_cell_margin?: string
 }
 
 export interface TaskDescriptionColumnOperation {
@@ -134,10 +147,33 @@ export interface TaskDescriptionTable {
   content?: string
 }
 
+export interface TaskSolutionPartVariant {
+  text?: Translation | string
+  correct?: boolean
+  isCorrect?: boolean
+  image?: string
+}
+
+export interface TaskSolutionPart {
+  type: number
+  content?: Translation | string
+  center?: boolean
+  variants?: TaskSolutionPartVariant[]
+  rows?: Array<{
+    cells: (Translation | string)[]
+    colspan_list?: number[]
+    rowspan_list?: number[]
+  }>
+  width?: string
+  tableAlign?: string
+}
+
 export interface TaskSolution {
-  answer: string
-  content: Translation | string
-  type: TaskDescriptionType
+  answer?: string | Translation
+  content?: Translation | string
+  type?: TaskDescriptionType | string
+  parts?: TaskSolutionPart[]
+  error?: Translation | string
 }
 
 export interface Task<T extends TaskDescriptionType = 'text'> {
@@ -152,7 +188,7 @@ export interface Task<T extends TaskDescriptionType = 'text'> {
   attemptsCount?: number
   hint1?: string
   hint2?: string
-  solution?: TaskSolution | null
+  solution?: TaskSolution | string | null
   videoUrl?: string
   videoId?: string
   locatedCountry?: string

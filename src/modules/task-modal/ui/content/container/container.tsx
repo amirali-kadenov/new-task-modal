@@ -12,6 +12,10 @@ import type { TaskComponentProps } from '@/modules/tasks/model/types'
 
 import type { TaskModalProps } from '../../../model/types/props'
 
+import { LegacyTaskRoot } from '@/modules/task-modal/ui/legacy-task-root'
+
+import { TaskHints } from '../task-hints/task-hints'
+
 import { ContainerSkeleton } from './container-skeleton'
 import s from './container.module.scss'
 
@@ -36,9 +40,21 @@ export const TaskModalContainer = ({
     activeTask,
   })
 
+  const availableTasks = useStore((s) => s.availableTasks)
+
   const isAzerbaijan = deps.global.isLanguageAzerbaijanSelected()
 
   const dir = deps.helpers.ArabicNumeralUtils.getDirection()
+
+  const isTaskSupported = (() => {
+    if (!activeTask) return true
+    try {
+      const key = activeTask.type.replace('Elixir.Task_', '')
+      return Boolean(availableTasks?.[key])
+    } catch (e) {
+      return true
+    }
+  })()
 
   return (
     <ErrorBoundary>
@@ -54,12 +70,19 @@ export const TaskModalContainer = ({
           ref={ref}
           dir={dir}
         >
-          <TaskComponent
-            {...taskProps}
-            answer={answer}
-            deps={deps}
-            task={activeTask}
-          />
+          {!isTaskSupported && props.renderLegacyTask ? (
+            <LegacyTaskRoot props={props} />
+          ) : (
+            <>
+              <TaskComponent
+                {...taskProps}
+                answer={answer}
+                deps={deps}
+                task={activeTask}
+              />
+              <TaskHints />
+            </>
+          )}
         </div>
       </Suspense>
     </ErrorBoundary>

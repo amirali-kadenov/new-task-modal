@@ -575,7 +575,10 @@ export interface Api {
     pupilId: number,
     withoutBotMessages: boolean,
   ): Promise<unknown>
-  sendChatMessage(data: string, type: ChatMessageType): Promise<unknown>
+  sendChatMessage(
+    data: string | Blob | File,
+    type: ChatMessageType,
+  ): Promise<unknown>
   sendChatMessageToPupil(pupilId: number, messageText: string): Promise<unknown>
   sendTemplateToPupil(pupilId: number, template: string): Promise<unknown>
   sendEvaluationTemplate(pupilId: number, type: string): Promise<unknown>

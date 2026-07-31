@@ -12,9 +12,11 @@ import type { TaskModalRefs } from './use-refs'
 interface Args {
   refs: TaskModalRefs
   activeTask: Task
+  /** Host testing mode keeps calc visible even when solution is shown (legacy parity). */
+  isTesting?: boolean
 }
 
-export const useCalcSetup = ({ activeTask, refs }: Args) => {
+export const useCalcSetup = ({ activeTask, refs, isTesting = false }: Args) => {
   const isTaskLoaded = useStore((s) => s.isTaskLoaded)
   const calc = useOpenState()
   const [isCalcEnabled, setIsCalcEnabled] = useState(false)
@@ -54,8 +56,11 @@ export const useCalcSetup = ({ activeTask, refs }: Args) => {
   // Derive whether setup is finished during render phase to avoid the 1-frame stale state
   const isSetupFinished = finishedTaskId === activeTask.id
 
+  // Host: hide calculator when solution is shown (unless isTesting)
+  const hideForSolution = Boolean(activeTask.solution) && !isTesting
+
   return {
-    isOpen: calc.isOpen,
+    isOpen: calc.isOpen && !hideForSolution,
     isEnabled: isCalcEnabled,
     isSetupFinished,
   }

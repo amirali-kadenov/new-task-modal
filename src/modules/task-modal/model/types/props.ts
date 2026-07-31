@@ -15,6 +15,7 @@ export interface TaskModalProps {
   hostProps: TaskModalHostProps
   actions: TaskModalActions
   closeModal: () => void
+  renderLegacyTask?: RenderLegacyTask
 }
 
 export interface TaskModalDependencies {
@@ -30,7 +31,19 @@ export interface TaskModalDependencies {
   helpers: TaskModalHelpers
   eventEmitter: EventEmitter
   alert: Alert
+  featureFlags?: {
+    useMentorChatMediaApi?: boolean
+  }
 }
+
+export type RenderLegacyTask = (
+  container: HTMLElement,
+  activeTask: Task,
+  callbacks: {
+    onTaskAnswerChanged: (answer: unknown) => void
+    onTaskDescriptionChanged?: (desc: unknown) => void
+  },
+) => void | (() => void)
 
 interface Alert {
   showError: (error: unknown) => void
