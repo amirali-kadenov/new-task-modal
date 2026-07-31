@@ -1,0 +1,32 @@
+/* Soft Storybook shims — do not override CSS-module button colors/fonts. */
+
+/* Host app (matheducator) strips native <button> borders; Storybook does not. */
+button {
+  border: 0;
+}
+
+.task-modal {
+  box-sizing: border-box;
+  min-height: 700px;
+}
+
+.task-modal *,
+.task-modal *::before,
+.task-modal *::after {
+  box-sizing: border-box;
+}
+
+.task-modal button {
+  margin: 0;
+}
+
+.task-modal .keen-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.task-modal [class='keen-slider__slide'] {
+  width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}

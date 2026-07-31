@@ -1,0 +1,30 @@
+/*
+ * Docs chrome: Storybook MDX paints a border under h2 and a -24px blue gutter
+ * for empty heading anchors. Attribute selectors match `.sbdocs.sbdocs-h*`
+ * specificity without kebab class names (stylelint camelCase rule).
+ */
+h1[class~='sbdocs'][class~='sbdocs-h1'],
+h2[class~='sbdocs'][class~='sbdocs-h2'],
+h3[class~='sbdocs'][class~='sbdocs-h3'] {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+h1[class~='sbdocs'] > a[href^='#'],
+h2[class~='sbdocs'] > a[href^='#'],
+h3[class~='sbdocs'] > a[href^='#'] {
+  display: none;
+}
+
+/*
+ * Prod content.module.scss centers the 375px phone mock (`margin: 0 auto` from sm).
+ * In Storybook that leaves Docs labels / launch links on the left and the card
+ * in the middle — left-align the mock so chrome and content share one edge.
+ * Double class beats the single hashed module class without !important.
+ */
+@media (min-width: 480px) {
+  .task-modal.task-modal {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
