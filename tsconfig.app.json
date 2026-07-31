@@ -27,7 +27,11 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
-      "@scripts/*": ["./scripts/*"]
+      "@scripts/*": ["./scripts/*"],
+      "@stats/*": ["../stats/*"],
+      "@matheducator/StatsPanel": [
+        "../matheducator/reactjs_client/src/common/StatsPanel.jsx"
+      ]
     }
   },
   "include": ["src", "vite-env.d.ts", "figma-mcp-generated"]

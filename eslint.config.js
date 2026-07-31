@@ -160,6 +160,15 @@ export default defineConfig([
     ...tseslint.configs.disableTypeChecked,
   },
 
+  // 🎭 Real Playwright e2e specs — not Testing Library / Vitest, so `page`
+  // isn't a `render()` result and this rule's heuristic misfires.
+  {
+    files: ['e2e/**/*.ts'],
+    rules: {
+      'testing-library/prefer-screen-queries': 'off',
+    },
+  },
+
   // 🗂️ Folder naming conventions for source
   {
     files: ['src/**/!(__tests__)/*'],
