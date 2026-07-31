@@ -1,0 +1,102 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: var(--bg-canvas, #f5f5f5);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 220px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.field select {
+  padding: 6px 10px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.launch {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: flex-end;
+  min-height: 100%;
+  padding-bottom: 2px;
+}
+
+.launchLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  align-items: center;
+  min-height: 34px;
+}
+
+.allStates {
+  padding: 12px 16px 0;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.allStatesHeader {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tab,
+.tabActive {
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.tabActive {
+  color: #1d4ed8;
+  background: #eff6ff;
+  border-color: #2563eb;
+}
+
+.tabHint {
+  margin: 8px 0 12px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #6b7280;
+}
+
+.stage {
+  flex: 1;
+  min-height: 0;
+}

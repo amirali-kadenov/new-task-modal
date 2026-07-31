@@ -1,0 +1,160 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: var(--bg-canvas, #f5f5f5);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 200px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.field select {
+  padding: 6px 10px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.primaryButton {
+  color: #fff;
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.secondaryButton {
+  color: #111827;
+  background: #f3f4f6;
+  border-color: #d1d5db;
+}
+
+.primaryButton:disabled,
+.secondaryButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.runningHint {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b45309;
+}
+
+.results {
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.resultsHeader {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.resultsList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resultItem {
+  margin: 0;
+}
+
+.resultPending,
+.resultPass,
+.resultFail {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.resultPending {
+  color: #6b7280;
+}
+
+.resultPass {
+  color: #15803d;
+}
+
+.resultFail {
+  color: #b91c1c;
+}
+
+.resultLabel {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* `disabled` renders a grey box that ignores accent-color */
+.checkbox {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  margin: 2px 0 0;
+  accent-color: #15803d;
+  pointer-events: none;
+}
+
+.resultFail .checkbox {
+  accent-color: #b91c1c;
+}
+
+.hint {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #6b7280;
+}
+
+.stage {
+  flex: 1;
+  min-height: 0;
+}
