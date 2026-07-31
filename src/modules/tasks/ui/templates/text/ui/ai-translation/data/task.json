@@ -1,0 +1,105 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "with_audio_player": false,
+    "aze": "manat",
+    "kgz": "сом",
+    "uzb": "so'm",
+    "eng": "cents",
+    "rus": "руб",
+    "kaz": "тг",
+    "arjd": "",
+    "arsa": "",
+    "areg": "جنيه",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "letter": "z",
+    "number": 30
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "İfadə tərtib edərək məsələni həll edin.",
+    "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+    "uzb": "Masalani ifoda tuzib yeching.",
+    "eng": "Write an expression for the problem and solve it.",
+    "rus": "Решите задачу, составив выражение.",
+    "kaz": "Есепті өрнек құрып шығарыңыз",
+    "arjd": "",
+    "arsa": "",
+    "areg": "حل المسألة بإنشاء تعبير.",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Bir çobanyastığı çiçəyinin qiyməti \\(z\\) manatdır, qızılgülün qiyməti isə ondan 30 qəpik daha çoxdur.\nBir qızılgülün qiymətini ifadə şəklində yazın.\n",
+      "kgz": "Бир  бархатцынын баасы —  \\(z\\) сом болсо, ал эми  бир розанын баасы  30 сомго кымбат.\nБир розанын баасынын туюнтмасын жазыңыз.\n",
+      "uzb": "Masalani ifoda tuzib yeching.\nBir dona baxmal gulning narxi \\(z\\) so'm, bir dona atirgulning narxi esa undan 30 so'mga qimmat.\nBir atirgulning narxini algebraik ifoda ko'rinishida yozing.\n",
+      "eng": "The price of one velvet flower is \\(z\\) cents, and the price of one rose is 30 cents more.\nWrite the price of one rose as an expression.\n",
+      "rus": "Цена одной бархатцы — \\(z\\) тенге, а одной розы на 30 тенге больше.\n Запишите цену одной розы, в виде выражения.\n",
+      "kaz": "Бір барқытгүлдің бағасы \\(z\\) теңге, ал бір раушангүлдің бағасы одан 30 теңгеге артық.\nБір раушангүлдің бағасын өрнек құрып жазыңыз.\n",
+      "arjd": "",
+      "arsa": "",
+      "areg": "إذا كان سعر زهرة النرجس الواحدة \\(z\\) جنيه، بينما سعر الوردة البلدي الواحدة يزيد عن ذلك بمقدار 30 جنيهًا،\nفاكتب تعبيرًا يمثل سعر الوردة البلدي الواحدة.\n",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_12_17_1",
+  "position": 0,
+  "id": "082ccbad-fbd6-4a79-a497-93a853db48ab",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "z + 30 || 30 + z",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "xPp83WiZ-nU",
+  "videoUrl": "https://youtube.com/embed/xPp83WiZ-nU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/7e63399588058883c231ac2786cbdfc5?p=EflsMSvatsVgpqnbENg-9Q",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/X2-Tb67d9wM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/qfNESy-JnT0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/xPp83WiZ-nU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

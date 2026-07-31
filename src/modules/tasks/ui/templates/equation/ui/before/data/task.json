@@ -1,0 +1,114 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": {
+      "with_audio_player": false,
+      "aze": "\\(x\\) =",
+      "kgz": "\\(x\\) =",
+      "uzb": "\\(x\\) =",
+      "eng": "\\(x\\) =",
+      "rus": "\\(x\\) =",
+      "kaz": "\\(x\\) =",
+      "arjd": "\\(x\\) =",
+      "arsa": "\\(x\\) =",
+      "areg": "\\(x\\) =",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number4": 335,
+    "number3": 7,
+    "number2": 343,
+    "number1": 494
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Tənliyi həll edin.",
+    "kgz": "Теңдемени чыгарыңыз.",
+    "uzb": "Tenglamani yeching.",
+    "eng": "Solve the equation.",
+    "rus": "Решите уравнение.",
+    "kaz": "Теңдеуді шешіңіз.",
+    "arjd": "حل المعادلة التالية:",
+    "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+    "areg": "حل المعادلة التالية",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "content": {
+      "with_audio_player": false,
+      "aze": "494 + x = 343 · 7 + 335",
+      "kgz": "494 + x = 343 · 7 + 335",
+      "uzb": "494 + x = 343 · 7 + 335",
+      "eng": "494 + x = 343 · 7 + 335",
+      "rus": "494 + x = 343 · 7 + 335",
+      "kaz": "494 + x = 343 · 7 + 335",
+      "arjd": "494 + x = 343 · 7 + 335",
+      "arsa": "494 + x = 343 · 7 + 335",
+      "areg": "494 + x = 343 × 7 + 335",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "equation"
+  },
+  "type": "Elixir.Task_4_3_6_1",
+  "position": 0,
+  "id": "dcc2b05f-d2a3-43d8-b796-972b2641eeca",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "2242",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "O106sdzuScQ",
+  "videoUrl": "https://youtube.com/embed/O106sdzuScQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/a3a80bf2a1035e5f0c6b17d7b8258c8f?p=wjaITjy0GQIzy10AeTWKMw",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/1-hWF_N73R0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/1PlQGpzcBbY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/cx2X_4p8fjM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/O106sdzuScQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

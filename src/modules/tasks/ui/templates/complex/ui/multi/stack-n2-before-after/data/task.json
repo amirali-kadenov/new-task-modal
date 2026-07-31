@@ -1,0 +1,395 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input2": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": "R = ",
+        "kgz": "R = ",
+        "uzb": "R = ",
+        "eng": "R = ",
+        "rus": "R = ",
+        "kaz": "R = ",
+        "arjd": "R = ",
+        "arsa": "R = ",
+        "areg": "R = ",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "\\(sm\\)",
+        "kgz": "\\(см\\)",
+        "uzb": "\\(cm\\)",
+        "eng": "\\(cm\\)",
+        "rus": "\\(см\\)",
+        "kaz": "\\(см\\)",
+        "arjd": "cm",
+        "arsa": "سم",
+        "areg": "سم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": "D = ",
+        "kgz": "D = ",
+        "uzb": "D = ",
+        "eng": "D = ",
+        "rus": "D = ",
+        "kaz": "D = ",
+        "arjd": "D = ",
+        "arsa": "D = ",
+        "areg": "D = ",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "\\(sm\\)",
+        "kgz": "\\(см\\)",
+        "uzb": "\\(cm\\)",
+        "eng": "\\(cm\\)",
+        "rus": "\\(см\\)",
+        "kaz": "\\(см\\)",
+        "arjd": "cm",
+        "arsa": "سم",
+        "areg": "سم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": false,
+    "type": 20
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number": 32
+  },
+  "title": null,
+  "description": {
+    "isAnswerCellHidden": false,
+    "isCalculatorClosed": false,
+    "parts": [
+      {
+        "content": {
+          "with_audio_player": false,
+          "aze": "Dairələr eyni ölçüdədir. Bir dairənin radiusunu və diametrini tapın.",
+          "kgz": "Төрт тегерек бирдей өлчөмгө ээ. Бир тегеректин радиусун жана диаметрин табыңыз.",
+          "uzb": "To'rtta aylananing o'lchamlari bir xil. Bitta aylananing radiusi va diametrini toping.",
+          "eng": "Four circles have the same size. Find the radius and diameter of one circle.",
+          "rus": "Четыре круга имеют одинаковый размер. Найдите радиус и диаметр одного круга.",
+          "kaz": "Төрт дөңгелектің өлшемі бірдей. Бір шеңбердің радиусы мен диаметрін анықтаңыз.",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا كانت أبعاد الدوائر الأربعة متساوية، فأوجد نصف القطر والقطر لإحدى الدوائر.",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": 10
+      },
+      {
+        "yAxisLabel": "y",
+        "xAxisLabel": "x",
+        "type": 110,
+        "tickStepYMultiply": 1,
+        "tickStepXMultiply": 1,
+        "tickStep": 1,
+        "stepSize": 30,
+        "startNumber": false,
+        "showCells": false,
+        "showAxis": false,
+        "reduceHeight": 1,
+        "points": [],
+        "notClickableDots": true,
+        "minPosition": -5,
+        "maxPosition": 5,
+        "limitedPoint": 0,
+        "isLine": false,
+        "isFullFilled": false,
+        "isFillingLimitedByAxis": false,
+        "intervals": [],
+        "fillingFunctions": [],
+        "figures": [
+          {
+            "type": 60,
+            "strokeColor": "black",
+            "radius": 2,
+            "innerColor": "transparent",
+            "dashed": false,
+            "centerPoint": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": -2,
+              "letter": "",
+              "y": 2
+            }
+          },
+          {
+            "type": 60,
+            "strokeColor": "black",
+            "radius": 2,
+            "innerColor": "transparent",
+            "dashed": false,
+            "centerPoint": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 2,
+              "letter": "",
+              "y": 2
+            }
+          },
+          {
+            "type": 60,
+            "strokeColor": "black",
+            "radius": 2,
+            "innerColor": "transparent",
+            "dashed": false,
+            "centerPoint": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 2,
+              "letter": "",
+              "y": -2
+            }
+          },
+          {
+            "type": 60,
+            "strokeColor": "black",
+            "radius": 2,
+            "innerColor": "transparent",
+            "dashed": false,
+            "centerPoint": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": -2,
+              "letter": "",
+              "y": -2
+            }
+          },
+          {
+            "type": 50,
+            "showPointsLetter": false,
+            "rotateDegree": 0,
+            "points": [
+              {
+                "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+                "x": -4,
+                "letter": "",
+                "y": 4
+              },
+              {
+                "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+                "x": 4,
+                "letter": "",
+                "y": 4
+              },
+              {
+                "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+                "x": 4,
+                "letter": "",
+                "y": -4
+              },
+              {
+                "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+                "x": -4,
+                "letter": "",
+                "y": -4
+              }
+            ],
+            "fill": "transparent",
+            "borderColor": "black"
+          },
+          {
+            "type": 80,
+            "point2": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 5,
+              "letter": "",
+              "y": 4
+            },
+            "point1": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 5,
+              "letter": "",
+              "y": 1
+            },
+            "label": "",
+            "dotRadius": 3,
+            "dashed": false,
+            "color": "black"
+          },
+          {
+            "type": 80,
+            "point2": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 5,
+              "letter": "",
+              "y": -4
+            },
+            "point1": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 5,
+              "letter": "",
+              "y": -1
+            },
+            "label": "",
+            "dotRadius": 3,
+            "dashed": false,
+            "color": "black"
+          },
+          {
+            "y": 0,
+            "x": 5,
+            "type": 100,
+            "textAnchor": null,
+            "text": {
+              "with_audio_player": false,
+              "aze": "32 sm",
+              "kgz": "32 см",
+              "uzb": "32 cm",
+              "eng": "32 cm",
+              "rus": "32 см",
+              "kaz": "32 см",
+              "arjd": "32 cm",
+              "arsa": "32 سم",
+              "areg": "32 سم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "isLatex": false,
+            "fontWeight": null,
+            "fontSize": 18,
+            "dominantBaseline": null,
+            "degree": 0
+          },
+          {
+            "type": 80,
+            "point2": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": -4,
+              "letter": "",
+              "y": -5
+            },
+            "point1": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": -1,
+              "letter": "",
+              "y": -5
+            },
+            "label": "",
+            "dotRadius": 3,
+            "dashed": false,
+            "color": "black"
+          },
+          {
+            "type": 80,
+            "point2": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 4,
+              "letter": "",
+              "y": -5
+            },
+            "point1": {
+              "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
+              "x": 1,
+              "letter": "",
+              "y": -5
+            },
+            "label": "",
+            "dotRadius": 3,
+            "dashed": false,
+            "color": "black"
+          },
+          {
+            "y": -5,
+            "x": 0,
+            "type": 100,
+            "textAnchor": null,
+            "text": {
+              "with_audio_player": false,
+              "aze": "32 sm",
+              "kgz": "32 см",
+              "uzb": "32 cm",
+              "eng": "32 cm",
+              "rus": "32 см",
+              "kaz": "32 см",
+              "arjd": "32 cm",
+              "arsa": "32 سم",
+              "areg": "32 سم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "isLatex": false,
+            "fontWeight": null,
+            "fontSize": 18,
+            "dominantBaseline": null,
+            "degree": 0
+          }
+        ],
+        "drawingFigure": 0,
+        "displayedNumbers": [],
+        "disabledPoints": [],
+        "canFill": false,
+        "canDrawMultipleFigures": false,
+        "allowedFigures": []
+      }
+    ],
+    "type": "complex"
+  },
+  "type": "Elixir.Task_4_7_18_8",
+  "position": 7,
+  "id": "7f30c5e8-f659-48c8-abdd-6e77785a939b",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "16;;8",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "rJpkpF1nR3o",
+  "videoUrl": "https://youtube.com/embed/rJpkpF1nR3o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/5cf2922ec6a91f8398ce602e4d9bfc4c?p=gmDf069spbD9wbKKZrzXmA",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/-Zh7w8suBaY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/-Ol3VV6poYs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/rJpkpF1nR3o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

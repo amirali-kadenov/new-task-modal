@@ -1,0 +1,53 @@
+{
+  "text": [
+    "text.plain",
+    "text.before",
+    "text.after",
+    "text.beforeAfter",
+    "text.aiTranslation",
+    "text.multi.stack.n2.before",
+    "text.multi.stack.n2.after",
+    "text.multi.stack.n2.beforeAfter",
+    "text.multi.stack.n3.before",
+    "text.multi.stack.n3.beforeAfter",
+    "text.multi.stack.n4.after",
+    "text.multi.stack.n5.after",
+    "text.multi.inline.n2.after",
+    "text.multi.inline.n3.beforeAfter",
+    "text.multi.inline.n5.after"
+  ],
+  "columnOperation": [
+    "columnOperation.plain",
+    "columnOperation.multi.stack.n2.before"
+  ],
+  "table": [
+    "table.plain",
+    "table.grid",
+    "table.inline",
+    "table.list",
+    "table.mixed",
+    "table.multiRow",
+    "table.multiRowSvg"
+  ],
+  "formula": [
+    "formula.plain",
+    "formula.after",
+    "formula.multi.stack.n2.before"
+  ],
+  "complex": [
+    "complex.plain",
+    "complex.after",
+    "complex.beforeAfter",
+    "complex.multi.stack.n2.after",
+    "complex.multi.stack.n2.beforeAfter"
+  ],
+  "answerCell": [
+    "answerCell.plain",
+    "answerCell.after",
+    "answerCell.multi.inline.n2.plain",
+    "answerCell.multi.stack.n2.plain"
+  ],
+  "comparison": ["comparison.plain"],
+  "test": ["test.plain"],
+  "equation": ["equation.before"]
+}

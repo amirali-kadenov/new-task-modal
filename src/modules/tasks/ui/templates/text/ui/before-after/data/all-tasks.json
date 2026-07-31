@@ -1,0 +1,505 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_10_1_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 2
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(günə\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(күніне\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": " ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": {
+              "with_audio_player": false,
+              "aze": "\\(köynək\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(shirt/day\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(көйлек\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": " ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 36,
+            "number1": 6
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Dərzi 6 günə 36 köynək tikir. Dərzinin məhsuldarlığı nə qədərdir?",
+              "kgz": "Тиүүчү 6 күндө 36 көйнөк тигет. Тигүүчүнүн жумушунун өндүрүмдүүлүгү канчага барабар?",
+              "uzb": "Tikuvchi 6 kunda 36 ta libos tikadi. Tikuvchining unumdorligi qanday?",
+              "eng": "The tailor sews 36 shirts in 6 days. What is the productivity of a tailor?",
+              "rus": "Портной шьет 36 рубашек за 6 дней. Чему равна производительность портного?",
+              "kaz": "Тігінші 6 күнде 36 көйлек тігеді. Тігіншінің өнімділігі қандай?",
+              "arjd": "",
+              "arsa": "",
+              "areg": "إذا كان الخياط يخيط 36 قميصًا في 6 أيام، فكم إنتاجيته في اليوم الواحد؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_1_3",
+          "position": 2,
+          "id": "1b6de3d9-2748-48c7-913e-d58291dc7ec9",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "6",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "gWQFJRQgoss",
+          "videoUrl": "https://youtube.com/embed/gWQFJRQgoss?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0e60eb9bd539f867a32ffcae4116d996?p=-vTFBbj9-WWmjnTcdVq2Lg",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/FA_bAdwXvIc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/VHEtCzMk-KA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/gWQFJRQgoss?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_56"
+      },
+      {
+        "id": "4_10_1_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 3
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(saatda\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(сағатына\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": "لكل ساعة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": {
+              "with_audio_player": false,
+              "aze": "\\(detal\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(parts/hour\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(бөлшек\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": "قطعة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 3,
+            "number1": 42
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Ustanın şagirdi 3 saat işləyib 42 detal hazırlayıb. O, hansı məhsuldarlıqla işləyib?\n",
+              "kgz": "Устаттын шакирти 3 саат иштеп, 42 тетик жасаган. Ал  кандай өндүрүмдүүлүк менен иштеген?\n",
+              "uzb": "Ustaning shogirdi 3 soat ishlab, 42 detal yasadi. U qanday unumdorlik bilan ishlagan?\n",
+              "eng": "A mechanic's apprentice works for 3 hours and makes 42 parts. What is his productivity?\n",
+              "rus": "Ученик мастера работал 3 часа и сделал 42 детали. С какой производительностью он работал?\n",
+              "kaz": "Шебердің шәкірті 3 сағат жұмыс істеп, 42 бөлшек жасады. Ол қандай өнімділікпен жұмыс жасаған?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "إذا كان مساعد الخياط يخيط 42 قميصًا في 3 ساعات، فكم تبلغ إنتاجيته في الساعة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_1_4",
+          "position": 3,
+          "id": "dd03638a-d7af-4fd0-b562-5a0aa3cd7e9d",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "14",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "u12DlHaVtao",
+          "videoUrl": "https://youtube.com/embed/u12DlHaVtao?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/2e5c5e796bb4955fb7d8be18db23a5c5?p=GnVkzQadZCeRPB8a4QuxhQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/U_bp1EUaiJo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/Kj1keAoxB_s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/u12DlHaVtao?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_56"
+      },
+      {
+        "id": "4_10_1_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(dəqiqəyə\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(минутына\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": " ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": {
+              "with_audio_player": false,
+              "aze": "\\(kitab\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(books \\ per \\ minute\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(кітап\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": "كتابا / دقيقة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number4": 28,
+            "number3": 364,
+            "number2": 17,
+            "number1": 102
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Mətbəədə dərslikləri iki avtomat qablaşdırır. Avtomatlardan biri 17 dəqiqəyə 102 kitab qablaşdırır.\nİkinci maşın 28 dəqiqəyə 364 kitab qablaşdırır. Daha sürətli işləyən avtomatın məhsuldarlığı nə qədərdir?\n",
+              "kgz": "Басмаканада окуу китептерди эки машина менен таңгакташат. Машиналардын бири 102 китепти 17 мүнөттө таңгактайт.\nЭкинчиси 364 мүнөттө 28 китепти таңгактайт.\nТез иштеген машинанын өндүрүмдүүлүгү кандай?\n",
+              "uzb": "Bosmaxonada ikkita avtomatik mashina darsliklarni chop etdi.\nMashinalardan biri 102 ta kitobni 17 minutda chop etadi.\nIkkinchi mashina 364 ta kitobni 28 minutda chop etadi.\nMashinaning ikkinchi tezroq chop etadigan mashinaning unumdorligi qanday?\n",
+              "eng": "In the printing house, textbooks are packed by two vending machines. One of the vending machines packs 102 books in 17 minutes.\nThe second machine packs 364 books in 28 minutes. What is the performance of the machine that works faster?\n\n",
+              "rus": "В типографии два автоматических станка оборачивают учебники. Один автомат оборачивает 102 книги за 17 минут.\nВторая машина оборачивает 364 книги за 28 минут. Какова производительность более быстрого автомата?\n",
+              "kaz": "Баспаханада екі автоматты мәшине оқулықтарды орады. Автоматтардың біреуі жүктелген 102 кітапты 17 минут ішінде орады.\nЕкінші автомат жүктелген 364 кітапты 28 минутта орады. Екі автоматтың ішінен жылдамырақ істейтін автоматтың өнімділігі нешеге тең?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "في المطبعة آلتان لتغليف الكتب. إذا كانت الآلة الأولى تغلّف 102 كتاب في 17 دقيقة،\nبينما تغلّف الآلة الثانية 364 كتابًا في 28 دقيقة، فأيهما أسرع إنتاجية؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_1_8",
+          "position": 7,
+          "id": "454e698b-fe28-4c69-8153-75a3816a88d5",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "13",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "UtnTFNZGnKI",
+          "videoUrl": "https://youtube.com/embed/UtnTFNZGnKI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/69c47bfeee81d3379aefc1d79cf103a2?p=StbR1cw0nIDKG66FSWdsqQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/EidT6qXkQzI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/IAGqOkhc8S4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/UtnTFNZGnKI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_73"
+      },
+      {
+        "id": "4_10_2_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 1
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(\\)",
+              "kgz": "\\(саат\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(сағатына\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ساعة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": {
+              "with_audio_player": false,
+              "aze": "\\(ha/saat\\)",
+              "kgz": "\\(\\)",
+              "uzb": "\\(\\)",
+              "eng": "\\(hectares \\ per \\ hour\\)",
+              "rus": "\\(\\)",
+              "kaz": "\\(га\\)",
+              "arjd": "",
+              "arsa": "",
+              "areg": "فدانًا",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 8,
+            "number2": 18,
+            "number1": 288
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Birinci traktor 288 hektar torpaq sahəsini 18 saata şumlayır. İkinci traktor bu torpağı 8 saat ərzində şumlayır.\nİki traktorun birgə işlədiyi zaman məhsuldarlığı nə qədərdir?\n",
+              "kgz": "Биринчи трактор 288 гектар жерди 18 саатта айдайт.\nАл эми экинчи трактор бул жерди 8 саатта айдайт. Эки трактор бирге иштегенде алардын өндүрүмдүүлүгү кандай болот?\n",
+              "uzb": "Birinchi traktor 288 gektar 18 soat yerni haydaydi.\nIkkinchi traktor esa huddi shu gektarni 8 soatda tugatadi. Ikki traktor birgalikda ishlagandagi unumdorligini toping?\n",
+              "eng": "The first tractor plows 288 hectares of land in 18 hours.\nThe second tractor plows the same land in 8 hours. What is the combined performance of the two tractors?\n",
+              "rus": "Первый трактор вспахивает участок площадью 288 га земли за 18 часов.\nА второй трактор вспашет этот же участок за 8 часов. Какова совместная производительность двух тракторов?\n",
+              "kaz": "Бірінші трактор 288 га жер алқабын 18 сағатта жыртып бітіреді.\nАл екінші трактор сол алқабты 8 сағатта бітіреді. Екі трактордың бірлескен кездегі еңбек өнімділігі қандай?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "إذا كان في المزرعة جراران، يحرث الجرار الأول 288 هكتار من الأرض في 18 ساعة، بينما يحرث الجرار الثاني نفس المساحة من الأرض في 8 ساعات، فما هي إنتاجية الجرارين في حالة العمل معًا في نفس الوقت؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_2_2",
+          "position": 1,
+          "id": "fce19cea-7dfe-46e4-b232-f16738ddae4d",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "52",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "WhlNPS1HGns",
+          "videoUrl": "https://youtube.com/embed/WhlNPS1HGns?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/5b23ee60b493c5ef80a68842e4744206?p=jOFuti4aWeMM_fWvb4DB8Q",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/nr8ErM6BEmk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/ZiBcRo59n-Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/WhlNPS1HGns?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_74"
+      }
+    ]
+  }
+}

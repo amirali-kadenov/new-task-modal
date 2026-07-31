@@ -7,6 +7,7 @@ import {
   generateModuleTemplateMap,
   type ModuleTemplateMap,
 } from './generate-module-template-map'
+import { getTaskTypeKey } from './get-task-type-key'
 
 type TemplateCache = Map<string, LazyExoticComponent<TemplateType>>
 
@@ -21,12 +22,9 @@ void (async () => {
 export const getTaskComponent = (activeTask: Task | null) => {
   if (!activeTask || !map) return null
 
-  const match = activeTask.type.match(/Elixir\.Task_(\d+)_(\d+)_(\d+)/)
+  const key = getTaskTypeKey(activeTask.type)
 
-  if (!match) return null
-
-  const [, grade, chapter, task] = match
-  const key = `${grade}_${chapter}_${task}`
+  if (!key) return null
 
   if (cache.has(key)) {
     return cache.get(key)!
@@ -35,7 +33,8 @@ export const getTaskComponent = (activeTask: Task | null) => {
   const loader = map.get(key)
 
   if (!loader) {
-    throw new Error(`Type not found for task ${task} in chapter ${chapter}`)
+    console.log(`Type not found for task key ${key}`)
+    return null
   }
 
   const component = lazy(loader)

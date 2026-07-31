@@ -1,0 +1,102 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": {
+      "with_audio_player": false,
+      "aze": "l",
+      "kgz": "л",
+      "uzb": "l",
+      "eng": "L",
+      "rus": "л",
+      "kaz": "л",
+      "arjd": "L",
+      "arsa": "",
+      "areg": "لتر",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number3": 2,
+    "number2": 11094,
+    "number1": 99946
+  },
+  "title": null,
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Dəvə bir həftə ərzində 11094 litr su içir. Dəvə 2 həftə su içsə, 99946 litr sudan nə qədər su qalar?\n",
+      "kgz": "Төө бир жумада 11094 литр суу иче алат. Эгерде төө 2 жума суу ичсе, 99946  литр суудан канча литр суу калат?\n",
+      "uzb": "Tuya bir haftada 11094 litr suv ichadi. Tuya suvni 2 hafta davomida ichsa, 99946 l suvdan qancha qoladi?\n",
+      "eng": "A camel can drink 11094 litres of water in a week.\nHow many litres of water are left from 99946 litres of water if the camel drinks water for 2 weeks?\n",
+      "rus": "Верблюд может выпить 11094 л воды за неделю.\nСколько литров воды останется из 99946 л, если верблюд будет пить воду в течение 2 недели?\n",
+      "kaz": "Түйе бір аптада 11094 литр су іше алады.\nТүйе суды 2 апта бойы ішсе, 99946 л судан неше литр су артылып қалады?\n",
+      "arjd": "",
+      "arsa": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًالترًا؟\n",
+      "areg": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًا؟\n",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_2_36",
+  "position": 15,
+  "id": "4c36c5f6-b69b-4ff2-af2a-58e7ec9a233c",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "77758",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "e4mRJLEhKes",
+  "videoUrl": "https://youtube.com/embed/e4mRJLEhKes?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/7853ba8222fa0da97d425c8bd5c765e1?p=iQ2uC4uyY3QEt1dOVFR9Cg",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/vHxMDDtIgu0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/gNN0YZM6zYo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/fkkQOdcRy7A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/e4mRJLEhKes?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

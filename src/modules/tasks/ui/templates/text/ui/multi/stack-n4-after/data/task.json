@@ -1,0 +1,175 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input4": {
+      "svg": "",
+      "before": "",
+      "after": {
+        "with_audio_player": false,
+        "aze": "kq",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "kg",
+        "arsa": "كغم",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input3": {
+      "svg": "",
+      "before": "",
+      "after": {
+        "with_audio_player": false,
+        "aze": "kq",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "kg",
+        "arsa": "كغم",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input2": {
+      "svg": "",
+      "before": "",
+      "after": {
+        "with_audio_player": false,
+        "aze": "kq",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "kg",
+        "arsa": "كغم",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": "",
+      "after": {
+        "with_audio_player": false,
+        "aze": "kq",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "kg",
+        "arsa": "كغم",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": false,
+    "type": 40
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "list": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11
+    ]
+  },
+  "title": null,
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Bağdan çəkisi 3 kq, 4 kq, 5 kq, 6 kq, 7 kq, 8 kq və 11 kq olan 7 balqabaq yığıldı.\nBalqabaqları 4 səbətə elə yerləşdirin ki, səbətlərin çəkisi eyni olsun. (Səbətdə bir neçə balqabaq olduqda, kütlələri nöqtəli vergüllə göstərin).\n",
+      "kgz": "Бакчадан 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 8 кг, 11 салмактагы 7 ашкабак жыйналды.\nАшкабактар ар бир себеттин массасы бирдей​​ болгондой кылып, 4 себетке бөлүнүп салынды.\nЭгерде ар бири себеттин массасы бирдей болсо, анда бул ашкабактарды ар бир себетке салыңыз. (Себеттеги ашкабактардын массаларын үтүрлүү чекит менен көрсөтүңүз)\n",
+      "uzb": "Bog'dan og'irligi 3 kg, 4 kg, 5 kg, 6 kg, 7 kg, 8 kg va 11 kg bo'lgan 7 ta qovoq olindi. Qovoqlar savatlarning og'irligi bir xil bo'ladigandek, 4 ta savatga bo'linib solindi. Agar savatlarning og'irligi bir xil bo'lsa, u holda bu qovoqlarni har bir savatga joylashtiring. (Savatda bir nechta qovoq bo'lgan holda,og'irliklarini nuqtali vergul bilan ko'rsating)\n",
+      "eng": "7 pumpkins weighing 3 kg, 4 kg, 5 kg, 6 kg, 7 kg, 8 kg, and 11 kg are collected from the garden.\nHow can the pumpkins be divided into 4 baskets so that the mass of each basket is the same?\n(If there is more than one pumpkin in a basket, indicate the weights with a semicolon.)\n",
+      "rus": "С огорода собрали 7 тыкв весом 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 8 кг и 11 кг.\nКак можно распределить эти тыквы по 4 корзинам так, чтобы вес корзин был одинаковым?\n(Если в корзине несколько тыкв, укажите их вес через точку с запятой)\n",
+      "kaz": "Бақшадан массалары 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 8 кг, 11 кг болатын 7 асқабақ жинап алынды.\nСебеттердің массалары бірдей болатындай етіп асқабақтарды 4 себетке қалай бөліп салуға болады?\n(Себетте бірнеше асқабақтар болған жағдайда, массаларын нүктелі үтірмен көрсетіңіз)\n",
+      "arjd": "",
+      "arsa": "",
+      "areg": "إذا جمع الجد من الحقل 7 ثمار يقطين (قرع عسلي) بأوزان 3 كجم، 4 كجم، 5 كجم، 6 كجم، 7 كجم، 8 كجم، و11 كجم،\nفكيف يمكن تقسيم ثمار القرع على 4 سلال بحيث تكون كتلها متساوية؟\n(إذا كان في السلة الواحدة أكثر من ثمرة قرع فاستخدام الفاصلة المنقوطة للإشارة إلى الأوزان).\n",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_6_12_12",
+  "position": 11,
+  "id": "3505bb12-f5a5-4806-b7a2-0a366e491e79",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "3;8;;4;7;;5;6;;11",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "QOl7UsEDg08",
+  "videoUrl": "https://youtube.com/embed/QOl7UsEDg08?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/e521b77457c9cf736d57f2070ce3b617?p=SwKiTl4_AQY01R9f33AINw",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/nllZ4LWw8Dk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/nqybtaYsW8Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/QOl7UsEDg08?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

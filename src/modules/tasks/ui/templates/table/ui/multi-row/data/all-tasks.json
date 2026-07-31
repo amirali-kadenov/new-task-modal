@@ -1,0 +1,296 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_10_9_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 15
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number5": 41,
+            "number6": 533,
+            "number4": 310,
+            "number3": 62,
+            "number2": 16,
+            "number1": 29
+          },
+          "title": null,
+          "description": {
+            "isTableReversed": false,
+            "isTableFlip": false,
+            "isCentered": true,
+            "answerCellWithComparison": false,
+            "isAnswerCellHidden": true,
+            "imageBefore": "",
+            "isCalculatorClosed": false,
+            "withAudio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Cədvəldə boş yerləri doldurun.",
+              "kgz": "Таблицадагы бош орундарды толтуруңуз.",
+              "uzb": "Jadvaldagi bo'sh katakchalarni to'ldiring.",
+              "eng": "fill in the empty spaces in the table",
+              "rus": "Заполните пустые места в таблице.",
+              "kaz": "Кестедегі бос орындарды толтырыңыз. ",
+              "arjd": "",
+              "arsa": "",
+              "areg": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "table",
+            "table": {
+              "width": "100%",
+              "type": 120,
+              "tableAlign": "center",
+              "rows": [
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    {
+                      "with_audio_player": false,
+                      "aze": "Əkin bitkisi",
+                      "kgz": "Маданий түшүм",
+                      "uzb": "Yetishtirilgan hosil",
+                      "eng": "Cultivated crop",
+                      "rus": "Выращиваемая культура",
+                      "kaz": "Өсірілетін дақыл",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    {
+                      "with_audio_player": false,
+                      "aze": "Məhsuldarlıq\\(\\\\\\)(\\(m\\)) (s/ha)",
+                      "kgz": "Өндүрүмдүүлүк\\(\\\\\\)(\\(m\\)) (ц/га)",
+                      "uzb": "Hosildorlik\\(\\\\\\)(\\(m\\)) (q/ga)",
+                      "eng": "Yield\\(\\\\\\)(\\(m\\)) (qtl/he)",
+                      "rus": "Урожайность\\(\\\\\\)(\\(m\\)) (ц/га)",
+                      "kaz": "Түсімділік\\(\\\\\\)(\\(m\\)) (ц/га)",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    {
+                      "with_audio_player": false,
+                      "aze": "Əkin sahəsi\\(\\\\\\)(\\(S\\)) (ha)",
+                      "kgz": "Өсүү аянты\\(\\\\\\)(\\(S\\)) (га)",
+                      "uzb": "Hosil maydoni\\(\\\\\\)(\\(S\\)) (ga)",
+                      "eng": "Growing area\\(\\\\\\)(\\(S\\)) (he)",
+                      "rus": "Площадь выращивания\\(\\\\\\)(\\(S\\)) (га)",
+                      "kaz": "Егістік ауданы\\(\\\\\\)(\\(S\\)) (га)",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    {
+                      "with_audio_player": false,
+                      "aze": "Ümumi məhsul kütləsi\\(\\\\\\)(\\(M\\)) (s)",
+                      "kgz": "Жалпы масса\\(\\\\\\)(\\(M\\)) (ц)",
+                      "uzb": "Hosilning umumiy vazni\\(\\\\\\)(\\(M\\)) (q)",
+                      "eng": "Total crop weight\\(\\\\\\)(\\(M\\)) (qtl)",
+                      "rus": "Общая масса уражая\\(\\\\\\)(\\(M\\)) (ц)",
+                      "kaz": "Түсімнің жалпы масссасы\\(\\\\\\)(\\(M\\)) (ц)",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    {
+                      "with_audio_player": false,
+                      "aze": "Arpa",
+                      "kgz": "Арпа",
+                      "uzb": "Arpa",
+                      "eng": "Barley",
+                      "rus": "Ячмень",
+                      "kaz": "Арпа",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "29",
+                    "16",
+                    "answercell"
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    {
+                      "with_audio_player": false,
+                      "aze": "Buğda",
+                      "kgz": "Буудай",
+                      "uzb": "Bug'doy",
+                      "eng": "Wheat",
+                      "rus": "Пшеница",
+                      "kaz": "Бидай",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    {
+                      "with_audio_player": false,
+                      "aze": "62",
+                      "kgz": "62",
+                      "uzb": "62",
+                      "eng": "",
+                      "rus": "62",
+                      "kaz": "62",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    "310"
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    {
+                      "with_audio_player": false,
+                      "aze": "Darı",
+                      "kgz": "Таруу",
+                      "uzb": "Tariq",
+                      "eng": "Millet",
+                      "rus": "Просо",
+                      "kaz": "Тары",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    "41",
+                    "533"
+                  ],
+                  "width": null
+                }
+              ],
+              "removePadding": false,
+              "removeBorders": false,
+              "padding": null,
+              "marginBottom": null,
+              "isAnswerCellHidden": true,
+              "columnHeaders": [],
+              "columnAlign": "center",
+              "bottomVarticalAlign": false,
+              "border": ""
+            }
+          },
+          "type": "Elixir.Task_4_10_9_9",
+          "position": 7,
+          "id": "8e82bb98-8b79-444a-a6b8-1af24351c07e",
+          "solution": {
+            "type": "table",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "464;;5;;13",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "LaENZ1ploZw",
+          "videoUrl": "https://youtube.com/embed/LaENZ1ploZw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/727fe1a2b8d6b263191669869297a5a4?p=tjvOESdHHMgio4TdV8uLzw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/NyFpPcgtAhE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/Xh8Olhh7Mb4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/LaENZ1ploZw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "table_15"
+      }
+    ]
+  }
+}

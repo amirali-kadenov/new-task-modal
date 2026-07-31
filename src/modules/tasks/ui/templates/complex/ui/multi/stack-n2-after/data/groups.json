@@ -1,0 +1,167 @@
+[
+  {
+    "group": "complex_21",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "133",
+      "lessonId": "2260",
+      "taskIndex": 13
+    },
+    "tasks": [
+      {
+        "id": "4_7_18_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2260",
+          "taskIndex": 13
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": {
+            "with_audio_player": false,
+            "aze": "sm",
+            "kgz": "см",
+            "uzb": "cm",
+            "eng": "cm",
+            "rus": "см",
+            "kaz": "см",
+            "arjd": "cm",
+            "arsa": "سم",
+            "areg": "سم",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": {
+            "with_audio_player": false,
+            "aze": "sm",
+            "kgz": "см",
+            "uzb": "cm",
+            "eng": "cm",
+            "rus": "см",
+            "kaz": "см",
+            "arjd": "cm",
+            "arsa": "سم",
+            "areg": "سم",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 40,
+        "number1": 9
+      },
+      "title": null,
+      "description": {
+        "isAnswerCellHidden": false,
+        "isCalculatorClosed": false,
+        "parts": [
+          {
+            "content": {
+              "with_audio_player": false,
+              "aze": "Məlumdur ki, iki çevrənin mərkəzləri A və B-dir, mərkəzlər arasındakı məsafə 9 sm-dir və bir çevrənin radiusu 40 mm-dir.\nOnda hər bir çevrənin diametrini tapın.\n",
+              "kgz": "Эгерде эки тегеректин борборлору А жана В , борборлордун ортосундагы аралык  9 см ,\nал эми бир тегеректин радиусу 40 мм экени белгилүү болсо, анда ар бир тегеректин диаметрин табыңыз.\n",
+              "uzb": "Markazlari A va B nuqtalarda bo'lgan, ikkita aylana markazlari orasidagi masofa 9 cm,\nva bir aylananing radiusi 40 mm ekanligi ma'lum bo'lsa, har aylananing diametrini toping.\n",
+              "eng": "If it is known that the centres of two circles are A and B, the distance between the centres is 9\ncm and the radius of one circle is 40 mm, find the diameter of each circle.\n",
+              "rus": "Если известно, что центры двух окружностей — А и В, расстояние между центрами — 9 см,\nа радиус одной окружности — 40 мм, то найдите диаметр каждой окружности.\n",
+              "kaz": "Центрлері А және В нүктелері болатын, екі шеңбер центрлерінің ара қашықтығы 9 см,\nжәне бір шеңбердің радиусы 40 мм екені белгілі болса,\nонда әр шеңбердің диаметрін табыңдар.\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "لدينا دائرتان المسافة بين مركزيهما 9  سم.\nإذا كانت النقطتان A وB تمثلان مركزي الدائرتين، وكان نصف قطر إحدى الدائرتين 40 مم، فأوجد قطر كل دائرة.\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": 10
+          },
+          {
+            "with_number": "",
+            "repeat_quantity": 1,
+            "manually_set_size": false,
+            "is_wrap_content": false,
+            "countable": false,
+            "is_vertical": false,
+            "background_image": null,
+            "content": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"266.46px\" height=\"154px\" viewBox=\"0 0 266.46 154\" style=\"enable-background:new 0 0 266.46 154;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{font-family:'SourceSansPro-It';}\n.st3{font-size:16.4757px;}\n</style>\n<circle class=\"st0\" cx=\"76.09\" cy=\"77\" r=\"50\"/>\n<circle class=\"st0\" cx=\"191.59\" cy=\"76.86\" r=\"65\"/>\n<line class=\"st1\" x1=\"78.59\" y1=\"76.86\" x2=\"126.01\" y2=\"76.86\"/>\n<text transform=\"matrix(1 0 0 1 67.2832 71.9142)\" class=\"st2 st3\">A</text>\n<text transform=\"matrix(1 0 0 1 179.5712 72.7714)\" class=\"st2 st3\">B</text>\n<line class=\"st1\" x1=\"127.15\" y1=\"76.86\" x2=\"191.09\" y2=\"76.86\"/>\n<circle cx=\"76.09\" cy=\"76.86\" r=\"2.5\"/>\n<circle cx=\"191.59\" cy=\"76.86\" r=\"2.5\"/>\n</svg>\n",
+            "type": 160,
+            "size": 50
+          }
+        ],
+        "type": "complex"
+      },
+      "type": "Elixir.Task_4_7_18_16",
+      "position": 13,
+      "id": "60722bac-3564-41ff-b0fc-9254ed45f26d",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "8;;10",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "DUsjbGGfI9M",
+      "videoUrl": "https://youtube.com/embed/DUsjbGGfI9M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/056bf9a11fa845efed0b4dfc73a3cc00?p=Oo1nSW-llNPmVgWSDkACoA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/9YEVKQrK7i4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/mn0AKJWpf4Y?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/DUsjbGGfI9M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

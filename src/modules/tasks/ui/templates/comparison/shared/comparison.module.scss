@@ -1,0 +1,99 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable declaration-no-important */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.textBefore,
+.textAfter {
+  display: block;
+  text-align: center;
+}
+
+.imageBefore,
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+
+  :global(svg) {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.side {
+  flex-shrink: 0;
+  white-space: nowrap;
+
+  /* CHTML italic letters / Cyrillic utext — units must stay upright. */
+  :global(.mjx-i),
+  :global(.TEX-I) {
+    font-family: var(--font-halvar) !important;
+    font-style: normal !important;
+  }
+
+  :global(mjx-utext) {
+    font-family: var(--font-halvar) !important;
+    font-style: normal !important;
+  }
+}
+
+.svgSide {
+  display: inline-flex;
+  align-items: center;
+}
+
+.answerBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px !important;
+  height: 64px !important;
+  min-height: 64px !important;
+  font-size: 24px;
+  background: var(--bg-surface);
+  border: 2px solid var(--border-default);
+  border-radius: 8px;
+
+  :global(.mq-editable-field) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  :global(.mq-root-block) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.answerFormula {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}

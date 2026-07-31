@@ -1,0 +1,202 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 15
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number2": 72771,
+    "number1": 3381
+  },
+  "title": null,
+  "description": {
+    "isTableReversed": false,
+    "isTableFlip": false,
+    "isCentered": true,
+    "answerCellWithComparison": false,
+    "isAnswerCellHidden": true,
+    "imageBefore": "",
+    "isCalculatorClosed": false,
+    "withAudio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Məchul toplananı tapın.",
+      "kgz": "Белгисиз кошулуучуну табыңыз.",
+      "uzb": "Noma'lum qo‘shiluvchini toping.",
+      "eng": "Find the unknown addend.",
+      "rus": "Найдите неизвестное слагаемое.",
+      "kaz": "Белгісіз қосылғышты табыңыз.",
+      "arjd": "أوجد قيمة العدد المجهول في المعادلة.",
+      "arsa": "أوجد قيمة العدد المجهول في المعادلة.",
+      "areg": "أوجد قيمة العدد المجهول في الجدول.",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "table",
+    "table": {
+      "width": "100%",
+      "type": 120,
+      "tableAlign": "center",
+      "rows": [
+        {
+          "rowspan_list": [],
+          "rowspan_at": 0,
+          "rowspan": 1,
+          "colspan_list": [],
+          "colspan_at": 0,
+          "colspan": 1,
+          "border_bottom": null,
+          "cells": [
+            {
+              "with_audio_player": false,
+              "aze": "Birinci toplanan",
+              "kgz": "Биринчи кошулуучу",
+              "uzb": "Birinchi qo'shiluvchi",
+              "eng": "First addend",
+              "rus": "Первое слагаемое",
+              "kaz": "Бірінші қосылғыш",
+              "arjd": "",
+              "arsa": "",
+              "areg": "العدد الأول",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            {
+              "with_audio_player": false,
+              "aze": "İkinci toplanan",
+              "kgz": "Экинчи кошулуучу",
+              "uzb": "Ikkinchi qo'shiluvchi",
+              "eng": "Second addend",
+              "rus": "Второе слагаемое",
+              "kaz": "Екінші қосылғыш",
+              "arjd": "",
+              "arsa": "",
+              "areg": "العدد الثاني",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            {
+              "with_audio_player": false,
+              "aze": "Cəm",
+              "kgz": "Сумманын мааниси",
+              "uzb": "Yig'indining qiymati",
+              "eng": "Value of Sum",
+              "rus": "Значение суммы",
+              "kaz": "Қосындының мәні",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ناتج الجمع ",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          ],
+          "width": null
+        },
+        {
+          "rowspan_list": [],
+          "rowspan_at": 0,
+          "rowspan": 1,
+          "colspan_list": [],
+          "colspan_at": 0,
+          "colspan": 1,
+          "border_bottom": null,
+          "cells": [
+            {
+              "with_audio_player": false,
+              "aze": "3381",
+              "kgz": "3381",
+              "uzb": "3381",
+              "eng": "3381",
+              "rus": "3381",
+              "kaz": "3381",
+              "arjd": "3381",
+              "arsa": "3381",
+              "areg": "3381",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "answercell",
+            {
+              "with_audio_player": false,
+              "aze": "72771",
+              "kgz": "72771",
+              "uzb": "72771",
+              "eng": "72771",
+              "rus": "72771",
+              "kaz": "72771",
+              "arjd": "72771",
+              "arsa": "72771",
+              "areg": "72771",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          ],
+          "width": null
+        }
+      ],
+      "removePadding": false,
+      "removeBorders": false,
+      "padding": null,
+      "marginBottom": null,
+      "isAnswerCellHidden": true,
+      "columnHeaders": [],
+      "columnAlign": "center",
+      "bottomVarticalAlign": false,
+      "border": ""
+    }
+  },
+  "type": "Elixir.Task_4_3_5_1",
+  "position": 0,
+  "id": "74acac3f-89f6-40b6-85e5-17d94233af07",
+  "solution": {
+    "type": "table",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "69390",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "w7WuNw96UAY",
+  "videoUrl": "https://youtube.com/embed/w7WuNw96UAY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/03f73ce80f9dd30cefd5301f13fce4f3?p=nVlXJpGnANYwEdSMmyEOtg",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/CbnPeuHGb-0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/twNoh1elhjE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/YiA7NfiVu8M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/w7WuNw96UAY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

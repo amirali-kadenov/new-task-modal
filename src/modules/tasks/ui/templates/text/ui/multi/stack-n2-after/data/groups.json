@@ -1,0 +1,150 @@
+[
+  {
+    "group": "text_65",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "135",
+      "lessonId": "2301",
+      "taskIndex": 7
+    },
+    "tasks": [
+      {
+        "id": "4_9_13_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2301",
+          "taskIndex": 7
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": {
+            "with_audio_player": false,
+            "aze": "dəvə",
+            "kgz": "төөлөр",
+            "uzb": "tuya",
+            "eng": "camels",
+            "rus": "верблюдов",
+            "kaz": "түйе",
+            "arjd": "",
+            "arsa": "",
+            "areg": "جملاً",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": {
+            "with_audio_player": false,
+            "aze": "dəvə",
+            "kgz": "төөлөр",
+            "uzb": "tuya",
+            "eng": "camels",
+            "rus": "верблюдов",
+            "kaz": "түйе",
+            "arjd": "",
+            "arsa": "",
+            "areg": "جملاً",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 2,
+        "number2": 4,
+        "number1": 24
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "İki karvanda 24 dəvə var idi. Birinci karvana 4 dəvə, ikinci karvana isə 2 dəvə qoşulduqdan sonra hər iki karvandakı dəvələrin sayı bərabər oldu. Hər karvanda əvvəlcə neçə dəvə var idi?\n",
+          "kgz": "Эки кербенде 24 төө болгон. Биринчи кербенге дагы 4 төө,\nэкинчиге 2 төө кошуу менен эки кербендеги төөлөрдүн саны бирдей болуп калды.\nБашында ар бир кербенде канча төө бар эле?\n",
+          "uzb": "Ikki karvonda 24 ta tuya bor. Birinchi karvonga 4 ta,\nikkinchisiga 2 ta tuya qo‘shilsa, har ikki karvondagi tuyalar soni teng bo‘ladi.\nHar bir karvonda dastlab nechta tuya bor edi?\n",
+          "eng": "There are 24 camels in two caravans. When 4 camels are added to the first caravan and 2 camels are added\nto the second, the number of camels in both caravans becomes equal.\nHow many camels are in each caravan at the start?\n",
+          "rus": "В двух караванах было 24 верблюда. Когда к первому каравану добавили еще 4 верблюда, а ко второму — 2 верблюда, количество верблюдов в обоих караванах стало одинаковым.\nСколько верблюдов было в каждом караване изначально?\n",
+          "kaz": "Екі керуенде 24 түйе болды. Бірінші керуенге тағы 4 түйе,\nал екіншісіне 2 түйе қосқанда, екі керуендегі түйелер саны теңесті.\nАлғашында әр керуенде қанша түйеден болды?\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "في القافلتين 24 جملاً. إذا أضيف 4 جِمال إلى القافلة الأولى وجملان إلى القافلة الثانية ليصبح عدد الجمال في القافلتين متساويًا، فكم كان عدد الجمال في كل قافلة من البداية؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_9_13_8",
+      "position": 7,
+      "id": "7fc8ba05-caa0-445d-a2dc-0bb19bb3a721",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "11;;13",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "IM8tFzWV620",
+      "videoUrl": "https://youtube.com/embed/IM8tFzWV620?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/b472b74f517cdf9fe484c9253999f487?p=qrWUrGE5PRr_bm3R6D0wmQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/5u1GjgvQVek?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/T88C0kn2voA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/IM8tFzWV620?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

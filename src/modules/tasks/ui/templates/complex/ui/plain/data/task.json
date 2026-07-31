@@ -1,0 +1,95 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": "x1",
+  "result": "none",
+  "fields": {
+    "difficulty": "x1",
+    "number": 9161278
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Verilən ədədi onluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
+    "kgz": "Берилген санды ондукка чейин тегеректеңиз.",
+    "uzb": "Berilgan sonni o'nlar xonasigacha yaxlitlang.",
+    "eng": "Round this number to the nearest ten.",
+    "rus": "Округлите данное число до разряда десятков.",
+    "kaz": "Берілген санды ондық разрядқа дейін дөңгелектеңіз.",
+    "arjd": "",
+    "arsa": "",
+    "areg": "قرّب العدد التالي إلى أقرب عشرة.",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "isAnswerCellHidden": false,
+    "isCalculatorClosed": false,
+    "parts": [
+      {
+        "content": "9161278 \\( \\approx \\)",
+        "type": 10
+      }
+    ],
+    "type": "complex"
+  },
+  "type": "Elixir.Task_4_8_5_1",
+  "position": 0,
+  "id": "d499923d-517c-49f5-8299-6c6eb6f92352",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "9161280",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "9fRSaM4vpRI",
+  "videoUrl": "https://youtube.com/embed/9fRSaM4vpRI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/ab3a3f459328622b51fc2e7ef54bfa5e?p=J5WDDWdOh6lUn-Ab_C0odw",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/54s2BFHbwAI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/DCc3yq9tu40?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/9fRSaM4vpRI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

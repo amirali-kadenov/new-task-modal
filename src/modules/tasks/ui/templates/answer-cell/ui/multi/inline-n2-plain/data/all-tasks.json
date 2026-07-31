@@ -1,0 +1,2848 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_6_2_22",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 21
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 159
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidinə çevirin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express in the given units of measurement.",
+            "rus": "Выразите в указанных единицах измерения.",
+            "kaz": "Көрсетілген өлшем бірліктеріне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المحددة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "159 kq = answercell s answercell kq",
+              "kgz": "159 кг = answercell ц answercell кг",
+              "uzb": "159 kg = answercell q answercell kg",
+              "eng": "159 kg = answercell centners answercell kg",
+              "rus": "159 кг = answercell ц answercell кг",
+              "kaz": "159 кг = answercell ц answercell кг",
+              "arjd": "",
+              "arsa": "",
+              "areg": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_2_22",
+          "position": 21,
+          "id": "d99ebba5-0a04-4ccb-932f-84d4679156b4",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "1;;59",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "tcxQoASlBf4",
+          "videoUrl": "https://youtube.com/embed/tcxQoASlBf4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/9990e90f57f0a8fc3679ecd8ccaba6f6?p=JDSIRUsiLPxTR8e8tK12yg",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/pR66JdkbWYU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/UUHwUqSgOPs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/tcxQoASlBf4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_2_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 23
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 72
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidinə çevirin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express in the given units of measurement.",
+            "rus": "Выразите в указанных единицах измерения.",
+            "kaz": "Көрсетілген өлшем бірліктеріне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المحددة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "72 s = answercell t answercell s",
+              "kgz": "72 ц = answercell т answercell ц",
+              "uzb": "72 q = answercell t answercell q",
+              "eng": "72 centners = answercell tonnes answercell centners",
+              "rus": "72 ц = answercell т answercell ц",
+              "kaz": "72 ц = answercell т answercell ц",
+              "arjd": "",
+              "arsa": "",
+              "areg": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_2_24",
+          "position": 23,
+          "id": "e7bab804-24cf-49de-a222-03f0ff1533fc",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "7;;2",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "HFOfcbYNAVE",
+          "videoUrl": "https://youtube.com/embed/HFOfcbYNAVE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/ff41bcf2fa119f8f83515b7e282a869e?p=Nx_iq8W39ZRziG7vMN8fIQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/mhTuOEquJdw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/GtObtk8IwRA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/HFOfcbYNAVE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 0
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 779
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "779 mm = \\( \\ \\) answercell \\( \\ \\) sm \\( \\ \\) answercell \\( \\ \\) mm",
+              "kgz": "779 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
+              "uzb": "779 mm = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) mm",
+              "eng": "779 mm = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) mm",
+              "rus": "779 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
+              "kaz": "779 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
+              "arjd": "779  = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "779 مم = \\( \\ \\) answercell \\( \\ \\) سم \\( \\ \\) answercell \\( \\ \\) مم",
+              "areg": "779 مم = \\( \\ \\) answercell \\( \\ \\) سم \\( \\ \\) answercell \\( \\ \\) مم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_1",
+          "position": 0,
+          "id": "b76f1c6d-c358-4767-a6b2-174466e4126c",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "77;;9",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "gjA94jQLMxs",
+          "videoUrl": "https://youtube.com/embed/gjA94jQLMxs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/245b1508b20d29f26a67d4a2c6712561?p=YVKO1DrF0ijl_bnBOr4hEA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/0OLTMDHsxpo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/41u-8LLjckY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/gjA94jQLMxs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 1
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 595
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "595 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
+              "kgz": "595 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
+              "uzb": "595 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
+              "eng": "595 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
+              "rus": "595 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
+              "kaz": "595 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
+              "arjd": "595  = \\( \\ \\) answercell  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "595 مم = \\( \\ \\) answercell ديسم \\( \\ \\) answercell \\( \\ \\) مم",
+              "areg": "595 مم = \\( \\ \\) answercell دسم \\( \\ \\) answercell \\( \\ \\) مم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_2",
+          "position": 1,
+          "id": "dfe3fbaf-95e8-4060-9f35-407b49de7ba0",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "5;;95",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "gEC3mX1-uww",
+          "videoUrl": "https://youtube.com/embed/gEC3mX1-uww?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/5e79d416b11bb0f5d1f968708d2c6eb6?p=ZtEWx8AwJojZUuqoSetleg",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/AhZEib7tku4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/E6bYprDJOLM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/gEC3mX1-uww?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 2
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 159
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "159 sm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) sm",
+              "kgz": "159 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
+              "uzb": "159 cm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) cm",
+              "eng": "159 cm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) cm",
+              "rus": "159 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
+              "kaz": "159 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
+              "arjd": "159 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) cm",
+              "arsa": "159 سم = \\( \\ \\) answercell \\( \\ \\) ديسم \\( \\ \\) answercell \\( \\ \\) سم",
+              "areg": "159 سم = \\( \\ \\) answercell \\( \\ \\) دسم \\( \\ \\) answercell \\( \\ \\) سم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_3",
+          "position": 2,
+          "id": "c07606d2-78fd-4241-9d27-bfade4f4561e",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "15;;9",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "uRu4rgv5k10",
+          "videoUrl": "https://youtube.com/embed/uRu4rgv5k10?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/20c85ea6d0bb07d7dec7ebfb4dc797f0?p=zQxdLGDEaIOrExW-dwzN2g",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/tuas_KLc6uU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/W22uUHBHm18?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/uRu4rgv5k10?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 3
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 7612
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "7612 sm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) sm",
+              "kgz": "7612 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
+              "uzb": "7612 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) cm",
+              "eng": "7612 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) cm",
+              "rus": "7612 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
+              "kaz": "7612 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
+              "arjd": "7612 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) cm",
+              "arsa": "7612 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) سم",
+              "areg": "7612 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) سم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_4",
+          "position": 3,
+          "id": "5ce4f2db-2b8a-445a-a120-c18514e296e4",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "76;;12",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "dPBKIVPAQ_Q",
+          "videoUrl": "https://youtube.com/embed/dPBKIVPAQ_Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/1b1f347cde8003402579881f0c7e506b?p=njk9fNhc0ez4tMwhC8m4hw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/-AXT-EM1EGk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/GM2CFfyTt8w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/dPBKIVPAQ_Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 4
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 334
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "334 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "kgz": "334 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "uzb": "334 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "eng": "334 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "rus": "334 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "kaz": "334 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "arjd": "334  = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "334 ديسم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) ديسم",
+              "areg": "334 دسم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) دسم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_5",
+          "position": 4,
+          "id": "edb24289-a1ba-4277-ae56-9675cc563fbc",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "33;;4",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "4CUt0Q-PmOU",
+          "videoUrl": "https://youtube.com/embed/4CUt0Q-PmOU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0903f604fdba810bf168aec174e07daa?p=FdWgXP61Y7vmvN4Y2Hksgw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/dQYzXyRTc8k?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/BXYwd5rfx9Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/4CUt0Q-PmOU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 5
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 3170
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "3170 sm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "kgz": "3170 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "uzb": "3170 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "eng": "3170 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "rus": "3170 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "kaz": "3170 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "arjd": "3170 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "3170 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) ديسم",
+              "areg": "3170 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) دسم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_6",
+          "position": 5,
+          "id": "948f4ec4-c900-4532-8160-3968118fcc05",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "31;;7",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "lc5B49dsHX0",
+          "videoUrl": "https://youtube.com/embed/lc5B49dsHX0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/16ff7a0bc7405c60ed58680f568375b0?p=pHCKED35-W_vxV5VwiFRIA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/LBCx72Hma68?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/g7HUkoTz57c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/lc5B49dsHX0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 6
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 79482
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "79482 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
+              "kgz": "79482 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
+              "uzb": "79482 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
+              "eng": "79482 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
+              "rus": "79482 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
+              "kaz": "79482 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
+              "arjd": "79482  = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "79482 م = \\( \\ \\) answercell \\( \\ \\) كلم \\( \\ \\) answercell \\( \\ \\) م",
+              "areg": "79482 م = \\( \\ \\) answercell \\( \\ \\) كم \\( \\ \\) answercell \\( \\ \\) م",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_7",
+          "position": 6,
+          "id": "d28695eb-3a64-48df-8096-8109693c7ef7",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "79;;482",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "3Pv11Ymv6jY",
+          "videoUrl": "https://youtube.com/embed/3Pv11Ymv6jY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/987911f29a07f689cdad1ff517e237ba?p=Fiu-qemxGKhbWu1OODirtA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/foZ1Do5jAWQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/V25B5jfbwew?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/3Pv11Ymv6jY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 9229
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "9229 ml = \\( \\ \\) answercell \\( \\ \\) l \\( \\ \\) answercell \\( \\ \\) ml",
+              "kgz": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "uzb": "9229 mL = \\( \\ \\) answercell \\( \\ \\) L \\( \\ \\) answercell \\( \\ \\) mL",
+              "eng": "9229 ml = \\( \\ \\) answercell \\( \\ \\) l \\( \\ \\) answercell \\( \\ \\) ml",
+              "rus": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "kaz": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "arjd": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "arsa": "9229 ملل = \\( \\ \\) answercell \\( \\ \\) لتر \\( \\ \\) answercell \\( \\ \\) ملل",
+              "areg": "9229 ملل = \\( \\ \\) answercell \\( \\ \\) لتر \\( \\ \\) answercell \\( \\ \\) ملل",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_8",
+          "position": 7,
+          "id": "f036cb26-89b6-4ba4-a1cc-bae9e7091ec0",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "9;;229",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "nJ9Ebl2b7-Q",
+          "videoUrl": "https://youtube.com/embed/nJ9Ebl2b7-Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/8f05d1f0cd58a84ebeeb8f3d44e187f3?p=zVYRG00h5mFBmYPrwT2wCg",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/WLu0VxK6-mc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/rfdLuHfICjM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/nJ9Ebl2b7-Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 4193
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "4193 mq = \\( \\ \\) answercell \\( \\ \\) q \\( \\ \\) answercell \\( \\ \\) mq",
+              "kgz": "4193 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
+              "uzb": "4193 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
+              "eng": "4193 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
+              "rus": "4193 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
+              "kaz": "4193 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
+              "arjd": "4193 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
+              "arsa": "4193 مجم = \\( \\ \\) answercell \\( \\ \\) جم \\( \\ \\) answercell \\( \\ \\) مجم",
+              "areg": "4193 مجم = \\( \\ \\) answercell \\( \\ \\) جم \\( \\ \\) answercell \\( \\ \\) مجم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_9",
+          "position": 8,
+          "id": "e72c356e-d479-41eb-aa69-d4cf32284712",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "4;;193",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "f_AgIC_u7YY",
+          "videoUrl": "https://youtube.com/embed/f_AgIC_u7YY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0cfd2bd97a18871206ef6c68900c6d61?p=hozcLgDqbxsLjiBd2jDpfw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/1D2vMLxQzho?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/Sr9pA2U2pRo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/f_AgIC_u7YY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 9
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 26822
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "26822 q = \\( \\ \\) answercell \\( \\ \\) kq \\( \\ \\) answercell \\( \\ \\) q",
+              "kgz": "26822 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
+              "uzb": "26822 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
+              "eng": "26822 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
+              "rus": "26822 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
+              "kaz": "26822 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
+              "arjd": "26822 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
+              "arsa": "26822 جم = \\( \\ \\) answercell \\( \\ \\) كغم \\( \\ \\) answercell \\( \\ \\) جم",
+              "areg": "26822 جم = \\( \\ \\) answercell \\( \\ \\) كجم \\( \\ \\) answercell \\( \\ \\) جم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_10",
+          "position": 9,
+          "id": "89bff6ab-17ef-40bb-8548-48829c4243d5",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "26;;822",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "ErH_ThDzLyU",
+          "videoUrl": "https://youtube.com/embed/ErH_ThDzLyU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/6ea48c458f2568314dbf4951b07cf759?p=-smJSw9J6oe_UQG3NpXKfA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/NuXhjGBGRgA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/6g-INaiJ-TI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/ErH_ThDzLyU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 10
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 9291
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "9291 kq = answercell s answercell kq",
+              "kgz": "9291 кг = answercell ц answercell кг",
+              "uzb": "9291 kg = answercell q answercell kg",
+              "eng": "9291 kg = answercell cwt answercell kg",
+              "rus": "9291 кг = answercell ц answercell кг",
+              "kaz": "9291 кг = answercell ц answercell кг",
+              "arjd": "9291 kg = answercell cwt answercell kg",
+              "arsa": "9291 كغم = answercell قنطار answercell كغم",
+              "areg": "9291 كجم = answercell قنطار answercell كجم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_11",
+          "position": 10,
+          "id": "67b157d7-11a3-44e1-8565-389b13a3e07c",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "92;;91",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "p21pzr6N9M0",
+          "videoUrl": "https://youtube.com/embed/p21pzr6N9M0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/49a80e0115e3ec6fdac19da386a5d511?p=FMb4Hz4-FUeGqJUZmYsR2Q",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/T5dLAgqzau0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/lpqzD8PRymk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/p21pzr6N9M0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 11
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 995593
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "995593 kq = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kq",
+              "kgz": "995593 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
+              "uzb": "995593 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
+              "eng": "995593 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
+              "rus": "995593 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
+              "kaz": "995593 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
+              "arjd": "995593 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
+              "arsa": "995593 كغم = \\( \\ \\) answercell \\( \\ \\) طن \\( \\ \\) answercell \\( \\ \\) كغم",
+              "areg": "995593 كجم = \\( \\ \\) answercell \\( \\ \\) طن \\( \\ \\) answercell \\( \\ \\) كجم",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_12",
+          "position": 11,
+          "id": "9be79af6-2c79-4912-a093-ef7127435b6b",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "995;;593",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "4eO1vPbi-7c",
+          "videoUrl": "https://youtube.com/embed/4eO1vPbi-7c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/04c249b50dd0af6dcdc70a4a8bc19ebd?p=SW7Rhac3s7sh34L_Phj69Q",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/A4r6aTWJgKU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/SxaoxtHMEiQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/4eO1vPbi-7c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 12
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 4514
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "4514 s = answercell t answercell s",
+              "kgz": "",
+              "uzb": "4514 q = answercell t answercell q",
+              "eng": "4514 kg = answercell t answercell kg",
+              "rus": "4514 ц = answercell т answercell ц",
+              "kaz": "4514 ц = answercell т answercell ц",
+              "arjd": "",
+              "arsa": "",
+              "areg": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_13",
+          "position": 12,
+          "id": "525431f2-4081-4e50-8207-5e8cd557cbb2",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "451;;4",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "SBsHLOrZpnc",
+          "videoUrl": "https://youtube.com/embed/SBsHLOrZpnc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/cf12bade0d21baf3658183f41e0c39ad?p=esQjDNooDRH2Kmmr7GeZYA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/NVyLsAqkjto?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/HPrKEVIH--g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/SBsHLOrZpnc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 13
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 8455
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "8455 il = answercell əsr answercell il",
+              "kgz": "8455 жыл = answercell кылым answercell жыл",
+              "uzb": "8455 yil = answercell asr answercell yil",
+              "eng": "8455 years = \\( \\ \\) answercell \\( \\ \\) centuries \\( \\ \\) answercell \\( \\ \\) years",
+              "rus": "8455 лет = answercell веков answercell лет",
+              "kaz": "8455 жыл = answercell ғасыр answercell жыл",
+              "arjd": "",
+              "arsa": "",
+              "areg": "8455 سنةً = answercell قرن answercell سنة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_14",
+          "position": 13,
+          "id": "a26e29aa-d3a7-4e60-bafb-6c307abb54dc",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "84;;55",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "U_XPYUmyvU0",
+          "videoUrl": "https://youtube.com/embed/U_XPYUmyvU0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/c8b62f93680c53df2f1b9a0e61ce5dbb?p=mGItYWSJ-XBWg2scu3-yWQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/Ottxmzs3R1M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/JB8dHdslDAk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/U_XPYUmyvU0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 14
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 883
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "883 ay = answercell il answercell ay",
+              "kgz": "",
+              "uzb": "883 oy = answercell yil answercell oy",
+              "eng": "883 months = \\( \\ \\) answercell \\( \\ \\) years \\( \\ \\) answercell \\( \\ \\) months",
+              "rus": "883 месяца = answercell года answercell месяцев",
+              "kaz": "883 ай = answercell жыл answercell ай",
+              "arjd": "",
+              "arsa": "",
+              "areg": "883 شهرًا = answercell سنوات answercell أشهر",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_15",
+          "position": 14,
+          "id": "f1a5d245-9a19-4b12-b4eb-6f2a95bab437",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "73;;7",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "2LMnYgCCzTo",
+          "videoUrl": "https://youtube.com/embed/2LMnYgCCzTo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/c98eabe09a861b897b420261727b612e?p=eQnRWym033vs6aeE4lRXOQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/CguqpPxystc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/a6r_DmSvIPc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/2LMnYgCCzTo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 15
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 1053
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "1053 gün = answercell həftə answercell gün",
+              "kgz": "1053 күн = answercell жума answercell күн",
+              "uzb": "1053 kun = answercell hafta answercell kun",
+              "eng": "1053 days = answercell weeks answercell days",
+              "rus": "1053 дня = answercell недель answercell дней",
+              "kaz": "1053 күн = answercell апта answercell күн",
+              "arjd": "",
+              "arsa": "",
+              "areg": "1053 يوما = answercell أسابيع وanswercell أيام",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_16",
+          "position": 15,
+          "id": "4ef9a21a-fbaa-4f9b-80a5-619805d6bd4e",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "150;;3",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "7yBnNnOH1Sc",
+          "videoUrl": "https://youtube.com/embed/7yBnNnOH1Sc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/ec5468c253e814c05ddc0eed7df1b5ff?p=ZvFwFxQWa2gZegvt9ER7HQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/V8mNFjxpABQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/muPPxdyqMUI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/7yBnNnOH1Sc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 16
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 2807
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin. (1 ay = 30 gün)",
+            "kgz": "Көрсөтүлгөн өлчөөнүн бирдиги менен туюнтуңуз. (1 ай = 30 күн)",
+            "uzb": "Ko'rsatilgan o'lchov birlikda ifodalang.",
+            "eng": "Express it in the specified units of measurement. (1 month = 30 days)",
+            "rus": "Выразите в указанных единицах измерения. (1 месяц = 30 дней) ",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз. (1 ай = 30 күн)",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:\\(\\\\\\)(علماً بأن الشهر الواحد = 30 يومًا)",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "2807 gün = answercell ay answercell gün",
+              "kgz": "",
+              "uzb": "2807 kun = answercell oy answercell kun",
+              "eng": "2807 days = \\( \\ \\) answercell \\( \\ \\) months \\( \\ \\) answercell \\( \\ \\) days",
+              "rus": "2807 дней = answercell месяцев answercell дней",
+              "kaz": "2807 күн = answercell ай answercell күн",
+              "arjd": "",
+              "arsa": "",
+              "areg": "2807 أيام = answercell شهرًا وanswercell يومًا",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_17",
+          "position": 16,
+          "id": "0de995f1-8f76-436d-9646-1deea882c869",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "93;;17",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "5YHfU3-Wpqo",
+          "videoUrl": "https://youtube.com/embed/5YHfU3-Wpqo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/4bbf7b4ba8311824028bea240d414596?p=DLOXG135U8yMe2tcjeYN3A",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/nQ9Xm4OxDLQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/N9HpeSK-GxQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/5YHfU3-Wpqo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 17
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 1890
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "1890 saat = answercell gün answercell saat",
+              "kgz": "1890 саат = answercell сутка answercell саат",
+              "uzb": "1890 soat = answercell kun answercell soat",
+              "eng": "1,890 hours = \\( \\ \\)answercell \\( \\ \\) days \\( \\ \\)answercell \\( \\ \\) hours",
+              "rus": "1890 ч = answercell сут answercell ч",
+              "kaz": "1890 сағат = answercell тәулік answercell сағат",
+              "arjd": "",
+              "arsa": "",
+              "areg": "1890 ساعةً = answercell يومًا وanswercell ساعة\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_18",
+          "position": 17,
+          "id": "ebffa3b8-aae7-43db-bcb8-23f64ba2ff79",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "78;;18",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "74PLldCY-_E",
+          "videoUrl": "https://youtube.com/embed/74PLldCY-_E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/48dc48046b1c0f06f41dc52cc921eb25?p=XOHKZm39w_-ahpKNA8eYvQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/-zLv-lpMvAE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/a97xpxkUQ5c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/74PLldCY-_E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 18
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 2121
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "2121 dəqiqə = answercell saat answercell dəqiqə",
+              "kgz": "2121 мүнөт = answercell саат answercell мүнөт",
+              "uzb": "2121 minut = answercell soat answercell minut",
+              "eng": "2,121 minutes =\\( \\ \\) answercell \\( \\ \\) hours \\( \\ \\) answercell \\( \\ \\) minutes",
+              "rus": "2121 мин = answercell ч answercell мин",
+              "kaz": "2121 минут = answercell сағат answercell минут",
+              "arjd": "",
+              "arsa": "",
+              "areg": "2121 دقيقة = answercell ساعة  answercell دقيقة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_19",
+          "position": 18,
+          "id": "4bc7d0b5-9e95-4aa9-ae26-b3e8418c15f0",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "35;;21",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "Cw52Yqsf7zI",
+          "videoUrl": "https://youtube.com/embed/Cw52Yqsf7zI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/38cec0faa946762baba469a7f7ca16ff?p=sP3JPM3Olja37HHOkWYtuA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/FXCNcm8LfLk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/OxUdHVMHV04?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/Cw52Yqsf7zI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      },
+      {
+        "id": "4_6_11_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2210",
+          "taskIndex": 19
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 1553
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
+            "kgz": "",
+            "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+            "eng": "Express the measurement in the given units.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлікке айналдырыңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "1553 saniyə = answercell dəqiqə answercell saniyə",
+              "kgz": "1553 секунд = answercell мүнөт answercell секунд",
+              "uzb": "1553 sekund = answercell minut answercell sekund",
+              "eng": "1,553 seconds = answercell \\( \\ \\)minutes answercell \\( \\ \\) seconds",
+              "rus": "1553 сек = answercell мин answercell сек",
+              "kaz": "1553 секунд = answercell минут answercell секунд",
+              "arjd": "",
+              "arsa": "",
+              "areg": "1553 ثانية = answercell دقيقة answercell ثانية",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_6_11_20",
+          "position": 19,
+          "id": "c22ef84f-0ff1-474f-a043-2ab21577aba7",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "25;;53",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "onzQHTMBuOA",
+          "videoUrl": "https://youtube.com/embed/onzQHTMBuOA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/cadbeaa4c0ad2fa9b5ada999490346f8?p=Ien7M1hiROyKhy9eEIJU8w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/DmX-4izDUdg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/kPuNHzKBlE8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/onzQHTMBuOA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_4"
+      }
+    ]
+  }
+}

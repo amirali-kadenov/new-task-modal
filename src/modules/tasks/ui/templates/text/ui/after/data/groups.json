@@ -1,0 +1,4522 @@
+[
+  {
+    "group": "text_2",
+    "count": 105,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2107",
+      "taskIndex": 15
+    },
+    "tasks": [
+      {
+        "id": "4_2_36",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2107",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_2_38",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_2_40",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_2_43",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_2_44",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_2_45",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_1_36",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2131",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_1_39",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2131",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_1_84",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2131",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_1_40",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_1_45",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_1_53",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_3_12_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2151",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_3_12_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2151",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_4_54",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2173",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_5_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2186",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_5_27",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2187",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_5_33",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2187",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_5_34",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2187",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_6_7_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_6_7_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_6_7_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_7_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_6_7_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_6_12_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_6_12_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_6_12_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_6_13_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_6_13_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_6_13_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_6_13_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_5_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_7_5_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_7_5_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_7_5_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_6_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_6_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_6_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_6_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_7_7_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_7_7_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_7_7_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_7_7_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_7_15_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2257",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_15_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2257",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_7_15_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2257",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_15_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2257",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_8_12_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2281",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_8_13_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2282",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_9_13_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2301",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_9_13_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2301",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_9_13_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2301",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_9_14_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2302",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_11_20_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2317",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_11_20_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2317",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_12_21_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2339",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_12_21_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2339",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_12_21_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2339",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_10_1_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_2_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_10_2_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_2_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_10_2_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_10_2_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_10_3_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_3_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_10_3_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_10_3_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_10_3_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_3_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_10_3_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_5_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_10_5_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_10_6_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2355",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_10_6_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2355",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_10_7_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2356",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_7_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2356",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_7_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2356",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_10_7_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2356",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_10_8_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_10_8_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_8_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_10_8_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_8_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_10_8_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_10_8_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_10_8_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_10_9_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_9_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_10_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_10_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_10_10_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_10_10_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_10_10_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_10_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_10_10_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_10_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2359",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_10_11_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2360",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_11_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2360",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_10_11_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2360",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_10_11_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2360",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_10_11_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2360",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_11_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2360",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "l",
+          "kgz": "л",
+          "uzb": "l",
+          "eng": "L",
+          "rus": "л",
+          "kaz": "л",
+          "arjd": "L",
+          "arsa": "",
+          "areg": "لتر",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 2,
+        "number2": 11094,
+        "number1": 99946
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Dəvə bir həftə ərzində 11094 litr su içir. Dəvə 2 həftə su içsə, 99946 litr sudan nə qədər su qalar?\n",
+          "kgz": "Төө бир жумада 11094 литр суу иче алат. Эгерде төө 2 жума суу ичсе, 99946  литр суудан канча литр суу калат?\n",
+          "uzb": "Tuya bir haftada 11094 litr suv ichadi. Tuya suvni 2 hafta davomida ichsa, 99946 l suvdan qancha qoladi?\n",
+          "eng": "A camel can drink 11094 litres of water in a week.\nHow many litres of water are left from 99946 litres of water if the camel drinks water for 2 weeks?\n",
+          "rus": "Верблюд может выпить 11094 л воды за неделю.\nСколько литров воды останется из 99946 л, если верблюд будет пить воду в течение 2 недели?\n",
+          "kaz": "Түйе бір аптада 11094 литр су іше алады.\nТүйе суды 2 апта бойы ішсе, 99946 л судан неше литр су артылып қалады?\n",
+          "arjd": "",
+          "arsa": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًالترًا؟\n",
+          "areg": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًا؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_2_36",
+      "position": 15,
+      "id": "4c36c5f6-b69b-4ff2-af2a-58e7ec9a233c",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "77758",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "e4mRJLEhKes",
+      "videoUrl": "https://youtube.com/embed/e4mRJLEhKes?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7853ba8222fa0da97d425c8bd5c765e1?p=iQ2uC4uyY3QEt1dOVFR9Cg",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/vHxMDDtIgu0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/gNN0YZM6zYo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/fkkQOdcRy7A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/e4mRJLEhKes?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_3",
+    "count": 81,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2107",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_2_27",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2107",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_2_47",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2107",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_2_30",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2107",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_2_57",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_2_59",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_1_30",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2131",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_1_32",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2131",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_1_85",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2131",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_1_44",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_1_52",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_1_54",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_3_11_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2150",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_4_43",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2172",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_4_44",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2172",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_4_51",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2173",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_5_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2186",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_5_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2186",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_6_7_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_7_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_6_12_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_12_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_6_13_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_6_13_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_6_13_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_4_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_4_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "3_7_9_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "3_7_10_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2253",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "3_7_4_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_8_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_7_8_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_9_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_9_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_15_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2257",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_7_17_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_17_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_7_17_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_17_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_17_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_17_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_7_18_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2260",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_18_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2260",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_7_18_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2260",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_7_18_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2260",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_8_12_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2281",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_8_12_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2281",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_8_12_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2281",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_8_12_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2281",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_8_13_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "134",
+          "lessonId": "2282",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_9_13_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2301",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_11_6_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2311",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_11_6_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2311",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_11_6_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2311",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_11_6_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2311",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_11_19_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2316",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_11_19_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2316",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_11_19_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2316",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_11_20_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2317",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_11_20_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2317",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_12_21_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2339",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_1_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_1_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_10_1_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_1_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2350",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_10_2_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_5_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_5_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_10_5_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_10_5_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_10_5_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_5_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_10_5_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_10_5_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2354",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_10_6_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2355",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_10_8_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_10_8_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_10_9_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_9_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_10_9_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_10_9_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_10_9_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 9
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "kq",
+          "kgz": "кг",
+          "uzb": "kg",
+          "eng": "kg",
+          "rus": "кг",
+          "kaz": "кг",
+          "arjd": "kg",
+          "arsa": "كغم",
+          "areg": "كجم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 2,
+        "number1": 12756
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Mayda bağdan 12756 kq armud və armuddan 2 dəfə çox alma yığıldı.\nMayda bağdan neçə kiloqram alma yığıldı?\n",
+          "kgz": "Май айында бактан 12756 кг алмурут, андан 2 эсе көп алма жыйналды.\nМай айында бактан канча килограмм алма жыйналды?\n",
+          "uzb": "May oyida bog'dan 12756 kg nok va undan 2 marta ko'p olma terildi.\nMay oyida bog'dan umumiy necha kilogramm olma terildi?\n",
+          "eng": "In May, 12756 kg of pears and 2 times as many apples are picked.\nHow many kilograms of apples are harvested in May?\n",
+          "rus": "В мае из сада собрали 12756 кг груш и в 2 раза больше яблок.\nСколько килограммов яблок было собрано в мае из сада?\n",
+          "kaz": "Мамыр айында бақшадан 12756 кг алмұрт және одан 2 есе артық алма жиналды.\nМамыр айында бақшадан барлығы неше килограмм алма жиналды?\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا تم حصاد 12756 كجم من الكمثرى في شهر سبتمبر،\nوتم حصاد ضعف هذا العدد من التفاح،\nفكم كيلوجرامًا من التفاح تم حصدها في هذا الشهر؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_2_27",
+      "position": 0,
+      "id": "0705c6fd-b3b6-420d-976c-7265e6206860",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "25512",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "HcPUH32KvGs",
+      "videoUrl": "https://youtube.com/embed/HcPUH32KvGs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/b6aaaf33899dfd68a860f0f07b6ddbd0?p=STPY24ZWPoJgyL519UtzJQ",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/gEFJ0y2LGzE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/G42lzqpaHPc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/uGONGgzn0aA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/HcPUH32KvGs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_6",
+    "count": 39,
+    "launch": {
+      "grade": 4,
+      "chapterId": "132",
+      "lessonId": "2209",
+      "taskIndex": 23
+    },
+    "tasks": [
+      {
+        "id": "4_6_10_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2209",
+          "taskIndex": 23
+        }
+      },
+      {
+        "id": "4_6_10_25",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2209",
+          "taskIndex": 24
+        }
+      },
+      {
+        "id": "4_6_10_26",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2209",
+          "taskIndex": 25
+        }
+      },
+      {
+        "id": "4_6_10_27",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2209",
+          "taskIndex": 26
+        }
+      },
+      {
+        "id": "4_6_10_29",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2209",
+          "taskIndex": 28
+        }
+      },
+      {
+        "id": "4_6_10_31",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2209",
+          "taskIndex": 30
+        }
+      },
+      {
+        "id": "4_7_11_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_11_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_7_11_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_7_11_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_7_11_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_11_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_7_11_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_11_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_11_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_11_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_7_11_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_7_11_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_7_11_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_7_11_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_7_11_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_7_11_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_7_11_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2255",
+          "taskIndex": 19
+        }
+      },
+      {
+        "id": "4_7_12_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_12_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_7_12_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_7_12_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_7_12_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_12_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_7_12_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_12_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_12_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_7_12_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_7_12_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_7_12_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_7_12_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_7_12_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_7_12_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 18
+        }
+      },
+      {
+        "id": "4_7_12_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2256",
+          "taskIndex": 19
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "\\(mm^2\\)",
+          "kgz": "\\(мм^2\\)",
+          "uzb": "\\(mm^2\\)",
+          "eng": "\\(mm^2\\)",
+          "rus": "\\(мм^2\\)",
+          "kaz": "\\(мм^2\\)",
+          "arjd": "\\(^2\\)",
+          "arsa": "\\(مم^2\\)",
+          "areg": "مم\\(^2\\)",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 84,
+        "number1": 5
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Əməliyyatı yerinə yetirin və verilmiş ölçü vahidi ilə ifadə edin.",
+        "kgz": "Амалдарды аткарыңыз жана көрсөтүлгөн өлчөөнүн бирдиги менен туюнтуңуз.",
+        "uzb": "Amalni bajaring va ko'rsatilgan o'lchov birligida ifodalang.",
+        "eng": "Calculate and write the answer in the given units of measurement.",
+        "rus": "Выполните действие и выразите в указанной единице измерения.",
+        "kaz": "Амалды орындап, көрсетілген өлшем бірлікке айналдырыңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد ناتج ما يلى بوحدة القياس المطلوبة:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "5 \\(sm^2\\) - 84 \\(mm^2\\) = \\( \\ \\) ",
+          "kgz": "5 \\(см^2\\) - 84 \\(мм^2\\) = \\( \\ \\) ",
+          "uzb": "5 \\(cm^2\\) - 84 \\(mm^2\\) = \\( \\ \\) ",
+          "eng": "5 \\(cm^2\\) - 84 \\(mm^2\\) = \\( \\ \\) ",
+          "rus": "5 \\(см^2\\) - 84 \\(мм^2\\) = \\( \\ \\) ",
+          "kaz": "5 \\(см^2\\) - 84 \\(мм^2\\) = \\( \\ \\) ",
+          "arjd": "5 \\(cm^2\\) - 84 \\(^2\\) = \\( \\ \\) ",
+          "arsa": "5 \\(سم^2\\) - 84 \\(مم^2\\) = \\( \\ \\) ",
+          "areg": "5 سم\\(^2\\) - 84 مم\\(^2\\) = \\( \\ \\) ",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_6_10_24",
+      "position": 23,
+      "id": "6609091b-08f5-4e7c-b99a-eb6e9f08fb8d",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "416",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "lmgDxAt2C_k",
+      "videoUrl": "https://youtube.com/embed/lmgDxAt2C_k?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/dbd83cecd85f7975e8b5bc62c0434312?p=0kqh_Q-E75k9BMjt8ncRDQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/aNCTsyIYRjk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/xY38KOlgNy8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/lmgDxAt2C_k?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_8",
+    "count": 18,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2108",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_2_37",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_2_41",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_2_42",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_2_46",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_2_55",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_2_58",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_2_60",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2108",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_1_55",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2132",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_5_25",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2187",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_7_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_6_12_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_6_12_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_6_13_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_13_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2212",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_10_8_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2357",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_10_9_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_10_9_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_10_9_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 15
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "manat",
+          "kgz": "сом",
+          "uzb": "so'm",
+          "eng": "dollars",
+          "rus": "тг",
+          "kaz": "тг",
+          "arjd": "",
+          "arsa": "",
+          "areg": "جنيه",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number4": 7,
+        "number3": 3517,
+        "number2": 5,
+        "number1": 9676
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Maşın bazarından hər biri 9676 manat olan 5 maşın,\nhər biri 3517 manat olan 7 motosiklet alındı.\nÜmumi neçə manat xərcləndi?\n",
+          "kgz": "Мектептин китепканасынын фондун толуктоо үчүн ар бири 9676 сомдон 5 энциклопедия жана ар бири 3517 сомдон 7 сөздүк сатып алынган.\nКитептерди сатып алуу үчүн бардыгы канча акча кеткен?\n",
+          "uzb": "Maktab kutubxonasiga yangi kitoblar sotib olindi.\nHar biri 9676 so'mdan 5 dona ensiklopediya va 3517 so'mdan 7 dona lug'at sotib olindi.\nKitoblarni sotib olish uchun umumiy qancha so'm sarflandi?\n",
+          "eng": "To fill up the book fund of the school library, 5 encyclopedias at 9676 dollars each and 7 dictionaries at 3517 dollars each are purchased.\nHow much is spent on buying books in total?\n",
+          "rus": "Для пополнения книжного фонда школьной библиотеки было куплено 5 энциклопедий по 9676 тенге каждая и 7 словарей по 3517 тенге.\nСколько всего тенге было потрачено на покупку книг?\n",
+          "kaz": "Мектеп кітапханасының кітап қорын толықтыру үшін әрқайсысы 9676 теңгеден 5 энциклопедия және 3517 теңгеден 7 сөздік сатып алынды.\nКітаптарды сатып алу үшін барлығы неше теңге жұмсалды?\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا قامت إدارة المدرسة بتجديد مخزون الكتب في المكتبة المدرسية، واشترت 9676 موسوعة (سعر الموسوعة الواحدة 5 جنيهات)، و7 قواميس (سعر القاموس الواحد  3517 جنيهًا)،\nفكم إجمالي عدد الجنيهات التي دفعتها إدارة المدرسة لشراء الكتب؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_2_37",
+      "position": 0,
+      "id": "f867ae93-4f5a-4b34-a4fc-3ae3a7636900",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "72999",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "oP_sxTNUdVw",
+      "videoUrl": "https://youtube.com/embed/oP_sxTNUdVw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7fb6f4363ce6179cd0842b030b79ef58?p=EdgMnBymruRybR_utm3O9w",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/Ym2UxWDwPyY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/oOrQUIo09Bw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/oP_sxTNUdVw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_11",
+    "count": 17,
+    "launch": {
+      "grade": 4,
+      "chapterId": "133",
+      "lessonId": "2250",
+      "taskIndex": 2
+    },
+    "tasks": [
+      {
+        "id": "4_7_1_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_7_1_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_7_1_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_1_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_7_1_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_1_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_7_1_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_7_1_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_7_1_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_7_1_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_7_1_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 18
+        }
+      },
+      {
+        "id": "4_7_2_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_7_2_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_7_2_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_7_2_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_7_2_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 20
+        }
+      },
+      {
+        "id": "4_7_2_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 21
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "\\(sm^2\\)",
+          "kgz": "\\(\\)",
+          "uzb": "\\(cm^2\\)",
+          "eng": "\\(cm^2\\)",
+          "rus": "\\(см^2\\)",
+          "kaz": "\\(см^2\\)",
+          "arjd": "",
+          "arsa": "",
+          "areg": "سم\\(^2\\)",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 59500
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+        "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+        "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+        "eng": "Express it in the given unit of measurement.",
+        "rus": "Выразите в указанной единице измерения.",
+        "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حول إلى وحدة القياس المطلوبة:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "59500 \\(mm^2\\) = ",
+          "kgz": "",
+          "uzb": "59500 \\(mm^2\\) = ",
+          "eng": "59500 \\(mm^2\\) = ",
+          "rus": "59500 \\(мм^2\\) = ",
+          "kaz": "59500 \\(мм^2\\) = ",
+          "arjd": "",
+          "arsa": "",
+          "areg": "59500 مم\\(^2\\) = ",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_7_1_2",
+      "position": 2,
+      "id": "f12fa15b-db5a-46a0-8cf0-6671ace4f3b6",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "595",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "zOAkNDg9q_I",
+      "videoUrl": "https://youtube.com/embed/zOAkNDg9q_I?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/d61454535345db50073283c6c479fc75?p=HiUG-SydeL2gGaPUj0d7Xw",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/paEvJ9OYtH8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/QJLM2y9a4Pg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/zOAkNDg9q_I?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_13",
+    "count": 12,
+    "launch": {
+      "grade": 4,
+      "chapterId": "133",
+      "lessonId": "2250",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_7_1_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_1_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_7_1_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_2_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_7_2_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_7_2_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 16
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "\\(mm^2\\)",
+          "kgz": "\\(\\)",
+          "uzb": "\\(mm^2\\)",
+          "eng": "\\(mm^2\\)",
+          "rus": "\\(мм^2\\)",
+          "kaz": "\\(мм^2\\)",
+          "arjd": "",
+          "arsa": "",
+          "areg": "مم\\(^2\\)",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number": 9
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+        "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+        "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+        "eng": "Express it in the given unit of measurement.",
+        "rus": "Выразите в указанной единице измерения.",
+        "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حول إلى وحدة القياس المطلوبة:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "9 \\(sm^2\\) = ",
+          "kgz": "",
+          "uzb": "9 \\(cm^2\\) = ",
+          "eng": "9 \\(cm^2\\) = ",
+          "rus": "9 \\(см^2\\) = ",
+          "kaz": "9 \\(см^2\\) = ",
+          "arjd": "",
+          "arsa": "",
+          "areg": "9 سم\\(^2\\) = ",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_7_1_1",
+      "position": 0,
+      "id": "d93bfbfb-a989-422f-93db-b5359acc2874",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "900",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "qGauC38xUyY",
+      "videoUrl": "https://youtube.com/embed/qGauC38xUyY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/9c9ab67dfc9e5a1603a751af52b7d2fc?p=gQ83s55g-K8fVgqEXP4QDA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/CGPZQio18Gk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/QCmWHf60HdI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/qGauC38xUyY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_15",
+    "count": 10,
+    "launch": {
+      "grade": 4,
+      "chapterId": "132",
+      "lessonId": "2206",
+      "taskIndex": 3
+    },
+    "tasks": [
+      {
+        "id": "4_6_7_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_7_9_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_7_9_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2254",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_17_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_7_17_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2259",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_11_11_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2313",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_11_19_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2316",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_11_19_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2316",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_11_19_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2316",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_11_20_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2317",
+          "taskIndex": 2
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "manat",
+          "kgz": "сом",
+          "uzb": "so'm",
+          "eng": "tg",
+          "rus": "тг",
+          "kaz": "тг",
+          "arjd": "",
+          "arsa": "",
+          "areg": "جنيه",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 84313
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Əsgər özünə Bakıda ev almaq istəyir. Evin qiyməti 84313 manatdır.\nO, ev yiyəsinə hər birində 20000 manat olan 5 dəstə pul verir.\nEv yiyəsi ona nə qədər pul qaytarmalıdır?\n",
+          "kgz": "Нурлан Бишкекте жашайт. Ал  Москвага окууга баруу үчүн даярданууда.\nБишкектен Москвага чейин учактын билети 84313 сом турат.\nНурлан кассирге  20 000 сомдуктан 5 даана берди.  Нурланга кассир кайра канча акча кайтарып бериши керек?\n",
+          "uzb": "Temur Toshkent shahrida yashaydi. U Moskvaga o'qishga ketish uchun tayyorgarlik ko'rmoqda.\nToshkentdan Moskvagacha samolyot chiptasining narxi 84313 so'm.\nTemur sotuvchiga 20000 so'mlik 5 ta qog'oz pul berdi. Chipta sotuvchi Temurga necha so'm qaytarishi kerak?\n",
+          "eng": "Nick lives in London. He wants to drive to Moscow and decides to buy a car costing 84313 dollars.\nNick gives the cashier 5 notes of 20,000 dollars each.\nHow much money should the cashier return to Nick?\n",
+          "rus": "Николай живет в Астане. Он готовится поехать учиться в Москву. Билет на самолет из Астаны в Москву стоит 84313 тенге.\nНиколай дал кассиру 5 купюр по 20 000 тенге. Сколько тенге кассир должен вернуть Николаю?\n",
+          "kaz": "Ерлан Астана қаласында тұрады. Ол Мәскеуге оқуына кетуге дайындалып жатыр.\nАстанадан Мәскеуге дейін ұшақтың билеті 84313 теңге тұрады.\nЕрлан сатушыға 20000 теңгелік 5 қағаз ақша берді. Билет сатушы Ерланға неше теңге қайтаруы керек?\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "ذهب موسى إلى شركة سياحية لحجز رحلة إلى مدينة شرم الشيخ سعرها 84313 جنيهًا لمدة أسبوع،\nوإذا أعطى للموظف 5 رزم من النقود (كل رزمة 20 ألف جنيه)،\nفكم جنيهًا يجب على الموظف أن يعيدها إلى موسى؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_6_7_4",
+      "position": 3,
+      "id": "1a933d56-eb71-4476-b340-6cfb26fefdad",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "15687",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "PwIRrNHOkUI",
+      "videoUrl": "https://youtube.com/embed/PwIRrNHOkUI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/13c5bd3f06c1139add7171467e8bc51f?p=7ozOkrDxJYLdxmoZov1_YA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/wlaXh_9dLVo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/BYroa3zf8qE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/PwIRrNHOkUI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_26",
+    "count": 5,
+    "launch": {
+      "grade": 4,
+      "chapterId": "130",
+      "lessonId": "2172",
+      "taskIndex": 6
+    },
+    "tasks": [
+      {
+        "id": "4_4_41",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2172",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_5_31",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2187",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_5_32",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2187",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_12_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2211",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_10_2_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 14
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "km",
+          "kgz": "",
+          "uzb": "km",
+          "eng": "km",
+          "rus": "км",
+          "kaz": "км",
+          "arjd": "km",
+          "arsa": "كلم",
+          "areg": "كم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number5": 423,
+        "number4": 2359,
+        "number3": 1242,
+        "number2": 1783,
+        "number1": 7585
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": " A ölkəsi şimalda və qərbdə uzunluğu 7585 km, şərqdə 1783 km, cənubda B ölkəsi ilə 1242 km, C ölkəsi ilə 2359 km və D ölkəsi ilə  423 km ümumi sərhədlərə malikdir. Sərhədlərin ümumi uzunluğu nə qədərdir?\n",
+          "kgz": "Казахстан республикасы түндүк жана батыштан  Россия менен 7585 км, чыгышта Кытай менен 1783 км, түштүктө Кыргызстан менен 1242 км, Өзбекстан менен 2359 км жана Түркмөнстан менен 423 км жалпы чек арасы бар.Чек аралардын жалпы узундугу канча?\n",
+          "uzb": "Qozog'istonning shimoli va g'arbida Rossiya bilan 7585 km, sharqida Xitoy bilan 1783 km, janubida Qirg'iziston bilan 1242 km, O'zbekiston bilan 2359 km, Turkmaniston bilan 423 km umumiy chegaralari bor.\nQozog'iston chegarasining umumiy uzunligini toping.\n",
+          "eng": "The Republic of Kazakhstan shares borders with Russia, which is 7585 km in the north and west, China, which is 1783 km in the east,\nKyrgyzstan, which is 1242 km in the south, Uzbekistan, which is 2359 km, and Turkmenistan, which is 423 km.\nWhat is the total length of all the borders?\n",
+          "rus": "На севере и западе республика N имеет общие границы с протяженностью 7585 км, на востоке 1783 км, на юге 1242 км,  2359 км и 423 км.\nКакова общая протяжённость границ?\n",
+          "kaz": "Еліміздің солтүстігі мен батысында Ресеймен 7585 км, шығысында Қытаймен 1783 км,\nоңтүстігінде Қырғызстанмен 1242 км, Өзбекстанмен 2359 км, Түркіменстанмен 423 км ортақ шекаралары бар.\nЕліміздің шекарасының жалпы ұзындығын табыңыз.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "تمتد حدود دولة كازاخستان بطول 7585 كم مع روسيا في الشمال والغرب، و1783 كم مع الصين في الشرق، و1242 كم مع قيرغيزستان في الجنوب، و2359 كم مع أوزبكستان، و423 كم مع تركمانستان. كم يبلغ الطول الإجمالي لحدود كازاخستان مع جميع الدول المجاورة لها.\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_4_41",
+      "position": 6,
+      "id": "fe8308c6-90f3-4c23-ac94-6233c69e53a8",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "13392",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "QsZ-R7LhUHU",
+      "videoUrl": "https://youtube.com/embed/QsZ-R7LhUHU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/8d58b3ff4a459921c5231fe98e3d44a4?p=AU6fNRzp97ewcjAmeFt7oQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/IWazFJ-2qt4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/Sp8LzuGLY-o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/QsZ-R7LhUHU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_34",
+    "count": 4,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2336",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_12_18_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_12_18_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_12_18_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_12_18_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "kq",
+          "kgz": "кг",
+          "uzb": "kg",
+          "eng": "kg",
+          "rus": "кг",
+          "kaz": "кг",
+          "arjd": "kg",
+          "arsa": "كغم",
+          "areg": "كجم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 9,
+        "number2": 21,
+        "number1": 268,
+        "letter": "z"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "İstixanadan 268 kq pomidor yığıldı. Pomidorlar hər birinə 21 kq olmaqla \\(z\\) qutuya qoyuldu. Nə qədər pomidor qaldı? Burada \\(z\\) = 9.\n",
+          "kgz": "Күнөсканадан 268 кг помидор жыйналды.\n\\(z\\) ящиктерге ар бирине  21 кг помидор салышты.\nКанча килограмм помидор калды? Мында\n",
+          "uzb": "Issiqxonadan 268 kg pomidor terildi va 21 kg dan \\(z\\) ta idishga solindi.\nNecha kilogramm pomidor qoldi? Bu yerda \\(z\\) = 9.\n",
+          "eng": "268 kg of tomatoes are harvested from the greenhouse. 268 kg of tomatoes are placed in \\(z\\) boxes.\nHow many kilograms of tomatoes are left? Here \\(z\\) = 9.\n",
+          "rus": "Из теплицы было собрано 268 кг помидоров. В \\(z\\) ящиков упаковали по 21 кг помидоров.\nСколько килограммов помидоров осталось? Здесь \\(z\\) = 9.\n",
+          "kaz": "Жылыжайдан 268 кг қызанақ жиналды. \\(z\\) жәшікке 21 кг-нан салынды.\nНеше килограмм қызанақ қалды? Мұндағы \\(z\\) = 9.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا جمعنا من الصوبة الزراعية 268 كجم من الطماطم، ووضعنا 21 كجم في \\(z\\) صندوق،\nفكم كيلوجرامًا من الطماطم يتبقى؟ حيث 9 = \\(z\\)\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_18_1",
+      "position": 0,
+      "id": "46b01c67-b116-4991-b546-d9430f436baf",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "79",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "OJQbM1_-tBk",
+      "videoUrl": "https://youtube.com/embed/OJQbM1_-tBk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/6974fa2a1d1b491d0123131071b0e80a?p=uxkKsmn0-Ib7k6yhMrfoUQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/TRgHKX4BGAI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/_qqfoRNjTYM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/OJQbM1_-tBk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_37",
+    "count": 3,
+    "launch": {
+      "grade": 4,
+      "chapterId": "136",
+      "lessonId": "2311",
+      "taskIndex": 1
+    },
+    "tasks": [
+      {
+        "id": "4_11_3_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2311",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_12_19_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2337",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_12_19_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2337",
+          "taskIndex": 9
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "\\(\\%\\)",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 71
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "“%” işarəsindən istifadə edərək kəsri faizlə yazın.",
+        "kgz": "«%» белгисин колдонуп, бөлчөктү процент менен жазыңыз.",
+        "uzb": "«%» belgisidan foydalanib kasrni foiz ko'rinishida yozing.",
+        "eng": "Using the '%' sign, write down the fraction as a percentage.",
+        "rus": "Используя знак «%», запишите дробь в процентах.",
+        "kaz": "«%» белгісін пайдаланып, бөлшекті пайыз түрінде жазыңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "اكتب الكسر في صورة نسبة مئوية باستخدام العلامة «%».",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": "\\(\\dfrac{71}{100}\\) = ",
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_11_3_2",
+      "position": 1,
+      "id": "e2ef84e9-9b28-421e-917a-54cdc0af379d",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "71",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "DBiDqW5isnM",
+      "videoUrl": "https://youtube.com/embed/DBiDqW5isnM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/f6e0a26a3a8d9ff86f2baee4a0e717fa?p=LGHnFlr1DRmZ4nEUN4wL9A",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/oceuLqgHvEg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/ed_l0Raab_Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/DBiDqW5isnM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_49",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "136",
+      "lessonId": "2313",
+      "taskIndex": 11
+    },
+    "tasks": [
+      {
+        "id": "4_11_11_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2313",
+          "taskIndex": 11
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "mm",
+          "kgz": "",
+          "uzb": "mm",
+          "eng": "mm",
+          "rus": "мм",
+          "kaz": "мм",
+          "arjd": "(mm)",
+          "arsa": "",
+          "areg": "مم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number3": 4,
+        "number2": 5,
+        "number1": 15
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "15 mm-nin \\(\\dfrac{4}{5}\\) hissəsi nə qədərdir?",
+          "kgz": "15 миллиметрдин \\(\\dfrac{4}{5}\\) бөлүгү канчага барабар?",
+          "uzb": "15 mm ning \\(\\dfrac{4}{5}\\) qismini toping?",
+          "eng": "What is \\(\\dfrac{4}{5}\\) of 15 mm?",
+          "rus": "Чему равно \\(\\dfrac{4}{5}\\) части 15 мм?",
+          "kaz": "15 мм-дің \\(\\dfrac{4}{5}\\) бөлігі нешеге тең?",
+          "arjd": "",
+          "arsa": "",
+          "areg": "كم يكون \\(\\dfrac{4}{5}\\) من 15 مم؟",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_11_11_6",
+      "position": 11,
+      "id": "131bc598-f722-4f02-bf1b-fb1b94dc56c1",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "12",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "_N-yUkFo2Ag",
+      "videoUrl": "https://youtube.com/embed/_N-yUkFo2Ag?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/a1ba48ea48b49b12fb0dc6a16bb008c4?p=BviZ7Sxds9lsViyfauHwPw",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/fCz-lHh6pcA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/pc-yqqIlLI4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/_N-yUkFo2Ag?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_64",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "133",
+      "lessonId": "2250",
+      "taskIndex": 16
+    },
+    "tasks": [
+      {
+        "id": "4_7_1_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2250",
+          "taskIndex": 16
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "а",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 6200
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+        "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+        "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+        "eng": "Express it in the unit of measurement given.",
+        "rus": "Выразите в указанной единице измерения.",
+        "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حوِّل إلى وحدة القياس المحددة:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "6200 \\(m^2\\) = ",
+          "kgz": "6200 \\(м^2\\) = ",
+          "uzb": "6200 \\(m^2\\) = ",
+          "eng": "6,200 \\(m^2\\) = ",
+          "rus": "6200 \\(м^2\\) = ",
+          "kaz": "6200 \\(м^2\\) = ",
+          "arjd": "",
+          "arsa": "",
+          "areg": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_7_1_14",
+      "position": 16,
+      "id": "a7ce9d49-7627-4672-9fc4-ba5d29a75ba8",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "62",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "MH-fPeqEnwo",
+      "videoUrl": "https://youtube.com/embed/MH-fPeqEnwo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/231fb8cdf511db8162f4af8f4a8af5bf?p=vitVFlhM3G1b5AkrFic6AA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/w69wtR6O2w0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/3trbLB9DIcQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/MH-fPeqEnwo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_67",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2335",
+      "taskIndex": 3
+    },
+    "tasks": [
+      {
+        "id": "4_12_17_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2335",
+          "taskIndex": 3
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "kq",
+          "kgz": "кг",
+          "uzb": "kg",
+          "eng": "kg",
+          "rus": "кг",
+          "kaz": "кг",
+          "arjd": "kg",
+          "arsa": "كغم",
+          "areg": "كجم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter": "x",
+        "number": 15
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Uşaqlar bağda alma yığırdılar. Birlikdə \\(x\\) kq alma yığdılar.\nƏgər 15 uşaq almaları bərabər bölüşdülərsə, hər uşağın aldığı almanın miqdarını ifadə şəklində yazın.\n",
+          "kgz": "Балдар бакчада алма терип жатышты. Алар чогуу \\(x\\) кг алма чогултушту.\nЭгерде 15 бала алмаларды бирдей бөлүп алышса, анда ар бир бала алган алманын салмагын жазыңыз.\n",
+          "uzb": "Bolalar bog'dan olma terishdi. Ular birgalikda \\(x\\) kilogramm olma terishdi.\nAgar 15 nafar bolaga olmalarni teng taqsimlasa, har bir bola tergan olmani harfli ifoda ko'rinishida yozing.\n",
+          "eng": "The children pick apples in the garden. Together, they collect \\(x\\) kg of apples.\nIf 15 children divide the apples equally, write down the mass of apples that each child gets.\n",
+          "rus": "Дети собирали яблоки в саду. Вместе они собрали \\(x\\) кг яблок.\nЕсли 15 детей разделили яблоки поровну, то запишите массу яблок, которую получил каждый ребенок.\n",
+          "kaz": "Балалар бақшадан алма жинады. Олар бірігіп \\(x\\) кг алма жинады.\nЕгер алмаларды 15 бала теңдей бөліп алса, онда әр балаға бөлінген алманың массасын өрнек құрып жазыңыз.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "قطف الأطفال بعض التفاح من المزرعة. إذا قطفوا \\(x\\) كجم من التفاح معًا،\nثم قام 15 أطفال بتقسيم إجمالي عدد التفاح على بعضهم بالتساوي، فاكتب تعبيرًا يمثل كمية التفاح التي حصل عليها كل طفل.\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_17_4",
+      "position": 3,
+      "id": "8b9240dc-66be-45fb-90c9-4a4d76a98505",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "x : 15 || \\frac{x}{15}",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "TX3vT9V70LM",
+      "videoUrl": "https://youtube.com/embed/TX3vT9V70LM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/aae7fe8cfe7301c280a5c992573f00a6?p=3WeCZLtuzVz6P5YWO65a1Q",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/4XurvzRB_As?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/ZFmvhufwE_E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/TX3vT9V70LM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_68",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2335",
+      "taskIndex": 4
+    },
+    "tasks": [
+      {
+        "id": "4_12_17_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2335",
+          "taskIndex": 4
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "km",
+          "kgz": "",
+          "uzb": "km",
+          "eng": "km",
+          "rus": "км",
+          "kaz": "км",
+          "arjd": "km",
+          "arsa": "كلم",
+          "areg": "كم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter2": "t",
+        "letter1": "y"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Velosipedçi \\(t\\) saat ərzində \\(y\\) km/saat sürətlə getdi.\nBu müddət ərzində hansı məsafəni qət etdi?\n",
+          "kgz": "Велосипедчен \\(t\\) саатта \\(y\\) км/саат ылдамдык менен жүрдү.\nАл бул убакытта канча аралыкты жүрдү?\n",
+          "uzb": "Velosipedchi \\(t\\) km/h tezlik bilan \\(y\\) soat yo'l yurdi.\nBu vaqt mobaynida u qancha masofani bosib o'tdi?\n",
+          "eng": "The cyclist travels for \\(t\\) hours at a speed of \\(y\\) km/h.\nWrite the distance he travels as an expression.\n",
+          "rus": "Велосипедист ехал в течение \\(t\\) часов со скоростью \\(y\\) км/ч.\nКакое расстояние он проехал за это время?\n",
+          "kaz": "Велосипедші \\(y\\) км/сағ жылдамдықпен \\(t\\) сағ жүрді.\nОл осы уақыт ішінде қанша жол жүрді?\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا قطع راكب الدراجة مسافة بسرعة \\(y\\) كم/ ساعة لمدة \\(t\\) ساعة، فكم المسافة التي قطعها خلال هذه الفترة؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_17_5",
+      "position": 4,
+      "id": "dfef4a8e-e7f5-4ff3-b7f5-73e9c1d31d97",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "yt",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "EPaNNH-f1TM",
+      "videoUrl": "https://youtube.com/embed/EPaNNH-f1TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/fbb4f628ac68c587c5e7cfcc2e2fd22c?p=5HyxvPVbUCFZ77rLIgrf5g",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/ui7s4ZybI8g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/rF6hnJjc6Xw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/EPaNNH-f1TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_69",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2335",
+      "taskIndex": 5
+    },
+    "tasks": [
+      {
+        "id": "4_12_17_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2335",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "km/saat",
+          "kgz": "",
+          "uzb": "km/h",
+          "eng": "km/h",
+          "rus": "км/ч",
+          "kaz": "км/сағ",
+          "arjd": "km/h",
+          "arsa": "كلم/ساعة",
+          "areg": "كم/ساعة",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter2": "m",
+        "letter1": "a",
+        "number2": 63,
+        "number1": 3
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Avtomobil \\(m\\) km məsafəni \\(a\\) saata getdi.\nAvtomobil hansı sürətlə hərəkət etdi? Burada: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "kgz": "Машина \\(m\\) км аралыкты \\(a\\) саатта өттү.\nМашина кандай ылдамдык менен жүрдү? Бул жерде: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "uzb": "Mashina b soatda y km yo'l bosib o'tdi. Mashina qanday tezlikda harakat qildi?\nBu yerda: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "eng": "I drive the car for \\(m\\) km in \\(a\\) hours.\nAt what speed is the car moving? Here: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "rus": "Автомобиль проехал \\(m\\) км за \\(a\\) часов. С какой скоростью двигался автомобиль?\nГде: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "kaz": "Автокөлік \\(a\\) сағат ішінде \\(m\\) км жол жүрді. Ол қандай жылдамдықпен қозғалған?\nМұндағы: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا قطعت السيارة مسافة \\(m\\) كم في \\(a\\) ساعة، فكم تبلغ سرعتها؟\nحيث 3=\\(a\\)، 63=\\(m\\)\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_17_6",
+      "position": 5,
+      "id": "3050bb35-aed4-4c73-bd06-8cf23bbb1268",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "21",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "F0uI3oejFAM",
+      "videoUrl": "https://youtube.com/embed/F0uI3oejFAM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/9e8d4e2da6c378d64912bcecaf7fd087?p=S49pJBV2BBxahqWYElqQiA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/03-QKF0YuUk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/hUiwVYg5oH0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/F0uI3oejFAM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_76",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "138",
+      "lessonId": "2358",
+      "taskIndex": 16
+    },
+    "tasks": [
+      {
+        "id": "4_10_9_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2358",
+          "taskIndex": 16
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "kq",
+          "kgz": "кг",
+          "uzb": "kg",
+          "eng": "kg",
+          "rus": "кг",
+          "kaz": "кг",
+          "arjd": "kg",
+          "arsa": "كغم",
+          "areg": "كجم",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number5": 13,
+        "number6": 24,
+        "number4": 14,
+        "number3": 300,
+        "number2": 400,
+        "number1": 400
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Çiyələk üç bağ sahəsində yetişdirilirdi.\nBirinci sahədən 1 m² torpaqdan 400 qram, ikinci sahədən 400 qram, üçüncü sahədən isə 300 qram çiyələk yığılıb.\nƏgər birinci sahənin ərazisi 14 m², ikinci sahənin ərazisi 13 m², üçüncü sahənin ərazisi isə 24 m²-dirsə, neçə kq çiyələk yığılıb?\n",
+          "kgz": "Үч огороддо кулпунай өстүрүлгөн. 1 м² жер үчүн биринчи участоктон 400 г, экинчиден 400 г, үчүнчүдөн 300 г жыйналды.\nБиринчи участоктун аянты 14 м² , экинчи участоктун  аянты 13 м², ал эми үчүнчү участоктун аянты 24 м² болсо, үч участоктон канча кг кулпунай жыйналды?\n",
+          "uzb": "Uchta bog'da qulupnay o'stirildi. Har 1 m² yerga hisoblanganda birinchi bog'da 400 g, ikkinchi bog'da 400 g, uchinchi bog'da 300 g hosildorlik bo'ldi.\nAgar, birinchi bog'ning maydoni 14 m², ikkinchi bog'ning maydoni 13 m², uchinchi bog'ning maydoni 24 m² bo'lsa, umumiy necha kg qulupnay terildi?\n",
+          "eng": "Strawberries are grown on three garden plots. From each square meter, 400 g are collected from the first plot, 400 g from the second plot, and 300 g from the third plot.\nIf the area of the first plot is 14 m², the area of the second plot is 13 m², and the area of the\nthird plot is 24 m², how many kilograms of strawberries are collected in total?\n",
+          "rus": "Клубнику выращивали на трех садовых участках.\nНа 1 м² земли с первого участка собрали 400 г, со второго участка собрали 400 г, с третьего участка собрали 300 г.\nЕсли площадь первого участка 14 м², площадь второго участка 13 м², а площадь третьего участка 24 м², сколько всего кг клубники было собрано?\n",
+          "kaz": "Үш бақша алаңдарына құлпынай өсірілді.\nӘр 1 м² жерге шаққан кезде бірінші бақшада 400 г, екінші бақшада 400 г, үшінші бақшада 300 г түсім болды.\nЕгер, бірінші бақшаның ауданы 14 м², екінші бақшаның ауданы 13 м², үшінші бақшаның ауданы 24 м² болса, барлығы неше кг құлпынай жиналды?\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "زُرعت الفراولة في ثلاثة حقول، وكانت إنتاجية كل متر مربع كما يلي: 400 جرام في الحقل الأول، و400 جرام في الحقل الثاني، و300 جرام في الحقل الثالث.\nإذا كانت مساحة الحقل الأول 14 مترًا مربعًا، والحقل الثاني 13 مترًا مربعًا، والحقل الثالث 24 مترًا مربعًا، فكم كيلوجرامًا يبلغ إجمالي المحصول؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_10_9_18",
+      "position": 16,
+      "id": "2c3408ae-6dec-4431-9228-f84bc5e34aca",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "18",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "3Pb0K_1Og7M",
+      "videoUrl": "https://youtube.com/embed/3Pb0K_1Og7M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7ee20a200aa08efc63914edc6ad92c43?p=CXo1LHsdBePu5dIOCkQl0A",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/5Q-8TMDoI1w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/_BS1rAKlZwU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/3Pb0K_1Og7M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

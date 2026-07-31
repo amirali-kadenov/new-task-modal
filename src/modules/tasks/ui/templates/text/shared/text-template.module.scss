@@ -1,0 +1,69 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable declaration-no-important */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputRow {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.solutionRow {
+  align-items: flex-end;
+}
+
+.input {
+  flex: 0 1 auto;
+  min-width: 120px;
+}
+
+/** Solution-mode formula — no min-width so unit suffix sits next to the answer. */
+.answerFormula {
+  flex: 0 1 auto;
+}
+
+.prefix,
+.suffix {
+  font-family: 'Halvar Mittel', sans-serif;
+  white-space: nowrap;
+
+  /* CHTML italic letters; adornments should stay upright. */
+  :global(.mjx-i),
+  :global(.TEX-I) {
+    font-family: var(--font-halvar) !important;
+    font-style: normal !important;
+  }
+
+  /* Inline styles from MathJax on Unicode units — must use !important. */
+  :global(mjx-utext) {
+    padding: 0.75em 0 0.2em !important;
+    font-family: var(--font-halvar) !important;
+    font-size: 100% !important;
+    font-style: normal !important;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.fieldLabel {
+  flex-shrink: 0;
+  margin-inline-end: 4px;
+  white-space: nowrap;
+}

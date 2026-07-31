@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.textPart {
+  white-space: pre-wrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.formula {
+  display: block;
+  overflow-x: auto;
+}
+
+.multipleChoice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  justify-content: center;
+}
+
+.variant {
+  padding: var(--space-8) var(--space-12);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-8);
+}
+
+.variantCorrect {
+  background: var(--surface-info, #d1f1ff);
+}
+
+.variantImage {
+  font-size: 14px;
+}
+
+.htmlPart {
+  overflow-x: auto;
+}
+
+.unsupported {
+  @include caption-regular;
+
+  color: var(--text-secondary);
+}

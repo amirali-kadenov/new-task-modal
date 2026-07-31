@@ -1,0 +1,98 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": "x1",
+  "result": "none",
+  "fields": {
+    "difficulty": "x1",
+    "number2": 40000,
+    "number1": 30000
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Ədədləri müqayisə edin.",
+    "kgz": "Сандарды салыштырыңыз.",
+    "uzb": "Sonlarni taqqoslang.",
+    "eng": "Compare the numbers.",
+    "rus": "Сравните числа.",
+    "kaz": "Сандарды салыстырыңыз.",
+    "arjd": "",
+    "arsa": "قارن بين العددين مستعملًا ( > ، < ، = )",
+    "areg": "قارن بين العددين:",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "svg2": "",
+    "svg1": "",
+    "images": [],
+    "imageBefore": "",
+    "equations": [],
+    "text_before": "",
+    "text_after": "",
+    "table_before": null,
+    "type": "comparison",
+    "second": 40000,
+    "first": 30000
+  },
+  "type": "Elixir.Task_4_1_13",
+  "position": 0,
+  "id": "bc62555c-2774-4157-9cb1-d20e335cbd98",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "<",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "iAi1PCgnyGc",
+  "videoUrl": "https://youtube.com/embed/iAi1PCgnyGc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/aaadccb244d12e8c64da7189deadda97?p=y9T5fdFekfpJU_7EBUt1CA",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/Hfu42l5YH08?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/CuB1w1ZfK08?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/FTxdYPrViYs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/iAi1PCgnyGc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": "https://youtube.com/embed/gjg4t8Srowk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "areg": "https://youtube.com/embed/gjg4t8Srowk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

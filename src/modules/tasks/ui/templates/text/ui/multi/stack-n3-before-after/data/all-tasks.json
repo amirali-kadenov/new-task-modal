@@ -1,0 +1,398 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_3_12_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2151",
+          "taskIndex": 9
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input3": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Karandaş",
+                "kgz": "Карандаш:",
+                "uzb": "Qalamlar:",
+                "eng": "Pencils ",
+                "rus": "Карандаши:",
+                "kaz": "Қарындаш:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "دستة أقلام الرصاص:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": {
+                "with_audio_player": false,
+                "aze": "qəpik",
+                "kgz": "сом",
+                "uzb": "so'm",
+                "eng": "cents",
+                "rus": "тг",
+                "kaz": "тг",
+                "arjd": "",
+                "arsa": "",
+                "areg": "جنيه",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "boyalar",
+                "kgz": "Боек:",
+                "uzb": "Bo'yoq:",
+                "eng": "Paints ",
+                "rus": "Краски:",
+                "kaz": "Бояу:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "علبة الألوان المائية:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": {
+                "with_audio_player": false,
+                "aze": "qəpik",
+                "kgz": "сом",
+                "uzb": "so'm",
+                "eng": "cents",
+                "rus": "тг",
+                "kaz": "тг",
+                "arjd": "",
+                "arsa": "",
+                "areg": "جنيه",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Albom",
+                "kgz": "Альбом:",
+                "uzb": "Albom:",
+                "eng": "Album ",
+                "rus": "Альбом:",
+                "kaz": "Альбом:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "كراسة الرسم:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": {
+                "with_audio_player": false,
+                "aze": "qəpik",
+                "kgz": "сом",
+                "uzb": "so'm",
+                "eng": "cents",
+                "rus": "тг",
+                "kaz": "тг",
+                "arjd": "",
+                "arsa": "",
+                "areg": "جنيه",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 30
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 293,
+            "number2": 588,
+            "number1": 665
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Alboma, boyalara və karandaşlara 665 qəpik xərclənib.\nAlboma və boyalara 588 qəpik, boyalara və karandaşlara isə 293 qəpik xərclənib.\nAlbom, boya və karandaşların hər birinin ayrı-ayrılıqda qiymətini tapın.\n",
+              "kgz": "Альбом, боектор жана калемдер 665 сомго сатып алынган.\nАльбом жана боектор үчүн 588 сом, боектор жана калемдер үчүн - 293 сом төлөштү.\nАльбом, боектор жана калемдердин ар бири канча акча турат?\n",
+              "uzb": "665 so'mga albom, bo'yoq va qalam sotib olindi.\nAlbom va bo'yoqqa 588 so'm, bo'yoq va qalamga esa 293 so'm to'landi.\nAlbom, bo'yoq va qalamning alohida narxi necha so'm?\n",
+              "eng": "An album, paints, and pencils are bought for 665 cents.\nThe cost of the album and paints is 588 cents, and the cost of the paints and pencils is 293 cents.\nHow much does each item cost?\n",
+              "rus": "Альбом, краски и карандаши были куплены за 665 тенге.\nЗа альбом и краски заплатили 588 тенге, за краски и карандаши - 293 тенге.\nСколько стоит альбом, краски и карандаши по отдельности?\n",
+              "kaz": "665 теңгеге альбом, бояу және қарындаш сатып алынды.\nАльбом мен бояуға 588 теңге, ал бояу мен қарындашқа 293 теңге төленді.\nАльбом, бояу және қарындаш жеке-жеке қанша теңге тұрады?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "اشترى طالب كراسة رسم وعلبة ألوان مائية ودستة أقلام رصاص بسعر 665 جنيهًا.\nإذا دفع 588 جنيهًا ثمن كراسة الرسم وعلبة الألوان المائية، ودفع 293 جنيهات ثمن علبة الألوان المائية ودستة أقلام الرصاص،\nفما هو سعر كراسة الرسم وعلبة الألوان المائية ودستة أقلام الرصاص كل على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_3_12_10",
+          "position": 9,
+          "id": "56aabbae-8ecb-46a9-b7d8-f092f55e15fc",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "372;;216;;77",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "DuSUbbfqa5o",
+          "videoUrl": "https://youtube.com/embed/DuSUbbfqa5o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/03fd509400e4f76064e26eeebe5e6836?p=-2yPTjXlp-IKr2FlAsEq-w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/7zbVrAblrEI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/_L5Z29axKWc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/DuSUbbfqa5o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_45"
+      },
+      {
+        "id": "4_6_7_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2206",
+          "taskIndex": 11
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input3": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Karandaş",
+                "kgz": "Карандаш:",
+                "uzb": "ruchka",
+                "eng": "Pencil:",
+                "rus": "Карандаш:",
+                "kaz": "Қарындаш:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "كراسة رسم:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": {
+                "with_audio_player": false,
+                "aze": "qəpik",
+                "kgz": "сом",
+                "uzb": "so'm",
+                "eng": "cents",
+                "rus": "тг",
+                "kaz": "тг",
+                "arjd": "",
+                "arsa": "",
+                "areg": "جنيه",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Silgi",
+                "kgz": "Өчүргүч:",
+                "uzb": "o'chirg'ich",
+                "eng": "Eraser:",
+                "rus": "Ластик:",
+                "kaz": "Өшіргіш:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "كتاب:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": {
+                "with_audio_player": false,
+                "aze": "qəpik",
+                "kgz": "сом",
+                "uzb": "so'm",
+                "eng": "cents",
+                "rus": "тг",
+                "kaz": "тг",
+                "arjd": "",
+                "arsa": "",
+                "areg": "جنيه",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Qələm",
+                "kgz": "Калем:",
+                "uzb": "qalam",
+                "eng": "Pen:",
+                "rus": "Ручка:",
+                "kaz": "Қалам:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "علبة ألوان:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": {
+                "with_audio_player": false,
+                "aze": "qəpik",
+                "kgz": "сом",
+                "uzb": "so'm",
+                "eng": "cents",
+                "rus": "тг",
+                "kaz": "тг",
+                "arjd": "",
+                "arsa": "",
+                "areg": "جنيه",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 30
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 189,
+            "number2": 309,
+            "number1": 392
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Qələm, silgi və karandaş 392 qəpiyə alınıb.\nQələm və silgi üçün 309 qəpik, qələm və karandaş üçün 189 qəpik ödəyiblər.\nQələm, silgi və karandaş ayrılıqda neçə qəpikdir?\n",
+              "kgz": "Калем сап, өчүргүч жана калем  392 сом турат.\nКалем сап жана өчүргүч үчун 309 сом, калем сап жана калем үчүн – 189 сом төлөштү.\nКалем сап, өчүргүч жана калемдин ар бири канча турат?\n",
+              "uzb": "392 so'mga qalam, o'chirg'ich va ruchka sotib olindi.\nQalam va o'chirg'ichga 309 so'm, qalam va ruchkaga esa 189 so'm to'landi.\nQalam, o'chirg'ich va ruchka har birining narxi necha so'm?\n",
+              "eng": "A pen, eraser, and pencil are bought for 392 cents.\nThe pen and eraser cost 309 cents, and the pen and pencil cost 189 cents.\nHow much does each item cost?\n",
+              "rus": "Ручка, ластик и карандаш куплены на 392 тенге.\nЗа ручку и ластик заплатили 309 тенге, за ручку и карандаш – 189 тенге.\nСколько стоит ручка, ластик и карандаш по отдельности?\n",
+              "kaz": "392 теңгеге қалам, өшіргіш және қарындаш сатып алынды.\nҚалам мен өшіргішке 309 теңге, ал қалам мен қарындашқа 189 теңге төленді.\nҚалам, өшіргіш және қарындаш әрқайсысы неше теңгеден тұрады?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "اشترى مصطفى من المكتبة علبة ألوان وكتابًا وكراسة رسم بمبلغ 392 جنيهًا.\nإذا دفع مصطفى 309 جنيهات ثمن الكتاب وكراسة الرسم،\nودفع 189 جنيهًا ثمن علبة الألوان وكراسة الرسم،\nفما هو سعر علبة الألوان والكتاب وكراسة الرسم كل على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_6_7_12",
+          "position": 11,
+          "id": "0094419a-dd63-43b9-929a-8b7c891b9081",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "106;;203;;83",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "oNvIoysjjVc",
+          "videoUrl": "https://youtube.com/embed/oNvIoysjjVc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/acdf46783f297737f529ed0eff5cb781?p=AA5GGRyfek_3mO-hkGM8MQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/tX7X7ihJ9AQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/ADI_z31ZIok?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/oNvIoysjjVc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_45"
+      }
+    ]
+  }
+}

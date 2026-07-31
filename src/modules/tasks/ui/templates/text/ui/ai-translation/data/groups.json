@@ -1,0 +1,534 @@
+[
+  {
+    "group": "text_54",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2335",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_12_17_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2335",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_12_17_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2335",
+          "taskIndex": 2
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "with_audio_player": false,
+        "aze": "manat",
+        "kgz": "сом",
+        "uzb": "so'm",
+        "eng": "cents",
+        "rus": "руб",
+        "kaz": "тг",
+        "arjd": "",
+        "arsa": "",
+        "areg": "جنيه",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter": "z",
+        "number": 30
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Bir çobanyastığı çiçəyinin qiyməti \\(z\\) manatdır, qızılgülün qiyməti isə ondan 30 qəpik daha çoxdur.\nBir qızılgülün qiymətini ifadə şəklində yazın.\n",
+          "kgz": "Бир  бархатцынын баасы —  \\(z\\) сом болсо, ал эми  бир розанын баасы  30 сомго кымбат.\nБир розанын баасынын туюнтмасын жазыңыз.\n",
+          "uzb": "Masalani ifoda tuzib yeching.\nBir dona baxmal gulning narxi \\(z\\) so'm, bir dona atirgulning narxi esa undan 30 so'mga qimmat.\nBir atirgulning narxini algebraik ifoda ko'rinishida yozing.\n",
+          "eng": "The price of one velvet flower is \\(z\\) cents, and the price of one rose is 30 cents more.\nWrite the price of one rose as an expression.\n",
+          "rus": "Цена одной бархатцы — \\(z\\) тенге, а одной розы на 30 тенге больше.\n Запишите цену одной розы, в виде выражения.\n",
+          "kaz": "Бір барқытгүлдің бағасы \\(z\\) теңге, ал бір раушангүлдің бағасы одан 30 теңгеге артық.\nБір раушангүлдің бағасын өрнек құрып жазыңыз.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "إذا كان سعر زهرة النرجس الواحدة \\(z\\) جنيه، بينما سعر الوردة البلدي الواحدة يزيد عن ذلك بمقدار 30 جنيهًا،\nفاكتب تعبيرًا يمثل سعر الوردة البلدي الواحدة.\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_17_1",
+      "position": 0,
+      "id": "082ccbad-fbd6-4a79-a497-93a853db48ab",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "z + 30 || 30 + z",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "xPp83WiZ-nU",
+      "videoUrl": "https://youtube.com/embed/xPp83WiZ-nU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7e63399588058883c231ac2786cbdfc5?p=EflsMSvatsVgpqnbENg-9Q",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/X2-Tb67d9wM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/qfNESy-JnT0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/xPp83WiZ-nU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_55",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2336",
+      "taskIndex": 8
+    },
+    "tasks": [
+      {
+        "id": "4_12_18_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_12_18_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 10
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "with_audio_player": false,
+        "aze": "manat",
+        "kgz": "сом",
+        "uzb": "so'm",
+        "eng": "cents",
+        "rus": "руб",
+        "kaz": "тг",
+        "arjd": "",
+        "arsa": "",
+        "areg": "جنيه",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter2": "x",
+        "letter1": "a",
+        "number4": 6,
+        "number3": 6,
+        "number2": 3506,
+        "number1": 9681
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Məktəb kitabxanasının kitab fondunu artırmaq üçün 9681 manat dəyərində \\(a\\) sayda ensiklopediya və 3506 manat dəyərində \\(x\\) sayda lüğət alındı.\nKitabların alınmasına nə qədər manat xərcləndi? Burada \\(a\\) = 6, \\(x\\) = 6.\n",
+          "kgz": "Мектептин китепканасынын фондун толуктоо үчүн ар бири 9681 сомдон \\(a\\) сандагы энциклопедия жана  ар бири 3506 сомдон \\(x\\) сөздүк сатып алынды.\nКитептерди сатып алууга бардыгы канча акча кетирилген? Мында \\(a\\) = 6, \\(x\\) = 6.\n",
+          "uzb": "Maktab kutubxonasining kitob fondini to‘ldirish maqsadida har biri 9681 so'mdan \\(a\\) ta ensiklopediya, 3506 so'mdan \\(x\\) ta lug‘at xarid qilindi.\nKitoblarni sotib olish uchun jami qancha so'm sarflangan? Bu yerda \\(a\\) = 6, \\(x\\) = 6.\n",
+          "eng": "The school library buys \\(a\\) encyclopedias for 9681 dollars each and \\(x\\) dictionaries for 3506 dollars each.\nHow much dollars is spent on the books? Here, \\(a\\) = 6, \\(x\\) = 6.\n",
+          "rus": "Для пополнения книжного фонда школьной библиотеки были приобретены \\(a\\) энциклопедии по 9681 тенге и \\(x\\) словарей по 3506 тенге каждый.\nСколько всего тенге было потрачено на покупку книг? Здесь \\(a\\) = 6, \\(x\\) = 6.\n",
+          "kaz": "Мектеп кітапханасының кітап қорын толықтыру үшін әрқайсысы 9681 теңгеден \\(a\\) энциклопедия және 3506 теңгеден \\(x\\) сөздік сатып алынды.\nКітаптарды сатып алу үшін барлығы неше теңге жұмсалды? Мұндағы \\(a\\) = 6, \\(x\\) = 6.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "لزيادة مخزون الكتب في المكتبة اشترت المدرسة \\(a\\) موسوعة بسعر 9681 جنيهًا لكل منها، و\\(x\\) قاموسًا بسعر 3506 جنيهات لكل منه.\nكم إجمالي المبلغ المدفوع لشراء الكتب؟ حيث \\(a\\) = 6, \\(x\\) = 6.\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_18_9",
+      "position": 8,
+      "id": "b29705d4-5e0a-4d96-bf58-71c3b5df9f94",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "79122",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "xmcRK-MoNfE",
+      "videoUrl": "https://youtube.com/embed/xmcRK-MoNfE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7a875a5a2f009b1da38bed1c20492ef3?p=RRNWJwvShly2ep7oQRnDuQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/meUjEmRYll4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/R4o93wnDNpk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/xmcRK-MoNfE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_71",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2336",
+      "taskIndex": 9
+    },
+    "tasks": [
+      {
+        "id": "4_12_18_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 9
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "with_audio_player": false,
+        "aze": "kq",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "kg",
+        "arsa": "كغم",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter2": "y",
+        "letter1": "b",
+        "number3": 58545,
+        "number2": 56670,
+        "number1": 5
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Beş bazara \\(b\\) kq armud və \\(y\\) kq alma gətirdilər. Bir bazara armuddan nə qədər çox alma gətirdilər? Burada \\(b\\) = 56670, \\(y\\) = 58545.",
+          "kgz": "5 базарга \\(b\\) кг алмурут жана \\(b\\) кг алма алып барышты.\\(\\\\\\)Бир базарга алма алмурутка караганда канча килограммга көп алынып келинди? Мында \\(b\\) = 56670, \\(y\\) = 58545.",
+          "uzb": "5 ta bozorga \\(b\\) kg nok va \\(y\\) kg olma keltirildi.\\(\\\\\\)Bitta bozorga keltirilgan olmalar nokdan necha kilogrammga ko‘p? Bu yerda \\(b\\) = 56670, \\(y\\) = 58545.",
+          "eng": "\\(b\\) kg of pears and  \\(y\\) kg of apples are brought to 5 markets.\\(\\\\\\)How many more kilograms of apples than pears are brought to one market? Here, \\(b\\) = 56,670 and \\(y\\) = 58,545.",
+          "rus": "На 5 рынков было привезено \\(b\\) кг груш и \\(y\\) кг яблок.\\(\\\\\\)Если на каждый рынок было привезено одинаковое количество груш и яблок, то на сколько килограммов больше яблок было привезено на один рынок, чем груш? Здесь \\(b\\) = 56670, \\(y\\) = 58545.",
+          "kaz": "5 базарға \\(b\\) кг алмұрт және \\(y\\) кг алма әкелінді.\\(\\\\\\)Егер әр базарға әкелінген алмұрт және алма салмағы бірдей болса, онда бір базарға әкелінген алмалар алмұрттардан неше килограммға артық?\\(\\\\\\)Мұндағы \\(b\\) = 56670, \\(y\\) = 58545.",
+          "arjd": "",
+          "arsa": "",
+          "areg": "تم توريد \\(b\\) كجم من الجوافة و\\(y\\) كجم من التفاح إلى 5 أسواق. إذا تم توزيع الجوافة والتفاح بالتساوي على كل سوق، فكم كيلوجرامًا من التفاح أكثر من الجوافة في كل سوق؟ حيث \\(b\\) = 56670, \\(y\\) = 58545.",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_18_10",
+      "position": 9,
+      "id": "9762923f-933b-4373-9754-8c71c269dd42",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "375",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "b_-dmDuHRb8",
+      "videoUrl": "https://youtube.com/embed/b_-dmDuHRb8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/f32db0481ba33d535f7179338dd6fab8?p=5HEBqmFiKdJWxxdIl_fxjg",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/jcudKJrkvzk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/DnItIa3bvD0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/b_-dmDuHRb8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_72",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2336",
+      "taskIndex": 11
+    },
+    "tasks": [
+      {
+        "id": "4_12_18_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2336",
+          "taskIndex": 11
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "with_audio_player": false,
+        "aze": "manat",
+        "kgz": "сом",
+        "uzb": "so'm",
+        "eng": "cents",
+        "rus": "руб",
+        "kaz": "тг",
+        "arjd": "",
+        "arsa": "",
+        "areg": "جنيه",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number4": 106,
+        "number3": 69,
+        "number2": 2,
+        "number1": 2,
+        "letter": "b"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "İfadə tərtib edərək məsələni həll edin.",
+        "kgz": "Маселени туюнтма түзүү менен чыгарыңыз.",
+        "uzb": "Masalani ifoda tuzib yeching.",
+        "eng": "Write an expression for the problem and solve it.",
+        "rus": "Решите задачу, составив выражение.",
+        "kaz": "Есепті өрнек құрып шығарыңыз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حل المسألة بإنشاء تعبير.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "2 kq alma və 2 kq armud alındı. Almanın qiyməti 1 kq üçün \\(b\\) qəpikdir.\nArmudlar isə almadan 69 qəpik bahadır. 2 kq alma və 2 kq armudun ümumi qiymətini tapın. Burada \\(b\\) = 106.\n",
+          "kgz": "2 кг алма жана 2 кг алмурут сатып алынды.  1 кг алманын баасы \\(b\\) сом турат.\nБир килограмм алмурут алмадан 69 сомго кымбат турат. 2 кг алма жана 2 кг алмуруттун жалпы баасын аныктаңыз.\nМында \\(b\\) = 106.\n",
+          "uzb": "2 kg olma va 2 kg nok sotib olindi. 1 kg olma narxi \\(b\\) so'm. Nok olmadan 69 so'mga qimmat.\n2 kg olma va 2 kg nok narxi jami necha so'm bo‘ladi. Bu yerda \\(b\\) = 106.\n",
+          "eng": "We buy 2 kg of apples and 2 kg of pears. The price of apples is \\(b\\) cents per kg, and pears cost 69 cents more per kg than apples.\nFind the total cost of 2 kg of apples and 2 kg of pears.\nFind the value of the expression if \\(b\\) = 106.\n",
+          "rus": "Купили 2 кг яблок и 2 кг груш. Цена 1 кг яблок составляет \\(b\\) тенге.\nОдин килограмм груши стоит на 69 тенге дороже, чем яблоки. Определите общую стоимость 2 кг яблок и 2 кг груши. Здесь \\(b\\) = 106.\n",
+          "kaz": "2 кг алма мен 2 кг алмұрт сатып алынды. 1 кг алманың бағасы \\(b\\) теңге. Алмұрт алмаға қарағанда 69 теңгеге қымбат.\n2 кг алма мен 2 кг алмұрттың бағаларын қосқанда қанша теңге болатын анықтаңыз. Мұндағы \\(b\\) = 106.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "اشترت الأم 2 كجم من التفاح و2 كجم من الجوافة.\nإذا كان سعر 1 كجم من التفاح \\(b\\) جنيهًا، وزاد سعر كجم الجوافة 69 جنيهًا عن سعر كيلو التفاح،\nفأوجد إجمالي المبلغ المدفوع من الأم لشراء التفاح والجوافة. حيث \\(b\\) = 106.\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_12_18_12",
+      "position": 11,
+      "id": "bf095a38-8a11-40cc-8d1b-c363c1adab85",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "562",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "p_x1OYRClcA",
+      "videoUrl": "https://youtube.com/embed/p_x1OYRClcA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/859e934c285874e7d41049df6e61e223?p=Q514nXUcEMAQn4QzY5pJyA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/_mlL4lW1-28?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/106pOiXWc48?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/p_x1OYRClcA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

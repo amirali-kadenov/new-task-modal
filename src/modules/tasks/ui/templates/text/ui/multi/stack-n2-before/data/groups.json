@@ -1,0 +1,222 @@
+[
+  {
+    "group": "text_19",
+    "count": 9,
+    "launch": {
+      "grade": 4,
+      "chapterId": "129",
+      "lessonId": "2151",
+      "taskIndex": 10
+    },
+    "tasks": [
+      {
+        "id": "4_3_12_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2151",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_9_14_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2302",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_10_3_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_10_4_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_10_4_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_10_4_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_10_4_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_10_4_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_10_4_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 11
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": {
+            "with_audio_player": false,
+            "aze": "Qırmızı sap:",
+            "kgz": "Кызыл жип:",
+            "uzb": "Qizil ip:",
+            "eng": "Red yarn:",
+            "rus": "Красная нитка:",
+            "kaz": "Қызыл жіп:",
+            "arjd": "",
+            "arsa": "الخيوط الحمراء",
+            "areg": "الخيوط الحمراء",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": {
+            "with_audio_player": false,
+            "aze": "Ağ sap:",
+            "kgz": "Ак жип:",
+            "uzb": "Oq ip:",
+            "eng": "White yarn:",
+            "rus": "Белая нитка:",
+            "kaz": "Ақ жіп:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "الخيوط البيضاء",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 6,
+        "number2": 288,
+        "number1": 144
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Nənə 6 ədəd ağ və qırmızı sap alıb. Qırmızı rəngli saplar üçün 144 manat, ağ rəngli saplar üçün isə 288 manat ödəmişdir.\nƏgər saplarin qiymətləri eynidirsə, nənə neçə ağ və qırmızı sap alıb?\n",
+          "kgz": "Чоң эне 6 даана ак жана кызыл жип сатып алды.\nКызыл жипке 144 сом, ак жипке 288 сом төлөдү.\nЖиптердин баасы бирдей болсо, чоң эне канча ак жана канча кызыл жип сатып алганын табыңыз?\n",
+          "uzb": "Buvijon oq va qizil rangli 6 o'ram ip sotib oldi.\nU qizil iplarga 144 so'm, oq iplarga 288 so'm to'ladi.\nAgar iplarning narxlari bir xil bo'lsa, buvijon nechta oq va qizil ip sotib olganini toping.\n",
+          "eng": "A grandmother buys 6 balls of white and red yarn.\nShe pays 144 cents for the red yarn and 288 cents for the white yarn.\nIf the prices of the yarns are the same, how many balls of white and red yarn does the grandmother buy?\n",
+          "rus": "Бабушка купила 6 мотков белой и красной нитки.\nЗа красные нитки она заплатила 144 тенге, за белые — 288 тенге.\nЕсли цены на нитки одинаковы, найдите, сколько белых и красных ниток купила бабушка?\n",
+          "kaz": "Әжей ақ және қызыл түсті 6 орам тоқыма жіп сатып алды.\nОл қызыл жіптерге 144 теңге, ал ақ жіптерге 288 теңге төледі.\nЕгер жіптердің бағалары бірдей болса, әжей қанша ақ және қызыл жіп сатып алғанын табыңыз.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "اشترت الجدة 6 لفات من الخيوط البيضاء والحمراء،\nودفعت 144 جنيهًا ثمن الخيوط الحمراء، في حين دفعت 288 جنيهًا ثمن الخيوط البيضاء.\nإذا كانت أسعار الخيوط متساوية، فكم عدد لفات كل من الخيوط البيضاء والخيوط الحمراء التي اشترتها الجدة؟\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_3_12_11",
+      "position": 10,
+      "id": "c051367b-9278-438b-8c07-4ac54b00c51e",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "4;;2",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "35AKamB6N80",
+      "videoUrl": "https://youtube.com/embed/35AKamB6N80?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/419b2b6c76be386290c61aa90a02e789?p=nqH988_USJ8VzmeMFrPwnQ",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/OHkCpSGPsds?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/9CNJ9mIKi_Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/5CYFFid9mgQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/35AKamB6N80?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": "x1",
+  "result": "none",
+  "fields": {
+    "difficulty": "x1",
+    "number": 10000
+  },
+  "title": null,
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "On min ədədini rəqəmlərlə yazın.",
+      "kgz": "Он миң санын цифра менен жазыңыз.",
+      "uzb": "O'n ming sonini raqamlar bilan yozing.",
+      "eng": "Write the number ten thousand in numerals.",
+      "rus": "Запишите цифрами число десять тысяч.",
+      "kaz": "Он мың санын цифрмен жазыңыз.",
+      "arjd": "",
+      "arsa": "",
+      "areg": "اكتب العدد «عشرة آلاف» بالصيغة القياسية",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_1_1",
+  "position": 0,
+  "id": "0dcb6094-7deb-4ae2-b29a-0947301a66de",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "10000",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "WpK9qbHSNTI",
+  "videoUrl": "https://youtube.com/embed/WpK9qbHSNTI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/4eafffc26f23e392730206717859f739?p=oa38eJFiNJ9KmXThxHBWtQ",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/C80A3zzGVCI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/C5cA5gzWppg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/krlA9XxRkq4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/WpK9qbHSNTI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

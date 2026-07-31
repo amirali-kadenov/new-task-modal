@@ -1,0 +1,150 @@
+[
+  {
+    "operation": "div",
+    "taskId": "Elixir.Task_4_2_16",
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2105",
+      "taskIndex": 0
+    },
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": {
+            "with_audio_player": false,
+            "aze": "Qalıq: ",
+            "kgz": "Калдыктын мааниси: ",
+            "uzb": "Qoldiqning qiymati: ",
+            "eng": "Remainder value: ",
+            "rus": "Значение остатка: ",
+            "kaz": "Қалдықтың мәні: ",
+            "arjd": "",
+            "arsa": "",
+            "areg": "الباقي: ",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": {
+            "with_audio_player": false,
+            "aze": "Qismət:",
+            "kgz": "Тийиндинин мааниси: ",
+            "uzb": "Bo'linmaning qiymati: ",
+            "eng": "Quotient value: ",
+            "rus": "Значение частного: ",
+            "kaz": "Бөліндінің мәні: ",
+            "arjd": "",
+            "arsa": "",
+            "areg": "ناتج القسمة: ",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number2": 2,
+        "number1": 48849
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": {
+          "with_audio_player": false,
+          "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}48849}\n\\end{array}\n",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "columnOperation"
+      },
+      "type": "Elixir.Task_4_2_16",
+      "position": 0,
+      "id": "caa4bc6c-8c15-4d28-bed0-c8042abbb5d5",
+      "solution": {
+        "type": "columnOperation",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "24424;;1",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "2xCeW3XsFCE",
+      "videoUrl": "https://youtube.com/embed/2xCeW3XsFCE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/58599d4b7484d0f2f804f1fbc3dbdbdd?p=U_nQ5yEZK2fjHJThmKzoxg",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/SOhQPdR7UoY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/4aziViPT7Tg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/oOQ7OLOyl0A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/2xCeW3XsFCE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

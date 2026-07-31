@@ -1,0 +1,127 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": "x1",
+  "result": "none",
+  "fields": {
+    "difficulty": "x1",
+    "number2": 1,
+    "number1": 10000
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+    "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+    "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+    "eng": "Calculate (enter only the final value as your answer):",
+    "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+    "kaz": "Есептеңіз:",
+    "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+    "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+    "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "isTableReversed": false,
+    "isTableFlip": false,
+    "isCentered": true,
+    "answerCellWithComparison": false,
+    "isAnswerCellHidden": true,
+    "imageBefore": "",
+    "isCalculatorClosed": false,
+    "withAudio": true,
+    "content": "",
+    "type": "table",
+    "table": {
+      "width": "auto",
+      "type": 120,
+      "tableAlign": "center",
+      "rows": [
+        {
+          "rowspan_list": [],
+          "rowspan_at": 0,
+          "rowspan": 1,
+          "colspan_list": [],
+          "colspan_at": 0,
+          "colspan": 1,
+          "border_bottom": null,
+          "cells": [
+            "10000 · 1 = ",
+            "answercell"
+          ],
+          "width": null
+        }
+      ],
+      "removePadding": false,
+      "removeBorders": true,
+      "padding": 2,
+      "marginBottom": null,
+      "isAnswerCellHidden": true,
+      "columnHeaders": [],
+      "columnAlign": "center",
+      "bottomVarticalAlign": false,
+      "border": ""
+    }
+  },
+  "type": "Elixir.Task_4_2_1_3",
+  "position": 2,
+  "id": "c6b2710d-de67-4e21-91a3-2644182a3a09",
+  "solution": {
+    "type": "table",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "10000",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "6lHty6uDCp0",
+  "videoUrl": "https://youtube.com/embed/6lHty6uDCp0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/401d18b178dc859f071faaf11300b570?p=hEe-1YPVImIkX7wQz00qrA",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/9-H1JeMWuaU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/hKaHeRotJ5Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/rbPmPvqpAco?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/6lHty6uDCp0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

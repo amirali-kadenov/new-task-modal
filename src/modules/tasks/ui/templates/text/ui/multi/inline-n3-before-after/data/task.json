@@ -1,0 +1,195 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input3": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": " = ",
+        "kgz": " = ",
+        "uzb": " = ",
+        "eng": " = ",
+        "rus": " = ",
+        "kaz": " = ",
+        "arjd": " = ",
+        "arsa": " = ",
+        "areg": " = ",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "s/ha",
+        "kgz": "",
+        "uzb": "q/ga",
+        "eng": "qt / he",
+        "rus": "ц/га",
+        "kaz": "ц/га",
+        "arjd": "",
+        "arsa": "",
+        "areg": "",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input2": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": " : ",
+        "kgz": " : ",
+        "uzb": " : ",
+        "eng": " : ",
+        "rus": " : ",
+        "kaz": " : ",
+        "arjd": " : ",
+        "arsa": " : ",
+        "areg": " : ",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "ha",
+        "kgz": "га",
+        "uzb": "ga",
+        "eng": "ha",
+        "rus": "га",
+        "kaz": "га",
+        "arjd": "\\(km²\\)",
+        "arsa": "",
+        "areg": "فدانًا",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": "\\(m\\) = ",
+        "kgz": "\\(m\\) = ",
+        "uzb": "\\(m\\) = ",
+        "eng": "\\(m\\) = ",
+        "rus": "\\(m\\) = ",
+        "kaz": "\\(m\\) = ",
+        "arjd": "\\(m\\) = ",
+        "arsa": "\\(m\\) = ",
+        "areg": "\\(m\\) = ",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "s",
+        "kgz": "",
+        "uzb": "q",
+        "eng": "cwt",
+        "rus": "ц",
+        "kaz": "ц",
+        "arjd": "(km²)",
+        "arsa": "",
+        "areg": "طنًا",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": true,
+    "type": 30
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number2": 324,
+    "number1": 27
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
+    "kgz": "Төмөнкү маселеге шарт түзүп, аны чыгарыңыз:",
+    "uzb": "Quyidagi masalaning shartini tuzing va yeching:",
+    "eng": "Find and write the key information from the problem and solve it:",
+    "rus": "Составьте условие для следующей задачи и решите её:",
+    "kaz": "Төмендегі есептің шартын құрыңыз және оны шығарыңыз:",
+    "arjd": "",
+    "arsa": "",
+    "areg": "ضع شرط المسألة التالية وقم بحلها:",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Sahəsi 27 ha olan tarladan 324 s buğda yığılıb.\\(\\\\\\)Buğdanın məhsuldarlığı nə qədərdir?",
+      "kgz": "27 гектар аянттан 324 центнерден буудай жыйналды.\\(\\\\\\)Буудайдын түшүмдүүлүгү кандай болду?",
+      "uzb": "Maydoni 27 ga bo'lgan ekin maydonidan 324 q bug'doy terildi.\\(\\\\\\)Bug'doyning hosildorligi qanday?",
+      "eng": "324 quintals of wheat are harvested from a field of  27 hectares.\\(\\\\\\)What is the wheat yield per hectare?",
+      "rus": "С поля площадью 27 га собрано 324 ц пшеницы.\\(\\\\\\)Какова была урожайность пшеницы?",
+      "kaz": "Ауданы 27 га болатын егіс алқабынан 324 ц бидай жиналды.\\(\\\\\\)Бидайдың түсімділігі қанша болды?",
+      "arjd": "",
+      "arsa": "",
+      "areg": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_10_9_14",
+  "position": 12,
+  "id": "84d54b7d-e706-496b-b5e9-f7880b481d3d",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "324;;27;;12",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "HV1uo20R8Vw",
+  "videoUrl": "https://youtube.com/embed/HV1uo20R8Vw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/9049e05008f13f8e191a5aca28b17cca?p=mELrMK17QixEmGwpSNDTwg",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/ZrjaEUob_Dw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/iU33DYEkq_c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/HV1uo20R8Vw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

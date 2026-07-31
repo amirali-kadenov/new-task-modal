@@ -1,0 +1,119 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input2": {
+      "svg": "",
+      "before": "",
+      "after": "",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": "",
+      "after": "",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": true,
+    "type": 20
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number": 159
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Göstərilən ölçü vahidinə çevirin.",
+    "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+    "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+    "eng": "Express in the given units of measurement.",
+    "rus": "Выразите в указанных единицах измерения.",
+    "kaz": "Көрсетілген өлшем бірліктеріне өрнектеңіз.",
+    "arjd": "",
+    "arsa": "",
+    "areg": "حول إلى وحدة القياس المحددة.",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "withAudio": true,
+    "text_before": "",
+    "text_after": "",
+    "table_before": null,
+    "is_column": false,
+    "image_before": "",
+    "answer_cell_margin": "",
+    "content": {
+      "with_audio_player": false,
+      "aze": "159 kq = answercell s answercell kq",
+      "kgz": "159 кг = answercell ц answercell кг",
+      "uzb": "159 kg = answercell q answercell kg",
+      "eng": "159 kg = answercell centners answercell kg",
+      "rus": "159 кг = answercell ц answercell кг",
+      "kaz": "159 кг = answercell ц answercell кг",
+      "arjd": "",
+      "arsa": "",
+      "areg": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "answerCell"
+  },
+  "type": "Elixir.Task_4_6_2_22",
+  "position": 21,
+  "id": "d99ebba5-0a04-4ccb-932f-84d4679156b4",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "1;;59",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "tcxQoASlBf4",
+  "videoUrl": "https://youtube.com/embed/tcxQoASlBf4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/9990e90f57f0a8fc3679ecd8ccaba6f6?p=JDSIRUsiLPxTR8e8tK12yg",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/pR66JdkbWYU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/UUHwUqSgOPs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/tcxQoASlBf4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

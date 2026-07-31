@@ -1,0 +1,102 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input2": {
+      "svg": "",
+      "before": "",
+      "after": "",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": "",
+      "after": "\\( : \\)",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": true,
+    "type": 20
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number2": 5,
+    "number1": 2
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Kəsri nisbət şəklində yazın.",
+    "kgz": "Тийиндини бөлчөк түрүндө жазыңыз.",
+    "uzb": "Kasrni bo'lish ko'rinishida yozing.",
+    "eng": "Write down the fraction as a quotient.",
+    "rus": "Запишите дробь в виде частного.",
+    "kaz": "Бөлшекті бөлінді түрінде жазыңыз.",
+    "arjd": "",
+    "arsa": "",
+    "areg": "اكتب الكسر الاعتيادي بصيغة القسمة.",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "with_audio": true,
+    "content": "\\(\\dfrac{2}{5}\\)",
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_11_2_7",
+  "position": 10,
+  "id": "2c46bf9b-6af2-4aba-81cf-af06505ae8cc",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "2;;5",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "hGRF76L8e6w",
+  "videoUrl": "https://youtube.com/embed/hGRF76L8e6w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/dd6d514a5bb37855aff925413b2d0670?p=b7j07njOHC9I_xjp5_Hmiw",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/pgj8C4iPAfw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/fQt9UCCSdxI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/hGRF76L8e6w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

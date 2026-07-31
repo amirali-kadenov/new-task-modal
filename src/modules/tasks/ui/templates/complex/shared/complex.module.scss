@@ -1,0 +1,127 @@
+/* stylelint-disable selector-class-pattern */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.parts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.textPart {
+  width: 100%;
+  font-size: 1.05em;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.imagePart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  max-width: 600px;
+
+  :global(svg) {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.imageOverlay {
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 600px;
+}
+
+.unsupported {
+  margin: 0;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.input {
+  flex: 0 1 auto;
+  width: 100%;
+  min-width: 120px;
+  max-width: 200px;
+}
+
+.expressionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+
+  /* Keep expression + MathInput on one row: base .input has width:100% which
+     forces the field onto its own line inside this flex row. */
+  .parts {
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    gap: 8px;
+    align-items: center;
+    width: auto;
+  }
+
+  .textPart {
+    width: auto;
+    text-align: start;
+  }
+
+  .input {
+    width: auto;
+  }
+}
+
+.inputRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.solutionRow {
+  align-items: flex-end;
+}
+
+.answerFormula {
+  flex: 0 1 auto;
+}
+
+.prefix,
+.suffix,
+.fieldLabel {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.fieldLabel {
+  margin-inline-end: 4px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.planeSvg,
+.numberLineSvg,
+.angleListSvg {
+  max-width: 100%;
+  height: auto;
+}

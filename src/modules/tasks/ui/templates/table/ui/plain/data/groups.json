@@ -1,0 +1,1936 @@
+[
+  {
+    "group": "table_1",
+    "count": 97,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2100",
+      "taskIndex": 2
+    },
+    "tasks": [
+      {
+        "id": "4_2_1_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_2_1_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_2_1_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_2_1_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_2_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_2_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_2_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_2_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_2_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_2_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_4_21",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2166",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_4_22",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2166",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_4_27",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2167",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_4_28",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2167",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_4_29",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2167",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_4_30",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2167",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_4_31",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2167",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_4_32",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2167",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_5_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2180",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_5_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "131",
+          "lessonId": "2180",
+          "taskIndex": 8
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number2": 1,
+        "number1": 10000
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "auto",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                "10000 · 1 = ",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 2,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_2_1_3",
+      "position": 2,
+      "id": "c6b2710d-de67-4e21-91a3-2644182a3a09",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "10000",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "6lHty6uDCp0",
+      "videoUrl": "https://youtube.com/embed/6lHty6uDCp0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/401d18b178dc859f071faaf11300b570?p=hEe-1YPVImIkX7wQz00qrA",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/9-H1JeMWuaU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/hKaHeRotJ5Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/rbPmPvqpAco?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/6lHty6uDCp0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_2",
+    "count": 31,
+    "launch": {
+      "grade": 4,
+      "chapterId": "130",
+      "lessonId": "2165",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_4_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_1_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_6_1_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_6_1_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_1_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_6_1_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_6_1_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_6_1_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_6_1_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_6_1_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 19
+        }
+      },
+      {
+        "id": "4_6_2_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_6_2_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_2_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_6_3_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_3_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_6_3_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_6_3_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_6_3_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_6_3_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_6_3_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_6_3_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_4_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_4_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_6_4_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_6_4_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_6_5_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_6_5_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_6_5_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_6_5_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_6_5_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_6_5_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 948337
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilən ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
+        "kgz": "Берилген санды жүздүк разрядка чейин тегеректеңиз.",
+        "uzb": "Berilgan sonni yuzlar xonasigacha yaxlitlang.",
+        "eng": "Round the number to the nearest hundred:",
+        "rus": "Округлите данное число до разряда сотен. ",
+        "kaz": "Берілген санды жүздік разрядқа дейін дөңгелектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "قرّب العدد التالي إلى أقرب مائة.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "100%",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                "948337",
+                " \\(\\approx\\) ",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 3,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_4_13",
+      "position": 0,
+      "id": "7f0da406-16bf-4b8f-9230-d9c567479dd9",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "948300",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "5f1jfORUE-g",
+      "videoUrl": "https://youtube.com/embed/5f1jfORUE-g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/a73578bc944322dd31cc93357ec42a2c?p=aBGgTpF1tZkEmmt884L14w",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/taAwZHr4jLM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/8vRjp6qG_mQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/xVvHYdP9gBs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/5f1jfORUE-g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_3",
+    "count": 30,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2100",
+      "taskIndex": 8
+    },
+    "tasks": [
+      {
+        "id": "4_2_1_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_2_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_2_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_4_23",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2166",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_4_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2166",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_4_25",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2166",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_4_26",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2166",
+          "taskIndex": 18
+        }
+      },
+      {
+        "id": "4_6_1_22",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 21
+        }
+      },
+      {
+        "id": "4_6_1_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 23
+        }
+      },
+      {
+        "id": "4_6_1_26",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2200",
+          "taskIndex": 25
+        }
+      },
+      {
+        "id": "4_6_2_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_6_2_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_6_2_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_6_3_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_6_3_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_6_3_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_6_3_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_6_4_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_6_4_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 18
+        }
+      },
+      {
+        "id": "4_6_4_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 19
+        }
+      },
+      {
+        "id": "4_6_5_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_6_5_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_6_5_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_6_5_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_6_5_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_6_5_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 14
+        }
+      },
+      {
+        "id": "4_6_5_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 15
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 1,
+        "number1": 79704
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "auto",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "79704 : 1 = ",
+                  "kgz": "79704 : 1 = ",
+                  "uzb": "79704 : 1 = ",
+                  "eng": "79704 ÷ 1 = ",
+                  "rus": "79704 : 1 = ",
+                  "kaz": "79704 : 1 = ",
+                  "arjd": "79704 : 1 = ",
+                  "arsa": "79704 : 1 = ",
+                  "areg": "79704 : 1 = ",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 2,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_2_1_5",
+      "position": 8,
+      "id": "cec0975a-fc5f-40ce-90c8-a3f84f9476ea",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "79704",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "PBC53tOx-MQ",
+      "videoUrl": "https://youtube.com/embed/PBC53tOx-MQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/5bbb657a78aa21eb1169463ec33561a7?p=H_D4rssdnWRUz9TMn2ibdA",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/c9DmKHW35nY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/k0R8jU83-fw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/KNo4ranP6pg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/PBC53tOx-MQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_4",
+    "count": 20,
+    "launch": {
+      "grade": 4,
+      "chapterId": "130",
+      "lessonId": "2165",
+      "taskIndex": 1
+    },
+    "tasks": [
+      {
+        "id": "4_4_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_4_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_4_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_4_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_4_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_4_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 18
+        }
+      },
+      {
+        "id": "4_4_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2165",
+          "taskIndex": 19
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number": 767578
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilən ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
+        "kgz": "Берилген санды жүздүк разрядка чейин тегеректеңиз.",
+        "uzb": "Berilgan sonni yuzlar xonasigacha yaxlitlang.",
+        "eng": "Round the number to the nearest hundred:",
+        "rus": "Округлите данное число до разряда сотен.",
+        "kaz": "Берілген санды жүздік разрядқа дейін дөңгелектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "قرّب العدد التالي إلى أقرب مائة.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "100%",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                "767578",
+                " \\(\\approx\\) ",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 3,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_4_14",
+      "position": 1,
+      "id": "3ce6d11b-2eae-4d13-add8-95cbc6fb16b6",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "767600",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "UBaf2EJQqec",
+      "videoUrl": "https://youtube.com/embed/UBaf2EJQqec?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/6332eb70f97e4c055df013d5d9d5d324?p=jx0pm5QGXMuduLCqE_Jn4Q",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/XLTQnJFe3I0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/3y61iFS2J9E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/E5BoFDXQ6r0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/UBaf2EJQqec?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_5",
+    "count": 18,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2101",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_2_2_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2101",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_2_2_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2101",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_2_2_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2101",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_2_25",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_2_26",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 13
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number4": 2,
+        "number3": 8,
+        "number2": 1600,
+        "number1": 14000
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Səmərəli üsulla hesablayın.",
+        "kgz": "Ыңгайлуу жол менен эсептеңиз.",
+        "uzb": "Qulay usul bilan hisoblang.",
+        "eng": "Calculate in an efficient way:",
+        "rus": "Вычислите эффективным способом",
+        "kaz": "Тиімді тәсілмен есептеңіз",
+        "arjd": "",
+        "arsa": "",
+        "areg": "استخدم الطريقة الفعالة لحساب:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "auto",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "(14000 + 1600 + 8) : 2 = ",
+                  "kgz": "(14000 + 1600 + 8) : 2 = ",
+                  "uzb": "(14000 + 1600 + 8) : 2 = ",
+                  "eng": "(14000 + 1600 + 8) ÷ 2 = ",
+                  "rus": "(14000 + 1600 + 8) : 2 = ",
+                  "kaz": "(14000 + 1600 + 8) : 2 = ",
+                  "arjd": "(14000 + 1600 + 8) : 2 = ",
+                  "arsa": "(14000 + 1600 + 8) : 2 = ",
+                  "areg": "(14000 + 1600 + 8) : 2 = ",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 2,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_2_2_1",
+      "position": 0,
+      "id": "53f992fe-d7d1-4da8-9192-0416b0e757e0",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "7804",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "zj_ppiDTERY",
+      "videoUrl": "https://youtube.com/embed/zj_ppiDTERY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/dfc8a1ffc2b292611c2ee60a26c505f9?p=lqXOwyKQec3BEmhc_r1z7g",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/PMjSsMN2pjI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/9GfEP2ONc2c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/_eNvBel09oI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/zj_ppiDTERY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_6",
+    "count": 13,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2101",
+      "taskIndex": 1
+    },
+    "tasks": [
+      {
+        "id": "4_2_2_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2101",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_2_2_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2101",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_2_2_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2101",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_2_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_2_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_2_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_2_21",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 6
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number3": 3212,
+        "number2": 3,
+        "number1": 22221
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "auto",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                "22221 ⋅ 3 + 3212 = ",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 2,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_2_2_2",
+      "position": 1,
+      "id": "cba4da76-c2dd-417d-8e5c-80a2d16a918f",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "69875",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "pnh-L_iL3Aw",
+      "videoUrl": "https://youtube.com/embed/pnh-L_iL3Aw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/f7b7dda495d12f40887e1d119980d57d?p=1ugkEaf7-LqA2BW1VJlvGA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/ISaQO3F9HFI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/l2z2mG6dNWg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/pnh-L_iL3Aw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_8",
+    "count": 7,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2106",
+      "taskIndex": 3
+    },
+    "tasks": [
+      {
+        "id": "4_2_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_2_22",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_2_23",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_2_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2106",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_6_3_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 16
+        }
+      },
+      {
+        "id": "4_6_3_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_6_3_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2202",
+          "taskIndex": 18
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 3,
+        "number2": 18786,
+        "number1": 12812
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "auto",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                "(12812 + 18786) · 3 = ",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 2,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_2_19",
+      "position": 3,
+      "id": "7f1d3068-41a9-4619-9f42-1d762e7a1016",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "94794",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "7bLF2_eGYFo",
+      "videoUrl": "https://youtube.com/embed/7bLF2_eGYFo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/d6f359aed5cf828e6e41229a6c2a2605?p=f_3xEBYUU-r5cbnmYaFHQw",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/Ev3br0joZTc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/Je-Fh6rKAfg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/XVuRxxsiHmU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/7bLF2_eGYFo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

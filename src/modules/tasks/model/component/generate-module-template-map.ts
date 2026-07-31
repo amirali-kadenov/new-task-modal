@@ -5,7 +5,7 @@ import {
 
 export type ModuleTemplateMap = Map<string, TemplateLoader>
 type TemplateLoader = () => Promise<{ default: TemplateType }>
-type ChapterModule = { default: Record<string, number[]> }
+type ChapterModule = { default: Record<string, (number | string)[]> }
 
 const GRADE_CHAPTER_REGEX = /grade-(\d+)\/chapter-(\d+)\.ts$/
 
@@ -25,7 +25,7 @@ export const generateModuleTemplateMap = async () => {
 
     for (const [type, taskIds] of config) {
       taskIds.forEach((taskNum) => {
-        const templateLoader = TEMPLATE_MAP[type]
+        const templateLoader = TEMPLATE_MAP[type as keyof typeof TEMPLATE_MAP]
 
         const key = `${grade}_${chapter}_${taskNum}`
         map.set(key, templateLoader)

@@ -1,0 +1,854 @@
+[
+  {
+    "group": "table_7",
+    "count": 8,
+    "launch": {
+      "grade": 4,
+      "chapterId": "129",
+      "lessonId": "2144",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_3_5_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_3_5_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_3_5_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_3_5_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_3_5_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_3_5_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_3_5_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_3_5_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2144",
+          "taskIndex": 7
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 15
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 72771,
+        "number1": 3381
+      },
+      "title": null,
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "Məchul toplananı tapın.",
+          "kgz": "Белгисиз кошулуучуну табыңыз.",
+          "uzb": "Noma'lum qo‘shiluvchini toping.",
+          "eng": "Find the unknown addend.",
+          "rus": "Найдите неизвестное слагаемое.",
+          "kaz": "Белгісіз қосылғышты табыңыз.",
+          "arjd": "أوجد قيمة العدد المجهول في المعادلة.",
+          "arsa": "أوجد قيمة العدد المجهول في المعادلة.",
+          "areg": "أوجد قيمة العدد المجهول في الجدول.",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "table",
+        "table": {
+          "width": "100%",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Birinci toplanan",
+                  "kgz": "Биринчи кошулуучу",
+                  "uzb": "Birinchi qo'shiluvchi",
+                  "eng": "First addend",
+                  "rus": "Первое слагаемое",
+                  "kaz": "Бірінші қосылғыш",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "العدد الأول",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "İkinci toplanan",
+                  "kgz": "Экинчи кошулуучу",
+                  "uzb": "Ikkinchi qo'shiluvchi",
+                  "eng": "Second addend",
+                  "rus": "Второе слагаемое",
+                  "kaz": "Екінші қосылғыш",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "العدد الثاني",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "Cəm",
+                  "kgz": "Сумманын мааниси",
+                  "uzb": "Yig'indining qiymati",
+                  "eng": "Value of Sum",
+                  "rus": "Значение суммы",
+                  "kaz": "Қосындының мәні",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "ناتج الجمع ",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            },
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "3381",
+                  "kgz": "3381",
+                  "uzb": "3381",
+                  "eng": "3381",
+                  "rus": "3381",
+                  "kaz": "3381",
+                  "arjd": "3381",
+                  "arsa": "3381",
+                  "areg": "3381",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                "answercell",
+                {
+                  "with_audio_player": false,
+                  "aze": "72771",
+                  "kgz": "72771",
+                  "uzb": "72771",
+                  "eng": "72771",
+                  "rus": "72771",
+                  "kaz": "72771",
+                  "arjd": "72771",
+                  "arsa": "72771",
+                  "areg": "72771",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": false,
+          "padding": null,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_3_5_1",
+      "position": 0,
+      "id": "74acac3f-89f6-40b6-85e5-17d94233af07",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "69390",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "w7WuNw96UAY",
+      "videoUrl": "https://youtube.com/embed/w7WuNw96UAY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/03f73ce80f9dd30cefd5301f13fce4f3?p=nVlXJpGnANYwEdSMmyEOtg",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/CbnPeuHGb-0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/twNoh1elhjE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/YiA7NfiVu8M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/w7WuNw96UAY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_10",
+    "count": 3,
+    "launch": {
+      "grade": 4,
+      "chapterId": "130",
+      "lessonId": "2161",
+      "taskIndex": 10
+    },
+    "tasks": [
+      {
+        "id": "4_4_57",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2161",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_4_57_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2161",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_4_65",
+        "launch": {
+          "grade": 4,
+          "chapterId": "130",
+          "lessonId": "2161",
+          "taskIndex": 19
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 15
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number5": 0,
+        "number6": 5,
+        "number4": 5,
+        "number3": 4,
+        "number2": 4,
+        "number1": 4
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Cədvəli doldurun.",
+        "kgz": "Таблицаны толтуруңуз.",
+        "uzb": "Jadvalni to'ldiring.",
+        "eng": "Fill in the table.",
+        "rus": "Заполните таблицу.",
+        "kaz": "Кестені толтырыңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "املأ الجدول",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": true,
+        "isTableFlip": true,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "444505",
+        "type": "table",
+        "table": {
+          "width": "100%",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [
+                1,
+                3
+              ],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Siniflər",
+                  "kgz": "Класс",
+                  "uzb": "Sinf",
+                  "eng": "Class",
+                  "rus": "",
+                  "kaz": "Класс",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "القسم",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "I sinif",
+                  "kgz": "",
+                  "uzb": "I-sinf",
+                  "eng": "I - class",
+                  "rus": "",
+                  "kaz": "I - класс",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الوحدات",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            },
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Mərtəbələr",
+                  "kgz": "Разряддар",
+                  "uzb": "Xonalar",
+                  "eng": "Places",
+                  "rus": "Разряды",
+                  "kaz": "Разрядтар",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الخانات",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "yüzlüklər.\\(\\\\\\)3-cü",
+                  "kgz": "3-чү\\(\\\\\\)жүзд.",
+                  "uzb": "yuzliklar\\(\\\\\\)3-chi",
+                  "eng": "hundreds\\(\\\\\\)3-rd",
+                  "rus": "сот.\\(\\\\\\)3-ий",
+                  "kaz": "жүзд.\\(\\\\\\)3-ші",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الآحاد",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "onluqlar.\\(\\\\\\)2-ci",
+                  "kgz": "2-чи\\(\\\\\\)ондук",
+                  "uzb": "o'nliklar\\(\\\\\\)2-chi",
+                  "eng": "tens\\(\\\\\\)2nd",
+                  "rus": "дес.\\(\\\\\\)2-ой",
+                  "kaz": "онд.\\(\\\\\\)2-ші",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "العشرات",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "təkliklər.\\(\\\\\\)1-ci",
+                  "kgz": "1-чи\\(\\\\\\)бирдик",
+                  "uzb": "birliklar\\(\\\\\\)1-chi",
+                  "eng": "ones\\(\\\\\\)1st",
+                  "rus": "ед.\\(\\\\\\)1-ый",
+                  "kaz": "бірл.\\(\\\\\\)1-ші",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "المئات",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            },
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Ədədlər",
+                  "kgz": "Сандар",
+                  "uzb": "Sonlar",
+                  "eng": "Numbers",
+                  "rus": "Числа",
+                  "kaz": "Сандар",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الأعداد",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                "answercell",
+                "answercell",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": false,
+          "padding": null,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_4_57",
+      "position": 10,
+      "id": "d9a8ddca-b201-44e9-a70a-16dcc70c0dbf",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "5;;0;;5",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "NAOBgk64OD4",
+      "videoUrl": "https://youtube.com/embed/NAOBgk64OD4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/0cc0de9ab232e1dd28aea096ec80ebdb?p=A4sjMc8xfUWQiWYQPjKH6Q",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/ctnMky6VPrY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/_gLTuk3pOu8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/GhpNPLBWS7g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/NAOBgk64OD4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "table_12",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2121",
+      "taskIndex": 20
+    },
+    "tasks": [
+      {
+        "id": "4_1_56_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2121",
+          "taskIndex": 20
+        }
+      },
+      {
+        "id": "4_1_56",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2121",
+          "taskIndex": 21
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 15
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number5": 7,
+        "number4": 5,
+        "number3": 5,
+        "number2": 1,
+        "number1": 9
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Cədvəli doldurun.",
+        "kgz": "Таблицаны толтуруңуз.",
+        "uzb": "Jadvalni to'ldiring.",
+        "eng": "Fill in the table.",
+        "rus": "Заполните таблицу.",
+        "kaz": "Кестені толтырыңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "املأ الجدول",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": true,
+        "isTableFlip": true,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "91557",
+        "type": "table",
+        "table": {
+          "width": "100%",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [
+                1,
+                3
+              ],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Siniflər",
+                  "kgz": "Класс",
+                  "uzb": "Sinf",
+                  "eng": "Class",
+                  "rus": "",
+                  "kaz": "Класс",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "القسم",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "I sinif",
+                  "kgz": "",
+                  "uzb": "I-sinf",
+                  "eng": "I - class",
+                  "rus": "",
+                  "kaz": "I - класс",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الوحدات",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            },
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Mərtəbələr",
+                  "kgz": "Разряддар",
+                  "uzb": "Xonalar",
+                  "eng": "Places",
+                  "rus": "Разряды",
+                  "kaz": "Разрядтар",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الخانات",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "yüzlüklər.\\(\\\\\\)3-cü",
+                  "kgz": "3-чү\\(\\\\\\)жүзд.",
+                  "uzb": "yuzliklar\\(\\\\\\)3-chi",
+                  "eng": "hundreds\\(\\\\\\)3-rd",
+                  "rus": "сот.\\(\\\\\\)3-ий",
+                  "kaz": "жүзд.\\(\\\\\\)3-ші",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الآحاد",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "onluqlar.\\(\\\\\\)2-ci",
+                  "kgz": "2-чи\\(\\\\\\)ондук",
+                  "uzb": "o'nliklar\\(\\\\\\)2-chi",
+                  "eng": "tens\\(\\\\\\)2nd",
+                  "rus": "дес.\\(\\\\\\)2-ой",
+                  "kaz": "онд.\\(\\\\\\)2-ші",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "العشرات",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "təkliklər.\\(\\\\\\)1-ci",
+                  "kgz": "1-чи\\(\\\\\\)бирдик",
+                  "uzb": "birliklar\\(\\\\\\)1-chi",
+                  "eng": "ones\\(\\\\\\)1st",
+                  "rus": "ед.\\(\\\\\\)1-ый",
+                  "kaz": "бірл.\\(\\\\\\)1-ші",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "المئات",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            },
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Ədədlər",
+                  "kgz": "Сандар",
+                  "uzb": "Sonlar",
+                  "eng": "Numbers",
+                  "rus": "Числа",
+                  "kaz": "Сандар",
+                  "arjd": "",
+                  "arsa": "",
+                  "areg": "الأعداد",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                "answercell",
+                "answercell",
+                "answercell"
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": false,
+          "padding": null,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_1_56_1",
+      "position": 20,
+      "id": "6c6e25b6-7155-4a8c-b295-76b056d6d2da",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "5;;5;;7",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "JiYCNuEAp4s",
+      "videoUrl": "https://youtube.com/embed/JiYCNuEAp4s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/f37b24e5cd2f422084642d844fa9ee23?p=PMzOya6K4ropjSpZV29dzg",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/yyIkZgLK_Rg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/0lpIoRjIdXk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/Lvhinv_49gI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/JiYCNuEAp4s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

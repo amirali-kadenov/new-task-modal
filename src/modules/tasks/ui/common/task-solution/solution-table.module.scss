@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: var(--space-8);
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cell {
+  padding: var(--space-8) var(--space-12);
+  text-align: center;
+  border: 1px solid var(--border-strong);
+}

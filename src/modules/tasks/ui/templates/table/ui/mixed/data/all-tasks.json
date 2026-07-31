@@ -1,0 +1,857 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_10_2_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 15
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 4,
+            "number1": 20
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
+            "kgz": "Төмөнкү маселеге шарт түзүп, аны чыгарыңыз:",
+            "uzb": "Quyidagi masalaning shartini tuzing va yeching:",
+            "eng": "Find and write the key information from the problem and solve it:",
+            "rus": "Составьте условие для следующей задачи и решите её:",
+            "kaz": "Төмендегі есептің шартын құрыңыз және оны шығарыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "ضع شرط المسألة التالية وقم بحلها:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "isTableReversed": false,
+            "isTableFlip": false,
+            "isCentered": true,
+            "answerCellWithComparison": false,
+            "isAnswerCellHidden": true,
+            "imageBefore": "",
+            "isCalculatorClosed": false,
+            "withAudio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Usta 1 saatda 20 məhsul hazırlayır.\nƏgər o, 4 saat işləyibsə, bu müddət ərzində neçə məhsul hazırlayacaq?\n",
+              "kgz": "Уста 1 саатта 20 буюм жасай алат.\nЭгерде ал 4 саат иштесе, бул убакыттын ичинде канча буюм чыгарылат?\n",
+              "uzb": "Usta 1 soatda 20 mahsulot ishlaydi.\nAgar u 4 soat ishlagan bo'lsa, ish vaqtida umumiy nechta mahsulot ishlagan?\n",
+              "eng": "The master can make 20 products in 1 hour.\nIf he works for 4 hours, how many products does he make in that time?\n\n",
+              "rus": "Мастер за 1 час может изготовить 20 изделий.\nЕсли он работал 4 часа, то сколько изделий изготовил за время работы?\n",
+              "kaz": "Шебер 1 сағатта 20 өнім дайындай алады.\nЕгер ол 4 сағат уақыт жұмыс жасаған болса, жұмыс уақытында барлығы неше өнім даярлады?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "يمكن للحرفي أن يصنع 20 خاتمًا في ساعة واحدة.\nإذا عمل 4 ساعات، فكم عدد الخواتم التي يصنعها خلال هذا الوقت؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "table",
+            "table": {
+              "width": "80%",
+              "type": 120,
+              "tableAlign": "center",
+              "rows": [
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(v\\) = ",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "məhsul/saat",
+                      "kgz": "буюм/саат",
+                      "uzb": "mahsulot/h",
+                      "eng": "\\( \\ \\)product/hour",
+                      "rus": "изд./ч",
+                      "kaz": "өнім/сағ",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "منتج/ ساعة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(t\\) = ",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "saat",
+                      "kgz": "саат",
+                      "uzb": "h",
+                      "eng": "hour",
+                      "rus": "ч",
+                      "kaz": "сағ",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "ساعة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "A =",
+                    "?"
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "A =",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "\\(məhsul/saat \\ *\\)",
+                      "kgz": "\\(буюм/саат \\ *\\)",
+                      "uzb": "\\(mahsulot/h \\ *\\)",
+                      "eng": "\\(product/hour \\ *\\)",
+                      "rus": "\\(изд./ч \\ *\\)",
+                      "kaz": "\\(өнім/сағ \\ *\\)",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "منتج/ ساعة \\(\\ ×\\)",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "saat =",
+                      "kgz": "саат =",
+                      "uzb": "h = ",
+                      "eng": "hour =",
+                      "rus": "ч =",
+                      "kaz": "сағ =",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "ساعة =",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "məhsul",
+                      "kgz": "",
+                      "uzb": "mahsulot",
+                      "eng": "\\( \\ \\)product",
+                      "rus": "изд",
+                      "kaz": "өнім",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "منتج",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                }
+              ],
+              "removePadding": true,
+              "removeBorders": true,
+              "padding": null,
+              "marginBottom": null,
+              "isAnswerCellHidden": true,
+              "columnHeaders": [],
+              "columnAlign": "center",
+              "bottomVarticalAlign": false,
+              "border": ""
+            }
+          },
+          "type": "Elixir.Task_4_10_2_8",
+          "position": 7,
+          "id": "301df146-2c6b-4f72-9e77-368ec20cfaa2",
+          "solution": {
+            "type": "table",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "20;;4;;20;;4;;80",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "113d7jeJ9nc",
+          "videoUrl": "https://youtube.com/embed/113d7jeJ9nc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/2f11c14d0af160749938720dabac1467?p=6KvNLSapqHnnMIGk398pxQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/ytxk8ONHuA0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/jslh4-LKa98?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/113d7jeJ9nc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "table_11"
+      },
+      {
+        "id": "4_10_2_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 15
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 6,
+            "number1": 54
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
+            "kgz": "Төмөнкү маселеге шарт түзүп, аны чыгарыңыз:",
+            "uzb": "Quyidagi masalaning shartini tuzing va yeching:",
+            "eng": "Find and write the key information from the problem and solve it:",
+            "rus": "Составьте условие для следующей задачи и решите её:",
+            "kaz": "Төмендегі есептің шартын құрыңыз және оны шығарыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "ضع شرط المسألة التالية وقم بحلها:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "isTableReversed": false,
+            "isTableFlip": false,
+            "isCentered": true,
+            "answerCellWithComparison": false,
+            "isAnswerCellHidden": true,
+            "imageBefore": "",
+            "isCalculatorClosed": false,
+            "withAudio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Usta 6 saatda 54 məhsul hazırlayır. Ustanın 1 saatda iş məhsuldarlığı nə qədərdir?",
+              "kgz": "Уста 6 саатта 54 буюм жасай алат. Устанын саатына эмгек өндүрүмдүүлүгү кандай?",
+              "uzb": "Zargar 6 soatda 54 ta mahsulot yasaydi. Zargarning har soatda ishlab chiqarishini toping.\n",
+              "eng": "The master can make 54 products in 6 hours.\nWhat is the master's productivity per hour?\n",
+              "rus": "Мастер за 6 часов может изготовить 54 изделия.\nКакова производительность труда мастера в час?\n",
+              "kaz": "Зергер 6 сағатта 54 бұйым жасай алады. Зергердің әр сағаттағы еңбек өнімділігі нешеге тең ?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "إذا كان الصائغ يصنع 54 قطعة في 6 ساعات، فكم قطعة يصنع في الساعة؟",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "table",
+            "table": {
+              "width": "80%",
+              "type": 120,
+              "tableAlign": "center",
+              "rows": [
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(А\\) =",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "məhsul",
+                      "kgz": "",
+                      "uzb": "mahsulot",
+                      "eng": "product",
+                      "rus": "изд",
+                      "kaz": "б",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "منتج",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(t \\) =",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "saat",
+                      "kgz": "саат",
+                      "uzb": "h",
+                      "eng": "hour",
+                      "rus": "ч",
+                      "kaz": "сағ",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "ساعة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(v\\) =",
+                    "?"
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(v\\) =",
+                    {
+                      "with_audio_player": false,
+                      "aze": "\\(A : t\\)",
+                      "kgz": "\\(A : t\\)",
+                      "uzb": "\\(A : t\\)",
+                      "eng": "\\(A ÷ t\\)",
+                      "rus": "\\(A : t\\)",
+                      "kaz": "\\(A : t\\)",
+                      "arjd": "\\(A : t\\)",
+                      "arsa": "\\(A : t\\)",
+                      "areg": "\\(A ÷ t\\)",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(v\\) =",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "məhsul :",
+                      "kgz": "буюм :",
+                      "uzb": "mahsulot :",
+                      "eng": "products :",
+                      "rus": "изд :",
+                      "kaz": "б :",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "منتج :  ",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "saat =",
+                      "kgz": "саат =",
+                      "uzb": "h = ",
+                      "eng": "hour =",
+                      "rus": "ч =",
+                      "kaz": "сағ =",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "ساعة =",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "məhsul/saat",
+                      "kgz": "буюм/саат",
+                      "uzb": "mahsulot/h",
+                      "eng": "\\( \\ \\)product/hour",
+                      "rus": "изд./ч",
+                      "kaz": "б/сағ",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "منتج/ ساعة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                }
+              ],
+              "removePadding": true,
+              "removeBorders": true,
+              "padding": null,
+              "marginBottom": null,
+              "isAnswerCellHidden": true,
+              "columnHeaders": [],
+              "columnAlign": "center",
+              "bottomVarticalAlign": false,
+              "border": ""
+            }
+          },
+          "type": "Elixir.Task_4_10_2_9",
+          "position": 8,
+          "id": "e313a26d-fc17-451c-91e2-253dbbe1a505",
+          "solution": {
+            "type": "table",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "54;;6;;54;;6;;9",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "yug6VCvEa0E",
+          "videoUrl": "https://youtube.com/embed/yug6VCvEa0E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/cca8e7deac6c37a95c9bae6fb9250fd1?p=tMjQZGZfVAWvUsWaa5ZywA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/d2f8Ov_KDq4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/LqZEWBrymOU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/yug6VCvEa0E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "table_11"
+      },
+      {
+        "id": "4_10_2_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2351",
+          "taskIndex": 9
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 15
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 6,
+            "number1": 60
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
+            "kgz": "Төмөнкү маселеге шарт түзүп, аны чыгарыңыз:",
+            "uzb": "Quyidagi masalaning shartini tuzing va yeching:",
+            "eng": "Find and write the key information from the problem and solve it:",
+            "rus": "Составьте условие для следующей задачи и решите её:",
+            "kaz": "Төмендегі есептің шартын құрыңыз және оны шығарыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "ضع شرط المسألة التالية وقم بحلها:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "isTableReversed": false,
+            "isTableFlip": false,
+            "isCentered": true,
+            "answerCellWithComparison": false,
+            "isAnswerCellHidden": true,
+            "imageBefore": "",
+            "isCalculatorClosed": false,
+            "withAudio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Məryəm evini bəzəmək üçün 60 şar şişirtməlidi.\nƏgər o, 1 dəqiqədə 6 şar şişirdirsə, bütün şarları neçə dəqiqəyə şişirdəcək?\n",
+              "kgz": "Мэри үйүн кооздоо үчүн 60 шар үйлөтүшү керек болчу.\nЭгерде ал 1 мүнөттө 6 шарды үйлөтө алса, бардык шарларды үйлөтүүгө канча мүнөт керек болот?\n",
+              "uzb": "Uyni bezash uchun Azizaga 60 ta shar puflashi kerak.\nAgar u 1 minutda 6 ta shar puflasa, barcha sharni necha minutda puflaydi?\n",
+              "eng": "Mary needs to blow up 60 balloons to decorate the house.\nIf she can blow up 6 balloons in 1 minute, in how many minutes will it take her to blow up all the balloons?\n",
+              "rus": "Мэри понадобилось надуть 60 воздушных шаров, чтобы украсить дом.\nЕсли она может надуть за 1 минуту 6 шариков, за сколько минут она сможет надуть все шарики?\n",
+              "kaz": "Үйді безендіру үшін Айжанға 60 шар үрлеу қажет болды.\nЕгер ол 1 минутта 6 шар  үрлей алатын болса, барлық шарды неше минутта үрлей алады?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "تحتاج كاريمان إلى نفخ 60 بالونة لتزيين المنزل.\nإذا كان بإمكانها نفخ 6 بالونات في الدقيقة، فكم دقيقة تستغرق لنفخ جميع البالونات؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "table",
+            "table": {
+              "width": "70%",
+              "type": 120,
+              "tableAlign": "center",
+              "rows": [
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    {
+                      "with_audio_player": false,
+                      "aze": "\\(А =\\)",
+                      "kgz": "\\(А =\\)",
+                      "uzb": "\\(А =\\)",
+                      "eng": "\\(А =\\)",
+                      "rus": "\\(А =\\)",
+                      "kaz": "\\(А =\\)",
+                      "arjd": "\\(А =\\)",
+                      "arsa": "\\(А =\\)",
+                      "areg": "\\(А\\) = ",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "şar",
+                      "kgz": "",
+                      "uzb": "shar",
+                      "eng": "balloon",
+                      "rus": "шар",
+                      "kaz": "шар",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "بالونة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(v\\)=",
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "şar/dəq",
+                      "kgz": "",
+                      "uzb": "shar/min",
+                      "eng": "ballons/min",
+                      "rus": "шар/мин",
+                      "kaz": "шар/мин",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "بالونة/ دقيقة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(t\\)=",
+                    "?"
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    "\\(t\\)=",
+                    {
+                      "with_audio_player": false,
+                      "aze": "\\(A : v\\)",
+                      "kgz": "\\(A : v\\)",
+                      "uzb": "\\(A : v\\)",
+                      "eng": "\\(A ÷ v\\)",
+                      "rus": "\\(A : v\\)",
+                      "kaz": "\\(A : v\\)",
+                      "arjd": "\\(A : v\\)",
+                      "arsa": "\\(A : v\\)",
+                      "areg": "\\(A ÷ v\\)",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                },
+                {
+                  "rowspan_list": [],
+                  "rowspan_at": 0,
+                  "rowspan": 1,
+                  "colspan_list": [],
+                  "colspan_at": 0,
+                  "colspan": 1,
+                  "border_bottom": null,
+                  "cells": [
+                    {
+                      "with_audio_player": false,
+                      "aze": "\\(t =\\)",
+                      "kgz": "\\(t =\\)",
+                      "uzb": "\\(t =\\)",
+                      "eng": "\\(t =\\)",
+                      "rus": "\\(t =\\)",
+                      "kaz": "\\(t =\\)",
+                      "arjd": "\\(t =\\)",
+                      "arsa": "\\(t =\\)",
+                      "areg": "\\(t\\) = ",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "\\(şar\\) :",
+                      "kgz": "",
+                      "uzb": "\\(shar :\\)",
+                      "eng": "\\(balloon :\\)",
+                      "rus": "\\(шар :\\)",
+                      "kaz": "\\(шар :\\)",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "بالونة :  ",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "şar/dəq =",
+                      "kgz": "",
+                      "uzb": "shar/min",
+                      "eng": "balloon/min =",
+                      "rus": "шар/мин =",
+                      "kaz": "шар/мин =",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "بالونة/ دقيقة =",
+                      "module_name": "Elixir.Helpers.Translation"
+                    },
+                    "answercell",
+                    {
+                      "with_audio_player": false,
+                      "aze": "dəq",
+                      "kgz": "",
+                      "uzb": "min",
+                      "eng": "min",
+                      "rus": "мин",
+                      "kaz": "мин",
+                      "arjd": "",
+                      "arsa": "",
+                      "areg": "دقيقة",
+                      "module_name": "Elixir.Helpers.Translation"
+                    }
+                  ],
+                  "width": null
+                }
+              ],
+              "removePadding": true,
+              "removeBorders": true,
+              "padding": null,
+              "marginBottom": null,
+              "isAnswerCellHidden": true,
+              "columnHeaders": [],
+              "columnAlign": "center",
+              "bottomVarticalAlign": false,
+              "border": ""
+            }
+          },
+          "type": "Elixir.Task_4_10_2_10",
+          "position": 9,
+          "id": "5ea04283-bbab-4558-9ecb-7416d5e8cb3a",
+          "solution": {
+            "type": "table",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "60;;6;;60;;6;;10",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "0RHFs5Bvfbk",
+          "videoUrl": "https://youtube.com/embed/0RHFs5Bvfbk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/4c8276da5fb8e16b63a10f4fff82cb11?p=Wb82Pl2484DbrS9CdAF3aw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/6IsMIBKedvg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/_49cKo7QVXo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/0RHFs5Bvfbk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "table_11"
+      }
+    ]
+  }
+}

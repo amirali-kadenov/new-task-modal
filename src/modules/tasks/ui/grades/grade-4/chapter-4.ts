@@ -1,16 +1,37 @@
 import { TemplateTypes } from '../../../model/template-types.ts'
 
 const map = {
-  [TemplateTypes.Text]: [
-    1, 2, 3, 4, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
-    30, 31, 32, 33, 40,
+  [TemplateTypes.Text.Plain]: [
+    1, 3, 4, 5, 6, 7, 8, 10,
+    11, 35, 36, 37, 38, 39, 40, 45,
+    46, 47, 48, 49, 50, 58, 59, 60,
+    61, 62, 63, 64, 9,
   ],
-  [TemplateTypes.ColumnOperation]: [5, 6, 7, 8, 9],
-  [TemplateTypes.Equation]: [
-    '6_1', '6_2', '6_3', '6_4', '6_5', '6_6', '6_7', '6_8', '6_9', '6_10',
-    '7_1', '7_2', '7_3', '7_4', '7_5', '7_6', '7_7', '7_8', '7_9', '7_10',
-    '8_1', '8_2', '8_3', '8_4', '8_5', '8_6', '8_7', '8_8', '8_9', '8_10',
-    '9_1', '9_2', '9_3', '9_4', '9_5', '9_6', '9_7', '9_8', '9_9', '9_10'
+  [TemplateTypes.Text.After]: [
+    41, 43, 44, 51, 54,
+  ],
+  [TemplateTypes.ColumnOperation.Plain]: [
+    33, 34,
+  ],
+  [TemplateTypes.Comparison.Plain]: [
+    12,
+  ],
+  [TemplateTypes.Table.Plain]: [
+    13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28,
+    29, 30, 31, 32, 65,
+  ],
+  [TemplateTypes.Table.Grid]: [
+    57, '57_1',
+  ],
+  [TemplateTypes.Table.Inline]: [
+    56,
+  ],
+  [TemplateTypes.Table.List]: [
+    55,
+  ],
+  [TemplateTypes.Test.Plain]: [
+    2,
   ],
 }
 

@@ -1,0 +1,2199 @@
+[
+  {
+    "group": "formula_1",
+    "count": 58,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2104",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_2_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_2_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2104",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_1_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_1_19",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_1_20",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_1_21",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 15
+        }
+      },
+      {
+        "id": "4_1_22",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2126",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_1_23",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2126",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_1_24",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2126",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_1_25",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2126",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_1_26",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2126",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_1_27",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2126",
+          "taskIndex": 13
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number2": 10,
+        "number1": 5
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "5 · 10 = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_2_6",
+      "position": 0,
+      "id": "ad20ce2e-c76a-4166-bc4d-642f616e3767",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "50",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "nbZswyXA5N8",
+      "videoUrl": "https://youtube.com/embed/nbZswyXA5N8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/e0fddf9359f8d0face10203627a1a85b?p=tlIY0jIelU3Pjkp1TIOqkg",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/WW8m1hcTITg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/KUNHIomvUOg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/tI2iMa5Y34o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/nbZswyXA5N8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_2",
+    "count": 23,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2124",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_1_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2124",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_1_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2124",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_1_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2124",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_1_17",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2124",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_11_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 0
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number": 44
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ədədi onluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
+        "kgz": "Берилген санды ондук разрядка чейин тегеректеңиз.",
+        "uzb": "Berilgan sonni o'nlar xonasigacha yaxlitlang.",
+        "eng": "Round the given number to the nearest ten.",
+        "rus": "Округлите данное число до разряда десятков.",
+        "kaz": "Берілген санды ондық разрядқа дейін дөңгелектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "قرب العدد التالي إلى أقرب عشرة",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "44 \\approx",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_1_14",
+      "position": 0,
+      "id": "3e11edfe-bffc-44dc-b038-87a824fee9d1",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "40",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "TT-BZ_edxkI",
+      "videoUrl": "https://youtube.com/embed/TT-BZ_edxkI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7c8bfc21ee9f0dea50e9605f3ea13332?p=Y91Pr-YHmkhdWovRtvsPIw",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/vqXCZh6Ka-g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/lHogkYs3MaA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/T1FpfpKw-fg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/TT-BZ_edxkI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_4",
+    "count": 11,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2125",
+      "taskIndex": 20
+    },
+    "tasks": [
+      {
+        "id": "4_1_74",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 20
+        }
+      },
+      {
+        "id": "4_11_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_11_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number3": 9,
+        "number2": 7,
+        "number1": 40000
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "40000 + 7 + 9 =",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_1_74",
+      "position": 20,
+      "id": "68d22d56-d6aa-497b-8c55-415b3212a7ea",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "40016",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "f32lrtcErfA",
+      "videoUrl": "https://youtube.com/embed/f32lrtcErfA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7849d7a4d719d992eb1ae5b7cb0eafcb?p=h_ZlJyWd-eTMkJwgJMFl8A",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/KvpidDJ1Ks4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/zBDCjHQGVH8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/f32lrtcErfA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": "https://youtube.com/embed/iHJ7ZMed9cQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "areg": "https://youtube.com/embed/iHJ7ZMed9cQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_5",
+    "count": 7,
+    "launch": {
+      "grade": 4,
+      "chapterId": "135",
+      "lessonId": "2290",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_9_1_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_9_1_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_9_1_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_9_1_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_9_1_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_9_1_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 5
+        }
+      },
+      {
+        "id": "4_9_1_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2290",
+          "taskIndex": 6
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 42
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
+        "kgz": "Ыңгайлуу ыкманы колдонуп, туюнтманын  маанисин табыңыз.",
+        "uzb": "Qulay usulni qo'llab ifoda qiymatini toping.",
+        "eng": "Solve the expression in the simplest way you can.",
+        "rus": "Найдите значение выражения, используя удобный способ.",
+        "kaz": "Тиімді тәсілді қолданып өрнектің мәнін табыңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "2 · 42 · 5 = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_9_1_1",
+      "position": 0,
+      "id": "fa2e1ad3-444d-4a39-95c7-2b7e1af3bf3b",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "420",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "8CKkcygQt40",
+      "videoUrl": "https://youtube.com/embed/8CKkcygQt40?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/746ff7cbb391d0c5e4a4040c0d51677e?p=3VFThfhBNyT6zBVHCan2-Q",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/ce3oQlaGceQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/kqwCinF2gvg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/8CKkcygQt40?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_6",
+    "count": 6,
+    "launch": {
+      "grade": 4,
+      "chapterId": "125",
+      "lessonId": "2100",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_2_1_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_2_1_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "125",
+          "lessonId": "2100",
+          "taskIndex": 1
+        }
+      },
+      {
+        "id": "4_1_75",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 25
+        }
+      },
+      {
+        "id": "4_1_78",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 28
+        }
+      },
+      {
+        "id": "4_1_80",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 30
+        }
+      },
+      {
+        "id": "4_1_81",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 31
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 1,
+        "number1": 44366
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "44366 · 1 = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_2_1_1",
+      "position": 0,
+      "id": "8061a4ff-765b-42f8-8376-75b399b3a2a7",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "44366",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "IRBuydKL3cs",
+      "videoUrl": "https://youtube.com/embed/IRBuydKL3cs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/20217a26b5bc51fd5ff2fee6c9b03d93?p=NwBHHmTDUjuoAveNZh8HMQ",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/WkhYyOB1Y30?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/vh_Tm6Qlz4g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/lqxpjYFomiA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/IRBuydKL3cs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_7",
+    "count": 5,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2125",
+      "taskIndex": 29
+    },
+    "tasks": [
+      {
+        "id": "4_1_79",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 29
+        }
+      },
+      {
+        "id": "4_1_82",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 32
+        }
+      },
+      {
+        "id": "4_1_83",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 33
+        }
+      },
+      {
+        "id": "4_11_17_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 13
+        }
+      },
+      {
+        "id": "4_11_17_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 14
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number4": 2,
+        "number3": 90,
+        "number2": 500,
+        "number1": 20000
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "20000 + 500 + 90 + 2 =",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_1_79",
+      "position": 29,
+      "id": "41ef419e-98d2-4333-b8e7-b68102618ad8",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "20592",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "nn8_gR3z2ms",
+      "videoUrl": "https://youtube.com/embed/nn8_gR3z2ms?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/32916321c611c21e90e1f22a0d07c807?p=p1QoVk57qQ8HULVe7nbmmA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/Ej5EQIXHEIw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/zn8TLAX8Fjg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/nn8_gR3z2ms?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": "https://youtube.com/embed/DfmW7KS_9oQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "areg": "https://youtube.com/embed/DfmW7KS_9oQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_8",
+    "count": 5,
+    "launch": {
+      "grade": 4,
+      "chapterId": "136",
+      "lessonId": "2314",
+      "taskIndex": 8
+    },
+    "tasks": [
+      {
+        "id": "4_11_15",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_11_16",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2314",
+          "taskIndex": 11
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "number4": 2,
+        "number3": 1,
+        "number2": 1,
+        "number1": 6
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "\\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{2}{6} =",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_11_15",
+      "position": 8,
+      "id": "a91aa500-c659-4497-ba5c-54ca2ecea5bc",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "\\frac{4}{6}",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "syYc9GdupPc",
+      "videoUrl": "https://youtube.com/embed/syYc9GdupPc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/c5617e97fa6bb076b2432e4254b961f3?p=VkgYB7QCgbSF797pVn3Ttw",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/-6nuusxyeL4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/V10Rcy279QQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/syYc9GdupPc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_9",
+    "count": 5,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 2
+    },
+    "tasks": [
+      {
+        "id": "4_12_9_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 2
+        }
+      },
+      {
+        "id": "4_12_9_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 3
+        }
+      },
+      {
+        "id": "4_12_10_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_12_10_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_12_12_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 10
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 4,
+        "number1": 7,
+        "letter": "b"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
+        "kgz": "Бөлүштүрүү законун пайдаланып, туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Taqsimot qonunidan foydalanib ifodani soddalashtiring.",
+        "eng": "Simplify the expression using the distributive property.",
+        "rus": "Упростите выражение, используя распределительное свойство.",
+        "kaz": "Үлестірімділік заңын қолданып, өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "7b + 4b = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_9_1",
+      "position": 2,
+      "id": "fe14bddb-aa23-48a5-b1fb-07f8431b3e20",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "11b",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "66wGB43dLuY",
+      "videoUrl": "https://youtube.com/embed/66wGB43dLuY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7cb7e9199bf7aaa331dd5592512e2551?p=Cx_PUphLC-_VZ1daPF2yqQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/taYGKxAKzVI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/MKqPGxftYJA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/66wGB43dLuY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_10",
+    "count": 5,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 8
+    },
+    "tasks": [
+      {
+        "id": "4_12_11_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_12_11_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_12_12_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 11
+        }
+      },
+      {
+        "id": "4_12_12_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 12
+        }
+      },
+      {
+        "id": "4_12_13_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 13
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 13,
+        "number2": 18,
+        "number1": 17,
+        "letter": "z"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
+        "kgz": "Бөлүштүрүү законун пайдаланып, туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Taqsimot qonunidan foydalanib ifodani soddalashtiring.",
+        "eng": "Simplify the expression using the distributive property.",
+        "rus": "Упростите выражение, используя распределительное свойство.",
+        "kaz": "Үлестірімділік заңын қолданып, өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "17z + 18z + 13z = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_11_1",
+      "position": 8,
+      "id": "04efc8b8-d4d0-4139-89b1-756f02d69eaf",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "48z",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "2mcpF22kcVg",
+      "videoUrl": "https://youtube.com/embed/2mcpF22kcVg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/d836ea52540a7d2d5e0b68192e147ba2?p=V01PKk2Ph5hgZqVvLIpTGg",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/eG0CzKR2Z_8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/QQhqPTnBqQU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/2mcpF22kcVg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_11",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2125",
+      "taskIndex": 26
+    },
+    "tasks": [
+      {
+        "id": "4_1_76",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 26
+        }
+      },
+      {
+        "id": "4_1_77",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2125",
+          "taskIndex": 27
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number3": 7,
+        "number2": 1000,
+        "number1": 90000
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+        "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+        "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+        "eng": "Calculate (enter only the final value as your answer):",
+        "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+        "kaz": "Есептеңіз:",
+        "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+        "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+        "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "90000 + 1000 + 7 =",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_1_76",
+      "position": 26,
+      "id": "62982271-41b5-47f5-b0a3-b842ef04b738",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "91007",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "3OuhtsheFig",
+      "videoUrl": "https://youtube.com/embed/3OuhtsheFig?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/30dbea648c000d7366308d548df5327b?p=IwBgUK2ApnAZDcqskQtn6A",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/24Is9-LilFY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/h_gSfbu5eBA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/3OuhtsheFig?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": "https://youtube.com/embed/pJ0cxG-ESUw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "areg": "https://youtube.com/embed/pJ0cxG-ESUw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_12",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "136",
+      "lessonId": "2310",
+      "taskIndex": 8
+    },
+    "tasks": [
+      {
+        "id": "4_11_2_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2310",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_11_2_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2310",
+          "taskIndex": 9
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 4,
+        "number1": 1
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Kəsrin məxrəcində hansı ədəd dayanır?",
+        "kgz": "Бөлчөктүн бөлүмүндө кайсы сан турат?",
+        "uzb": "Bo'lishni kasr ko'rinishida yozing.",
+        "eng": "Write down the fraction as a quotient.",
+        "rus": "Запишите частное в виде дроби.",
+        "kaz": "Бөліндіні бөлшек түрінде жазыңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "اكتب القسمة بصيغة الكسر الاعتيادي.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": {
+          "with_audio_player": false,
+          "aze": "1 : 4 = ",
+          "kgz": "1 : 4 = ",
+          "uzb": "1 : 4 = ",
+          "eng": "1 ÷ 4 = ",
+          "rus": "1 : 4 = ",
+          "kaz": "1 : 4 = ",
+          "arjd": "1 : 4 = ",
+          "arsa": "1 : 4 = ",
+          "areg": "1 : 4 = ",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_11_2_5",
+      "position": 8,
+      "id": "2a102c36-6fa6-4833-b102-4663e8d4a995",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "\\frac{1}{4}",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "eXBRnHtbP-A",
+      "videoUrl": "https://youtube.com/embed/eXBRnHtbP-A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/e76e32f384ee0c37aaaca49e4714345c?p=nAIvjHGxgfFAJPJj820PHQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/XxQvdoRwEkI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/xrzRbJVmABg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/eXBRnHtbP-A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_13",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 0
+    },
+    "tasks": [
+      {
+        "id": "4_12_8_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 0
+        }
+      },
+      {
+        "id": "4_12_8_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 1
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter": "y"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilən ifadəni sadələşdirin.",
+        "kgz": "Берилген туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Ushbu ifodani soddalashtiring.",
+        "eng": "Simplify this expression.",
+        "rus": "Упростите данное выражение.",
+        "kaz": "Берілген өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "y + y + y = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_8_1",
+      "position": 0,
+      "id": "994aa613-f325-4b88-ba88-934b60e58acf",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "3y",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "vDT59RkDqSw",
+      "videoUrl": "https://youtube.com/embed/vDT59RkDqSw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/3cd3cd31be669207d0933fd4088c4cca?p=kbF85omx2rebTRmlAd9eLw",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/CsFJC6P9mAw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/1VWU6KrLCOY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/vDT59RkDqSw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_14",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 4
+    },
+    "tasks": [
+      {
+        "id": "4_12_9_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_12_9_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number1": 7,
+        "letter": "y"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
+        "kgz": "Бөлүштүрүү законун пайдаланып, туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Taqsimot qonunidan foydalanib ifodani soddalashtiring.",
+        "eng": "Simplify the expression using the distributive property.",
+        "rus": "Упростите выражение, используя распределительное свойство.",
+        "kaz": "Үлестірімділік заңын қолданып, өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "7y + y = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_9_3",
+      "position": 4,
+      "id": "e5c33e15-28dc-4bd0-987b-123fb4b52c0d",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "8y",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "toeVOjFtK48",
+      "videoUrl": "https://youtube.com/embed/toeVOjFtK48?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/9ccf6a9a989d796a3c13b88f359b50a8?p=Pz0uGzz29FXBJ82MCuhVAg",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/1ABmcyhs_A4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/fm5AGQTB_pQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/toeVOjFtK48?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_15",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 14
+    },
+    "tasks": [
+      {
+        "id": "4_12_13_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 14
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number4": 58,
+        "number3": 31,
+        "number2": 38,
+        "number1": 61,
+        "letter": "b"
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
+        "kgz": "Бөлүштүрүү законун пайдаланып, туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Taqsimot qonunidan foydalanib ifodani soddalashtiring.",
+        "eng": "Simplify the expression using the distributive property.",
+        "rus": "Упростите выражение, используя распределительное свойство.",
+        "kaz": "Үлестірімділік заңын қолданып, өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "61b + 38 + 31b + 58 = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_13_2",
+      "position": 14,
+      "id": "851f7641-1527-46b9-955d-78e9ef1b14aa",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "92b+96",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "If1NsR5v4hY",
+      "videoUrl": "https://youtube.com/embed/If1NsR5v4hY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/e92228dde61e703f5ef60224dabdb0a6?p=eYQ2C7Gnk1e6OLIspFxLpA",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/5fvnH5FDxh8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/cklCRkbiujQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/If1NsR5v4hY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_16",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 15
+    },
+    "tasks": [
+      {
+        "id": "4_12_13_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 15
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter2": "c",
+        "letter1": "b",
+        "number3": 13,
+        "number2": 58,
+        "number1": 34
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
+        "kgz": "Бөлүштүрүү законун пайдаланып, туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Taqsimot qonunidan foydalanib ifodani soddalashtiring.",
+        "eng": "Simplify the expression using the distributive property.",
+        "rus": "Упростите выражение, используя распределительное свойство.",
+        "kaz": "Үлестірімділік заңын қолданып, өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "34b + 58b + 13c = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_13_3",
+      "position": 15,
+      "id": "fca78569-4171-4146-9ba3-6445aec234c0",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "92b+13c",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "YP4nWXPPC5Q",
+      "videoUrl": "https://youtube.com/embed/YP4nWXPPC5Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/32992b2afff61738efa502058921b545?p=ZjWZPBj-vMTfTiEBmI84KQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/FgphkIBVGss?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/UMdd1EMkW6o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/YP4nWXPPC5Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "formula_17",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2332",
+      "taskIndex": 16
+    },
+    "tasks": [
+      {
+        "id": "4_12_13_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2332",
+          "taskIndex": 16
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": "",
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "letter2": "y",
+        "letter1": "b",
+        "number4": 55,
+        "number3": 50,
+        "number2": 33,
+        "number1": 60
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
+        "kgz": "Бөлүштүрүү законун пайдаланып, туюнтманы жөнөкөйлөтүңүз.",
+        "uzb": "Taqsimot qonunidan foydalanib ifodani soddalashtiring.",
+        "eng": "Simplify the expression using the distributive property.",
+        "rus": "Упростите выражение, используя распределительное свойство.",
+        "kaz": "Үлестірімділік заңын қолданып, өрнекті ықшамдаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "content": "60b + 33y - 50b + 55y = ",
+        "direction": "",
+        "type": "formula"
+      },
+      "type": "Elixir.Task_4_12_13_4",
+      "position": 16,
+      "id": "eade773c-d8d5-42cf-a275-4f661750f919",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "10b+88y",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "eTFX6WeZu70",
+      "videoUrl": "https://youtube.com/embed/eTFX6WeZu70?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/b732d40d0a8d52b000f34b8f03b863bc?p=qe9ebnCSqoGSCRSHY0GjjQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/06L55emfCmY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/M4QiycMpcok?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/eTFX6WeZu70?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

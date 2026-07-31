@@ -1,0 +1,1403 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_1_70",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 21
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 85605,
+            "number1": 26375
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+            "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+            "uzb": "Berilgan ifodani son bilan yozing:",
+            "eng": "Write the given expression in numbers:",
+            "rus": "Запишите данное выражение цифрами:",
+            "kaz": "Берілген өрнекті санмен жазыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "type": "answerCell",
+            "textBefore": {
+              "with_audio_player": false,
+              "aze": "Iyirmi altı min üç yüz yetmiş beş üstəgəl səksən beş min altı yüz beş",
+              "kgz": "Жыйырма алты миң үч жүз жетимиш беш кошуу сексен беш миң алты жүз беш",
+              "uzb": "Yigirma olti ming uch yuz yetmish besh qo'shilgan sakson besh ming olti yuz besh",
+              "eng": "Twenty-six thousand three hundred and seventy-five plus eighty-five thousand six hundred and five",
+              "rus": "Двадцать шесть тысяч триста семьдесят пять плюс восемьдесят пять тысяч шестьсот пять",
+              "kaz": "Жиырма алты мың үш жүз жетпіс бес қосу сексен бес мың алты жүз бес",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ستة وعشرون ألفًا وثلاثمائة وخمسة وسبعون زائد خمسة وثمانون ألفًا وستمائة وخمسة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "textAfter": "",
+            "tableBefore": null,
+            "isColumn": false,
+            "imageBefore": "",
+            "content": "answercell + answercell",
+            "answerCellMargin": "0 7px"
+          },
+          "type": "Elixir.Task_4_1_70",
+          "position": 21,
+          "id": "8686d5c2-7df3-4179-92ba-c5083523c24a",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "26375;;85605",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "BiTkaj4qzpw",
+          "videoUrl": "https://youtube.com/embed/BiTkaj4qzpw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0dea187dbc6cb988573bf2b4447eebb4?p=GhYTYaVgswEVz5kMbLISNg",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/CqYJYCsqlgQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/i9bq8k7v_Tg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/y9oXgmy8Dg0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/BiTkaj4qzpw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": "https://youtube.com/embed/xryCVctwlBM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "areg": "https://youtube.com/embed/xryCVctwlBM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_6"
+      },
+      {
+        "id": "4_1_71",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 22
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 36260,
+            "number1": 60982
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+            "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+            "uzb": "Berilgan ifodani son bilan yozing:",
+            "eng": "Write the given expression in numbers:",
+            "rus": "Запишите данное выражение цифрами:",
+            "kaz": "Берілген өрнекті санмен жазыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "type": "answerCell",
+            "textBefore": {
+              "with_audio_player": false,
+              "aze": "Altmış min doqquz yüz səksən i̇ki̇ çıx otuz altı min i̇ki̇ yüz altmış",
+              "kgz": "Алтымыш миң тогуз жүз сексен эки кемитүү отуз алты миң эки жүз алтымыш",
+              "uzb": "Oltmish ming to'qqiz yuz sakson ikki ayirilgan o'ttiz olti ming ikki yuz oltmish",
+              "eng": "Sixty thousand nine hundred and eighty-two minus thirty-six thousand two hundred and sixty",
+              "rus": "Шестьдесят тысяч девятьсот восемьдесят два минус тридцать шесть тысяч двести шестьдесят",
+              "kaz": "Алпыс мың тоғыз жүз сексен екі азайту отыз алты мың екі жүз алпыс",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ستون ألفًا وتسعمائة واثنان وثمانون ناقص ستة وثلاثون ألفًا ومائتان وستون",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "textAfter": "",
+            "tableBefore": null,
+            "isColumn": false,
+            "imageBefore": "",
+            "content": "answercell - answercell",
+            "answerCellMargin": "0 7px"
+          },
+          "type": "Elixir.Task_4_1_71",
+          "position": 22,
+          "id": "41cdd902-ffec-4240-899c-318937cb0659",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "60982;;36260",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "LgmXyU6YYUE",
+          "videoUrl": "https://youtube.com/embed/LgmXyU6YYUE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/9f66f598786508199189c2061858dc15?p=f_S7jNQcGMJkpA1UGcG--w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/BspTBtHGtDU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/rA3orscNtTk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/LgmXyU6YYUE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": "https://youtube.com/embed/x2njUWGVcWs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "areg": "https://youtube.com/embed/x2njUWGVcWs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_6"
+      },
+      {
+        "id": "4_3_4_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 6
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 807,
+            "number1": 668
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Boş xanalara hansı ədədləri yazmaq olar ki, bərabərlik düzgün olsun?",
+            "kgz": "Барабардык туура болгондой кылып, бош чакмактын ордуна кайсы санды жазабыз?",
+            "uzb": "Tenglik to'g'ri bo'lishi uchun, bo'sh katakchalarga qanday sonlarni yozish kerak?",
+            "eng": "What numbers can be written into the empty cells to make the equality true?",
+            "rus": "Какие числа, кроме нуля, можно записать в пустые ячейки, чтобы равенство было верным?",
+            "kaz": "Теңдік тура болу үшін, бос ұяшықтарға нөлден өзге қандай сандарды жазуға болады?",
+            "arjd": "",
+            "arsa": "",
+            "areg": "ضع الأعداد المناسبة في المربعات الفارغة لتكون المساواة صحيحة\\(\\\\\\)      (ما عدا الصفر)",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": "668 + answercell + answercell = 807",
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_3_4_7",
+          "position": 6,
+          "id": "0b77a25f-eccd-4430-a54b-1e941c3a9bdc",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "1;;138 || 2;;137 || 3;;136 || 4;;135 || 5;;134 || 6;;133 || 7;;132 || 8;;131 || 9;;130 || 10;;129 || 11;;128 || 12;;127 || 13;;126 || 14;;125 || 15;;124 || 16;;123 || 17;;122 || 18;;121 || 19;;120 || 20;;119 || 21;;118 || 22;;117 || 23;;116 || 24;;115 || 25;;114 || 26;;113 || 27;;112 || 28;;111 || 29;;110 || 30;;109 || 31;;108 || 32;;107 || 33;;106 || 34;;105 || 35;;104 || 36;;103 || 37;;102 || 38;;101 || 39;;100 || 40;;99 || 41;;98 || 42;;97 || 43;;96 || 44;;95 || 45;;94 || 46;;93 || 47;;92 || 48;;91 || 49;;90 || 50;;89 || 51;;88 || 52;;87 || 53;;86 || 54;;85 || 55;;84 || 56;;83 || 57;;82 || 58;;81 || 59;;80 || 60;;79 || 61;;78 || 62;;77 || 63;;76 || 64;;75 || 65;;74 || 66;;73 || 67;;72 || 68;;71 || 69;;70 || 70;;69 || 71;;68 || 72;;67 || 73;;66 || 74;;65 || 75;;64 || 76;;63 || 77;;62 || 78;;61 || 79;;60 || 80;;59 || 81;;58 || 82;;57 || 83;;56 || 84;;55 || 85;;54 || 86;;53 || 87;;52 || 88;;51 || 89;;50 || 90;;49 || 91;;48 || 92;;47 || 93;;46 || 94;;45 || 95;;44 || 96;;43 || 97;;42 || 98;;41 || 99;;40 || 100;;39 || 101;;38 || 102;;37 || 103;;36 || 104;;35 || 105;;34 || 106;;33 || 107;;32 || 108;;31 || 109;;30 || 110;;29 || 111;;28 || 112;;27 || 113;;26 || 114;;25 || 115;;24 || 116;;23 || 117;;22 || 118;;21 || 119;;20 || 120;;19 || 121;;18 || 122;;17 || 123;;16 || 124;;15 || 125;;14 || 126;;13 || 127;;12 || 128;;11 || 129;;10 || 130;;9 || 131;;8 || 132;;7 || 133;;6 || 134;;5 || 135;;4 || 136;;3 || 137;;2 || 138;;1",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "-ndi7pW5a_w",
+          "videoUrl": "https://youtube.com/embed/-ndi7pW5a_w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/15f4a0a11c14b4e97fd4a7724126c285?p=HJmlbRjAtXAlbcjfXWAt2Q",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/SFJdmKrciwM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/RweX89jS-0Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/nwiO2A07sVs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/-ndi7pW5a_w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_6"
+      },
+      {
+        "id": "4_3_4_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 525,
+            "number1": 995
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Boş xanalara hansı ədədləri yazmaq olar ki, bərabərlik düzgün olsun?",
+            "kgz": "Барабардык туура болгондой кылып, бош чакмактын ордуна кайсы сандарды жазабыз?",
+            "uzb": "Tenglik to'g'ri bo'lishi uchun, bo'sh katakchalarga qanday sonlarni yozish kerak?",
+            "eng": "What numbers can be written into the empty cells to make the equality true?",
+            "rus": "Какие числа, кроме нуля, можно записать в пустые ячейки, чтобы равенство было верным?",
+            "kaz": "Теңдік тура болу үшін, бос ұяшықтарға нөлден өзге қандай сандарды жазуға болады?",
+            "arjd": "",
+            "arsa": "",
+            "areg": "ضع الأعداد المناسبة في المربعات الفارغة لتكون المساواة صحيحة \\(\\\\\\)      (ما عدا الصفر)",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "type": "answerCell",
+            "textBefore": "",
+            "textAfter": "",
+            "tableBefore": null,
+            "isColumn": false,
+            "imageBefore": "",
+            "content": "995 - answercell - answercell = 525",
+            "answerCellMargin": "0 7px"
+          },
+          "type": "Elixir.Task_4_3_4_8",
+          "position": 7,
+          "id": "749cf57d-b4be-4cd0-b044-3bd12a1df1f0",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "1;;469 || 2;;468 || 3;;467 || 4;;466 || 5;;465 || 6;;464 || 7;;463 || 8;;462 || 9;;461 || 10;;460 || 11;;459 || 12;;458 || 13;;457 || 14;;456 || 15;;455 || 16;;454 || 17;;453 || 18;;452 || 19;;451 || 20;;450 || 21;;449 || 22;;448 || 23;;447 || 24;;446 || 25;;445 || 26;;444 || 27;;443 || 28;;442 || 29;;441 || 30;;440 || 31;;439 || 32;;438 || 33;;437 || 34;;436 || 35;;435 || 36;;434 || 37;;433 || 38;;432 || 39;;431 || 40;;430 || 41;;429 || 42;;428 || 43;;427 || 44;;426 || 45;;425 || 46;;424 || 47;;423 || 48;;422 || 49;;421 || 50;;420 || 51;;419 || 52;;418 || 53;;417 || 54;;416 || 55;;415 || 56;;414 || 57;;413 || 58;;412 || 59;;411 || 60;;410 || 61;;409 || 62;;408 || 63;;407 || 64;;406 || 65;;405 || 66;;404 || 67;;403 || 68;;402 || 69;;401 || 70;;400 || 71;;399 || 72;;398 || 73;;397 || 74;;396 || 75;;395 || 76;;394 || 77;;393 || 78;;392 || 79;;391 || 80;;390 || 81;;389 || 82;;388 || 83;;387 || 84;;386 || 85;;385 || 86;;384 || 87;;383 || 88;;382 || 89;;381 || 90;;380 || 91;;379 || 92;;378 || 93;;377 || 94;;376 || 95;;375 || 96;;374 || 97;;373 || 98;;372 || 99;;371 || 100;;370 || 101;;369 || 102;;368 || 103;;367 || 104;;366 || 105;;365 || 106;;364 || 107;;363 || 108;;362 || 109;;361 || 110;;360 || 111;;359 || 112;;358 || 113;;357 || 114;;356 || 115;;355 || 116;;354 || 117;;353 || 118;;352 || 119;;351 || 120;;350 || 121;;349 || 122;;348 || 123;;347 || 124;;346 || 125;;345 || 126;;344 || 127;;343 || 128;;342 || 129;;341 || 130;;340 || 131;;339 || 132;;338 || 133;;337 || 134;;336 || 135;;335 || 136;;334 || 137;;333 || 138;;332 || 139;;331 || 140;;330 || 141;;329 || 142;;328 || 143;;327 || 144;;326 || 145;;325 || 146;;324 || 147;;323 || 148;;322 || 149;;321 || 150;;320 || 151;;319 || 152;;318 || 153;;317 || 154;;316 || 155;;315 || 156;;314 || 157;;313 || 158;;312 || 159;;311 || 160;;310 || 161;;309 || 162;;308 || 163;;307 || 164;;306 || 165;;305 || 166;;304 || 167;;303 || 168;;302 || 169;;301 || 170;;300 || 171;;299 || 172;;298 || 173;;297 || 174;;296 || 175;;295 || 176;;294 || 177;;293 || 178;;292 || 179;;291 || 180;;290 || 181;;289 || 182;;288 || 183;;287 || 184;;286 || 185;;285 || 186;;284 || 187;;283 || 188;;282 || 189;;281 || 190;;280 || 191;;279 || 192;;278 || 193;;277 || 194;;276 || 195;;275 || 196;;274 || 197;;273 || 198;;272 || 199;;271 || 200;;270 || 201;;269 || 202;;268 || 203;;267 || 204;;266 || 205;;265 || 206;;264 || 207;;263 || 208;;262 || 209;;261 || 210;;260 || 211;;259 || 212;;258 || 213;;257 || 214;;256 || 215;;255 || 216;;254 || 217;;253 || 218;;252 || 219;;251 || 220;;250 || 221;;249 || 222;;248 || 223;;247 || 224;;246 || 225;;245 || 226;;244 || 227;;243 || 228;;242 || 229;;241 || 230;;240 || 231;;239 || 232;;238 || 233;;237 || 234;;236 || 235;;235 || 236;;234 || 237;;233 || 238;;232 || 239;;231 || 240;;230 || 241;;229 || 242;;228 || 243;;227 || 244;;226 || 245;;225 || 246;;224 || 247;;223 || 248;;222 || 249;;221 || 250;;220 || 251;;219 || 252;;218 || 253;;217 || 254;;216 || 255;;215 || 256;;214 || 257;;213 || 258;;212 || 259;;211 || 260;;210 || 261;;209 || 262;;208 || 263;;207 || 264;;206 || 265;;205 || 266;;204 || 267;;203 || 268;;202 || 269;;201 || 270;;200 || 271;;199 || 272;;198 || 273;;197 || 274;;196 || 275;;195 || 276;;194 || 277;;193 || 278;;192 || 279;;191 || 280;;190 || 281;;189 || 282;;188 || 283;;187 || 284;;186 || 285;;185 || 286;;184 || 287;;183 || 288;;182 || 289;;181 || 290;;180 || 291;;179 || 292;;178 || 293;;177 || 294;;176 || 295;;175 || 296;;174 || 297;;173 || 298;;172 || 299;;171 || 300;;170 || 301;;169 || 302;;168 || 303;;167 || 304;;166 || 305;;165 || 306;;164 || 307;;163 || 308;;162 || 309;;161 || 310;;160 || 311;;159 || 312;;158 || 313;;157 || 314;;156 || 315;;155 || 316;;154 || 317;;153 || 318;;152 || 319;;151 || 320;;150 || 321;;149 || 322;;148 || 323;;147 || 324;;146 || 325;;145 || 326;;144 || 327;;143 || 328;;142 || 329;;141 || 330;;140 || 331;;139 || 332;;138 || 333;;137 || 334;;136 || 335;;135 || 336;;134 || 337;;133 || 338;;132 || 339;;131 || 340;;130 || 341;;129 || 342;;128 || 343;;127 || 344;;126 || 345;;125 || 346;;124 || 347;;123 || 348;;122 || 349;;121 || 350;;120 || 351;;119 || 352;;118 || 353;;117 || 354;;116 || 355;;115 || 356;;114 || 357;;113 || 358;;112 || 359;;111 || 360;;110 || 361;;109 || 362;;108 || 363;;107 || 364;;106 || 365;;105 || 366;;104 || 367;;103 || 368;;102 || 369;;101 || 370;;100 || 371;;99 || 372;;98 || 373;;97 || 374;;96 || 375;;95 || 376;;94 || 377;;93 || 378;;92 || 379;;91 || 380;;90 || 381;;89 || 382;;88 || 383;;87 || 384;;86 || 385;;85 || 386;;84 || 387;;83 || 388;;82 || 389;;81 || 390;;80 || 391;;79 || 392;;78 || 393;;77 || 394;;76 || 395;;75 || 396;;74 || 397;;73 || 398;;72 || 399;;71 || 400;;70 || 401;;69 || 402;;68 || 403;;67 || 404;;66 || 405;;65 || 406;;64 || 407;;63 || 408;;62 || 409;;61 || 410;;60 || 411;;59 || 412;;58 || 413;;57 || 414;;56 || 415;;55 || 416;;54 || 417;;53 || 418;;52 || 419;;51 || 420;;50 || 421;;49 || 422;;48 || 423;;47 || 424;;46 || 425;;45 || 426;;44 || 427;;43 || 428;;42 || 429;;41 || 430;;40 || 431;;39 || 432;;38 || 433;;37 || 434;;36 || 435;;35 || 436;;34 || 437;;33 || 438;;32 || 439;;31 || 440;;30 || 441;;29 || 442;;28 || 443;;27 || 444;;26 || 445;;25 || 446;;24 || 447;;23 || 448;;22 || 449;;21 || 450;;20 || 451;;19 || 452;;18 || 453;;17 || 454;;16 || 455;;15 || 456;;14 || 457;;13 || 458;;12 || 459;;11 || 460;;10 || 461;;9 || 462;;8 || 463;;7 || 464;;6 || 465;;5 || 466;;4 || 467;;3 || 468;;2 || 469;;1",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "QzVG3bPZkuI",
+          "videoUrl": "https://youtube.com/embed/QzVG3bPZkuI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/b54f4dfdbb8b8ff24be29976f6a38c0a?p=Dvjl4MObQYZp9_BWgeRL3Q",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/RBeBagN8FfM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/BshjBBTpuuQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/G7kqAN_vAEY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/QzVG3bPZkuI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_6"
+      },
+      {
+        "id": "4_3_4_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 269,
+            "number1": 5
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Hansı ikirəqəmli ədədləri boş xanalara yazmaq olar ki, bərabərlik düzgün olsun?",
+            "kgz": "Барабардык туура болгондой кылып, бош чакмактардын ордуна кандай эки орундуу сандарды жазабыз?",
+            "uzb": "Tenglik to'g'ri bo'lishi uchun, bo'sh katakchalarga qanday ikki xonali sonlarni yozish kerak?",
+            "eng": "What two-digit numbers can be written into the empty cells to make the equality true?",
+            "rus": "Какие двузначные числа можно записать в пустые ячейки, чтобы равенство было верным?",
+            "kaz": "Теңдік тура болу үшін, бос ұяшықтарға қандай екі таңбалы сандарды жазуға болады?",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اكتب أعدادًا مكوّنة من رقمين في المربعات الفارغة لكي تكون المساواة \\(\\\\\\)      صحيحة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": "5 · answercell + answercell = 269",
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_3_4_9",
+          "position": 8,
+          "id": "e4aeeb7b-b56e-4f4d-a1e2-86e607797c37",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "34;;99 || 35;;94 || 36;;89 || 37;;84 || 38;;79 || 39;;74 || 40;;69 || 41;;64 || 42;;59 || 43;;54 || 44;;49 || 45;;44 || 46;;39 || 47;;34 || 48;;29 || 49;;24 || 50;;19 || 51;;14",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "IRaEUDZcBZE",
+          "videoUrl": "https://youtube.com/embed/IRaEUDZcBZE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/a8ad762c93a57d1794f437154738c6e8?p=f16xtUC3j0HzGR-5TxtbLg",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/Mm6ndIPyLt4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/g2ioLvsm4Vk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/dDR1aJw_lOk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/IRaEUDZcBZE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_6"
+      },
+      {
+        "id": "4_3_4_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 10
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 213,
+            "number1": 3
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Hansı ikirəqəmli ədədləri boş xanalara yazmaq olar ki, bərabərlik düzgün olsun?",
+            "kgz": "Барабардык туура болгондой кылып, бош чакмактардын ордуна кандай эки орундуу сандарды жазабыз?",
+            "uzb": "Tenglik to'g'ri bo'lishi uchun, bo'sh katakchalarga qanday ikki xonali sonlarni yozish kerak?",
+            "eng": "What two-digit numbers can be written into the empty cells to make the equality true?",
+            "rus": "Какие двузначные числа можно записать в пустые ячейки, чтобы равенство было верным?",
+            "kaz": "Теңдік тура болу үшін, бос ұяшықтарға қандай екі таңбалы сандарды жазуға болады?",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اكتب أعدادًا مكوّنة من رقمين ورقم واحد في المربعات الفارغة لكي تكون المساواة صحيحة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": "3 · answercell - answercell = 213",
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_3_4_11",
+          "position": 10,
+          "id": "e703b771-b2a5-4b82-b428-a564ce01ca05",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "72;;3 || 73;;6 || 74;;9 || 75;;12 || 76;;15 || 77;;18 || 78;;21 || 79;;24 || 80;;27 || 81;;30 || 82;;33 || 83;;36 || 84;;39 || 85;;42 || 86;;45 || 87;;48 || 88;;51 || 89;;54 || 90;;57 || 91;;60 || 92;;63 || 93;;66 || 94;;69 || 95;;72 || 96;;75 || 97;;78 || 98;;81 || 99;;84",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "YkpZ6hygPVE",
+          "videoUrl": "https://youtube.com/embed/YkpZ6hygPVE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0008c5f30a68e531ec39d335047ba256?p=igp2aL0cksTEo2qeLzXTjQ",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/CjpI5HNqy90?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/1J0qxHAG3ok?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/ElwdYYpSh0Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/YkpZ6hygPVE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_6"
+      },
+      {
+        "id": "4_1_72",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 23
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 13606,
+            "number1": 75574
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+            "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+            "uzb": "Berilgan ifodani son bilan yozing:",
+            "eng": "Write the given expression in numbers:",
+            "rus": "Запишите данное выражение цифрами:",
+            "kaz": "Берілген өрнекті санмен жазыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "type": "answerCell",
+            "textBefore": {
+              "with_audio_player": false,
+              "aze": "Yetmiş beş min beş yüz yetmiş dörd vur on üç min altı yüz altı",
+              "kgz": "Жетимиш беш миң беш жүз жетимиш төрт көбөйтүү он үч миң алты жүз алты",
+              "uzb": "Yetmish besh ming besh yuz yetmish to'rt ko'paytirilgan o'n uch ming olti yuz olti",
+              "eng": "Seventy-five thousand five hundred and seventy-four multiplied by thirteen thousand six hundred and six",
+              "rus": "Семьдесят пять тысяч пятьсот семьдесят четыре умножить на тринадцать тысячи шестьсот шесть",
+              "kaz": "Жетпіс бес мың бес жүз жетпіс төрт көбейту он үш мың алты жүз алты",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ضرب خمسة وسبعين ألفًا وخمسمائة وأربعة وسبعين في ثلاثة عشر ألفًا وستمائة وستة",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "textAfter": "",
+            "tableBefore": null,
+            "isColumn": false,
+            "imageBefore": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "answercell · answercell",
+              "kgz": "answercell · answercell",
+              "uzb": "answercell · answercell",
+              "eng": "answercell · answercell",
+              "rus": "answercell · answercell",
+              "kaz": "answercell · answercell",
+              "arjd": "answercell · answercell",
+              "arsa": "answercell · answercell",
+              "areg": "answercell · answercell",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "answerCellMargin": "0 7px"
+          },
+          "type": "Elixir.Task_4_1_72",
+          "position": 23,
+          "id": "710d9cf0-cec1-484b-84f6-dd9ac79f034e",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "75574;;13606",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "xMMfGPNFm4s",
+          "videoUrl": "https://youtube.com/embed/xMMfGPNFm4s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/99db75e7b2da70af96bf8958b9325cba?p=FJfDd-bjDM3as7L9_mbBTQ",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/6CEDCsSmb3Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/HfUkRYgIpQg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/9fyd7f4OPJQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/xMMfGPNFm4s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_7"
+      },
+      {
+        "id": "4_1_73",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 24
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 42935,
+            "number1": 42935
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+            "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+            "uzb": "Berilgan ifodani son bilan yozing:",
+            "eng": "Write the given expression in numbers:",
+            "rus": "Запишите данное выражение цифрами:",
+            "kaz": "Берілген өрнекті санмен жазыңыз:",
+            "arjd": "",
+            "arsa": "",
+            "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "type": "answerCell",
+            "textBefore": {
+              "with_audio_player": false,
+              "aze": "Qırx i̇ki̇ min doqquz yüz otuz beş böl qırx i̇ki̇ min doqquz yüz otuz beş",
+              "kgz": "Кырк эки миң тогуз жүз отуз беш бөлүү кырк эки миң тогуз жүз отуз беш",
+              "uzb": "Qirq ikki ming to'qqiz yuz o'ttiz besh bo'lingan qirq ikki ming to'qqiz yuz o'ttiz besh",
+              "eng": "Forty-two thousand nine hundred and thirty-five divided by forty-two thousand nine hundred and thirty-five",
+              "rus": "Сорок два тысячи девятьсот тридцать пять разделить на сорок два тысячи девятьсот тридцать пять",
+              "kaz": "Қырық екі мың тоғыз жүз отыз бес бөлу қырық екі мың тоғыз жүз отыз бес",
+              "arjd": "",
+              "arsa": "",
+              "areg": "قسمة اثنين وأربعين ألفًا وتسعمائة وخمسة وثلاثين على اثنين وأربعين ألفًا وتسعمائة وخمسة وثلاثين",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "textAfter": "",
+            "tableBefore": null,
+            "isColumn": false,
+            "imageBefore": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "answercell ÷ answercell",
+              "rus": "",
+              "kaz": "answercell : answercell",
+              "arjd": "",
+              "arsa": "",
+              "areg": "answercell ÷ answercell",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "answerCellMargin": "0 7px"
+          },
+          "type": "Elixir.Task_4_1_73",
+          "position": 24,
+          "id": "05dab33b-9eea-4d48-83a2-b4d21b85331d",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "42935;;42935",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "Uu6moSzfenM",
+          "videoUrl": "https://youtube.com/embed/Uu6moSzfenM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/a58a71b1075de7fd53ca2486873e04e2?p=6nCFLpso3vAa1m-JBhn2sA",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/6VYCGqz1HkU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/eVV3CEYr1Mc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/ectRvCxBBWo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/Uu6moSzfenM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_7"
+      },
+      {
+        "id": "4_3_4_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 9
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 100,
+            "number1": 880
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Hansı ikirəqəmli ədədləri boş xanalara yazmaq olar ki, bərabərlik düzgün olsun?",
+            "kgz": "Барабардык туура болгондой кылып, бош чакмактардын ордуна кандай эки орундуу сандарды жазабыз?",
+            "uzb": "Tenglik to'g'ri bo'lishi uchun, bo'sh katakchalarga qanday ikki xonali sonlarni yozish kerak?",
+            "eng": "What two-digit numbers can be written into the empty cells to make the equality true?",
+            "rus": "Какие двузначные числа можно записать в пустые ячейки, чтобы равенство было верным?",
+            "kaz": "Теңдік тура болу үшін, бос ұяшықтарға қандай екі таңбалы сандарды жазуға болады?",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اكتب أعدادًا مكوّنة من رقمين ورقم واحد في المربعات الفارغة لكي تكون المساواة صحيحة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "880 : answercell + answercell = 100",
+              "kgz": "880 : answercell + answercell = 100",
+              "uzb": "880 : answercell + answercell = 100",
+              "eng": "880 ÷ answercell + answercell = 100",
+              "rus": "880 : answercell + answercell = 100",
+              "kaz": "880 : answercell + answercell = 100",
+              "arjd": "880 : answercell + answercell = 100",
+              "arsa": "880 : answercell + answercell = 100",
+              "areg": "880 : answercell + answercell = 100",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_3_4_10",
+          "position": 9,
+          "id": "270f4897-eeec-45b8-9b50-aa685173fd1e",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "10;;12 || 11;;20 || 16;;45 || 20;;56 || 22;;60 || 40;;78 || 44;;80 || 55;;84 || 80;;89 || 88;;90",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "2rdg6f_hYfA",
+          "videoUrl": "https://youtube.com/embed/2rdg6f_hYfA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/83d94631db83a9f7080c8979931c51fd?p=kmbNNvryfb0B7Hilfpiu6w",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/eFWonMyYz4U?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/ZnAzwG_B6gg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/ciVKcEz4qD4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/2rdg6f_hYfA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_7"
+      },
+      {
+        "id": "4_3_4_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 11
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": true,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 25,
+            "number1": 608
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Hansı birrəqəmli və ikirəqəmli ədədləri boş xanalara yazmaq olar ki, bərabərlik düzgün olsun?",
+            "kgz": "Барабардык туура болгондой кылып, бош чакмактын ордуна кандай бир орундуу жана эки орундуу санды жазабыз?",
+            "uzb": "Tenglik to'g'ri bo'lishi uchun, bo'sh katakchalarga qanday bir xonali yoki ikki xonali son yozish kerak?",
+            "eng": "What single-digit and two-digit numbers can be written in the empty cells to make the equality true? ",
+            "rus": "Какие однозначные и двузначные числа можно записать в пустые ячейки, чтобы равенство было верным?",
+            "kaz": "Теңдік тура болу үшін, бос ұяшықтарға қандай бір және екі таңбалы сандарды жазуға болады?",
+            "arjd": "",
+            "arsa": "",
+            "areg": "أكمل المساواة بالعدد المناسب في كل فراغ (ما عدا الصفر)",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": {
+              "with_audio_player": false,
+              "aze": "608 : answercell - answercell = 25",
+              "kgz": "608 : answercell - answercell = 25",
+              "uzb": "608 : answercell - answercell = 25",
+              "eng": "608 ÷ answercell - answercell = 25",
+              "rus": "608 : answercell - answercell = 25",
+              "kaz": "608 : answercell - answercell = 25",
+              "arjd": "608 : answercell - answercell = 25",
+              "arsa": "608 : answercell - answercell = 25",
+              "areg": "608 : answercell - answercell = 25",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_3_4_12",
+          "position": 11,
+          "id": "4691a4ed-4c0f-4432-bf24-f518e5bcfc34",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "8;;51 || 16;;13 || 19;;7",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "yd55qgXLXh8",
+          "videoUrl": "https://youtube.com/embed/yd55qgXLXh8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/bc811f5db638dd3b314faabc5d4518c8?p=GhWSLZlUnSmaExEGahf3OA",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/ZH05yL6AxPc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/k_WEU_sVLIM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/3K2SxkMqpWM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/yd55qgXLXh8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_7"
+      },
+      {
+        "id": "4_12_19_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2337",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number": 25
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Qanunauyğunluğu müəyyən edin və boş xanalara uyğun olan ədədləri yazın.",
+            "kgz": "Закон ченемдүүлүктү аныктаңыз жана бош уячага керектүү санды жазыңыз.",
+            "uzb": "Qonuniyatni aniqlang va ketma-ketlikdagi noma'lum hadini toping.",
+            "eng": "Find the pattern and fill in the missing numbers.",
+            "rus": "Определите закономерность и запишите нужные числа в пустые ячейки.",
+            "kaz": "Заңдылықты анықтап, тізбектің жетіспейтін мүшесін анықтаңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حدد النمط ثم اكتب العدد المفقود في التسلسل.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "withAudio": true,
+            "text_before": "",
+            "text_after": "",
+            "table_before": null,
+            "is_column": false,
+            "image_before": "",
+            "answer_cell_margin": "",
+            "content": "25; 30; answercell; answercell; 45; 50; 55; 60; 65",
+            "type": "answerCell"
+          },
+          "type": "Elixir.Task_4_12_19_8",
+          "position": 7,
+          "id": "bb87311d-6077-40f5-8731-7f6855947c62",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "35;;40",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "wvRCYd1revk",
+          "videoUrl": "https://youtube.com/embed/wvRCYd1revk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/7f6581387f74da1d317fe2046296232e?p=ZfWEpb2c6AuDuSj2oc0x7A",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/HKQuwJETRss?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/R7h1ssUK_TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/wvRCYd1revk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "answerCell_13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_10_14_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2363",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input3": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Böyük uşağı:",
+                "kgz": "Улуусу:",
+                "uzb": "Kattarsi:",
+                "eng": "Oldest",
+                "rus": "Older:",
+                "kaz": "Үлкені:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الأخ الأكبر",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Orta uşağı:",
+                "kgz": "Ортончусу:",
+                "uzb": "O'rta:",
+                "eng": "Middle:",
+                "rus": "Средний:",
+                "kaz": "Ортаңғысы:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الأخ الأوسط",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Kiçik uşağı:",
+                "kgz": "Кичүүсү:",
+                "uzb": "Kichigi:",
+                "eng": "Yongest:",
+                "rus": "Младший:",
+                "kaz": "Кішісі:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الأخ الأصغر",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 30
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 3,
+            "number1": 21
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Ailədə 3 oğlan var. Onların hər biri əvvəlkindən 3 yaş kiçikdir. Əgər onların yaşlarının cəmi 21-dirsə, hər üç uşağın neçə yaşı var?\n",
+              "kgz": "Үй-бүлөдө 3 эркек бала бар. Алардын ар бири мурункусунан 3 жашка кичүү.\nЭгер алардын жаштарынын суммасы 21 болсо, анда үч баланын ар бири канча жашта?\n",
+              "uzb": "Bir oilada 3 nafar o'g'il bor.\nUlarning har biri avvalgisidan 3 yoshga kichik.\nAgar barchasini yoshini yig'indisi 21 bo'lsa, uch nafar o'g'ilning har biri necha yoshda?\n",
+              "eng": "There are 3 boys in a family. Each of them is 3 years younger than the one before.\nIf the sum of their ages is 21, how old is each boy?\n",
+              "rus": "В семье 3 мальчика. Каждый из них моложе предыдущего на 3 года. Если сумма их возрастов равна 21, то сколько лет каждому из трех мальчиков?\n",
+              "kaz": "Отбасында 3 ер бала бар. Олардың әрқайсысы алдынғысынан 3 жас кіші. Бәрінің жасын қосқана 21 болса, үш баланың әрқайсысы неше жаста?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "في أسرة ما ثلاثة إخوة، كل واحد منهم أصغر من أخيه الذي يكبره 3 سنوات.\nإذا كان مجموع أعمارهم 21 سنةً، فكم عمر كل واحد منهم؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_14_8",
+          "position": 7,
+          "id": "8cd31349-e054-4cf2-9c46-e88e09c5885e",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "4;;7;;10",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "xbKIAk7wMT8",
+          "videoUrl": "https://youtube.com/embed/xbKIAk7wMT8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/7b5538207a7eb4e9d09037d333288909?p=hpI9AfXIhMA0PGTQuRABww",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/Kg_MYZ4CWkQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/R5i4alf62Tk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/xbKIAk7wMT8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_81"
+      }
+    ]
+  }
+}

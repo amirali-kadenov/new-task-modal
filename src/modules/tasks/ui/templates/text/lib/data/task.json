@@ -1,0 +1,42 @@
+{
+  "id": "da90801a-f160-4512-bad6-309ad463467c",
+  "type": "Elixir.Task_4_1_1",
+  "title": null,
+  "description": {
+    "type": "text",
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Yetmiş min ədədini rəqəmlərlə yazın.",
+      "kgz": "Жетимиш миң санын цифра менен жазыңыз.",
+      "uzb": "Yetmish ming sonini raqamlar bilan yozing.",
+      "eng": "Write the number seventy thousand in numerals.",
+      "rus": "Запишите цифрами число семьдесят тысяч.",
+      "kaz": "Жетпіс мың санын цифрмен жазыңыз.",
+      "arjd": "",
+      "arsa": "",
+      "areg": "اكتب العدد «سبعون ألفًا» بالصيغة القياسية",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "fields": {
+    "difficulty": "x1",
+    "number": 70000
+  },
+  "answerInput": {
+    "type": 10,
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "svg": ""
+  },
+  "difficulty": "x1",
+  "result": "none",
+  "position": 0,
+  "attemptsCount": null,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "isPrimary": true
+}

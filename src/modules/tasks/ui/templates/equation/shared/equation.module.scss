@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24, 24px);
+}
+
+.content {
+  font-size: 20px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: var(--space-8, 8px);
+  align-items: center;
+  font-size: 20px;
+}
+
+.beforeText,
+.afterText {
+  flex-shrink: 0;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.input {
+  min-width: 120px;
+}
+
+.answerFormula {
+  min-width: 120px;
+}

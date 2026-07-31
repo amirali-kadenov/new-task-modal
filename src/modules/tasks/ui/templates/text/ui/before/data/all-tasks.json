@@ -1,0 +1,1746 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_12_7_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 0
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(x\\) = ",
+              "kgz": "\\(x\\) = ",
+              "uzb": "\\(x\\) = ",
+              "eng": "\\(x\\) = ",
+              "rus": "\\(x\\) = ",
+              "kaz": "\\(x\\) = ",
+              "arjd": "\\(x\\) = ",
+              "arsa": "\\(x\\) = ",
+              "areg": "\\(x\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 92,
+            "number2": 22,
+            "number1": 134546
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "(134546 – \\(x\\)) + 22 = 92",
+              "kgz": "(134546 – \\(x\\)) + 22 = 92",
+              "uzb": "(134546 – \\(x\\)) + 22 = 92",
+              "eng": "(134,546 – \\(x\\)) + 22 = 92",
+              "rus": "(134546 – \\(x\\)) + 22 = 92",
+              "kaz": "(134546 – \\(x\\)) + 22 = 92",
+              "arjd": "(134546 – \\(x\\)) + 22 = 92",
+              "arsa": "(134546 – \\(x\\)) + 22 = 92",
+              "areg": "(134546 – \\(x\\)) + 22 = 92",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_1",
+          "position": 0,
+          "id": "53f21d1d-4074-4171-9e3c-1c47c1c6f366",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "134476",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "1SVkKsremSo",
+          "videoUrl": "https://youtube.com/embed/1SVkKsremSo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/3caa31a441b78b55e3fe4abe0f515666?p=mwMULNfUe36Ass3PYdESLA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/ooRhGCUxt3o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/NwVsKb2hwiI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/1SVkKsremSo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 1
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(x\\) = ",
+              "kgz": "\\(x\\) = ",
+              "uzb": "\\(x\\) = ",
+              "eng": "\\(x\\) = ",
+              "rus": "\\(x\\) = ",
+              "kaz": "\\(x\\) = ",
+              "arjd": "\\(x\\) = ",
+              "arsa": "\\(x\\) = ",
+              "areg": "\\(x\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 91,
+            "number2": 28,
+            "number1": 134545
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "(134545 – \\(x\\)) - 28 = 91",
+              "kgz": "(134545 – \\(x\\)) - 28 = 91",
+              "uzb": "(134545 – \\(x\\)) - 28 = 91",
+              "eng": "(134,545 – \\(x\\)) - 28 = 91",
+              "rus": "(134545 – \\(x\\)) - 28 = 91",
+              "kaz": "(134545 – \\(x\\)) - 28 = 91",
+              "arjd": "(134545 – \\(x\\)) - 28 = 91",
+              "arsa": "(134545 – \\(x\\)) - 28 = 91",
+              "areg": "(134545 – \\(x\\)) - 28 = 91",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_2",
+          "position": 1,
+          "id": "4bfa7905-0ba0-475c-91f0-53aef4050b54",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "134426",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "WJq586wQJ3w",
+          "videoUrl": "https://youtube.com/embed/WJq586wQJ3w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/51cbf28ecf0fd62a9be26efa9e212040?p=2Xn09vOEctcDLDuE_FHV7A",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/qX8E9wMFJGE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/2Z_z0QfUdbM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/WJq586wQJ3w?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 2
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(x\\) = ",
+              "kgz": "\\(x\\) = ",
+              "uzb": "\\(x\\) = ",
+              "eng": "\\(x\\) = ",
+              "rus": "\\(x\\) = ",
+              "kaz": "\\(x\\) = ",
+              "arjd": "\\(x\\) = ",
+              "arsa": "\\(x\\) = ",
+              "areg": "\\(x\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 701,
+            "number2": 5,
+            "number1": 56
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "(\\(x\\) + 56) : 5 = 701",
+              "kgz": "(\\(x\\) + 56) : 5 = 701",
+              "uzb": "(\\(x\\) + 56) : 5 = 701",
+              "eng": "(\\(x\\) + 56) ÷ 5 = 701",
+              "rus": "(\\(x\\) + 56) : 5 = 701",
+              "kaz": "(\\(x\\) + 56) : 5 = 701",
+              "arjd": "(\\(x\\) + 56) : 5 = 701",
+              "arsa": "(\\(x\\) + 56) : 5 = 701",
+              "areg": "(\\(x\\) + 56) : 5 = 701",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_3",
+          "position": 2,
+          "id": "d8edb43c-b764-42fd-9c2d-371db0ebe9c7",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "3449",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "PH6x-wNoFNA",
+          "videoUrl": "https://youtube.com/embed/PH6x-wNoFNA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/9ca5f31826379f4ced554533bf8d3ef2?p=nDj56gmHR5vdHS3p5FmtXA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/Kc95VGNttD4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/e7fI6V1nDRk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/PH6x-wNoFNA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 3
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(x\\) = ",
+              "kgz": "\\(x\\) = ",
+              "uzb": "\\(x\\) = ",
+              "eng": "\\(x\\) = ",
+              "rus": "\\(x\\) = ",
+              "kaz": "\\(x\\) = ",
+              "arjd": "\\(x\\) = ",
+              "arsa": "\\(x\\) = ",
+              "areg": "\\(x\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 710,
+            "number2": 8,
+            "number1": 54
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "(\\(x\\) - 54) : 8 = 710",
+              "kgz": "(\\(x\\) - 54) : 8 = 710",
+              "uzb": "(\\(x\\) - 54) : 8 = 710",
+              "eng": "(\\(x\\) - 54) ÷ 8 = 710",
+              "rus": "(\\(x\\) - 54) : 8 = 710",
+              "kaz": "(\\(x\\) - 54) : 8 = 710",
+              "arjd": "(\\(x\\) - 54) : 8 = 710",
+              "arsa": "(\\(x\\) - 54) : 8 = 710",
+              "areg": "(\\(x\\) - 54) : 8 = 710",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_4",
+          "position": 3,
+          "id": "b2cd4ff4-5a02-4e29-a1f1-e2d72fae4fc9",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "5734",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "2z5E4_PyaGE",
+          "videoUrl": "https://youtube.com/embed/2z5E4_PyaGE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0a21575e22d80a3af43a2e04709f3e74?p=Wy0phXkJcbuwLjr0V8Je-w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/7-xMFVZd2R0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/qyiAspiYgc0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/2z5E4_PyaGE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 6
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(k\\) = ",
+              "kgz": "\\(k\\) = ",
+              "uzb": "\\(k\\) = ",
+              "eng": "\\(k\\) = ",
+              "rus": "\\(k\\) = ",
+              "kaz": "\\(k\\) = ",
+              "arjd": "\\(k\\) = ",
+              "arsa": "\\(k\\) = ",
+              "areg": "\\(k\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 468,
+            "number2": 5244,
+            "number1": 399
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "399 + 5244 : \\(k\\) = 468",
+              "kgz": "399 + 5244 : \\(k\\) = 468",
+              "uzb": "399 + 5244 : \\(k\\) = 468",
+              "eng": "399 + 5,244 : \\(k\\) = 468",
+              "rus": "399 + 5244 : \\(k\\) = 468",
+              "kaz": "399 + 5244 : \\(k\\) = 468",
+              "arjd": "399 + 5244 : \\(k\\) = 468",
+              "arsa": "399 + 5244 : \\(k\\) = 468",
+              "areg": "399 + 5244 : \\(k\\) = 468",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_7",
+          "position": 6,
+          "id": "6de10e2d-bdad-445e-96e3-caa596e74c80",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "76",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "YQWHSOZvrF0",
+          "videoUrl": "https://youtube.com/embed/YQWHSOZvrF0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/d1fae5dfe9714da0a5aa1cfd91d16937?p=YO52mbefLSY4KLVxSgtfNA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/q6Ouk91ZXyw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/FT1lcyU-yr0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/YQWHSOZvrF0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 7
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(k\\) = ",
+              "kgz": "\\(k\\) = ",
+              "uzb": "\\(k\\) = ",
+              "eng": "\\(k\\) = ",
+              "rus": "\\(k\\) = ",
+              "kaz": "\\(k\\) = ",
+              "arjd": "\\(k\\) = ",
+              "arsa": "\\(k\\) = ",
+              "areg": "\\(k\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 398,
+            "number2": 5226,
+            "number1": 465
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "465 - 5226 : \\(k\\) = 398",
+              "kgz": "465 - 5226 : \\(k\\) = 398",
+              "uzb": "465 - 5226 : \\(k\\) = 398",
+              "eng": "465 - 5,226 : k = 398",
+              "rus": "465 - 5226 : \\(k\\) = 398",
+              "kaz": "465 - 5226 : \\(k\\) = 398",
+              "arjd": "465 - 5226 : \\(k\\) = 398",
+              "arsa": "465 - 5226 : \\(k\\) = 398",
+              "areg": "465 - 5226 : \\(k\\) = 398",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_8",
+          "position": 7,
+          "id": "1307ccf3-de97-4de8-8f1c-562cb9fbccc8",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "78",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "28i9Z5-6GX8",
+          "videoUrl": "https://youtube.com/embed/28i9Z5-6GX8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/3a0f5bd86c03ebcfa4c993ee454155b6?p=enHx0BylwSg8UQg41_g37g",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/rO64wpwbHKo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/2eC0S_XgcF4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/28i9Z5-6GX8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(k\\) = ",
+              "kgz": "\\(k\\) = ",
+              "uzb": "\\(k\\) = ",
+              "eng": "\\(k\\) = ",
+              "rus": "\\(k\\) = ",
+              "kaz": "\\(k\\) = ",
+              "arjd": "\\(k\\) = ",
+              "arsa": "\\(k\\) = ",
+              "areg": "\\(k\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 3900,
+            "number2": 498,
+            "number1": 44
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "44 + (498 + \\(k\\)) = 3900",
+              "kgz": "44 + (498 + \\(k\\)) = 3900",
+              "uzb": "44 + (498 + \\(k\\)) = 3900",
+              "eng": "44 + (498 + k) = 3,900",
+              "rus": "44 + (498 + \\(k\\)) = 3900",
+              "kaz": "44 + (498 + \\(k\\)) = 3900",
+              "arjd": "44 + (498 + \\(k\\)) = 3900",
+              "arsa": "44 + (498 + \\(k\\)) = 3900",
+              "areg": "44 + (498 + \\(k\\)) = 3900",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_9",
+          "position": 8,
+          "id": "038efd03-db5e-484d-9075-14f767e9728e",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "3358",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "O-j_HcriegI",
+          "videoUrl": "https://youtube.com/embed/O-j_HcriegI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/4308c6ebbf7b7a9788e508325568b927?p=J6YekUvS1E1vvBenjRpt8g",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/i5iWbHNvxgE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/DFi2axvPows?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/O-j_HcriegI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 9
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(k\\) = ",
+              "kgz": "\\(k\\) = ",
+              "uzb": "\\(k\\) = ",
+              "eng": "\\(k\\) = ",
+              "rus": "\\(k\\) = ",
+              "kaz": "\\(k\\) = ",
+              "arjd": "\\(k\\) = ",
+              "arsa": "\\(k\\) = ",
+              "areg": "\\(k\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 3903,
+            "number2": 4909,
+            "number1": 42
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "42 + (4909 - \\(k\\)) = 3903",
+              "kgz": "42 + (4909 - \\(k\\)) = 3903",
+              "uzb": "42 + (4909 - \\(k\\)) = 3903",
+              "eng": "42 + (4,909 - k) = 3,903",
+              "rus": "42 + (4909 - \\(k\\)) = 3903",
+              "kaz": "42 + (4909 - \\(k\\)) = 3903",
+              "arjd": "42 + (4909 - \\(k\\)) = 3903",
+              "arsa": "42 + (4909 - \\(k\\)) = 3903",
+              "areg": "42 + (4909 - \\(k\\)) = 3903",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_10",
+          "position": 9,
+          "id": "1e689088-5240-4063-9247-ce7595b3e617",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "1048",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "rlbxWp5TIWc",
+          "videoUrl": "https://youtube.com/embed/rlbxWp5TIWc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/351167326be97612996a4b301397742b?p=X0_9sL03Ca5xNBu5uYcyBw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/ftrMU7XXouA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/elb5U0mXgvY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/rlbxWp5TIWc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 10
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(k\\) = ",
+              "kgz": "\\(k\\) = ",
+              "uzb": "\\(k\\) = ",
+              "eng": "\\(k\\) = ",
+              "rus": "\\(k\\) = ",
+              "kaz": "\\(k\\) = ",
+              "arjd": "\\(k\\) = ",
+              "arsa": "\\(k\\) = ",
+              "areg": "\\(k\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 2954,
+            "number2": 500,
+            "number1": 7
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "7 · (500 – \\(k\\)) = 2954",
+              "kgz": "7 · (500 – \\(k\\)) = 2954",
+              "uzb": "7 · (500 – \\(k\\)) = 2954",
+              "eng": "7 · (500 – k) = 2,954",
+              "rus": "7 · (500 – \\(k\\)) = 2954",
+              "kaz": "7 · (500 – \\(k\\)) = 2954",
+              "arjd": "7 · (500 – \\(k\\)) = 2954",
+              "arsa": "7 · (500 – \\(k\\)) = 2954",
+              "areg": "7 · (500 – \\(k\\)) = 2954",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_11",
+          "position": 10,
+          "id": "b91ed531-992d-4872-ac83-329854cf494c",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "78",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "Pz303FKSMkk",
+          "videoUrl": "https://youtube.com/embed/Pz303FKSMkk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/5767b939b0527f870143dd9bb84739d4?p=flGZdedVeIZw0bIiuGaE6g",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/GIpHpvIqNJg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/4iwYIBaw2qs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/Pz303FKSMkk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 11
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(k\\) = ",
+              "kgz": "\\(k\\) = ",
+              "uzb": "\\(k\\) = ",
+              "eng": "\\(k\\) = ",
+              "rus": "\\(k\\) = ",
+              "kaz": "\\(k\\) = ",
+              "arjd": "\\(k\\) = ",
+              "arsa": "\\(k\\) = ",
+              "areg": "\\(k\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 1680,
+            "number2": 494,
+            "number1": 4
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "4 · (\\(k\\) – 494) = 1680",
+              "kgz": "4 · (\\(k\\) – 494) = 1680",
+              "uzb": "4 · (\\(k\\) – 494) = 1680",
+              "eng": "4 · (\\(k\\) – 494) = 1,680",
+              "rus": "4 · (\\(k\\) – 494) = 1680",
+              "kaz": "4 · (\\(k\\) – 494) = 1680",
+              "arjd": "4 · (\\(k\\) – 494) = 1680",
+              "arsa": "4 · (\\(k\\) – 494) = 1680",
+              "areg": "4 · (\\(k\\) – 494) = 1680",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_12",
+          "position": 11,
+          "id": "b2b1471c-a413-4ef0-9666-29950d6d8b5b",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "914",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "I4H-wr_1Su8",
+          "videoUrl": "https://youtube.com/embed/I4H-wr_1Su8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/5764fcf3aa533cb5ba055e74770b8bb4?p=jrMpQYhNdpougKKxfTuI1w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/xhvYnE4GRWU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/nWi9K1BApBg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/I4H-wr_1Su8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_17"
+      },
+      {
+        "id": "4_12_7_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 4
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(x\\) = ",
+              "kgz": "\\(x\\) = ",
+              "uzb": "\\(x\\) = ",
+              "eng": "\\(x\\) = ",
+              "rus": "\\(x\\) = ",
+              "kaz": "\\(x\\) = ",
+              "arjd": "\\(x\\) = ",
+              "arsa": "\\(x\\) = ",
+              "areg": "\\(x\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 46033,
+            "number1": 2013
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "2013 + \\(x\\) · 5 = 46033",
+              "kgz": "2013 + \\(x\\) · 5 = 46033",
+              "uzb": "2013 + \\(x\\) · 5 = 46033",
+              "eng": "2,013 + \\(x\\) · 5 = 46,033",
+              "rus": "2013 + \\(x\\) · 5 = 46033",
+              "kaz": "2013 + \\(x\\) · 5 = 46033",
+              "arjd": "2013 + \\(x\\) · 5 = 46033",
+              "arsa": "2013 + \\(x\\) · 5 = 46033",
+              "areg": "2013 + \\(x\\) · 5 = 46033",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_5",
+          "position": 4,
+          "id": "3380161f-c445-429b-95f8-21cbc9ec61a4",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "8804",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "cvNzf589ppw",
+          "videoUrl": "https://youtube.com/embed/cvNzf589ppw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/0a21575e22d80a3af43a2e04709f3e74?p=Wy0phXkJcbuwLjr0V8Je-w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/hOEXRjSPaHo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/qyiAspiYgc0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/cvNzf589ppw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_51"
+      },
+      {
+        "id": "4_12_7_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 5
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(x\\) = ",
+              "kgz": "\\(x\\) = ",
+              "uzb": "\\(x\\) = ",
+              "eng": "\\(x\\) = ",
+              "rus": "\\(x\\) = ",
+              "kaz": "\\(x\\) = ",
+              "arjd": "\\(x\\) = ",
+              "arsa": "\\(x\\) = ",
+              "areg": "\\(x\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number2": 2009,
+            "number1": 46034
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "46034 - \\(x\\) · 5 = 2009",
+              "kgz": "46034 - \\(x\\) · 5 = 2009",
+              "uzb": "46034 - \\(x\\) · 5 = 2009",
+              "eng": "46,034 - \\(x\\) · 5 = 2,009",
+              "rus": "46034 - \\(x\\) · 5 = 2009",
+              "kaz": "46034 - \\(x\\) · 5 = 2009",
+              "arjd": "46034 - \\(x\\) · 5 = 2009",
+              "arsa": "46034 - \\(x\\) · 5 = 2009",
+              "areg": "46034 - \\(x\\) · 5 = 2009",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_6",
+          "position": 5,
+          "id": "6e0e12d7-59e8-4e77-8a82-5b83d73d6377",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "8805",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "t9wckBRgGHE",
+          "videoUrl": "https://youtube.com/embed/t9wckBRgGHE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/29c4780df71a8925fa56eaadb3b63601?p=2G2qQcc5TvqjjWlJjpDsLg",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/TM8nF_TJiyQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/2emg0FntTwo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/t9wckBRgGHE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_51"
+      },
+      {
+        "id": "4_12_7_13",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 12
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(a\\) = ",
+              "kgz": "\\(a\\) = ",
+              "uzb": "\\(a\\) = ",
+              "eng": "\\(a\\) = ",
+              "rus": "\\(a\\) = ",
+              "kaz": "\\(a\\) = ",
+              "arjd": "\\(a\\) = ",
+              "arsa": "\\(a\\) = ",
+              "areg": "\\(a\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number4": 25,
+            "number3": 12775,
+            "number2": 41,
+            "number1": 235
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "235 · \\(a\\) + 41 = 12775 : 25",
+              "kgz": "235 · \\(a\\) + 41 = 12775 : 25",
+              "uzb": "235 · \\(a\\) + 41 = 12775 : 25",
+              "eng": "235 · a + 41 = 12,775 ÷ 25",
+              "rus": "235 · \\(a\\) + 41 = 12775 : 25",
+              "kaz": "235 · \\(a\\) + 41 = 12775 : 25",
+              "arjd": "235 · \\(a\\) + 41 = 12775 : 25",
+              "arsa": "235 · \\(a\\) + 41 = 12775 : 25",
+              "areg": "235 · \\(a\\) + 41 = 12775 : 25",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_13",
+          "position": 12,
+          "id": "50666ede-4ff4-4545-b45d-484062a2ccf7",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "2",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "KOwrZjOnaCY",
+          "videoUrl": "https://youtube.com/embed/KOwrZjOnaCY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/fec0f4e71e3bec02740e11ae69cc44b2?p=ybcCQsm50_LNrfjrLLTbkQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/ytvFnn5Zpys?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/T6sIdlNC_j0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/KOwrZjOnaCY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_52"
+      },
+      {
+        "id": "4_12_7_14",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2331",
+          "taskIndex": 13
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": {
+              "with_audio_player": false,
+              "aze": "\\(a\\) = ",
+              "kgz": "\\(a\\) = ",
+              "uzb": "\\(a\\) = ",
+              "eng": "\\(a\\) = ",
+              "rus": "\\(a\\) = ",
+              "kaz": "\\(a\\) = ",
+              "arjd": "\\(a\\) = ",
+              "arsa": "\\(a\\) = ",
+              "areg": "\\(a\\) = ",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "after": "",
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number4": 44,
+            "number3": 238,
+            "number2": 24,
+            "number1": 12480
+          },
+          "title": {
+            "with_audio_player": false,
+            "aze": "Tənliyi həll edin.",
+            "kgz": "Теңдемени чыгарыңыз.",
+            "uzb": "Tenglamani yeching.",
+            "eng": "Solve the equation.",
+            "rus": "Решите уравнение.",
+            "kaz": "Теңдеуді шешіңіз.",
+            "arjd": "حل المعادلة التالية:",
+            "arsa": "حل المعادلة الآتية، ثم اكتب الناتج في المربع.",
+            "areg": "حل المعادلة التالية",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "12480 : 24 – 238 · \\(a\\) = 44",
+              "kgz": "12480 : 24 – 238 · \\(a\\) = 44",
+              "uzb": "12480 : 24 – 238 · \\(a\\) = 44",
+              "eng": "12,480 : 24 – 238 · \\(a\\) = 44",
+              "rus": "12480 : 24 – 238 · \\(a\\) = 44",
+              "kaz": "12480 : 24 – 238 · \\(a\\) = 44",
+              "arjd": "12480 : 24 – 238 · \\(a\\) = 44",
+              "arsa": "12480 : 24 – 238 · \\(a\\) = 44",
+              "areg": "12480 : 24 – 238 · \\(a\\) = 44",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_12_7_14",
+          "position": 13,
+          "id": "b9c3f522-2147-480a-a75d-59ca8f3ccd0e",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "2",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "PUif8Xfr0Ko",
+          "videoUrl": "https://youtube.com/embed/PUif8Xfr0Ko?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/9587f6798b6cee4848c6e849e95b5ea6?p=quyuJhOAfoLDY5p2A9hLZw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/eVKZn3wBDFQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/_y1rhFke6Sk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/PUif8Xfr0Ko?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_52"
+      }
+    ]
+  }
+}

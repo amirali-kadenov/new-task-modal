@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.description {
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+/* CIS school «уголок»: HTML layout — not MathJax array.
+ * `width: max-content` — flex parents blockify inline-grid and stretch it. */
+.corner {
+  display: inline-grid;
+  grid-template-columns: max-content max-content;
+  align-items: start;
+  align-self: start;
+  width: max-content;
+  font-size: 1.1em;
+  line-height: 1.2;
+}
+
+.cornerDividend {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  padding-right: 0.35em;
+  border-right: 1.5px solid currentcolor;
+}
+
+.cornerRight {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.cornerDivisor {
+  padding-bottom: 0.05em;
+  padding-left: 0.35em;
+  border-bottom: 1.5px solid currentcolor;
+}
+
+.cornerQuotient {
+  padding-top: 0.05em;
+  padding-left: 0.35em;
+}
+
+.inputRow {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.solutionRow {
+  align-items: flex-end;
+}
+
+.input {
+  flex: 0 1 auto;
+  width: 100%;
+  min-width: 120px;
+  max-width: 200px;
+}
+
+.answerFormula {
+  flex: 0 1 auto;
+}
+
+.prefix,
+.suffix,
+.fieldLabel {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.fieldLabel {
+  margin-inline-end: 4px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}

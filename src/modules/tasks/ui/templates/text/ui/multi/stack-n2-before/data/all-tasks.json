@@ -1,0 +1,1243 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_3_12_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2151",
+          "taskIndex": 10
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Qırmızı sap:",
+                "kgz": "Кызыл жип:",
+                "uzb": "Qizil ip:",
+                "eng": "Red yarn:",
+                "rus": "Красная нитка:",
+                "kaz": "Қызыл жіп:",
+                "arjd": "",
+                "arsa": "الخيوط الحمراء",
+                "areg": "الخيوط الحمراء",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Ağ sap:",
+                "kgz": "Ак жип:",
+                "uzb": "Oq ip:",
+                "eng": "White yarn:",
+                "rus": "Белая нитка:",
+                "kaz": "Ақ жіп:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الخيوط البيضاء",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 6,
+            "number2": 288,
+            "number1": 144
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Nənə 6 ədəd ağ və qırmızı sap alıb. Qırmızı rəngli saplar üçün 144 manat, ağ rəngli saplar üçün isə 288 manat ödəmişdir.\nƏgər saplarin qiymətləri eynidirsə, nənə neçə ağ və qırmızı sap alıb?\n",
+              "kgz": "Чоң эне 6 даана ак жана кызыл жип сатып алды.\nКызыл жипке 144 сом, ак жипке 288 сом төлөдү.\nЖиптердин баасы бирдей болсо, чоң эне канча ак жана канча кызыл жип сатып алганын табыңыз?\n",
+              "uzb": "Buvijon oq va qizil rangli 6 o'ram ip sotib oldi.\nU qizil iplarga 144 so'm, oq iplarga 288 so'm to'ladi.\nAgar iplarning narxlari bir xil bo'lsa, buvijon nechta oq va qizil ip sotib olganini toping.\n",
+              "eng": "A grandmother buys 6 balls of white and red yarn.\nShe pays 144 cents for the red yarn and 288 cents for the white yarn.\nIf the prices of the yarns are the same, how many balls of white and red yarn does the grandmother buy?\n",
+              "rus": "Бабушка купила 6 мотков белой и красной нитки.\nЗа красные нитки она заплатила 144 тенге, за белые — 288 тенге.\nЕсли цены на нитки одинаковы, найдите, сколько белых и красных ниток купила бабушка?\n",
+              "kaz": "Әжей ақ және қызыл түсті 6 орам тоқыма жіп сатып алды.\nОл қызыл жіптерге 144 теңге, ал ақ жіптерге 288 теңге төледі.\nЕгер жіптердің бағалары бірдей болса, әжей қанша ақ және қызыл жіп сатып алғанын табыңыз.\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "اشترت الجدة 6 لفات من الخيوط البيضاء والحمراء،\nودفعت 144 جنيهًا ثمن الخيوط الحمراء، في حين دفعت 288 جنيهًا ثمن الخيوط البيضاء.\nإذا كانت أسعار الخيوط متساوية، فكم عدد لفات كل من الخيوط البيضاء والخيوط الحمراء التي اشترتها الجدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_3_12_11",
+          "position": 10,
+          "id": "c051367b-9278-438b-8c07-4ac54b00c51e",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "4;;2",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "35AKamB6N80",
+          "videoUrl": "https://youtube.com/embed/35AKamB6N80?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/419b2b6c76be386290c61aa90a02e789?p=nqH988_USJ8VzmeMFrPwnQ",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/OHkCpSGPsds?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/9CNJ9mIKi_Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/5CYFFid9mgQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/35AKamB6N80?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_9_14_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "135",
+          "lessonId": "2302",
+          "taskIndex": 0
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Ikinci qrupda:",
+                "kgz": "Экинчи топто: ",
+                "uzb": "Ikkinchi guruhda:",
+                "eng": "In the second group:",
+                "rus": "Во второй группе: ",
+                "kaz": "Екінші топта: ",
+                "arjd": "",
+                "arsa": "",
+                "areg": "المجموعة الثانية:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Birinci qrupda:",
+                "kgz": "Биринчи топто: ",
+                "uzb": "Birinchi guruhda:",
+                "eng": "In the first group:",
+                "rus": "В первой группе: ",
+                "kaz": "Бірінші топта: ",
+                "arjd": "",
+                "arsa": "",
+                "areg": "المجموعة الأولى:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 16,
+            "number2": 17,
+            "number1": 55
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "İki arxeoloq qrupunda 55 adam var idi. Birinci qrupdan 17 adam, ikinci qrupdan isə 16 adam çıxandan sonra hər iki qrupda bərabər sayda adam qaldı. Əvvəlcə hər iki qrupda neçə adam var idi?\n",
+              "kgz": "Археологдордун эки тобунда 55 адам болгон.\nБиринчи топтон 17 адам чыгып, экинчиден 16 адам чыкканда эки топтогу адамдардын  саны тең болуп калды.\nЭки топтун ар биринде башында канча адам болгон?\n",
+              "uzb": "Arxeologlarning ikkita guruhida 55 ta arxeolog bor edi.\nBirinchi guruhdan 17 ta arxeolog, ikkinchi guruhdan 16 ta arxeolog ketgandan keyin, har ikki guruhdagi arxeologlar soni teng bo'ldi.\nBoshida ikki guruhning har birida nechta arxeolog bor edi?\n",
+              "eng": "There are 55 people in two groups of archaeologists. When 17 people leave the first group and 16 people leave the second group,\nthe number of people in both groups becomes equal. How many people were in each group at the beginning?\n",
+              "rus": "В двух группах археологов было 55 человек. Когда из первой группы ушли 17 человек, а из второй 16 человек,\nколичество людей в обеих группах стало равным. Сколько человек было изначально в каждой группе?\n",
+              "kaz": "Археологтардың екі тобында 55 адам болды.\nБірінші топтан 17 адам, екіншісінен 16 адам кеткенде, екі топтағы адамдар саны теңесті.\nБастапқыда екі топтың әрқайсысында неше адамнан болған?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "إذا زار مصر 55 عالِمًا آثار تم تقسيمهم إلى مجموعتين، ثم سافر 17 عالِمًا من المجموعة الأولى و16 عالِمًا من المجموعة الثانية ليصبح عدد العلماء في المجموعتين متساويًا،\nفكم كان عدد العلماء في كل من المجموعتين منذ البداية؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_9_14_1",
+          "position": 0,
+          "id": "2bc9ae2f-8d8f-4a1c-939f-c02d6eab3585",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "28;;27",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "jv_aNXZnsaQ",
+          "videoUrl": "https://youtube.com/embed/jv_aNXZnsaQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/e0100c470087bbd39cc92ed6bbb173a9?p=rAsEiaGkPxf0ZDNkSMldlA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/N9wauIluBfU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/tW_XxtwHucA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/jv_aNXZnsaQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_3_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2352",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "İkinci briqada:",
+                "kgz": "Экинчи бригада: ",
+                "uzb": "Ikkinchi brigada:",
+                "eng": "Second brigade:",
+                "rus": "Вторая бригада:",
+                "kaz": "Екінші бригада:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الفريق الثاني",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Birinci briqada:",
+                "kgz": "Биринчи бригада: ",
+                "uzb": "Birinchi brigada:",
+                "eng": "First brigade:",
+                "rus": "Первая бригада:",
+                "kaz": "Бірінші бригада:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الفريق الأول",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 3780,
+            "number2": 2730,
+            "number1": 155
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "İki briqada 155 ədəd eyni ölçülü kisədə kartof yığdı, birinci briqada 2730 kq, ikinci briqada isə 3780 kq yığdı. Hər briqada neçə kisə kartof yığdı?\n",
+              "kgz": "Эки бригада 155 бирдей мүшөк картошка чогултуп, бири 2730 кг, экинчиси 3780 кг чогултту. Ар бир бригада канча мүшөк картошка чогултту?\n",
+              "uzb": "Ikki brigada jami 155 qop kartoshka yig'di, birinchi brigada 2730 kg, ikkinchi brigada esa 3780 kg.\nHar bir brigada nechta qop kartoshka yig'di?\n",
+              "eng": "Two teams collect a total of 155 bags of potatoes. One team collects 2730 kg, and the other collects 3780 kg.\nHow many bags of potatoes does each team collect?\n",
+              "rus": "Две бригады вместе собрали 155 мешков картофеля. Первая бригада собрала 2730 кг, а вторая – 3780 кг.\nСколько мешков картофеля собрала каждая бригада?\n",
+              "kaz": "Екі бригада барлығы 155 қап картоп жинады, олардың біріншісі 2730 кг, ал екіншісі 3780 кг жинады.\nӘр бригада қанша қап картоп жинады?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "قامت مجموعتان من المزارعين بجمع 155 شوالًا من البطاطس. إذا حصدت المجموعة الأولى 2730 كجم، وحصدت المجموعة الثانية 3780 كجم، فكم عدد أشولة البطاطس التي حصدتها كل مجموعة على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_3_9",
+          "position": 8,
+          "id": "8e05e8a3-4dd0-43d3-a52f-46ef3387171e",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "65;;90",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "9c2bg2i7DO4",
+          "videoUrl": "https://youtube.com/embed/9c2bg2i7DO4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/8de89d147fef18058d8bbd260d195a75?p=VBCYMVzJgaLgyjbg8fFZUA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/OrU1pgHcBzo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/BvryAi5t-n8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/9c2bg2i7DO4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_4_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 4
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "İkinci yük maşını:",
+                "kgz": "Экинчи жүк ташуучу машина:",
+                "uzb": "ikkinchi yuk mashina:",
+                "eng": "The second truck:",
+                "rus": "Второй грузовик:",
+                "kaz": "Екінші жүк мәшинесі:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الشاحنة الثانية",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Birinci yük maşını:",
+                "kgz": "Биринчи жүк ташуучу машина:",
+                "uzb": "Birinchi yuk mashina:",
+                "eng": "The first truck:",
+                "rus": "Первый грузовик:",
+                "kaz": "Бірінші жүк мәшинесі:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "الشاحنة الأولى",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 5,
+            "number2": 92,
+            "number1": 207
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Bir yük maşını 207 ton çınqıl, digəri isə 92 ton daşıdı.\nƏgər birincisi ikincidən 5 reys daha çox edibsə, hər biri neçə reys etdi ?\n",
+              "kgz": "Бир машина 207 тонна майдаланган таш ташыса, экинчиси 92 тонна ташыган.\nБиринчиси экинчисинен 5 каттамга көп каттаса, алардын ар бири канча каттам жасаган?\n",
+              "uzb": "Bir yuk mashinasi umumiy 207 t, ikkinchisi 92 t shag'al tosh yetkazdi.\nIkkinchisiga qaraganda birinchisi 5 marta ko'proq borib kelgan bo'lsa, har yuk mashina necha marta borib kelgan?\n",
+              "eng": "One truck transports 207 tonnes of rubble, and the other – 92 tonnes.\nHow many trips does each of them make if the first one makes 5 trips more than the second one?\n",
+              "rus": "Один грузовик перевёз 207 т щебня, а другой  – 92 т.\nСколько рейсов сделал каждый из них, если первый сделал на 5 рейсов больше второго?\n",
+              "kaz": "Бір жүк мәшинесі барлығы 207 т, екіншісі 92 т қиыршық тас жеткізді.\nЕкіншісіне қарағанда біріншісі 5 рет артық қатынаған болса, әр жүк мәшинесі неше рет қатынаған?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "نقلت شاحنتان بنفس سعة الحمولة عدة أطنان من الحصى، بلغ إجمالي ما نقلته الشاحنة الأولى 207 أطنان، وبلغ إجمالي ما نقلته الشاحنة الثانية 92 طنًا. إذا قامت الشاحنة الأولى بعدد من الرحلات أكثر  5 مرات من الشاحنة الثانية، فكم رحلة قامت بها كل شاحنة على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_4_5",
+          "position": 4,
+          "id": "5fae7e48-a8f3-406a-a7df-6747d75ed72c",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "9;;4",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "ic6SYeV9emw",
+          "videoUrl": "https://youtube.com/embed/ic6SYeV9emw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/ea9015f9c339b69ddc97438bee132735?p=Wi3q1KIWh06bvxTTd0DlZA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/yruE31BmEsg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/shaf3fnhhQU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/ic6SYeV9emw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_4_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 5
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "İkinci gün:",
+                "kgz": "Экинчи күн: ",
+                "uzb": "Ikkinchi kun:",
+                "eng": "On the second day:",
+                "rus": "Во второй день:",
+                "kaz": "Екінші күні:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "اليوم الثاني",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Birinci gün:",
+                "kgz": "Биринчи күн: ",
+                "uzb": "Birinchi kun:",
+                "eng": "On the first day:",
+                "rus": "В первый день:",
+                "kaz": "Бірінші күні:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "اليوم الأول",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 3,
+            "number2": 72,
+            "number1": 108
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Təsərrüfatçı birinci gün 108 kq alma, ikinci gün isə 72 kq alma satdı.\nİkinci gün birinci gündən 3 qutu az satılıb. Hər gün neçə qutu alma satılıb?\n",
+              "kgz": "Дыйкан биринчи күнү 108 кг алма сатса, экинчи күнү 72 кг алма сатты.\nЭкинчи күнү биринчи күнгө караганда 3 ящикке аз сатылды. Күнүнө канча ящик алма сатылды?\n",
+              "uzb": "Fermer birinchi kun 108 kg, ikkinchi kun 72 kg olma sotdi.\nIkkinchi kun birinchi kunga qaraganda 3 quti olma kamroq sotdi. Har kuni nechta quti olma sotildi?\n",
+              "eng": "The farmer sells 108 kg of apples on the first day, and 72 kg on the second.\nOn the second day, 3 fewer boxes are sold than on the first day. How many cases of apples are sold each day?\n",
+              "rus": "Фермер продал в первый день 108 кг яблок, а во второй – 72 кг.\nВо второй день было продано на 3 ящика меньше, чем в первый день. Сколько ящиков яблок было продано в первый и во второй день?\n",
+              "kaz": "Фермер бірінші күні 108 кг, екінші күні 72 кг алма сатты.\nЕкінші күні бірінші күнге қарағанда 3 жәшік алма кем сатылды. Әр күні қанша жәшік алма сатылған?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "إذا باع المزارع في اليوم الأول 108 كجم من التفاح، وباع في اليوم الثاني 72 كجم، ولكنه باع في اليوم الثاني 3 صناديق  أقل من اليوم الأول، فكم عدد الصناديق التي بيعت في كل يوم على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_4_6",
+          "position": 5,
+          "id": "49c82e1f-7699-4014-b8c7-2a644a1000ed",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "9;;6",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "vcBqWU9nL-E",
+          "videoUrl": "https://youtube.com/embed/vcBqWU9nL-E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/d0a272ef12f43841e29f4392ce32db54?p=Dp1X_xaGPS5umwbnzh6TqA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/q026_Ar5dNQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/R8lKmwNbFog?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/vcBqWU9nL-E?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_4_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Qızlar:",
+                "kgz": "",
+                "uzb": "Qizlar:",
+                "eng": "Girls",
+                "rus": "Девочки:",
+                "kaz": "Қыздар:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "زي للبنات:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Oğlanlar:",
+                "kgz": "",
+                "uzb": "Bolalar:",
+                "eng": "Boys:",
+                "rus": "Мальчики:",
+                "kaz": "Ұлдар:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "زي للأولاد:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 30,
+            "number2": 700,
+            "number1": 910
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Tikiş fabriki oğlanlar və qızlar üçün eyni idman dəstləri tikib.\nOğlanlar üçün dəstlərə 910 m parça, qızlar üçün isə 700 m parça sərf olunub.\nOğlan dəsti qız dəstindən 30 ədəd çox tikilib. Oğlanlar və qızlar üçün neçə dəst tikilib?\n",
+              "kgz": "Тигүү фабрикасында балдар жана кыздар үчүн бирдей спорттук костюмдар тигилген. Балдардын костюмдарына 910 метр кездеме, ал эми кыздардын костюмдарына 700 метр кездеме керектелди. Кыздарга караганда балдарга 30 костюм көп тигилген.\nБалдар жана кыздар үчүн канча костюм тигилген?\n",
+              "uzb": "Tikuv sexida bolalar va qizlar uchun bir xil kostyumlar tikildi. Bolalar kostyumiga 910 m, qizlarning kostyumiga 700 m mato sarflandi. Qizlarnikiga qaraganda bolalarga 30 ta kostyum ko'proq tikildi.\nBolalar bilan qizlarga alohida nechta kostyum tikildi?\n",
+              "eng": "The sewing factory sews identical tracksuits for boys and girls. 910 m of fabric is spent on suits for boys, and 700 m of fabric is spent on suits for girls.\nThere are 30 more suits for boys than for girls.\nHow many suits are made for boys and girls?\n",
+              "rus": "Швейная фабрика сшила одинаковые костюмы для мальчиков и для девочек. На костюмы для мальчиков израсходовали 910 м ткани, а на костюмы для девочек — 700 м ткани.\nКоличество костюмов для мальчиков превышает количество костюмов для девочек на 30.\nСколько костюмов было сшито для мальчиков и для девочек по отдельности?\n",
+              "kaz": "Тігін фабрикасында ұлдар мен қыздарға арналған бірдей кәстөмдер тігілді. Ұлдардың кәстөміне 910 м, ал қыздардікіне 700 м мата жұмсалды.\nҚыздардікіне қарағанда ұлдарға 30 кәстөм артық тігілді.\nҰлдар мен қыздарға жеке-жеке қанша кәстөм тігілді?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": "لتفصيل زي موحّد للأولاد والبنات، يستخدم المصنع 910 أمتار من القماش لزي الأولاد، و700 متر لزي البنات. إذا تم تفصيل 30 زيًا للأولاد أكثر من البنات، فكم زيًّا تم تفصيلها للأولاد والبنات كل على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_4_9",
+          "position": 8,
+          "id": "b05aaa1c-9108-4b17-8b99-748d1a1b0866",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "130;;100",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "x1wLu15vtJQ",
+          "videoUrl": "https://youtube.com/embed/x1wLu15vtJQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/84cfd45cf5ce72eca35966d0a52571ce?p=KVRKe9hIEY3DCVnhCvzsgw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/wyvHPcTP9E0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/DY1WJOgtKUE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/x1wLu15vtJQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_4_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 9
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Qəhvəyi:",
+                "kgz": "Күрөң: ",
+                "uzb": "Jigarrang kostyum:",
+                "eng": "Brown suits:",
+                "rus": "Коричневый костюм:",
+                "kaz": "Қоңыр кәстөм:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "زيّ بنيّ",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Boz:",
+                "kgz": "Боз: ",
+                "uzb": "Kulrang kostyum:",
+                "eng": "Grey suits:",
+                "rus": "Серый костюм:",
+                "kaz": "Сұр кәстөм:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "زيّ رماديّ",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 480,
+            "number2": 2943,
+            "number1": 1503
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Tikiş fabrikində 1503 m boz parça və 2943 m qəhvəyi parça istifadə edilərək kostyumlar tikilib.\nQəhvəyi kostyumlar bozlardan 480 ədəd çox olub. Neçə boz və qəhvəyi kostyum tikilib?\n",
+              "kgz": "Тигүү фабрикасында 1503 м боз кездемеден жана 2943 м күрөң кездемеден костюмдар тигилген.\nБозго караганда күрөң түстөгү костюмдар 480 даанага көп болгон. Боз жана күрөң түстөгү костюмдардын саны канча болду?\n",
+              "uzb": "Tikuv sexida 1503 m kulrang va 2943 m jigarrang matodan kostyumlar tikildi.\nKulrang kostyumga qaraganda 480 ta jigarrang kostyum ko'proq tikildi. Nechta kulrang va jigarrang kostyum tikildi?\n",
+              "eng": "At the sewing factory, suits are sewn from 1503 m of gray fabric and 2943 m of brown fabric.\nThere are 480 more brown suits than gray ones. How many gray and brown suits are sewn?\n",
+              "rus": "На швейной фабрике сшили костюмы из 1503 м серой ткани и 2943 м коричневой ткани.\nКоричневых костюмов вышло на 480 больше, чем серых. Сколько было сшито серых и коричневых костюмов?\n",
+              "kaz": "Тігін фабрикасында 1503 м сұр түсті және 2943 м қоңыр түсті маталардан кәстөмдер тігілді.\nСұр кәстөмге қарағанда 480 қоңыр кәстөм артық тігілді. Қанша сұр және қоңыр кәстөм тігілді?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": " استخدم المصنع 1503 أمتار من القماش الرمادي و2943 مترًا من القماش البني لتفصيل الزيّ المدرسي. إذا تم تفصيل 480 زيًّا بنيًّا أكثر من الزيّ الرمادي، فكم إجمالي عدد ما تم تفصيله من زي رمادي وبني؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_4_10",
+          "position": 9,
+          "id": "76490c92-5962-4c1f-b638-4c8a1a585d6f",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "501;;981",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "xNVWXqZh0TM",
+          "videoUrl": "https://youtube.com/embed/xNVWXqZh0TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/8a5d2ccbbb3a6e933fcb46bd626fbe75?p=OhYGT-prST3EfJU2ngw_bw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/NQiSEBphS3g?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/pKe7czoWOEo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/xNVWXqZh0TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_4_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 10
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "İkinci parça:",
+                "kgz": "Экинчи кездеме ",
+                "uzb": "Ikkinchi mato:",
+                "eng": "The second fabric:",
+                "rus": "Вторая ткань:",
+                "kaz": "Екінші мата:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "قطعة القماش الثانية:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Birinci parça:",
+                "kgz": "Биринчи кездеме ",
+                "uzb": "Birinchi mato:",
+                "eng": "The first fabric:",
+                "rus": "Первая ткань:",
+                "kaz": "Бірінші мата:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "قطعة القماش الأولى:",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 3,
+            "number2": 168,
+            "number1": 192
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Paltar tikmə emalatxanasında uzunluğu 192 m və 168 m olan iki parça var idi.\nOnlardan paltarlar tikildi. İkinci parçadan tikilən paltarlar birinci parçadan tikilənlərdən 3 dənə az oldu.\nHər parçadan neçə paltar tikilib?\n",
+              "kgz": "Кийим тигүү цехинде узундугу 192 м жана 168 м болгон эки кездеме болгон. Алардан көйнөктөр тигилген.\nЭкинчи кездемеден биринчи кездемеге караганда 3 көйнөк аз тигилген.\nАр бир кездемеден канчадан көйнөк тигилген?\n",
+              "uzb": "Tikuv sexida uzunliklari 192 m va 168 m ikki xil mato bor edi.\nUlardan ko'ylaklar tikildi. Ikkinchi matodan birinchi matoga qaraganda 3 ta ko'ylak kam tikildi.\nHar bir matodan umumiy nechta ko'ylak tikildi?\n",
+              "eng": "In the sewing workshop, there are two fabric rolls, one with 192 m and the other with 168 m. Dresses are made from them. 3 fewer dresses are made from the second fabric roll than from the first fabric roll.\nHow many dresses are sewn from each fabric roll in total?\n",
+              "rus": "В мастерской по пошиву одежды были две ткани длиной 192 м и 168 м. Из них сшили платья. Из второй ткани сшили на 3 платьев меньше, чем из первой.\nСколько всего платьев было сшито из каждой ткани?\n",
+              "kaz": "Шеберханада ұзындықтары 192 м және 168 м екі мата болды. Олардан көйлектер тігілді. Екінші матадан бірінші матаға қарағанда 3 көйлек кем тігілді.\nӘр матадан барлығы қанша көйлек тігілді?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": " كان في ورشة الخياطة قطعتان من القماش بطول 192 مترًا و168 مترًا، وتم تفصيل فساتين من قطعتي القماش. إذا كان عدد الفساتين التي تم تفصيلها من قطعة القماش الثانية أقل 3 فساتين من قطعة القماش الأولى، فكم إجمالي عدد الفساتين التي تم تفصيلها من قطعتي القماش معًا؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_4_11",
+          "position": 10,
+          "id": "179366c5-efff-475d-b702-2a4fba50463b",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "24;;21",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "d3lRDKcISMI",
+          "videoUrl": "https://youtube.com/embed/d3lRDKcISMI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/436f68296c860dbe0b35dc01e68d3819?p=8W_Yp3fXP8p5iuCiwEq3HQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/EUHH181ZaYA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/jjRa9RbfJ1o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/d3lRDKcISMI?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      },
+      {
+        "id": "4_10_4_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "138",
+          "lessonId": "2353",
+          "taskIndex": 11
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input2": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Kiçik binan:",
+                "kgz": "Кичине фабрика:",
+                "uzb": "Kichik fabrika:",
+                "eng": "Small building:",
+                "rus": "Малый корпус:",
+                "kaz": "Кіші фабрика:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "المزرعة الصغيرة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": {
+                "with_audio_player": false,
+                "aze": "Böyük binan:",
+                "kgz": "Чоң фабрика:",
+                "uzb": "Katta fabrika:",
+                "eng": "Large building:",
+                "rus": "Большой корпус:",
+                "kaz": "Үлкен фабрика:",
+                "arjd": "",
+                "arsa": "",
+                "areg": "المزرعة الكبيرة ",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "after": "",
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 20
+          },
+          "difficulty": null,
+          "result": "none",
+          "fields": {
+            "number3": 133,
+            "number2": 46,
+            "number1": 65
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Bölgədə iki quşçuluq fabriki binası tikildi. Böyük binanın sahəsi 65 m², kiçik binanın sahəsi isə 46 m²-dir.\nHər kvadrat metr üçün toyuq yerlərinin sayı eynidir. Böyük binada kiçikdən 133 ədəd çox toyuq yerləşə bilər. Hər binada neçə toyuq yerləşə bilər?\n",
+              "kgz": "Аянтка канаттуулар фермасынын эки имараты курулган.Чоң имараттын аянты 65 \\(м^2\\), ал эми кичине имараттын аянты - 46 \\(м^2\\).\nБир чарчы метрге тооктор үчүн орундардын саны бирдей.\nЭгерде чоңунда кичинесине караганда 133 тоок көп болсо, анда канаттуулар фабрикасынын ар бир имаратына канча тоок жайгаштырууга болот?\n",
+              "uzb": "Tumanda ikkita tovuq fabrikasi qurildi.\nKatta fabrikaning maydoni 65 m², kichigining maydoni 46 m².\nFabrikalarning har bir kvadrat metr uchun tovuqlarga ajratilgan joylar soni bir xil.\nAgar kattasining kichigidan 133 ta ko‘p tovuq bo‘lsa, har birida nechta tovuq bor?\n",
+              "eng": "Two poultry farm buildings are located in the area. The large building has an area of 65 \\(m^2\\), and the small one has 46 \\(m^2\\).\nThe number of places for chickens per square meter is the same in both. How many chickens can each building hold, if there are 133 more chickens in the large building than in the small one?\n",
+              "rus": "В районе построили два корпуса птицефабрики. Площадь большого корпуса – 65 \\(м^2\\), а малого – 46 \\(м^2\\).\nКоличество мест для кур на каждом квадратном метре одинаково. Сколько кур может разместиться в каждом корпусе птицефабрики, если в большом на 133 куры больше, чем в малом?\n",
+              "kaz": "Ауданда екі тауық фабрикасы салынды. Үлкен фабриканың ауданы 65 \\(м^2\\), ал кішісінің ауданы 46 \\(м^2\\).\nОлардың әр квадрат метрдегі құстарға бөлінген орын саны бірдей. Кішісіне қарағанда үлкенінде 133 тауық артық болса, онда әрқайсысында қанша тауық бар?\n",
+              "arjd": "",
+              "arsa": "",
+              "areg": " تم بناء مزرعتين للدواجن في المدينة. تبلغ مساحة المزرعة الكبيرة 65  متر² ، ومساحة المزرعة الصغيرة 46 متر²، وعدد الدجاج في المتر المربع الواحد متساوٍ في كلتا المزرعتين. إذا كان عدد الدجاج في المزرعة الكبيرة أكثر133 دجاجةً من المزرعة الصغيرة، فكم عدد الدجاج في كل مزرعة على حدة؟\n",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_10_4_12",
+          "position": 11,
+          "id": "ec889587-9d1e-4d4b-b38f-6ef14aa0da23",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "455;;322",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "i0cZqDh2e8A",
+          "videoUrl": "https://youtube.com/embed/i0cZqDh2e8A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/a3a1042cb9bbdef5ff89b646c5422ea9?p=SbJajmWjMHvlO2Z6kBkaEA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/GyH-nuR4P7c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/xilse2NSGFg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/i0cZqDh2e8A?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_19"
+      }
+    ]
+  }
+}

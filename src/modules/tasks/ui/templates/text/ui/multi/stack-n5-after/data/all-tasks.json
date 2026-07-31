@@ -1,0 +1,209 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_1_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2121",
+          "taskIndex": 15
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "input5": {
+              "svg": "",
+              "before": "",
+              "after": {
+                "with_audio_player": false,
+                "aze": "təklik",
+                "kgz": "бирдик",
+                "uzb": "birliklar",
+                "eng": "ones",
+                "rus": "единиц|а|ы",
+                "kaz": "бірлік",
+                "arjd": "",
+                "arsa": "",
+                "areg": "آحاد",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input4": {
+              "svg": "",
+              "before": "",
+              "after": {
+                "with_audio_player": false,
+                "aze": "onluq",
+                "kgz": "ондуктар",
+                "uzb": "o'nlik",
+                "eng": "tens",
+                "rus": "десятки",
+                "kaz": "ондық",
+                "arjd": "",
+                "arsa": "",
+                "areg": "عشرات",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input3": {
+              "svg": "",
+              "before": "",
+              "after": {
+                "with_audio_player": false,
+                "aze": "yüzlük",
+                "kgz": "жүздүк",
+                "uzb": "yuzliklar",
+                "eng": "hundred(s)",
+                "rus": "сот(ня|ни|ен)",
+                "kaz": "жүздік",
+                "arjd": "",
+                "arsa": "",
+                "areg": "مئات",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input2": {
+              "svg": "",
+              "before": "",
+              "after": {
+                "with_audio_player": false,
+                "aze": "minlik",
+                "kgz": "миңдик",
+                "uzb": "mingliklar",
+                "eng": "thousands",
+                "rus": "тысяч|а|и",
+                "kaz": "мыңдық",
+                "arjd": "",
+                "arsa": "",
+                "areg": "آحاد ألوف",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "input1": {
+              "svg": "",
+              "before": "",
+              "after": {
+                "with_audio_player": false,
+                "aze": "on minlik",
+                "kgz": "",
+                "uzb": "o`n mingliklar",
+                "eng": "ten-thousands",
+                "rus": "десятков тысяч",
+                "kaz": "он мыңдық",
+                "arjd": "",
+                "arsa": "",
+                "areg": "عشرات ألوف",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              "text": " ",
+              "down": "",
+              "up": "",
+              "type": 10
+            },
+            "inline": false,
+            "type": 50
+          },
+          "difficulty": "x1",
+          "result": "none",
+          "fields": {
+            "difficulty": "x1",
+            "number": 36498
+          },
+          "title": null,
+          "description": {
+            "with_audio": true,
+            "content": {
+              "with_audio_player": false,
+              "aze": "Otuz altı min dörd yüz doxsan səkki̇z ədədinin mərtəbə vahidlərini müəyyən edin.",
+              "kgz": "Отуз алты миң төрт жүз токсон сегиз санынын разряддык курамын аныктаңыз.",
+              "uzb": "O'ttiz olti ming to'rt yuz to'qson sakkiz sonining xonalar tarkibini aniqlang",
+              "eng": "Determine the place value composition of the number thirty-six thousand four hundred and ninety-eight.",
+              "rus": "Определите разрядный состав числа тридцать шесть тысяч четыреста девяносто восемь.",
+              "kaz": "Отыз алты мың төрт жүз тоқсан сегіз санының разрядтық құрамын анықтаңыз.",
+              "arjd": "",
+              "arsa": "",
+              "areg": "اكتب الصيغة اللفظية للعدد بصيغة الوحدات: ستة وثلاثون ألفًا وأربعمائة وثمانية وتسعون",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "type": "text"
+          },
+          "type": "Elixir.Task_4_1_8",
+          "position": 15,
+          "id": "b155d4cc-7a94-437c-9130-66c2f267ce5e",
+          "solution": {
+            "type": "text",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "3;;6;;4;;9;;8",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "d3ps3JT4Lcg",
+          "videoUrl": "https://youtube.com/embed/d3ps3JT4Lcg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/749c207ae125f0bc6683e8469a6ca684?p=3iRnTi_FXWv4Hz5ui6jLXQ",
+            "with_audio_player": false,
+            "aze": "https://youtube.com/embed/w09jEf9w4Y0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/A3lvckHrnIY?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/jo89RKFQOkU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/d3ps3JT4Lcg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "text_39"
+      }
+    ]
+  }
+}

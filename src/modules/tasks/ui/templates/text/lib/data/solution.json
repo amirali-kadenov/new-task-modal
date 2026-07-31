@@ -1,0 +1,29 @@
+{
+  "content": {
+    "with_audio_player": false,
+    "arjd": "",
+    "aze": "Altmış min beş üstəgəl iyirmi min əlli dörd: 60005 + 20054\\(\\\\\\)",
+    "arsa": "",
+    "areg": "ستون ألفًا وخمسة زائد عشرين ألفًا وأربعة وخمسين: \\(60005 + 20054\\)\\(\\\\\\)",
+    "kgz": "Алтымыш миң беш плюс жыйырма миң элүү төрт: 60005 + 20054\\(\\\\\\)",
+    "uzb": "Oltmish ming besh qo'shilgan yigirma ming ellik to'rt: 60005 + 20054.\\(\\\\\\)",
+    "eng": "Sixty thousand and five plus twenty thousand and fifty-four: 60005 + 20054.\\(\\\\\\)",
+    "rus": "Шестьдесят тысяч пять плюс двадцать тысяч пятьдесят четыре: 60005 + 20054.\\(\\\\\\)",
+    "kaz": "Алпыс мың бес қосу жиырма мың елу төрт: 60005 + 20054\\(\\\\\\)",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "answer": {
+    "with_audio_player": false,
+    "arjd": "\\(60005 + 20054\\)",
+    "aze": "\\(60005 + 20054\\)",
+    "arsa": "\\(60005 + 20054\\)",
+    "areg": "\\(60005 + 20054\\)",
+    "kgz": "\\(60005 + 20054\\)",
+    "uzb": "\\(60005 + 20054\\)",
+    "eng": "\\(60005 + 20054\\)",
+    "rus": "\\(60005 + 20054\\)",
+    "kaz": "\\(60005 + 20054\\)",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "type": "text"
+}

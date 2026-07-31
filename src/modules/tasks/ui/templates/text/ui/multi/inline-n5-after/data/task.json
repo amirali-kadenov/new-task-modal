@@ -1,0 +1,164 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input5": {
+      "svg": "",
+      "before": "",
+      "after": "",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input4": {
+      "svg": "",
+      "before": "",
+      "after": ";",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input3": {
+      "svg": "",
+      "before": "",
+      "after": ";",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input2": {
+      "svg": "",
+      "before": "",
+      "after": ";",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": "",
+      "after": ";",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": true,
+    "type": 50
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number_list": [
+      {
+        "module_name": "Elixir.Fraction",
+        "b": 17,
+        "sign": 1,
+        "a": 3,
+        "integer": 0
+      },
+      {
+        "module_name": "Elixir.Fraction",
+        "b": 17,
+        "sign": 1,
+        "a": 7,
+        "integer": 0
+      },
+      {
+        "module_name": "Elixir.Fraction",
+        "b": 17,
+        "sign": 1,
+        "a": 4,
+        "integer": 0
+      },
+      {
+        "module_name": "Elixir.Fraction",
+        "b": 17,
+        "sign": 1,
+        "a": 10,
+        "integer": 0
+      },
+      {
+        "module_name": "Elixir.Fraction",
+        "b": 17,
+        "sign": 1,
+        "a": 12,
+        "integer": 0
+      }
+    ]
+  },
+  "title": null,
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) kəsrlərini artan sıra ilə yazın.",
+      "kgz": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) Бөлчөктөрдү өсүү тартибинде бири-бирин үтүрлүү чекит менен ажыратып жазыңыз.",
+      "uzb": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) kasrlar o'sish tartibida yozing.",
+      "eng": "Write down the fractions in ascending order, separating them with a semicolon \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\)",
+      "rus": "Запишите дроби в порядке возрастания, разделив их точкой с запятой \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\)",
+      "kaz": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) бөлшектерін өсу ретімен теріп жазыңыз.\n",
+      "arjd": "",
+      "arsa": "",
+      "areg": "رتِّب هذه الكسور \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) ترتيبًا تصاعديًا.",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_11_9_1",
+  "position": 4,
+  "id": "316d2494-8bb1-43af-947d-bdaddf2a1338",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "\\frac{3}{17};;\\frac{4}{17};;\\frac{7}{17};;\\frac{10}{17};;\\frac{12}{17}",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "8rEbG5LNSZw",
+  "videoUrl": "https://youtube.com/embed/8rEbG5LNSZw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/7265bfb4e9d0f548cbefead01d82ea61?p=SfBDJANnq_UvGgGD93taIg",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/5OvhRUA1Jzk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/5hKSzuDuQf8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/8rEbG5LNSZw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

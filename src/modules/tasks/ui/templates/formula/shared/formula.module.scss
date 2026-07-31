@@ -1,0 +1,66 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable declaration-no-important */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.description {
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+.expressionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.inputRow {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.solutionRow {
+  align-items: flex-end;
+}
+
+.input {
+  flex: 0 1 auto;
+  width: 100%;
+  min-width: 120px;
+  max-width: 200px;
+}
+
+.answerFormula {
+  flex: 0 1 auto;
+}
+
+.prefix,
+.suffix,
+.fieldLabel {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.fieldLabel {
+  margin-inline-end: 4px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}

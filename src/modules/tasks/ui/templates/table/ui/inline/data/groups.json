@@ -1,0 +1,247 @@
+[
+  {
+    "group": "table_9",
+    "count": 6,
+    "launch": {
+      "grade": 4,
+      "chapterId": "132",
+      "lessonId": "2201",
+      "taskIndex": 20
+    },
+    "tasks": [
+      {
+        "id": "4_6_2_21",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 20
+        }
+      },
+      {
+        "id": "4_6_2_23",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2201",
+          "taskIndex": 22
+        }
+      },
+      {
+        "id": "4_6_4_18",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2203",
+          "taskIndex": 17
+        }
+      },
+      {
+        "id": "4_6_5_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_6_5_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_6_5_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "132",
+          "lessonId": "2204",
+          "taskIndex": 11
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": true,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 2606
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Göstərilən ölçü vahidinə çevirin.",
+        "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+        "uzb": "Ko'rsatilgan o'lchov birligida ifodalang.",
+        "eng": "Express in the given units of measurement.",
+        "rus": "Выразите в указанных единицах измерения.",
+        "kaz": "Көрсетілген өлшем бірліктеріне өрнектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حول من وحدة الجرام إلى وحدة القياس المحددة:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "isTableReversed": false,
+        "isTableFlip": false,
+        "isCentered": true,
+        "answerCellWithComparison": false,
+        "isAnswerCellHidden": true,
+        "imageBefore": "",
+        "isCalculatorClosed": false,
+        "withAudio": true,
+        "content": "",
+        "type": "table",
+        "table": {
+          "width": "100%",
+          "type": 120,
+          "tableAlign": "center",
+          "rows": [
+            {
+              "rowspan_list": [],
+              "rowspan_at": 0,
+              "rowspan": 1,
+              "colspan_list": [],
+              "colspan_at": 0,
+              "colspan": 1,
+              "border_bottom": null,
+              "cells": [
+                "2606",
+                {
+                  "with_audio_player": false,
+                  "aze": "q",
+                  "kgz": "",
+                  "uzb": "gr",
+                  "eng": "g",
+                  "rus": "г",
+                  "kaz": "г",
+                  "arjd": "g",
+                  "arsa": "",
+                  "areg": "جم",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                " = ",
+                "answercell",
+                {
+                  "with_audio_player": false,
+                  "aze": "kq",
+                  "kgz": "кг",
+                  "uzb": "kg",
+                  "eng": "kg",
+                  "rus": "кг",
+                  "kaz": "кг",
+                  "arjd": "kg",
+                  "arsa": "كغم",
+                  "areg": "كجم",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                "answercell",
+                {
+                  "with_audio_player": false,
+                  "aze": "q",
+                  "kgz": "",
+                  "uzb": "gr",
+                  "eng": "g",
+                  "rus": "г",
+                  "kaz": "г",
+                  "arjd": "g",
+                  "arsa": "",
+                  "areg": "جم",
+                  "module_name": "Elixir.Helpers.Translation"
+                }
+              ],
+              "width": null
+            }
+          ],
+          "removePadding": false,
+          "removeBorders": true,
+          "padding": 3,
+          "marginBottom": null,
+          "isAnswerCellHidden": true,
+          "columnHeaders": [],
+          "columnAlign": "center",
+          "bottomVarticalAlign": false,
+          "border": ""
+        }
+      },
+      "type": "Elixir.Task_4_6_2_21",
+      "position": 20,
+      "id": "e5668cd5-fc86-472e-bbab-b98496d70fa7",
+      "solution": {
+        "type": "table",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "2;;606",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "lvitZWR08tU",
+      "videoUrl": "https://youtube.com/embed/lvitZWR08tU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7348921087015718dc2b24c1f54a8147?p=uIfNbC0ZHrbMHHbSCCe2pw",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/yDrKC4CEvMQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/XhwUHJSzqM4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/lvitZWR08tU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

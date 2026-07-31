@@ -1,0 +1,38 @@
+.shell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  max-width: 100%;
+  height: min(100dvh, 812px);
+  margin: 0 auto;
+
+  // Do not overflow:hidden here — heart decrease animation uses top: -20px.
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/**
+ * Chat/Canvas use position:fixed + inset:0 for the live app (fullscreen modal).
+ * `transform` makes this element the containing block for fixed descendants,
+ * so inside the Storybook trainer they fill the phone frame instead of the page.
+ */
+.overlays {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+
+  // Wrapper spans the frame even while hidden — let clicks through to the task.
+  pointer-events: none;
+  transform: translateZ(0);
+
+  > * {
+    pointer-events: auto;
+  }
+}

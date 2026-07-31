@@ -1,0 +1,120 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input2": {
+      "svg": "",
+      "before": "",
+      "after": "",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": "",
+      "after": "",
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": false,
+    "type": 20
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number2": 85605,
+    "number1": 26375
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+    "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+    "uzb": "Berilgan ifodani son bilan yozing:",
+    "eng": "Write the given expression in numbers:",
+    "rus": "Запишите данное выражение цифрами:",
+    "kaz": "Берілген өрнекті санмен жазыңыз:",
+    "arjd": "",
+    "arsa": "",
+    "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "withAudio": true,
+    "type": "answerCell",
+    "textBefore": {
+      "with_audio_player": false,
+      "aze": "Iyirmi altı min üç yüz yetmiş beş üstəgəl səksən beş min altı yüz beş",
+      "kgz": "Жыйырма алты миң үч жүз жетимиш беш кошуу сексен беш миң алты жүз беш",
+      "uzb": "Yigirma olti ming uch yuz yetmish besh qo'shilgan sakson besh ming olti yuz besh",
+      "eng": "Twenty-six thousand three hundred and seventy-five plus eighty-five thousand six hundred and five",
+      "rus": "Двадцать шесть тысяч триста семьдесят пять плюс восемьдесят пять тысяч шестьсот пять",
+      "kaz": "Жиырма алты мың үш жүз жетпіс бес қосу сексен бес мың алты жүз бес",
+      "arjd": "",
+      "arsa": "",
+      "areg": "ستة وعشرون ألفًا وثلاثمائة وخمسة وسبعون زائد خمسة وثمانون ألفًا وستمائة وخمسة",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "textAfter": "",
+    "tableBefore": null,
+    "isColumn": false,
+    "imageBefore": "",
+    "content": "answercell + answercell",
+    "answerCellMargin": "0 7px"
+  },
+  "type": "Elixir.Task_4_1_70",
+  "position": 21,
+  "id": "8686d5c2-7df3-4179-92ba-c5083523c24a",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "26375;;85605",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "BiTkaj4qzpw",
+  "videoUrl": "https://youtube.com/embed/BiTkaj4qzpw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/0dea187dbc6cb988573bf2b4447eebb4?p=GhYTYaVgswEVz5kMbLISNg",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/CqYJYCsqlgQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/i9bq8k7v_Tg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/y9oXgmy8Dg0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/BiTkaj4qzpw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": "https://youtube.com/embed/xryCVctwlBM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "areg": "https://youtube.com/embed/xryCVctwlBM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

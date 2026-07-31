@@ -1,0 +1,89 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": "x1",
+  "result": "none",
+  "fields": {
+    "difficulty": "x1",
+    "number2": 4,
+    "number1": 73318
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
+    "kgz": "Эсептеңиз (жоопко акыркы чыккан эле маанини киргизиңиз):",
+    "uzb": "Hisoblang (javobga oxirgi chiqqan qiymatni kiriting):",
+    "eng": "Calculate (enter only the final value as your answer):",
+    "rus": "Вычислите (введите в ответ только последнее полученное значение):",
+    "kaz": "Есептеңіз:",
+    "arjd": "احسب ما يلي (ثم اكتب الناتج النهائي فقط):",
+    "arsa": "احسب ما يأتي (اكتب الناتج في المربع):",
+    "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "content": "\\begin{array}{c}\n\\phantom{99}73318\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{99999}4}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+    "type": "columnOperation"
+  },
+  "type": "Elixir.Task_4_1_28",
+  "position": 0,
+  "id": "2259aa38-6bd8-46e6-8b27-cb1c2d2f0f9e",
+  "solution": {
+    "type": "columnOperation",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "73322",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "fCYic08uG8c",
+  "videoUrl": "https://youtube.com/embed/fCYic08uG8c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/41bfe21b8244ef065e06a45cb99ca284?p=zE9UMFhCqu9wvUvnvuWTFg",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/P0lRpE3vPGo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/2qtUpfF_F8Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/pm1tNrHjXBA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/fCYic08uG8c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

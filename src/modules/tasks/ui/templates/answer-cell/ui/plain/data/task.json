@@ -1,0 +1,106 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "svg": "",
+    "before": "",
+    "after": "",
+    "text": " ",
+    "down": "",
+    "up": "",
+    "type": 10
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number": 52936
+  },
+  "title": {
+    "with_audio_player": false,
+    "aze": "Boş xanaya uyğun ədədi yazın.",
+    "kgz": "Бош орунга тиешелүү санды жазыңыз.",
+    "uzb": "Boʻsh joyga tegishli sonni yozing.",
+    "eng": "Fill in the box with the correct number.",
+    "rus": "Запишите в пустое поле соответствующее число.",
+    "kaz": "Бос орынға тиісті санды жазыңыз.",
+    "arjd": "",
+    "arsa": "",
+    "areg": "اكتب العدد المناسب في المربع الفارغ",
+    "module_name": "Elixir.Helpers.Translation"
+  },
+  "description": {
+    "withAudio": true,
+    "text_before": "",
+    "text_after": "",
+    "table_before": null,
+    "is_column": false,
+    "image_before": "",
+    "answer_cell_margin": "",
+    "content": {
+      "with_audio_player": false,
+      "aze": "Bu answercell ədəd 52936 ədədindən sonra gəlir.",
+      "kgz": "Бул answercell сан 52936 санынан кийин келет.",
+      "uzb": "answercell soni 52936 dan keyin keladi.",
+      "eng": "answercell The number that comes after 52936.",
+      "rus": "Число answercell идет после числа 52936.",
+      "kaz": "answercell саны 52936-дан кейін келеді.",
+      "arjd": "",
+      "arsa": "",
+      "areg": "العدد الذي يأتي بعد 52936 هو answercell.",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "answerCell"
+  },
+  "type": "Elixir.Task_4_1_66",
+  "position": 26,
+  "id": "c4a941c3-2418-4a3b-b2de-6890ba43505c",
+  "solution": {
+    "type": "formula",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "52937",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "qPPEjxs2Jmg",
+  "videoUrl": "https://youtube.com/embed/qPPEjxs2Jmg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/31ec17f666a196bdcb716047692bc767?p=9XEwDD8nittb0IOGlKZMTw",
+    "with_audio_player": false,
+    "aze": "https://youtube.com/embed/JLSb2z4ekwU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/mTOrycZ9MnU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/nc1qFHsPt5I?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/qPPEjxs2Jmg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": "https://youtube.com/embed/AiRwWN-iHiE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "areg": "https://youtube.com/embed/AiRwWN-iHiE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

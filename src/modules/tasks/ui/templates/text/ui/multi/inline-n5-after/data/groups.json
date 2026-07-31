@@ -1,0 +1,350 @@
+[
+  {
+    "group": "text_31",
+    "count": 4,
+    "launch": {
+      "grade": 4,
+      "chapterId": "136",
+      "lessonId": "2312",
+      "taskIndex": 4
+    },
+    "tasks": [
+      {
+        "id": "4_11_9_1",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2312",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_11_9_2",
+        "launch": {
+          "grade": 4,
+          "chapterId": "136",
+          "lessonId": "2312",
+          "taskIndex": 5
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input5": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input4": {
+          "svg": "",
+          "before": "",
+          "after": ";",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input3": {
+          "svg": "",
+          "before": "",
+          "after": ";",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": ";",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": ";",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": true,
+        "type": 50
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number_list": [
+          {
+            "module_name": "Elixir.Fraction",
+            "b": 17,
+            "sign": 1,
+            "a": 3,
+            "integer": 0
+          },
+          {
+            "module_name": "Elixir.Fraction",
+            "b": 17,
+            "sign": 1,
+            "a": 7,
+            "integer": 0
+          },
+          {
+            "module_name": "Elixir.Fraction",
+            "b": 17,
+            "sign": 1,
+            "a": 4,
+            "integer": 0
+          },
+          {
+            "module_name": "Elixir.Fraction",
+            "b": 17,
+            "sign": 1,
+            "a": 10,
+            "integer": 0
+          },
+          {
+            "module_name": "Elixir.Fraction",
+            "b": 17,
+            "sign": 1,
+            "a": 12,
+            "integer": 0
+          }
+        ]
+      },
+      "title": null,
+      "description": {
+        "with_audio": true,
+        "content": {
+          "with_audio_player": false,
+          "aze": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) kəsrlərini artan sıra ilə yazın.",
+          "kgz": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) Бөлчөктөрдү өсүү тартибинде бири-бирин үтүрлүү чекит менен ажыратып жазыңыз.",
+          "uzb": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) kasrlar o'sish tartibida yozing.",
+          "eng": "Write down the fractions in ascending order, separating them with a semicolon \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\)",
+          "rus": "Запишите дроби в порядке возрастания, разделив их точкой с запятой \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\)",
+          "kaz": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) бөлшектерін өсу ретімен теріп жазыңыз.\n",
+          "arjd": "",
+          "arsa": "",
+          "areg": "رتِّب هذه الكسور \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) ترتيبًا تصاعديًا.",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_11_9_1",
+      "position": 4,
+      "id": "316d2494-8bb1-43af-947d-bdaddf2a1338",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "\\frac{3}{17};;\\frac{4}{17};;\\frac{7}{17};;\\frac{10}{17};;\\frac{12}{17}",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "8rEbG5LNSZw",
+      "videoUrl": "https://youtube.com/embed/8rEbG5LNSZw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7265bfb4e9d0f548cbefead01d82ea61?p=SfBDJANnq_UvGgGD93taIg",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/5OvhRUA1Jzk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/5hKSzuDuQf8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/8rEbG5LNSZw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "text_40",
+    "count": 2,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2121",
+      "taskIndex": 18
+    },
+    "tasks": [
+      {
+        "id": "4_1_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2121",
+          "taskIndex": 18
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input5": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input4": {
+          "svg": "",
+          "before": "",
+          "after": "\\(+\\)",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input3": {
+          "svg": "",
+          "before": "",
+          "after": "\\(+\\)",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": "\\(+\\)",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": "\\(+\\)",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": true,
+        "type": 50
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "fields": {
+        "difficulty": "x1",
+        "thousands": 2,
+        "ten_thousands": 4,
+        "tens": 4,
+        "hundreds": 3,
+        "units": 3
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Beşrəqəmli ədədi mərtəbə vahidlərinin cəmi şəklində yazın.\n(Ədədi onminliklərin, minliklərin, yüzlüklərin, onluqların və təkliklərin cəmi şəklində yazmaq lazımdır)\n",
+        "kgz": "Беш орундуу санды разряддык кошулуучулар түрүндө жазыңыз.\n(Миңдин ондугу, миңдин бирдиги, жүздүк, ондук жана бирдиктин сандарынын суммасы түрүндө жазуу керек)\n",
+        "uzb": "Besh xonali sonni xona qo'shiluvchilari ko'rinishida yozing.\n(Minglik sonlar, yuzlik sonlar, o'nlik sonlar va birlik sonlar yig'indisini yozish kerak)\n",
+        "eng": "Write the five-digit number as the sum of its place value components.\n(Write the sum of the numbers in the ten-thousands, thousands, hundreds, tens, and ones places.)\n",
+        "rus": "Запишите пятизначное число в виде суммы разрядных слагаемых.\n(Нужно записать сумму единиц разрядов: десятков тысяч, тысяч, сотен, десятков и единиц)\n",
+        "kaz": "Бес таңбалы санды разрядтық қосылғыштардың  қосындысы түрінде жазыңыз.\n(Мыңдық сандар, жүздік сандар, ондық сандар мен бірлік сандардың қосындысын жазу керек)\n",
+        "arjd": "",
+        "arsa": "",
+        "areg": "اكتب العدد المكون من خمسة أرقام بالصيغة الممتدة (مجموع الألوف، والمئات، والعشرات، والآحاد):\n",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "with_audio": true,
+        "content": "42,343",
+        "type": "text"
+      },
+      "type": "Elixir.Task_4_1_10",
+      "position": 18,
+      "id": "07e65b6a-60b6-4e48-94dd-960652f06203",
+      "solution": {
+        "type": "text",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "40000;;2000;;300;;40;;3",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "sllnRKJKn-M",
+      "videoUrl": "https://youtube.com/embed/sllnRKJKn-M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/e61b0afb5e9dfd4147f6fa50695bd009?p=J7O_ANnOi3OLirz78ACVQQ",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/qrBCmfy2rLU?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/7FgwxZDlvgg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/1UkEoT4GVlQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/sllnRKJKn-M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

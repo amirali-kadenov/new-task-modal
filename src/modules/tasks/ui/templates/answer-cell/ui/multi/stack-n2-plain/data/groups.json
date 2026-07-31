@@ -1,0 +1,496 @@
+[
+  {
+    "group": "answerCell_6",
+    "count": 6,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2120",
+      "taskIndex": 21
+    },
+    "tasks": [
+      {
+        "id": "4_1_70",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 21
+        }
+      },
+      {
+        "id": "4_1_71",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 22
+        }
+      },
+      {
+        "id": "4_3_4_7",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_3_4_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 7
+        }
+      },
+      {
+        "id": "4_3_4_9",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_3_4_11",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 10
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 85605,
+        "number1": 26375
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+        "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+        "uzb": "Berilgan ifodani son bilan yozing:",
+        "eng": "Write the given expression in numbers:",
+        "rus": "Запишите данное выражение цифрами:",
+        "kaz": "Берілген өрнекті санмен жазыңыз:",
+        "arjd": "",
+        "arsa": "",
+        "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "withAudio": true,
+        "type": "answerCell",
+        "textBefore": {
+          "with_audio_player": false,
+          "aze": "Iyirmi altı min üç yüz yetmiş beş üstəgəl səksən beş min altı yüz beş",
+          "kgz": "Жыйырма алты миң үч жүз жетимиш беш кошуу сексен беш миң алты жүз беш",
+          "uzb": "Yigirma olti ming uch yuz yetmish besh qo'shilgan sakson besh ming olti yuz besh",
+          "eng": "Twenty-six thousand three hundred and seventy-five plus eighty-five thousand six hundred and five",
+          "rus": "Двадцать шесть тысяч триста семьдесят пять плюс восемьдесят пять тысяч шестьсот пять",
+          "kaz": "Жиырма алты мың үш жүз жетпіс бес қосу сексен бес мың алты жүз бес",
+          "arjd": "",
+          "arsa": "",
+          "areg": "ستة وعشرون ألفًا وثلاثمائة وخمسة وسبعون زائد خمسة وثمانون ألفًا وستمائة وخمسة",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "textAfter": "",
+        "tableBefore": null,
+        "isColumn": false,
+        "imageBefore": "",
+        "content": "answercell + answercell",
+        "answerCellMargin": "0 7px"
+      },
+      "type": "Elixir.Task_4_1_70",
+      "position": 21,
+      "id": "8686d5c2-7df3-4179-92ba-c5083523c24a",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "26375;;85605",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "BiTkaj4qzpw",
+      "videoUrl": "https://youtube.com/embed/BiTkaj4qzpw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/0dea187dbc6cb988573bf2b4447eebb4?p=GhYTYaVgswEVz5kMbLISNg",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/CqYJYCsqlgQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/i9bq8k7v_Tg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/y9oXgmy8Dg0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/BiTkaj4qzpw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": "https://youtube.com/embed/xryCVctwlBM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "areg": "https://youtube.com/embed/xryCVctwlBM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "answerCell_7",
+    "count": 4,
+    "launch": {
+      "grade": 4,
+      "chapterId": "126",
+      "lessonId": "2120",
+      "taskIndex": 23
+    },
+    "tasks": [
+      {
+        "id": "4_1_72",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 23
+        }
+      },
+      {
+        "id": "4_1_73",
+        "launch": {
+          "grade": 4,
+          "chapterId": "126",
+          "lessonId": "2120",
+          "taskIndex": 24
+        }
+      },
+      {
+        "id": "4_3_4_10",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 9
+        }
+      },
+      {
+        "id": "4_3_4_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "129",
+          "lessonId": "2143",
+          "taskIndex": 11
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number2": 13606,
+        "number1": 75574
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ifadəni ədədlərlə yazın:",
+        "kgz": "Берилгенди  туюнтма менен жазыңыз:",
+        "uzb": "Berilgan ifodani son bilan yozing:",
+        "eng": "Write the given expression in numbers:",
+        "rus": "Запишите данное выражение цифрами:",
+        "kaz": "Берілген өрнекті санмен жазыңыз:",
+        "arjd": "",
+        "arsa": "",
+        "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "withAudio": true,
+        "type": "answerCell",
+        "textBefore": {
+          "with_audio_player": false,
+          "aze": "Yetmiş beş min beş yüz yetmiş dörd vur on üç min altı yüz altı",
+          "kgz": "Жетимиш беш миң беш жүз жетимиш төрт көбөйтүү он үч миң алты жүз алты",
+          "uzb": "Yetmish besh ming besh yuz yetmish to'rt ko'paytirilgan o'n uch ming olti yuz olti",
+          "eng": "Seventy-five thousand five hundred and seventy-four multiplied by thirteen thousand six hundred and six",
+          "rus": "Семьдесят пять тысяч пятьсот семьдесят четыре умножить на тринадцать тысячи шестьсот шесть",
+          "kaz": "Жетпіс бес мың бес жүз жетпіс төрт көбейту он үш мың алты жүз алты",
+          "arjd": "",
+          "arsa": "",
+          "areg": "ضرب خمسة وسبعين ألفًا وخمسمائة وأربعة وسبعين في ثلاثة عشر ألفًا وستمائة وستة",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "textAfter": "",
+        "tableBefore": null,
+        "isColumn": false,
+        "imageBefore": "",
+        "content": {
+          "with_audio_player": false,
+          "aze": "answercell · answercell",
+          "kgz": "answercell · answercell",
+          "uzb": "answercell · answercell",
+          "eng": "answercell · answercell",
+          "rus": "answercell · answercell",
+          "kaz": "answercell · answercell",
+          "arjd": "answercell · answercell",
+          "arsa": "answercell · answercell",
+          "areg": "answercell · answercell",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "answerCellMargin": "0 7px"
+      },
+      "type": "Elixir.Task_4_1_72",
+      "position": 23,
+      "id": "710d9cf0-cec1-484b-84f6-dd9ac79f034e",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "75574;;13606",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "xMMfGPNFm4s",
+      "videoUrl": "https://youtube.com/embed/xMMfGPNFm4s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/99db75e7b2da70af96bf8958b9325cba?p=FJfDd-bjDM3as7L9_mbBTQ",
+        "with_audio_player": false,
+        "aze": "https://youtube.com/embed/6CEDCsSmb3Q?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/HfUkRYgIpQg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/9fyd7f4OPJQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/xMMfGPNFm4s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  },
+  {
+    "group": "answerCell_13",
+    "count": 1,
+    "launch": {
+      "grade": 4,
+      "chapterId": "137",
+      "lessonId": "2337",
+      "taskIndex": 7
+    },
+    "tasks": [
+      {
+        "id": "4_12_19_8",
+        "launch": {
+          "grade": 4,
+          "chapterId": "137",
+          "lessonId": "2337",
+          "taskIndex": 7
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "input2": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "input1": {
+          "svg": "",
+          "before": "",
+          "after": "",
+          "text": " ",
+          "down": "",
+          "up": "",
+          "type": 10
+        },
+        "inline": false,
+        "type": 20
+      },
+      "difficulty": null,
+      "result": "none",
+      "fields": {
+        "number": 25
+      },
+      "title": {
+        "with_audio_player": false,
+        "aze": "Qanunauyğunluğu müəyyən edin və boş xanalara uyğun olan ədədləri yazın.",
+        "kgz": "Закон ченемдүүлүктү аныктаңыз жана бош уячага керектүү санды жазыңыз.",
+        "uzb": "Qonuniyatni aniqlang va ketma-ketlikdagi noma'lum hadini toping.",
+        "eng": "Find the pattern and fill in the missing numbers.",
+        "rus": "Определите закономерность и запишите нужные числа в пустые ячейки.",
+        "kaz": "Заңдылықты анықтап, тізбектің жетіспейтін мүшесін анықтаңыз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حدد النمط ثم اكتب العدد المفقود في التسلسل.",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "description": {
+        "withAudio": true,
+        "text_before": "",
+        "text_after": "",
+        "table_before": null,
+        "is_column": false,
+        "image_before": "",
+        "answer_cell_margin": "",
+        "content": "25; 30; answercell; answercell; 45; 50; 55; 60; 65",
+        "type": "answerCell"
+      },
+      "type": "Elixir.Task_4_12_19_8",
+      "position": 7,
+      "id": "bb87311d-6077-40f5-8731-7f6855947c62",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "35;;40",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "wvRCYd1revk",
+      "videoUrl": "https://youtube.com/embed/wvRCYd1revk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/7f6581387f74da1d317fe2046296232e?p=ZfWEpb2c6AuDuSj2oc0x7A",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/HKQuwJETRss?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/R7h1ssUK_TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/wvRCYd1revk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "attemptsCount": null,
+  "isPrimary": true,
+  "hasVideoUrl": true,
+  "isPenalty": false,
+  "answerInput": {
+    "input2": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": "Sırğa",
+        "kgz": "Алмурут",
+        "uzb": "nok",
+        "eng": "Pears:",
+        "rus": "Груша:",
+        "kaz": "Алмұрт:",
+        "arjd": "",
+        "arsa": "",
+        "areg": "الطماطم:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "ədəd",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "",
+        "arsa": "",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "input1": {
+      "svg": "",
+      "before": {
+        "with_audio_player": false,
+        "aze": "Üzük",
+        "kgz": "Алма",
+        "uzb": "olma",
+        "eng": "Apple:",
+        "rus": "Яблоко:",
+        "kaz": "Алма:",
+        "arjd": "",
+        "arsa": "",
+        "areg": "البطاطس:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "after": {
+        "with_audio_player": false,
+        "aze": "ədəd",
+        "kgz": "кг",
+        "uzb": "kg",
+        "eng": "kg",
+        "rus": "кг",
+        "kaz": "кг",
+        "arjd": "",
+        "arsa": "",
+        "areg": "كجم",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "text": " ",
+      "down": "",
+      "up": "",
+      "type": 10
+    },
+    "inline": false,
+    "type": 20
+  },
+  "difficulty": null,
+  "result": "none",
+  "fields": {
+    "number3": 880,
+    "number2": 1980,
+    "number1": 13
+  },
+  "title": null,
+  "description": {
+    "with_audio": true,
+    "content": {
+      "with_audio_player": false,
+      "aze": "Sara 13 ədəd üzük və sırğa alıb.\nO, üzüklər üçün 1980 manat, sırğalar üçün isə 880 manat ödəyib.\nƏgər üzük və sırğanın 1-nin qiyməti eynidirsə, Sara neçə ədəd üzük və sırğa alıb?\n",
+      "kgz": "Сергей 13 кг алма жана алмурут сатып алды. Ал алма үчүн 1980 сом, ал эми алмурут үчүн 880 сом төлөгөн.\nЭгерде бир килограмм алма менен бир килограмм алмуруттун баасы бирдей болсо, анда Сергей канча килограмм алма жана алмурут сатып алганын табыңыз.\n",
+      "uzb": "Aziz 13 kg olma va nok sotib oldi. Olma uchun 1980 so'm, nok uchun esa 880 so'm to'ladi.\nAgar olma va nokning bir kilogrammining narxlari bir xil bo'lsa, Aziz necha kilogramm olma va nok sotib olganini toping.\n",
+      "eng": "Sam buys 13 kg of apples and pears. He pays 1980 cents for the apples and 880 cents for the pears.\nIf the price for a kilogram of apples and pears is the same, how many kilograms of apples and pears does Sam buy?\n",
+      "rus": "Сергей купил 13 кг яблок и груш. За яблоки он заплатил 1980 рублей, а за груши 880 рублей.\nЕсли цена за килограмм яблок и груш одинаковая, то найдите, сколько килограммов яблок и груш купил Сергей.\n",
+      "kaz": "Айдос 13 кг алма мен алмұрт сатып алды. Алмаға 1980 теңге, ал алмұртқа 880 теңге төледі.\nЕгер алма мен алмұрттың бағалары бірдей болса, Айдос қанша килограмм алма және алмұрт сатып алғанын табыңыз.\n",
+      "arjd": "",
+      "arsa": "",
+      "areg": "اشترى حسام من السوق 13 كيلوجرامًا من البطاطس والطماطم،\nودفع 1980 جنيهًا للبطاطس و880 جنيهًا للطماطم.\nإذا كان سعر كيلوجرام البطاطس مساويًا لسعر كيلوجرام الطماطم،\nفكم عدد كيلوجرامات البطاطس والطماطم التي اشتراها حسام كل على حدة؟\n",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "type": "text"
+  },
+  "type": "Elixir.Task_4_6_7_11",
+  "position": 10,
+  "id": "208e9924-4993-47d0-83ff-c40f6a0d89a8",
+  "solution": {
+    "type": "text",
+    "answer": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "9;;4",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+      "with_audio_player": false,
+      "aze": "",
+      "arsa": "",
+      "areg": "",
+      "kgz": "",
+      "uzb": "",
+      "eng": "",
+      "rus": "",
+      "kaz": "",
+      "school": "",
+      "module_name": "Elixir.Helpers.Translation"
+    }
+  },
+  "hint1": null,
+  "hint2": null,
+  "videoId": "GPjCwaGOi1o",
+  "videoUrl": "https://youtube.com/embed/GPjCwaGOi1o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+  "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/27a3b34a03ba7f570b1fd4885af0a266?p=046mbNbwW0AhODd9Ff0bBQ",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/dtvxSu19FWw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/aGDuw_wOxKQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/GPjCwaGOi1o?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  margin-top: var(--space-16);
+  text-align: left;
+}
+
+.title {
+  @include caption-regular;
+
+  margin-bottom: var(--space-8);
+  color: var(--text-secondary);
+}
+
+.formula {
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+}
+
+.textBlock {
+  margin-top: var(--space-8);
+}
+
+.textAfterComplex {
+  margin-top: var(--space-12);
+}
