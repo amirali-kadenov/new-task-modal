@@ -1,0 +1,82 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Математика" />
+
+<div className={s.page}>
+
+# Математика на экране
+
+В окне задания математика рисуется двумя разными средствами. Одно нужно,
+чтобы **показать** формулу в условии или решении. Другое — чтобы человек
+**ввёл** формулу в поле ответа. Их нельзя путать: одна и та же запись иногда
+пишется по-разному для показа и для ввода.
+
+## Обзор
+
+<DocsDiagram caption="Где какой движок">
+  <DocsGrid
+    items={[
+      {
+        title: 'Показ',
+        description:
+          'MathJax: условие и решение. Компоненты MathFormula и MathText.',
+      },
+      {
+        title: 'Ввод',
+        description:
+          'MathQuill: редактируемое поле ответа (MathInput), не картинка формулы.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<DocsSteps
+  caption="Как появляется формула"
+  steps={[
+    {
+      title: 'В данных лежит запись формулы',
+      description:
+        'Строка без лишней внешней обёртки — компонент показа сам её добавит.',
+    },
+    {
+      title: 'Нормализация дробей',
+      description: 'Запись дробей приводится к виду, который стабильно рисуется.',
+    },
+    {
+      title: 'Вёрстка на экране',
+      description: 'MathJax собирает отображение; высокие символы могут подправляться.',
+    },
+  ]}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Показ
+
+- `src/ui/math-text/math-formula.tsx` — одна формула, inline + `\(...\)`;
+- `src/ui/math-text/math-text.tsx` — текст с математикой;
+- `normalizeFractionStyle` — дроби.
+
+### Ввод
+
+- `src/ui/math-input/math-input.tsx` — MathQuill, `MATHQUILL_CONFIG`;
+- `src/ui/math-symbol-catalog.ts` — `tex` для показа, `mathquill` /
+  `getMathQuillTex` для ввода; часть символов помечена как недоступная во вводе.
+
+### Ловушки
+
+- Двойная обёртка `\(\(...\)\)` → ошибка MathJax (`mjx-merror`).
+- Разделитель ответов `||` из CMS разбирать до MathJax.
+- Кириллица и единицы измерения — проверки в `assert-mathjax-dom.ts`.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

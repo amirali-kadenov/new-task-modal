@@ -1,0 +1,85 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Ленивая загрузка" />
+
+<div className={s.page}>
+
+# Ленивая загрузка
+
+Код нового окна задания и всех экранов шаблонов не лежит целиком в первом
+файле скриптов урока. Сначала на страницу попадает только то, без чего нельзя
+открыть задачу. Конкретный экран выбранного задания подгружается ещё одним
+шагом позже. Так урок открывается быстрее, а неиспользуемые экраны не
+скачиваются зря.
+
+## Обзор
+
+<DocsSteps
+  caption="Два уровня отложенной подгрузки"
+  steps={[
+    {
+      title: 'Урок открыт — пакета ещё нет',
+      description:
+        'Учебное приложение знает про окно задания, но тяжёлый код библиотеки ещё не скачан.',
+    },
+    {
+      title: 'Открывается задача',
+      description:
+        'Хост подгружает пакет новой модалки и при необходимости список разрешённых заданий.',
+    },
+    {
+      title: 'Выбирается экран этой задачи',
+      description:
+        'По ключу задания берётся загрузчик нужного шаблона. Остальные экраны не качаются.',
+    },
+    {
+      title: 'Повторное открытие',
+      description:
+        'Тот же экран берётся из памяти — повторная полная загрузка не нужна.',
+    },
+  ]}
+/>
+
+Уровень учебного приложения и уровень внутри библиотеки работают независимо:
+сначала появляется пакет, затем — конкретный экран. Подробный путь от задания
+до экрана: [Шаблоны](?path=/docs/internals-шаблоны--documentation).
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Хост
+
+В `matheducator` контроллер объявляет новую и старую реализации через
+отложенный импорт React:
+
+```js
+const TaskModalNew = lazy(() => import('@qalan/new-task-modal'))
+const TaskModalOld = lazy(() => import('./TaskModalOld'))
+```
+
+Список разрешённых заданий:
+
+```js
+const module = await import('@qalan/new-task-modal/available-tasks')
+```
+
+Файл: `matheducator/reactjs_client/src/modules/pupil/taskModal/TaskModalController.jsx`.
+
+### Библиотека
+
+Карта «ключ → загрузчик экрана»:
+`src/modules/tasks/model/component/generate-module-template-map.ts`.
+
+Выбор экрана: `src/modules/tasks/model/component/get-task-component.ts` —
+ключ типа, кэш ленивого компонента, иначе `null`.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

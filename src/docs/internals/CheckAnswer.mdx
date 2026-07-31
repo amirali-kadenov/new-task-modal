@@ -1,0 +1,102 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsBranch, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Проверка ответа" />
+
+<div className={s.page}>
+
+# Проверка ответа
+
+После нажатия «Проверить» берётся то, что сейчас в поле ответа, при
+необходимости приводятся цифры к обычному виду, на сервер уходит запрос вместе
+с заданием и версией для согласованного сохранения. По ответу сервера
+обновляются экран и состояние урока.
+
+## Обзор
+
+<DocsSteps
+  caption="От нажатия до обновления"
+  steps={[
+    {
+      title: 'Чтение ответа',
+      description: 'Значение из хранилища окна; для строк — нормализация цифр.',
+    },
+    {
+      title: 'Запрос на сервер',
+      description:
+        'Задание, ответ, версия сохранения, урок и язык.',
+    },
+    {
+      title: 'Код результата',
+      description:
+        'Верно, неверно с попыткой, показать решение и другие сценарии.',
+    },
+    {
+      title: 'Обновление',
+      description:
+        'Прогресс, список задач, версия; при успехе — переход дальше.',
+    },
+  ]}
+/>
+
+<DocsBranch
+  caption="После ответа сервера"
+  tree={{
+    type: 'start',
+    title: 'Ответ получен',
+    description: 'Есть код результата и новая версия сохранения',
+    next: {
+      type: 'question',
+      title: 'Какой исход?',
+      description: 'По коду из перечислений хоста',
+      branches: [
+        {
+          label: 'верно',
+          next: {
+            type: 'outcome',
+            title: 'Успех',
+            description: 'Очистка поля, обновление прогресса, следующая задача.',
+          },
+        },
+        {
+          label: 'неверно',
+          next: {
+            type: 'outcome',
+            title: 'Повтор',
+            description: 'Сообщение об ошибке, можно ввести снова.',
+          },
+        },
+        {
+          label: 'конфликт версии',
+          next: {
+            type: 'outcome',
+            title: 'Конфликт',
+            description: 'Признак конфликта в состоянии сеанса.',
+          },
+        },
+      ],
+    },
+  }}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+Файл: `src/modules/task-modal/model/hooks/api/use-check-answer.ts`.
+
+- Нормализация: `helpers.CyrillicTo.default_numeral`.
+- Запрос: `api.checkAnswer({ ...activeTask, answer, lockVersion }, lessonId, language)`.
+- Коды: `enums.CheckUserAnswerResult` (ShowCorrect, GiveAttempt, ShowSolution…).
+- Тип ответа: `CheckAnswerResponse` в `src/types/api/api.ts`.
+- Несколько полей: `TaskHelper.multipleTaskAnswerSeparator` (часто `;;`).
+- Соседи: `use-show-solution`, `use-show-next-task`, `use-show-video-explanation`.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

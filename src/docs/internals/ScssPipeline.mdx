@@ -1,0 +1,68 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Сборка стилей" />
+
+<div className={s.page}>
+
+# Как собираются стили модулей
+
+Стили компонентов пишутся рядом с ними в файлах SCSS. Общие функции, миксины и
+правила типографики не нужно вручную подключать в каждом файле: сборщик
+подставляет их сам.
+
+## Обзор
+
+<DocsSteps
+  caption="От SCSS до страницы"
+  steps={[
+    {
+      title: 'Автоподстановка',
+      description:
+        'В начало каждого SCSS добавляются функции, миксины и типографика.',
+    },
+    {
+      title: 'Сборка CSS',
+      description: 'Модули превращаются в CSS рядом с частями JS.',
+    },
+    {
+      title: 'Вшивание в пакет',
+      description:
+        'Стили едут внутри JS-бандла; шрифт вставляется отдельно при открытии.',
+    },
+  ]}
+/>
+
+Механизм «как CSS оказывается на странице» —
+[Стили](?path=/docs/internals-стили--documentation).
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+В `vite.config.ts`:
+
+```ts
+css: {
+  preprocessorOptions: {
+    scss: {
+      additionalData: `
+        @use "/src/styles/lib/functions" as *;
+        @use "/src/styles/lib/mixins" as *;
+        @use "/src/styles/design-system/typography" as *;`,
+    },
+  },
+},
+```
+
+Локальные классы — `*.module.scss`. Storybook: `@/styles/_index.scss` в
+preview. Плагин инъекции CSS — см. страницу Стили.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

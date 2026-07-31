@@ -1,0 +1,290 @@
+.figure {
+  margin: 28px 0 32px;
+}
+
+.diagram {
+  padding: 26px 28px;
+  overflow: auto;
+  background: var(--bg-canvas, #f5f5f5);
+  border-radius: 16px;
+}
+
+.caption {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #4a4a4a);
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+
+  @media (max-width: 640px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  padding: 16px 18px;
+  background: var(--bg-surface, #fff);
+  border-radius: 12px;
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary, #0a0a0a);
+}
+
+.cardDescription {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #4a4a4a);
+}
+
+.wireframe {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(140px, 30%);
+  gap: 14px;
+  align-items: start;
+  min-width: 440px;
+  padding: 14px;
+  background: var(--bg-surface, #fff);
+  border: 1px solid var(--border-subtle, #e8e8e8);
+  border-radius: 14px;
+}
+
+.wireframeMain,
+.wireframeSide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.wireframeSide {
+  padding: 10px;
+  border: 1px dashed var(--border-default, #d0d0d0);
+  border-radius: 12px;
+}
+
+.sideLabel {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-tertiary, #737373);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.zone {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 12px 14px;
+  background: var(--bg-canvas, #f5f5f5);
+  border-radius: 10px;
+}
+
+.zoneHeader {
+  background: var(--bg-subtle, #ebebeb);
+}
+
+.zoneAnswer {
+  min-height: 52px;
+  background: var(--bg-canvas, #f5f5f5);
+  border: 0;
+}
+
+.zoneActions {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.zoneTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary, #0a0a0a);
+}
+
+.zoneDescription {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #4a4a4a);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  min-width: 0;
+  padding: 14px 16px;
+  background: var(--bg-surface, #fff);
+  border-radius: 12px;
+}
+
+.stepIndex {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary, #0a0a0a);
+  background: var(--bg-canvas, #f5f5f5);
+  border-radius: 999px;
+}
+
+.stepBody {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.stepTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary, #0a0a0a);
+}
+
+.stepDescription {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #4a4a4a);
+}
+
+.stepArrow {
+  display: none;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 280px;
+}
+
+.branchBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.branchStart,
+.branchQuestion,
+.branchOutcome {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  max-width: 360px;
+  padding: 14px 16px;
+  text-align: center;
+  background: var(--bg-surface, #fff);
+  border-radius: 12px;
+}
+
+.branchQuestion {
+  border: 1px solid var(--border-default, #d0d0d0);
+}
+
+.branchOutcome {
+  flex: 1 1 auto;
+  justify-content: center;
+  min-height: 72px;
+  background: var(--bg-subtle, #ebebeb);
+}
+
+.branchPath .branchStart,
+.branchPath .branchQuestion,
+.branchPath .branchOutcome {
+  max-width: none;
+}
+
+.branchTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary, #0a0a0a);
+}
+
+.branchDescription {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #4a4a4a);
+}
+
+.branchDown {
+  flex-shrink: 0;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-tertiary, #737373);
+}
+
+.branchFork {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+  width: 100%;
+  max-width: 720px;
+}
+
+.branchForkWide {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 900px;
+}
+
+.branchPath {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  min-width: 0;
+  height: 100%;
+}
+
+.branchPath .branchFork {
+  max-width: none;
+}
+
+.branchLabel {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary, #0a0a0a);
+  background: var(--bg-surface, #fff);
+  border-radius: 999px;
+}

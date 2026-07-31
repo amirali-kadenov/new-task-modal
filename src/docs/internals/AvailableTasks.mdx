@@ -1,0 +1,59 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Разрешённые задания" />
+
+<div className={s.page}>
+
+# Список разрешённых заданий
+
+Не каждое задание в уроке сразу открывается новым интерфейсом. Есть отдельный
+список ключей: «для этих заданий новый экран уже разрешён». По нему учебное
+приложение и само окно решают, показывать новый шаблон или идти в старый путь.
+
+## Обзор
+
+<DocsSteps
+  caption="Как появляется и используется список"
+  steps={[
+    {
+      title: 'Сборка из глав',
+      description:
+        'Скрипт обходит файлы классов и глав и собирает ключи класс_глава_номер.',
+    },
+    {
+      title: 'Отдельный модуль пакета',
+      description:
+        'Список попадает в сборку и импортируется отдельно от основного бандла.',
+    },
+    {
+      title: 'Хост и окно',
+      description:
+        'Хост передаёт список в окно; контейнер и переходы сверяют ключ задания.',
+    },
+  ]}
+/>
+
+Выбор целого нового или старого окна на хосте —
+[Deployment](?path=/docs/documentation-deployment--documentation).
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+- Генератор: `scripts/generate-available-tasks.ts` + `traverseGrades`.
+- Ключ: `` `${gradeNum}_${chapterNum}_${id}` ``.
+- Импорт: `@qalan/new-task-modal/available-tasks`.
+- Аналог: `src/modules/tasks/lib/get-available-tasks.ts`.
+- Контейнер: ключ = `type` без `Elixir.Task_`; иначе при
+  `renderLegacyTask` — старый экран.
+- Переход: `useCheckTaskSupport`.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

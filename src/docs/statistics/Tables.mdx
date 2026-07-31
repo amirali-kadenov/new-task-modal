@@ -1,0 +1,287 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Statistics/Tables" />
+
+<div className={s.page}>
+
+# Таблицы статистики
+
+Все таблицы на **Главной** строятся из ответа
+`GET /api/snapshots/stats-table?outputDir=&grade=` (live server) либо из
+файлов `public/stats-static/stats-table-*.json` в offline-сборке Storybook.
+Сервер (или экспорт) отдаёт `groupsTable`, `templatesCoverage`,
+`typeDistribution` и `totalTasks`; панель нормализует поля и рисует четыре
+подвкладки.
+
+<div className={s.stack}>
+
+<div className={s.block}>
+
+## Обзор подвкладок
+
+<DocsDiagram caption="Один snapshot — четыре представления">
+  <DocsGrid
+    items={[
+      {
+        title: 'Данные',
+        description:
+          'Группы × типы: сколько задач в каждой комбинации. Сортировка по суммам типов.',
+      },
+      {
+        title: 'Покрытие',
+        description:
+          'Один ряд на templateId: манифест, код, маппинг и доля в выгрузке.',
+      },
+      {
+        title: 'По группам',
+        description:
+          'Те же строки groupsTable, что и Данные, без спец. сортировки по типам.',
+      },
+      {
+        title: 'По типам',
+        description:
+          'Агрегат typeDistribution: тип, кол-во, %, статус модалки.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+</div>
+
+<div className={s.block}>
+
+## Данные
+
+**Зачем:** быстро увидеть структуру выгрузки — какие группы и типы доминируют.
+
+Строки — это пары `group` + `type` из `groupsTable`. На этой подвкладке строки
+дополнительно сортируются: типы с большей суммой задач выше, внутри типа —
+по `count`.
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Колонка</th>
+        <th>Назначение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <code>#</code>
+        </td>
+        <td>Номер в текущей секции</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Группа</strong>
+        </td>
+        <td>
+          <code>row.group</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Тип</strong>
+        </td>
+        <td>
+          <code>row.type</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Задачи</strong>
+        </td>
+        <td>Показать / Скрыть список задач</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Кол-во</strong>
+        </td>
+        <td>Число задач в строке</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>%</strong>
+        </td>
+        <td>
+          Доля от <code>groupsTable.total</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+<div className={s.block}>
+
+## По группам
+
+**Зачем:** тот же срез `groupsTable`, но без принудительной сортировки
+«Данных» — удобно смотреть сырой порядок и свои группировки/сортировки из
+тулбара.
+
+Колонки совпадают с **Данными**. Заголовок: `Группы · N задач`.
+
+</div>
+
+<div className={s.block}>
+
+## Покрытие
+
+**Зачем:** понять, закрывает ли новая модалка шаблоны из выгрузки, и где
+расходятся три независимых сигнала.
+
+Над таблицей — сводка **манифест %**, **в коде %**, **маппинг %** (доля задач,
+у которых соответствующий сигнал «да» / в маппинге).
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Колонка</th>
+        <th>Назначение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <code>#</code>
+        </td>
+        <td>Номер</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Шаблон</strong>
+        </td>
+        <td>
+          <code>templateId</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Манифест</strong>
+        </td>
+        <td>
+          да/нет — шаблон в <code>implemented-templates.json</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>В коде</strong>
+        </td>
+        <td>
+          да/нет — есть объявление <code>id:</code> в{' '}
+          <code>ui/templates</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Маппинг</strong>
+        </td>
+        <td>
+          <code>availableTasksCount/count (percent%)</code> — whitelist grades +{' '}
+          <code>structural-task-map</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Задачи</strong>
+        </td>
+        <td>Раскрытие списка</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Кол-во</strong> / <strong>%</strong>
+        </td>
+        <td>Сколько задач этого шаблона в фильтре выгрузки</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Расхождения
+
+Фильтр **«Только расхождения»** оставляет строки, где:
+
+- `implemented` ≠ `inCode`, или
+- `availableTasksCount` ≠ `count` (маппинг не покрывает все задачи шаблона в
+  выгрузке).
+
+Подсказки в UI (title колонок):
+
+- манифест — список из `implemented-templates.json`;
+- в коде — объявления `id:` в `ui/templates`;
+- маппинг — whitelist grades + `structural-task-map`.
+
+</div>
+
+<div className={s.block}>
+
+## По типам
+
+**Зачем:** грубое распределение по `type` без групп — сколько задач каждого
+типа и какой у типа статус относительно модалки.
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Колонка</th>
+        <th>Назначение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>Тип</strong>
+        </td>
+        <td>
+          <code>row.type</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Кол-во</strong> / <strong>%</strong>
+        </td>
+        <td>
+          Доля в <code>typeDistribution.total</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Статус</strong>
+        </td>
+        <td>
+          <code>row.modalStatus</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+На этой подвкладке нет группировки/сортировки тулбара и нет раскрытия списка
+задач — только агрегат.
+
+</div>
+
+<div className={s.block}>
+
+## Detail «Задачи»
+
+Общий для **Данных**, **Покрытия** и **По группам**. Колонки и кнопки
+тренажёра описаны в
+[Интерфейс](?path=/docs/statistics-interface--documentation).
+
+Поиск в тулбаре фильтрует и строки таблицы, и задачи внутри открытого detail.
+
+</div>
+
+</div>
+
+</div>

@@ -1,0 +1,70 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsBranch } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Старый экран" />
+
+<div className={s.page}>
+
+# Старый экран внутри нового окна
+
+Пока не все задания переведены на новые шаблоны, новое окно умеет показать
+старый интерфейс задания внутри своей области контента. Для этого хост
+передаёт необязательную функцию отрисовки старого экрана.
+
+Это не то же самое, что открытие **целого** старого окна на стороне учебного
+приложения (`?old` и отсутствие в списке) —
+[Deployment](?path=/docs/documentation-deployment--documentation).
+
+## Обзор
+
+<DocsBranch
+  caption="Что рисует контейнер"
+  tree={{
+    type: 'start',
+    title: 'Рисуется область задания',
+    description: 'Есть задание и список разрешённых ключей',
+    next: {
+      type: 'question',
+      title: 'Задание в списке разрешённых?',
+      description: 'Ключ без префикса Elixir.Task_',
+      branches: [
+        {
+          label: 'да',
+          next: {
+            type: 'outcome',
+            title: 'Новый шаблон',
+            description: 'Подгружается экран из templates.',
+          },
+        },
+        {
+          label: 'нет, есть колбэк хоста',
+          next: {
+            type: 'outcome',
+            title: 'Старый экран',
+            description: 'Хост монтирует свой UI в узел внутри контейнера.',
+          },
+        },
+      ],
+    },
+  }}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+Тип `renderLegacyTask` в `props.ts`: контейнер, задание, колбэки смены ответа
+(и опционально описания). Может вернуть функцию очистки.
+
+Обёртка: `src/modules/task-modal/ui/legacy-task-root.tsx`.
+
+Живой resolve новых экранов — `modules/tasks` и `templates`.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

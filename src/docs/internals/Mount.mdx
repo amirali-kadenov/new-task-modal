@@ -1,0 +1,92 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Монтирование" />
+
+<div className={s.page}>
+
+# Как окно задания появляется на странице
+
+Библиотека не вставляется в дерево React учебного приложения как обычный
+дочерний блок. Контроллер находит на странице заранее подготовленный контейнер,
+создаёт внутри него отдельный корень React и рисует окно там. В дереве хоста
+функция контроллера возвращает пустое значение — рисовать «снаружи» нечего.
+
+## Обзор
+
+<DocsSteps
+  caption="От вызова до экрана"
+  steps={[
+    {
+      title: 'Вызов контроллера',
+      description:
+        'Хост передаёт данные открытия. Контроллер откладывает работу и сразу возвращает пустой результат.',
+    },
+    {
+      title: 'Шрифт',
+      description: 'Один раз вставляется описание шрифта в голову документа.',
+    },
+    {
+      title: 'Корень в контейнере хоста',
+      description:
+        'В task-modal-wrapper создаётся task-modal-root и поднимается корень React.',
+    },
+    {
+      title: 'Рисование окна',
+      description:
+        'Рисуется окно задания; закрытие хоста дополняется снятием корня.',
+    },
+  ]}
+/>
+
+<DocsDiagram caption="Элементы на странице">
+  <DocsGrid
+    items={[
+      {
+        title: 'task-modal-wrapper',
+        description: 'Контейнер учебного приложения. Без него вставлять некуда.',
+      },
+      {
+        title: 'task-modal-root',
+        description: 'Элемент библиотеки; на нём хранится корень React.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+Файл: `src/modules/task-modal/controller.tsx`. ADR 0003.
+
+```ts
+export const TaskModalController = (props: TaskModalProps) => {
+  setTimeout(() => {
+    injectFonts()
+    const root = getRoot()
+    const closeModal = () => {
+      props.closeModal()
+      root.unmount()
+    }
+    root.render(
+      <ErrorBoundary>
+        <TaskModal {...props} closeModal={closeModal} />
+      </ErrorBoundary>,
+    )
+  }, 0)
+  return null
+}
+```
+
+Экспорт по умолчанию пакета — `TaskModalController` (`src/index.ts`).
+При повторном открытии предыдущий корень снимается и удаляется.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

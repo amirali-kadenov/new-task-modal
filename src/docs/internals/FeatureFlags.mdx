@@ -1,0 +1,61 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Переключатели" />
+
+<div className={s.page}>
+
+# Переключатели функций
+
+Иногда хост включает поэтапное поведение без отдельной версии окна. Для этого
+в зависимости можно передать необязательный объект переключателей. Если объект
+не передан, экспериментальные ветки считаются выключенными.
+
+## Обзор
+
+<DocsDiagram caption="Где встречаются">
+  <DocsGrid
+    items={[
+      {
+        title: 'Чат с ментором',
+        description: 'Переключатель media API меняет путь для медиа.',
+      },
+      {
+        title: 'Стенды Storybook',
+        description: 'Флаги задают явно, чтобы проверить нужный сценарий.',
+      },
+      {
+        title: 'Флаги учебного приложения',
+        description:
+          'Свои флаги хоста (статистика и окружение) — другой канал, не путать.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+В `TaskModalDependencies` (`props.ts`):
+
+```ts
+featureFlags?: {
+  useMentorChatMediaApi?: boolean
+}
+```
+
+Чтение: `mentor-chat.tsx`. Новый флаг — сначала тип, потом передача с хоста,
+потом ветка в UI.
+
+Связано: [Панели](?path=/docs/internals-панели--documentation),
+[Контракт с хостом](?path=/docs/internals-контракт-с-хостом--documentation).
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

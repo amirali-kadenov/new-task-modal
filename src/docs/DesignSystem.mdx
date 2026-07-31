@@ -1,0 +1,152 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from './components/docs-diagram'
+import s from './docs.module.scss'
+
+<Meta title="Documentation/Design System" />
+
+<div className={s.page}>
+
+# Дизайн-система
+
+Раздел описывает токены и базовые компоненты, из которых собираются шаблоны
+заданий: цвет, типографика, отступы, радиусы, иконки и примитивы ввода ниже
+уровня бизнес-логики задания.
+
+## Обзор
+
+### Слои
+
+*От общей темы до экрана задания*
+
+<DocsSteps
+  caption="Зачем каждый слой"
+  steps={[
+    {
+      title: 'Токены темы',
+      description:
+        'Общие правила цвета, отступов, скруглений и шрифта. Меняете токен — меняется вид сразу во многих местах.',
+    },
+    {
+      title: 'Простые детали UI',
+      description:
+        'Кнопка, поле ввода, вкладки. Они ещё ничего не знают про задание — только как выглядеть и реагировать на клик.',
+    },
+    {
+      title: 'Общие куски задания',
+      description:
+        'Заголовок, текст условия, ячейка ответа. Их переиспользуют разные шаблоны, чтобы экран выглядел единообразно.',
+    },
+    {
+      title: 'Конкретный шаблон',
+      description:
+        'Собираем детали в готовую раскладку: сколько полей, где они стоят, как выглядит проверка.',
+    },
+  ]}
+/>
+
+### Разделы в Storybook
+
+<DocsDiagram caption="Разделы дизайн-системы в Storybook">
+  <DocsGrid
+    items={[
+      {
+        title: 'Цвета',
+        description: 'Палитра и смысловые цвета для светлой и тёмной темы.',
+      },
+      {
+        title: 'Типографика',
+        description: 'Шрифт Halvar Mittel: размеры и роли текста на экране.',
+      },
+      {
+        title: 'Отступы и скругления',
+        description: 'Общая шкала расстояний и углов, чтобы layout не «плясал».',
+      },
+      {
+        title: 'Иконки',
+        description: 'Набор SVG-иконок для кнопок и подсказок в интерфейсе.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+- [Colors](?path=/docs/design-system-colors--documentation)
+- [Typography](?path=/docs/design-system-typography--documentation)
+- [Spacing](?path=/docs/design-system-spacing--documentation)
+- [Radius](?path=/docs/design-system-radius--documentation)
+- [Icons](?path=/docs/design-system-icons--documentation)
+
+### Базовые компоненты
+
+Раздел **UI** содержит примитивы без знания о задании. Состояния проверяются
+изолированно до сборки шаблона.
+
+- Ввод: [Input](?path=/docs/ui-input--documentation),
+  [InputWithIcons](?path=/docs/ui-inputwithicons--documentation),
+  [MathInput](?path=/docs/ui-mathinput--documentation),
+  [RadioButton](?path=/docs/ui-radiobutton--documentation),
+  [RadioButtonGroup](?path=/docs/ui-radiobuttongroup--documentation),
+  [Slider](?path=/docs/ui-slider--documentation)
+- Действия: [Button](?path=/docs/ui-button--documentation),
+  [ButtonWithLoader](?path=/docs/ui-buttonwithloader--documentation),
+  [Tabs](?path=/docs/ui-tabs--documentation),
+  [TopBar](?path=/docs/ui-topbar--documentation)
+- Математика: [MathFormula](?path=/docs/ui-mathformula--documentation),
+  [MathText](?path=/docs/ui-mathtext--documentation)
+- Состояния: [Loader](?path=/docs/ui-loader--documentation),
+  [LoadingWrapper](?path=/docs/ui-loadingwrapper--documentation),
+  [Skeleton](?path=/docs/ui-skeleton--documentation),
+  [Spoiler](?path=/docs/ui-spoiler--documentation)
+- Layout: [FlexRow](?path=/docs/ui-flexrow--documentation)
+
+  
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Как цвет доходит до экрана задания
+
+Сначала в дизайн-системе задаются **токены** — именованные значения цвета,
+отступа, скругления и роли текста. Базовые компоненты в `src/ui` берут эти
+имена через CSS-переменные. Шаблоны заданий собираются из этих компонентов и
+тоже опираются на токены, а не на «случайный» hex из макета.
+
+Так устроена светлая и тёмная тема: меняется значение переменной на корне, а
+компоненты сами подхватывают новый цвет.
+
+Пользуйтесь смысловыми именами вроде «основной текст» или «фон поверхности», а
+не сырой палитрой напрямую. Тогда тёмная тема не потребует правок в каждом
+шаблоне.
+
+Группы токенов примерно такие: фоны, текст, границы, статусы (ошибка,
+предупреждение, успех, информация). Конкретные имена переменных смотрите на
+страницах Colors / Spacing / Radius в этом же разделе.
+
+### Шрифт
+
+В продукте используется Halvar Mittel. Он подключается при открытии модалки.
+Ожидаются два настоящих начертания — обычное и жирное. Промежуточные «веса» из
+макета браузер дорисует сам, и картинка разъедется с дизайном — поэтому в UI
+держимся двух начертаний.
+
+### Практические правила
+
+Цвет и отступы задавайте через токены. Новый примитив (кнопка, инпут) кладите в
+`src/ui`, а не копируйте стили внутрь одного шаблона. Стили пишутся CSS-модулями.
+Проверка стилей: `pnpm lint:stylelint`.
+
+### На что обратить внимание
+
+Стили библиотеки едут вместе с JS-сборкой, чтобы меньше конфликтовать с
+глобальными стилями хоста. Тем не менее общие правила хоста или Storybook иногда
+задевают кнопки и типографику — это известная зона трения.
+
+Тёмная тема включается атрибутом на корне; без семантических токенов она
+«поедет». Только веса 400 и 700 у Halvar — иначе получите искусственный bold и
+расхождение с макетом.
+
+</div>
+</details>
+
+</div>

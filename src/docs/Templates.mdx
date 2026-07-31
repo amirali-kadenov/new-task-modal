@@ -1,0 +1,229 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from './components/docs-diagram'
+import s from './docs.module.scss'
+
+<Meta title="Documentation/Templates" />
+
+<div className={s.page}>
+
+# Шаблоны заданий
+
+Шаблон — повторяемая визуальная структура задания. Изменение текста, числа или
+языка само по себе не образует новый шаблон, если layout и сценарий ответа
+совпадают.
+
+## Обзор
+
+### Главное правило
+
+**Одна UI-структура — один шаблон (`templateId`).**
+
+*Как из кучи задач получается один проверяемый экран*
+
+<DocsSteps
+  caption="Зачем каждый шаг"
+  steps={[
+    {
+      title: 'Смотрим реальные задания',
+      description:
+        'Берём задачи из уроков или выгрузки статистики — не выдуманные примеры, а то, что видит ученик.',
+    },
+    {
+      title: 'Определяем тип задания',
+      description:
+        'Это текст, формула, таблица, уравнение и т.п. От типа зависит, в какой «семье» искать экран.',
+    },
+    {
+      title: 'Смотрим, как устроен ответ',
+      description:
+        'Сколько полей, где они стоят, есть ли сетка или выбор варианта. Именно это отличает один шаблон от другого.',
+    },
+    {
+      title: 'Даём шаблону имя',
+      description:
+        'Одна и та же раскладка экрана получает один идентификатор. Разный текст задачи — не повод для нового шаблона.',
+    },
+    {
+      title: 'Проверяем в Storybook',
+      description:
+        'Открываем обычный вид, режим решения, все раскладки и тренажёр — убеждаемся, что экран ведёт себя правильно.',
+    },
+  ]}
+/>
+
+Новый вариант требуется при изменении структуры: числа полей, их расположения,
+табличной сетки, типа выбора или состава визуальных блоков. Не требуется при
+изменении только текста, числа, единицы измерения или языка.
+
+### Что проверять в Storybook
+
+<DocsDiagram caption="Что обычно смотрят у шаблона">
+  <DocsGrid
+    items={[
+      {
+        title: 'Обычный вид',
+        description: 'Как задание выглядит до проверки: поля пустые, можно вводить ответ.',
+      },
+      {
+        title: 'С решением',
+        description: 'Как выглядит разбор: поля только для чтения, видно правильный ответ.',
+      },
+      {
+        title: 'В тренажёре',
+        description: 'Полный сценарий: ввод, проверка, ошибка или успех, переход дальше.',
+      },
+      {
+        title: 'Все раскладки',
+        description: 'Все варианты одной структуры на одном экране — удобно сравнивать.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+Помимо основного сценария следует проверять длинный текст, локализацию, пустые
+значения, узкую ширину и состояния ошибки / успеха.
+
+Технический цикл (карты, codegen, runtime-resolve):
+[Internals/Шаблоны](?path=/docs/internals-шаблоны--documentation).
+Технический рецепт: [Как добавить шаблон](?path=/docs/internals-как-добавить-шаблон--documentation).
+
+  
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Как задача превращается в экран
+
+С сервера приходит описание задания: тип, текст условия, поля ответа. По этим
+данным выбирается домен (текст, формула, таблица…) и конкретный вариант
+раскладки. У варианта есть свой идентификатор шаблона — одна и та же структура
+экрана для многих разных текстов задач. Дальше подгружается компонент UI и его
+stories для проверки в Storybook.
+
+Домены лежат в `src/modules/tasks/ui/templates/`: text, formula, equation,
+answer-cell, column-operation, table, test, comparison, complex. В каждом —
+свои правила «какой layout выбрать» и диспетчер UI.
+
+Важно не путать **структурную группу** из данных (вроде `text_2`) с
+**идентификатором шаблона** на экране: несколько групп могут рисоваться одним и
+тем же UI.
+
+### Какие файлы данных нужны у варианта
+
+Рядом с компонентом обычно лежат небольшие JSON-файлы для stories:
+
+- `data/task.json` — одна каноническая задача для обычного вида и режима решения;
+- `data/groups.json` — набор раскладок / групп для экрана «все варианты»;
+- `data/all-tasks.json` — по желанию каталог реальных задач класса.
+
+Внутри JSON — id, тип описания, текст или layout условия, поля ответа, переводы.
+Точная форма зависит от домена; ориентир — README этого варианта.
+
+### Как шаблон попадает в живое приложение
+
+Сначала в главах классов (`grades`) заданию сопоставляют идентификатор шаблона.
+Скрипт собирает белый список заданий, которые хост имеет право открыть новой
+модалкой, и кладёт его в `dist/`. Хост импортирует этот список. Задание вне
+списка уйдёт в старый UI, даже если компонент уже есть в библиотеке.
+
+### Из чего состоит папка варианта
+
+Обычно это точка входа, сам компонент, данные для stories, файлы stories и
+тестов, README с человеческим описанием. Имена вроде `multi-*` или `inline-*` —
+это **отдельные** варианты раскладки, а не «флаги» одного и того же экрана.
+
+### Как добавить новый шаблон
+
+Соберите UI, README и примеры данных. Зарегистрируйте идентификатор и ленивую
+загрузку. Добавьте правило классификации и тест на него. Если домен ведёт
+манифест реализованных шаблонов — обновите его. Обновите `groups.json`,
+пропишите задания в главах классов и пересоберите белый список. Проверьте в
+Storybook обычный вид, решение, тренажёр и все раскладки.
+
+### На что обратить внимание
+
+Структурная группа в отчётах статистики — не то же самое, что id UI. Манифест,
+код и белый список могут расходиться — смотрите покрытие в Statistic. Пока
+домен не до конца перенесён, рантайм ещё может брать старые шаблоны.
+
+Живое покрытие — в панели **Statistic → Главная → Покрытие**.
+
+</div>
+</details>
+
+## Каталог
+
+### Все UI-варианты
+
+39 вариантов в 9 доменах. Страница каждого варианта формируется из его
+`README.md`: критерии выбора, состав UI, контракт данных, stories и тесты.
+
+### AnswerCell
+
+- [plain](?path=/docs/templates-answercell-plain--documentation)
+- [after](?path=/docs/templates-answercell-after--documentation)
+- [multi/inline-n2-plain](?path=/docs/templates-answercell-multi-inline-n2-plain--documentation)
+- [multi/stack-n2-plain](?path=/docs/templates-answercell-multi-stack-n2-plain--documentation)
+
+### ColumnOperation
+
+- [plain](?path=/docs/templates-columnoperation-plain--documentation)
+- [multi/stack-n2-before](?path=/docs/templates-columnoperation-multi-stack-n2-before--documentation)
+
+### Comparison
+
+- [plain](?path=/docs/templates-comparison-plain--documentation)
+
+### Complex
+
+- [plain](?path=/docs/templates-complex-plain--documentation)
+- [after](?path=/docs/templates-complex-after--documentation)
+- [beforeAfter](?path=/docs/templates-complex-beforeafter--documentation)
+- [multi/stack-n2-after](?path=/docs/templates-complex-multi-stack-n2-after--documentation)
+- [multi/stack-n2-beforeAfter](?path=/docs/templates-complex-multi-stack-n2-beforeafter--documentation)
+
+### Equation
+
+- [before](?path=/docs/templates-equation-before--documentation)
+
+### Formula
+
+- [plain](?path=/docs/templates-formula-plain--documentation)
+- [after](?path=/docs/templates-formula-after--documentation)
+- [multi/stack-n2-before](?path=/docs/templates-formula-multi-stack-n2-before--documentation)
+
+### Table
+
+- [plain](?path=/docs/templates-table-plain--documentation)
+- [grid](?path=/docs/templates-table-grid--documentation)
+- [inline](?path=/docs/templates-table-inline--documentation)
+- [list](?path=/docs/templates-table-list--documentation)
+- [mixed](?path=/docs/templates-table-mixed--documentation)
+- [multi-row](?path=/docs/templates-table-multi-row--documentation)
+- [multi-row-svg](?path=/docs/templates-table-multi-row-svg--documentation)
+
+### Test
+
+- [plain](?path=/docs/templates-test-plain--documentation)
+
+### Text
+
+- [plain](?path=/docs/templates-text-plain--documentation)
+- [before](?path=/docs/templates-text-before--documentation)
+- [after](?path=/docs/templates-text-after--documentation)
+- [before-after](?path=/docs/templates-text-before-after--documentation)
+- [ai-translation](?path=/docs/templates-text-ai-translation--documentation)
+- [multi/inline-n2-after](?path=/docs/templates-text-multi-inline-n2-after--documentation)
+- [multi/inline-n3-before-after](?path=/docs/templates-text-multi-inline-n3-before-after--documentation)
+- [multi/inline-n5-after](?path=/docs/templates-text-multi-inline-n5-after--documentation)
+- [multi/stack-n2-after](?path=/docs/templates-text-multi-stack-n2-after--documentation)
+- [multi/stack-n2-before](?path=/docs/templates-text-multi-stack-n2-before--documentation)
+- [multi/stack-n2-before-after](?path=/docs/templates-text-multi-stack-n2-before-after--documentation)
+- [multi/stack-n3-before](?path=/docs/templates-text-multi-stack-n3-before--documentation)
+- [multi/stack-n3-before-after](?path=/docs/templates-text-multi-stack-n3-before-after--documentation)
+- [multi/stack-n4-after](?path=/docs/templates-text-multi-stack-n4-after--documentation)
+- [multi/stack-n5-after](?path=/docs/templates-text-multi-stack-n5-after--documentation)
+
+</div>

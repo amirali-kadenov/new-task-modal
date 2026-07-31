@@ -1,0 +1,74 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Панели" />
+
+<div className={s.page}>
+
+# Чат, доска и связанные части
+
+Основное окно показывает условие, поле ответа и кнопки. Поверх него могут
+открываться чат и доска для рисования. Они пользуются теми же данными хоста,
+но живут в своих модулях.
+
+## Обзор
+
+<DocsDiagram caption="Границы">
+  <DocsGrid
+    items={[
+      {
+        title: 'Окно задания',
+        description: 'Каркас сценария; помнит, открыт ли чат и доска.',
+      },
+      {
+        title: 'Чат',
+        description: 'Ментор или ИИ; сокет и строки хоста.',
+      },
+      {
+        title: 'Доска',
+        description: 'Рисование; открывается независимо от чата.',
+      },
+      {
+        title: 'Аудио и медиа',
+        description: 'Входят в сценарии чата и переключатели, не отдельный корень.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+Файл: `src/modules/task-modal/task-modal.tsx` — два независимых open-state,
+оверлеи через `ReactActivity`.
+
+<DocsSteps
+  caption="Связь с хостом"
+  steps={[
+    {
+      title: 'Сокет',
+      description: 'Realtime урока для mentor-чата.',
+    },
+    {
+      title: 'Переключатель media',
+      description: 'useMentorChatMediaApi в deps.featureFlags.',
+    },
+    {
+      title: 'Язык и строки',
+      description: 'localize / global для сообщений.',
+    },
+  ]}
+/>
+
+Модули: `modules/chat`, `modules/canvas`. Флаги:
+[Переключатели](?path=/docs/internals-переключатели--documentation).
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

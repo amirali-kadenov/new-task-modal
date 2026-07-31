@@ -1,0 +1,321 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Statistics/Interface" />
+
+<div className={s.page}>
+
+# Интерфейс панели
+
+Описание UI `StatsPanel`: как открыть панель, какие вкладки есть и какие
+контролы управляют данными и таблицами. Живая панель — на странице
+[Панель](?path=/docs/statistics-panel--documentation).
+
+<div className={s.stack}>
+
+<div className={s.block}>
+
+## Где открывается
+
+<DocsDiagram caption="Два способа увидеть тот же UI">
+  <DocsGrid
+    items={[
+      {
+        title: 'matheducator (dev)',
+        description:
+          'Кнопка «Статистика» рядом с Feature flags (внизу слева), если включён showStatsButtons.',
+      },
+      {
+        title: 'Storybook → Statistics/Panel',
+        description:
+          'Embedded: локально — live :3847 и поля token/apiBase; на test/prod-сборке — offline-снимок без Генерации.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+Состояние UI (открыта ли панель, выбранная выгрузка, класс, вкладка таблицы,
+фильтры) сохраняется в `sessionStorage` под ключом `stats.ui`.
+
+</div>
+
+<div className={s.block}>
+
+## Два уровня навигации
+
+### Страницы панели
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Вкладка</th>
+        <th>Назначение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>Главная</strong>
+        </td>
+        <td>Выбор snapshot и класса, таблицы статистики, инструкция</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Генерация</strong>
+        </td>
+        <td>Параметры новой выгрузки, прогресс job, история сессии</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Подвкладки таблиц (только на Главной)
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Подвкладка</th>
+        <th>Что показывает</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>Данные</strong>
+        </td>
+        <td>Группы × типы, отсортированные по суммам типов</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Покрытие</strong>
+        </td>
+        <td>Шаблоны и три сигнала покрытия</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>По группам</strong>
+        </td>
+        <td>Те же группы × типы без спец. сортировки «Данных»</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>По типам</strong>
+        </td>
+        <td>
+          Агрегат только по <code>type</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Подробнее про колонки — [Таблицы](?path=/docs/statistics-tables--documentation).
+
+</div>
+
+<div className={s.block}>
+
+## Главная: источник данных
+
+Карточка сверху задаёт, какие строки попадут в таблицы:
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Контрол</th>
+        <th>Действие</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>Выгрузка</strong>
+        </td>
+        <td>
+          Select по списку <code>GET /api/snapshots</code> (дата · классы ·
+          с/без решений · N задач)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Класс</strong>
+        </td>
+        <td>
+          <code>Все классы</code> или 1–11 — передаётся в{' '}
+          <code>stats-table?grade=</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Обновить</strong>
+        </td>
+        <td>Снова запрашивает snapshots и таблицу для текущей выгрузки</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+По умолчанию выбирается последняя выгрузка, в которой есть 4 класс.
+
+</div>
+
+<div className={s.block}>
+
+## Тулбар таблиц
+
+Общие контролы над таблицей (набор зависит от подвкладки):
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Контрол</th>
+        <th>Где</th>
+        <th>Назначение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>Поиск</strong>
+        </td>
+        <td>все</td>
+        <td>
+          По <code>templateId</code> / типу / группе+типу; также фильтрует
+          список задач в detail
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Фильтр</strong>
+        </td>
+        <td>Покрытие</td>
+        <td>«Все шаблоны» или «Только расхождения»</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Группировка</strong>
+        </td>
+        <td>не «По типам»</td>
+        <td>Без / по типу / по покрытию / по группе</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Сортировка</strong>
+        </td>
+        <td>не «По типам»</td>
+        <td>count / percent / name / type</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Порядок</strong>
+        </td>
+        <td>не «По типам»</td>
+        <td>по убыванию / возрастанию</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>CSV</strong>
+        </td>
+        <td>все</td>
+        <td>Экспорт видимых строк текущей подвкладки</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Заголовок карточки таблицы показывает контекст, например
+`Покрытие · shown/total шаблонов · N задач`.
+
+</div>
+
+<div className={s.block}>
+
+## Раскрытие задач и тренажёр
+
+На вкладках **Данные**, **Покрытие** и **По группам** у строки есть
+**Показать** / **Скрыть**. Открывается detail-таблица задач:
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Колонка</th>
+        <th>Смысл</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <code>#</code>
+        </td>
+        <td>Номер в списке</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>ID</strong>
+        </td>
+        <td>
+          <code>taskId</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Класс</strong>
+        </td>
+        <td>grade</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Урок</strong>
+        </td>
+        <td>lessonId</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Индекс</strong>
+        </td>
+        <td>позиция в уроке</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Маппинг</strong>
+        </td>
+        <td>
+          есть ли задача в <code>availableTasks</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Открыть</strong>
+        </td>
+        <td>«Новый тренажёр» / «Старый тренажёр»</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Кнопки шлют событие `stats-open-task` с `grade`, `chapterId`, `lessonId`,
+`taskIndex` и флагом старого тренажёра. В matheducator хост открывает задачу;
+в Storybook поведение зависит от окружения.
+
+</div>
+
+<div className={s.block}>
+
+## Инструкция в панели
+
+Внизу **Главной** — кнопка «Показать инструкцию» / «Скрыть инструкцию»:
+краткий чеклист запуска сервера, генерации и выбора выгрузки. Развёрнутые
+объяснения живут на этих страницах документации, а не внутри панели.
+
+</div>
+
+</div>
+
+</div>

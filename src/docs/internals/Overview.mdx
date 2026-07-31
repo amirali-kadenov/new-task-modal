@@ -1,0 +1,123 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Обзор" />
+
+<div className={s.page}>
+
+# Как устроено внутри
+
+Раздел описывает, как устроена библиотека окна задания (`@qalan/new-task-modal`):
+как подгружается код, откуда берутся стили, как ведёт себя область с заданием,
+как рисуется математика, как окно появляется на странице урока, что учебное
+приложение обязано передать, где хранится состояние, как проверяется ответ, как
+выбирается экран шаблона и как устроены соседние панели.
+
+Сверху — обзор и схемы. Внизу каждой страницы — блок «Подробнее» с
+путями к файлам и сниппетами.
+
+<DocsDiagram caption="Страницы раздела">
+  <DocsGrid
+    items={[
+      {
+        title: 'Ленивая загрузка',
+        description: 'Два уровня отложенной подгрузки: пакет и экран шаблона.',
+      },
+      {
+        title: 'Стили',
+        description: 'CSS внутри JS-бандла; шрифт вставляется при открытии.',
+      },
+      {
+        title: 'Область задания',
+        description: 'Когда скрывается калькулятор из‑за нехватки высоты.',
+      },
+      {
+        title: 'Математика',
+        description: 'Показ формулы и поле ввода — разные движки.',
+      },
+      {
+        title: 'Монтирование',
+        description: 'Отдельный корень React в контейнере хоста.',
+      },
+      {
+        title: 'Контракт с хостом',
+        description: 'Что учебное приложение передаёт при открытии.',
+      },
+      {
+        title: 'Состояние',
+        description: 'Ответ в поле ввода и прогресс урока.',
+      },
+      {
+        title: 'Проверка ответа',
+        description: 'Что происходит после «Проверить».',
+      },
+      {
+        title: 'Шаблоны',
+        description: 'Путь от задания с сервера до экрана.',
+      },
+      {
+        title: 'Как добавить шаблон',
+        description: 'Пошаговый рецепт нового экрана.',
+      },
+      {
+        title: 'Разрешённые задания',
+        description: 'Список ключей для нового интерфейса.',
+      },
+      {
+        title: 'Старый экран',
+        description: 'Старый UI внутри нового окна.',
+      },
+      {
+        title: 'Переключатели',
+        description: 'Необязательные флаги с хоста.',
+      },
+      {
+        title: 'Язык и направление',
+        description: 'Переводы и направление письма.',
+      },
+      {
+        title: 'Панели',
+        description: 'Чат, доска и связанные части.',
+      },
+      {
+        title: 'Сборка стилей',
+        description: 'Автоподключение функций и миксинов SCSS.',
+      },
+      {
+        title: 'Словарь',
+        description: 'Краткие определения терминов раздела.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<nav className={s.navList}>
+
+1. [Ленивая загрузка](?path=/docs/internals-ленивая-загрузка--documentation)
+2. [Стили](?path=/docs/internals-стили--documentation)
+3. [Область задания](?path=/docs/internals-область-задания--documentation)
+4. [Математика](?path=/docs/internals-математика--documentation)
+5. [Монтирование](?path=/docs/internals-монтирование--documentation)
+6. [Контракт с хостом](?path=/docs/internals-контракт-с-хостом--documentation)
+7. [Состояние](?path=/docs/internals-состояние--documentation)
+8. [Проверка ответа](?path=/docs/internals-проверка-ответа--documentation)
+9. [Шаблоны](?path=/docs/internals-шаблоны--documentation)
+10. [Как добавить шаблон](?path=/docs/internals-как-добавить-шаблон--documentation)
+11. [Разрешённые задания](?path=/docs/internals-разрешённые-задания--documentation)
+12. [Старый экран](?path=/docs/internals-старый-экран--documentation)
+13. [Переключатели](?path=/docs/internals-переключатели--documentation)
+14. [Язык и направление](?path=/docs/internals-язык-и-направление--documentation)
+15. [Панели](?path=/docs/internals-панели--documentation)
+16. [Сборка стилей](?path=/docs/internals-сборка-стилей--documentation)
+17. [Словарь](?path=/docs/internals-словарь--documentation)
+
+</nav>
+
+Связанные разделы: [Архитектура](?path=/docs/documentation-architecture--documentation),
+[Deployment](?path=/docs/documentation-deployment--documentation),
+[Шаблоны](?path=/docs/documentation-templates--documentation),
+[Дизайн-система](?path=/docs/documentation-design-system--documentation).
+
+</div>

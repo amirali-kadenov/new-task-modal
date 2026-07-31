@@ -1,0 +1,267 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsBranch } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Statistics/Generation" />
+
+<div className={s.page}>
+
+# Генерация выгрузки
+
+Вкладка **Генерация** запускает job на stats server: тянет задачи (и опционально
+решения) из MathEducator API, пишет snapshot на диск и после успеха обновляет
+таблицы на **Главной**.
+
+Доступна только локально при живом stats server. В Storybook с
+`VITE_STATS_STATIC` (сборки `build-storybook:test` / `:prod`) вкладка скрыта:
+там показывается только offline-снимок, собранный при билде.
+
+<div className={s.stack}>
+
+<div className={s.block}>
+
+## Параметры выгрузки
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Контрол</th>
+        <th>Смысл</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>Класс</strong>
+        </td>
+        <td>
+          Один класс 1–11 или все классы (<code>grades: "all"</code>)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>С решениями</strong>
+        </td>
+        <td>
+          Если включено — дополнительно грузятся ответы{' '}
+          <code>/solution</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Сгенерировать</strong>
+        </td>
+        <td>
+          <code>POST http://localhost:3847/api/generate</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Тело запроса:
+
+```json
+{
+  "token": "…",
+  "apiBase": "https://preprod.qalan.kz/api",
+  "grades": 4,
+  "withSolutions": false
+}
+```
+
+`grades` может быть числом, массивом `[n]` или строкой `"all"`. Без токена
+кнопка не стартует job — нужен API token MathEducator (в Storybook — поле над
+панелью или `VITE_MATH_EDUCATOR_TOKEN`).
+
+</div>
+
+<div className={s.block}>
+
+## Как работает job
+
+<DocsBranch
+  caption="Что происходит после «Сгенерировать»"
+  tree={{
+    type: 'start',
+    title: 'Нажали «Сгенерировать»',
+    description: 'Сервер сразу создаёт задачу выгрузки и отвечает её номером',
+    next: {
+      type: 'question',
+      title: 'Выгрузка закончилась успешно?',
+      description: 'Панель периодически спрашивает статус у сервера',
+      branches: [
+        {
+          label: 'да',
+          next: {
+            type: 'outcome',
+            title: 'Появился снимок и обновилась Главная',
+            description:
+              'На диск записались файлы, таблицы на Главной подтянули новую выгрузку',
+          },
+        },
+        {
+          label: 'нет',
+          next: {
+            type: 'outcome',
+            title: 'Показывается ошибка',
+            description:
+              'В карточке прогресса видно, на каком этапе сломалось и что ответил сервер',
+          },
+        },
+      ],
+    },
+  }}
+/>
+
+### Фазы (phase)
+
+<DocsBranch
+  caption="По каким этапам идёт выгрузка"
+  tree={{
+    type: 'start',
+    title: 'В очереди',
+    description: 'Задача принята, ещё не начала качать данные',
+    next: {
+      type: 'start',
+      title: 'Загрузка задач',
+      description: 'Сервер тянет задания из API учебного приложения',
+      next: {
+        type: 'question',
+        title: 'Нужны ещё и решения?',
+        description: 'Галочка «С решениями» на форме генерации',
+        branches: [
+          {
+            label: 'да',
+            next: {
+              type: 'outcome',
+              title: 'Сначала ответы, потом анализ, потом готово',
+              description:
+                'Дополнительно качаются решения, затем разбор и завершение',
+            },
+          },
+          {
+            label: 'нет',
+            next: {
+              type: 'outcome',
+              title: 'Сразу анализ и готово',
+              description: 'Без загрузки ответов — быстрее, но без решений в снимке',
+            },
+          },
+        ],
+      },
+    },
+  }}
+/>
+
+### Статусы (status)
+
+`pending` → `running` → `completed` или `failed`.
+
+Карточка прогресса показывает status · phase, бар `done/total`, при ошибке —
+`failedPhase` / `failedRequest` / текст ошибки. Пропущенные уроки и итог
+попадают в summary после завершения.
+
+Пока job активен, повторный старт блокируется («Дождитесь завершения…»).
+
+</div>
+
+<div className={s.block}>
+
+## Что лежит в snapshot
+
+Каталог: `stats/snapshots/stats-{YYYY-MM-DD}-{timestamp}/`.
+
+<div className={s.tableWrap}>
+  <table className={s.table}>
+    <thead>
+      <tr>
+        <th>Файл</th>
+        <th>Когда</th>
+        <th>Содержание</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <code>meta.json</code>
+        </td>
+        <td>всегда</td>
+        <td>grades, withSolutions, taskCount, createdAt</td>
+      </tr>
+      <tr>
+        <td>
+          <code>task_data.json</code>
+        </td>
+        <td>всегда</td>
+        <td>бандлы уроков с задачами</td>
+      </tr>
+      <tr>
+        <td>
+          <code>task_answers.json</code>
+        </td>
+        <td>при «С решениями»</td>
+        <td>ответы</td>
+      </tr>
+      <tr>
+        <td>
+          <code>task_videos.json</code>
+        </td>
+        <td>по пайплайну</td>
+        <td>видео (если собирается)</td>
+      </tr>
+      <tr>
+        <td>markdown-отчёты</td>
+        <td>обычно класс 4 + solutions</td>
+        <td>structural / priority / stats report и др.</td>
+      </tr>
+      <tr>
+        <td>legacy-алиасы</td>
+        <td>класс 4</td>
+        <td>
+          например <code>task_data_grade_4.json</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Именно `outputDir` этой папки выбирается в select **Выгрузка** на Главной.
+
+</div>
+
+<div className={s.block}>
+
+## История сессии
+
+Внизу **Генерации** — список недавних запусков текущей сессии браузера (лимит
+хранения выше, в UI показывается укороченный список). Запись помогает
+вернуться к `outputDir` / статусу без поиска по диску.
+
+История не заменяет список snapshots на сервере: после перезагрузки страницы
+полный перечень берётся снова из `GET /api/snapshots`.
+
+</div>
+
+<div className={s.block}>
+
+## Запуск сервера
+
+```bash
+cd matheducator/reactjs_client
+npm run start:with-stats
+```
+
+Или отдельно: `npm run stats:server` (порт **3847**) и хост на **8888**.
+Health: `GET http://localhost:3847/api/health`.
+
+Если меняли код сервера — перезапустите его, иначе новые выгрузки могут не
+появиться в списке.
+
+</div>
+
+</div>
+
+</div>

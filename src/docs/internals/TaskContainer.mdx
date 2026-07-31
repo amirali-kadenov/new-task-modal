@@ -1,0 +1,104 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsBranch, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Область задания" />
+
+<div className={s.page}>
+
+# Область задания и калькулятор
+
+Условие и ответ живут в области задания. Если содержимое не влезает по высоте,
+окно прячет калькулятор, чтобы освободить место. Снова открыть его можно только
+явным нажатием по элементу управления, а не случайным кликом по тексту задачи.
+
+## Обзор
+
+На узком экране или при длинном условии калькулятор и кнопки действий спорят за
+высоту. Лучше на время убрать калькулятор, чем обрезать условие.
+
+<DocsBranch
+  caption="Хватает ли места для калькулятора"
+  tree={{
+    type: 'start',
+    title: 'Задача загрузилась',
+    description: 'Для типа задания калькулятор вообще разрешён',
+    next: {
+      type: 'question',
+      title: 'Контент не влезает в высоту?',
+      description:
+        'Либо внутри области есть скролл, либо блок выше доступного места',
+      branches: [
+        {
+          label: 'да',
+          next: {
+            type: 'outcome',
+            title: 'Калькулятор закрыт',
+            description:
+              'Открыть снова можно только кликом по элементу с data-control',
+          },
+        },
+        {
+          label: 'нет',
+          next: {
+            type: 'outcome',
+            title: 'Калькулятор можно открыть',
+            description: 'Клик по контролу открывает его',
+          },
+        },
+      ],
+    },
+  }}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Признаки нехватки места
+
+Файл `src/modules/task-modal/model/hooks/layout/get-calc-overflow-handler.ts`:
+
+1. Внутреннее переполнение: у контейнера `clientHeight < scrollHeight`.
+2. Не хватает места в окне: высота контейнера больше, чем
+   `высота root − шапка − кнопки − высота калькулятора − нижний padding`.
+
+Любое условие → `calc.close()`.
+
+### Клики
+
+Клик по `data-control` (или родителю с ним) — открыть калькулятор. Остальная
+область в режиме переполнения калькулятор не открывает.
+
+### Выключение калькулятора
+
+`use-calc-setup.ts`: типы из `TASK_DESCRIPTIONS_WITHOUT_CALC` — калькулятор
+выключен целиком.
+
+### Цепочка
+
+<DocsSteps
+  caption="Файлы"
+  steps={[
+    {
+      title: 'Refs',
+      description: 'use-refs.ts — root, header, taskContainer, calc, actions.',
+    },
+    {
+      title: 'Setup',
+      description: 'use-calc-setup.ts — нужен ли calc, overflow-handler.',
+    },
+    {
+      title: 'Overflow',
+      description: 'get-calc-overflow-handler.ts — подсчёт и клики.',
+    },
+  ]}
+/>
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

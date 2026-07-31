@@ -1,0 +1,79 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Состояние" />
+
+<div className={s.page}>
+
+# Где хранится состояние
+
+В окне задания данные живут в нескольких местах с разной ролью. То, что только
+что ввели в поле, и то, что сервер вернул про прогресс урока, обновляются
+по-разному.
+
+## Обзор
+
+<DocsDiagram caption="Слои данных">
+  <DocsGrid
+    items={[
+      {
+        title: 'Состояние урока на хосте',
+        description:
+          'Список задач, прогресс, версия ответа, флаги решения — источник правды урока.',
+      },
+      {
+        title: 'Внутреннее хранилище окна',
+        description:
+          'Текущий ответ в поле, флаги загрузки, список разрешённых заданий.',
+      },
+      {
+        title: 'Запросы с кэшем',
+        description:
+          'Теория и похожие справочные данные — не замена полю ответа.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<DocsSteps
+  caption="Типичный порядок"
+  steps={[
+    {
+      title: 'Открытие',
+      description:
+        'В хранилище окна записываются состояние урока и список разрешённых заданий.',
+    },
+    {
+      title: 'Ввод',
+      description: 'Меняется только ответ во внутреннем хранилище.',
+    },
+    {
+      title: 'Проверка или переход',
+      description:
+        'Обновляется состояние хоста и зеркало во внутреннем хранилище.',
+    },
+  ]}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+Файл хранилища: `src/modules/task-modal/model/store/task-modal-store.ts`
+(Zustand).
+
+Поля: `answer`, `prevAnswer`, `isAnswerChanged`, `isTaskLoaded`,
+`isTransitioning`, `availableTasks`, зеркало `state`.
+
+Хуки: `useStore`, `useAppState`, `useSetAppState`.
+
+Теория: TanStack Query в `use-theory.ts` и соседних хуках.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

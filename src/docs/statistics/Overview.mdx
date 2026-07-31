@@ -1,0 +1,110 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Statistics/Overview" />
+
+<div className={s.page}>
+
+# Statistic
+
+Панель **Statistic** показывает, какие типы и шаблоны заданий есть в живых
+данных MathEducator, и насколько новая модалка их закрывает. Локально данные
+берутся из snapshot’ов через stats server на порту **3847**. В деплое
+Storybook (`pnpm build-storybook:test` / `:prod`) включается
+**offline-снимок**: при сборке экспортируется последний локальный snapshot в
+`public/stats-static/`, панель читает его без сервера (режим
+`VITE_STATS_STATIC`). Это замороженные данные на момент сборки, не live;
+вкладка **Генерация** в этом режиме недоступна.
+
+<div className={s.stack}>
+
+<div className={s.block}>
+
+## Зачем это нужно
+
+Statistic отвечает на практические вопросы:
+
+- сколько задач какого типа / группы в выбранной выгрузке;
+- какие `templateId` уже в манифесте, в коде `templates` и в маппинге
+  `availableTasks`;
+- где сигналы покрытия расходятся (манифест ≠ код, маппинг ≠ число задач);
+- как быстро открыть конкретную задачу в новом или старом тренажёре.
+
+</div>
+
+<div className={s.block}>
+
+## Как устроено
+
+<DocsDiagram caption="Откуда на Главной появляются таблицы">
+  <DocsGrid
+    items={[
+      {
+        title: 'Панель Statistic',
+        description:
+          'Окно с вкладками «Главная» и «Генерация» — в учебном приложении или здесь в Storybook.',
+      },
+      {
+        title: 'Сервер статистики',
+        description:
+          'Служба на порту 3847: запускает выгрузку, отдаёт список снимков и данные для таблиц.',
+      },
+      {
+        title: 'Снимок на диске',
+        description:
+          'Папка с результатом выгрузки: метаданные, задачи и при необходимости ответы.',
+      },
+      {
+        title: 'Таблицы',
+        description:
+          'Данные, покрытие, группы и типы — строки, которые панель показывает на Главной.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+**Токен API** нужен только для вкладки **Генерация** (запросы к MathEducator).
+Просмотр уже собранных snapshots на **Главной** токен не требует. В
+offline-сборке Storybook токен не нужен: сервер и Генерация отключены.
+
+</div>
+
+<div className={s.block}>
+
+## Типичный сценарий
+
+1. Запустить stats server (`npm run stats:server` или `start:with-stats`).
+2. На **Генерации** выбрать класс (или все) и опционально «С решениями» →
+   **Сгенерировать**.
+3. Дождаться фаз: очередь → задачи → ответы → анализ → готово.
+4. На **Главной** выбрать выгрузку и класс (по умолчанию — последняя с 4
+   классом).
+5. Смотреть таблицы: сначала **Данные** / **Покрытие**, при необходимости
+   раскрыть задачи и открыть в тренажёре.
+
+</div>
+
+<div className={s.block}>
+
+## Страницы раздела
+
+<nav className={s.navList}>
+
+1. [Интерфейс](?path=/docs/statistics-interface--documentation) — вкладки,
+   источник данных, поиск, фильтры, CSV, раскрытие задач.
+2. [Таблицы](?path=/docs/statistics-tables--documentation) — назначение каждой
+   таблицы и колонок, сигналы покрытия.
+3. [Генерация](?path=/docs/statistics-generation--documentation) — параметры
+   выгрузки, фазы job, состав snapshot.
+4. [Панель](?path=/docs/statistics-panel--documentation) — StatsPanel в
+   Storybook (локально нужен :3847; на test/prod-сборке — offline-снимок).
+
+</nav>
+
+</div>
+
+</div>
+
+</div>

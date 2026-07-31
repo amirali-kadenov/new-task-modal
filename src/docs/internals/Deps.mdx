@@ -1,0 +1,97 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Контракт с хостом" />
+
+<div className={s.page}>
+
+# Что учебное приложение передаёт в окно
+
+При открытии хост передаёт один большой набор данных. Без него окно не сможет
+сходить на сервер, показать переводы, закрыться и перейти к следующей задаче.
+
+## Обзор
+
+<DocsDiagram caption="Основные части">
+  <DocsGrid
+    items={[
+      {
+        title: 'Текущее задание',
+        description: 'То, что сейчас решается: условие, тип, данные ответа.',
+      },
+      {
+        title: 'Зависимости',
+        description:
+          'Сервер, язык, строки, уведомления, сокет, помощники, переключатели.',
+      },
+      {
+        title: 'Состояние и обновление',
+        description: 'Список задач, прогресс, версия ответа — владелец хост.',
+      },
+      {
+        title: 'Данные урока',
+        description: 'Идентификаторы и сведения для запросов и навигации.',
+      },
+      {
+        title: 'Действия',
+        description: 'Следующая задача, решение, теория, смена ответа.',
+      },
+      {
+        title: 'Закрытие',
+        description: 'Как хост убирает окно; библиотека снимает свой корень.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+Опционально: функция отрисовки старого экрана внутри нового контейнера —
+[Старый экран](?path=/docs/internals-старый-экран--documentation).
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+Типы: `src/modules/task-modal/model/types/props.ts`, `actions.ts`.
+
+<DocsSteps
+  caption="Поля deps"
+  steps={[
+    {
+      title: 'api',
+      description: 'Проверка ответа, решение, теория и другие запросы.',
+    },
+    {
+      title: 'global / localize / enums',
+      description: 'Язык, строки UI, коды результата проверки.',
+    },
+    {
+      title: 'socket / socketController',
+      description: 'События урока в реальном времени.',
+    },
+    {
+      title: 'helpers',
+      description:
+        'Нормализация цифр, разделитель нескольких ответов, направление письма.',
+    },
+    {
+      title: 'toast / alert / eventEmitter',
+      description: 'Уведомления и события хоста.',
+    },
+    {
+      title: 'featureFlags',
+      description:
+        'Необязательные переключатели. См. страницу «Переключатели».',
+    },
+  ]}
+/>
+
+Слои состояния: [Состояние](?path=/docs/internals-состояние--documentation).
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

@@ -1,0 +1,86 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { StatsPanelEmbed } from '../components/stats-panel-embed'
+import s from '../docs.module.scss'
+
+<Meta title="Statistics/Panel" />
+
+<div className={s.page}>
+
+# Панель Statistic
+
+Тот же UI, что кнопка **Статистика** в matheducator: вкладки **Главная** и
+**Генерация**.
+
+**Локально** (`pnpm storybook`): данные с `localhost:3847`. Нужен запущенный
+stats server. Для **Генерации** — API token (и при необходимости apiBase).
+
+**На test/prod Storybook** (`build-storybook:test` / `:prod`): флаг
+`VITE_STATS_STATIC` — offline-снимок из `public/stats-static/`, без сервера.
+Генерация скрыта; на баннере указаны имя и дата выгрузки. Перед сборкой на
+машине должен быть актуальный snapshot в `stats/snapshots/` (при необходимости
+сначала локальная Генерация).
+
+Объяснения интерфейса, таблиц и генерации — на отдельных страницах:
+
+- [Обзор](?path=/docs/statistics-overview--documentation)
+- [Интерфейс](?path=/docs/statistics-interface--documentation)
+- [Таблицы](?path=/docs/statistics-tables--documentation)
+- [Генерация](?path=/docs/statistics-generation--documentation)
+
+<div className={s.stack}>
+
+<div className={s.block}>
+
+<StatsPanelEmbed />
+
+</div>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Как запустить панель по-настоящему
+
+В Storybook выше показана та же панель, что кнопка «Статистика» в учебном
+приложении. Локально, чтобы вкладка **Генерация** ходила в живые данные, нужен
+запущенный stats server (обычно порт 3847) и хост на 8888. Удобная команда из
+клиента:
+
+```bash
+cd matheducator/reactjs_client
+npm run start:with-stats
+```
+
+Проверить, что сервер статистики жив, можно запросом health на
+`http://localhost:3847/api/health`.
+
+Для деплоя Storybook без сервера:
+
+```bash
+pnpm export-stats-static   # или автоматически внутри build-storybook:test
+pnpm build-storybook:test
+```
+
+В Storybook панель подключается к тому же компоненту хоста, но тяжёлые
+зависимости приложения (глобальное состояние, API, флаги) заменены заглушками —
+поэтому docs открываются без полного MathEducator. Токен и адрес API для
+генерации вводятся в полях над панелью (или задаются переменной окружения);
+в offline-режиме эти поля скрыты.
+
+### Что происходит «под капотом»
+
+На **Главной** и в **Генерации** вы работаете с UI панели. Панель ходит на
+сервер статистики: ставит задачи генерации, смотрит прогресс, читает снимки
+данных и строки таблиц. Покрытие на Главной для каждого шаблона сверяет три
+сигнала: есть ли он в манифесте, есть ли UI в коде, попал ли в белый список
+заданий хоста. Фильтр «только расхождения» показывает строки, где эти ответы не
+совпадают — сюда смотрят, когда «в Storybook шаблон есть, а на уроке всё ещё
+старая модалка».
+
+</div>
+</details>
+
+</div>
+
+</div>

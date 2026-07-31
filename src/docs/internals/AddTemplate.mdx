@@ -1,0 +1,100 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Как добавить шаблон" />
+
+<div className={s.page}>
+
+# Как добавить шаблон
+
+Пошаговый рецепт нового экрана задания. Что считать одним шаблоном и какие
+режимы смотреть в Storybook —
+[Documentation/Templates](?path=/docs/documentation-templates--documentation).
+Как устроен выбор экрана в рантайме —
+[Шаблоны](?path=/docs/internals-шаблоны--documentation).
+
+## Обзор
+
+<DocsSteps
+  caption="От идеи до проверки"
+  steps={[
+    {
+      title: 'Зафиксировать раскладку',
+      description:
+        'Одна структура экрана — один шаблон. Новый текст без смены раскладки не требует нового шаблона.',
+    },
+    {
+      title: 'Компонент семейства',
+      description:
+        'Экран, стили и вспомогательные файлы в ui/templates/<семейство>/.',
+    },
+    {
+      title: 'Запись в карту шаблонов',
+      description:
+        'Имя шаблона связывается с функцией загрузки экрана.',
+    },
+    {
+      title: 'Привязка задач',
+      description:
+        'Номера в файлах глав и/или структурная карта / генерация карт.',
+    },
+    {
+      title: 'Stories',
+      description:
+        'Обычный вид, решение, группы раскладок, сценарий в тренажёре.',
+    },
+    {
+      title: 'Список разрешённых',
+      description:
+        'Пересобрать список ключей, чтобы хост открыл новый интерфейс.',
+    },
+    {
+      title: 'Проверка',
+      description: 'Storybook и при необходимости урок на хосте.',
+    },
+  ]}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Куда класть код
+
+`src/modules/tasks/ui/templates/<семейство>/` — компонент, `*.module.scss`,
+`lib/` (типы, классификация), stories, fixtures (`task.json`, `groups.json`).
+
+### Карты
+
+- `src/modules/tasks/model/template-types.ts` — nested leaf ids.
+- `src/modules/tasks/model/template-map.ts` — lazy loaders на leaf UI.
+- Главы: `src/modules/tasks/ui/grades/grade-N/chapter-M.ts` (через
+  `scripts/generate-grade4-*-chapter-map.ts`).
+
+### Список разрешённых
+
+```bash
+# из корня new-task-modal — скрипт generate-available-tasks
+# результат попадает в entry available-tasks пакета
+```
+
+См. [Разрешённые задания](?path=/docs/internals-разрешённые-задания--documentation).
+
+### Stories
+
+Ориентир по режимам — Documentation/Templates. Для полного сценария —
+оболочки тренажёра в `lib/storybook/` семейства.
+
+### Хост
+
+[Deployment](?path=/docs/documentation-deployment--documentation):
+`pnpm build:watch`, урок на порту хоста, ключ в списке разрешённых.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

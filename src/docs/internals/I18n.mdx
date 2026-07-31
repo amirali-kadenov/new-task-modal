@@ -1,0 +1,70 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Язык и направление" />
+
+<div className={s.page}>
+
+# Язык, переводы и направление письма
+
+У окна задания нет собственного полного словаря. Строки интерфейса, язык и
+направление письма приходят из учебного приложения через зависимости.
+
+## Обзор
+
+<DocsDiagram caption="Откуда текст">
+  <DocsGrid
+    items={[
+      {
+        title: 'Строки хоста',
+        description: 'Готовые фразы кнопок и сообщений.',
+      },
+      {
+        title: 'Глобальный контекст',
+        description: 'Язык, страна, школьный контур.',
+      },
+      {
+        title: 'Поля перевода в задании',
+        description: 'Русский, казахский, английский и другие варианты текста.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<DocsSteps
+  caption="При открытии"
+  steps={[
+    {
+      title: 'Хост передаёт строки и помощники',
+      description: 'Часть зависимостей окна.',
+    },
+    {
+      title: 'Область задания ставит направление',
+      description: 'Слева направо или справа налево.',
+    },
+    {
+      title: 'Шаблон выбирает текст',
+      description: 'Нужное поле перевода для условия и подписей.',
+    },
+  ]}
+/>
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+- `deps.localize`, `deps.global`.
+- `translation-utils.ts` — `translateOptional` и fallback стендов.
+- `ArabicNumeralUtils.isArabic()` / `getDirection()` — арабский режим и `dir`.
+- Контейнер: `dir={getDirection()}`; азербайджанский — отдельный класс стиля.
+- Перед проверкой: `CyrillicTo.default_numeral`.
+- Числа: `TaskHelper.convertToArabicNumeral`.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

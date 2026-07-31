@@ -1,0 +1,74 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Стили" />
+
+<div className={s.page}>
+
+# Стили
+
+Библиотека не просит учебное приложение подключать отдельный файл стилей.
+Стили едут внутри JavaScript-бандла и сами попадают в голову документа при
+загрузке пакета. Шрифт Halvar подключается отдельной небольшой вставкой, когда
+окно задания появляется на странице.
+
+## Обзор
+
+<DocsSteps
+  caption="От сборки до вида на экране"
+  steps={[
+    {
+      title: 'Сборка кладёт CSS внутрь JS',
+      description:
+        'Плагин Vite вшивает стили в dist/index.js. Отдельный index.css хосту не нужен.',
+    },
+    {
+      title: 'Импорт пакета вставляет стили',
+      description:
+        'Как только пакет загружен, CSS оказывается в document.head.',
+    },
+    {
+      title: 'Классы локальные',
+      description:
+        'CSS Modules уменьшают конфликты с глобальными правилами учебного приложения.',
+    },
+    {
+      title: 'Шрифт один раз',
+      description:
+        'При первом открытии окна в head добавляется описание шрифта Halvar.',
+    },
+  ]}
+/>
+
+Как в исходниках SCSS автоматически доступны общие функции и миксины —
+[Сборка стилей](?path=/docs/internals-сборка-стилей--documentation).
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+### Инъекция CSS
+
+В `vite.config.ts` включён `vite-plugin-css-injected-by-js`. ADR:
+`docs/5-adrs/0002-css-injected-by-js.md`.
+
+### Шрифт
+
+`src/modules/task-modal/model/lib/fonts/inject-fonts.ts` — `injectFonts()`:
+создаёт `<style>` с `@font-face`, вешает в `document.head`, не дублирует.
+Вызов из `TaskModalController` и из Storybook preview.
+
+### Типичные сбои
+
+- Стили пропали — не собрался / не подхватился `dist/index.js`.
+- Кнопка «чужая» — глобальный `button { … }` на хосте.
+- Шрифт не тот — не вызвался `injectFonts` или нужен другой вес.
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>

@@ -69,20 +69,18 @@ src/modules/tasks/ui/grades/grade-4/chapter-2.ts
 
 ### Как опубликовать изменения в хост-приложение?
 
+Хост резолвит `@qalan/new-task-modal` на `../../new-task-modal/dist` через
+webpack alias. Достаточно пересобрать библиотеку:
+
 ```bash
-# Режим watch: автосборка + автопуш в yalc при изменениях
+# Watch: автосборка dist/ при изменениях
 pnpm build:watch
 
-# Однократная сборка и публикация
+# Однократная сборка
 pnpm build
-yalc push
 ```
 
-В хост-приложении после публикации:
-
-```bash
-yalc update @qalan/new-task-modal
-```
+Затем обновите страницу matheducator (`npm start` в `reactjs_client`).
 
 ---
 
@@ -134,6 +132,44 @@ pnpm lint:stylelint:fix
 ```
 
 Линтеры также запускаются автоматически в pre-commit хуке (Husky + lint-staged).
+
+---
+
+### Почему unit-тесты зелёные, а в Storybook математика сломана?
+
+`pnpm test:unit` мокает `@/ui/math-text/math-text` и `math-formula` на обычный `<span>` — MathJax в jsdom не запускается. Зелёный unit значит «строка и разметка React ок», а не «в браузере формула выглядит правильно».
+
+Реальный CHTML проверяет `pnpm test:interactions` (Storybook + Chromium):
+
+- story `Templates/Text/plain` → `MathRegressions` — нет `mjx-merror`, нет сырых `\(`/`\)`, единица `дм` upright, дроби text_24 в размер прозы;
+- story `Templates/Text/after` → `MathRegressions` — то же плюс `см`/`мм` в одном шрифте, дроби text_49 в размер прозы и отсутствие служебного `||` в ответе text_67;
+- catalog smoke (All Groups) — если в DOM уже есть MathJax, нет `mjx-merror`.
+
+Хелперы: `src/ui/math-text/assert-mathjax-dom.ts`.
+
+---
+
+### Почему дробь в описании мельче окружающего текста?
+
+`\frac` в строчной формуле уходит в textstyle: числитель и знаменатель рисуются в scriptstyle (~0.71 кегля). `\dfrac` форсит displaystyle — глифы остаются в размер прозы.
+
+`normalizeFractionStyle` (в `MathText` / `MathFormula` и до разреза в `TextTaskDescription`) поднимает `\frac` → `\dfrac` внутри `\(...\)`. Инвариант `assertMathSizeMatchesProse` сравнивает `font-size` глифов в `mjx-num`/`mjx-den` с прозой (степени под `mjx-script` пропускает).
+
+---
+
+### Почему кириллица в формуле рисуется другим шрифтом?
+
+В TeX-шрифтах MathJax нет кириллицы, поэтому такие символы он выводит не в `mjx-c`, а в `mjx-utext` со своим `unknownFamily` (serif). Правило Halvar на родительском `mjx-mi` при этом не работает — нужен отдельный селектор `mjx-utext` в `math-text.module.scss`.
+
+Это ломает единицы измерения: `\mathrm{см}` в описании выглядит иначе, чем окружающая проза. Инвариант `assertMathGlyphFontConsistent` сравнивает `mjx-utext` с соседними `mjx-c` и ловит такой регресс.
+
+---
+
+### Почему `||` в правильном ответе превращается в `‖`?
+
+CMS хранит равнозначные правильные ответы в одной строке через служебный разделитель `||`, например `a : 6 || \frac{a}{6}`. Если передать строку в MathJax целиком, он трактует `||` как математический знак нормы/параллельности.
+
+`getCorrectAnswerFromSolution` выбирает для UI первый (основной) вариант до `||`. Проверка ответа этим не затрагивается. Инвариант `assertNoAnswerSeparator` не допускает в regression-story ни исходный `||`, ни отрендеренные `‖`/`∥`.
 
 ---
 

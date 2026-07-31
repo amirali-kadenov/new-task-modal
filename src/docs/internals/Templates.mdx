@@ -1,0 +1,121 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+import { DocsBranch, DocsDiagram, DocsGrid, DocsSteps } from '../components/docs-diagram'
+import s from '../docs.module.scss'
+
+<Meta title="Internals/Шаблоны" />
+
+<div className={s.page}>
+
+# Шаблоны: как выбирается экран задания
+
+Эта страница объясняет путь от задания с сервера до конкретного экрана.
+Правила «одна структура — один шаблон» и режимы Storybook:
+[Documentation/Templates](?path=/docs/documentation-templates--documentation).
+Пошаговый рецепт нового экрана:
+[Как добавить шаблон](?path=/docs/internals-как-добавить-шаблон--documentation).
+
+## Обзор
+
+Шаблон — повторяемая раскладка экрана (где условие, сколько полей, таблица или
+выбор), а не текст конкретной задачи.
+
+<DocsSteps
+  caption="От задания до экрана"
+  steps={[
+    {
+      title: 'Задание с сервера',
+      description: 'Тип вида Elixir.Task_4_6_7_1.',
+    },
+    {
+      title: 'Короткий ключ',
+      description: 'Отрезается префикс — остаётся 4_6_7_1.',
+    },
+    {
+      title: 'Карта загрузчиков',
+      description:
+        'Главы классов и структурная карта указывают, какой экран грузить.',
+    },
+    {
+      title: 'Подгрузка экрана',
+      description: 'Нужный экран качается отдельно и может запомниться в памяти.',
+    },
+    {
+      title: 'Показ',
+      description: 'Экран рисуется в области задания (или старый путь).',
+    },
+  ]}
+/>
+
+<DocsDiagram caption="Три карты">
+  <DocsGrid
+    items={[
+      {
+        title: 'Структурная карта',
+        description: 'Ключ задания → имя реализации; перекрывает главы.',
+      },
+      {
+        title: 'Карта шаблонов',
+        description: 'Имя шаблона → функция загрузки экрана.',
+      },
+      {
+        title: 'Карта реализаций',
+        description: 'Дополнительные загрузчики; приоритетнее обычной карты.',
+      },
+    ]}
+  />
+</DocsDiagram>
+
+<DocsBranch
+  caption="Найден ли экран"
+  tree={{
+    type: 'start',
+    title: 'Нужен UI задания',
+    description: 'Есть активное задание',
+    next: {
+      type: 'question',
+      title: 'Есть ключ и загрузчик?',
+      description: 'Ключ типа и карта модулей',
+      branches: [
+        {
+          label: 'да',
+          next: {
+            type: 'outcome',
+            title: 'Показать шаблон',
+            description: 'Отложенная подгрузка; пока качается — заглушка.',
+          },
+        },
+        {
+          label: 'нет',
+          next: {
+            type: 'outcome',
+            title: 'Экран не найден',
+            description: 'Возможен старый экран по списку разрешённых.',
+          },
+        },
+      ],
+    },
+  }}
+/>
+
+Документация продукта vs эта страница: там — критерии шаблона и Storybook; здесь —
+как в коде получается экран.
+
+<details className={s.collapse}>
+  <summary>Подробнее</summary>
+  <div className={s.collapseBody}>
+
+- Ключ: `get-task-type-key.ts` (`Elixir.Task_` → суффикс).
+- Сборка карты: `generate-module-template-map.ts` — `ui/grades/**/*.ts` → leaf ids.
+- Лоадеры: `template-map.ts` (nested `TemplateTypes` → `ui/templates/<семейство>/ui/...`).
+- Resolve: `get-task-component.ts` — кэш ленивого компонента.
+- UI: `ui/templates/<семейство>/`; `withTaskLoading`; classify + `generate-*-template-groups.mjs`.
+- Список: [Разрешённые задания](?path=/docs/internals-разрешённые-задания--documentation).
+- Legacy: [Старый экран](?path=/docs/internals-старый-экран--documentation).
+
+</div>
+</details>
+
+Другие страницы: [Обзор](?path=/docs/internals-обзор--documentation).
+
+</div>
