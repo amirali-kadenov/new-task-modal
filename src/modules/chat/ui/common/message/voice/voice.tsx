@@ -6,7 +6,17 @@ import PlayIcon from '@/assets/icons/chat/play.svg'
 import PauseIcon from '@/assets/icons/chat/stop.svg'
 import { Button, ButtonColor, ButtonLayout } from '@/ui/button/button'
 
+import { createVoiceWaveformRenderer } from './lib/render-voice-waveform'
 import s from './voice.module.scss'
+
+const WAVEFORM = {
+  width: 150,
+  height: 24,
+  barWidth: 3,
+  barGap: 1.5,
+  minBarHeight: 4,
+  radius: 999,
+} as const
 
 interface VoiceMessageProps {
   audioUrl: string
@@ -24,44 +34,28 @@ export default function VoiceMessage({
 
   const waveformRef = useRef<HTMLDivElement>(null)
   const wavesurferRef = useRef<WaveSurfer | null>(null)
-  const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    console.log('🧪 VoiceMessage useEffect triggered for:', audioUrl)
-    if (!waveformRef.current) {
-      console.warn('⚠️ waveformRef.current is null!')
-      return
-    }
+    if (!waveformRef.current) return
 
-    const progressColor = '#0a0a0a'
-    const waveColor = '#b4b4b4'
+    let cancelled = false
 
-    console.log('🏗️ Creating WaveSurfer instance...')
-    wavesurferRef.current = WaveSurfer.create({
+    const wav = WaveSurfer.create({
       container: waveformRef.current,
-      waveColor,
-      width: 150,
-      progressColor,
-      barWidth: 3,
-      barGap: 1.5,
-      height: 24,
-      barAlign: 'bottom',
-      barRadius: 999,
-      // Temporarily removing url from create to load it manually after listeners are attached
-      // url: audioUrl,
-      normalize: true,
+      waveColor: '#b4b4b4',
+      width: WAVEFORM.width,
+      height: WAVEFORM.height,
+      progressColor: '#0a0a0a',
       cursorColor: 'transparent',
       cursorWidth: 0,
-      barMinHeight: 4,
       hideScrollbar: true,
+      url: audioUrl,
+      renderFunction: createVoiceWaveformRenderer(WAVEFORM),
     })
 
-    const wav = wavesurferRef.current
+    wavesurferRef.current = wav
 
-    const handleTimeUpdate = (time: number) => {
-      setCurrentTime(time)
-    }
-
+    const handleTimeUpdate = (time: number) => setCurrentTime(time)
     const handlePlay = () => setIsPlaying(true)
     const handlePause = () => setIsPlaying(false)
     const handleFinish = () => {
@@ -69,38 +63,14 @@ export default function VoiceMessage({
       setCurrentTime(0)
     }
 
-    let peaksLoaded = false
-
     const handleReady = (durationVal: number) => {
-      console.log('🎵 WaveSurfer ready event! Reported duration:', durationVal)
+      if (cancelled) return
 
       const finalDuration =
         Number.isFinite(durationVal) && durationVal > 0 ? durationVal : duration
 
-      console.log('⏱️ Final duration used:', finalDuration)
-
-      if (finalDuration !== audioDuration) {
-        setAudioDuration(finalDuration)
-      }
+      setAudioDuration(finalDuration)
       setHasError(false)
-
-      if (peaksLoaded) {
-        console.log('✅ Peaks already loaded, skipping re-load')
-        return
-      }
-      peaksLoaded = true
-
-      console.log('🔍 Checking for decoded data...')
-      const decoded = wav.getDecodedData()
-      if (!decoded) {
-        console.warn('⚠️ Could not decode audio data for waveform peaks')
-        return
-      }
-
-      console.log('📊 Computing waveform peaks from AudioBuffer...')
-      const peaks = computePeaks(decoded)
-      console.log('📥 Loading peaks into WaveSurfer. URL:', audioUrl)
-      wav.load(audioUrl, [peaks], finalDuration)
     }
 
     wav.on('timeupdate', handleTimeUpdate)
@@ -108,24 +78,20 @@ export default function VoiceMessage({
     wav.on('pause', handlePause)
     wav.on('finish', handleFinish)
     wav.on('error', (err) => {
-      console.error('❌ WaveSurfer error event:', err)
+      // destroy()/tab unmount aborts in-flight media loads — ignore those
+      if (cancelled || isAbortError(err)) return
+      console.error('WaveSurfer error:', err)
       setHasError(true)
       setIsPlaying(false)
     })
     wav.on('ready', handleReady)
-    wav.on('loading', (pct) => console.log(`⏳ Loading audio: ${pct}%`))
-    wav.on('decode', (dur) => console.log(`🔓 Audio decoded. Duration: ${dur}`))
-
-    console.log('🛰️ Manually calling wav.load(audioUrl)...')
-    wav.load(audioUrl).catch((err) => {
-      console.error('❌ wav.load failed catch:', err)
-    })
 
     return () => {
-      console.log('🧹 Cleaning up WaveSurfer instance')
+      cancelled = true
+      wavesurferRef.current = null
       wav.destroy()
     }
-  }, [audioUrl])
+  }, [audioUrl, duration])
 
   const togglePlayPause = async () => {
     const ws = wavesurferRef.current
@@ -134,6 +100,7 @@ export default function VoiceMessage({
     try {
       await ws.playPause()
     } catch (e) {
+      if (isAbortError(e)) return
       console.error(e)
       setHasError(true)
       setIsPlaying(false)
@@ -146,23 +113,11 @@ export default function VoiceMessage({
     return `${mins}:${secs.toString().padStart(2, '0')}`
   }
 
-  if (hasError) {
-    return (
-      <div className={clsx(s.voiceMessage, s.error)}>
-        <Button
-          color={ButtonColor.White}
-          layout={ButtonLayout.Icon}
-          className={s.playButton}
-        >
-          <PlayIcon />
-        </Button>
-        <span className={s.errorText}>Audio unavailable</span>
-      </div>
-    )
-  }
-
   return (
-    <div className={s.voiceMessage} onClick={togglePlayPause}>
+    <div
+      className={clsx(s.voiceMessage, hasError && s.error)}
+      onClick={hasError ? undefined : togglePlayPause}
+    >
       <Button
         color={ButtonColor.White}
         layout={ButtonLayout.Icon}
@@ -171,50 +126,29 @@ export default function VoiceMessage({
         {isPlaying ? <PauseIcon /> : <PlayIcon />}
       </Button>
 
-      <div ref={containerRef} className={s.waveformContainer}>
+      {/* Keep waveform mounted so WaveSurfer's container ref stays valid */}
+      <div
+        className={s.waveformContainer}
+        style={hasError ? { display: 'none' } : undefined}
+      >
         <div ref={waveformRef} className={s.waveform} />
       </div>
 
-      <span className={s.duration}>
-        {formatTime(isPlaying ? currentTime : audioDuration)}
-      </span>
+      {hasError ? (
+        <span className={s.errorText}>Audio unavailable</span>
+      ) : (
+        <span className={s.duration}>
+          {formatTime(isPlaying ? currentTime : audioDuration)}
+        </span>
+      )}
     </div>
   )
 }
 
-/**
- * Computes normalized waveform peaks from a decoded AudioBuffer for display in WaveSurfer.
- *
- * Uses RMS (root mean square) per block instead of peak amplitude, which better reflects
- * perceived loudness — especially for voice messages where raw peaks can be spiky.
- * The result is normalized to 0–1 range and compressed with a power curve to make
- * quiet parts more visible without letting loud parts dominate.
- *
- * @param decoded - Decoded AudioBuffer from WaveSurfer's getDecodedData()
- * @param numBars - Number of bars to render (default: 80)
- * @returns Array of normalized peak values in range [0.08, 1]
- */
-const computePeaks = (decoded: AudioBuffer, numBars = 80): number[] => {
-  const channelData = decoded.getChannelData(0)
-  const blockSize = Math.floor(channelData.length / numBars)
-  const peaks: number[] = []
-
-  for (let i = 0; i < numBars; i++) {
-    const start = i * blockSize
-    const end = Math.min(start + blockSize, channelData.length)
-    let sum = 0
-    for (let j = start; j < end; j++) {
-      sum += channelData[j] * channelData[j]
-    }
-    peaks.push(Math.sqrt(sum / (end - start)))
+const isAbortError = (err: unknown) => {
+  if (!err) return false
+  if (typeof err === 'object' && 'name' in err && err.name === 'AbortError') {
+    return true
   }
-
-  const maxPeak = Math.max(...peaks)
-  if (maxPeak > 0) {
-    for (let i = 0; i < peaks.length; i++) {
-      peaks[i] = Math.max(Math.pow(peaks[i] / maxPeak, 0.7), 0.08)
-    }
-  }
-
-  return peaks
+  return String(err).toLowerCase().includes('abort')
 }

@@ -1,4 +1,5 @@
 .radioButton {
+  position: relative;
   display: flex;
   gap: var(--space-8);
   align-items: center;
@@ -13,7 +14,7 @@
   border-radius: var(--radius-m);
   transition: all 0.2s ease;
 
-  &:hover {
+  &:hover:not(.disabled, .readOnly) {
     color: var(--text-primary);
 
     --border-color: var(--border-strong);
@@ -27,41 +28,80 @@
 
     --border-color: var(--border-focus);
   }
+
+  &.disabled {
+    color: var(--text-disabled);
+    cursor: not-allowed;
+    background-color: var(--bg-disabled);
+
+    --border-color: var(--border-default);
+  }
+
+  &.readOnly {
+    cursor: default;
+  }
 }
 
 .radioInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  appearance: none;
+  border: 0;
+  clip-path: inset(50%);
+}
+
+.radioControl {
   position: relative;
+  flex-shrink: 0;
 
   --size: 20px;
 
   width: var(--size);
-  min-width: var(--size);
   height: var(--size);
-  appearance: none;
   background-color: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-xxl);
   transition: all 0.2s ease;
 
-  &:focus {
-    outline: none;
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--size) / 2);
+    height: calc(var(--size) / 2);
+    content: '';
+    background-color: var(--border-focus);
+    border-radius: var(--radius-xxl);
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s ease;
   }
+}
 
-  &:checked {
-    background-color: #007aff;
-    border-color: #007aff;
+.radioButton.checked .radioControl {
+  border-color: var(--border-focus);
 
-    &::after {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: calc(var(--size) / 2);
-      height: calc(var(--size) / 2);
-      content: '';
-      background-color: var(--bg-surface);
-      border-radius: var(--radius-xxl);
-      transform: translate(-50%, -50%);
-    }
+  &::after {
+    opacity: 1;
+  }
+}
+
+.radioInput:focus-visible + .radioControl {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.radioButton.disabled .radioControl {
+  background-color: var(--bg-disabled);
+  border-color: var(--border-default);
+
+  &::after {
+    background-color: var(--text-disabled);
   }
 }
 
@@ -69,4 +109,14 @@
   @include body-medium-regular;
 
   user-select: none;
+
+  :global(svg) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.htmlLabel {
+  align-items: flex-start;
 }

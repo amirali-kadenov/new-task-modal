@@ -1,0 +1,61 @@
+@use './typography' as *;
+
+.title32 {
+  @include title-32;
+}
+
+.title28 {
+  @include title-28;
+}
+
+.title24 {
+  @include title-24;
+}
+
+.bodyLeadBold {
+  @include body-lead-bold;
+}
+
+.bodyLeadRegular {
+  @include body-lead-regular;
+}
+
+.bodyLargeBold {
+  @include body-large-bold;
+}
+
+.bodyLargeRegular {
+  @include body-large-regular;
+}
+
+.bodyMediumBold {
+  @include body-medium-bold;
+}
+
+.bodyMediumRegular {
+  @include body-medium-regular;
+}
+
+.bodySmallBold {
+  @include body-small-bold;
+}
+
+.bodySmallRegular {
+  @include body-small-regular;
+}
+
+.labelBold {
+  @include label-bold;
+}
+
+.labelRegular {
+  @include label-regular;
+}
+
+.captionBold {
+  @include caption-bold;
+}
+
+.captionRegular {
+  @include caption-regular;
+}

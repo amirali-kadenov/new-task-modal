@@ -7,6 +7,12 @@ import type {
 
 export const createFileMessage = (file: File, user: User): MessageInterface => {
   const type = getFileType(file)
+
+  // VoiceMessage reads `audioUrl` / `duration`, not the file fields.
+  if (type === 'audio') {
+    return createAudioMessage(file, 0, user)
+  }
+
   return {
     id: Date.now(),
     senderUserId: user.id,
@@ -54,7 +60,7 @@ const IMAGE_EXT = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg']
 const VIDEO_EXT = ['mp4', 'webm']
 const AUDIO_EXT = ['mp3', 'wav']
 
-const getFileType = (file: File) => {
+export const getFileType = (file: File) => {
   const ext = file.name.split('.').pop()?.toLowerCase()
 
   if (!ext) return 'file'

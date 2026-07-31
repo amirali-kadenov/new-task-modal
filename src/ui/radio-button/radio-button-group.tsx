@@ -15,6 +15,8 @@ interface Props {
   value?: string
   onChange: (value: string) => void
   disabled?: boolean
+  /** Non-interactive group with default look (no gray, no hover). */
+  readOnly?: boolean
   className?: string
   ariaLabel?: string
 }
@@ -25,6 +27,7 @@ export const RadioButtonGroup = ({
   value,
   onChange,
   disabled = false,
+  readOnly = false,
   className,
   ariaLabel,
 }: Props) => {
@@ -43,6 +46,7 @@ export const RadioButtonGroup = ({
           checked={value === option.value}
           onChange={() => onChange(option.value)}
           disabled={disabled || option.disabled}
+          readOnly={readOnly}
         />
       ))}
     </div>

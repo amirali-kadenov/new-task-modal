@@ -7,6 +7,12 @@
   max-width: 100%;
   max-height: 100dvh;
   background-color: var(--bg-canvas);
+
+  @include min-width(sm) {
+    max-width: 375px;
+    margin: 0 auto;
+    border: 1px solid #808080;
+  }
 }
 
 .title {

@@ -38,6 +38,9 @@ export const AudioInput = ({
       if (timerRef.current) {
         clearInterval(timerRef.current)
       }
+      // Tabs unmount inactive chat — stop mic so recording doesn't leak
+      recorderRef.current?.cancel()
+      recorderRef.current = null
     }
   }, [])
 

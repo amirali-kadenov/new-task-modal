@@ -16,9 +16,17 @@ interface Props {
   onSend: (text: string) => void
   onAddMessage: (message: MessageInterface) => void
   deps: TaskModalDependencies
+  onAddFile?: (file: File) => void
+  onAddVoice?: (blob: Blob, recordingTime: number) => void
 }
 
-export const ChatInput = ({ onSend, onAddMessage, deps }: Props) => {
+export const ChatInput = ({
+  onSend,
+  onAddMessage,
+  deps,
+  onAddFile,
+  onAddVoice,
+}: Props) => {
   const [isRecording, setIsRecording] = useState(false)
   const [messageText, setMessageText] = useState('')
   const [isSending, setIsSending] = useState(false)
@@ -49,11 +57,19 @@ export const ChatInput = ({ onSend, onAddMessage, deps }: Props) => {
   const user = deps.global.getUser()
 
   const addFileMessage = (file: File) => {
+    if (onAddFile) {
+      onAddFile(file)
+      return
+    }
     const fileMessage = createFileMessage(file, user)
     tryToAddMessage(fileMessage)
   }
 
   const addVoiceMessage = (blob: Blob, recordingTime: number) => {
+    if (onAddVoice) {
+      onAddVoice(blob, recordingTime)
+      return
+    }
     const audioMessage = createAudioMessage(blob, recordingTime, user)
     tryToAddMessage(audioMessage)
   }

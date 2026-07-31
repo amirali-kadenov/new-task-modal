@@ -8,7 +8,7 @@ import type {
   TextMessage,
 } from '@/types/api/api'
 
-import { insertDateMarkers } from '../../model/helpers'
+import { getFileType, insertDateMarkers } from '../../model/helpers'
 import { ChatLayout } from '../common/chat-layout/chat-layout'
 import { ChatInput } from '../common/input/chat-input'
 import { DateMessage } from '../common/message/date/date-message'
@@ -117,6 +117,31 @@ export const MentorChat = ({ props }: Props) => {
     )
   }
 
+  const useMediaApi = Boolean(deps.featureFlags?.useMentorChatMediaApi)
+
+  const sendMedia = async (data: Blob | File, type: ChatMessageType) => {
+    if (isSending) return
+
+    try {
+      setIsSending(true)
+      await deps.api.sendChatMessage(data, type)
+    } catch (error) {
+      console.error(error)
+      deps.alert.showError(error)
+    } finally {
+      setIsSending(false)
+    }
+  }
+
+  const handleAddFile = (file: File) => {
+    const type = getFileType(file) as ChatMessageType
+    sendMedia(file, type)
+  }
+
+  const handleAddVoice = (blob: Blob) => {
+    sendMedia(blob, 'audio')
+  }
+
   useEffect(() => {
     subscribeToEvents()
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -141,6 +166,8 @@ export const MentorChat = ({ props }: Props) => {
         onSend={sendMessage}
         onAddMessage={handleAddMessage}
         deps={props.deps}
+        onAddFile={useMediaApi ? handleAddFile : undefined}
+        onAddVoice={useMediaApi ? handleAddVoice : undefined}
       />
     </ChatLayout>
   )

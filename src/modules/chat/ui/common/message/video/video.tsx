@@ -28,10 +28,15 @@ const VideoMessage = ({
   const time = new Date(sentAt).toLocaleTimeString().slice(0, 5)
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
+  const [nativeControlsUnlocked, setNativeControlsUnlocked] = useState(false)
+  const [isHovering, setIsHovering] = useState(false)
   const [isMuted, setIsMuted] = useState(true)
   const [videoDuration, setVideoDuration] = useState<number>()
   const [remaining, setRemaining] = useState<number>()
   const [progress, setProgress] = useState(0)
+
+  // First click unlocks native controls; after that hover shows them.
+  const showNativeControls = nativeControlsUnlocked && isHovering
 
   const formatDuration = (seconds: number) => {
     const min = Math.floor(seconds / 60)
@@ -39,27 +44,34 @@ const VideoMessage = ({
     return `${min}:${sec.toString().padStart(2, '0')}`
   }
 
-  const handlePlay = async () => {
+  const handlePlay = async (e: React.MouseEvent) => {
+    e.stopPropagation()
+    setNativeControlsUnlocked(true)
     if (!videoRef.current) return
     if (isPlaying) {
       videoRef.current.pause()
     } else {
       await videoRef.current.play()
     }
-    setIsPlaying((prev) => !prev)
   }
 
-  const handleMute = () => {
+  const handleMute = (e: React.MouseEvent) => {
+    e.stopPropagation()
     if (!videoRef.current) return
     videoRef.current.muted = !isMuted
     setIsMuted((prev) => !prev)
   }
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
+    e.stopPropagation()
     if (!videoRef.current || !videoDuration) return
     const rect = e.currentTarget.getBoundingClientRect()
     const ratio = (e.clientX - rect.left) / rect.width
     videoRef.current.currentTime = ratio * videoDuration
+  }
+
+  const handleVideoClick = () => {
+    setNativeControlsUnlocked(true)
   }
 
   useEffect(() => {
@@ -71,19 +83,33 @@ const VideoMessage = ({
       setRemaining(Math.max(0, videoDuration - video.currentTime))
       setProgress(video.currentTime / videoDuration)
     }
+    const onPlay = () => setIsPlaying(true)
+    const onPause = () => setIsPlaying(false)
 
     video.addEventListener('timeupdate', onTimeUpdate)
-    return () => video.removeEventListener('timeupdate', onTimeUpdate)
+    video.addEventListener('play', onPlay)
+    video.addEventListener('pause', onPause)
+    return () => {
+      video.removeEventListener('timeupdate', onTimeUpdate)
+      video.removeEventListener('play', onPlay)
+      video.removeEventListener('pause', onPause)
+    }
   }, [videoDuration])
 
   return (
-    <div className={clsx(s.container, isFromPupil ? s.fromPupil : s.fromOther)}>
+    <div
+      className={clsx(s.container, isFromPupil ? s.fromPupil : s.fromOther)}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
       <video
         ref={videoRef}
         src={videoUrl}
         poster={thumbnailUrl}
         className={s.thumbnail}
         muted={isMuted}
+        controls={showNativeControls}
+        onClick={handleVideoClick}
         onLoadedMetadata={() => {
           if (videoRef.current) {
             const d = videoRef.current.duration
@@ -91,7 +117,6 @@ const VideoMessage = ({
             setRemaining(d)
           }
         }}
-        controls
         onEnded={() => {
           setIsPlaying(false)
           setProgress(0)
@@ -159,7 +184,8 @@ const VideoMessage = ({
         <span className={s.time}>{time}</span>
       </div>
 
-      {isPlaying && (
+      {/* Bottom progress strip — only when native controls are hidden */}
+      {isPlaying && !showNativeControls && (
         <div className={s.progressTrack} onClick={handleSeek}>
           <div
             className={s.progressFill}

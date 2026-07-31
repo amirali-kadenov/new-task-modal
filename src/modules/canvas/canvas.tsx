@@ -28,7 +28,7 @@ const STORAGE_KEY = 'drawing-board-data'
 
 export function Canvas({ onClose }: CanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const [isDrawing, setIsDrawing] = useState(false)
+  const isDrawingRef = useRef(false)
   const [mode, setMode] = useState<DrawingMode>('draw')
   const [history, setHistory] = useState<ImageData[]>([])
   const [historyStep, setHistoryStep] = useState(-1)
@@ -115,7 +115,7 @@ export function Canvas({ onClose }: CanvasProps) {
 
     const { x, y } = getCoordinates(e)
 
-    setIsDrawing(true)
+    isDrawingRef.current = true
     ctx.beginPath()
     ctx.moveTo(x, y)
 
@@ -134,7 +134,7 @@ export function Canvas({ onClose }: CanvasProps) {
   }
 
   const draw = (e: React.TouchEvent | React.MouseEvent) => {
-    if (!isDrawing) return
+    if (!isDrawingRef.current) return
 
     const canvas = canvasRef.current
     if (!canvas) return
@@ -148,8 +148,8 @@ export function Canvas({ onClose }: CanvasProps) {
   }
 
   const stopDrawing = () => {
-    if (isDrawing) {
-      setIsDrawing(false)
+    if (isDrawingRef.current) {
+      isDrawingRef.current = false
       saveState()
     }
   }
@@ -217,6 +217,7 @@ export function Canvas({ onClose }: CanvasProps) {
                   mode === 'draw' && styles.active,
                 )}
                 onClick={() => setMode('draw')}
+                title="Рисовать"
               >
                 <EditIcon />
               </button>
@@ -226,6 +227,7 @@ export function Canvas({ onClose }: CanvasProps) {
                   mode === 'erase' && styles.active,
                 )}
                 onClick={() => setMode('erase')}
+                title="Ластик"
               >
                 <EraserIcon />
               </button>

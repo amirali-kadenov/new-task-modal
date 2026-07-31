@@ -13,6 +13,13 @@
       }
     }
 
+    /* Cyrillic has no TeX glyph, MathJax draws it in mjx-utext with its own
+       `unknownFamily` (serif) — that beats the Halvar rule on the mjx-mi parent
+       and makes units like `см` clash with the surrounding prose */
+    mjx-utext {
+      font-family: var(--font-halvar), MJXZERO, sans-serif !important;
+    }
+
     /** \Gamma \Delta \Theta \Lambda \Sigma \Upsilon \Phi */
     .mjx-c393,
     .mjx-c394,
@@ -30,6 +37,47 @@
 
     .mjx-c34::before {
       padding-top: 0.67em;
+    }
+
+    /* the stretched hook reaches the index spot, lift it clear of the stroke */
+    mjx-root {
+      transform: translateY(-0.2em);
+    }
+
+    /* root index sits in the hook, MathJax places it by its own metrics */
+    mjx-root mjx-c {
+      font-family: MJXZERO, MJXTEX, sans-serif !important;
+    }
+
+    /* doubled class outweighs the Halvar rule above */
+    mjx-root mjx-c.TEX-I.TEX-I {
+      font-family: MJXZERO, MJXTEX-I, sans-serif !important;
+    }
+
+    /* radical must keep MathJax size-variant fonts, Halvar has no U+221A */
+    mjx-sqrt mjx-surd,
+    mjx-sqrt mjx-surd mjx-c {
+      font-family: MJXZERO, MJXTEX, sans-serif !important;
+    }
+
+    mjx-sqrt mjx-surd mjx-c.TEX-S1 {
+      font-family: MJXZERO, 'MJXTEX-S1', sans-serif !important;
+    }
+
+    mjx-sqrt mjx-surd mjx-c.TEX-S2 {
+      font-family: MJXZERO, 'MJXTEX-S2', sans-serif !important;
+    }
+
+    mjx-sqrt mjx-surd mjx-c.TEX-S3 {
+      font-family: MJXZERO, 'MJXTEX-S3', sans-serif !important;
+    }
+
+    mjx-sqrt mjx-surd mjx-c.TEX-S4 {
+      font-family: MJXZERO, 'MJXTEX-S4', sans-serif !important;
+    }
+
+    mjx-sqrt mjx-stretchy-v mjx-c {
+      font-family: MJXZERO, 'MJXTEX-S4', sans-serif !important;
     }
   }
 }

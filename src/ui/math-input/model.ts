@@ -182,6 +182,37 @@ export const insertSymbolToMathField = (
 // MathQuill Configuration
 // ============================================================================
 
+type GlobalWithTouchDetect = {
+  isTouchDeviceOrMobileBrowser?: () => boolean
+}
+
+/**
+ * Match legacy MathQuillField: on touch/mobile use a focusable span so the
+ * native keyboard never opens (calculator inserts via MathQuill API).
+ */
+export const shouldSuppressNativeKeyboard = (): boolean => {
+  if (typeof window === 'undefined') return false
+
+  const globalApi = (window as Window & { Global?: GlobalWithTouchDetect })
+    .Global
+  if (typeof globalApi?.isTouchDeviceOrMobileBrowser === 'function') {
+    return globalApi.isTouchDeviceOrMobileBrowser()
+  }
+
+  return (
+    'ontouchstart' in window ||
+    (navigator.maxTouchPoints ?? 0) > 0 ||
+    /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+  )
+}
+
+/** Span instead of textarea — no system keyboard on focus. */
+const createMobileFocusTarget = (): HTMLElement => {
+  const span = document.createElement('span')
+  span.tabIndex = 0
+  return span
+}
+
 /**
  * Default configuration options for MathQuill
  * Controls behavior for spacing, brackets, operators, and auto-commands
@@ -191,7 +222,12 @@ export const MATHQUILL_CONFIG = {
   restrictMismatchedBrackets: true,
   supSubsRequireOperand: true,
   autoCommands: 'theta sqrt sum frac',
-  readOnly: true,
+  substituteTextarea: () => {
+    if (shouldSuppressNativeKeyboard()) {
+      return createMobileFocusTarget()
+    }
+    return document.createElement('textarea')
+  },
 }
 
 /**

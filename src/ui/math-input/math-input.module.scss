@@ -4,6 +4,8 @@
 .mathInput {
   @include body-lead-regular;
 
+  padding-block: to-rem(11px);
+
   &:focus,
   &:global(.mq-focused),
   &:global(.focused) {
@@ -28,6 +30,28 @@
   .mq-math-mode var {
     font-family: var(--font-halvar) !important;
     font-style: normal !important;
+  }
+
+  /*
+   * MathQuill sizes &radic; as scaleY(stemHeight/fontSize). That assumes
+   * line-height: 1 and a Symbola/Times radical glyph. Our field inherits
+   * body-lead line-height (29px) and Halvar (no U+221A), which leaves a
+   * gap between the tick and the stem border.
+   */
+  .mq-math-mode.mq-editable-field,
+  .mq-math-mode .mq-root-block {
+    line-height: 1 !important;
+  }
+
+  .mq-math-mode .mq-root-block {
+    overflow: visible !important;
+  }
+
+  /* stretched delimiters need a glyph that scales gracefully, Halvar goes blocky */
+  .mq-math-mode .mq-sqrt-prefix,
+  .mq-math-mode .mq-paren {
+    font-family: Symbola, 'Times New Roman', serif !important;
+    line-height: 1 !important;
   }
 
   /* workarount for f symbol */

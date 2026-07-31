@@ -3,6 +3,12 @@
   inset: 0;
   z-index: 50;
   background-color: rgb(0 0 0 / 40%);
+
+  @include min-width(sm) {
+    max-width: 375px;
+    margin: 0 auto;
+    border: 1px solid #808080;
+  }
 }
 
 .canvas {

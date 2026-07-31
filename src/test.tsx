@@ -1855,6 +1855,9 @@ const mockDependencies = {
     showInfoMessage: () => {},
     showWarningMessage: () => {},
   },
+  featureFlags: {
+    useMentorChatMediaApi: false,
+  },
 }
 
 // Mock data
