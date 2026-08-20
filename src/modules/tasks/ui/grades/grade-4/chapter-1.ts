@@ -7,7 +7,6 @@ const map = {
     14, 15, 16, 17, 18, 19, 20, 21, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 22,
     23, 24, 25, 26, 27,
   ],
-  [TemplateTypes.Table.Plain]: ['56_1', 56],
   [TemplateTypes.Test.Plain]: [2, 69],
   [TemplateTypes.Text.After]: [
     30, 32, 36, 39, 84, 85, 40, 44, 45, 52, 53, 54, 55,
@@ -20,6 +19,7 @@ const map = {
   ],
   [TemplateTypes.AnswerCell.Plain]: [66, 67, 68],
   [TemplateTypes.AnswerCell.Multi.Stack.N2Plain]: [70, 71, 72, 73],
+  [TemplateTypes.Table.Grid]: [56, '56_1'],
 }
 
 export default map

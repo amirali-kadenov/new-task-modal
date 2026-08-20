@@ -18,7 +18,6 @@ const map = {
     '8_2',
     '8_3',
   ],
-  [TemplateTypes.Table.Plain]: ['2_8', '2_9', '2_10', '9_9'],
   [TemplateTypes.Test.Plain]: [
     '12_1',
     '12_2',
@@ -151,6 +150,8 @@ const map = {
     '14_9',
     '14_10',
   ],
+  [TemplateTypes.Table.Mixed]: ['2_10', '2_8', '2_9'],
+  [TemplateTypes.Table.MultiRow]: ['9_9'],
 }
 
 export default map
