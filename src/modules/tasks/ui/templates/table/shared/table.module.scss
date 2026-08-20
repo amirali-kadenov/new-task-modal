@@ -293,3 +293,177 @@
   align-items: center;
   justify-content: center;
 }
+
+// --- className-based table modifiers ---
+// Mirror the data-template-id/data-mode attribute-selector rules above.
+// Task 3 wires these into create-table-template.tsx / table-solution.tsx
+// and deletes the attribute-selector rules once nothing depends on them.
+
+.tableRounded {
+  overflow: hidden;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-color: var(--border-strong);
+  border-radius: 12px;
+}
+
+.tableRounded.tableRemovePadding {
+  border-spacing: 0 8px;
+}
+
+.tableFlexInlineInput {
+  &,
+  tbody,
+  tr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.tableFlexMixedSolution,
+.tableFlexMixedInput {
+  &,
+  tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  tr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.tableFlexListInput {
+  &,
+  tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  tr {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.tableFlexListSolution {
+  &,
+  tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: auto;
+  }
+
+  tr {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: auto;
+  }
+}
+
+.cellHeader {
+  background: var(--bg-subtle);
+  @include body-medium-bold;
+}
+
+.cellNoBottomBorder {
+  border-bottom: none;
+}
+
+.cellFirstColLabel {
+  text-align: left;
+  @include body-medium-bold;
+}
+
+.cellInlineSolution {
+  display: inline-block;
+  width: auto;
+  padding: 4px;
+}
+
+.cellInlineInput {
+  flex: 0 0 auto;
+  width: auto;
+  padding: 4px;
+  white-space: nowrap;
+}
+
+.inputCellInlineInput {
+  flex: 0 0 auto;
+  width: 120px;
+  min-width: 80px;
+}
+
+.cellMixedSolution {
+  flex: 1 1 0;
+  width: auto;
+  min-width: 0;
+  max-width: max-content;
+  padding-inline: 2px;
+}
+
+.cellMixedInput {
+  flex: 0 0 auto;
+  width: auto;
+  white-space: nowrap;
+}
+
+.inputCell.cellMixedInput {
+  flex: 0 0 auto;
+  width: 120px;
+  min-width: 80px;
+  padding-inline: 4px;
+}
+
+.inputWidthAuto {
+  width: auto;
+}
+
+.cellListLastInput {
+  flex: 0 0 auto;
+  width: auto;
+  white-space: nowrap;
+}
+
+.cellListLastSolution {
+  flex: 0 0 auto;
+  width: auto;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.inputCellListInput {
+  flex: 1 1 0;
+  width: auto;
+  min-width: 0;
+}
+
+.inputCellListSolution {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.inputCellPlainSolution {
+  max-width: max-content;
+  text-align: left;
+}
+
+// Replaces `.container:not([data-template-id='table.inline'],
+// [data-template-id='table.list'],[data-template-id='table.mixed']) .inputCell`.
+// Mutually exclusive with the inline/list/mixed input-cell width rules above
+// (never applied for those three ids), so there's no specificity tie between
+// this and them — exactly one width-setting rule is ever active per cell.
+.inputCellDefaultWidth {
+  width: 1%;
+}
