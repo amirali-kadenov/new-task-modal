@@ -1,5 +1,3 @@
-import clsx from 'clsx'
-
 import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
@@ -9,6 +7,11 @@ import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Task } from '@/types/api/task'
 import { MathText } from '@/ui/math-text/math-text'
 
+import {
+  getCellClassName,
+  getInputClassName,
+  getTableClassName,
+} from '../lib/get-table-classnames'
 import { TableStaticCellContent } from '../lib/render-table-cell-content'
 import type { TableTask } from '../lib/types.task'
 
@@ -74,11 +77,12 @@ export const TableSolution = ({
 
       <div className={styles.tableWrapper}>
         <table
-          className={clsx(
-            styles.table,
-            table.removeBorders && styles.tableRemoveBorders,
-            table.removePadding && styles.tableRemovePadding,
-          )}
+          className={getTableClassName({
+            id: templateId ?? 'table.plain',
+            mode: 'solution',
+            removeBorders: table.removeBorders,
+            removePadding: table.removePadding,
+          })}
           style={{
             width: templateId === 'table.mixed' ? '100%' : table.width,
           }}
@@ -96,18 +100,36 @@ export const TableSolution = ({
 
                   const currentInputIndex = isInput ? inputIndex++ : -1
 
+                  const isHeaderRow =
+                    templateId === 'table.grid'
+                      ? rowIndex < table.rows.length - 1
+                      : templateId === 'table.multiRow' ||
+                          templateId === 'table.multiRowSvg'
+                        ? rowIndex === 0
+                        : false
+
                   return (
                     <td
                       key={cellIndex}
-                      className={clsx(
-                        styles.cell,
-                        isInput && styles.inputCell,
-                      )}
+                      className={getCellClassName({
+                        id: templateId ?? 'table.plain',
+                        mode: 'solution',
+                        isInput,
+                        isFirstCell: cellIndex === 0,
+                        isLastCell: cellIndex === row.cells.length - 1,
+                        isHeaderRow,
+                        isLastRow: rowIndex === table.rows.length - 1,
+                      })}
                       colSpan={row.colspan_list?.[cellIndex] || 1}
                       rowSpan={row.rowspan_list?.[cellIndex] || 1}
                     >
                       {isInput ? (
-                        <MathText className={styles.input}>
+                        <MathText
+                          className={getInputClassName({
+                            id: templateId ?? 'table.plain',
+                            mode: 'solution',
+                          })}
+                        >
                           {correctValues[currentInputIndex] ?? ''}
                         </MathText>
                       ) : (

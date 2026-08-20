@@ -1,5 +1,3 @@
-import clsx from 'clsx'
-
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
@@ -10,6 +8,12 @@ import { MathInput } from '@/ui/math-input/math-input'
 
 import { TableSolution } from '../shared/table-solution'
 import styles from '../shared/table.module.scss'
+
+import {
+  getCellClassName,
+  getInputClassName,
+  getTableClassName,
+} from './get-table-classnames'
 import { TableStaticCellContent } from './render-table-cell-content'
 import type { TableTask } from './types.task'
 
@@ -77,11 +81,12 @@ export const createTableTemplate = ({ id }: TableTemplateConfig) => {
 
         <div className={styles.tableWrapper}>
           <table
-            className={clsx(
-              styles.table,
-              table.removeBorders && styles.tableRemoveBorders,
-              table.removePadding && styles.tableRemovePadding,
-            )}
+            className={getTableClassName({
+              id,
+              mode: 'input',
+              removeBorders: table.removeBorders,
+              removePadding: table.removePadding,
+            })}
             style={{
               width:
                 id === 'table.list' ||
@@ -104,13 +109,25 @@ export const createTableTemplate = ({ id }: TableTemplateConfig) => {
 
                     const currentInputIndex = isInput ? inputIndex++ : -1
 
+                    const isHeaderRow =
+                      id === 'table.grid'
+                        ? rowIndex < table.rows.length - 1
+                        : id === 'table.multiRow' || id === 'table.multiRowSvg'
+                          ? rowIndex === 0
+                          : false
+
                     return (
                       <td
                         key={cellIndex}
-                        className={clsx(
-                          styles.cell,
-                          isInput && styles.inputCell,
-                        )}
+                        className={getCellClassName({
+                          id,
+                          mode: 'input',
+                          isInput,
+                          isFirstCell: cellIndex === 0,
+                          isLastCell: cellIndex === row.cells.length - 1,
+                          isHeaderRow,
+                          isLastRow: rowIndex === table.rows.length - 1,
+                        })}
                         colSpan={row.colspan_list?.[cellIndex] || 1}
                         rowSpan={row.rowspan_list?.[cellIndex] || 1}
                       >
@@ -120,7 +137,7 @@ export const createTableTemplate = ({ id }: TableTemplateConfig) => {
                             ref={setRef}
                             formula={answerValues[currentInputIndex] ?? ''}
                             onMathFieldChanged={handleChange}
-                            className={styles.input}
+                            className={getInputClassName({ id, mode: 'input' })}
                           />
                         ) : (
                           <TableStaticCellContent content={content} />
