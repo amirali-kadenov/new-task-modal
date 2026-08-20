@@ -66,22 +66,31 @@ export const Main: Story = {
     keys: MAIN,
     onKeyPress: fn(),
   },
-  play: withTrackedPlay([...MAIN_PLAY_CASES], async ({ canvasElement, args }) => {
-    const canvas = within(canvasElement)
+  play: withTrackedPlay(
+    [...MAIN_PLAY_CASES],
+    async ({ canvasElement, args }) => {
+      const canvas = within(canvasElement)
 
-    await runPlayStep('keysVisible', 'Number keys visible', async () => {
-      expect(canvasElement.querySelectorAll('[data-calc]').length).toBeGreaterThan(0)
-      expect(canvas.getByRole('button', { name: '7' })).toBeVisible()
-      expect(canvas.getByRole('button', { name: '0' })).toBeVisible()
-    })
+      await runPlayStep('keysVisible', 'Number keys visible', async () => {
+        await expect(
+          canvasElement.querySelectorAll('[data-calc]').length,
+        ).toBeGreaterThan(0)
+        await expect(canvas.getByRole('button', { name: '7' })).toBeVisible()
+        await expect(canvas.getByRole('button', { name: '0' })).toBeVisible()
+      })
 
-    await runPlayStep('pressDigit', 'Press digit calls onKeyPress', async () => {
-      await userEvent.click(canvas.getByRole('button', { name: '5' }))
-      await expect(args.onKeyPress).toHaveBeenCalledWith(
-        expect.objectContaining({ title: '5', label: '5' }),
+      await runPlayStep(
+        'pressDigit',
+        'Press digit calls onKeyPress',
+        async () => {
+          await userEvent.click(canvas.getByRole('button', { name: '5' }))
+          await expect(args.onKeyPress).toHaveBeenCalledWith(
+            expect.objectContaining({ title: '5', label: '5' }),
+          )
+        },
       )
-    })
-  }),
+    },
+  ),
 }
 
 export const Letters: Story = {
@@ -99,8 +108,8 @@ export const Letters: Story = {
       const canvas = within(canvasElement)
 
       await runPlayStep('keysVisible', 'Letter keys visible', async () => {
-        expect(canvas.getByRole('button', { name: 'a' })).toBeVisible()
-        expect(canvas.getByRole('button', { name: 'x' })).toBeVisible()
+        await expect(canvas.getByRole('button', { name: 'a' })).toBeVisible()
+        await expect(canvas.getByRole('button', { name: 'x' })).toBeVisible()
       })
 
       await runPlayStep(
@@ -162,14 +171,14 @@ export const FullCalculator: Story = {
       const dots = canvas.getAllByRole('button').filter((btn) => {
         return !btn.hasAttribute('data-calc')
       })
-      expect(dots.length).toBeGreaterThanOrEqual(2)
-      await userEvent.click(dots[1]!)
+      await expect(dots.length).toBeGreaterThanOrEqual(2)
+      await userEvent.click(dots[1])
 
       const five = await canvas.findByRole('button', { name: '5' })
       await userEvent.click(five)
 
       const lastCode = canvasElement.querySelector('code')
-      expect(lastCode).toBeTruthy()
+      await expect(lastCode).toBeTruthy()
       await expect(lastCode).toHaveTextContent('5')
       await expect(lastCode).not.toHaveTextContent('—')
     })

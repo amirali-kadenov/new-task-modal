@@ -1,9 +1,9 @@
+import { getCorrectMultiAnswerParts } from '@/modules/tasks/lib/get-correct-multi-answer-parts'
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
-import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
-import { ComplexSolutionParts } from '@/modules/tasks/ui/common/task-solution/complex-solution-parts'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import { joinMathAnswers } from '@/modules/tasks/ui/templates/text/lib/join-math-answers'
 import { TextAdornment } from '@/modules/tasks/ui/templates/text/shared/text-adornment'
@@ -14,6 +14,7 @@ import type { ComplexTask } from '../lib/types.task'
 
 import { ComplexDescription } from './complex-description'
 import styles from './complex.module.scss'
+import { complexDescriptionHasTableAnswerCells } from './figures/table-part'
 
 type Props = TaskSolutionComponentProps<ComplexTask> & {
   layout: 'stack' | 'inline'
@@ -31,30 +32,32 @@ export const MultiComplexSolution = ({
   const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
     deps.global.translateTasks(value)
 
-  const correctValues = getCorrectAnswerFromSolution(solution, translate).split(
+  const correctValues = getCorrectMultiAnswerParts(
+    solution,
     separator,
+    translate,
   )
-  const userValues = answer.split(separator)
+  const userValues = splitMultiAnswer(answer, separator)
   const hideInput = Boolean(task.description?.isAnswerCellHidden)
+  const tableSolutionAnswers = complexDescriptionHasTableAnswerCells(
+    task.description?.parts,
+  )
+    ? correctValues
+    : null
 
   const inputEntries = getInlineInputEntries(
     task as unknown as Task<'text'>,
     translate,
   )
 
-  const solutionParts =
-    solution &&
-    typeof solution === 'object' &&
-    'parts' in solution &&
-    Array.isArray((solution as { parts?: unknown }).parts)
-      ? (solution as { parts: Parameters<typeof ComplexSolutionParts>[0]['parts'] })
-          .parts
-      : null
-
   return (
     <div className={styles.container}>
       <TaskTitle title={task.title} deps={deps} />
-      <ComplexDescription description={task.description} deps={deps} />
+      <ComplexDescription
+        description={task.description}
+        deps={deps}
+        tableSolutionAnswers={tableSolutionAnswers}
+      />
 
       <SolutionAnswerPanel
         userAnswer={userValues.join(' ; ')}
@@ -95,11 +98,7 @@ export const MultiComplexSolution = ({
         </div>
       ) : null}
 
-      {solutionParts ? (
-        <ComplexSolutionParts parts={solutionParts} deps={deps} />
-      ) : (
-        <SolutionExplanation solution={solution} deps={deps} />
-      )}
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

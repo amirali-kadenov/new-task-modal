@@ -36,7 +36,7 @@ describe('complex.plain', () => {
     expect(screen.getByTestId('math-input')).toBeInTheDocument()
     expect(screen.queryByTestId('text-prefix')).not.toBeInTheDocument()
     expect(screen.queryByTestId('text-suffix')).not.toBeInTheDocument()
-    expect(document.querySelector('[data-figure-type]')).toBeTruthy()
+    expect(screen.getByTestId('complex-text-part')).toBeInTheDocument()
   })
 
   it('text-only parts: выражение и input в одной строке', () => {

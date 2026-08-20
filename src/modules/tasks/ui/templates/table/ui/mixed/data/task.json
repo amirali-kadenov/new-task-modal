@@ -14,10 +14,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number2": 4,
-    "number1": 20
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
@@ -31,26 +27,30 @@
     "areg": "ضع شرط المسألة التالية وقم بحلها:",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number2": 3,
+    "number1": 17
+  },
   "description": {
     "isTableReversed": false,
     "isTableFlip": false,
     "isCentered": true,
     "answerCellWithComparison": false,
-    "isAnswerCellHidden": true,
     "imageBefore": "",
+    "isAnswerCellHidden": true,
     "isCalculatorClosed": false,
     "withAudio": true,
     "content": {
       "with_audio_player": false,
-      "aze": "Usta 1 saatda 20 məhsul hazırlayır.\nƏgər o, 4 saat işləyibsə, bu müddət ərzində neçə məhsul hazırlayacaq?\n",
-      "kgz": "Уста 1 саатта 20 буюм жасай алат.\nЭгерде ал 4 саат иштесе, бул убакыттын ичинде канча буюм чыгарылат?\n",
-      "uzb": "Usta 1 soatda 20 mahsulot ishlaydi.\nAgar u 4 soat ishlagan bo'lsa, ish vaqtida umumiy nechta mahsulot ishlagan?\n",
-      "eng": "The master can make 20 products in 1 hour.\nIf he works for 4 hours, how many products does he make in that time?\n\n",
-      "rus": "Мастер за 1 час может изготовить 20 изделий.\nЕсли он работал 4 часа, то сколько изделий изготовил за время работы?\n",
-      "kaz": "Шебер 1 сағатта 20 өнім дайындай алады.\nЕгер ол 4 сағат уақыт жұмыс жасаған болса, жұмыс уақытында барлығы неше өнім даярлады?\n",
+      "aze": "Usta 1 saatda 17 məhsul hazırlayır.\nƏgər o, 3 saat işləyibsə, bu müddət ərzində neçə məhsul hazırlayacaq?\n",
+      "kgz": "Уста 1 саатта 17 буюм жасай алат.\nЭгерде ал 3 саат иштесе, бул убакыттын ичинде канча буюм чыгарылат?\n",
+      "uzb": "Usta 1 soatda 17 mahsulot ishlaydi.\nAgar u 3 soat ishlagan bo'lsa, ish vaqtida umumiy nechta mahsulot ishlagan?\n",
+      "eng": "The master can make 17 products in 1 hour.\nIf he works for 3 hours, how many products does he make in that time?\n\n",
+      "rus": "Мастер за 1 час может изготовить 17 изделий.\nЕсли он работал 3 часа, то сколько изделий изготовил за время работы?\n",
+      "kaz": "Шебер 1 сағатта 17 өнім дайындай алады.\nЕгер ол 3 сағат уақыт жұмыс жасаған болса, жұмыс уақытында барлығы неше өнім даярлады?\n",
       "arjd": "",
       "arsa": "",
-      "areg": "يمكن للحرفي أن يصنع 20 خاتمًا في ساعة واحدة.\nإذا عمل 4 ساعات، فكم عدد الخواتم التي يصنعها خلال هذا الوقت؟\n",
+      "areg": "يمكن للحرفي أن يصنع 17 خاتمًا في ساعة واحدة.\nإذا عمل 3 ساعات، فكم عدد الخواتم التي يصنعها خلال هذا الوقت؟\n",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "table",
@@ -196,7 +196,7 @@
   },
   "type": "Elixir.Task_4_10_2_8",
   "position": 7,
-  "id": "301df146-2c6b-4f72-9e77-368ec20cfaa2",
+  "id": "b7df55ff-cc96-4150-8967-b2e13c9075ce",
   "solution": {
     "type": "table",
     "answer": {
@@ -207,7 +207,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "20;;4;;20;;4;;80",
+      "rus": "17;;3;;17;;3;;51",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

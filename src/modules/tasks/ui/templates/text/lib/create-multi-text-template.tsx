@@ -1,5 +1,6 @@
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
@@ -63,13 +64,13 @@ export const createMultiTextTemplate = ({
     }
 
     const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-    const { setRef, handleChange } = getMultipleInputHandlers({
+    const { bindRef, handleChange } = getMultipleInputHandlers({
       onChange,
       separator,
       mathInput,
     })
 
-    const answerValues = answer.split(separator)
+    const answerValues = splitMultiAnswer(answer, separator)
     const inputEntries = getInlineInputEntries(
       task as unknown as Task<'text'>,
       (value) => deps.global.translateTasks(value),
@@ -100,7 +101,7 @@ export const createMultiTextTemplate = ({
               )}
               <MathInput
                 id={key}
-                ref={setRef}
+                ref={bindRef(key)}
                 formula={answerValues[index] ?? ''}
                 onMathFieldChanged={handleChange}
                 className={styles.input}

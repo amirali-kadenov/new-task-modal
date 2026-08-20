@@ -2,20 +2,15 @@ import type { ComponentType } from 'react'
 
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import {
-  ALL_GROUPS,
-  getGroupControlOptions,
-  getOpenInTrainerControls,
   makePlayCorrectAnswerInTrainer as makeTextPlayCorrectAnswerInTrainer,
   makePlayWrongAnswerInTrainer as makeTextPlayWrongAnswerInTrainer,
-    makeInTrainerCorrectStory as makeTextInTrainerCorrectStory,
+  makeInTrainerCorrectStory as makeTextInTrainerCorrectStory,
   makeInTrainerWrongAnswerStory as makeTextInTrainerWrongAnswerStory,
   makeOpenInTrainerStory as makeTextOpenInTrainerStory,
   makeInTrainerHintsStory as makeTextInTrainerHintsStory,
   makeInTrainerTheoryStory as makeTextInTrainerTheoryStory,
   makeInTrainerShowAnswerStory as makeTextInTrainerShowAnswerStory,
   makeInTrainerCalcOverflowStory as makeTextInTrainerCalcOverflowStory,
-  getAllTasksForGrade,
-  normalizeAllTasksFile,
   renderAllGroupsStory as renderTextAllGroupsStory,
   renderAllTasksStory as renderTextAllTasksStory,
   renderDefaultStory as renderTextDefaultStory,
@@ -26,7 +21,6 @@ import {
 } from '@/modules/tasks/ui/templates/text/lib/storybook'
 import type {
   AllTasksFile as TextAllTasksFile,
-  TemplateAllTaskFixture as TextAllTaskFixture,
   TemplateGroupFixture as TextGroupFixture,
 } from '@/modules/tasks/ui/templates/text/lib/storybook'
 import type { TextTask } from '@/modules/tasks/ui/templates/text/lib/types.task'
@@ -85,6 +79,9 @@ interface SharedArgs {
   fallbackTask: FormulaTask
   group: string
   rootTitle?: string
+  allTasks?: import('@/modules/tasks/ui/templates/text/lib/storybook').AllTasksFile
+  taskId?: string
+  grade?: number
 }
 
 export const renderDefaultStory = ({
@@ -93,6 +90,9 @@ export const renderDefaultStory = ({
   fallbackTask,
   group,
   rootTitle,
+  allTasks,
+  taskId,
+  grade,
 }: SharedArgs) =>
   renderTextDefaultStory({
     Template: asTextTemplate(Template),
@@ -100,6 +100,9 @@ export const renderDefaultStory = ({
     fallbackTask: asTextTask(fallbackTask),
     group,
     rootTitle,
+    allTasks,
+    taskId,
+    grade,
   })
 
 export const renderWithSolutionStory = ({
@@ -108,6 +111,9 @@ export const renderWithSolutionStory = ({
   fallbackTask,
   group,
   rootTitle,
+  allTasks,
+  taskId,
+  grade,
 }: SharedArgs) =>
   renderTextWithSolutionStory({
     Template: asTextTemplate(Template),
@@ -115,6 +121,9 @@ export const renderWithSolutionStory = ({
     fallbackTask: asTextTask(fallbackTask),
     group,
     rootTitle,
+    allTasks,
+    taskId,
+    grade,
   })
 
 export const renderInTrainerStory = ({
@@ -126,6 +135,9 @@ export const renderInTrainerStory = ({
   trainerOptions,
   forceCalcOpen,
   longContent,
+  allTasks,
+  taskId,
+  grade,
 }: SharedArgs & {
   trainerOptions?: { withHints?: boolean; withTheory?: boolean }
   forceCalcOpen?: boolean
@@ -140,6 +152,9 @@ export const renderInTrainerStory = ({
     trainerOptions,
     forceCalcOpen,
     longContent,
+    allTasks,
+    taskId,
+    grade,
   })
 
 export const renderAllGroupsStory = ({
@@ -159,17 +174,22 @@ export const renderAllTasksStory = ({
   Template,
   tasks,
   grade,
+  taskId,
   rootTitle,
 }: {
   Template: ComponentType<TaskComponentProps<FormulaTask>>
-  tasks: TemplateAllTaskFixture[] | import('@/modules/tasks/ui/templates/text/lib/storybook').AllTasksFile
+  tasks:
+    | TemplateAllTaskFixture[]
+    | import('@/modules/tasks/ui/templates/text/lib/storybook').AllTasksFile
   grade?: number
+  taskId?: string
   rootTitle?: string
 }) =>
   renderTextAllTasksStory({
     Template: asTextTemplate(Template),
     tasks: tasks as unknown as TextAllTasksFile,
     grade,
+    taskId,
     rootTitle,
   })
 
@@ -215,7 +235,6 @@ export const makePlayWrongAnswerInTrainer = ({
     fallbackTask: asTextTask(fallbackTask),
   })
 
-
 export {
   makePlayAllGroupsSmoke,
   makePlayAllTasksSmoke,
@@ -224,9 +243,9 @@ export {
 } from '@/modules/tasks/ui/templates/text/lib/storybook'
 
 export const makeInTrainerHintsStory = (args: {
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<FormulaTask>>
   groups: TemplateGroupFixture[]
-  fallbackTask: any
+  fallbackTask: FormulaTask
   rootTitle?: string
 }) =>
   makeTextInTrainerHintsStory({
@@ -237,9 +256,9 @@ export const makeInTrainerHintsStory = (args: {
   })
 
 export const makeInTrainerTheoryStory = (args: {
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<FormulaTask>>
   groups: TemplateGroupFixture[]
-  fallbackTask: any
+  fallbackTask: FormulaTask
   rootTitle?: string
 }) =>
   makeTextInTrainerTheoryStory({
@@ -250,9 +269,9 @@ export const makeInTrainerTheoryStory = (args: {
   })
 
 export const makeInTrainerShowAnswerStory = (args: {
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<FormulaTask>>
   groups: TemplateGroupFixture[]
-  fallbackTask: any
+  fallbackTask: FormulaTask
   rootTitle?: string
 }) =>
   makeTextInTrainerShowAnswerStory({
@@ -263,9 +282,9 @@ export const makeInTrainerShowAnswerStory = (args: {
   })
 
 export const makeInTrainerCalcOverflowStory = (args: {
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<FormulaTask>>
   groups: TemplateGroupFixture[]
-  fallbackTask: any
+  fallbackTask: FormulaTask
   rootTitle?: string
 }) =>
   makeTextInTrainerCalcOverflowStory({
@@ -276,22 +295,24 @@ export const makeInTrainerCalcOverflowStory = (args: {
   })
 
 export const makeInTrainerCorrectStory = (args: {
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<FormulaTask>>
   groups: TemplateGroupFixture[]
-  fallbackTask: any
+  fallbackTask: FormulaTask
   rootTitle?: string
+  allTasks?: import('@/modules/tasks/ui/templates/text/lib/storybook').AllTasksFile
 }) =>
   makeTextInTrainerCorrectStory({
     Template: asTextTemplate(args.Template),
     groups: asTextGroups(args.groups),
     fallbackTask: asTextTask(args.fallbackTask),
     rootTitle: args.rootTitle,
+    allTasks: args.allTasks,
   })
 
 export const makeInTrainerWrongAnswerStory = (args: {
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<FormulaTask>>
   groups: TemplateGroupFixture[]
-  fallbackTask: any
+  fallbackTask: FormulaTask
   rootTitle?: string
 }) =>
   makeTextInTrainerWrongAnswerStory({
@@ -315,4 +336,3 @@ export const makeOpenInTrainerStory = (args: {
     defaultTaskId: args.defaultTaskId,
     groupIds: args.groupIds,
   })
-

@@ -35,7 +35,9 @@ describe('complex.after', () => {
     expect(screen.getAllByTestId('math-input')).toHaveLength(1)
     expect(screen.queryByTestId('text-prefix')).not.toBeInTheDocument()
     expect(screen.getByTestId('text-suffix')).toBeInTheDocument()
-    expect(document.querySelector('[data-figure-type="110"]')).toBeTruthy()
+    expect(
+      screen.getByTestId('complex-coordinate-plane-part'),
+    ).toBeInTheDocument()
   })
 
   it('solution-ветка вместо режима ввода', () => {

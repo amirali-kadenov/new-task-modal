@@ -33,10 +33,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter": "z",
-            "number": 30
-          },
           "title": {
             "with_audio_player": false,
             "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -50,26 +46,30 @@
             "areg": "حل المسألة بإنشاء تعبير.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter": "z",
+            "number": 24
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Bir çobanyastığı çiçəyinin qiyməti \\(z\\) manatdır, qızılgülün qiyməti isə ondan 30 qəpik daha çoxdur.\nBir qızılgülün qiymətini ifadə şəklində yazın.\n",
-              "kgz": "Бир  бархатцынын баасы —  \\(z\\) сом болсо, ал эми  бир розанын баасы  30 сомго кымбат.\nБир розанын баасынын туюнтмасын жазыңыз.\n",
-              "uzb": "Masalani ifoda tuzib yeching.\nBir dona baxmal gulning narxi \\(z\\) so'm, bir dona atirgulning narxi esa undan 30 so'mga qimmat.\nBir atirgulning narxini algebraik ifoda ko'rinishida yozing.\n",
-              "eng": "The price of one velvet flower is \\(z\\) cents, and the price of one rose is 30 cents more.\nWrite the price of one rose as an expression.\n",
-              "rus": "Цена одной бархатцы — \\(z\\) тенге, а одной розы на 30 тенге больше.\n Запишите цену одной розы, в виде выражения.\n",
-              "kaz": "Бір барқытгүлдің бағасы \\(z\\) теңге, ал бір раушангүлдің бағасы одан 30 теңгеге артық.\nБір раушангүлдің бағасын өрнек құрып жазыңыз.\n",
+              "aze": "Bir çobanyastığı çiçəyinin qiyməti \\(z\\) manatdır, qızılgülün qiyməti isə ondan 24 qəpik daha çoxdur.\nBir qızılgülün qiymətini ifadə şəklində yazın.\n",
+              "kgz": "Бир  бархатцынын баасы —  \\(z\\) сом болсо, ал эми  бир розанын баасы  24 сомго кымбат.\nБир розанын баасынын туюнтмасын жазыңыз.\n",
+              "uzb": "Masalani ifoda tuzib yeching.\nBir dona baxmal gulning narxi \\(z\\) so'm, bir dona atirgulning narxi esa undan 24 so'mga qimmat.\nBir atirgulning narxini algebraik ifoda ko'rinishida yozing.\n",
+              "eng": "The price of one velvet flower is \\(z\\) cents, and the price of one rose is 24 cents more.\nWrite the price of one rose as an expression.\n",
+              "rus": "Цена одной бархатцы — \\(z\\) тенге, а одной розы на 24 тенге больше.\n Запишите цену одной розы, в виде выражения.\n",
+              "kaz": "Бір барқытгүлдің бағасы \\(z\\) теңге, ал бір раушангүлдің бағасы одан 24 теңгеге артық.\nБір раушангүлдің бағасын өрнек құрып жазыңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "إذا كان سعر زهرة النرجس الواحدة \\(z\\) جنيه، بينما سعر الوردة البلدي الواحدة يزيد عن ذلك بمقدار 30 جنيهًا،\nفاكتب تعبيرًا يمثل سعر الوردة البلدي الواحدة.\n",
+              "areg": "إذا كان سعر زهرة النرجس الواحدة \\(z\\) جنيه، بينما سعر الوردة البلدي الواحدة يزيد عن ذلك بمقدار 24 جنيهًا،\nفاكتب تعبيرًا يمثل سعر الوردة البلدي الواحدة.\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_12_17_1",
           "position": 0,
-          "id": "082ccbad-fbd6-4a79-a497-93a853db48ab",
+          "id": "019937d9-6917-4b87-861a-f71447c49e33",
           "solution": {
             "type": "text",
             "answer": {
@@ -80,7 +80,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "z + 30 || 30 + z",
+              "rus": "z + 24 || 24 + z",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -148,10 +148,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter": "y",
-            "number": 12
-          },
           "title": {
             "with_audio_player": false,
             "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -165,26 +161,30 @@
             "areg": "حل المسألة بإنشاء تعبير.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter": "z",
+            "number": 7
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Ayan qızılgül almağa gəldi, bir qızılgülün qiyməti \\(y\\) manatdır.\n12 qızılgülün qiymətini ifadə şəklində yazın\n",
-              "kgz": "Айжамал роза сатып алуу үчүн келди, бир розанын баасы \\(y\\) сом.\n12 розанын баасын эсептөөнүн туюнтмасын жазыңыз.\n",
-              "uzb": "Asal \\(y\\) so'mga atirgul sotib olgani keldi.\n12 ta atirgulning narxini harfli ifoda ko'rinishida yozing.\n",
-              "eng": "Olivia comes to buy roses. The price of one rose is \\(y\\) cents.\nWrite the price of 12 roses as an expression.\n",
-              "rus": "Александра пришла купить розы, цена одной из которых \\(y\\) тенге.\nЗапишите цену 12 роз в виде выражения.\n",
-              "kaz": "Асем біреуінің бағасы \\(y\\) теңге болатын раушангүл сатып алуға келді.\n12 раушангүлдің бағасын өрнек құрып жазыңыз.\n",
+              "aze": "Ayan qızılgül almağa gəldi, bir qızılgülün qiyməti \\(z\\) manatdır.\n7 qızılgülün qiymətini ifadə şəklində yazın\n",
+              "kgz": "Айжамал роза сатып алуу үчүн келди, бир розанын баасы \\(z\\) сом.\n7 розанын баасын эсептөөнүн туюнтмасын жазыңыз.\n",
+              "uzb": "Asal \\(z\\) so'mga atirgul sotib olgani keldi.\n7 ta atirgulning narxini harfli ifoda ko'rinishida yozing.\n",
+              "eng": "Olivia comes to buy roses. The price of one rose is \\(z\\) cents.\nWrite the price of 7 roses as an expression.\n",
+              "rus": "Александра пришла купить розы, цена одной из которых \\(z\\) тенге.\nЗапишите цену 7 роз в виде выражения.\n",
+              "kaz": "Асем біреуінің бағасы \\(z\\) теңге болатын раушангүл сатып алуға келді.\n7 раушангүлдің бағасын өрнек құрып жазыңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "ذهبت فاطمة إلى السوق لشراء الورد البلدي بسعر \\(y\\) جنيه. اكتب تعبيرًا يمثل سعر 12 وردًا بلديًا.\n",
+              "areg": "ذهبت فاطمة إلى السوق لشراء الورد البلدي بسعر \\(z\\) جنيه. اكتب تعبيرًا يمثل سعر 7 ورود بلدية.\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_12_17_3",
           "position": 2,
-          "id": "6c2a05df-ef20-4725-944e-e66b0c131c12",
+          "id": "8d73fe9e-ec42-44f9-9ae3-73803ed73d1e",
           "solution": {
             "type": "text",
             "answer": {
@@ -195,7 +195,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "12y",
+              "rus": "7z",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -263,14 +263,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter2": "x",
-            "letter1": "a",
-            "number4": 6,
-            "number3": 6,
-            "number2": 3506,
-            "number1": 9681
-          },
           "title": {
             "with_audio_player": false,
             "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -284,26 +276,34 @@
             "areg": "حل المسألة بإنشاء تعبير.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter2": "z",
+            "letter1": "m",
+            "number4": 3,
+            "number3": 5,
+            "number2": 3519,
+            "number1": 9698
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Məktəb kitabxanasının kitab fondunu artırmaq üçün 9681 manat dəyərində \\(a\\) sayda ensiklopediya və 3506 manat dəyərində \\(x\\) sayda lüğət alındı.\nKitabların alınmasına nə qədər manat xərcləndi? Burada \\(a\\) = 6, \\(x\\) = 6.\n",
-              "kgz": "Мектептин китепканасынын фондун толуктоо үчүн ар бири 9681 сомдон \\(a\\) сандагы энциклопедия жана  ар бири 3506 сомдон \\(x\\) сөздүк сатып алынды.\nКитептерди сатып алууга бардыгы канча акча кетирилген? Мында \\(a\\) = 6, \\(x\\) = 6.\n",
-              "uzb": "Maktab kutubxonasining kitob fondini to‘ldirish maqsadida har biri 9681 so'mdan \\(a\\) ta ensiklopediya, 3506 so'mdan \\(x\\) ta lug‘at xarid qilindi.\nKitoblarni sotib olish uchun jami qancha so'm sarflangan? Bu yerda \\(a\\) = 6, \\(x\\) = 6.\n",
-              "eng": "The school library buys \\(a\\) encyclopedias for 9681 dollars each and \\(x\\) dictionaries for 3506 dollars each.\nHow much dollars is spent on the books? Here, \\(a\\) = 6, \\(x\\) = 6.\n",
-              "rus": "Для пополнения книжного фонда школьной библиотеки были приобретены \\(a\\) энциклопедии по 9681 тенге и \\(x\\) словарей по 3506 тенге каждый.\nСколько всего тенге было потрачено на покупку книг? Здесь \\(a\\) = 6, \\(x\\) = 6.\n",
-              "kaz": "Мектеп кітапханасының кітап қорын толықтыру үшін әрқайсысы 9681 теңгеден \\(a\\) энциклопедия және 3506 теңгеден \\(x\\) сөздік сатып алынды.\nКітаптарды сатып алу үшін барлығы неше теңге жұмсалды? Мұндағы \\(a\\) = 6, \\(x\\) = 6.\n",
+              "aze": "Məktəb kitabxanasının kitab fondunu artırmaq üçün 9698 manat dəyərində \\(m\\) sayda ensiklopediya və 3519 manat dəyərində \\(z\\) sayda lüğət alındı.\nKitabların alınmasına nə qədər manat xərcləndi? Burada \\(m\\) = 5, \\(z\\) = 3.\n",
+              "kgz": "Мектептин китепканасынын фондун толуктоо үчүн ар бири 9698 сомдон \\(m\\) сандагы энциклопедия жана  ар бири 3519 сомдон \\(z\\) сөздүк сатып алынды.\nКитептерди сатып алууга бардыгы канча акча кетирилген? Мында \\(m\\) = 5, \\(z\\) = 3.\n",
+              "uzb": "Maktab kutubxonasining kitob fondini to‘ldirish maqsadida har biri 9698 so'mdan \\(m\\) ta ensiklopediya, 3519 so'mdan \\(z\\) ta lug‘at xarid qilindi.\nKitoblarni sotib olish uchun jami qancha so'm sarflangan? Bu yerda \\(m\\) = 5, \\(z\\) = 3.\n",
+              "eng": "The school library buys \\(m\\) encyclopedias for 9698 dollars each and \\(z\\) dictionaries for 3519 dollars each.\nHow much dollars is spent on the books? Here, \\(m\\) = 5, \\(z\\) = 3.\n",
+              "rus": "Для пополнения книжного фонда школьной библиотеки были приобретены \\(m\\) энциклопедии по 9698 тенге и \\(z\\) словарей по 3519 тенге каждый.\nСколько всего тенге было потрачено на покупку книг? Здесь \\(m\\) = 5, \\(z\\) = 3.\n",
+              "kaz": "Мектеп кітапханасының кітап қорын толықтыру үшін әрқайсысы 9698 теңгеден \\(m\\) энциклопедия және 3519 теңгеден \\(z\\) сөздік сатып алынды.\nКітаптарды сатып алу үшін барлығы неше теңге жұмсалды? Мұндағы \\(m\\) = 5, \\(z\\) = 3.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "لزيادة مخزون الكتب في المكتبة اشترت المدرسة \\(a\\) موسوعة بسعر 9681 جنيهًا لكل منها، و\\(x\\) قاموسًا بسعر 3506 جنيهات لكل منه.\nكم إجمالي المبلغ المدفوع لشراء الكتب؟ حيث \\(a\\) = 6, \\(x\\) = 6.\n",
+              "areg": "لزيادة مخزون الكتب في المكتبة اشترت المدرسة \\(m\\) موسوعة بسعر 9698 جنيهًا لكل منها، و\\(z\\) قاموسًا بسعر 3519 جنيهًا لكل منه.\nكم إجمالي المبلغ المدفوع لشراء الكتب؟ حيث \\(m\\) = 5, \\(z\\) = 3.\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_12_18_9",
           "position": 8,
-          "id": "b29705d4-5e0a-4d96-bf58-71c3b5df9f94",
+          "id": "c6d09fec-d405-4992-9e21-9517279165ae",
           "solution": {
             "type": "text",
             "answer": {
@@ -314,7 +314,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "79122",
+              "rus": "59047",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -382,14 +382,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter2": "z",
-            "letter1": "c",
-            "number4": 5,
-            "number3": 5,
-            "number2": 4100,
-            "number1": 5500
-          },
           "title": {
             "with_audio_player": false,
             "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -403,26 +395,34 @@
             "areg": "حل المسألة بإنشاء تعبير.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter2": "x",
+            "letter1": "m",
+            "number4": 5,
+            "number3": 5,
+            "number2": 4300,
+            "number1": 5500
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Ayxanın 90 000 manatı var.\nO, 5500 manat dəyərində \\(c\\) avtomobil və 4100 manat dəyərində \\(z\\) motosiklet alıb.\nAyxanın nə qədər pulu qalıb? Burada \\(c\\) = 5, \\(z\\) = 5.\n",
-              "kgz": "Динаранын 90 000 сому болгон. Ал \\(c\\) китепти 5500 сомдон жана \\(z\\) футболканы 4100 сомдон сатып алды.\nДинаранын канча акчасы калды? Мында \\(c\\) = 5, \\(z\\) = 5.\n",
-              "uzb": "Azizaning 90 000 so'm puli bor.\n5500 so'mga \\(c\\) ta kitob va 4100 so'mga \\(z\\) ta futbolka sotib oldi.\nAzizada qancha so'm qoldi? Bu yerda \\(c\\) = 5, \\(z\\) = 5.\n",
-              "eng": "Diana has 90 000 dollars.\nShe buys \\(c\\) laptops for 5500 dollars each and \\(z\\) - tablets for 4100 dollars each. \nHow many dollars does Diana have left? Here, \\(c\\) = 5 and \\(z\\) = 5\n",
-              "rus": "У Дианы было 90 000 тенге.\nОна купила \\(c\\) книг по 5500 тенге и \\(z\\) футболок по 4100 тенге.\nСколько тенге осталось у Дианы? Здесь \\(c\\) = 5, \\(z\\) = 5.\n",
-              "kaz": "Айжанның 90000 теңгесі бар.\nОл 5500 теңгелік \\(c\\) кітап және 4100 теңгелік \\(z\\) футболка сатып алды.\nАйжанныың неше теңгесі қалды? Мұндағы \\(c\\) = 5, \\(z\\) = 5.\n",
+              "aze": "Ayxanın 90 000 manatı var.\nO, 5500 manat dəyərində \\(m\\) avtomobil və 4300 manat dəyərində \\(x\\) motosiklet alıb.\nAyxanın nə qədər pulu qalıb? Burada \\(m\\) = 5, \\(x\\) = 5.\n",
+              "kgz": "Динаранын 90 000 сому болгон. Ал \\(m\\) китепти 5500 сомдон жана \\(x\\) футболканы 4300 сомдон сатып алды.\nДинаранын канча акчасы калды? Мында \\(m\\) = 5, \\(x\\) = 5.\n",
+              "uzb": "Azizaning 90 000 so'm puli bor.\n5500 so'mga \\(m\\) ta kitob va 4300 so'mga \\(x\\) ta futbolka sotib oldi.\nAzizada qancha so'm qoldi? Bu yerda \\(m\\) = 5, \\(x\\) = 5.\n",
+              "eng": "Diana has 90 000 dollars.\nShe buys \\(m\\) laptops for 5500 dollars each and \\(x\\) - tablets for 4300 dollars each. \nHow many dollars does Diana have left? Here, \\(m\\) = 5 and \\(x\\) = 5\n",
+              "rus": "У Дианы было 90 000 тенге.\nОна купила \\(m\\) книг по 5500 тенге и \\(x\\) футболок по 4300 тенге.\nСколько тенге осталось у Дианы? Здесь \\(m\\) = 5, \\(x\\) = 5.\n",
+              "kaz": "Айжанның 90000 теңгесі бар.\nОл 5500 теңгелік \\(m\\) кітап және 4300 теңгелік \\(x\\) футболка сатып алды.\nАйжанныың неше теңгесі қалды? Мұндағы \\(m\\) = 5, \\(x\\) = 5.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "مع فاطمة مبلغ 90000 جنيه. إذا اشترت \\(c\\) فساتين بسعر 5500 جنيه لكل فستان،\nو \\(z\\) بنطلونات بسعر 4100 جنيه لكل بنطلون، فكم جنيهًا يتبقى مع فاطمة؟ حيث \\(c\\) = 5, \\(z\\) = 3.\n",
+              "areg": "مع فاطمة مبلغ 90000 جنيه. إذا اشترت \\(m\\) فساتين بسعر 5500 جنيه لكل فستان،\nو \\(x\\) بنطلونات بسعر 4300 جنيه لكل بنطلون، فكم جنيهًا يتبقى مع فاطمة؟ حيث \\(m\\) = 5, \\(x\\) = 3.\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_12_18_11",
           "position": 10,
-          "id": "0d649920-04ec-42ba-97c2-0c7a95021ac6",
+          "id": "2ef94ccf-ab65-421b-a7fa-389bc9d6ee68",
           "solution": {
             "type": "text",
             "answer": {
@@ -433,7 +433,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "42000",
+              "rus": "41000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -501,13 +501,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter2": "y",
-            "letter1": "b",
-            "number3": 58545,
-            "number2": 56670,
-            "number1": 5
-          },
           "title": {
             "with_audio_player": false,
             "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -521,26 +514,33 @@
             "areg": "حل المسألة بإنشاء تعبير.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter2": "y",
+            "letter1": "x",
+            "number3": 93104,
+            "number2": 91544,
+            "number1": 8
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Beş bazara \\(b\\) kq armud və \\(y\\) kq alma gətirdilər. Bir bazara armuddan nə qədər çox alma gətirdilər? Burada \\(b\\) = 56670, \\(y\\) = 58545.",
-              "kgz": "5 базарга \\(b\\) кг алмурут жана \\(b\\) кг алма алып барышты.\\(\\\\\\)Бир базарга алма алмурутка караганда канча килограммга көп алынып келинди? Мында \\(b\\) = 56670, \\(y\\) = 58545.",
-              "uzb": "5 ta bozorga \\(b\\) kg nok va \\(y\\) kg olma keltirildi.\\(\\\\\\)Bitta bozorga keltirilgan olmalar nokdan necha kilogrammga ko‘p? Bu yerda \\(b\\) = 56670, \\(y\\) = 58545.",
-              "eng": "\\(b\\) kg of pears and  \\(y\\) kg of apples are brought to 5 markets.\\(\\\\\\)How many more kilograms of apples than pears are brought to one market? Here, \\(b\\) = 56,670 and \\(y\\) = 58,545.",
-              "rus": "На 5 рынков было привезено \\(b\\) кг груш и \\(y\\) кг яблок.\\(\\\\\\)Если на каждый рынок было привезено одинаковое количество груш и яблок, то на сколько килограммов больше яблок было привезено на один рынок, чем груш? Здесь \\(b\\) = 56670, \\(y\\) = 58545.",
-              "kaz": "5 базарға \\(b\\) кг алмұрт және \\(y\\) кг алма әкелінді.\\(\\\\\\)Егер әр базарға әкелінген алмұрт және алма салмағы бірдей болса, онда бір базарға әкелінген алмалар алмұрттардан неше килограммға артық?\\(\\\\\\)Мұндағы \\(b\\) = 56670, \\(y\\) = 58545.",
+              "aze": "Səkki̇z bazara \\(x\\) kq armud və \\(y\\) kq alma gətirdilər. Bir bazara armuddan nə qədər çox alma gətirdilər? Burada \\(x\\) = 91544, \\(y\\) = 93104.",
+              "kgz": "8 базарга \\(x\\) кг алмурут жана \\(x\\) кг алма алып барышты.\\(\\\\\\)Бир базарга алма алмурутка караганда канча килограммга көп алынып келинди? Мында \\(x\\) = 91544, \\(y\\) = 93104.",
+              "uzb": "8 ta bozorga \\(x\\) kg nok va \\(y\\) kg olma keltirildi.\\(\\\\\\)Bitta bozorga keltirilgan olmalar nokdan necha kilogrammga ko‘p? Bu yerda \\(x\\) = 91544, \\(y\\) = 93104.",
+              "eng": "\\(x\\) kg of pears and  \\(y\\) kg of apples are brought to 8 markets.\\(\\\\\\)How many more kilograms of apples than pears are brought to one market? Here, \\(x\\) = 91,544 and \\(y\\) = 93,104.",
+              "rus": "На 8 рынков было привезено \\(x\\) кг груш и \\(y\\) кг яблок.\\(\\\\\\)Если на каждый рынок было привезено одинаковое количество груш и яблок, то на сколько килограммов больше яблок было привезено на один рынок, чем груш? Здесь \\(x\\) = 91544, \\(y\\) = 93104.",
+              "kaz": "8 базарға \\(x\\) кг алмұрт және \\(y\\) кг алма әкелінді.\\(\\\\\\)Егер әр базарға әкелінген алмұрт және алма салмағы бірдей болса, онда бір базарға әкелінген алмалар алмұрттардан неше килограммға артық?\\(\\\\\\)Мұндағы \\(x\\) = 91544, \\(y\\) = 93104.",
               "arjd": "",
               "arsa": "",
-              "areg": "تم توريد \\(b\\) كجم من الجوافة و\\(y\\) كجم من التفاح إلى 5 أسواق. إذا تم توزيع الجوافة والتفاح بالتساوي على كل سوق، فكم كيلوجرامًا من التفاح أكثر من الجوافة في كل سوق؟ حيث \\(b\\) = 56670, \\(y\\) = 58545.",
+              "areg": "تم توريد \\(x\\) كجم من الجوافة و\\(y\\) كجم من التفاح إلى 8 أسواق. إذا تم توزيع الجوافة والتفاح بالتساوي على كل سوق، فكم كيلوجرامًا من التفاح أكثر من الجوافة في كل سوق؟ حيث \\(x\\) = 91544, \\(y\\) = 93104.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_12_18_10",
           "position": 9,
-          "id": "9762923f-933b-4373-9754-8c71c269dd42",
+          "id": "950d64f7-f859-4803-b0bb-e2479e515093",
           "solution": {
             "type": "text",
             "answer": {
@@ -551,7 +551,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "375",
+              "rus": "195",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -619,13 +619,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 106,
-            "number3": 69,
-            "number2": 2,
-            "number1": 2,
-            "letter": "b"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -639,26 +632,33 @@
             "areg": "حل المسألة بإنشاء تعبير.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 100,
+            "number3": 72,
+            "number2": 5,
+            "number1": 7,
+            "letter": "y"
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "2 kq alma və 2 kq armud alındı. Almanın qiyməti 1 kq üçün \\(b\\) qəpikdir.\nArmudlar isə almadan 69 qəpik bahadır. 2 kq alma və 2 kq armudun ümumi qiymətini tapın. Burada \\(b\\) = 106.\n",
-              "kgz": "2 кг алма жана 2 кг алмурут сатып алынды.  1 кг алманын баасы \\(b\\) сом турат.\nБир килограмм алмурут алмадан 69 сомго кымбат турат. 2 кг алма жана 2 кг алмуруттун жалпы баасын аныктаңыз.\nМында \\(b\\) = 106.\n",
-              "uzb": "2 kg olma va 2 kg nok sotib olindi. 1 kg olma narxi \\(b\\) so'm. Nok olmadan 69 so'mga qimmat.\n2 kg olma va 2 kg nok narxi jami necha so'm bo‘ladi. Bu yerda \\(b\\) = 106.\n",
-              "eng": "We buy 2 kg of apples and 2 kg of pears. The price of apples is \\(b\\) cents per kg, and pears cost 69 cents more per kg than apples.\nFind the total cost of 2 kg of apples and 2 kg of pears.\nFind the value of the expression if \\(b\\) = 106.\n",
-              "rus": "Купили 2 кг яблок и 2 кг груш. Цена 1 кг яблок составляет \\(b\\) тенге.\nОдин килограмм груши стоит на 69 тенге дороже, чем яблоки. Определите общую стоимость 2 кг яблок и 2 кг груши. Здесь \\(b\\) = 106.\n",
-              "kaz": "2 кг алма мен 2 кг алмұрт сатып алынды. 1 кг алманың бағасы \\(b\\) теңге. Алмұрт алмаға қарағанда 69 теңгеге қымбат.\n2 кг алма мен 2 кг алмұрттың бағаларын қосқанда қанша теңге болатын анықтаңыз. Мұндағы \\(b\\) = 106.\n",
+              "aze": "7 kq alma və 5 kq armud alındı. Almanın qiyməti 1 kq üçün \\(y\\) qəpikdir.\nArmudlar isə almadan 72 qəpik bahadır. 7 kq alma və 5 kq armudun ümumi qiymətini tapın. Burada \\(y\\) = 100.\n",
+              "kgz": "7 кг алма жана 5 кг алмурут сатып алынды.  1 кг алманын баасы \\(y\\) сом турат.\nБир килограмм алмурут алмадан 72 сомго кымбат турат. 7 кг алма жана 5 кг алмуруттун жалпы баасын аныктаңыз.\nМында \\(y\\) = 100.\n",
+              "uzb": "7 kg olma va 5 kg nok sotib olindi. 1 kg olma narxi \\(y\\) so'm. Nok olmadan 72 so'mga qimmat.\n7 kg olma va 5 kg nok narxi jami necha so'm bo‘ladi. Bu yerda \\(y\\) = 100.\n",
+              "eng": "We buy 7 kg of apples and 5 kg of pears. The price of apples is \\(y\\) cents per kg, and pears cost 72 cents more per kg than apples.\nFind the total cost of 7 kg of apples and 5 kg of pears.\nFind the value of the expression if \\(y\\) = 100.\n",
+              "rus": "Купили 7 кг яблок и 5 кг груш. Цена 1 кг яблок составляет \\(y\\) тенге.\nОдин килограмм груши стоит на 72 тенге дороже, чем яблоки. Определите общую стоимость 7 кг яблок и 5 кг груши. Здесь \\(y\\) = 100.\n",
+              "kaz": "7 кг алма мен 5 кг алмұрт сатып алынды. 1 кг алманың бағасы \\(y\\) теңге. Алмұрт алмаға қарағанда 72 теңгеге қымбат.\n7 кг алма мен 5 кг алмұрттың бағаларын қосқанда қанша теңге болатын анықтаңыз. Мұндағы \\(y\\) = 100.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "اشترت الأم 2 كجم من التفاح و2 كجم من الجوافة.\nإذا كان سعر 1 كجم من التفاح \\(b\\) جنيهًا، وزاد سعر كجم الجوافة 69 جنيهًا عن سعر كيلو التفاح،\nفأوجد إجمالي المبلغ المدفوع من الأم لشراء التفاح والجوافة. حيث \\(b\\) = 106.\n",
+              "areg": "اشترت الأم 7 كجم من التفاح و5 كجم من الجوافة.\nإذا كان سعر 1 كجم من التفاح \\(y\\) جنيهًا، وزاد سعر كجم الجوافة 72 جنيهًا عن سعر كيلو التفاح،\nفأوجد إجمالي المبلغ المدفوع من الأم لشراء التفاح والجوافة. حيث \\(y\\) = 100.\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_12_18_12",
           "position": 11,
-          "id": "bf095a38-8a11-40cc-8d1b-c363c1adab85",
+          "id": "bd588223-87c4-48a9-a2c6-e45de189c289",
           "solution": {
             "type": "text",
             "answer": {
@@ -669,7 +669,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "562",
+              "rus": "1560",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

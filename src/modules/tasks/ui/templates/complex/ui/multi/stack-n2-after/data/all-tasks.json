@@ -66,11 +66,11 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 40,
-            "number1": 9
-          },
           "title": null,
+          "fields": {
+            "number2": 20,
+            "number1": 7
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -78,15 +78,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "Məlumdur ki, iki çevrənin mərkəzləri A və B-dir, mərkəzlər arasındakı məsafə 9 sm-dir və bir çevrənin radiusu 40 mm-dir.\nOnda hər bir çevrənin diametrini tapın.\n",
-                  "kgz": "Эгерде эки тегеректин борборлору А жана В , борборлордун ортосундагы аралык  9 см ,\nал эми бир тегеректин радиусу 40 мм экени белгилүү болсо, анда ар бир тегеректин диаметрин табыңыз.\n",
-                  "uzb": "Markazlari A va B nuqtalarda bo'lgan, ikkita aylana markazlari orasidagi masofa 9 cm,\nva bir aylananing radiusi 40 mm ekanligi ma'lum bo'lsa, har aylananing diametrini toping.\n",
-                  "eng": "If it is known that the centres of two circles are A and B, the distance between the centres is 9\ncm and the radius of one circle is 40 mm, find the diameter of each circle.\n",
-                  "rus": "Если известно, что центры двух окружностей — А и В, расстояние между центрами — 9 см,\nа радиус одной окружности — 40 мм, то найдите диаметр каждой окружности.\n",
-                  "kaz": "Центрлері А және В нүктелері болатын, екі шеңбер центрлерінің ара қашықтығы 9 см,\nжәне бір шеңбердің радиусы 40 мм екені белгілі болса,\nонда әр шеңбердің диаметрін табыңдар.\n",
+                  "aze": "Məlumdur ki, iki çevrənin mərkəzləri A və B-dir, mərkəzlər arasındakı məsafə 7 sm-dir və bir çevrənin radiusu 20 mm-dir.\nOnda hər bir çevrənin diametrini tapın.\n",
+                  "kgz": "Эгерде эки тегеректин борборлору А жана В , борборлордун ортосундагы аралык  7 см ,\nал эми бир тегеректин радиусу 20 мм экени белгилүү болсо, анда ар бир тегеректин диаметрин табыңыз.\n",
+                  "uzb": "Markazlari A va B nuqtalarda bo'lgan, ikkita aylana markazlari orasidagi masofa 7 cm,\nva bir aylananing radiusi 20 mm ekanligi ma'lum bo'lsa, har aylananing diametrini toping.\n",
+                  "eng": "If it is known that the centres of two circles are A and B, the distance between the centres is 7\ncm and the radius of one circle is 20 mm, find the diameter of each circle.\n",
+                  "rus": "Если известно, что центры двух окружностей — А и В, расстояние между центрами — 7 см,\nа радиус одной окружности — 20 мм, то найдите диаметр каждой окружности.\n",
+                  "kaz": "Центрлері А және В нүктелері болатын, екі шеңбер центрлерінің ара қашықтығы 7 см,\nжәне бір шеңбердің радиусы 20 мм екені белгілі болса,\nонда әр шеңбердің диаметрін табыңдар.\n",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "لدينا دائرتان المسافة بين مركزيهما 9  سم.\nإذا كانت النقطتان A وB تمثلان مركزي الدائرتين، وكان نصف قطر إحدى الدائرتين 40 مم، فأوجد قطر كل دائرة.\n",
+                  "areg": "لدينا دائرتان المسافة بين مركزيهما 7  سم.\nإذا كانت النقطتان A وB تمثلان مركزي الدائرتين، وكان نصف قطر إحدى الدائرتين 20 مم، فأوجد قطر كل دائرة.\n",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -108,7 +108,7 @@
           },
           "type": "Elixir.Task_4_7_18_16",
           "position": 13,
-          "id": "60722bac-3564-41ff-b0fc-9254ed45f26d",
+          "id": "28a7899b-a554-4135-be14-45d8fd8a3e43",
           "solution": {
             "type": "formula",
             "answer": {
@@ -119,7 +119,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "8;;10",
+              "rus": "4;;10",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

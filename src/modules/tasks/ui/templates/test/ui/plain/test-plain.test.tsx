@@ -34,12 +34,12 @@ describe('test.plain', () => {
     const question =
       typeof task.description.question === 'string'
         ? task.description.question
-        : (task.description.question as { rus?: string } | null)?.rus ?? ''
+        : ((task.description.question as { rus?: string } | null)?.rus ?? '')
     const firstVariant = task.description.variants?.[0]
     const firstLabel =
       typeof firstVariant === 'string'
         ? firstVariant
-        : (firstVariant as { rus?: string } | undefined)?.rus ?? ''
+        : ((firstVariant as { rus?: string } | undefined)?.rus ?? '')
 
     expect(screen.getByTestId('test-question')).toHaveTextContent(question)
     expect(screen.getByTestId('test-question')).toHaveStyle({
@@ -57,7 +57,7 @@ describe('test.plain', () => {
     const firstLabel =
       typeof firstVariant === 'string'
         ? firstVariant
-        : (firstVariant as { rus?: string } | undefined)?.rus ?? ''
+        : ((firstVariant as { rus?: string } | undefined)?.rus ?? '')
 
     fireEvent.click(screen.getByLabelText(firstLabel))
     expect(onChange).toHaveBeenCalledWith('A')
@@ -96,10 +96,11 @@ describe('test.plain', () => {
       } as TestTask['title'],
     }
 
-    const { container } = renderTemplate(Template, svgTask)
+    renderTemplate(Template, svgTask)
 
-    expect(container.querySelectorAll('svg')).toHaveLength(2)
-    expect(container).not.toHaveTextContent('<svg')
+    const svgMatches = document.body.innerHTML.match(/<svg[\s>]/g) ?? []
+    expect(svgMatches).toHaveLength(2)
+    expect(document.body).not.toHaveTextContent('<svg')
     expect(screen.getByLabelText('A')).toBeInTheDocument()
     expect(screen.getByLabelText('B')).toBeInTheDocument()
   })

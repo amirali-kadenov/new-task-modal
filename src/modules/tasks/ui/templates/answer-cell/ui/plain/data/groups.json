@@ -359,9 +359,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 52936
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Boş xanaya uyğun ədədi yazın.",
@@ -375,6 +372,9 @@
         "areg": "اكتب العدد المناسب في المربع الفارغ",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 11157
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -385,22 +385,22 @@
         "answer_cell_margin": "",
         "content": {
           "with_audio_player": false,
-          "aze": "Bu answercell ədəd 52936 ədədindən sonra gəlir.",
-          "kgz": "Бул answercell сан 52936 санынан кийин келет.",
-          "uzb": "answercell soni 52936 dan keyin keladi.",
-          "eng": "answercell The number that comes after 52936.",
-          "rus": "Число answercell идет после числа 52936.",
-          "kaz": "answercell саны 52936-дан кейін келеді.",
+          "aze": "Bu answercell ədəd 11157 ədədindən sonra gəlir.",
+          "kgz": "Бул answercell сан 11157 санынан кийин келет.",
+          "uzb": "answercell soni 11157 dan keyin keladi.",
+          "eng": "answercell The number that comes after 11157.",
+          "rus": "Число answercell идет после числа 11157.",
+          "kaz": "answercell саны 11157-ден кейін келеді.",
           "arjd": "",
           "arsa": "",
-          "areg": "العدد الذي يأتي بعد 52936 هو answercell.",
+          "areg": "العدد الذي يأتي بعد 11157 هو answercell.",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "answerCell"
       },
       "type": "Elixir.Task_4_1_66",
       "position": 26,
-      "id": "c4a941c3-2418-4a3b-b2de-6890ba43505c",
+      "id": "6393523f-2e25-499c-8036-f4c2f929b3ac",
       "solution": {
         "type": "formula",
         "answer": {
@@ -411,7 +411,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "52937",
+          "rus": "11158",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -720,10 +720,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 6,
-        "number1": 3
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Millimetrlə ifadə edin.",
@@ -737,6 +733,10 @@
         "areg": "حول إلى وحدة المليمتر",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 2,
+        "number1": 2
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -747,22 +747,22 @@
         "answer_cell_margin": "",
         "content": {
           "with_audio_player": false,
-          "aze": "3 sm 6 mm = \\( \\ \\) answercell \\( \\ \\) mm",
-          "kgz": "3 см 6 мм = \\( \\ \\) answercell \\( \\ \\) мм",
-          "uzb": "3 cm 6 mm = \\( \\ \\) answercell \\( \\ \\) mm",
-          "eng": "3 cm 6 mm = \\( \\ \\) answercell \\( \\ \\) mm",
-          "rus": "3 см 6 мм = \\( \\ \\) answercell \\( \\ \\) мм",
-          "kaz": "3 см 6 мм = \\( \\ \\) answercell \\( \\ \\) мм",
-          "arjd": "3 cm 6  = \\( \\ \\) answercell \\( \\ \\) ",
-          "arsa": "3 سم 6 مم = \\( \\ \\) answercell \\( \\ \\) مم",
-          "areg": "3 سم 6 مم = \\( \\ \\) answercell \\( \\ \\) مم",
+          "aze": "2 sm 2 mm = \\( \\ \\) answercell \\( \\ \\) mm",
+          "kgz": "2 см 2 мм = \\( \\ \\) answercell \\( \\ \\) мм",
+          "uzb": "2 cm 2 mm = \\( \\ \\) answercell \\( \\ \\) mm",
+          "eng": "2 cm 2 mm = \\( \\ \\) answercell \\( \\ \\) mm",
+          "rus": "2 см 2 мм = \\( \\ \\) answercell \\( \\ \\) мм",
+          "kaz": "2 см 2 мм = \\( \\ \\) answercell \\( \\ \\) мм",
+          "arjd": "2 cm 2  = \\( \\ \\) answercell \\( \\ \\) ",
+          "arsa": "2 سم 2 مم = \\( \\ \\) answercell \\( \\ \\) مم",
+          "areg": "2 سم 2 مم = \\( \\ \\) answercell \\( \\ \\) مم",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "answerCell"
       },
       "type": "Elixir.Task_4_6_1_21",
       "position": 20,
-      "id": "485b67b1-48f0-4857-ba76-c3290f41f166",
+      "id": "5487b7d9-9631-4d06-9818-4915513822af",
       "solution": {
         "type": "formula",
         "answer": {
@@ -773,7 +773,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "36",
+          "rus": "22",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1073,11 +1073,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 989,
-        "number2": 2,
-        "number1": 9
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Dəqiqə ilə ifadə edin.",
@@ -1091,6 +1086,11 @@
         "areg": "حول من إلى وحدة الدقيقة:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 966,
+        "number2": 9,
+        "number1": 4
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -1101,22 +1101,22 @@
         "answer_cell_margin": "",
         "content": {
           "with_audio_player": false,
-          "aze": "9 gün 2 saat 989 dəqiqə = \\( \\ \\) answercell \\( \\ \\) dəqiqə",
+          "aze": "4 gün 9 saat 966 dəqiqə = \\( \\ \\) answercell \\( \\ \\) dəqiqə",
           "kgz": "",
-          "uzb": "9 kun 2 soat 989 minut = \\( \\ \\) answercell \\( \\ \\) minut",
-          "eng": "9 hours 2 minutes 989 seconds = \\( \\ \\) answercell \\( \\ \\) minutes",
-          "rus": "9 сут. 2 ч 989 мин = \\( \\ \\) answercell \\( \\ \\) мин",
-          "kaz": "9 тәулік 2 сағат 989 минут = \\( \\ \\) answercell \\( \\ \\) минут",
+          "uzb": "4 kun 9 soat 966 minut = \\( \\ \\) answercell \\( \\ \\) minut",
+          "eng": "4 hours 9 minutes 966 seconds = \\( \\ \\) answercell \\( \\ \\) minutes",
+          "rus": "4 сут. 9 ч 966 мин = \\( \\ \\) answercell \\( \\ \\) мин",
+          "kaz": "4 тәулік 9 сағат 966 минут = \\( \\ \\) answercell \\( \\ \\) минут",
           "arjd": "",
           "arsa": "",
-          "areg": "9 أيام وساعتان و989 دقيقة = \\( \\ \\) answercell \\( \\ \\) دقيقة\n",
+          "areg": "4 أيام و9 ساعات و966 دقيقة = \\( \\ \\) answercell \\( \\ \\) دقيقة\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "answerCell"
       },
       "type": "Elixir.Task_4_6_3_20",
       "position": 19,
-      "id": "665093c9-99e7-44bf-b10a-200d31bec8f2",
+      "id": "d39a1aba-6c62-4618-84c6-d78a09ef3c25",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1127,7 +1127,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "14069",
+          "rus": "7266",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1265,9 +1265,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 8
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Faizi kəsr şəklində yazın.",
@@ -1281,6 +1278,9 @@
         "areg": "اكتب النسبة المئوية في صورة كسر اعتيادي.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 2
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -1289,12 +1289,12 @@
         "is_column": false,
         "image_before": "",
         "answer_cell_margin": "",
-        "content": "8% = answercell",
+        "content": "2% = answercell",
         "type": "answerCell"
       },
       "type": "Elixir.Task_4_11_3_3",
       "position": 2,
-      "id": "2ec0e62c-d588-4f79-a1e2-a5e1616b9399",
+      "id": "88dd1d65-9166-4ed9-8686-00e51df84da6",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1305,7 +1305,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "\\frac{8}{100}",
+          "rus": "\\frac{2}{100}",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1398,12 +1398,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 351,
-        "number3": 124,
-        "number2": 851,
-        "number1": 63
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Əməliyyatı yerinə yetirin və verilmiş ölçü vahidi ilə ifadə edin.",
@@ -1417,6 +1411,12 @@
         "areg": "أوجد ناتج ما يلى بوحدة القياس المطلوبة:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 263,
+        "number3": 336,
+        "number2": 641,
+        "number1": 51
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -1427,22 +1427,22 @@
         "answer_cell_margin": "",
         "content": {
           "with_audio_player": false,
-          "aze": "63 m 851 sm - 124 dm 351 sm = \\( \\ \\) answercell \\( \\ \\) sm",
-          "kgz": "63 м 851 см - 124 дм 351 см = \\( \\ \\) answercell \\( \\ \\) см",
-          "uzb": "63 m 851 cm - 124 dm 351 cm = \\( \\ \\) answercell \\( \\ \\) cm",
-          "eng": "63 m 851 cm - 124 dm 351 cm = \\( \\ \\) answercell \\( \\ \\) cm",
-          "rus": "63 м 851 см - 124 дм 351 см = \\( \\ \\) answercell \\( \\ \\) см",
-          "kaz": "63 м 851 см - 124 дм 351 см = \\( \\ \\) answercell \\( \\ \\) см",
-          "arjd": "63  851 cm - 124  351 cm = \\( \\ \\) answercell \\( \\ \\) cm",
-          "arsa": "63 م 851 سم - 124 ديسم 351 سم = \\( \\ \\) answercell \\( \\ \\) سم",
-          "areg": "63 م 851 سم - 124 دسم 351 سم = \\( \\ \\) answercell \\( \\ \\) سم",
+          "aze": "51 m 641 sm - 336 dm 263 sm = \\( \\ \\) answercell \\( \\ \\) sm",
+          "kgz": "51 м 641 см - 336 дм 263 см = \\( \\ \\) answercell \\( \\ \\) см",
+          "uzb": "51 m 641 cm - 336 dm 263 cm = \\( \\ \\) answercell \\( \\ \\) cm",
+          "eng": "51 m 641 cm - 336 dm 263 cm = \\( \\ \\) answercell \\( \\ \\) cm",
+          "rus": "51 м 641 см - 336 дм 263 см = \\( \\ \\) answercell \\( \\ \\) см",
+          "kaz": "51 м 641 см - 336 дм 263 см = \\( \\ \\) answercell \\( \\ \\) см",
+          "arjd": "51  641 cm - 336  263 cm = \\( \\ \\) answercell \\( \\ \\) cm",
+          "arsa": "51 م 641 سم - 336 ديسم 263 سم = \\( \\ \\) answercell \\( \\ \\) سم",
+          "areg": "51 م 641 سم - 336 دسم 263 سم = \\( \\ \\) answercell \\( \\ \\) سم",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "answerCell"
       },
       "type": "Elixir.Task_4_6_9_7",
       "position": 6,
-      "id": "0eaa7496-26e6-45f2-b985-4bd33633abcc",
+      "id": "ec26cf04-6e5e-40ac-99f6-a84c5092a7a5",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1453,7 +1453,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "5560",
+          "rus": "2118",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1537,24 +1537,24 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 62
-      },
       "title": null,
+      "fields": {
+        "number": 22
+      },
       "description": {
         "withAudio": true,
         "type": "answerCell",
         "textBefore": {
           "with_audio_player": false,
-          "aze": "62 ildə neçə gün var? (1 il = 365 gün)",
-          "kgz": "62 жылда канча күн бар? (1 жыл = 365 күн)",
-          "uzb": "62 yilda necha kun bor? (1yil=365kun)",
-          "eng": "How many days are there in 62 years? (1 year = 365 days)",
-          "rus": "Сколько дней в 62 годах? (1 год = 365 дней) ",
-          "kaz": "62 жылда қанша күн бар? (1 жыл = 365 күн)",
+          "aze": "22 ildə neçə gün var? (1 il = 365 gün)",
+          "kgz": "22 жылда канча күн бар? (1 жыл = 365 күн)",
+          "uzb": "22 yilda necha kun bor? (1yil=365kun)",
+          "eng": "How many days are there in 22 years? (1 year = 365 days)",
+          "rus": "Сколько дней в 22 годах? (1 год = 365 дней) ",
+          "kaz": "22 жылда қанша күн бар? (1 жыл = 365 күн)",
           "arjd": "",
           "arsa": "",
-          "areg": "كم يوما في 62 سنةً ؟ (سنة واحدة = 365 يوما)",
+          "areg": "كم يوما في 22 سنةً ؟ (سنة واحدة = 365 يوما)",
           "module_name": "Elixir.Helpers.Translation"
         },
         "textAfter": "",
@@ -1563,22 +1563,22 @@
         "imageBefore": "",
         "content": {
           "with_audio_player": false,
-          "aze": "62 il = \\( \\ \\) answercell \\( \\ \\) gün",
-          "kgz": "62 жыл = \\( \\ \\) answercell \\( \\ \\) күн",
-          "uzb": "62 yil = \\( \\ \\) answercell \\( \\ \\) kun",
-          "eng": "62 years = \\( \\ \\) answercell \\( \\ \\) days",
-          "rus": "62 года = \\( \\ \\) answercell \\( \\ \\) дней",
-          "kaz": "62 жыл = \\( \\ \\) answercell \\( \\ \\) күн",
+          "aze": "22 il = \\( \\ \\) answercell \\( \\ \\) gün",
+          "kgz": "22 жыл = \\( \\ \\) answercell \\( \\ \\) күн",
+          "uzb": "22 yil = \\( \\ \\) answercell \\( \\ \\) kun",
+          "eng": "22 years = \\( \\ \\) answercell \\( \\ \\) days",
+          "rus": "22 года = \\( \\ \\) answercell \\( \\ \\) дней",
+          "kaz": "22 жыл = \\( \\ \\) answercell \\( \\ \\) күн",
           "arjd": "",
           "arsa": "",
-          "areg": "62 سنةً = \\( \\ \\) answercell \\( \\ \\) يوم",
+          "areg": "22 سنةً = \\( \\ \\) answercell \\( \\ \\) يوم",
           "module_name": "Elixir.Helpers.Translation"
         },
         "answerCellMargin": ""
       },
       "type": "Elixir.Task_4_6_4_5",
       "position": 4,
-      "id": "7a2b615e-78d3-46eb-8378-4fd57006e183",
+      "id": "800161df-537f-48eb-b7f4-764287d045d4",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1589,7 +1589,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "22630",
+          "rus": "8030",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1664,10 +1664,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 9,
-        "number1": 8
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Qanunauyğunluğu müəyyən edin və boş xanaya uyğun olan ədədi yazın.",
@@ -1681,6 +1677,10 @@
         "areg": "حدد النمط في التسلسل، ثم اكتب الرقم المناسب في الخانة الفارغة.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 9,
+        "number1": 6
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -1689,12 +1689,12 @@
         "is_column": false,
         "image_before": "",
         "answer_cell_margin": "",
-        "content": "8; 9; 8; 9; 8; 9; answercell",
+        "content": "6; 9; 6; 9; 6; 9; answercell",
         "type": "answerCell"
       },
       "type": "Elixir.Task_4_12_19_1",
       "position": 0,
-      "id": "7b08e632-8e39-42f9-bfbf-f4b651e8177e",
+      "id": "403213f0-545a-4eee-99c5-29dba34813d9",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1705,7 +1705,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "8",
+          "rus": "6",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

@@ -1,15 +1,15 @@
+import { getCorrectMultiAnswerParts } from '@/modules/tasks/lib/get-correct-multi-answer-parts'
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
-import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Task } from '@/types/api/task'
 import { MathFormula } from '@/ui/math-text/math-formula'
 
 import { joinMathAnswers } from '../lib/join-math-answers'
 import { maybeNormalizeBareMath } from '../lib/normalize-bare-math'
-import { stripMathDelimiters } from '../lib/strip-math-delimiters'
 import type { TextTask } from '../lib/types.task'
 
 import { TextAdornment } from './text-adornment'
@@ -35,10 +35,12 @@ export const MultiTextSolution = ({
   const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
     deps.global.translateTasks(value)
 
-  const correctValues = stripMathDelimiters(
-    getCorrectAnswerFromSolution(solution, translate),
-  ).split(separator)
-  const userValues = answer.split(separator)
+  const correctValues = getCorrectMultiAnswerParts(
+    solution,
+    separator,
+    translate,
+  )
+  const userValues = splitMultiAnswer(answer, separator)
 
   const inputEntries = getInlineInputEntries(
     task as unknown as Task<'text'>,
@@ -66,10 +68,7 @@ export const MultiTextSolution = ({
         className={layout === 'inline' ? styles.inline : styles.stack}
       >
         {inputEntries.map(({ key, before, after }, index) => (
-          <div
-            key={key}
-            className={`${styles.inputRow} ${styles.solutionRow}`}
-          >
+          <div key={key} className={`${styles.inputRow} ${styles.solutionRow}`}>
             {before && (
               <TextAdornment
                 data-testid="text-prefix"
@@ -91,7 +90,7 @@ export const MultiTextSolution = ({
         ))}
       </div>
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

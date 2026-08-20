@@ -42,9 +42,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 159
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -58,6 +55,9 @@
             "areg": "حول إلى وحدة القياس المحددة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 847
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -68,12 +68,12 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "159 kq = answercell s answercell kq",
-              "kgz": "159 кг = answercell ц answercell кг",
-              "uzb": "159 kg = answercell q answercell kg",
-              "eng": "159 kg = answercell centners answercell kg",
-              "rus": "159 кг = answercell ц answercell кг",
-              "kaz": "159 кг = answercell ц answercell кг",
+              "aze": "847 kq = answercell s answercell kq",
+              "kgz": "847 кг = answercell ц answercell кг",
+              "uzb": "847 kg = answercell q answercell kg",
+              "eng": "847 kg = answercell centners answercell kg",
+              "rus": "847 кг = answercell ц answercell кг",
+              "kaz": "847 кг = answercell ц answercell кг",
               "arjd": "",
               "arsa": "",
               "areg": "",
@@ -83,7 +83,7 @@
           },
           "type": "Elixir.Task_4_6_2_22",
           "position": 21,
-          "id": "d99ebba5-0a04-4ccb-932f-84d4679156b4",
+          "id": "12e8157b-bc28-432d-a3e0-0992e43be941",
           "solution": {
             "type": "formula",
             "answer": {
@@ -94,7 +94,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "1;;59",
+              "rus": "8;;47",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -171,9 +171,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 72
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -187,6 +184,9 @@
             "areg": "حول إلى وحدة القياس المحددة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 74
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -197,12 +197,12 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "72 s = answercell t answercell s",
-              "kgz": "72 ц = answercell т answercell ц",
-              "uzb": "72 q = answercell t answercell q",
-              "eng": "72 centners = answercell tonnes answercell centners",
-              "rus": "72 ц = answercell т answercell ц",
-              "kaz": "72 ц = answercell т answercell ц",
+              "aze": "74 s = answercell t answercell s",
+              "kgz": "74 ц = answercell т answercell ц",
+              "uzb": "74 q = answercell t answercell q",
+              "eng": "74 centners = answercell tonnes answercell centners",
+              "rus": "74 ц = answercell т answercell ц",
+              "kaz": "74 ц = answercell т answercell ц",
               "arjd": "",
               "arsa": "",
               "areg": "",
@@ -212,7 +212,7 @@
           },
           "type": "Elixir.Task_4_6_2_24",
           "position": 23,
-          "id": "e7bab804-24cf-49de-a222-03f0ff1533fc",
+          "id": "bc849d61-df6c-44a5-950b-d0e452766d86",
           "solution": {
             "type": "formula",
             "answer": {
@@ -223,7 +223,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "7;;2",
+              "rus": "7;;4",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -300,9 +300,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 779
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -316,6 +313,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 427
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -326,22 +326,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "779 mm = \\( \\ \\) answercell \\( \\ \\) sm \\( \\ \\) answercell \\( \\ \\) mm",
-              "kgz": "779 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
-              "uzb": "779 mm = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) mm",
-              "eng": "779 mm = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) mm",
-              "rus": "779 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
-              "kaz": "779 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
-              "arjd": "779  = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) ",
-              "arsa": "779 مم = \\( \\ \\) answercell \\( \\ \\) سم \\( \\ \\) answercell \\( \\ \\) مم",
-              "areg": "779 مم = \\( \\ \\) answercell \\( \\ \\) سم \\( \\ \\) answercell \\( \\ \\) مم",
+              "aze": "427 mm = \\( \\ \\) answercell \\( \\ \\) sm \\( \\ \\) answercell \\( \\ \\) mm",
+              "kgz": "427 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
+              "uzb": "427 mm = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) mm",
+              "eng": "427 mm = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) mm",
+              "rus": "427 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
+              "kaz": "427 мм = \\( \\ \\) answercell \\( \\ \\) см \\( \\ \\) answercell \\( \\ \\) мм",
+              "arjd": "427  = \\( \\ \\) answercell \\( \\ \\) cm \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "427 مم = \\( \\ \\) answercell \\( \\ \\) سم \\( \\ \\) answercell \\( \\ \\) مم",
+              "areg": "427 مم = \\( \\ \\) answercell \\( \\ \\) سم \\( \\ \\) answercell \\( \\ \\) مم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_1",
           "position": 0,
-          "id": "b76f1c6d-c358-4767-a6b2-174466e4126c",
+          "id": "bba66c2f-51e0-41fb-9e83-355accd9b60f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -352,7 +352,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "77;;9",
+              "rus": "42;;7",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -429,9 +429,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 595
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -445,6 +442,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 851
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -455,22 +455,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "595 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
-              "kgz": "595 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
-              "uzb": "595 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
-              "eng": "595 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
-              "rus": "595 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
-              "kaz": "595 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
-              "arjd": "595  = \\( \\ \\) answercell  \\( \\ \\) answercell \\( \\ \\) ",
-              "arsa": "595 مم = \\( \\ \\) answercell ديسم \\( \\ \\) answercell \\( \\ \\) مم",
-              "areg": "595 مم = \\( \\ \\) answercell دسم \\( \\ \\) answercell \\( \\ \\) مم",
+              "aze": "851 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
+              "kgz": "851 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
+              "uzb": "851 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
+              "eng": "851 mm = \\( \\ \\) answercell dm \\( \\ \\) answercell \\( \\ \\) mm",
+              "rus": "851 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
+              "kaz": "851 мм = \\( \\ \\) answercell дм \\( \\ \\) answercell \\( \\ \\) мм",
+              "arjd": "851  = \\( \\ \\) answercell  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "851 مم = \\( \\ \\) answercell ديسم \\( \\ \\) answercell \\( \\ \\) مم",
+              "areg": "851 مم = \\( \\ \\) answercell دسم \\( \\ \\) answercell \\( \\ \\) مم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_2",
           "position": 1,
-          "id": "dfe3fbaf-95e8-4060-9f35-407b49de7ba0",
+          "id": "f0d1ae17-43bd-42f2-8b5b-4c24efec9f33",
           "solution": {
             "type": "formula",
             "answer": {
@@ -481,7 +481,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "5;;95",
+              "rus": "8;;51",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -558,9 +558,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 159
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -574,6 +571,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 749
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -584,22 +584,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "159 sm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) sm",
-              "kgz": "159 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
-              "uzb": "159 cm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) cm",
-              "eng": "159 cm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) cm",
-              "rus": "159 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
-              "kaz": "159 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
-              "arjd": "159 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) cm",
-              "arsa": "159 سم = \\( \\ \\) answercell \\( \\ \\) ديسم \\( \\ \\) answercell \\( \\ \\) سم",
-              "areg": "159 سم = \\( \\ \\) answercell \\( \\ \\) دسم \\( \\ \\) answercell \\( \\ \\) سم",
+              "aze": "749 sm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) sm",
+              "kgz": "749 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
+              "uzb": "749 cm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) cm",
+              "eng": "749 cm = \\( \\ \\) answercell \\( \\ \\) dm \\( \\ \\) answercell \\( \\ \\) cm",
+              "rus": "749 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
+              "kaz": "749 см = \\( \\ \\) answercell \\( \\ \\) дм \\( \\ \\) answercell \\( \\ \\) см",
+              "arjd": "749 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) cm",
+              "arsa": "749 سم = \\( \\ \\) answercell \\( \\ \\) ديسم \\( \\ \\) answercell \\( \\ \\) سم",
+              "areg": "749 سم = \\( \\ \\) answercell \\( \\ \\) دسم \\( \\ \\) answercell \\( \\ \\) سم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_3",
           "position": 2,
-          "id": "c07606d2-78fd-4241-9d27-bfade4f4561e",
+          "id": "15caf006-0257-4ab8-8664-8531ddf83a1e",
           "solution": {
             "type": "formula",
             "answer": {
@@ -610,7 +610,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "15;;9",
+              "rus": "74;;9",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -687,9 +687,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 7612
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -703,6 +700,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 8437
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -713,22 +713,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "7612 sm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) sm",
-              "kgz": "7612 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
-              "uzb": "7612 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) cm",
-              "eng": "7612 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) cm",
-              "rus": "7612 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
-              "kaz": "7612 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
-              "arjd": "7612 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) cm",
-              "arsa": "7612 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) سم",
-              "areg": "7612 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) سم",
+              "aze": "8437 sm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) sm",
+              "kgz": "8437 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
+              "uzb": "8437 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) cm",
+              "eng": "8437 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) cm",
+              "rus": "8437 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
+              "kaz": "8437 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) см",
+              "arjd": "8437 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) cm",
+              "arsa": "8437 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) سم",
+              "areg": "8437 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) سم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_4",
           "position": 3,
-          "id": "5ce4f2db-2b8a-445a-a120-c18514e296e4",
+          "id": "5fde7789-ef05-4888-a699-61b4d516c199",
           "solution": {
             "type": "formula",
             "answer": {
@@ -739,7 +739,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "76;;12",
+              "rus": "84;;37",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -816,9 +816,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 334
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -832,6 +829,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 899
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -842,22 +842,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "334 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
-              "kgz": "334 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
-              "uzb": "334 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
-              "eng": "334 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
-              "rus": "334 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
-              "kaz": "334 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
-              "arjd": "334  = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
-              "arsa": "334 ديسم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) ديسم",
-              "areg": "334 دسم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) دسم",
+              "aze": "899 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "kgz": "899 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "uzb": "899 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "eng": "899 dm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "rus": "899 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "kaz": "899 дм = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "arjd": "899  = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "899 ديسم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) ديسم",
+              "areg": "899 دسم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) دسم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_5",
           "position": 4,
-          "id": "edb24289-a1ba-4277-ae56-9675cc563fbc",
+          "id": "135d300d-e128-4a52-bd5f-a7a3f9a800c7",
           "solution": {
             "type": "formula",
             "answer": {
@@ -868,7 +868,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "33;;4",
+              "rus": "89;;9",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -945,9 +945,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 3170
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -961,6 +958,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 8320
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -971,22 +971,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "3170 sm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
-              "kgz": "3170 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
-              "uzb": "3170 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
-              "eng": "3170 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
-              "rus": "3170 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
-              "kaz": "3170 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
-              "arjd": "3170 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
-              "arsa": "3170 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) ديسم",
-              "areg": "3170 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) دسم",
+              "aze": "8320 sm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "kgz": "8320 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "uzb": "8320 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "eng": "8320 cm = \\( \\ \\) answercell \\( \\ \\) m \\( \\ \\) answercell \\( \\ \\) dm",
+              "rus": "8320 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "kaz": "8320 см = \\( \\ \\) answercell \\( \\ \\) м \\( \\ \\) answercell \\( \\ \\) дм",
+              "arjd": "8320 cm = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "8320 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) ديسم",
+              "areg": "8320 سم = \\( \\ \\) answercell \\( \\ \\) م \\( \\ \\) answercell \\( \\ \\) دسم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_6",
           "position": 5,
-          "id": "948f4ec4-c900-4532-8160-3968118fcc05",
+          "id": "98df2f13-328d-4383-b280-ba275cdbf4aa",
           "solution": {
             "type": "formula",
             "answer": {
@@ -997,7 +997,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "31;;7",
+              "rus": "83;;2",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1074,9 +1074,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 79482
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1090,6 +1087,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 18985
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1100,22 +1100,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "79482 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
-              "kgz": "79482 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
-              "uzb": "79482 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
-              "eng": "79482 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
-              "rus": "79482 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
-              "kaz": "79482 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
-              "arjd": "79482  = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
-              "arsa": "79482 م = \\( \\ \\) answercell \\( \\ \\) كلم \\( \\ \\) answercell \\( \\ \\) م",
-              "areg": "79482 م = \\( \\ \\) answercell \\( \\ \\) كم \\( \\ \\) answercell \\( \\ \\) م",
+              "aze": "18985 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
+              "kgz": "18985 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
+              "uzb": "18985 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
+              "eng": "18985 m = \\( \\ \\) answercell \\( \\ \\) km \\( \\ \\) answercell \\( \\ \\) m",
+              "rus": "18985 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
+              "kaz": "18985 м = \\( \\ \\) answercell \\( \\ \\) км \\( \\ \\) answercell \\( \\ \\) м",
+              "arjd": "18985  = \\( \\ \\) answercell \\( \\ \\)  \\( \\ \\) answercell \\( \\ \\) ",
+              "arsa": "18985 م = \\( \\ \\) answercell \\( \\ \\) كلم \\( \\ \\) answercell \\( \\ \\) م",
+              "areg": "18985 م = \\( \\ \\) answercell \\( \\ \\) كم \\( \\ \\) answercell \\( \\ \\) م",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_7",
           "position": 6,
-          "id": "d28695eb-3a64-48df-8096-8109693c7ef7",
+          "id": "52ca1d6c-afea-4d27-b179-d2b6af3d526a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1126,7 +1126,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "79;;482",
+              "rus": "18;;985",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1203,9 +1203,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 9229
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1219,6 +1216,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 2304
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1229,22 +1229,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "9229 ml = \\( \\ \\) answercell \\( \\ \\) l \\( \\ \\) answercell \\( \\ \\) ml",
-              "kgz": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
-              "uzb": "9229 mL = \\( \\ \\) answercell \\( \\ \\) L \\( \\ \\) answercell \\( \\ \\) mL",
-              "eng": "9229 ml = \\( \\ \\) answercell \\( \\ \\) l \\( \\ \\) answercell \\( \\ \\) ml",
-              "rus": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
-              "kaz": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
-              "arjd": "9229 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
-              "arsa": "9229 ملل = \\( \\ \\) answercell \\( \\ \\) لتر \\( \\ \\) answercell \\( \\ \\) ملل",
-              "areg": "9229 ملل = \\( \\ \\) answercell \\( \\ \\) لتر \\( \\ \\) answercell \\( \\ \\) ملل",
+              "aze": "2304 ml = \\( \\ \\) answercell \\( \\ \\) l \\( \\ \\) answercell \\( \\ \\) ml",
+              "kgz": "2304 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "uzb": "2304 mL = \\( \\ \\) answercell \\( \\ \\) L \\( \\ \\) answercell \\( \\ \\) mL",
+              "eng": "2304 ml = \\( \\ \\) answercell \\( \\ \\) l \\( \\ \\) answercell \\( \\ \\) ml",
+              "rus": "2304 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "kaz": "2304 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "arjd": "2304 мл = \\( \\ \\) answercell \\( \\ \\) л \\( \\ \\) answercell \\( \\ \\) мл",
+              "arsa": "2304 ملل = \\( \\ \\) answercell \\( \\ \\) لتر \\( \\ \\) answercell \\( \\ \\) ملل",
+              "areg": "2304 ملل = \\( \\ \\) answercell \\( \\ \\) لتر \\( \\ \\) answercell \\( \\ \\) ملل",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_8",
           "position": 7,
-          "id": "f036cb26-89b6-4ba4-a1cc-bae9e7091ec0",
+          "id": "5d3ada0c-d44d-493c-a6dd-21f69a7e4dfb",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1255,7 +1255,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "9;;229",
+              "rus": "2;;304",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1332,9 +1332,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 4193
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1348,6 +1345,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 1172
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1358,22 +1358,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "4193 mq = \\( \\ \\) answercell \\( \\ \\) q \\( \\ \\) answercell \\( \\ \\) mq",
-              "kgz": "4193 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
-              "uzb": "4193 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
-              "eng": "4193 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
-              "rus": "4193 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
-              "kaz": "4193 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
-              "arjd": "4193 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
-              "arsa": "4193 مجم = \\( \\ \\) answercell \\( \\ \\) جم \\( \\ \\) answercell \\( \\ \\) مجم",
-              "areg": "4193 مجم = \\( \\ \\) answercell \\( \\ \\) جم \\( \\ \\) answercell \\( \\ \\) مجم",
+              "aze": "1172 mq = \\( \\ \\) answercell \\( \\ \\) q \\( \\ \\) answercell \\( \\ \\) mq",
+              "kgz": "1172 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
+              "uzb": "1172 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
+              "eng": "1172 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
+              "rus": "1172 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
+              "kaz": "1172 мг = \\( \\ \\) answercell \\( \\ \\) г \\( \\ \\) answercell \\( \\ \\) мг",
+              "arjd": "1172 mg = \\( \\ \\) answercell \\( \\ \\) g \\( \\ \\) answercell \\( \\ \\) mg",
+              "arsa": "1172 مجم = \\( \\ \\) answercell \\( \\ \\) جم \\( \\ \\) answercell \\( \\ \\) مجم",
+              "areg": "1172 مجم = \\( \\ \\) answercell \\( \\ \\) جم \\( \\ \\) answercell \\( \\ \\) مجم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_9",
           "position": 8,
-          "id": "e72c356e-d479-41eb-aa69-d4cf32284712",
+          "id": "56ffd808-bb17-4aab-916d-8ae54417e409",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1384,7 +1384,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "4;;193",
+              "rus": "1;;172",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1461,9 +1461,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 26822
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1477,6 +1474,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 41618
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1487,22 +1487,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "26822 q = \\( \\ \\) answercell \\( \\ \\) kq \\( \\ \\) answercell \\( \\ \\) q",
-              "kgz": "26822 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
-              "uzb": "26822 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
-              "eng": "26822 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
-              "rus": "26822 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
-              "kaz": "26822 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
-              "arjd": "26822 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
-              "arsa": "26822 جم = \\( \\ \\) answercell \\( \\ \\) كغم \\( \\ \\) answercell \\( \\ \\) جم",
-              "areg": "26822 جم = \\( \\ \\) answercell \\( \\ \\) كجم \\( \\ \\) answercell \\( \\ \\) جم",
+              "aze": "41618 q = \\( \\ \\) answercell \\( \\ \\) kq \\( \\ \\) answercell \\( \\ \\) q",
+              "kgz": "41618 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
+              "uzb": "41618 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
+              "eng": "41618 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
+              "rus": "41618 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
+              "kaz": "41618 г = \\( \\ \\) answercell \\( \\ \\) кг \\( \\ \\) answercell \\( \\ \\) г",
+              "arjd": "41618 g = \\( \\ \\) answercell \\( \\ \\) kg \\( \\ \\) answercell \\( \\ \\) g",
+              "arsa": "41618 جم = \\( \\ \\) answercell \\( \\ \\) كغم \\( \\ \\) answercell \\( \\ \\) جم",
+              "areg": "41618 جم = \\( \\ \\) answercell \\( \\ \\) كجم \\( \\ \\) answercell \\( \\ \\) جم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_10",
           "position": 9,
-          "id": "89bff6ab-17ef-40bb-8548-48829c4243d5",
+          "id": "e0157d96-8825-4d96-aced-43b87d822c23",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1513,7 +1513,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "26;;822",
+              "rus": "41;;618",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1590,9 +1590,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 9291
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1606,6 +1603,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 7279
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1616,22 +1616,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "9291 kq = answercell s answercell kq",
-              "kgz": "9291 кг = answercell ц answercell кг",
-              "uzb": "9291 kg = answercell q answercell kg",
-              "eng": "9291 kg = answercell cwt answercell kg",
-              "rus": "9291 кг = answercell ц answercell кг",
-              "kaz": "9291 кг = answercell ц answercell кг",
-              "arjd": "9291 kg = answercell cwt answercell kg",
-              "arsa": "9291 كغم = answercell قنطار answercell كغم",
-              "areg": "9291 كجم = answercell قنطار answercell كجم",
+              "aze": "7279 kq = answercell s answercell kq",
+              "kgz": "7279 кг = answercell ц answercell кг",
+              "uzb": "7279 kg = answercell q answercell kg",
+              "eng": "7279 kg = answercell cwt answercell kg",
+              "rus": "7279 кг = answercell ц answercell кг",
+              "kaz": "7279 кг = answercell ц answercell кг",
+              "arjd": "7279 kg = answercell cwt answercell kg",
+              "arsa": "7279 كغم = answercell قنطار answercell كغم",
+              "areg": "7279 كجم = answercell قنطار answercell كجم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_11",
           "position": 10,
-          "id": "67b157d7-11a3-44e1-8565-389b13a3e07c",
+          "id": "b58f7896-70b9-4ec2-bbef-84a5443cb4b8",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1642,7 +1642,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "92;;91",
+              "rus": "72;;79",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1719,9 +1719,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 995593
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1735,6 +1732,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 218976
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1745,22 +1745,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "995593 kq = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kq",
-              "kgz": "995593 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
-              "uzb": "995593 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
-              "eng": "995593 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
-              "rus": "995593 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
-              "kaz": "995593 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
-              "arjd": "995593 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
-              "arsa": "995593 كغم = \\( \\ \\) answercell \\( \\ \\) طن \\( \\ \\) answercell \\( \\ \\) كغم",
-              "areg": "995593 كجم = \\( \\ \\) answercell \\( \\ \\) طن \\( \\ \\) answercell \\( \\ \\) كجم",
+              "aze": "218976 kq = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kq",
+              "kgz": "218976 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
+              "uzb": "218976 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
+              "eng": "218976 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
+              "rus": "218976 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
+              "kaz": "218976 кг = \\( \\ \\) answercell \\( \\ \\) т \\( \\ \\) answercell \\( \\ \\) кг",
+              "arjd": "218976 kg = \\( \\ \\) answercell \\( \\ \\) t \\( \\ \\) answercell \\( \\ \\) kg",
+              "arsa": "218976 كغم = \\( \\ \\) answercell \\( \\ \\) طن \\( \\ \\) answercell \\( \\ \\) كغم",
+              "areg": "218976 كجم = \\( \\ \\) answercell \\( \\ \\) طن \\( \\ \\) answercell \\( \\ \\) كجم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_12",
           "position": 11,
-          "id": "9be79af6-2c79-4912-a093-ef7127435b6b",
+          "id": "1b8e9cdf-7dba-4c7d-915c-505ea77f97b0",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1771,7 +1771,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "995;;593",
+              "rus": "218;;976",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1848,9 +1848,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 4514
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1864,6 +1861,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 3356
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -1874,12 +1874,12 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "4514 s = answercell t answercell s",
+              "aze": "3356 s = answercell t answercell s",
               "kgz": "",
-              "uzb": "4514 q = answercell t answercell q",
-              "eng": "4514 kg = answercell t answercell kg",
-              "rus": "4514 ц = answercell т answercell ц",
-              "kaz": "4514 ц = answercell т answercell ц",
+              "uzb": "3356 q = answercell t answercell q",
+              "eng": "3356 kg = answercell t answercell kg",
+              "rus": "3356 ц = answercell т answercell ц",
+              "kaz": "3356 ц = answercell т answercell ц",
               "arjd": "",
               "arsa": "",
               "areg": "",
@@ -1889,7 +1889,7 @@
           },
           "type": "Elixir.Task_4_6_11_13",
           "position": 12,
-          "id": "525431f2-4081-4e50-8207-5e8cd557cbb2",
+          "id": "22a13e4f-69a8-4797-81e8-ea88421db6ff",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1900,7 +1900,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "451;;4",
+              "rus": "335;;6",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1977,9 +1977,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 8455
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -1993,6 +1990,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 4813
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2003,22 +2003,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "8455 il = answercell əsr answercell il",
-              "kgz": "8455 жыл = answercell кылым answercell жыл",
-              "uzb": "8455 yil = answercell asr answercell yil",
-              "eng": "8455 years = \\( \\ \\) answercell \\( \\ \\) centuries \\( \\ \\) answercell \\( \\ \\) years",
-              "rus": "8455 лет = answercell веков answercell лет",
-              "kaz": "8455 жыл = answercell ғасыр answercell жыл",
+              "aze": "4813 il = answercell əsr answercell il",
+              "kgz": "4813 жыл = answercell кылым answercell жыл",
+              "uzb": "4813 yil = answercell asr answercell yil",
+              "eng": "4813 years = \\( \\ \\) answercell \\( \\ \\) centuries \\( \\ \\) answercell \\( \\ \\) years",
+              "rus": "4813 лет = answercell веков answercell лет",
+              "kaz": "4813 жыл = answercell ғасыр answercell жыл",
               "arjd": "",
               "arsa": "",
-              "areg": "8455 سنةً = answercell قرن answercell سنة",
+              "areg": "4813 سنةً = answercell قرن answercell سنة",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_14",
           "position": 13,
-          "id": "a26e29aa-d3a7-4e60-bafb-6c307abb54dc",
+          "id": "c90aff4a-2057-409f-a613-2b458ef7a870",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2029,7 +2029,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "84;;55",
+              "rus": "48;;13",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2106,9 +2106,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 883
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -2122,6 +2119,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 727
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2132,22 +2132,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "883 ay = answercell il answercell ay",
+              "aze": "727 ay = answercell il answercell ay",
               "kgz": "",
-              "uzb": "883 oy = answercell yil answercell oy",
-              "eng": "883 months = \\( \\ \\) answercell \\( \\ \\) years \\( \\ \\) answercell \\( \\ \\) months",
-              "rus": "883 месяца = answercell года answercell месяцев",
-              "kaz": "883 ай = answercell жыл answercell ай",
+              "uzb": "727 oy = answercell yil answercell oy",
+              "eng": "727 months = \\( \\ \\) answercell \\( \\ \\) years \\( \\ \\) answercell \\( \\ \\) months",
+              "rus": "727 месяцев = answercell лет answercell месяцев",
+              "kaz": "727 ай = answercell жыл answercell ай",
               "arjd": "",
               "arsa": "",
-              "areg": "883 شهرًا = answercell سنوات answercell أشهر",
+              "areg": "727 شهرًا = answercell سنوات answercell أشهر",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_15",
           "position": 14,
-          "id": "f1a5d245-9a19-4b12-b4eb-6f2a95bab437",
+          "id": "16f0f9c1-0251-44ea-9ef2-7f8822f4b6f3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2158,7 +2158,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "73;;7",
+              "rus": "60;;7",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2235,9 +2235,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 1053
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -2251,6 +2248,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 767
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2261,22 +2261,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "1053 gün = answercell həftə answercell gün",
-              "kgz": "1053 күн = answercell жума answercell күн",
-              "uzb": "1053 kun = answercell hafta answercell kun",
-              "eng": "1053 days = answercell weeks answercell days",
-              "rus": "1053 дня = answercell недель answercell дней",
-              "kaz": "1053 күн = answercell апта answercell күн",
+              "aze": "767 gün = answercell həftə answercell gün",
+              "kgz": "767 күн = answercell жума answercell күн",
+              "uzb": "767 kun = answercell hafta answercell kun",
+              "eng": "767 days = answercell weeks answercell days",
+              "rus": "767 дней = answercell недель answercell дней",
+              "kaz": "767 күн = answercell апта answercell күн",
               "arjd": "",
               "arsa": "",
-              "areg": "1053 يوما = answercell أسابيع وanswercell أيام",
+              "areg": "767 يوما = answercell أسابيع وanswercell أيام",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_16",
           "position": 15,
-          "id": "4ef9a21a-fbaa-4f9b-80a5-619805d6bd4e",
+          "id": "cc070ad8-d8be-40be-923d-aa0b08f30f3d",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2287,7 +2287,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "150;;3",
+              "rus": "109;;4",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2364,9 +2364,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 2807
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin. (1 ay = 30 gün)",
@@ -2380,6 +2377,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:\\(\\\\\\)(علماً بأن الشهر الواحد = 30 يومًا)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 1669
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2390,22 +2390,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "2807 gün = answercell ay answercell gün",
+              "aze": "1669 gün = answercell ay answercell gün",
               "kgz": "",
-              "uzb": "2807 kun = answercell oy answercell kun",
-              "eng": "2807 days = \\( \\ \\) answercell \\( \\ \\) months \\( \\ \\) answercell \\( \\ \\) days",
-              "rus": "2807 дней = answercell месяцев answercell дней",
-              "kaz": "2807 күн = answercell ай answercell күн",
+              "uzb": "1669 kun = answercell oy answercell kun",
+              "eng": "1669 days = \\( \\ \\) answercell \\( \\ \\) months \\( \\ \\) answercell \\( \\ \\) days",
+              "rus": "1669 дней = answercell месяцев answercell дней",
+              "kaz": "1669 күн = answercell ай answercell күн",
               "arjd": "",
               "arsa": "",
-              "areg": "2807 أيام = answercell شهرًا وanswercell يومًا",
+              "areg": "1669 يوما = answercell شهرًا وanswercell يومًا",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_17",
           "position": 16,
-          "id": "0de995f1-8f76-436d-9646-1deea882c869",
+          "id": "c9446c81-b0fb-4c2f-9d04-312275a6bdf5",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2416,7 +2416,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "93;;17",
+              "rus": "55;;19",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2493,9 +2493,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 1890
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -2509,6 +2506,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 1700
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2519,22 +2519,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "1890 saat = answercell gün answercell saat",
-              "kgz": "1890 саат = answercell сутка answercell саат",
-              "uzb": "1890 soat = answercell kun answercell soat",
-              "eng": "1,890 hours = \\( \\ \\)answercell \\( \\ \\) days \\( \\ \\)answercell \\( \\ \\) hours",
-              "rus": "1890 ч = answercell сут answercell ч",
-              "kaz": "1890 сағат = answercell тәулік answercell сағат",
+              "aze": "1700 saat = answercell gün answercell saat",
+              "kgz": "1700 саат = answercell сутка answercell саат",
+              "uzb": "1700 soat = answercell kun answercell soat",
+              "eng": "1,700 hours = \\( \\ \\)answercell \\( \\ \\) days \\( \\ \\)answercell \\( \\ \\) hours",
+              "rus": "1700 ч = answercell сут answercell ч",
+              "kaz": "1700 сағат = answercell тәулік answercell сағат",
               "arjd": "",
               "arsa": "",
-              "areg": "1890 ساعةً = answercell يومًا وanswercell ساعة\n",
+              "areg": "1700 ساعة = answercell يومًا وanswercell ساعة\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_18",
           "position": 17,
-          "id": "ebffa3b8-aae7-43db-bcb8-23f64ba2ff79",
+          "id": "6d480b73-7d5f-44ec-a3cf-863124384101",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2545,7 +2545,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "78;;18",
+              "rus": "70;;20",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2622,9 +2622,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 2121
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -2638,6 +2635,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 3985
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2648,22 +2648,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "2121 dəqiqə = answercell saat answercell dəqiqə",
-              "kgz": "2121 мүнөт = answercell саат answercell мүнөт",
-              "uzb": "2121 minut = answercell soat answercell minut",
-              "eng": "2,121 minutes =\\( \\ \\) answercell \\( \\ \\) hours \\( \\ \\) answercell \\( \\ \\) minutes",
-              "rus": "2121 мин = answercell ч answercell мин",
-              "kaz": "2121 минут = answercell сағат answercell минут",
+              "aze": "3985 dəqiqə = answercell saat answercell dəqiqə",
+              "kgz": "3985 мүнөт = answercell саат answercell мүнөт",
+              "uzb": "3985 minut = answercell soat answercell minut",
+              "eng": "3,985 minutes =\\( \\ \\) answercell \\( \\ \\) hours \\( \\ \\) answercell \\( \\ \\) minutes",
+              "rus": "3985 мин = answercell ч answercell мин",
+              "kaz": "3985 минут = answercell сағат answercell минут",
               "arjd": "",
               "arsa": "",
-              "areg": "2121 دقيقة = answercell ساعة  answercell دقيقة",
+              "areg": "3985 دقيقة = answercell ساعة  answercell دقيقة",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_19",
           "position": 18,
-          "id": "4bc7d0b5-9e95-4aa9-ae26-b3e8418c15f0",
+          "id": "ce1c7233-e4d0-4940-aa14-ab45856294e1",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2674,7 +2674,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "35;;21",
+              "rus": "66;;25",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2751,9 +2751,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 1553
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidi ilə ifadə edin.",
@@ -2767,6 +2764,9 @@
             "areg": "حول إلى وحدة القياس المطلوبة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 4199
+          },
           "description": {
             "withAudio": true,
             "text_before": "",
@@ -2777,22 +2777,22 @@
             "answer_cell_margin": "",
             "content": {
               "with_audio_player": false,
-              "aze": "1553 saniyə = answercell dəqiqə answercell saniyə",
-              "kgz": "1553 секунд = answercell мүнөт answercell секунд",
-              "uzb": "1553 sekund = answercell minut answercell sekund",
-              "eng": "1,553 seconds = answercell \\( \\ \\)minutes answercell \\( \\ \\) seconds",
-              "rus": "1553 сек = answercell мин answercell сек",
-              "kaz": "1553 секунд = answercell минут answercell секунд",
+              "aze": "4199 saniyə = answercell dəqiqə answercell saniyə",
+              "kgz": "4199 секунд = answercell мүнөт answercell секунд",
+              "uzb": "4199 sekund = answercell minut answercell sekund",
+              "eng": "4,199 seconds = answercell \\( \\ \\)minutes answercell \\( \\ \\) seconds",
+              "rus": "4199 сек = answercell мин answercell сек",
+              "kaz": "4199 секунд = answercell минут answercell секунд",
               "arjd": "",
               "arsa": "",
-              "areg": "1553 ثانية = answercell دقيقة answercell ثانية",
+              "areg": "4199 ثانية = answercell دقيقة answercell ثانية",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "answerCell"
           },
           "type": "Elixir.Task_4_6_11_20",
           "position": 19,
-          "id": "c22ef84f-0ff1-474f-a043-2ab21577aba7",
+          "id": "ddd4c5e3-fc5c-4a6c-98df-f69d48e157ac",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2803,7 +2803,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "25;;53",
+              "rus": "69;;59",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

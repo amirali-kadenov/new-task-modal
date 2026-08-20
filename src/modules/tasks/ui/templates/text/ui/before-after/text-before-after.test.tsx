@@ -45,6 +45,10 @@ describe('text.beforeAfter', () => {
   it('solution показывает ответ рядом с layout', () => {
     renderTemplate(Template, { ...task, solution: makeSolution('6') })
 
-    expect(screen.getAllByTestId('math-formula').some((el) => el.textContent === '6')).toBe(true)
+    expect(
+      screen
+        .getAllByTestId('math-formula')
+        .some((el) => el.textContent === '6'),
+    ).toBe(true)
   })
 })

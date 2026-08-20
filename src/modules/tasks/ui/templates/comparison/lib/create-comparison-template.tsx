@@ -16,9 +16,7 @@ interface ComparisonTemplateConfig {
 }
 
 /** Single MathInput comparison: title + extras + first | input | second. */
-export const createComparisonTemplate = ({
-  id,
-}: ComparisonTemplateConfig) => {
+export const createComparisonTemplate = ({ id }: ComparisonTemplateConfig) => {
   const ComparisonTemplate = ({
     task,
     deps,

@@ -18,15 +18,21 @@ const allTasks = normalizeAllTasksFile(allTasksJson as unknown as AllTasksFile)
 
 const meta = {
   title: 'Templates/Text/ai-translation/Tasks',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     grade: allTasks.defaultGrade,
+    taskId: '',
   },
   argTypes: {
     grade: {
       control: 'select',
       options: allTasks.grades,
       description: 'Класс (grade) для списка задач в Tasks',
+    },
+    taskId: {
+      control: 'text',
+      description: 'Опционально: одна задача (пусто = все)',
     },
   },
   parameters: {
@@ -39,11 +45,12 @@ type Story = StoryObj<TextTemplateStoryMetaArgs>
 
 export const All: Story = {
   play: makePlayAllTasksSmoke(),
-  render: ({ grade }) =>
+  render: ({ grade, taskId }) =>
     renderAllTasksStory({
       Template,
       tasks: allTasksJson as unknown as AllTasksFile,
       grade: grade ?? allTasks.defaultGrade,
+      taskId,
       rootTitle: ROOT_TITLE,
     }),
 }

@@ -7,7 +7,6 @@ import {
   renderDataAllGroupsStory,
   renderDataAllTasksStory,
   renderDataOneTaskStory,
-  type AllTasksFile,
   type TemplateGroupFixture,
   type TableStoryMetaArgs,
 } from '../../lib/storybook'

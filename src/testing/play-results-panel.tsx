@@ -31,7 +31,6 @@ export const PlayResultsPanel = ({ cases, header = 'Results' }: Props) => {
                 <input
                   className={styles.checkbox}
                   type="checkbox"
-                  role="checkbox"
                   checked={checked}
                   aria-checked={checked}
                   aria-disabled
@@ -46,7 +45,9 @@ export const PlayResultsPanel = ({ cases, header = 'Results' }: Props) => {
                     {isRunning ? ' — running' : null}
                   </span>
                   {item.descriptionRu ? (
-                    <span className={styles.resultDesc}>{item.descriptionRu}</span>
+                    <span className={styles.resultDesc}>
+                      {item.descriptionRu}
+                    </span>
                   ) : null}
                   {failed && item.error ? (
                     <span className={styles.resultError}>{item.error}</span>

@@ -15,8 +15,21 @@ import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
 export default defineConfig([
-  // 🧹 Ignore common build and dependency folders
-  globalIgnores(['dist', 'node_modules']),
+  // 🧹 Ignore common build and dependency folders (mirrors .gitignore —
+  // flat config doesn't read .gitignore automatically)
+  globalIgnores([
+    'dist',
+    'dist-ssr',
+    'node_modules',
+    'storybook-static',
+    'test-results',
+    'playwright-report',
+    'blob-report',
+    'test-artifacts',
+    'e2e/visual/trainer-parity/__generated__',
+    'public/stats-static',
+    '.vercel',
+  ]),
 
   // 🧩 Base recommended configs
   js.configs.recommended,
@@ -46,7 +59,26 @@ export default defineConfig([
         ecmaFeatures: {
           jsx: true,
         },
-        projectService: true,
+        projectService: {
+          // Tooling/config files with no tsconfig project of their own —
+          // lint without type info instead of hard-failing (no `**` allowed
+          // by typescript-eslint here, so each directory level is explicit).
+          allowDefaultProject: [
+            'test-gen.ts',
+            'vitest.shims.d.ts',
+            '.storybook/*.ts',
+            '.storybook/*.tsx',
+            '.storybook/addon-test-runner/*.ts',
+            '.storybook/addon-test-runner/*.tsx',
+            '.storybook/stubs/*.js',
+            'scripts/*.mjs',
+            'scripts/lib/*.mjs',
+            'e2e/.auth.local.ts',
+            'e2e/.auth.local.example.ts',
+          ],
+          // ~30 tooling files match the globs above; default cap is 8.
+          maximumDefaultProjectFileMatchCount_THIS_WILL_SLOW_DOWN_LINTING: 40,
+        },
         tsconfigRootDir: import.meta.dirname,
       },
       globals: {
@@ -148,6 +180,9 @@ export default defineConfig([
   },
 
   // 🚫 Disable type-checking for config files
+  // (`disableTypeChecked` only turns off `@typescript-eslint/*` — `react-x`'s
+  // own typed rules, e.g. `no-implicit-key`, still ran with no type info and
+  // crashed. Merge in react-x's matching disable set too.)
   {
     files: [
       '*.js',
@@ -156,8 +191,20 @@ export default defineConfig([
       'eslint.config.js',
       'vite.config.ts',
       '*.config.ts',
+      'scripts/*.mjs',
+      'scripts/lib/*.mjs',
+      '.storybook/*.ts',
+      '.storybook/*.tsx',
+      '.storybook/addon-test-runner/*.ts',
+      '.storybook/addon-test-runner/*.tsx',
+      '.storybook/stubs/*.js',
+      'test-gen.ts',
     ],
-    ...tseslint.configs.disableTypeChecked,
+    languageOptions: tseslint.configs.disableTypeChecked.languageOptions,
+    rules: {
+      ...tseslint.configs.disableTypeChecked.rules,
+      ...reactx.configs['disable-type-checked'].rules,
+    },
   },
 
   // 🎭 Real Playwright e2e specs — not Testing Library / Vitest, so `page`

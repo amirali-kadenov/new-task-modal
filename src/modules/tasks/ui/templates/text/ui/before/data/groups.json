@@ -128,11 +128,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 92,
-        "number2": 22,
-        "number1": 134546
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Tənliyi həll edin.",
@@ -146,26 +141,31 @@
         "areg": "حل المعادلة التالية",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 93,
+        "number2": 28,
+        "number1": 134540
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "(134546 – \\(x\\)) + 22 = 92",
-          "kgz": "(134546 – \\(x\\)) + 22 = 92",
-          "uzb": "(134546 – \\(x\\)) + 22 = 92",
-          "eng": "(134,546 – \\(x\\)) + 22 = 92",
-          "rus": "(134546 – \\(x\\)) + 22 = 92",
-          "kaz": "(134546 – \\(x\\)) + 22 = 92",
-          "arjd": "(134546 – \\(x\\)) + 22 = 92",
-          "arsa": "(134546 – \\(x\\)) + 22 = 92",
-          "areg": "(134546 – \\(x\\)) + 22 = 92",
+          "aze": "(134540 – \\(x\\)) + 28 = 93",
+          "kgz": "(134540 – \\(x\\)) + 28 = 93",
+          "uzb": "(134540 – \\(x\\)) + 28 = 93",
+          "eng": "(134,540 – \\(x\\)) + 28 = 93",
+          "rus": "(134540 – \\(x\\)) + 28 = 93",
+          "kaz": "(134540 – \\(x\\)) + 28 = 93",
+          "arjd": "(134540 – \\(x\\)) + 28 = 93",
+          "arsa": "(134540 – \\(x\\)) + 28 = 93",
+          "areg": "(134540 – \\(x\\)) + 28 = 93",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_7_1",
       "position": 0,
-      "id": "53f21d1d-4074-4171-9e3c-1c47c1c6f366",
+      "id": "09345739-5351-485e-a957-3071b6ae4f51",
       "solution": {
         "type": "text",
         "answer": {
@@ -176,7 +176,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "134476",
+          "rus": "134475",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -272,10 +272,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 46033,
-        "number1": 2013
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Tənliyi həll edin.",
@@ -289,26 +285,30 @@
         "areg": "حل المعادلة التالية",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 46021,
+        "number1": 2011
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "2013 + \\(x\\) · 5 = 46033",
-          "kgz": "2013 + \\(x\\) · 5 = 46033",
-          "uzb": "2013 + \\(x\\) · 5 = 46033",
-          "eng": "2,013 + \\(x\\) · 5 = 46,033",
-          "rus": "2013 + \\(x\\) · 5 = 46033",
-          "kaz": "2013 + \\(x\\) · 5 = 46033",
-          "arjd": "2013 + \\(x\\) · 5 = 46033",
-          "arsa": "2013 + \\(x\\) · 5 = 46033",
-          "areg": "2013 + \\(x\\) · 5 = 46033",
+          "aze": "2011 + \\(x\\) · 5 = 46021",
+          "kgz": "2011 + \\(x\\) · 5 = 46021",
+          "uzb": "2011 + \\(x\\) · 5 = 46021",
+          "eng": "2,011 + \\(x\\) · 5 = 46,021",
+          "rus": "2011 + \\(x\\) · 5 = 46021",
+          "kaz": "2011 + \\(x\\) · 5 = 46021",
+          "arjd": "2011 + \\(x\\) · 5 = 46021",
+          "arsa": "2011 + \\(x\\) · 5 = 46021",
+          "areg": "2011 + \\(x\\) · 5 = 46021",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_7_5",
       "position": 4,
-      "id": "3380161f-c445-429b-95f8-21cbc9ec61a4",
+      "id": "68a6ed9e-18d4-439a-b27f-c36e67b0fd42",
       "solution": {
         "type": "text",
         "answer": {
@@ -319,7 +319,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "8804",
+          "rus": "8802",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -415,12 +415,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 25,
-        "number3": 12775,
-        "number2": 41,
-        "number1": 235
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Tənliyi həll edin.",
@@ -434,26 +428,32 @@
         "areg": "حل المعادلة التالية",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 25,
+        "number3": 12850,
+        "number2": 44,
+        "number1": 235
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "235 · \\(a\\) + 41 = 12775 : 25",
-          "kgz": "235 · \\(a\\) + 41 = 12775 : 25",
-          "uzb": "235 · \\(a\\) + 41 = 12775 : 25",
-          "eng": "235 · a + 41 = 12,775 ÷ 25",
-          "rus": "235 · \\(a\\) + 41 = 12775 : 25",
-          "kaz": "235 · \\(a\\) + 41 = 12775 : 25",
-          "arjd": "235 · \\(a\\) + 41 = 12775 : 25",
-          "arsa": "235 · \\(a\\) + 41 = 12775 : 25",
-          "areg": "235 · \\(a\\) + 41 = 12775 : 25",
+          "aze": "235 · \\(a\\) + 44 = 12850 : 25",
+          "kgz": "235 · \\(a\\) + 44 = 12850 : 25",
+          "uzb": "235 · \\(a\\) + 44 = 12850 : 25",
+          "eng": "235 · a + 44 = 12,850 ÷ 25",
+          "rus": "235 · \\(a\\) + 44 = 12850 : 25",
+          "kaz": "235 · \\(a\\) + 44 = 12850 : 25",
+          "arjd": "235 · \\(a\\) + 44 = 12850 : 25",
+          "arsa": "235 · \\(a\\) + 44 = 12850 : 25",
+          "areg": "235 · \\(a\\) + 44 = 12850 : 25",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_7_13",
       "position": 12,
-      "id": "50666ede-4ff4-4545-b45d-484062a2ccf7",
+      "id": "87b765b5-4a44-45d8-81ed-f93aa3b82bae",
       "solution": {
         "type": "text",
         "answer": {

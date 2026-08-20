@@ -37,7 +37,9 @@ describe('complex.multi.stack.n2.beforeAfter', () => {
     expect(screen.getAllByTestId('math-input')).toHaveLength(2)
     expect(screen.getAllByTestId('text-prefix').length).toBeGreaterThan(0)
     expect(screen.getAllByTestId('text-suffix').length).toBeGreaterThan(0)
-    expect(document.querySelector('[data-figure-type]')).toBeTruthy()
+    expect(
+      screen.getByTestId('complex-coordinate-plane-part'),
+    ).toBeInTheDocument()
   })
 
   it('solution-ветка вместо режима ввода', () => {

@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/Table/list'
 
 const meta = {
   title: 'Templates/Table/list/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

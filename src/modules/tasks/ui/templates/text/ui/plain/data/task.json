@@ -14,31 +14,31 @@
   },
   "difficulty": "x1",
   "result": "none",
+  "title": null,
   "fields": {
     "difficulty": "x1",
-    "number": 10000
+    "number": 80000
   },
-  "title": null,
   "description": {
     "with_audio": true,
     "content": {
       "with_audio_player": false,
-      "aze": "On min ədədini rəqəmlərlə yazın.",
-      "kgz": "Он миң санын цифра менен жазыңыз.",
-      "uzb": "O'n ming sonini raqamlar bilan yozing.",
-      "eng": "Write the number ten thousand in numerals.",
-      "rus": "Запишите цифрами число десять тысяч.",
-      "kaz": "Он мың санын цифрмен жазыңыз.",
+      "aze": "Səksən min ədədini rəqəmlərlə yazın.",
+      "kgz": "Сексен миң санын цифра менен жазыңыз.",
+      "uzb": "Sakson ming sonini raqamlar bilan yozing.",
+      "eng": "Write the number eighty thousand in numerals.",
+      "rus": "Запишите цифрами число восемьдесят тысяч.",
+      "kaz": "Сексен мың санын цифрмен жазыңыз.",
       "arjd": "",
       "arsa": "",
-      "areg": "اكتب العدد «عشرة آلاف» بالصيغة القياسية",
+      "areg": "اكتب العدد «ثمانون ألفًا» بالصيغة القياسية",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "text"
   },
   "type": "Elixir.Task_4_1_1",
   "position": 0,
-  "id": "0dcb6094-7deb-4ae2-b29a-0947301a66de",
+  "id": "da0b6c5b-6291-469b-8557-315582a79561",
   "solution": {
     "type": "text",
     "answer": {
@@ -49,7 +49,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "10000",
+      "rus": "80000",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

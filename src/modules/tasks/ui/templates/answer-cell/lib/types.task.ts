@@ -13,7 +13,7 @@ export interface AnswerCellTaskDescription {
   textBefore?: Translation | string | null
   textAfter?: Translation | string | null
   imageBefore?: string | null
-  tableBefore?: unknown | null
+  tableBefore?: unknown
   isColumn?: boolean
   answerCellMargin?: string | null
   withAudio?: boolean

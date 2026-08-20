@@ -4,16 +4,15 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { ChatLayout } from './chat-layout'
 
 describe('ChatLayout autoscroll', () => {
-  const scrollToSpy = vi.fn()
-  const scrollIntoViewSpy = vi.fn()
-  let originalScrollIntoView: typeof Element.prototype.scrollIntoView
+  const scrollToSpy = vi.fn<(target: Element, ...args: unknown[]) => void>()
+  const scrollIntoViewSpy =
+    vi.fn<(target: Element, ...args: unknown[]) => void>()
 
   beforeEach(() => {
     scrollToSpy.mockClear()
     scrollIntoViewSpy.mockClear()
-    originalScrollIntoView = Element.prototype.scrollIntoView
 
-    // jsdom lacks Element.scrollTo — define before use.
+    // jsdom lacks Element.scrollTo/scrollIntoView — define before use.
     Object.defineProperty(Element.prototype, 'scrollTo', {
       configurable: true,
       writable: true,
@@ -21,17 +20,18 @@ describe('ChatLayout autoscroll', () => {
         scrollToSpy(this, ...args)
       },
     })
-    Element.prototype.scrollIntoView = function (
-      this: Element,
-      ...args: unknown[]
-    ) {
-      scrollIntoViewSpy(this, ...args)
-    }
+    Object.defineProperty(Element.prototype, 'scrollIntoView', {
+      configurable: true,
+      writable: true,
+      value: function (this: Element, ...args: unknown[]) {
+        scrollIntoViewSpy(this, ...args)
+      },
+    })
   })
 
   afterEach(() => {
     Reflect.deleteProperty(Element.prototype, 'scrollTo')
-    Element.prototype.scrollIntoView = originalScrollIntoView
+    Reflect.deleteProperty(Element.prototype, 'scrollIntoView')
   })
 
   it('scrolls the messages list via scrollTo, not scrollIntoView', () => {

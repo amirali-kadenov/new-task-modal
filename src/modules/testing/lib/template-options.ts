@@ -3,27 +3,31 @@
  * Resolved at Vite build time — no Storybook channel round-trip.
  */
 
-type GlobModule = { default?: unknown } | unknown
+// A Vite glob-imported module: usually `{ default: T }`, but treated as
+// `unknown` since the shape isn't guaranteed until narrowed by `unwrap`.
+type GlobModule = unknown
 
 const TEMPLATE_GROUPS = import.meta.glob(
   '/src/modules/tasks/ui/templates/**/data/groups.json',
   { eager: true },
-) as Record<string, GlobModule>
+)
 
 const TEMPLATE_ALL_TASKS = import.meta.glob(
   '/src/modules/tasks/ui/templates/**/data/all-tasks.json',
   { eager: true },
-) as Record<string, GlobModule>
+)
 
 const variantKeyFromDataFile = (filePath: string): string | null => {
   const normalized = filePath.replace(/\\/g, '/')
-  const match = normalized.match(/\/templates\/(.+)\/data\/(?:groups|all-tasks)\.json$/)
+  const match = normalized.match(
+    /\/templates\/(.+)\/data\/(?:groups|all-tasks)\.json$/,
+  )
   return match?.[1] ?? null
 }
 
 const unwrap = (mod: GlobModule): unknown => {
   if (mod && typeof mod === 'object' && 'default' in mod) {
-    return (mod as { default: unknown }).default
+    return mod.default
   }
   return mod
 }
@@ -61,7 +65,11 @@ const collectIdsFromAllTasks = (data: unknown): string[] => {
   const pushList = (list: unknown) => {
     if (!Array.isArray(list)) return
     for (const item of list) {
-      if (item && typeof item === 'object' && typeof (item as { id?: string }).id === 'string') {
+      if (
+        item &&
+        typeof item === 'object' &&
+        typeof (item as { id?: string }).id === 'string'
+      ) {
         ids.push((item as { id: string }).id)
       }
     }
@@ -108,7 +116,9 @@ const tasksByTemplate = (): Record<string, string[]> => {
 
   const out: Record<string, string[]> = {}
   for (const [key, set] of Object.entries(map)) {
-    out[key] = [...set].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    out[key] = [...set].sort((a, b) =>
+      a.localeCompare(b, undefined, { numeric: true }),
+    )
   }
   return out
 }
@@ -120,4 +130,33 @@ export const getTaskIdsForTemplate = (template: string): string[] => {
   const key = template.trim()
   if (!key) return []
   return TEMPLATE_TASK_IDS[key] ?? []
+}
+
+const kebabSegment = (segment: string): string =>
+  segment.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase()
+
+/**
+ * Storybook folder title → visual/fixture key.
+ * `Templates/Text/plain` → `text/ui/plain`
+ * `Templates/AnswerCell/plain` → `answer-cell/ui/plain`
+ * `Templates/Complex/beforeAfter` → `complex/ui/before-after`
+ */
+export const templateKeyFromRootTitle = (
+  rootTitle: string | undefined,
+): string | null => {
+  const trimmed = rootTitle?.trim() ?? ''
+  const match = trimmed.match(/^Templates\/([^/]+)\/(.+)$/)
+  if (!match) return null
+  const domain = kebabSegment(match[1])
+  const rest = match[2].split('/').map(kebabSegment).join('/')
+  const key = `${domain}/ui/${rest}`
+  if (TEMPLATE_VARIANT_KEYS.includes(key)) return key
+  return (
+    TEMPLATE_VARIANT_KEYS.find(
+      (candidate) =>
+        candidate === key ||
+        candidate.endsWith(`/${rest}`) ||
+        candidate.endsWith(`/${rest.toLowerCase()}`),
+    ) ?? null
+  )
 }

@@ -30,10 +30,7 @@ const chaptersRoot = path.resolve(
 )
 
 const coTemplateTypes = [
-  [
-    'columnOperation.plain',
-    'TemplateTypes.ColumnOperation.Plain',
-  ],
+  ['columnOperation.plain', 'TemplateTypes.ColumnOperation.Plain'],
   [
     'columnOperation.multi.stack.n2.before',
     'TemplateTypes.ColumnOperation.Multi.Stack.N2Before',
@@ -118,7 +115,8 @@ for (let chapter = 1; chapter <= 12; chapter += 1) {
 
   const existing = fs.readFileSync(chapterPath, 'utf8')
   const kept = extractNonColumnOperationEntries(existing)
-  const grouped = byChapter.get(chapter) ?? new Map()
+  const grouped =
+    byChapter.get(chapter) ?? new Map<string, Array<number | string>>()
 
   const coEntries = coTemplateTypes.flatMap(([templateType, expression]) => {
     const ids = (grouped.get(templateType) ?? []).slice().sort((a, b) => {

@@ -1,0 +1,850 @@
+{
+  "defaultGrade": 4,
+  "grades": [
+    4
+  ],
+  "byGrade": {
+    "4": [
+      {
+        "id": "4_7_2_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 4
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": {
+              "with_audio_player": false,
+              "aze": "sm³",
+              "kgz": "см³",
+              "uzb": "cm³",
+              "eng": "sm³",
+              "rus": "см³",
+              "kaz": "см³",
+              "arjd": "sm³",
+              "arsa": "",
+              "areg": "سم\\(^3\\)",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": "x1",
+          "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+            "eng": "Express it in the given unit of measurement.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "difficulty": "x1",
+            "number": 6
+          },
+          "description": {
+            "isAnswerCellHidden": true,
+            "isCalculatorClosed": false,
+            "parts": [
+              {
+                "width": "auto",
+                "type": 120,
+                "tableAlign": "center",
+                "rows": [
+                  {
+                    "rowspan_list": [],
+                    "rowspan_at": 0,
+                    "rowspan": 1,
+                    "colspan_list": [],
+                    "colspan_at": 0,
+                    "colspan": 1,
+                    "border_bottom": null,
+                    "cells": [
+                      {
+                        "with_audio_player": false,
+                        "aze": "6 \\(dm^3\\) = \\(\\ \\)",
+                        "kgz": "",
+                        "uzb": "6 \\(dm^3\\) = \\(\\ \\)",
+                        "eng": "6 \\(dm^3\\) = \\(\\ \\)",
+                        "rus": "6 \\(дм^3\\) = \\(\\ \\)",
+                        "kaz": "6 \\(дм^3\\) = \\(\\ \\)",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "6 دسم\\(^3\\) = \\(\\ \\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      },
+                      "answercell",
+                      {
+                        "with_audio_player": false,
+                        "aze": "sm³",
+                        "kgz": "см³",
+                        "uzb": "cm³",
+                        "eng": "sm³",
+                        "rus": "см³",
+                        "kaz": "см³",
+                        "arjd": "sm³",
+                        "arsa": "",
+                        "areg": "سم\\(^3\\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      }
+                    ],
+                    "width": null
+                  }
+                ],
+                "removePadding": true,
+                "removeBorders": true,
+                "padding": null,
+                "marginBottom": null,
+                "isAnswerCellHidden": true,
+                "columnHeaders": [],
+                "columnAlign": "center",
+                "bottomVarticalAlign": false,
+                "border": ""
+              }
+            ],
+            "type": "complex"
+          },
+          "type": "Elixir.Task_4_7_2_3",
+          "position": 4,
+          "id": "8e2a5e7d-b39b-467a-ac61-863b7f00313f",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "6000",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "oT82VjS-pQc",
+          "videoUrl": "https://youtube.com/embed/oT82VjS-pQc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/dbc9ae041d86018c4540aa1a038c4f54?p=rclw7k8kBl22IJ9rZUKlkQ",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/6xzJG36zmZQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/_no2-JNOB3M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/oT82VjS-pQc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "complex_5"
+      },
+      {
+        "id": "4_7_2_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 6
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": {
+              "with_audio_player": false,
+              "aze": "dm³",
+              "kgz": "dм³",
+              "uzb": "dm³",
+              "eng": "dm³",
+              "rus": "дм³",
+              "kaz": "дм³",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ديسم\\(^3\\)",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": "x1",
+          "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+            "eng": "Express it in the given unit of measurement.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "difficulty": "x1",
+            "number": 9000
+          },
+          "description": {
+            "isAnswerCellHidden": true,
+            "isCalculatorClosed": false,
+            "parts": [
+              {
+                "width": "auto",
+                "type": 120,
+                "tableAlign": "center",
+                "rows": [
+                  {
+                    "rowspan_list": [],
+                    "rowspan_at": 0,
+                    "rowspan": 1,
+                    "colspan_list": [],
+                    "colspan_at": 0,
+                    "colspan": 1,
+                    "border_bottom": null,
+                    "cells": [
+                      {
+                        "with_audio_player": false,
+                        "aze": "9000 \\(sm^3\\) = \\(\\ \\)",
+                        "kgz": "",
+                        "uzb": "9000 \\(cm^3\\) = \\(\\ \\)",
+                        "eng": "9,000 \\(cm^3\\) = \\(\\ \\)",
+                        "rus": "9000 \\(см^3\\) = \\(\\ \\)",
+                        "kaz": "9000 \\(см^3\\) = \\(\\ \\)",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "9000 سم\\(^3\\) = \\(\\ \\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      },
+                      "answercell",
+                      {
+                        "with_audio_player": false,
+                        "aze": "dm³",
+                        "kgz": "dм³",
+                        "uzb": "dm³",
+                        "eng": "dm³",
+                        "rus": "дм³",
+                        "kaz": "дм³",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "ديسم\\(^3\\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      }
+                    ],
+                    "width": null
+                  }
+                ],
+                "removePadding": true,
+                "removeBorders": true,
+                "padding": null,
+                "marginBottom": null,
+                "isAnswerCellHidden": true,
+                "columnHeaders": [],
+                "columnAlign": "center",
+                "bottomVarticalAlign": false,
+                "border": ""
+              }
+            ],
+            "type": "complex"
+          },
+          "type": "Elixir.Task_4_7_2_4",
+          "position": 6,
+          "id": "0e2403ee-5692-47bd-9be2-b3ad4ee7bd16",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "9",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "dfoD-JJO6H4",
+          "videoUrl": "https://youtube.com/embed/dfoD-JJO6H4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/18de6b3bd9d80f17e3bb99ee97d66f51?p=TpxbbNyXlrzvDV81fxfE4w",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/eq72CgEBWUw?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/MrgTwFsml2M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/dfoD-JJO6H4?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "complex_5"
+      },
+      {
+        "id": "4_7_2_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 8
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": {
+              "with_audio_player": false,
+              "aze": "dm³",
+              "kgz": "dм³",
+              "uzb": "dm³",
+              "eng": "dm³",
+              "rus": "дм³",
+              "kaz": "дм³",
+              "arjd": "",
+              "arsa": "",
+              "areg": "ديسم\\(^3\\)",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": "x1",
+          "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+            "eng": "Express it in the given unit of measurement.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "difficulty": "x1",
+            "number": 8
+          },
+          "description": {
+            "isAnswerCellHidden": true,
+            "isCalculatorClosed": false,
+            "parts": [
+              {
+                "width": "auto",
+                "type": 120,
+                "tableAlign": "center",
+                "rows": [
+                  {
+                    "rowspan_list": [],
+                    "rowspan_at": 0,
+                    "rowspan": 1,
+                    "colspan_list": [],
+                    "colspan_at": 0,
+                    "colspan": 1,
+                    "border_bottom": null,
+                    "cells": [
+                      {
+                        "with_audio_player": false,
+                        "aze": "8 \\(m^3\\) = \\(\\ \\)",
+                        "kgz": "8 \\(м^3\\) = \\(\\ \\)",
+                        "uzb": "8 \\(m^3\\) = \\(\\ \\)",
+                        "eng": "8 \\(m^3\\) = \\(\\ \\)",
+                        "rus": "8 \\(м^3\\) = \\(\\ \\)",
+                        "kaz": "8 \\(м^3\\) = \\(\\ \\)",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "8 م\\(^3\\) = \\(\\ \\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      },
+                      "answercell",
+                      {
+                        "with_audio_player": false,
+                        "aze": "dm³",
+                        "kgz": "dм³",
+                        "uzb": "dm³",
+                        "eng": "dm³",
+                        "rus": "дм³",
+                        "kaz": "дм³",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "ديسم\\(^3\\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      }
+                    ],
+                    "width": null
+                  }
+                ],
+                "removePadding": true,
+                "removeBorders": true,
+                "padding": null,
+                "marginBottom": null,
+                "isAnswerCellHidden": true,
+                "columnHeaders": [],
+                "columnAlign": "center",
+                "bottomVarticalAlign": false,
+                "border": ""
+              }
+            ],
+            "type": "complex"
+          },
+          "type": "Elixir.Task_4_7_2_5",
+          "position": 8,
+          "id": "bc4ab1f5-fd80-459a-9171-2891f8bf3338",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "8000",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "-KGfpUTyhM8",
+          "videoUrl": "https://youtube.com/embed/-KGfpUTyhM8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/035126af6dc451e7c112d1ac62d223f8?p=Rdzfe4y4DGnuo-1iU1FdtA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/C1CQKOtPSvs?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/xmNXTNRbJSE?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/-KGfpUTyhM8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "complex_5"
+      },
+      {
+        "id": "4_7_2_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 10
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": {
+              "with_audio_player": false,
+              "aze": "m³",
+              "kgz": "м³",
+              "uzb": "m³",
+              "eng": "m³",
+              "rus": "м³",
+              "kaz": "м³",
+              "arjd": "",
+              "arsa": "",
+              "areg": "م\\(^3\\)",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": "x1",
+          "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+            "eng": "Express it in the given unit of measurement.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "difficulty": "x1",
+            "number": 4000
+          },
+          "description": {
+            "isAnswerCellHidden": true,
+            "isCalculatorClosed": false,
+            "parts": [
+              {
+                "width": "auto",
+                "type": 120,
+                "tableAlign": "center",
+                "rows": [
+                  {
+                    "rowspan_list": [],
+                    "rowspan_at": 0,
+                    "rowspan": 1,
+                    "colspan_list": [],
+                    "colspan_at": 0,
+                    "colspan": 1,
+                    "border_bottom": null,
+                    "cells": [
+                      {
+                        "with_audio_player": false,
+                        "aze": "4000 \\(dm^3\\) = \\(\\ \\)",
+                        "kgz": "4000 \\(дм^3\\) = \\(\\ \\)",
+                        "uzb": "4000 \\(dm^3\\) = \\(\\ \\)",
+                        "eng": "4,000 \\(dm^3\\) = \\(\\ \\)",
+                        "rus": "4000 \\(дм^3\\) = \\(\\ \\)",
+                        "kaz": "4000 \\(дм^3\\) = \\(\\ \\)",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "4000 دسم\\(^3\\) = \\(\\ \\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      },
+                      "answercell",
+                      {
+                        "with_audio_player": false,
+                        "aze": "m³",
+                        "kgz": "м³",
+                        "uzb": "m³",
+                        "eng": "m³",
+                        "rus": "м³",
+                        "kaz": "м³",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "م\\(^3\\)",
+                        "module_name": "Elixir.Helpers.Translation"
+                      }
+                    ],
+                    "width": null
+                  }
+                ],
+                "removePadding": true,
+                "removeBorders": true,
+                "padding": null,
+                "marginBottom": null,
+                "isAnswerCellHidden": true,
+                "columnHeaders": [],
+                "columnAlign": "center",
+                "bottomVarticalAlign": false,
+                "border": ""
+              }
+            ],
+            "type": "complex"
+          },
+          "type": "Elixir.Task_4_7_2_6",
+          "position": 10,
+          "id": "5abdd104-43cd-4dd7-9d16-56421b93690f",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "4",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "UG9jadDJfOo",
+          "videoUrl": "https://youtube.com/embed/UG9jadDJfOo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/4c0ba15c350c1ecf36f9878deddfd352?p=5Fm0D7fySgHABbOKKSx3rw",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/tZw90o3AQQg?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/IFgOIVWoZ5s?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/UG9jadDJfOo?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "complex_5"
+      },
+      {
+        "id": "4_7_2_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 18
+        },
+        "task": {
+          "attemptsCount": null,
+          "isPrimary": true,
+          "hasVideoUrl": true,
+          "isPenalty": false,
+          "answerInput": {
+            "svg": "",
+            "before": "",
+            "after": {
+              "with_audio_player": false,
+              "aze": "l",
+              "kgz": "л",
+              "uzb": "l",
+              "eng": "L",
+              "rus": "л",
+              "kaz": "л",
+              "arjd": "L",
+              "arsa": "",
+              "areg": "لتر",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "text": " ",
+            "down": "",
+            "up": "",
+            "type": 10
+          },
+          "difficulty": "x1",
+          "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+            "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+            "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+            "eng": "Express it in the given unit of measurement.",
+            "rus": "Выразите в указанной единице измерения.",
+            "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "حول إلى وحدة القياس المطلوبة:",
+            "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "difficulty": "x1",
+            "number": 56
+          },
+          "description": {
+            "isAnswerCellHidden": true,
+            "isCalculatorClosed": false,
+            "parts": [
+              {
+                "width": "auto",
+                "type": 120,
+                "tableAlign": "center",
+                "rows": [
+                  {
+                    "rowspan_list": [],
+                    "rowspan_at": 0,
+                    "rowspan": 1,
+                    "colspan_list": [],
+                    "colspan_at": 0,
+                    "colspan": 1,
+                    "border_bottom": null,
+                    "cells": [
+                      {
+                        "with_audio_player": false,
+                        "aze": "56 \\(dm^3\\) = \\(\\ \\)",
+                        "kgz": "56 \\(дм^3\\) = \\(\\ \\)",
+                        "uzb": "56 \\(dm^3\\) = \\(\\ \\)",
+                        "eng": "56 \\(dm^3\\) = \\(\\ \\)",
+                        "rus": "56 \\(дм^3\\) = \\(\\ \\)",
+                        "kaz": "56 \\(дм^3\\) = \\(\\ \\)",
+                        "arjd": "",
+                        "arsa": "",
+                        "areg": "56 دسم\\(^3\\) = ",
+                        "module_name": "Elixir.Helpers.Translation"
+                      },
+                      "answercell",
+                      {
+                        "with_audio_player": false,
+                        "aze": "l",
+                        "kgz": "л",
+                        "uzb": "l",
+                        "eng": "L",
+                        "rus": "л",
+                        "kaz": "л",
+                        "arjd": "L",
+                        "arsa": "",
+                        "areg": "لتر",
+                        "module_name": "Elixir.Helpers.Translation"
+                      }
+                    ],
+                    "width": null
+                  }
+                ],
+                "removePadding": false,
+                "removeBorders": true,
+                "padding": "2px",
+                "marginBottom": null,
+                "isAnswerCellHidden": true,
+                "columnHeaders": [],
+                "columnAlign": "center",
+                "bottomVarticalAlign": false,
+                "border": ""
+              }
+            ],
+            "type": "complex"
+          },
+          "type": "Elixir.Task_4_7_2_12",
+          "position": 18,
+          "id": "15834dbe-b767-4095-8dea-27b7890e28ee",
+          "solution": {
+            "type": "formula",
+            "answer": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "56",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            },
+            "content": {
+              "with_audio_player": false,
+              "aze": "",
+              "arsa": "",
+              "areg": "",
+              "kgz": "",
+              "uzb": "",
+              "eng": "",
+              "rus": "",
+              "kaz": "",
+              "school": "",
+              "module_name": "Elixir.Helpers.Translation"
+            }
+          },
+          "hint1": null,
+          "hint2": null,
+          "videoId": "xxJ_huDGxi8",
+          "videoUrl": "https://youtube.com/embed/xxJ_huDGxi8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+          "videoUrlAsTranslation": {
+            "school": "https://rutube.ru/play/embed/bcac1b73be70c5b61f9b1de3d400e974?p=AnpwH347RmBWQlmnvSGDFA",
+            "with_audio_player": false,
+            "aze": null,
+            "kgz": null,
+            "uzb": "https://youtube.com/embed/mU4YqIIiX_c?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "eng": null,
+            "rus": "https://youtube.com/embed/t_j5XPJsYC0?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "kaz": "https://youtube.com/embed/xxJ_huDGxi8?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+            "arjd": "",
+            "arsa": null,
+            "areg": null,
+            "module_name": "Elixir.Helpers.Translation"
+          }
+        },
+        "group": "complex_5"
+      }
+    ]
+  }
+}

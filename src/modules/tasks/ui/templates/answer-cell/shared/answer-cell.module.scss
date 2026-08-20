@@ -28,6 +28,7 @@
   gap: 4px 8px;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   white-space: nowrap;
 }
 
@@ -44,11 +45,26 @@
   white-space: nowrap;
 }
 
+.segmentSolution {
+  align-items: center;
+}
+
+.segmentInput {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Stretch to fill the available row width, regardless of how many cells
+ * share the row — a fixed width left multi-cell rows (e.g. two-addend
+ * sums) narrow and cramped instead of using the space next to them.
+ * flex-basis 0 (not `auto`) keeps that share independent of the typed
+ * content's intrinsic width — MathQuill content that overflows the box
+ * scrolls internally (`.mathInput` has `overflow-x: auto` + caret-follow
+ * scroll in math-input.tsx) instead of growing the box on every keystroke. */
 .cellInput {
-  flex: 0 0 auto;
-  width: auto;
+  flex: 1 1 0%;
+  width: 0;
   min-width: 80px;
-  max-width: 160px;
 }
 
 .prefix,
@@ -59,8 +75,4 @@
 
 .answerFormula {
   flex: 0 1 auto;
-}
-
-.solutionRow {
-  align-items: flex-end;
 }

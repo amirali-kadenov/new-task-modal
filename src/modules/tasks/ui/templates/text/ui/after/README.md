@@ -26,8 +26,8 @@
 
 ## Stories
 
-[text-after.stories.tsx](text-after.stories.tsx): `Default`, `WithSolution`, `AllGroups`
-(все structural groups из [data/groups.json](data/groups.json)) и `MathRegressions`.
+[text-after.stories.tsx](text-after.stories.tsx): `Default`, `WithSolution` (Controls:
+`group` + `taskId`). Каталог — `Groups` / `Tasks`.
 
 ## Тесты
 
@@ -35,5 +35,5 @@
 суффикс с текстом `after` есть, префикса нет.
 
 Unit мокает MathJax, поэтому шрифт формул проверяет только `pnpm test:interactions`:
-story `MathRegressions` гоняет text_6 в Chromium и требует, чтобы `см`/`мм` были
-upright и в том же шрифте, что и остальные глифы (см. FAQ про `mjx-utext`).
+`Groups / All` гоняет DOM-инварианты (в т.ч. text_6: `см`/`мм` upright и в том же
+шрифте, что остальные глифы — см. FAQ про `mjx-utext`).

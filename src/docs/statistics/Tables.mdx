@@ -14,7 +14,9 @@ import s from '../docs.module.scss'
 файлов `public/stats-static/stats-table-*.json` в offline-сборке Storybook.
 Сервер (или экспорт) отдаёт `groupsTable`, `templatesCoverage`,
 `typeDistribution` и `totalTasks`; панель нормализует поля и рисует четыре
-подвкладки.
+подвкладки. Отчёт о missing templates — отдельная вкладка
+[Пробелы](?path=/docs/statistics-gaps--documentation) (статический JSON, без
+snapshot).
 
 <div className={s.stack}>
 
@@ -218,6 +220,18 @@ import s from '../docs.module.scss'
 - манифест — список из `implemented-templates.json`;
 - в коде — объявления `id:` в `ui/templates`;
 - маппинг — whitelist grades + `structural-task-map`.
+
+</div>
+
+<div className={s.block}>
+
+## Отчёт «Пробелы» (отдельная вкладка)
+
+Roadmap missing `templateId` — страница
+[Пробелы](?path=/docs/statistics-gaps--documentation) на одном уровне с Panel,
+не подвкладка `StatsPanel`. Данные —
+`src/docs/statistics/data/template-gaps-report.json`, обновление
+`pnpm export-gaps-report`. Не зависит от выбранного snapshot на Главной.
 
 </div>
 

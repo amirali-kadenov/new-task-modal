@@ -134,4 +134,40 @@ describe('makeTrainerProps video / hints', () => {
     expect(withTheory.theory[0].type).toBe('video_url')
     expect(withTheory.theory[0].content.rus).toContain('TrnrStory01')
   })
+
+  it('checkAnswer falls back to MC parts when solution.answer is empty', async () => {
+    const mcTask = {
+      ...baseTask,
+      id: 'task-trainer-mc',
+      solution: {
+        type: 'test',
+        content: '',
+        answer: '',
+        parts: [
+          {
+            type: 180,
+            variants: [
+              { text: 'A', correct: false },
+              { text: 'B', isCorrect: true },
+              { text: 'C', correct: false },
+            ],
+          },
+        ],
+      },
+    } as TextTask
+    resetTrainerSession(mcTask)
+    const props = makeTrainerProps(mcTask)
+
+    const correct = await props.deps.api.checkAnswer({
+      ...mcTask,
+      answer: 'B',
+    } as never)
+    expect(correct.result).toBe(30)
+  })
+
+  it('deps.api.setPupilActiveTask exists and resolves (isTesting:false parity)', async () => {
+    const props = makeTrainerProps(baseTask)
+    expect(props.hostProps.isTesting).toBe(false)
+    await expect(props.deps.api.setPupilActiveTask({})).resolves.toEqual({})
+  })
 })

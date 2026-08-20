@@ -90,32 +90,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 880,
-            "number2": 1980,
-            "number1": 13
-          },
           "title": null,
+          "fields": {
+            "number3": 2349,
+            "number2": 1827,
+            "number1": 16
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Sara 13 ədəd üzük və sırğa alıb.\nO, üzüklər üçün 1980 manat, sırğalar üçün isə 880 manat ödəyib.\nƏgər üzük və sırğanın 1-nin qiyməti eynidirsə, Sara neçə ədəd üzük və sırğa alıb?\n",
-              "kgz": "Сергей 13 кг алма жана алмурут сатып алды. Ал алма үчүн 1980 сом, ал эми алмурут үчүн 880 сом төлөгөн.\nЭгерде бир килограмм алма менен бир килограмм алмуруттун баасы бирдей болсо, анда Сергей канча килограмм алма жана алмурут сатып алганын табыңыз.\n",
-              "uzb": "Aziz 13 kg olma va nok sotib oldi. Olma uchun 1980 so'm, nok uchun esa 880 so'm to'ladi.\nAgar olma va nokning bir kilogrammining narxlari bir xil bo'lsa, Aziz necha kilogramm olma va nok sotib olganini toping.\n",
-              "eng": "Sam buys 13 kg of apples and pears. He pays 1980 cents for the apples and 880 cents for the pears.\nIf the price for a kilogram of apples and pears is the same, how many kilograms of apples and pears does Sam buy?\n",
-              "rus": "Сергей купил 13 кг яблок и груш. За яблоки он заплатил 1980 рублей, а за груши 880 рублей.\nЕсли цена за килограмм яблок и груш одинаковая, то найдите, сколько килограммов яблок и груш купил Сергей.\n",
-              "kaz": "Айдос 13 кг алма мен алмұрт сатып алды. Алмаға 1980 теңге, ал алмұртқа 880 теңге төледі.\nЕгер алма мен алмұрттың бағалары бірдей болса, Айдос қанша килограмм алма және алмұрт сатып алғанын табыңыз.\n",
+              "aze": "Sara 16 ədəd üzük və sırğa alıb.\nO, üzüklər üçün 1827 manat, sırğalar üçün isə 2349 manat ödəyib.\nƏgər üzük və sırğanın 1-nin qiyməti eynidirsə, Sara neçə ədəd üzük və sırğa alıb?\n",
+              "kgz": "Сергей 16 кг алма жана алмурут сатып алды. Ал алма үчүн 1827 сом, ал эми алмурут үчүн 2349 сом төлөгөн.\nЭгерде бир килограмм алма менен бир килограмм алмуруттун баасы бирдей болсо, анда Сергей канча килограмм алма жана алмурут сатып алганын табыңыз.\n",
+              "uzb": "Aziz 16 kg olma va nok sotib oldi. Olma uchun 1827 so'm, nok uchun esa 2349 so'm to'ladi.\nAgar olma va nokning bir kilogrammining narxlari bir xil bo'lsa, Aziz necha kilogramm olma va nok sotib olganini toping.\n",
+              "eng": "Sam buys 16 kg of apples and pears. He pays 1827 cents for the apples and 2349 cents for the pears.\nIf the price for a kilogram of apples and pears is the same, how many kilograms of apples and pears does Sam buy?\n",
+              "rus": "Сергей купил 16 кг яблок и груш. За яблоки он заплатил 1827 рублей, а за груши 2349 рублей.\nЕсли цена за килограмм яблок и груш одинаковая, то найдите, сколько килограммов яблок и груш купил Сергей.\n",
+              "kaz": "Айдос 16 кг алма мен алмұрт сатып алды. Алмаға 1827 теңге, ал алмұртқа 2349 теңге төледі.\nЕгер алма мен алмұрттың бағалары бірдей болса, Айдос қанша килограмм алма және алмұрт сатып алғанын табыңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "اشترى حسام من السوق 13 كيلوجرامًا من البطاطس والطماطم،\nودفع 1980 جنيهًا للبطاطس و880 جنيهًا للطماطم.\nإذا كان سعر كيلوجرام البطاطس مساويًا لسعر كيلوجرام الطماطم،\nفكم عدد كيلوجرامات البطاطس والطماطم التي اشتراها حسام كل على حدة؟\n",
+              "areg": "اشترى حسام من السوق 16 كيلوجرامًا من البطاطس والطماطم،\nودفع 1827 جنيهًا للبطاطس و2349 جنيهًا للطماطم.\nإذا كان سعر كيلوجرام البطاطس مساويًا لسعر كيلوجرام الطماطم،\nفكم عدد كيلوجرامات البطاطس والطماطم التي اشتراها حسام كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_6_7_11",
           "position": 10,
-          "id": "208e9924-4993-47d0-83ff-c40f6a0d89a8",
+          "id": "955bfd23-ec59-434b-9307-b64a1c3210cd",
           "solution": {
             "type": "text",
             "answer": {
@@ -126,7 +126,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "9;;4",
+              "rus": "7;;9",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -251,32 +251,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 3,
-            "number2": 7,
-            "number1": 8
-          },
           "title": null,
+          "fields": {
+            "number3": 2,
+            "number2": 2,
+            "number1": 3
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Paralelepiped formasında olan otağın uzunluğu 8 m, eni 7 m və hündürlüyü 3 m-dir.\nOtağın həcmini və döşəməsinin sahəsini tapın.\n",
-              "kgz": "Тик бурчтуу параллелепипед формасындагы бөлмөнүн узуну 8 м, туурасы 7 м жана бийиктиги 3 м.\nБөлмөнүн көлөмүн жана полдун аянтын табыңыз.\n",
-              "uzb": "Parallelepipedga o'xshash xonaning uzunligi 8 m, eni 7 m, balandligi esa 3 m.\nXonaning hajmini va asosining yuzini toping.\n",
-              "eng": "A parallelepiped-shaped room is 8 m long, 7 m wide and 3 m high. Find the volume and area of the floor of the room.\n",
-              "rus": "Комната в форме параллелепипеда имеет длину 8 м, ширину 7 м и высоту 3 м.\nНайдите  площадь пола и объем комнаты.\n",
-              "kaz": "Параллелепипед тәрізді бөлменің ұзындығы 8 м, ені 7 м, ал биіктігі 3 м.\nБөлменің көлемі мен еденінің ауданын табыңыз.\n",
+              "aze": "Paralelepiped formasında olan otağın uzunluğu 3 m, eni 2 m və hündürlüyü 2 m-dir.\nOtağın həcmini və döşəməsinin sahəsini tapın.\n",
+              "kgz": "Тик бурчтуу параллелепипед формасындагы бөлмөнүн узуну 3 м, туурасы 2 м жана бийиктиги 2 м.\nБөлмөнүн көлөмүн жана полдун аянтын табыңыз.\n",
+              "uzb": "Parallelepipedga o'xshash xonaning uzunligi 3 m, eni 2 m, balandligi esa 2 m.\nXonaning hajmini va asosining yuzini toping.\n",
+              "eng": "A parallelepiped-shaped room is 3 m long, 2 m wide and 2 m high. Find the volume and area of the floor of the room.\n",
+              "rus": "Комната в форме параллелепипеда имеет длину 3 м, ширину 2 м и высоту 2 м.\nНайдите  площадь пола и объем комнаты.\n",
+              "kaz": "Параллелепипед тәрізді бөлменің ұзындығы 3 м, ені 2 м, ал биіктігі 2 м.\nБөлменің көлемі мен еденінің ауданын табыңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "في البيت غرفة على شكل متوازي مستطيلات. إذا كان طول الغرفة 8 م، وعرضها 7م، وارتفاعها 3 م، فأوجد حجمها ومساحة أرضيتها.\n",
+              "areg": "في البيت غرفة على شكل متوازي مستطيلات. إذا كان طول الغرفة 3 م، وعرضها 2م، وارتفاعها 2 م، فأوجد حجمها ومساحة أرضيتها.\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_7_15_4",
           "position": 9,
-          "id": "4ab3916b-b149-4962-a4a1-fb70db774cfa",
+          "id": "f7fc6e16-c0d9-4915-ba21-049d73a1041b",
           "solution": {
             "type": "text",
             "answer": {
@@ -287,7 +287,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "168;;56",
+              "rus": "12;;6",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -412,32 +412,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 112000,
-            "number2": 5,
-            "number1": 2
-          },
           "title": null,
+          "fields": {
+            "number3": 120000,
+            "number2": 5,
+            "number1": 3
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "İki işçi birlikdə 112000 kq tərəvəz yığıb. Birinci işçi 2 həftə, ikinci isə 5 həftə işləyib.\nƏgər onlar hər həftə eyni miqdarda tərəvəz yığıblarsa, hər biri nə qədər tərəvəz yığıb?\n",
-              "kgz": "Эки жумушчу чогуу 112000 сом айлык акы алышкан. Биринчи жумушчу 2 жума, экинчиси 5 жума иштеди.\nЭгерде аларга жума сайын бирдей өлчөмдө айлык төлөнсө, алардын ар бирине канчадан төлөнгөн?\n",
-              "uzb": "Ikki ishchi birgalikda 112000 so'm maosh olishdi. Birinchi ishchi 2 hafta, ikkinchisi ishchi 5 hafta ishladi.\nAgar ularga har kuni bir xil miqdorda to'langan bo'lsa, ularning har biriga qancha to'langan?\n",
-              "eng": "Both workers together receive a salary of 112000 tenge. The first worker works for 2 weeks, and the second worker works for 5 weeks.\nIf they are paid the same amount each week, how much is each of them paid?\n",
-              "rus": "Оба работника вместе получили заработную плату в размере 112000 тенге. Первый рабочий проработал 2 недели, а второй – 5 недель.\nЕсли им платили одинаковую сумму каждую неделю, то сколько заплатили каждому из них?\n",
-              "kaz": "Екі жұмысшы бірге 112000 теңге еңбекақы алды. Бірінші жұмысшы 2 апта, ал екіншісі 5 апта жұмыс істеген.\nЕгер күнделікті бірдей еңбекақы алатын болса, онда олардың әрқайсысы қанша еңбекақы алды?\n",
+              "aze": "İki işçi birlikdə 120000 kq tərəvəz yığıb. Birinci işçi 3 həftə, ikinci isə 5 həftə işləyib.\nƏgər onlar hər həftə eyni miqdarda tərəvəz yığıblarsa, hər biri nə qədər tərəvəz yığıb?\n",
+              "kgz": "Эки жумушчу чогуу 120000 сом айлык акы алышкан. Биринчи жумушчу 3 жума, экинчиси 5 жума иштеди.\nЭгерде аларга жума сайын бирдей өлчөмдө айлык төлөнсө, алардын ар бирине канчадан төлөнгөн?\n",
+              "uzb": "Ikki ishchi birgalikda 120000 so'm maosh olishdi. Birinchi ishchi 3 hafta, ikkinchisi ishchi 5 hafta ishladi.\nAgar ularga har kuni bir xil miqdorda to'langan bo'lsa, ularning har biriga qancha to'langan?\n",
+              "eng": "Both workers together receive a salary of 120000 tenge. The first worker works for 3 weeks, and the second worker works for 5 weeks.\nIf they are paid the same amount each week, how much is each of them paid?\n",
+              "rus": "Оба работника вместе получили заработную плату в размере 120000 тенге. Первый рабочий проработал 3 недели, а второй – 5 недель.\nЕсли им платили одинаковую сумму каждую неделю, то сколько заплатили каждому из них?\n",
+              "kaz": "Екі жұмысшы бірге 120000 теңге еңбекақы алды. Бірінші жұмысшы 3 апта, ал екіншісі 5 апта жұмыс істеген.\nЕгер күнделікті бірдей еңбекақы алатын болса, онда олардың әрқайсысы қанша еңбекақы алды?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "تلقى عاملان معًا راتبًا قدره 112000 جنيه. عمل الأول لمدة أسبوعين، بينما عمل الثاني لمدة 5 أسابيع.\nإذا كان كل منهما يتقاضى نفس الأجر اليومي، فكم راتب كل منهما؟\n",
+              "areg": "تلقى عاملان معًا راتبًا قدره 120000 جنيه. عمل الأول لمدة 3 أسابيع، بينما عمل الثاني لمدة 5 أسابيع.\nإذا كان كل منهما يتقاضى نفس الأجر اليومي، فكم راتب كل منهما؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_8_13_8",
           "position": 7,
-          "id": "fe00adb0-3d9a-46b4-9737-1b42d118ec7b",
+          "id": "0781a7d7-ba74-45c5-9898-a86db27bbeac",
           "solution": {
             "type": "text",
             "answer": {
@@ -448,7 +448,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "32000;;80000",
+              "rus": "45000;;75000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -573,32 +573,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 32,
-            "number2": 2,
-            "number1": 6
-          },
           "title": null,
+          "fields": {
+            "number3": 30,
+            "number2": 7,
+            "number1": 8
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Nuray və Emil birlikdə 32 detal hazırladılar. Nuray 6 saat, Emil isə 2 saat işləyib.\nƏgər onların iş məhsuldarlığı eynidirsə, hər biri neçə detal hazırlayıb?\n",
-              "kgz": "Николай жана Георгий чогуу иштеп 32 тетик жасашты.\nНиколай 6 саат, ал эми Георгий 2 саат иштешти.\nЭгерде алардын жумушту аткаруу өндүрүмдүүлүгү бирдей болсо, анда алардын ар бири канча тетик жасашкан?\n",
-              "uzb": "Murod va Diyor birgalikda 32 ta detal tayyorladi.\nMurod 6 soat, Diyor esa 2 soat ishladi.\nAgar ularning mehnat unumdorligi bir xil bo'lsa, ularning har biri nechta detal tayyorlagan?\n",
-              "eng": "Henry and George make 32 parts together.\nHenry works for 6 hours, and George works for 2 hours.\nIf their work rate is the same, how many parts does each of them make?\n",
-              "rus": "Николай и Георгий вместе изготовили 32 детали.\nНиколай работал 6 часов, а Георгий 2 часа.\nЕсли их производительность труда одинаковая, то сколько деталей изготовил каждый из них?\n",
-              "kaz": "Марлен мен Диас бірге 32 бөлшек әзірледі.\nМарлен 6 сағат, ал Диас 2 сағат жұмыс істеді.\nЕгер олардың еңбек өнімділіктері бірдей болса, әрқайсысы қанша бөлшек әзірлеген?\n",
+              "aze": "Nuray və Emil birlikdə 30 detal hazırladılar. Nuray 8 saat, Emil isə 7 saat işləyib.\nƏgər onların iş məhsuldarlığı eynidirsə, hər biri neçə detal hazırlayıb?\n",
+              "kgz": "Николай жана Георгий чогуу иштеп 30 тетик жасашты.\nНиколай 8 саат, ал эми Георгий 7 саат иштешти.\nЭгерде алардын жумушту аткаруу өндүрүмдүүлүгү бирдей болсо, анда алардын ар бири канча тетик жасашкан?\n",
+              "uzb": "Murod va Diyor birgalikda 30 ta detal tayyorladi.\nMurod 8 soat, Diyor esa 7 soat ishladi.\nAgar ularning mehnat unumdorligi bir xil bo'lsa, ularning har biri nechta detal tayyorlagan?\n",
+              "eng": "Henry and George make 30 parts together.\nHenry works for 8 hours, and George works for 7 hours.\nIf their work rate is the same, how many parts does each of them make?\n",
+              "rus": "Николай и Георгий вместе изготовили 30 деталей.\nНиколай работал 8 часов, а Георгий 7 часов.\nЕсли их производительность труда одинаковая, то сколько деталей изготовил каждый из них?\n",
+              "kaz": "Марлен мен Диас бірге 30 бөлшек әзірледі.\nМарлен 8 сағат, ал Диас 7 сағат жұмыс істеді.\nЕгер олардың еңбек өнімділіктері бірдей болса, әрқайсысы қанша бөлшек әзірлеген?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "حل أحمد وخالد معًا 32 مسألةً رياضية، ولكن استغرق أحمد 6 ساعات بينما استغرق خالد ساعتين. إذا كانت إنتاجيتهما متساوية أحمد وخالد يحلان المسألة الواحدة في نفس الوقت، فكم مسألة رياضية حلّ كل واحد منهما على حدة؟\n",
+              "areg": "حل أحمد وخالد معًا 30 مسألةً رياضية، ولكن استغرق أحمد 8 ساعات بينما استغرق خالد 7 ساعات. إذا كانت إنتاجيتهما متساوية أحمد وخالد يحلان المسألة الواحدة في نفس الوقت، فكم مسألة رياضية حلّ كل واحد منهما على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_2_6",
           "position": 5,
-          "id": "cce4c423-fad5-4063-9db9-62e7010e723d",
+          "id": "87d5e596-cbac-428c-a5cc-3546dbdad589",
           "solution": {
             "type": "text",
             "answer": {
@@ -609,7 +609,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "24;;8",
+              "rus": "16;;14",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -734,32 +734,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 6,
-            "number2": 4,
-            "number1": 90
-          },
           "title": null,
+          "fields": {
+            "number3": 7,
+            "number2": 3,
+            "number1": 110
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "İki yük maşını eyni sayda reys edərək 90 ton yük daşıdı.\nBir reysdə biri 4 ton, digəri isə 6 ton yük daşıyırdı. Hər yük maşını neçə ton yük daşıdı?\n",
-              "kgz": "Эки жүк ташуучу машина 90 тонна жүк ташып, бирдей каттамдарды жасады.\nЭгерде бир жолку каттамда бири 4 тоннадан, экинчиси 6 тоннадан жүк ташыса, анда ар бир машина канча тонна жүк ташыган?\n",
-              "uzb": "Qatnovlar soni teng ikkita yuk mashinasi 90 tonna yuk tashidi.\nAgar bir marta qatnaganda bitta yuk mashinasi 4 tonna, ikkinchisi 6 tonna yuk tashigan bo‘lsa, mashinalarning har biri necha tonnadan yuk tashigan?\n",
-              "eng": "Two trucks transport 90 tonnes of cargo, making the same number of trips.\nHow many tonnes of cargo does each truck carry if one truck carries 4 tonnes per trip and the other truck carries 6 tonnes per trip?\n",
-              "rus": "Два грузовика перевезли 90 т груза, сделав одинаковое количество рейсов.\nСколько тонн груза перевёз каждый грузовик, если один за рейс перевозил 4 т, а другой – 6 т груза?\n",
-              "kaz": "Қатынау саны бірдей екі жүк мәшинесі 90 т жүк тасымалдады.\nЕгер бір рет қатынағанда біреуі 4 т, ал екіншісі 6 т жүк тасымалдайтын болса, жүк мәшинелердің әрқайсысы қанша тонна жүк тасымалдады?\n",
+              "aze": "İki yük maşını eyni sayda reys edərək 110 ton yük daşıdı.\nBir reysdə biri 3 ton, digəri isə 7 ton yük daşıyırdı. Hər yük maşını neçə ton yük daşıdı?\n",
+              "kgz": "Эки жүк ташуучу машина 110 тонна жүк ташып, бирдей каттамдарды жасады.\nЭгерде бир жолку каттамда бири 3 тоннадан, экинчиси 7 тоннадан жүк ташыса, анда ар бир машина канча тонна жүк ташыган?\n",
+              "uzb": "Qatnovlar soni teng ikkita yuk mashinasi 110 tonna yuk tashidi.\nAgar bir marta qatnaganda bitta yuk mashinasi 3 tonna, ikkinchisi 7 tonna yuk tashigan bo‘lsa, mashinalarning har biri necha tonnadan yuk tashigan?\n",
+              "eng": "Two trucks transport 110 tonnes of cargo, making the same number of trips.\nHow many tonnes of cargo does each truck carry if one truck carries 3 tonnes per trip and the other truck carries 7 tonnes per trip?\n",
+              "rus": "Два грузовика перевезли 110 т груза, сделав одинаковое количество рейсов.\nСколько тонн груза перевёз каждый грузовик, если один за рейс перевозил 3 т, а другой – 7 т груза?\n",
+              "kaz": "Қатынау саны бірдей екі жүк мәшинесі 110 т жүк тасымалдады.\nЕгер бір рет қатынағанда біреуі 3 т, ал екіншісі 7 т жүк тасымалдайтын болса, жүк мәшинелердің әрқайсысы қанша тонна жүк тасымалдады?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "نقلت شاحنتان بنفس سعة الحمولة 90 طنًا من البضائع. إذا كانت الشاحنة الأولى تحمل 4 أطنان في الرحلة الواحدة، بينما تحمل الشاحنة الثانية 6 أطنان، فكم طنًا من البضائع نقلتها كل شاحنة على حدة؟\n",
+              "areg": "نقلت شاحنتان بنفس سعة الحمولة 110 أطنان من البضائع. إذا كانت الشاحنة الأولى تحمل 3 أطنان في الرحلة الواحدة، بينما تحمل الشاحنة الثانية 7 أطنان، فكم طنًا من البضائع نقلتها كل شاحنة على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_3_10",
           "position": 9,
-          "id": "b2971065-1ac4-4071-9fad-8b6fec3097c6",
+          "id": "4851ee4c-9017-4617-8ce9-4ce2d3af51f3",
           "solution": {
             "type": "text",
             "answer": {
@@ -770,7 +770,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "36;;54",
+              "rus": "33;;77",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -895,32 +895,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 15,
-            "number2": 5,
-            "number1": 8
-          },
           "title": null,
+          "fields": {
+            "number3": 25,
+            "number2": 6,
+            "number1": 11
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Uşaqlar ekskursiyada olarkən həmin gün orada eyni miqdarda parça sərf edərək şalvar və köynək tikildiyini öyrəndilər.\n8 şalvar, 5 köynək tikildi.\nƏgər şalvarlara köynəklərdən 15 m parça daha çox sərf edilibsə, şalvar və köynəklərə nə qədər parça sərf olunub?\n",
-              "kgz": "Балдар экскурсияга чыгып, ошол күнү ар бир буюмга бирдей өлчөмдөгү кездеме сарптап,  шым жана блузка тиккендигин билишти. 8 шым, 5 көйнөк тигишти.\nЭгерде шымга көйнөккө караганда 15 м көп кездеме керектелсе, анда шым менен көйнөккө өзүнчө канча кездеме керектелет?\n",
-              "uzb": "Bolalar yashaydigan viloyatda tikuvchilik sexi bor.\nUlar shu sexga sayohat qildi.\nShim bilan sviterning har biriga bir xil mato sarflanishini bildi.\nShu kuni 8 ta shim, 5 ta sviter tikildi.\nSviterga qaraganda shimga 15 m mato ko'proq sarflangan bo'lsa, shim bilan sviterning alohida necha metr mato sarflandi?\n",
-              "eng": "The children visit a clothing manufacturer and find out that on that day trousers and blouses are sewn there, each using the same amount of fabric.\n8 pairs of trousers are sewn, as well as 5 blouses.\nHow much fabric is spent on trousers and blouses separately, if 15 m more fabric is spent on trousers than on blouses?\n",
-              "rus": "Дети побывали на экскурсии и узнали, что в этот день там сшили брюки и блузки, расходуя на каждое изделие одинаковое количество ткани.\nБрюк сшили  8 штук, а блузок – 5 штук.\nСколько ткани израсходовали на брюки и блузки по отдельности, если на брюки потратили ткани на 15 м больше, чем на блузки?\n",
-              "kaz": "Балалар тұратын аймақта тігін фабрикасы бар. Олар осы фабрикаға саяхат жасады.\nШалбар мен кофтаның әрқайсысына бірдей көлемде мата жұмсалатынын білді. Сол күні 8 шалбар, 5 кофта тігілді.\nКофтаға қарағанда шалбарға 15 м мата артық жұмсалған болса, ол шалбарлар мен кофталарға жеке-жеке қанша метр мата кетті?\n",
+              "aze": "Uşaqlar ekskursiyada olarkən həmin gün orada eyni miqdarda parça sərf edərək şalvar və köynək tikildiyini öyrəndilər.\n11 şalvar, 6 köynək tikildi.\nƏgər şalvarlara köynəklərdən 25 m parça daha çox sərf edilibsə, şalvar və köynəklərə nə qədər parça sərf olunub?\n",
+              "kgz": "Балдар экскурсияга чыгып, ошол күнү ар бир буюмга бирдей өлчөмдөгү кездеме сарптап,  шым жана блузка тиккендигин билишти. 11 шым, 6 көйнөк тигишти.\nЭгерде шымга көйнөккө караганда 25 м көп кездеме керектелсе, анда шым менен көйнөккө өзүнчө канча кездеме керектелет?\n",
+              "uzb": "Bolalar yashaydigan viloyatda tikuvchilik sexi bor.\nUlar shu sexga sayohat qildi.\nShim bilan sviterning har biriga bir xil mato sarflanishini bildi.\nShu kuni 11 ta shim, 6 ta sviter tikildi.\nSviterga qaraganda shimga 25 m mato ko'proq sarflangan bo'lsa, shim bilan sviterning alohida necha metr mato sarflandi?\n",
+              "eng": "The children visit a clothing manufacturer and find out that on that day trousers and blouses are sewn there, each using the same amount of fabric.\n11 pairs of trousers are sewn, as well as 6 blouses.\nHow much fabric is spent on trousers and blouses separately, if 25 m more fabric is spent on trousers than on blouses?\n",
+              "rus": "Дети побывали на экскурсии и узнали, что в этот день там сшили брюки и блузки, расходуя на каждое изделие одинаковое количество ткани.\nБрюк сшили  11 штук, а блузок – 6 штук.\nСколько ткани израсходовали на брюки и блузки по отдельности, если на брюки потратили ткани на 25 м больше, чем на блузки?\n",
+              "kaz": "Балалар тұратын аймақта тігін фабрикасы бар. Олар осы фабрикаға саяхат жасады.\nШалбар мен кофтаның әрқайсысына бірдей көлемде мата жұмсалатынын білді. Сол күні 11 шалбар, 6 кофта тігілді.\nКофтаға қарағанда шалбарға 25 м мата артық жұмсалған болса, ол шалбарлар мен кофталарға жеке-жеке қанша метр мата кетті?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "زار تلاميذ المدرسة مصنعًا للملابس، وعرفوا أن المصنع يستخدم نفس كمية القماش لإنتاج بنطلون واحد وقميص واحد.\nإذا أنتج المصنع في ذلك اليوم 8 بنطلونات و5 قمصان، وتم استخدام 15 مترًا من القماش لإنتاج البنطلون أكثر من إنتاج القميص، فكم مترًا من القماش استخدمها المصنع لإنتاج البنطلونات والقمصان كل على حدة؟\n",
+              "areg": "زار تلاميذ المدرسة مصنعًا للملابس، وعرفوا أن المصنع يستخدم نفس كمية القماش لإنتاج بنطلون واحد وقميص واحد.\nإذا أنتج المصنع في ذلك اليوم 11 بنطلون و6 قمصان، وتم استخدام 25 مترًا من القماش لإنتاج البنطلون أكثر من إنتاج القميص، فكم مترًا من القماش استخدمها المصنع لإنتاج البنطلونات والقمصان كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_4_1",
           "position": 0,
-          "id": "cbbb1427-d1cf-4444-9351-cffc64cb7b57",
+          "id": "34c84e63-23d6-48a8-be5e-cd4c69da8b81",
           "solution": {
             "type": "text",
             "answer": {
@@ -931,7 +931,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "40;;25",
+              "rus": "55;;30",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1056,32 +1056,32 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number3": 1216,
+            "number3": 1212,
             "number2": 5,
             "number1": 3
           },
-          "title": null,
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Gəncədə qızıl istehsal edən zavod var. Orada boyunbağı, qolbaq və digər zinət əşyaları istehsal olunur.\nMağazada 3 ədəd qolbaq və 5 ədəd boyunbağı eyni qiymətə alınıb.\nƏgər boyunbağı üçün qolbaqdan 1216 manat daha çox ödənilibsə, qolbaq və boyunbağı üçün ayrı-ayrılıqda nə qədər ödənilib?\n",
-              "kgz": "Түркстан облусунда кездеме чыгаруучу цех бар. Жибек, кебез, жүн жана башка кездемелерди чыгарышат.\nДүкөндөн бирдей эле баада 3 м жибек кездеме, 5 м жүндөн кездеме алышты.\nЭгерде алар жүн үчүн жибекке караганда 1216 сомго көп төлөшсө, анда жибек жана жүндөн кездемеге өз-өзүнчө канча төлөштү?\n",
-              "uzb": "Buxoro viloyatida mato ishlab chiqarish kombinati bor. U yerda ipak, paxta mato, to'qima mato va boshqa matolar ham ishlab chiqariladi.\nBir xil narxda 3 m ipak va 5 m to'qima mato sotib olindi.\nIpak matoga qaraganda to'qima matoga 1216 so'm ko'proq to'langan bo'lsa, ipak va to'qima matolarga alohida necha so'm to'langan?\n",
-              "eng": "There is a fabric manufacturing plant in the Leicester region. Silk, cotton, wool, and other fabrics are produced there.\nThe store buys 3 m of silk fabric and 5 m of woolen fabric at the same price.\nHow much do you pay for silk and woolen fabric separately, if you pay 1216 dollars more for wool than for silk?\n",
-              "rus": "В Туркестанской области есть комбинат по выпуску тканей. Там выпускают шелковую, хлопчатобумажную, шерстяную и другие ткани.\nВ магазине купили 3 м шелковой ткани и 5 м шерстяной ткани по такой же цене.\nСколько заплатили за шелковую и шерстяную ткань по отдельности, если за шерстяную заплатили на 1216 тенге больше, чем за шелковую?\n",
-              "kaz": "Түркістан облысында мата өндіретін комбинат бар. Онда жібек, мақта-мата, тоқыма және басқа да маталар шығарылады.\nБірдей бағада 3 м жібек және 5 м тоқыма мата сатып алынды.\nЖібек матаға қарағанда тоқыма матаға 1216 теңге артық төленген болса, жібек және тоқыма маталарға жеке-жеке қанша теңге төленген?\n",
+              "aze": "Gəncədə qızıl istehsal edən zavod var. Orada boyunbağı, qolbaq və digər zinət əşyaları istehsal olunur.\nMağazada 3 ədəd qolbaq və 5 ədəd boyunbağı eyni qiymətə alınıb.\nƏgər boyunbağı üçün qolbaqdan 1212 manat daha çox ödənilibsə, qolbaq və boyunbağı üçün ayrı-ayrılıqda nə qədər ödənilib?\n",
+              "kgz": "Түркстан облусунда кездеме чыгаруучу цех бар. Жибек, кебез, жүн жана башка кездемелерди чыгарышат.\nДүкөндөн бирдей эле баада 3 м жибек кездеме, 5 м жүндөн кездеме алышты.\nЭгерде алар жүн үчүн жибекке караганда 1212 сомго көп төлөшсө, анда жибек жана жүндөн кездемеге өз-өзүнчө канча төлөштү?\n",
+              "uzb": "Buxoro viloyatida mato ishlab chiqarish kombinati bor. U yerda ipak, paxta mato, to'qima mato va boshqa matolar ham ishlab chiqariladi.\nBir xil narxda 3 m ipak va 5 m to'qima mato sotib olindi.\nIpak matoga qaraganda to'qima matoga 1212 so'm ko'proq to'langan bo'lsa, ipak va to'qima matolarga alohida necha so'm to'langan?\n",
+              "eng": "There is a fabric manufacturing plant in the Leicester region. Silk, cotton, wool, and other fabrics are produced there.\nThe store buys 3 m of silk fabric and 5 m of woolen fabric at the same price.\nHow much do you pay for silk and woolen fabric separately, if you pay 1212 dollars more for wool than for silk?\n",
+              "rus": "В Туркестанской области есть комбинат по выпуску тканей. Там выпускают шелковую, хлопчатобумажную, шерстяную и другие ткани.\nВ магазине купили 3 м шелковой ткани и 5 м шерстяной ткани по такой же цене.\nСколько заплатили за шелковую и шерстяную ткань по отдельности, если за шерстяную заплатили на 1212 тенге больше, чем за шелковую?\n",
+              "kaz": "Түркістан облысында мата өндіретін комбинат бар. Онда жібек, мақта-мата, тоқыма және басқа да маталар шығарылады.\nБірдей бағада 3 м жібек және 5 м тоқыма мата сатып алынды.\nЖібек матаға қарағанда тоқыма матаға 1212 теңге артық төленген болса, жібек және тоқыма маталарға жеке-жеке қанша теңге төленген?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "ذهب أحد التجار إلى مصنع لإنتاج الحرير والقطن والصوف وغيرها من أنواع الأقمشة والمنسوجات، واشترى 3 أمتار من الحرير و5 أمتار من الصوف. إذا كان سعر متر الحرير مساويًا لسعر متر الصوف، ودفع التاجر 1216 جنيهًا للصوف أكثر من الحرير، فكم جنيهًا دفع لشراء الحرير والصوف كل على حدة؟\n",
+              "areg": "ذهب أحد التجار إلى مصنع لإنتاج الحرير والقطن والصوف وغيرها من أنواع الأقمشة والمنسوجات، واشترى 3 أمتار من الحرير و5 أمتار من الصوف. إذا كان سعر متر الحرير مساويًا لسعر متر الصوف، ودفع التاجر 1212 جنيهًا للصوف أكثر من الحرير، فكم جنيهًا دفع لشراء الحرير والصوف كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_4_2",
           "position": 1,
-          "id": "8e8c1562-71e9-4961-ac7c-dab7f14388f4",
+          "id": "51cbea56-f39d-44a2-af1e-67968ce88002",
           "solution": {
             "type": "text",
             "answer": {
@@ -1092,7 +1092,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "1824;;3040",
+              "rus": "1818;;3030",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1217,32 +1217,32 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number3": 18,
-            "number2": 4,
+            "number3": 24,
+            "number2": 3,
             "number1": 6
           },
-          "title": null,
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Çəlləyi su ilə doldurmaq üçün ata 6 vedrə, oğul isə 4 eyni vedrə su gətirdi.\nAta oğuldan 18 litr daha çox su gətirdisə, ata və oğul ayrı-ayrılıqda neçə litr su gətirdilər?\n",
-              "kgz": "Бочкага суу толтуруу үчүн атасы 6 чака, баласы ошондой  эле чакадан 4 чака алып келди.\nАтасы 18 литр көбүрөөк суу алып келсе, атасы менен баласы өзүнчө канча литр суу алып келишти?\n",
-              "uzb": "Bochkani suvga to'ldirish uchun dadasi 6 chelak, o'g'li esa xuddi shunday 4 chelak suv olib keldi.\nAgar dadasi 18 suv ko'proq olib kelgan bo'lsa, dadasi bilan o'g'li har biri necha litr suv olib kelgan?\n",
-              "eng": "To fill the barrel with water, the father brings 6 buckets, and the son brings 4 buckets of water.\nHow many liters of water do the father and son bring separately, if the father brings 18 liters more?\n",
-              "rus": "Чтобы заполнить бочку водой, отец принёс 6 вёдер, а сын – 4 таких же вёдер воды.\nСколько литров воды принесли отец и сын по отдельности, если отец принёс на 18 л больше?\n",
-              "kaz": "Бөшкені суға толтыру үшін әкесі 6 шелек, ал ұлы дәл сондай 4 шелек су әкелді.\nЕгер әкесі 18 л су артық әкелген болса, онда әкесі мен ұлы жеке-жеке қанша литр су әкелген?\n",
+              "aze": "Çəlləyi su ilə doldurmaq üçün ata 6 vedrə, oğul isə 3 eyni vedrə su gətirdi.\nAta oğuldan 24 litr daha çox su gətirdisə, ata və oğul ayrı-ayrılıqda neçə litr su gətirdilər?\n",
+              "kgz": "Бочкага суу толтуруу үчүн атасы 6 чака, баласы ошондой  эле чакадан 3 чака алып келди.\nАтасы 24 литр көбүрөөк суу алып келсе, атасы менен баласы өзүнчө канча литр суу алып келишти?\n",
+              "uzb": "Bochkani suvga to'ldirish uchun dadasi 6 chelak, o'g'li esa xuddi shunday 3 chelak suv olib keldi.\nAgar dadasi 24 suv ko'proq olib kelgan bo'lsa, dadasi bilan o'g'li har biri necha litr suv olib kelgan?\n",
+              "eng": "To fill the barrel with water, the father brings 6 buckets, and the son brings 3 buckets of water.\nHow many liters of water do the father and son bring separately, if the father brings 24 liters more?\n",
+              "rus": "Чтобы заполнить бочку водой, отец принёс 6 вёдер, а сын – 3 таких же вёдер воды.\nСколько литров воды принесли отец и сын по отдельности, если отец принёс на 24 л больше?\n",
+              "kaz": "Бөшкені суға толтыру үшін әкесі 6 шелек, ал ұлы дәл сондай 3 шелек су әкелді.\nЕгер әкесі 24 л су артық әкелген болса, онда әкесі мен ұлы жеке-жеке қанша литр су әкелген?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "ملأ الأب والابن البرميل بالماء، ولكن الأب أحضر 6 دلاء بينما أحضر الابن 4 دلاء بنفس الحجم والسعة.\nإذا ملأ الأب 18 لترًا أكثر من الابن، فكم لترًا من الماء أحضر الأب والابن كل على حدة؟\n",
+              "areg": "ملأ الأب والابن البرميل بالماء، ولكن الأب أحضر 6 دلاء بينما أحضر الابن 3 دلاء بنفس الحجم والسعة.\nإذا ملأ الأب 24 لترًا أكثر من الابن، فكم لترًا من الماء أحضر الأب والابن كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_4_3",
           "position": 2,
-          "id": "41f76468-ce9f-4434-b964-443258b92616",
+          "id": "49854b6f-fd9a-4024-909f-7e58547f8b31",
           "solution": {
             "type": "text",
             "answer": {
@@ -1253,7 +1253,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "54;;36",
+              "rus": "48;;24",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1378,32 +1378,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 12,
-            "number2": 660,
-            "number1": 1380
-          },
           "title": null,
+          "fields": {
+            "number3": 8,
+            "number2": 732,
+            "number1": 1220
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Qızıl mağazası eyni qiymətə boyunbağı və qolbaq satdı. Boyunbağılar üçün mağaza 1380 manat, qolbaqlar üçün isə 660 manat aldı.\nƏgər qolbaqlar boyunbağılardan 12 ədəd az satılıbsa, boyunbağı və qolbaqlar ayrı-ayrılıqda neçə ədəd satılıb?\n",
-              "kgz": "Дүкөндө карандаш жана калем бирдей баада сатылган. Сатылган карандаштар үчүн дүкөн 1380 сом, ал эми калемдер үчүн 660 сом алышты.\nЭгерде карандашка караганда  калем 12 даанага аз сатылса, анда өз-өзүнчө канча карандаш жана калем сатылды?\n",
-              "uzb": "Do'konda bir xil ruchka bilan qalam sotiladi. Ruchka uchun do'konga  1380 so'm, qalam uchun  660 so'm to'landi.\nRuchkaga qaraganda  12 dona qalam kam sotib olingan bo'lsa, nechta ruchka va nechta qalam sotib olinganini toping.\n",
-              "eng": "The store sells pencils and pens at the same price. The store gets 1380 cents for pencils, and 660 cents for pens.\nHow many pencils and pens are sold separately if 12 fewer pens are sold than pencils?\n",
-              "rus": "Магазин продал карандаши и ручки по одинаковой цене. За карандаши магазин получил 1380 тенге, а за ручки – 660 тенге.\nСколько карандашей и ручек было продано по отдельности, если ручек продали на 12 штук меньше, чем карандашей?\n",
-              "kaz": "Дүкенде бірдей бағада қарындаш пен қалам сатылды. Қарындаш үшін дүкенге 1380 тг, қалам үшін 660 тг төленді.\nҚарындашқа қарағанда 12 дана қалам кем сатылған болса, онда жеке-жеке қанша қалам және қарындаш сатылған?\n",
+              "aze": "Qızıl mağazası eyni qiymətə boyunbağı və qolbaq satdı. Boyunbağılar üçün mağaza 1220 manat, qolbaqlar üçün isə 732 manat aldı.\nƏgər qolbaqlar boyunbağılardan 8 ədəd az satılıbsa, boyunbağı və qolbaqlar ayrı-ayrılıqda neçə ədəd satılıb?\n",
+              "kgz": "Дүкөндө карандаш жана калем бирдей баада сатылган. Сатылган карандаштар үчүн дүкөн 1220 сом, ал эми калемдер үчүн 732 сом алышты.\nЭгерде карандашка караганда  калем 8 даанага аз сатылса, анда өз-өзүнчө канча карандаш жана калем сатылды?\n",
+              "uzb": "Do'konda bir xil ruchka bilan qalam sotiladi. Ruchka uchun do'konga  1220 so'm, qalam uchun  732 so'm to'landi.\nRuchkaga qaraganda  8 dona qalam kam sotib olingan bo'lsa, nechta ruchka va nechta qalam sotib olinganini toping.\n",
+              "eng": "The store sells pencils and pens at the same price. The store gets 1220 cents for pencils, and 732 cents for pens.\nHow many pencils and pens are sold separately if 8 fewer pens are sold than pencils?\n",
+              "rus": "Магазин продал карандаши и ручки по одинаковой цене. За карандаши магазин получил 1220 тенге, а за ручки – 732 тенге.\nСколько карандашей и ручек было продано по отдельности, если ручек продали на 8 штук меньше, чем карандашей?\n",
+              "kaz": "Дүкенде бірдей бағада қарындаш пен қалам сатылды. Қарындаш үшін дүкенге 1220 тг, қалам үшін 732 тг төленді.\nҚарындашқа қарағанда 8 дана қалам кем сатылған болса, онда жеке-жеке қанша қалам және қарындаш сатылған?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "باعت المكتبة عددًا من أقلام الرصاص وأقلام الحبر، وكان سعر قلم الرصاص مساويًا لسعر قلم الحبر. إذا حصلت المكتبة على 1380 جنيهًا لأقلام الرصاص و660 جنيهًا لأقلام الحبر، وكان عدد أقلام الحبر أقل 12 قلمًا من أقلام الرصاص، فكم عدد أقلام الرصاص وأقلام الحبر التي تم باعتها المكتبة كل على حدة؟\n",
+              "areg": "باعت المكتبة عددًا من أقلام الرصاص وأقلام الحبر، وكان سعر قلم الرصاص مساويًا لسعر قلم الحبر. إذا حصلت المكتبة على 1220 جنيهًا لأقلام الرصاص و732 جنيهًا لأقلام الحبر، وكان عدد أقلام الحبر أقل 8 أقلام من أقلام الرصاص، فكم عدد أقلام الرصاص وأقلام الحبر التي تم باعتها المكتبة كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_4_4",
           "position": 3,
-          "id": "0d9f488f-2566-44e2-aa4e-0245847b4b09",
+          "id": "7e204c20-c553-4f8b-ba67-2994e1486902",
           "solution": {
             "type": "text",
             "answer": {
@@ -1414,7 +1414,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "23;;11",
+              "rus": "20;;12",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1539,32 +1539,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 4494,
-            "number2": 16,
-            "number1": 10
-          },
           "title": null,
+          "fields": {
+            "number3": 4554,
+            "number2": 20,
+            "number1": 14
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Qızıl mağazasında bir rəfdə 10 ədəd, digərində isə 16 ədəd eyni üzük var.\nİkinci rəfdəki üzüklər birinci rəfdəkindən 4494 manat daha bahadır. Hər rəfdəki üzüklərin qiyməti nə qədərdir?\n",
-              "kgz": "Бир түрмөктө 10 м кездеме, экинчисинде 16 м ошондой  эле кездеме бар.\nЭкинчи түрмөк 4494 сомго кымбат турат. Ар бир түрмөктүн баасы канча?\n",
-              "uzb": "Bir rulonda 10 m, ikkinchisida esa xuddi shunday 16 m mato bor.\nBirinchi rulonga qaraganda ikkinchi rulon 4494 so'mga qimmatroq. Har rulonning narxi qanday?\n",
-              "eng": "There are 10 m of fabric in one roll, and 16 m of the same fabric in the second roll.\nThe second roll costs 4494 dollars more. How much does each roll cost?\n",
-              "rus": "В одном рулоне 10 м ткани, а во втором – 16 м такой же ткани.\nВторой рулон стоит на 4494 тенге дороже. Сколько стоит каждый рулон?\n",
-              "kaz": "Бір орамда 10 м, ал екіншісінде дәл сондай 16 м мата бар.\nБірінші орамға қарағанда екінші орам 4494 теңгеге қымбат. Әр орам қанша теңге тұрады?\n",
+              "aze": "Qızıl mağazasında bir rəfdə 14 ədəd, digərində isə 20 ədəd eyni üzük var.\nİkinci rəfdəki üzüklər birinci rəfdəkindən 4554 manat daha bahadır. Hər rəfdəki üzüklərin qiyməti nə qədərdir?\n",
+              "kgz": "Бир түрмөктө 14 м кездеме, экинчисинде 20 м ошондой  эле кездеме бар.\nЭкинчи түрмөк 4554 сомго кымбат турат. Ар бир түрмөктүн баасы канча?\n",
+              "uzb": "Bir rulonda 14 m, ikkinchisida esa xuddi shunday 20 m mato bor.\nBirinchi rulonga qaraganda ikkinchi rulon 4554 so'mga qimmatroq. Har rulonning narxi qanday?\n",
+              "eng": "There are 14 m of fabric in one roll, and 20 m of the same fabric in the second roll.\nThe second roll costs 4554 dollars more. How much does each roll cost?\n",
+              "rus": "В одном рулоне 14 м ткани, а во втором – 20 м такой же ткани.\nВторой рулон стоит на 4554 тенге дороже. Сколько стоит каждый рулон?\n",
+              "kaz": "Бір орамда 14 м, ал екіншісінде дәл сондай 20 м мата бар.\nБірінші орамға қарағанда екінші орам 4554 теңгеге қымбат. Әр орам қанша теңге тұрады?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "في المتجر لفتان تحتويان على نفس النوع من القماش، تحتوي اللفة الأولى على 10 أمتار، وتحتوي اللفة الثانية على 16 مترًا. إذا كان سعر اللفة الثانية أغلى 4494 جنيهًا من اللفة الأولى، فكم يبلغ سعر كل لفة على حدة؟\n",
+              "areg": "في المتجر لفتان تحتويان على نفس النوع من القماش، تحتوي اللفة الأولى على 14 مترًا، وتحتوي اللفة الثانية على 20 مترًا. إذا كان سعر اللفة الثانية أغلى 4554 جنيهًا من اللفة الأولى، فكم يبلغ سعر كل لفة على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_4_7",
           "position": 6,
-          "id": "9e6a18fd-a16c-4a3d-ab00-0b7d7e09f539",
+          "id": "e2bd9eec-cb1c-471d-a49b-155636f1bd31",
           "solution": {
             "type": "text",
             "answer": {
@@ -1575,7 +1575,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "7490;;11984",
+              "rus": "10626;;15180",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1700,32 +1700,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 300,
-            "number2": 111,
-            "number1": 171
-          },
           "title": null,
+          "fields": {
+            "number3": 192,
+            "number2": 113,
+            "number1": 177
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Fabrikdə eyni miqdarda parça sərf edərək 171 şalvar, 111 gödəkçə tikilib.\nƏgər şalvarlara gödəkçələrdən 300 m daha çox parça sərf edilibsə, şalvar və gödəkçələrə nə qədər parça sərf olunub?\n",
-              "kgz": "Фабрика ар бир буюмга бирдей өлчөмдөгү кездеме коротуп, спорттук шым жана күрмө тигишти. 171 даана шым, 111 даана күрмө тигилген. Эгерде спорттук шымга күрмөгө караганда 300 м кездеме көп сарпталса,анда  шым менен курткага өзүнчө канча кездеме керектелди?\n",
-              "uzb": "Sexda har biriga bir xil hajmda mato sarflab, shim bilan ko'ylak tikildi. Shim 171 dona, ko'ylak esa 111 dona.\nAgar ko'ylakka qaraganda shimga 300 m mato ko'proq sarflangan bo'lsa, shim bilan ko'ylakka alohida necha metr mato sarflandi?\n",
-              "eng": "The factory sews sweatpants and jackets, spending the same amount of fabric on each product. 171 pairs of trousers are sewn, and 111 jackets.\nHow much fabric is spent on trousers and jackets separately, if 300 m more fabric is spent on the trousers than on the jackets?\n",
-              "rus": "На фабрике были сшиты брюки и рубашки, расходуя на каждое изделие одинаковое количество ткани. Брюк сшили 171 штук, а рубашек — 111 штук.\nСколько ткани израсходовали на брюки и рубашки по отдельности, если на брюки потратили на 300 м больше ткани, чем на рубашки?\n",
-              "kaz": "Фабрикада әрқайсысына бірдей көлемде мата жұмсай отырып, шалбар мен жейде тігілді. Шалбар 171 дана, ал жейде 111 дана.\nЕгер жейдеге қарағанда шалбарға 300 м мата артық жұмсалған болса, шалбарлар мен жейделерге жеке-жеке қанша метр матадан жұмсалған?\n",
+              "aze": "Fabrikdə eyni miqdarda parça sərf edərək 177 şalvar, 113 gödəkçə tikilib.\nƏgər şalvarlara gödəkçələrdən 192 m daha çox parça sərf edilibsə, şalvar və gödəkçələrə nə qədər parça sərf olunub?\n",
+              "kgz": "Фабрика ар бир буюмга бирдей өлчөмдөгү кездеме коротуп, спорттук шым жана күрмө тигишти. 177 даана шым, 113 даана күрмө тигилген. Эгерде спорттук шымга күрмөгө караганда 192 м кездеме көп сарпталса,анда  шым менен курткага өзүнчө канча кездеме керектелди?\n",
+              "uzb": "Sexda har biriga bir xil hajmda mato sarflab, shim bilan ko'ylak tikildi. Shim 177 dona, ko'ylak esa 113 dona.\nAgar ko'ylakka qaraganda shimga 192 m mato ko'proq sarflangan bo'lsa, shim bilan ko'ylakka alohida necha metr mato sarflandi?\n",
+              "eng": "The factory sews sweatpants and jackets, spending the same amount of fabric on each product. 177 pairs of trousers are sewn, and 113 jackets.\nHow much fabric is spent on trousers and jackets separately, if 192 m more fabric is spent on the trousers than on the jackets?\n",
+              "rus": "На фабрике были сшиты брюки и рубашки, расходуя на каждое изделие одинаковое количество ткани. Брюк сшили 177 штук, а рубашек — 113 штук.\nСколько ткани израсходовали на брюки и рубашки по отдельности, если на брюки потратили на 192 м больше ткани, чем на рубашки?\n",
+              "kaz": "Фабрикада әрқайсысына бірдей көлемде мата жұмсай отырып, шалбар мен жейде тігілді. Шалбар 177 дана, ал жейде 113 дана.\nЕгер жейдеге қарағанда шалбарға 192 м мата артық жұмсалған болса, шалбарлар мен жейделерге жеке-жеке қанша метр матадан жұмсалған?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "يستخدم المصنع نفس كمية القماش لإنتاج البنطلونات والقمصان. إذا أنتج المصنع 171 بنطلونًا و111 قميصًا، واستخدم 300 متر من القماش في البنطلونات أكثر من القمصان، فما عدد أمتار القماش المستخدمة في البنطلونات والقمصان كل على حدة؟\n",
+              "areg": "يستخدم المصنع نفس كمية القماش لإنتاج البنطلونات والقمصان. إذا أنتج المصنع 177 بنطلونًا و113 قميصًا، واستخدم 192 مترًا من القماش في البنطلونات أكثر من القمصان، فما عدد أمتار القماش المستخدمة في البنطلونات والقمصان كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_4_8",
           "position": 7,
-          "id": "f68eb261-3b0b-4ba3-8a4c-de56299ab165",
+          "id": "237816de-0308-47a2-84f5-3543a63539bf",
           "solution": {
             "type": "text",
             "answer": {
@@ -1736,7 +1736,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "855;;555",
+              "rus": "531;;339",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1861,22 +1861,22 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 342,
-            "number2": 26,
-            "number1": 20
-          },
           "title": null,
+          "fields": {
+            "number3": 374,
+            "number2": 29,
+            "number1": 21
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Hər iki təsərrüfatçının 342 hektar torpağı var. Birinci təsərrüfatçının sahəsində pambıq məhsuldarlığı 20 sentner/ha, ikincinin isə 26 sentner/ha təşkil edir. Hər iki təsərrüfatçı nə qədər sentner pambıq yığacaq?\n",
-              "kgz": "Эки дыйкандын тең 342 гектар жери бар.\nБиринчи дыйкандын талаасында пахтанын түшүмдүүлүгү гектарына 20 центнерден, экинчисинде 26 центнерден айланды.\nЭки дыйкандын ар бири канча центнерден пахта жыйнады?\n",
-              "uzb": "Ikki fermerning har birida 342 gektardan yer maydoni bor.\nBirinchi fermerning dalasida paxta hosildorligi 20 q/ga, ikkinchisiniki 26 q/ga.\nIkki fermerning har biri necha sentnerdan paxta terib oladi?\n",
-              "eng": "Both farmers have 342 hectares of land.\nThe yield of cotton is 20 quintals per hectare in the first farmer’s field and 26 quintals per hectare in the second farmer’s field.\nHow many quintals of cotton does each farmer harvest?\n",
-              "rus": "У каждого из двух фермеров по 342 га земли. Урожайность хлопка на поле первого фермера составляет 20 ц/га, а второго – 26 ц/га.\nСколько центнеров хлопка соберет каждый фермер?\n",
-              "kaz": "Екі фермердің әрқайсысында 342 га жер бар. Бірінші фермердің егін алқабындағы мақтаның түсімділігі 20 ц/га, ал екіншісінікі 26 ц/га.\nЕкі фермердің әрқайсысы неше центнер мақта жинайды?\n",
+              "aze": "Hər iki təsərrüfatçının 374 hektar torpağı var. Birinci təsərrüfatçının sahəsində pambıq məhsuldarlığı 21 sentner/ha, ikincinin isə 29 sentner/ha təşkil edir. Hər iki təsərrüfatçı nə qədər sentner pambıq yığacaq?\n",
+              "kgz": "Эки дыйкандын тең 374 гектар жери бар.\nБиринчи дыйкандын талаасында пахтанын түшүмдүүлүгү гектарына 21 центнерден, экинчисинде 29 центнерден айланды.\nЭки дыйкандын ар бири канча центнерден пахта жыйнады?\n",
+              "uzb": "Ikki fermerning har birida 374 gektardan yer maydoni bor.\nBirinchi fermerning dalasida paxta hosildorligi 21 q/ga, ikkinchisiniki 29 q/ga.\nIkki fermerning har biri necha sentnerdan paxta terib oladi?\n",
+              "eng": "Both farmers have 374 hectares of land.\nThe yield of cotton is 21 quintals per hectare in the first farmer’s field and 29 quintals per hectare in the second farmer’s field.\nHow many quintals of cotton does each farmer harvest?\n",
+              "rus": "У каждого из двух фермеров по 374 га земли. Урожайность хлопка на поле первого фермера составляет 21 ц/га, а второго – 29 ц/га.\nСколько центнеров хлопка соберет каждый фермер?\n",
+              "kaz": "Екі фермердің әрқайсысында 374 га жер бар. Бірінші фермердің егін алқабындағы мақтаның түсімділігі 21 ц/га, ал екіншісінікі 29 ц/га.\nЕкі фермердің әрқайсысы неше центнер мақта жинайды?\n",
               "arjd": "",
               "arsa": "",
               "areg": "",
@@ -1886,7 +1886,7 @@
           },
           "type": "Elixir.Task_4_10_9_4",
           "position": 3,
-          "id": "4605db55-3d8e-4943-8e11-06edb13fe7f8",
+          "id": "1f0e0236-3f73-4a2c-96a3-83b3ca0a76b6",
           "solution": {
             "type": "text",
             "answer": {
@@ -1897,7 +1897,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "6840;;8892",
+              "rus": "7854;;10846",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2022,32 +2022,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 630,
-            "number2": 525,
-            "number1": 55
-          },
           "title": null,
+          "fields": {
+            "number3": 825,
+            "number2": 500,
+            "number1": 53
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Yazda ümumi sahəsi 55 m² olan iki çiçək yatağında lalə toxumları əkilib.\nHər kvadrat metrdə eyni sayda toxum əkilib.\nBir yataqda 525, digərində isə 630 toxum əkilib. Hər yatağın sahəsini tapın.\n",
-              "kgz": "Жалпы аянты 55 \\(m^2\\) болгон эки гүлзарга жазында жоогазын көчөттөрү отургузулган.\nАр бир чарчы метрге бирдей сандагы жоогазындар отургузулган.\nБир гүлзарда 525 даана, экинчисинде 630 даана жоогазын бар.\nАр бир гүлзардын аянтын табыңыз.\n",
-              "uzb": "Bahorda umumiy maydoni 55 \\(m^2\\) bo'lgan ikkita gulzorga lolalar ekildi.\nBir kvadrat metrga ekilgan lolalar soni bir xil.\nBirinchi gulzorda 525 dona lola, ikkinchisida 630 dona lola bor.\nHar bir gulzorning maydonini toping.\n",
-              "eng": "Tulip bulbs are planted on two flower beds with a total area of 55 \\(m^2\\) in spring.\nThe same number of bulbs are planted on each square meter. There are 525 bulbs in one flower bed and 630 in the second.\nFind the area of each flower bed.\n",
-              "rus": "Весной на две клумбы с общей площадью 55 \\(м^2\\) были посажены луковицы тюльпанов. Количество луковиц, посаженных на каждый квадратный метр, одинаково.\nВ первой клумбе — 525 луковиц, а во второй — 630 луковиц. Найдите площадь каждой клумбы.\n",
-              "kaz": "Көктемде жалпы ауданы 55 \\(м^2\\) болатын екі гүлзарға қызғалдақ баданасы отырғызылды. Әрбір квадрат метрге отырғызылан бадана саны бірдей.\nБірінші гүлзарда – 525 бадана, ал екіншісінде 630 бадана бар. Әр гүлзардың ауданын табыңыз.\n",
+              "aze": "Yazda ümumi sahəsi 53 m² olan iki çiçək yatağında lalə toxumları əkilib.\nHər kvadrat metrdə eyni sayda toxum əkilib.\nBir yataqda 500, digərində isə 825 toxum əkilib. Hər yatağın sahəsini tapın.\n",
+              "kgz": "Жалпы аянты 53 \\(m^2\\) болгон эки гүлзарга жазында жоогазын көчөттөрү отургузулган.\nАр бир чарчы метрге бирдей сандагы жоогазындар отургузулган.\nБир гүлзарда 500 даана, экинчисинде 825 даана жоогазын бар.\nАр бир гүлзардын аянтын табыңыз.\n",
+              "uzb": "Bahorda umumiy maydoni 53 \\(m^2\\) bo'lgan ikkita gulzorga lolalar ekildi.\nBir kvadrat metrga ekilgan lolalar soni bir xil.\nBirinchi gulzorda 500 dona lola, ikkinchisida 825 dona lola bor.\nHar bir gulzorning maydonini toping.\n",
+              "eng": "Tulip bulbs are planted on two flower beds with a total area of 53 \\(m^2\\) in spring.\nThe same number of bulbs are planted on each square meter. There are 500 bulbs in one flower bed and 825 in the second.\nFind the area of each flower bed.\n",
+              "rus": "Весной на две клумбы с общей площадью 53 \\(м^2\\) были посажены луковицы тюльпанов. Количество луковиц, посаженных на каждый квадратный метр, одинаково.\nВ первой клумбе — 500 луковиц, а во второй — 825 луковиц. Найдите площадь каждой клумбы.\n",
+              "kaz": "Көктемде жалпы ауданы 53 \\(м^2\\) болатын екі гүлзарға қызғалдақ баданасы отырғызылды. Әрбір квадрат метрге отырғызылан бадана саны бірдей.\nБірінші гүлзарда – 500 бадана, ал екіншісінде 825 бадана бар. Әр гүлзардың ауданын табыңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "في الربيع زُرعت شتلات النرجس في حديقتين بمساحة إجمالية قدرها 55 مترًا مربعًا، وكان عدد الشتلات المزروعة في كل متر مربع متساويًا.\nإذا كان العدد المزروع في الحديقة الأولى 525 شتلة، وفي الحديقة الثانية 630 شتلة، فأوجد مساحة كل حديقة؟\n",
+              "areg": "في الربيع زُرعت شتلات النرجس في حديقتين بمساحة إجمالية قدرها 53 مترًا مربعًا، وكان عدد الشتلات المزروعة في كل متر مربع متساويًا.\nإذا كان العدد المزروع في الحديقة الأولى 500 شتلة، وفي الحديقة الثانية 825 شتلة، فأوجد مساحة كل حديقة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_9_6",
           "position": 5,
-          "id": "55bba671-b441-443c-97ca-47c36b8dd311",
+          "id": "ca5ffaf5-2203-4508-9724-a84d9adb3e6c",
           "solution": {
             "type": "text",
             "answer": {
@@ -2058,7 +2058,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "25;;30",
+              "rus": "20;;33",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2183,32 +2183,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 693,
-            "number2": 525,
-            "number1": 58
-          },
           "title": null,
+          "fields": {
+            "number3": 690,
+            "number2": 529,
+            "number1": 53
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Yazda ümumi sahəsi \\(58 m^2\\) olan iki çiçəklikdə qızılgül əkilib.\nHər kvadrat metrdə eyni sayda qızılgül əkilib. Birinci yataqda 525 qızılgül, ikincidə isə 693 qızılgül əkilib.\nHər yatağın sahəsini tapın.\n",
-              "kgz": "Жазында жалпы аянты \\(58 m^2\\) болгон эки гүлзарга розалар отургузулган.\nЭки гүлзардын бир чарчы метр жерине отургузулган роза гүлүнүн саны бирдей.\nБиринчи гүлзарда 525 роза, экинчисинде 693 роза бар. Ар бир гүлзардын аянтын табыңыз.\n",
-              "uzb": "Bahorda umumiy maydoni \\(58 m^2\\) bo'lgan ikkita gulzora atirgul ekildi.\nHar bir kvadrat metrga ekilgan atirgulning soni bir xil.\nBirinchi gulzorda - 525 atirgul, ikkinchisida 693 atirgul bor. Har gulzorning maydonini toping.\n",
-              "eng": "In the spring, roses are planted in two flower beds with a total area of \\(58 \\ m^2\\).\nThe number of roses planted per square meter is the same.\nThere are 525 roses in the first flower bed and 693 roses in the second. Find the area of each flower bed.\n",
-              "rus": "Весной розы были посажены на две клумбы с общей площадью \\(58 м^2\\).\nКоличество роз, посаженных на каждый квадратный метр, одинаково.\nВ первой клумбе — 525 роз, во второй — 693 розы. Найдите площадь каждой клумбы.\n",
-              "kaz": "Көктемде жалпы ауданы \\(58 м^2\\) болатын екі гүлзарға раушан гүлі отырғызылды.\nӘрбір квадрат метрге отырғызылан раушан гүлінің  саны бірдей.\nБірінші гүлзарда – 525 раушан, ал екіншісінде 693 раушан гүлі  бар.\nӘр гүлзардың ауданын табыңыз.\n",
+              "aze": "Yazda ümumi sahəsi \\(53 m^2\\) olan iki çiçəklikdə qızılgül əkilib.\nHər kvadrat metrdə eyni sayda qızılgül əkilib. Birinci yataqda 529 qızılgül, ikincidə isə 690 qızılgül əkilib.\nHər yatağın sahəsini tapın.\n",
+              "kgz": "Жазында жалпы аянты \\(53 m^2\\) болгон эки гүлзарга розалар отургузулган.\nЭки гүлзардын бир чарчы метр жерине отургузулган роза гүлүнүн саны бирдей.\nБиринчи гүлзарда 529 роза, экинчисинде 690 роза бар. Ар бир гүлзардын аянтын табыңыз.\n",
+              "uzb": "Bahorda umumiy maydoni \\(53 m^2\\) bo'lgan ikkita gulzora atirgul ekildi.\nHar bir kvadrat metrga ekilgan atirgulning soni bir xil.\nBirinchi gulzorda - 529 atirgul, ikkinchisida 690 atirgul bor. Har gulzorning maydonini toping.\n",
+              "eng": "In the spring, roses are planted in two flower beds with a total area of \\(53 \\ m^2\\).\nThe number of roses planted per square meter is the same.\nThere are 529 roses in the first flower bed and 690 roses in the second. Find the area of each flower bed.\n",
+              "rus": "Весной розы были посажены на две клумбы с общей площадью \\(53 м^2\\).\nКоличество роз, посаженных на каждый квадратный метр, одинаково.\nВ первой клумбе — 529 роз, во второй — 690 роз. Найдите площадь каждой клумбы.\n",
+              "kaz": "Көктемде жалпы ауданы \\(53 м^2\\) болатын екі гүлзарға раушан гүлі отырғызылды.\nӘрбір квадрат метрге отырғызылан раушан гүлінің  саны бірдей.\nБірінші гүлзарда – 529 раушан, ал екіншісінде 690 раушан гүлі  бар.\nӘр гүлзардың ауданын табыңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "في الربيع زُرعت زهور النرجس في حديقتين بمساحة إجمالية قدرها 58 مترًا مربعًا، وكان عدد الزهور المزروعة في كل متر مربع متساويًا.\nإذا كان العدد المزروع في الحديقة الأولى 525 زهرة، وفي الحديقة الثانية 693 زهرة، فأوجد مساحة كل حديقة؟\n",
+              "areg": "في الربيع زُرعت زهور النرجس في حديقتين بمساحة إجمالية قدرها 53 مترًا مربعًا، وكان عدد الزهور المزروعة في كل متر مربع متساويًا.\nإذا كان العدد المزروع في الحديقة الأولى 529 زهرة، وفي الحديقة الثانية 690 زهرة، فأوجد مساحة كل حديقة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_9_12",
           "position": 10,
-          "id": "aa1f0041-79dc-470a-807e-ab76bbb6fb98",
+          "id": "9eecd157-1893-4595-bd85-40b37603e735",
           "solution": {
             "type": "text",
             "answer": {
@@ -2219,7 +2219,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "25;;33",
+              "rus": "23;;30",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2344,33 +2344,33 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 15,
-            "number3": 27,
-            "number2": 567,
-            "number1": 21
-          },
           "title": null,
+          "fields": {
+            "number4": 12,
+            "number3": 28,
+            "number2": 812,
+            "number1": 28
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "21 m məftil 567 qramdır. Sərxan iki top məftil aldı.\nBirinci topda 27 m məftil var, ikincidə isə birincidən 15 m məftil çoxdur. Hər topun çəkisi nə qədərdir?\n",
-              "kgz": "21 м зымдын салмагы 567 г. Дмитрий эки түрмөк зым сатып алды.\nБиринчи түрмөктө 27 м зым бар, экинчисинде 15 м ге көп зым бар. Ар бир түрмөктүн массасы канча?\n",
-              "uzb": "21 m simning og'irligi 567 g. Diyor ikki rulon sim sotib oldi.\nBirinchi rulonda 27 m sim, ikkinchisida esa 15 m ko'p. Har bir rulonning og'irligi qancha?\n",
-              "eng": "21 m of wire weighs 567 g. James buys two rolls of wire.\nThe first roll has 27 metres of wire, and the second roll has 15 metres more.\nWhat is the mass of each roll?\n",
-              "rus": "21 м провода весит 567 г. Дмитрий купил два рулона провода.\nВ первом рулоне 27 м провода, во втором на 15 м больше. Какова масса каждого рулона?\n",
-              "kaz": "21 м сымның салмағы 567 г. Санат екі орам сым сатып алды.\nБірінші орамда 27 м сым, ал екіншісінде одан 15 м артық сым бар. Әр орамның массасы қандай?\n",
+              "aze": "28 m məftil 812 qramdır. Sərxan iki top məftil aldı.\nBirinci topda 28 m məftil var, ikincidə isə birincidən 12 m məftil çoxdur. Hər topun çəkisi nə qədərdir?\n",
+              "kgz": "28 м зымдын салмагы 812 г. Дмитрий эки түрмөк зым сатып алды.\nБиринчи түрмөктө 28 м зым бар, экинчисинде 12 м ге көп зым бар. Ар бир түрмөктүн массасы канча?\n",
+              "uzb": "28 m simning og'irligi 812 g. Diyor ikki rulon sim sotib oldi.\nBirinchi rulonda 28 m sim, ikkinchisida esa 12 m ko'p. Har bir rulonning og'irligi qancha?\n",
+              "eng": "28 m of wire weighs 812 g. James buys two rolls of wire.\nThe first roll has 28 metres of wire, and the second roll has 12 metres more.\nWhat is the mass of each roll?\n",
+              "rus": "28 м провода весит 812 г. Дмитрий купил два рулона провода.\nВ первом рулоне 28 м провода, во втором на 12 м больше. Какова масса каждого рулона?\n",
+              "kaz": "28 м сымның салмағы 812 г. Санат екі орам сым сатып алды.\nБірінші орамда 28 м сым, ал екіншісінде одан 12 м артық сым бар. Әр орамның массасы қандай?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "يبلغ وزن 21 مترًا من السلك 567 جرامًا.\nاشترى أحمد بكرتين من السلك، تحتوي البكرة الأولى على 27 مترًا، بينما تحتوي البكرة الثانية على 15 مترًا أكثر. ما هي كتلة كل بكرة؟\n",
+              "areg": "يبلغ وزن 28 مترًا من السلك 812 جرامًا.\nاشترى أحمد بكرتين من السلك، تحتوي البكرة الأولى على 28 مترًا، بينما تحتوي البكرة الثانية على 12 مترًا أكثر. ما هي كتلة كل بكرة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_8_13_9",
           "position": 8,
-          "id": "fc9a1de4-c61e-48c3-959c-5419e00c5d7e",
+          "id": "3003bb43-8867-4af1-a104-9395178783ab",
           "solution": {
             "type": "text",
             "answer": {
@@ -2381,7 +2381,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "729;;1134",
+              "rus": "812;;1160",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2506,33 +2506,33 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 10,
-            "number3": 60,
-            "number2": 6,
-            "number1": 72
-          },
           "title": null,
+          "fields": {
+            "number4": 12,
+            "number3": 48,
+            "number2": 6,
+            "number1": 60
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Usta 6 saat ərzində 72 üzük hazırlayır. Şagird isə 10 saat ərzində 60 üzük hazırlayır. Ustanın və şagirdin məhsuldarlığı nə qədərdir?\n",
-              "kgz": "Уста 72 саатта 6 шакек жасайт.\nШакирт 10 саатта 10 шакекче жасайт. Устат менен анын шакиртинин өндүрүмдүүлүгү кандай?\n",
-              "uzb": "Usta 72 soatda 6 ta zirak yasaydi.\nShogirdi esa 60 soatda 10 ta zirak yasaydi. Usta va shogirdining mehnat unumdorliklarini toping?\n",
-              "eng": "The master makes 72 rings in 6 hours.\nHis student makes 60 rings in 10 hours. What is the productivity of the master and his student?\n",
-              "rus": "Мастер изготавливает 72 кольца за 6 часов.\nУченик изготавливает 60 колец за 10 часов. Чему равна производительность мастера и его ученика?\n",
-              "kaz": "Шебер 72 сырғаны 6 сағатта жасайды.\nАл шәкірті 60 сырғаны 10 сағатта жасайды. Шебер мен шәкіртінің еңбек өнімділіктері қандай?\n",
+              "aze": "Usta 6 saat ərzində 60 üzük hazırlayır. Şagird isə 12 saat ərzində 48 üzük hazırlayır. Ustanın və şagirdin məhsuldarlığı nə qədərdir?\n",
+              "kgz": "Уста 60 саатта 6 шакек жасайт.\nШакирт 12 саатта 12 шакекче жасайт. Устат менен анын шакиртинин өндүрүмдүүлүгү кандай?\n",
+              "uzb": "Usta 60 soatda 6 ta zirak yasaydi.\nShogirdi esa 48 soatda 12 ta zirak yasaydi. Usta va shogirdining mehnat unumdorliklarini toping?\n",
+              "eng": "The master makes 60 rings in 6 hours.\nHis student makes 48 rings in 12 hours. What is the productivity of the master and his student?\n",
+              "rus": "Мастер изготавливает 60 колец за 6 часов.\nУченик изготавливает 48 колец за 12 часов. Чему равна производительность мастера и его ученика?\n",
+              "kaz": "Шебер 60 сырғаны 6 сағатта жасайды.\nАл шәкірті 48 сырғаны 12 сағатта жасайды. Шебер мен шәкіртінің еңбек өнімділіктері қандай?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "إذا كان الصائغ يصنع 72 خاتمًا في 6 ساعات، ومساعده يصنع 60 خاتمًا في 10 ساعات، فما هي إنتاجية كل من الصائغ ومساعده؟\n",
+              "areg": "إذا كان الصائغ يصنع 60 خاتمًا في 6 ساعات، ومساعده يصنع 48 خاتمًا في 12 ساعة، فما هي إنتاجية كل من الصائغ ومساعده؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_2_1",
           "position": 0,
-          "id": "ebb49dcd-e75b-4ab8-89ce-6a9f467ecc51",
+          "id": "88cfaf1c-72d1-4bf0-900e-9474e7b6eb52",
           "solution": {
             "type": "text",
             "answer": {
@@ -2543,7 +2543,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "12;;6",
+              "rus": "10;;4",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2668,33 +2668,33 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 15,
-            "number3": 705,
-            "number2": 7,
-            "number1": 805
-          },
           "title": null,
+          "fields": {
+            "number4": 11,
+            "number3": 814,
+            "number2": 6,
+            "number1": 732
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Aşbaz 7 saat ərzində 805 şəkərbura bişirdi.\nOnun şagirdi isə 15 saat ərzində 705 şəkərbura bişirdi.\nAşbaz və onun şagirdinin əmək məhsuldarlığı nə qədərdir?\n",
-              "kgz": "Наабайчы 805 саатта 7 токоч бышырды.\nАл эми анын шакирти 705 саатта 15 токоч бышырды.\nНаабайчы менен анын шакиртинин өндүрүмдүүлүгү кандай?\n",
-              "uzb": "Nonvoy 805 nonni 7 soatda pishirdi.\nShogird 705 nonni 15 soatda pishirdi.\nNonvoy bilan shogirdning non pishirish tezligi qanday?\n",
-              "eng": "The baker bakes 805 buns in 7 hours.\nHis student bakes 705 buns in 15 hours.\nWhat is the work rate of the baker and his student?\n\n",
-              "rus": "Пекарь испек 805 булочек за 7 часов.\nА его ученик испек 705 булочек за 15 часов.\nКакова производительность труда пекаря и его ученика?\n",
-              "kaz": "Наубайшы 805 тоқашты 7 сағатта пісірді.\nАл шәкірті 705 тоқашты 15 сағатта пісірді.\nНаубайшы мен шәкіртінің еңбек өнімділіктері қандай?\n",
+              "aze": "Aşbaz 6 saat ərzində 732 şəkərbura bişirdi.\nOnun şagirdi isə 11 saat ərzində 814 şəkərbura bişirdi.\nAşbaz və onun şagirdinin əmək məhsuldarlığı nə qədərdir?\n",
+              "kgz": "Наабайчы 732 саатта 6 токоч бышырды.\nАл эми анын шакирти 814 саатта 11 токоч бышырды.\nНаабайчы менен анын шакиртинин өндүрүмдүүлүгү кандай?\n",
+              "uzb": "Nonvoy 732 nonni 6 soatda pishirdi.\nShogird 814 nonni 11 soatda pishirdi.\nNonvoy bilan shogirdning non pishirish tezligi qanday?\n",
+              "eng": "The baker bakes 732 buns in 6 hours.\nHis student bakes 814 buns in 11 hours.\nWhat is the work rate of the baker and his student?\n\n",
+              "rus": "Пекарь испек 732 булочки за 6 часов.\nА его ученик испек 814 булочки за 11 часов.\nКакова производительность труда пекаря и его ученика?\n",
+              "kaz": "Наубайшы 732 тоқашты 6 сағатта пісірді.\nАл шәкірті 814 тоқашты 11 сағатта пісірді.\nНаубайшы мен шәкіртінің еңбек өнімділіктері қандай?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "إذا كان بإمكان الخباز أن يخبز 805 أرغفة في 7 ساعات،\nوبإمكان مساعده أن يخبز 705 أرغفة في 15 ساعة،\nفكم تبلغ إنتاجية كل منهما على حدة في الساعة الواحدة؟\n",
+              "areg": "إذا كان بإمكان الخباز أن يخبز 732 رغيفًا في 6 ساعات،\nوبإمكان مساعده أن يخبز 814 رغيفًا في 11 ساعة،\nفكم تبلغ إنتاجية كل منهما على حدة في الساعة الواحدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_2_11",
           "position": 10,
-          "id": "fd0d599b-5772-4184-babb-58f5b8bd730b",
+          "id": "d845a122-ebf5-4f08-a794-60daeb1c41ab",
           "solution": {
             "type": "text",
             "answer": {
@@ -2705,7 +2705,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "115;;47",
+              "rus": "122;;74",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2830,33 +2830,33 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 4,
-            "number3": 8,
-            "number2": 14,
-            "number1": 183
-          },
           "title": null,
+          "fields": {
+            "number4": 5,
+            "number3": 6,
+            "number2": 9,
+            "number1": 144
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Zərgər və onun şagirdinə 183 məhsul hazırlamaq tapşırıldı.\nZərgər 1 saat ərzində 14 məhsul, şagirdi isə 8 məhsul hazırlaya bilər.\nİşə başladıqdan 4 saat sonra zərgər dincəlməyə qərar verdi və məhsulların hazırlanmasını şagirdinə təhvil verdi.\nQalan məhsulları şagirdi hazırladı. Zərgər və onun şagirdi neçə məhsul hazırladı?\n",
-              "kgz": "Зергерге жана анын шакиртине 183 буюм жасоо тапшырмасы берилген.\n1 саатта зергер 14 буюм, анын шакирти 8 буюм жасай алат.\nИш башталгандан 4 саат өткөндөн кийин зергер эс алууну чечип, жумушту шакиртине тапшырган.\nКалган буюмдардын баарын шакирти жасаган. Зергер канча даана буюм жасаган жана анын шакирти канча даана буюм жасаган?\n",
-              "uzb": "Zargar bilan shogirdiga 183 ta uzuk ishlash topshiriqi berildi.\n1 soatda zargar 14 ta uzuk, shogird esa 8 ta uzuk yasaydi.\nIsh boshlangach 4 soatdan keyin, zargar dam olishga chiqdi, qolgan uzuklarni yasashni shogirdiga topshirdi.\nQolgan uzuklarning hammasini shogirdi ishladi. Zargar bilan shogirdi har biri nechta uzuk yasadi?\n",
-              "eng": "A jeweler and his student need to make 183 pieces.\nIn 1 hour, the jeweler makes 14 pieces, and his student makes 8 pieces.\nAfter 4 hours after starting work, the jeweler decided to rest and transferred the making of the remaining pieces to his student.\nAll other pieces were made by the student. How many pieces did the jeweler make, and how many pieces did the student make?\n",
-              "rus": "Ювелиру и его ученику было поручено изготовить 183 изделия.\nЗа 1 час ювелир может изготовить 14 изделий, а его ученик — 8 изделий.\nЧерез 4 часа часа после начала работы ювелир решил отдохнуть и передал изготовление оставшихся изделий своему ученику.\nВсе остальные изделия были изготовлены учеником. Сколько изделий изготовил ювелир и сколько — его ученик?\n",
-              "kaz": "Зергер мен шәкіртіне 183 бұйым жасауға тапсырма берілді.\n1 сағат уақыт ішінде зергер 14 бұйым, ал шәкірті 8 бұйым жасай алады.\nЖұмыс басталғаннан 4 сағат уақыт өткен соң, зергер  демалысқа шығып қалған бұйымдарды жасауды шәкіртіне табыстады.\nҚалған бұйымдардың барлығын шәкірті жасап аяқтады. Зергер мен шәкірттің әрқайсы неше бұйымнан жасады ?\n",
+              "aze": "Zərgər və onun şagirdinə 144 məhsul hazırlamaq tapşırıldı.\nZərgər 1 saat ərzində 9 məhsul, şagirdi isə 6 məhsul hazırlaya bilər.\nİşə başladıqdan 5 saat sonra zərgər dincəlməyə qərar verdi və məhsulların hazırlanmasını şagirdinə təhvil verdi.\nQalan məhsulları şagirdi hazırladı. Zərgər və onun şagirdi neçə məhsul hazırladı?\n",
+              "kgz": "Зергерге жана анын шакиртине 144 буюм жасоо тапшырмасы берилген.\n1 саатта зергер 9 буюм, анын шакирти 6 буюм жасай алат.\nИш башталгандан 5 саат өткөндөн кийин зергер эс алууну чечип, жумушту шакиртине тапшырган.\nКалган буюмдардын баарын шакирти жасаган. Зергер канча даана буюм жасаган жана анын шакирти канча даана буюм жасаган?\n",
+              "uzb": "Zargar bilan shogirdiga 144 ta uzuk ishlash topshiriqi berildi.\n1 soatda zargar 9 ta uzuk, shogird esa 6 ta uzuk yasaydi.\nIsh boshlangach 5 soatdan keyin, zargar dam olishga chiqdi, qolgan uzuklarni yasashni shogirdiga topshirdi.\nQolgan uzuklarning hammasini shogirdi ishladi. Zargar bilan shogirdi har biri nechta uzuk yasadi?\n",
+              "eng": "A jeweler and his student need to make 144 pieces.\nIn 1 hour, the jeweler makes 9 pieces, and his student makes 6 pieces.\nAfter 5 hours after starting work, the jeweler decided to rest and transferred the making of the remaining pieces to his student.\nAll other pieces were made by the student. How many pieces did the jeweler make, and how many pieces did the student make?\n",
+              "rus": "Ювелиру и его ученику было поручено изготовить 144 изделия.\nЗа 1 час ювелир может изготовить 9 изделий, а его ученик — 6 изделий.\nЧерез 5 часов часа после начала работы ювелир решил отдохнуть и передал изготовление оставшихся изделий своему ученику.\nВсе остальные изделия были изготовлены учеником. Сколько изделий изготовил ювелир и сколько — его ученик?\n",
+              "kaz": "Зергер мен шәкіртіне 144 бұйым жасауға тапсырма берілді.\n1 сағат уақыт ішінде зергер 9 бұйым, ал шәкірті 6 бұйым жасай алады.\nЖұмыс басталғаннан 5 сағат уақыт өткен соң, зергер  демалысқа шығып қалған бұйымдарды жасауды шәкіртіне табыстады.\nҚалған бұйымдардың барлығын шәкірті жасап аяқтады. Зергер мен шәкірттің әрқайсы неше бұйымнан жасады ?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "يجب أن يصنع الصائغ ومساعده 183 خاتمًا.\nإذا كان الصائغ يصنع 14 خاتمًا في الساعة، بينما يصنع المساعد 8 خواتم في الساعة،\nوبعد 4 ساعات من بدء العمل قرر الصائغ أخذ استراحة وترك مهمة صنع الخواتم لمساعده،\nفكم عدد الخواتم التي صنعها الصائغ وكم عدد الخواتم التي صنعها المساعد؟\n",
+              "areg": "يجب أن يصنع الصائغ ومساعده 144 خاتمًا.\nإذا كان الصائغ يصنع 9 خواتم في الساعة، بينما يصنع المساعد 6 خواتم في الساعة،\nوبعد 5 ساعات من بدء العمل قرر الصائغ أخذ استراحة وترك مهمة صنع الخواتم لمساعده،\nفكم عدد الخواتم التي صنعها الصائغ وكم عدد الخواتم التي صنعها المساعد؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_2_16",
           "position": 15,
-          "id": "f3f72c4b-2bfc-4b0b-a4d2-eb1b4f0860d5",
+          "id": "be93cf4a-4948-4dc9-8e1e-ea32bea5742f",
           "solution": {
             "type": "text",
             "answer": {
@@ -2867,7 +2867,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "56;;127",
+              "rus": "45;;99",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2980,11 +2980,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 8540,
-            "number2": 76,
-            "number1": 46
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Tənlik tərtib edərək məsələnin həllini tapın.",
@@ -2998,26 +2993,31 @@
             "areg": "حل المسألة باستخدام تكوين المعادلة.\\(\\\\\\)(عبرعن شيء مجهول باستخدام x)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 6100,
+            "number2": 76,
+            "number1": 46
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Bağbanın iki alma bağı var. Birinci alma bağında 46 alma ağacı, ikinci  alma bağında isə 76 alma ağacı var.\\(\\\\\\)Əgər bağban alma bağlarından eyni məhsuldarlıqla 8540 alma yığıbsa, alma bağlarının məhsuldarlığı nə qədərdir?",
-              "kgz": "Багбандын эки алма багы бар.\\(\\\\\\)Биринчи алма багында 46 түп алма, экинчи алма багында 76 түп алма бар.\\(\\\\\\)Эгер багбан алма бактарынан 8540 алма жыйнап алса, алма бактарынын түшүмдүүлүгү кандай?",
-              "uzb": "Dehqonning ikkita olma bog'i bor.\\(\\\\\\)Birinchi olma bog'ida 46 ta, ikkinchi olma bog'da 76 ta olma daraxti bor.\\(\\\\\\)Agar dehqon olma bog'lardan bir xil hosildorlik bilan umumiy 8540 olma tergan bo'lsa, olma daraxtning hosildorligi qanday?",
-              "eng": "The gardener has two apple orchards.\\(\\\\\\)There are 46 apple trees in the first orchard and 76 apple trees in the second orchard.\\(\\\\\\)If the gardener harvests 8540 apples with the same yield from each tree in both orchards, how many apples does each tree yield?",
-              "rus": "У садовода два яблоневых сада.\\(\\\\\\)В первом саду растут 46 яблонь, а во втором — 76.\\(\\\\\\)Если с обоих садов было собрано всего 8540 яблок с одинаковой урожайностью, то какова урожайность яблонь?",
-              "kaz": "Бағбанның екі алма бағы бар.\\(\\\\\\)Бірінші алма бақта 46 түп, екінші алма бақта 76 түп алма ағаштары бар.\\(\\\\\\)Егер бағбан алма бақтардан бірдей түсіммен барлығы 8540 алма жинаған болса, онда алма ағаштарының түсімділігі қандай?",
+              "aze": "Bağbanın iki alma bağı var. Birinci alma bağında 46 alma ağacı, ikinci  alma bağında isə 76 alma ağacı var.\\(\\\\\\)Əgər bağban alma bağlarından eyni məhsuldarlıqla 6100 alma yığıbsa, alma bağlarının məhsuldarlığı nə qədərdir?",
+              "kgz": "Багбандын эки алма багы бар.\\(\\\\\\)Биринчи алма багында 46 түп алма, экинчи алма багында 76 түп алма бар.\\(\\\\\\)Эгер багбан алма бактарынан 6100 алма жыйнап алса, алма бактарынын түшүмдүүлүгү кандай?",
+              "uzb": "Dehqonning ikkita olma bog'i bor.\\(\\\\\\)Birinchi olma bog'ida 46 ta, ikkinchi olma bog'da 76 ta olma daraxti bor.\\(\\\\\\)Agar dehqon olma bog'lardan bir xil hosildorlik bilan umumiy 6100 olma tergan bo'lsa, olma daraxtning hosildorligi qanday?",
+              "eng": "The gardener has two apple orchards.\\(\\\\\\)There are 46 apple trees in the first orchard and 76 apple trees in the second orchard.\\(\\\\\\)If the gardener harvests 6100 apples with the same yield from each tree in both orchards, how many apples does each tree yield?",
+              "rus": "У садовода два яблоневых сада.\\(\\\\\\)В первом саду растут 46 яблонь, а во втором — 76.\\(\\\\\\)Если с обоих садов было собрано всего 6100 яблок с одинаковой урожайностью, то какова урожайность яблонь?",
+              "kaz": "Бағбанның екі алма бағы бар.\\(\\\\\\)Бірінші алма бақта 46 түп, екінші алма бақта 76 түп алма ағаштары бар.\\(\\\\\\)Егер бағбан алма бақтардан бірдей түсіммен барлығы 6100 алма жинаған болса, онда алма ағаштарының түсімділігі қандай?",
               "arjd": "",
               "arsa": "",
-              "areg": "لدى الفلاح مزرعتان للتفاح. تحتوي المزرعة الأولى على 46 شجرة تفاح، وتحتوي المزرعة الثانية على 76 شجرة تفاح.\\(\\\\\\)إذا جمع الفلاح 8540 تفاحة بإنتاجية متساوية من كلتا المزرعتين، فكم تبلغ إنتاجية الأشجار في المزرعتين؟",
+              "areg": "لدى الفلاح مزرعتان للتفاح. تحتوي المزرعة الأولى على 46 شجرة تفاح، وتحتوي المزرعة الثانية على 76 شجرة تفاح.\\(\\\\\\)إذا جمع الفلاح 6100 تفاحة بإنتاجية متساوية من كلتا المزرعتين، فكم تبلغ إنتاجية الأشجار في المزرعتين؟",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_10_9_19",
           "position": 17,
-          "id": "f8b0ee23-2a0b-437d-bba8-87ad40e17d5b",
+          "id": "04c11f4f-0574-4315-bbd2-b55a1b4ce55c",
           "solution": {
             "type": "text",
             "answer": {
@@ -3028,7 +3028,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "8540;;70",
+              "rus": "6100;;50",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

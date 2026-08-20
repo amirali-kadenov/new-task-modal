@@ -32,7 +32,7 @@ export const TaskDescriptionType = {
 
 export const TASK_DESCRIPTIONS_WITHOUT_CALC = [
   TaskDescriptionType.Test,
-  TaskDescriptionType.Comparison,
+  // Comparison uses MathInput in the new trainer — needs the on-screen calc.
   TaskDescriptionType.CoordinatePlane,
   TaskDescriptionType.CalculateByImage,
   TaskDescriptionType.CalculateByImageWithCell,

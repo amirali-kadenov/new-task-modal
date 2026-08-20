@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
+import styles from './open-in-trainer-catalog.module.scss'
 import type {
   TemplateGroupFixture,
   TemplateGroupTaskRef,
@@ -14,8 +15,6 @@ import {
   buildTrainerLaunchUrls,
   type TrainerLaunch,
 } from './trainer-launch-links'
-
-import styles from './open-in-trainer-catalog.module.scss'
 
 export type CatalogTaskRow = {
   id: string
@@ -97,10 +96,7 @@ const buildTaskRows = (groups: TemplateGroupFixture[]): CatalogTaskRow[] => {
   return rows
 }
 
-const tasksMarkdown = (
-  rows: CatalogTaskRow[],
-  checked: Set<string>,
-): string =>
+const tasksMarkdown = (rows: CatalogTaskRow[], checked: Set<string>): string =>
   rows
     .map((r) => `- [${checked.has(r.id) ? 'x' : ' '}] ${r.id} (${r.group})`)
     .join('\n')
@@ -276,9 +272,7 @@ export const OpenInTrainerCatalog = ({
 
       <div className={styles.panel} data-testid="open-trainer-tasks-table">
         <div className={styles.panelHeader}>
-          <h4 className={styles.panelTitle}>
-            Все задачи ({taskRows.length})
-          </h4>
+          <h4 className={styles.panelTitle}>Все задачи ({taskRows.length})</h4>
           <ChecklistToolbar
             disabled={!taskRows.length}
             status={tasksStatus}

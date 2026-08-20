@@ -122,8 +122,7 @@ const extractNonTableEntries = (
   claimedIds: Set<string>,
 ): string[] => {
   const entries: string[] = []
-  const pattern =
-    /\s*\[(TemplateTypes\.(?!Table)[^\]]+)\]:\s*\[([\s\S]*?)\],/g
+  const pattern = /\s*\[(TemplateTypes\.(?!Table)[^\]]+)\]:\s*\[([\s\S]*?)\],/g
 
   for (const match of source.matchAll(pattern)) {
     const [, expression, body] = match
@@ -144,7 +143,8 @@ for (let chapter = 1; chapter <= 12; chapter += 1) {
   const existing = fs.readFileSync(chapterPath, 'utf8')
   const claimedIds = claimedByChapter.get(chapter) ?? new Set<string>()
   const kept = extractNonTableEntries(existing, claimedIds)
-  const grouped = byChapter.get(chapter) ?? new Map()
+  const grouped =
+    byChapter.get(chapter) ?? new Map<string, Array<number | string>>()
 
   const tableEntries = tableTemplateTypes.flatMap(
     ([templateType, expression]) => {

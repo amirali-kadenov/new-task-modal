@@ -5,6 +5,7 @@ import WaveSurfer from 'wavesurfer.js'
 import PlayIcon from '@/assets/icons/chat/play.svg'
 import PauseIcon from '@/assets/icons/chat/stop.svg'
 import { Button, ButtonColor, ButtonLayout } from '@/ui/button/button'
+import { Skeleton } from '@/ui/skeleton/skeleton'
 
 import { createVoiceWaveformRenderer } from './lib/render-voice-waveform'
 import s from './voice.module.scss'
@@ -31,6 +32,7 @@ export default function VoiceMessage({
   const [currentTime, setCurrentTime] = useState(0)
   const [audioDuration, setAudioDuration] = useState(duration)
   const [hasError, setHasError] = useState(false)
+  const [isReady, setIsReady] = useState(false)
 
   const waveformRef = useRef<HTMLDivElement>(null)
   const wavesurferRef = useRef<WaveSurfer | null>(null)
@@ -39,6 +41,7 @@ export default function VoiceMessage({
     if (!waveformRef.current) return
 
     let cancelled = false
+    setIsReady(false)
 
     const wav = WaveSurfer.create({
       container: waveformRef.current,
@@ -71,6 +74,7 @@ export default function VoiceMessage({
 
       setAudioDuration(finalDuration)
       setHasError(false)
+      setIsReady(true)
     }
 
     wav.on('timeupdate', handleTimeUpdate)
@@ -113,22 +117,38 @@ export default function VoiceMessage({
     return `${mins}:${secs.toString().padStart(2, '0')}`
   }
 
+  const isLoading = !isReady && !hasError
+
   return (
     <div
       className={clsx(s.voiceMessage, hasError && s.error)}
       onClick={hasError ? undefined : togglePlayPause}
+      onKeyDown={
+        hasError
+          ? undefined
+          : (e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault()
+                void togglePlayPause()
+              }
+            }
+      }
+      role={hasError ? undefined : 'button'}
+      tabIndex={hasError ? undefined : 0}
     >
+      {/* Real content stays mounted at all times so WaveSurfer's container
+          ref never goes stale — while loading it's hidden (not unmounted
+          or painted over), and the skeleton floats on top. */}
       <Button
         color={ButtonColor.White}
         layout={ButtonLayout.Icon}
-        className={s.playButton}
+        className={clsx(s.playButton, isLoading && s.hidden)}
       >
         {isPlaying ? <PauseIcon /> : <PlayIcon />}
       </Button>
 
-      {/* Keep waveform mounted so WaveSurfer's container ref stays valid */}
       <div
-        className={s.waveformContainer}
+        className={clsx(s.waveformContainer, isLoading && s.hidden)}
         style={hasError ? { display: 'none' } : undefined}
       >
         <div ref={waveformRef} className={s.waveform} />
@@ -137,18 +157,39 @@ export default function VoiceMessage({
       {hasError ? (
         <span className={s.errorText}>Audio unavailable</span>
       ) : (
-        <span className={s.duration}>
-          {formatTime(isPlaying ? currentTime : audioDuration)}
+        <span className={clsx(s.duration, isLoading && s.hidden)}>
+          {formatTime(currentTime > 0 ? currentTime : audioDuration)}
         </span>
       )}
+
+      {isLoading && <VoiceSkeleton />}
     </div>
   )
 }
+
+const VoiceSkeleton = () => (
+  <div className={s.skeletonRow}>
+    <Skeleton className={s.playButtonSkeleton} />
+    <Skeleton className={s.waveformFullSkeleton} />
+  </div>
+)
+
+export const VoiceMessageSkeleton = () => (
+  <div className={clsx(s.voiceMessage, s.standalone)}>
+    <VoiceSkeleton />
+  </div>
+)
 
 const isAbortError = (err: unknown) => {
   if (!err) return false
   if (typeof err === 'object' && 'name' in err && err.name === 'AbortError') {
     return true
   }
-  return String(err).toLowerCase().includes('abort')
+  if (err instanceof Error) {
+    return err.message.toLowerCase().includes('abort')
+  }
+  if (typeof err === 'string') {
+    return err.toLowerCase().includes('abort')
+  }
+  return false
 }

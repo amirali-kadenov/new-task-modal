@@ -47,7 +47,11 @@ type ModalWireframeProps = {
   panels: Zone[]
 }
 
-function ZoneBlock({ title, description, tone }: Zone & { tone?: 'header' | 'answer' | 'actions' }) {
+function ZoneBlock({
+  title,
+  description,
+  tone,
+}: Zone & { tone?: 'header' | 'answer' | 'actions' }) {
   return (
     <div
       className={[
@@ -185,7 +189,10 @@ function BranchNodeView({ node }: { node: DocsBranchNode }) {
         ) : null}
       </div>
       <div
-        className={[s.branchFork, node.branches.length > 2 ? s.branchForkWide : '']
+        className={[
+          s.branchFork,
+          node.branches.length > 2 ? s.branchForkWide : '',
+        ]
           .filter(Boolean)
           .join(' ')}
       >

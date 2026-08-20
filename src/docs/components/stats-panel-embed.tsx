@@ -1,7 +1,7 @@
+import StatsPanel from '@matheducator/StatsPanel'
 import { clsx } from 'clsx'
 import { useEffect, useState } from 'react'
 import { ToastContainer } from 'react-toastify'
-import StatsPanel from '@matheducator/StatsPanel'
 
 import s from './stats-panel-embed.module.scss'
 
@@ -43,7 +43,9 @@ function writeSession(key: string, value: string) {
 
 function formatStaticMeta(meta: StaticMeta | null) {
   if (!meta) return null
-  const when = (meta.snapshotCreatedAt || meta.createdAt || '').slice(0, 19).replace('T', ' ')
+  const when = (meta.snapshotCreatedAt || meta.createdAt || '')
+    .slice(0, 19)
+    .replace('T', ' ')
   const name = meta.snapshotName || ''
   const grades =
     meta.grades && meta.grades.length ? `кл. ${meta.grades.join(',')}` : ''
@@ -51,9 +53,7 @@ function formatStaticMeta(meta: StaticMeta | null) {
 }
 
 export function StatsPanelEmbed() {
-  const [health, setHealth] = useState<Health>(
-    isStatsStatic ? 'ok' : 'pending',
-  )
+  const [health, setHealth] = useState<Health>(isStatsStatic ? 'ok' : 'pending')
   const [staticMeta, setStaticMeta] = useState<StaticMeta | null>(null)
   const [token, setToken] = useState(() =>
     readSession(
@@ -146,9 +146,8 @@ export function StatsPanelEmbed() {
               'Stats server доступен — ниже живая панель Statistic (те же API, что в matheducator).'}
             {health === 'error' && (
               <>
-                Stats server не отвечает на{' '}
-                <code>http://localhost:3847</code>. Запустите{' '}
-                <code>npm run stats:server</code> или{' '}
+                Stats server не отвечает на <code>http://localhost:3847</code>.
+                Запустите <code>npm run stats:server</code> или{' '}
                 <code>npm run start:with-stats</code> в{' '}
                 <code>matheducator/reactjs_client</code>.
               </>

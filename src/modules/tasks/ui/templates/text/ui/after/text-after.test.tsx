@@ -59,8 +59,8 @@ describe('text.after', () => {
       },
     } as TextTask)
 
-    expect(screen.getByTestId('text-suffix').textContent).toContain(
-      '\\(\\mathrm{мм}^{2}\\)',
+    expect(screen.getByTestId('text-suffix')).toHaveTextContent(
+      /\\\(\\mathrm\{мм\}\^\{2\}\\\)/,
     )
   })
 
@@ -79,6 +79,10 @@ describe('text.after', () => {
     renderTemplate(Template, { ...task, solution: makeSolution('1333') })
 
     expect(screen.getByTestId('text-suffix')).toBeInTheDocument()
-    expect(screen.getAllByTestId('math-formula').some((el) => el.textContent === '1333')).toBe(true)
+    expect(
+      screen
+        .getAllByTestId('math-formula')
+        .some((el) => el.textContent === '1333'),
+    ).toBe(true)
   })
 })

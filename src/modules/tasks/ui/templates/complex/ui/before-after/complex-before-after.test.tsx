@@ -35,7 +35,7 @@ describe('complex.beforeAfter', () => {
     expect(screen.getByTestId('math-input')).toBeInTheDocument()
     expect(screen.getByTestId('text-prefix')).toBeInTheDocument()
     expect(screen.getByTestId('text-suffix')).toBeInTheDocument()
-    expect(document.querySelector('[data-figure-type]')).toBeTruthy()
+    expect(screen.getByTestId('complex-image-part')).toBeInTheDocument()
   })
 
   it('solution-ветка вместо режима ввода', () => {

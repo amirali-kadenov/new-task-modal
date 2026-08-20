@@ -3,11 +3,12 @@ import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 
-import type { EquationTask } from './types.task'
 import { EquationAnswerRow } from '../equation-answer-row'
 import { EquationContent } from '../equation-content'
 import { EquationSolution } from '../equation-solution'
 import styles from '../equation.module.scss'
+
+import type { EquationTask } from './types.task'
 
 interface EquationTemplateConfig {
   /** templateId, e.g. `equation.before`. */

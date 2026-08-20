@@ -6,12 +6,10 @@ import { withTrackedPlay } from '@/testing/with-tracked-play'
 
 import { HeartDecreaseAnimation } from './heart-decrease-animation'
 
-const PLAY_CASES = [
-  { id: 'img', label: 'Renders animated webp' },
-] as const
+const PLAY_CASES = [{ id: 'img', label: 'Renders animated webp' }] as const
 
 const meta = {
-  title: 'Trainer/Lives/HeartDecreaseAnimation',
+  title: 'Trainer/Lives',
   component: HeartDecreaseAnimation,
   parameters: {
     docs: {

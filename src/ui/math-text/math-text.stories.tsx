@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import type { CSSProperties, ReactNode } from 'react'
 
 import {
+  isAllMathSymbolsSection,
   SYMBOL_SECTIONS,
   type SymbolEntry,
   type SymbolSection,
@@ -10,7 +11,7 @@ import {
 import { MathText } from './math-text'
 
 const meta = {
-  title: 'UI/MathText',
+  title: 'Math UI/MathText',
   component: MathText,
   parameters: {
     docs: {
@@ -87,6 +88,8 @@ const cardStyle: CSSProperties = {
   border: '1px solid var(--border-subtle, #e0e0e0)',
   borderRadius: 8,
   minHeight: 72,
+  maxWidth: '100%',
+  overflowWrap: 'anywhere',
 }
 
 const labelStyle: CSSProperties = {
@@ -120,6 +123,18 @@ const SymbolCatalog = ({
       отрисовывать (калькулятор + типичные школьные формулы).
     </p>
     {sections.map((section) => {
+      if (isAllMathSymbolsSection(section.title)) {
+        return (
+          <section key={section.title}>
+            <h3 style={sectionTitleStyle}>{section.title}</h3>
+            <div style={cardStyle}>
+              <MathText inline>
+                {section.items.map((item) => wrap(item.tex)).join(' ')}
+              </MathText>
+            </div>
+          </section>
+        )
+      }
       const isCombo = section.title.startsWith('Комбинации')
       return (
         <section key={section.title}>

@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest'
 
-import { maybeNormalizeBareMath, normalizeBareMath } from './normalize-bare-math'
+import {
+  maybeNormalizeBareMath,
+  normalizeBareMath,
+} from './normalize-bare-math'
 
 describe('normalizeBareMath', () => {
   it('no-op without caret', () => {

@@ -42,10 +42,11 @@ describe('table.multiRowSvg', () => {
   })
 
   it('SVG-ячейка рендерится как HTML, не как текст', () => {
-    const { container } = renderTemplate(Template, task)
+    renderTemplate(Template, task)
 
-    expect(screen.getAllByTestId('table-html-cell').length).toBeGreaterThan(0)
-    expect(container.querySelector('svg')).toBeTruthy()
+    const htmlCells = screen.getAllByTestId('table-html-cell')
+    expect(htmlCells.length).toBeGreaterThan(0)
+    expect(htmlCells.some((cell) => cell.innerHTML.includes('<svg'))).toBe(true)
     expect(screen.queryByText(/<svg version/)).not.toBeInTheDocument()
   })
 

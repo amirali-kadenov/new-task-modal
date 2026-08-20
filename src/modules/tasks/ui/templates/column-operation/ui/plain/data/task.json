@@ -14,11 +14,6 @@
   },
   "difficulty": "x1",
   "result": "none",
-  "fields": {
-    "difficulty": "x1",
-    "number2": 4,
-    "number1": 73318
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -32,13 +27,18 @@
     "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "difficulty": "x1",
+    "number2": 6,
+    "number1": 85527
+  },
   "description": {
-    "content": "\\begin{array}{c}\n\\phantom{99}73318\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{99999}4}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+    "content": "\\begin{array}{c}\n\\phantom{99}85527\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{99999}6}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
     "type": "columnOperation"
   },
   "type": "Elixir.Task_4_1_28",
   "position": 0,
-  "id": "2259aa38-6bd8-46e6-8b27-cb1c2d2f0f9e",
+  "id": "d7b8ad14-f996-4eb1-a50c-cc2e22b11983",
   "solution": {
     "type": "columnOperation",
     "answer": {
@@ -49,7 +49,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "73322",
+      "rus": "85533",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

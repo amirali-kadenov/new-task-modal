@@ -28,9 +28,7 @@ type ComparisonTemplateComponent = ComponentType<
   TaskComponentProps<ComparisonTask>
 >
 type TestTemplateComponent = ComponentType<TaskComponentProps<TestTask>>
-type EquationTemplateComponent = ComponentType<
-  TaskComponentProps<EquationTask>
->
+type EquationTemplateComponent = ComponentType<TaskComponentProps<EquationTask>>
 
 const wrapText = (
   importFn: () => Promise<{ default: TextTemplateComponent }>,
@@ -132,9 +130,9 @@ export const TEMPLATE_MAP = {
     ),
   [TemplateTypes.Text.Multi.Stack.N2Before]: () =>
     wrapText(() =>
-      import(
-        '@/modules/tasks/ui/templates/text/ui/multi/stack-n2-before'
-      ).then((module) => ({ default: module.TextMultiStackN2Before })),
+      import('@/modules/tasks/ui/templates/text/ui/multi/stack-n2-before').then(
+        (module) => ({ default: module.TextMultiStackN2Before }),
+      ),
     ),
   [TemplateTypes.Text.Multi.Stack.N2After]: () =>
     wrapText(() =>
@@ -150,9 +148,9 @@ export const TEMPLATE_MAP = {
     ),
   [TemplateTypes.Text.Multi.Stack.N3Before]: () =>
     wrapText(() =>
-      import(
-        '@/modules/tasks/ui/templates/text/ui/multi/stack-n3-before'
-      ).then((module) => ({ default: module.TextMultiStackN3Before })),
+      import('@/modules/tasks/ui/templates/text/ui/multi/stack-n3-before').then(
+        (module) => ({ default: module.TextMultiStackN3Before }),
+      ),
     ),
   [TemplateTypes.Text.Multi.Stack.N3BeforeAfter]: () =>
     wrapText(() =>
@@ -174,9 +172,9 @@ export const TEMPLATE_MAP = {
     ),
   [TemplateTypes.Text.Multi.Inline.N2After]: () =>
     wrapText(() =>
-      import(
-        '@/modules/tasks/ui/templates/text/ui/multi/inline-n2-after'
-      ).then((module) => ({ default: module.TextMultiInlineN2After })),
+      import('@/modules/tasks/ui/templates/text/ui/multi/inline-n2-after').then(
+        (module) => ({ default: module.TextMultiInlineN2After }),
+      ),
     ),
   [TemplateTypes.Text.Multi.Inline.N3BeforeAfter]: () =>
     wrapText(() =>
@@ -186,15 +184,15 @@ export const TEMPLATE_MAP = {
     ),
   [TemplateTypes.Text.Multi.Inline.N5After]: () =>
     wrapText(() =>
-      import(
-        '@/modules/tasks/ui/templates/text/ui/multi/inline-n5-after'
-      ).then((module) => ({ default: module.TextMultiInlineN5After })),
+      import('@/modules/tasks/ui/templates/text/ui/multi/inline-n5-after').then(
+        (module) => ({ default: module.TextMultiInlineN5After }),
+      ),
     ),
   [TemplateTypes.ColumnOperation.Plain]: () =>
     wrapColumnOperation(() =>
-      import(
-        '@/modules/tasks/ui/templates/column-operation/ui/plain'
-      ).then((module) => ({ default: module.ColumnOperationPlain })),
+      import('@/modules/tasks/ui/templates/column-operation/ui/plain').then(
+        (module) => ({ default: module.ColumnOperationPlain }),
+      ),
     ),
   [TemplateTypes.ColumnOperation.Multi.Stack.N2Before]: () =>
     wrapColumnOperation(() =>
@@ -236,9 +234,11 @@ export const TEMPLATE_MAP = {
     ),
   [TemplateTypes.Table.MultiRow]: () =>
     wrapTable(() =>
-      import('@/modules/tasks/ui/templates/table/ui/multi-row').then((module) => ({
-        default: module.TableMultiRow,
-      })),
+      import('@/modules/tasks/ui/templates/table/ui/multi-row').then(
+        (module) => ({
+          default: module.TableMultiRow,
+        }),
+      ),
     ),
   [TemplateTypes.Table.MultiRowSvg]: () =>
     wrapTable(() =>
@@ -275,6 +275,12 @@ export const TEMPLATE_MAP = {
     wrapComplex(() =>
       import('@/modules/tasks/ui/templates/complex/ui/after').then(
         (module) => ({ default: module.ComplexAfter }),
+      ),
+    ),
+  [TemplateTypes.Complex.AfterEquation]: () =>
+    wrapComplex(() =>
+      import('@/modules/tasks/ui/templates/complex/ui/after-equation').then(
+        (module) => ({ default: module.ComplexAfterEquation }),
       ),
     ),
   [TemplateTypes.Complex.BeforeAfter]: () =>
@@ -320,6 +326,14 @@ export const TEMPLATE_MAP = {
       import(
         '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-plain'
       ).then((module) => ({ default: module.AnswerCellMultiStackN2Plain })),
+    ),
+  [TemplateTypes.AnswerCell.Multi.Stack.N2Sequence]: () =>
+    wrapAnswerCell(() =>
+      import(
+        '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-sequence'
+      ).then((module) => ({
+        default: module.AnswerCellMultiStackN2Sequence,
+      })),
     ),
   [TemplateTypes.Comparison.Plain]: () =>
     wrapComparison(() =>

@@ -5,6 +5,7 @@ import { MathText } from '@/ui/math-text/math-text'
 
 import { normalizeComparisonDescription } from '../lib/normalize-comparison-description'
 import type { ComparisonTaskDescription } from '../lib/types.task'
+
 import styles from './comparison.module.scss'
 
 interface Props {
@@ -22,10 +23,7 @@ const translateOptional = (
 }
 
 /** Optional textBefore / imageBefore / images / textAfter above the row. */
-export const ComparisonDescriptionExtras = ({
-  description,
-  deps,
-}: Props) => {
+export const ComparisonDescriptionExtras = ({ description, deps }: Props) => {
   const desc = normalizeComparisonDescription(
     description as unknown as Record<string, unknown>,
   ) as ComparisonTaskDescription
@@ -51,18 +49,13 @@ export const ComparisonDescriptionExtras = ({
       {imageBefore ? (
         <div
           className={styles.imageBefore}
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: imageBefore }}
         />
       ) : null}
       {images.length > 0 ? (
         <div className={styles.images}>
           {images.map((html, index) => (
-            <div
-              key={index}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <div key={index} dangerouslySetInnerHTML={{ __html: html }} />
           ))}
         </div>
       ) : null}

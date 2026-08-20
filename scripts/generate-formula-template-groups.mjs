@@ -10,9 +10,11 @@
  *   node scripts/generate-formula-template-groups.mjs
  */
 import fs from 'node:fs'
-import path from 'node:path'
 import { createRequire } from 'node:module'
+import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 import {
   mapGroupTasks,
   mapGroupTasksWithBodies,
@@ -22,7 +24,6 @@ import {
   loadSnapshotForGrade,
   toAllTasksFilePayload,
 } from './lib/snapshot.mjs'
-import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))

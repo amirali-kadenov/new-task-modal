@@ -26,7 +26,7 @@ export interface TestTaskDescription {
   figures?: Array<{ type: number; [key: string]: unknown }>
   images?: string[] | null
   background?: string | null
-  table?: unknown | null
+  table?: unknown
   isChooseButtonsHidden?: boolean
   isFiguresVertical?: boolean
   toLeftFigures?: boolean

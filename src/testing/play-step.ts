@@ -1,11 +1,21 @@
-import {
-  updatePlayCase,
-  type PlayCaseDef,
-} from './play-results'
+import { updatePlayCase, type PlayCaseDef } from './play-results'
 
 const errorMessage = (err: unknown): string => {
   if (err instanceof Error) return err.message
-  return String(err ?? 'Unknown error')
+  if (err == null) return 'Unknown error'
+  if (
+    typeof err === 'string' ||
+    typeof err === 'number' ||
+    typeof err === 'boolean' ||
+    typeof err === 'bigint'
+  ) {
+    return String(err)
+  }
+  try {
+    return JSON.stringify(err) ?? 'Unknown error'
+  } catch {
+    return 'Unknown error'
+  }
 }
 
 /**

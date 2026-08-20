@@ -14,7 +14,6 @@ describe('shouldSuppressNativeKeyboard', () => {
       isTouchDeviceOrMobileBrowser: () => true,
     }
     expect(shouldSuppressNativeKeyboard()).toBe(true)
-
     ;(window as Window & { Global?: unknown }).Global = {
       isTouchDeviceOrMobileBrowser: () => false,
     }

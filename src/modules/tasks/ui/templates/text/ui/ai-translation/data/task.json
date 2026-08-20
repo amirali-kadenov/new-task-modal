@@ -18,10 +18,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "letter": "z",
-    "number": 30
-  },
   "title": {
     "with_audio_player": false,
     "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -35,26 +31,30 @@
     "areg": "حل المسألة بإنشاء تعبير.",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "letter": "z",
+    "number": 24
+  },
   "description": {
     "with_audio": true,
     "content": {
       "with_audio_player": false,
-      "aze": "Bir çobanyastığı çiçəyinin qiyməti \\(z\\) manatdır, qızılgülün qiyməti isə ondan 30 qəpik daha çoxdur.\nBir qızılgülün qiymətini ifadə şəklində yazın.\n",
-      "kgz": "Бир  бархатцынын баасы —  \\(z\\) сом болсо, ал эми  бир розанын баасы  30 сомго кымбат.\nБир розанын баасынын туюнтмасын жазыңыз.\n",
-      "uzb": "Masalani ifoda tuzib yeching.\nBir dona baxmal gulning narxi \\(z\\) so'm, bir dona atirgulning narxi esa undan 30 so'mga qimmat.\nBir atirgulning narxini algebraik ifoda ko'rinishida yozing.\n",
-      "eng": "The price of one velvet flower is \\(z\\) cents, and the price of one rose is 30 cents more.\nWrite the price of one rose as an expression.\n",
-      "rus": "Цена одной бархатцы — \\(z\\) тенге, а одной розы на 30 тенге больше.\n Запишите цену одной розы, в виде выражения.\n",
-      "kaz": "Бір барқытгүлдің бағасы \\(z\\) теңге, ал бір раушангүлдің бағасы одан 30 теңгеге артық.\nБір раушангүлдің бағасын өрнек құрып жазыңыз.\n",
+      "aze": "Bir çobanyastığı çiçəyinin qiyməti \\(z\\) manatdır, qızılgülün qiyməti isə ondan 24 qəpik daha çoxdur.\nBir qızılgülün qiymətini ifadə şəklində yazın.\n",
+      "kgz": "Бир  бархатцынын баасы —  \\(z\\) сом болсо, ал эми  бир розанын баасы  24 сомго кымбат.\nБир розанын баасынын туюнтмасын жазыңыз.\n",
+      "uzb": "Masalani ifoda tuzib yeching.\nBir dona baxmal gulning narxi \\(z\\) so'm, bir dona atirgulning narxi esa undan 24 so'mga qimmat.\nBir atirgulning narxini algebraik ifoda ko'rinishida yozing.\n",
+      "eng": "The price of one velvet flower is \\(z\\) cents, and the price of one rose is 24 cents more.\nWrite the price of one rose as an expression.\n",
+      "rus": "Цена одной бархатцы — \\(z\\) тенге, а одной розы на 24 тенге больше.\n Запишите цену одной розы, в виде выражения.\n",
+      "kaz": "Бір барқытгүлдің бағасы \\(z\\) теңге, ал бір раушангүлдің бағасы одан 24 теңгеге артық.\nБір раушангүлдің бағасын өрнек құрып жазыңыз.\n",
       "arjd": "",
       "arsa": "",
-      "areg": "إذا كان سعر زهرة النرجس الواحدة \\(z\\) جنيه، بينما سعر الوردة البلدي الواحدة يزيد عن ذلك بمقدار 30 جنيهًا،\nفاكتب تعبيرًا يمثل سعر الوردة البلدي الواحدة.\n",
+      "areg": "إذا كان سعر زهرة النرجس الواحدة \\(z\\) جنيه، بينما سعر الوردة البلدي الواحدة يزيد عن ذلك بمقدار 24 جنيهًا،\nفاكتب تعبيرًا يمثل سعر الوردة البلدي الواحدة.\n",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "text"
   },
   "type": "Elixir.Task_4_12_17_1",
   "position": 0,
-  "id": "082ccbad-fbd6-4a79-a497-93a853db48ab",
+  "id": "019937d9-6917-4b87-861a-f71447c49e33",
   "solution": {
     "type": "text",
     "answer": {
@@ -65,7 +65,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "z + 30 || 30 + z",
+      "rus": "z + 24 || 24 + z",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

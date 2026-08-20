@@ -71,7 +71,8 @@ test.beforeEach(async ({ page }) => {
 
     const audioCtx = new AudioContext()
     const destination = audioCtx.createMediaStreamDestination()
-    navigator.mediaDevices.getUserMedia = async () => destination.stream
+    navigator.mediaDevices.getUserMedia = () =>
+      Promise.resolve(destination.stream)
   })
 
   await page.goto(chatStoryUrl())

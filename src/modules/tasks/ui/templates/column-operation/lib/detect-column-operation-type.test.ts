@@ -63,7 +63,9 @@ describe('detectColumnOperationType', () => {
 
   it('returns null for empty / unknown content', () => {
     expect(detectColumnOperationType('')).toBeNull()
-    expect(detectColumnOperationType('\\begin{array}{c}1\\end{array}')).toBeNull()
+    expect(
+      detectColumnOperationType('\\begin{array}{c}1\\end{array}'),
+    ).toBeNull()
   })
 
   it('reads Translation content via getColumnOperationContent', () => {

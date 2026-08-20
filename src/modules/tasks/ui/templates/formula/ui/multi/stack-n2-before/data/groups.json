@@ -72,11 +72,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number2": 10,
-        "number1": 16
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -90,14 +85,19 @@
         "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number2": 10,
+        "number1": 34
+      },
       "description": {
-        "content": "16 : 10 = ",
+        "content": "34 : 10 = ",
         "direction": "",
         "type": "formula"
       },
       "type": "Elixir.Task_4_5_13",
       "position": 0,
-      "id": "722e227e-70f3-4cdd-8fe9-dee11a078afe",
+      "id": "ab83ebff-f946-4fc2-ae7a-a9b7b6de740f",
       "solution": {
         "type": "formula",
         "answer": {
@@ -108,7 +108,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "1;;6",
+          "rus": "3;;4",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

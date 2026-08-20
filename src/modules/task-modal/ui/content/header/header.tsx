@@ -13,7 +13,7 @@ interface Props {
 }
 
 export const TaskModalHeader = ({ props, ref }: Props) => {
-  const { actions, closeModal } = props
+  const { closeModal } = props
 
   const goBack = () => {
     console.log('goBack')
@@ -28,7 +28,7 @@ export const TaskModalHeader = ({ props, ref }: Props) => {
       onGoBack={goBack}
     >
       Задача <TasksNum />
-      <LivesIndicator actions={actions} props={props} />
+      <LivesIndicator props={props} />
     </TopBar>
   )
 }

@@ -67,7 +67,7 @@ export type TestRunState = {
   hub: HubRunState
 }
 
-const SUITES: TestSuite[] = ['unit', 'interactions', 'e2e']
+const SUITES: TestSuite[] = ['unit', 'interactions', 'e2e', 'visual']
 
 const emptySuite = (): SuiteRunSlice => ({
   status: 'idle',
@@ -82,6 +82,7 @@ const emptyHubStatus = (): Record<TestSuite, HubSuiteStatus> => ({
   unit: 'idle',
   interactions: 'idle',
   e2e: 'idle',
+  visual: 'idle',
 })
 
 const createInitialState = (): TestRunState => ({
@@ -89,6 +90,7 @@ const createInitialState = (): TestRunState => ({
     unit: emptySuite(),
     interactions: emptySuite(),
     e2e: emptySuite(),
+    visual: emptySuite(),
   },
   hub: {
     running: false,
@@ -122,10 +124,7 @@ const setState = (next: TestRunState) => {
   emit()
 }
 
-const patchSuite = (
-  suite: TestSuite,
-  patch: Partial<SuiteRunSlice>,
-): void => {
+const patchSuite = (suite: TestSuite, patch: Partial<SuiteRunSlice>): void => {
   setState({
     ...state,
     suites: {
@@ -166,16 +165,17 @@ export const subscribeTestRunStore = (listener: () => void): (() => void) => {
   }
 }
 
-export const useTestRunStore = <T,>(
-  selector: (s: TestRunState) => T,
-): T =>
+export const useTestRunStore = <T>(selector: (s: TestRunState) => T): T =>
   useSyncExternalStore(
     subscribeTestRunStore,
     () => selector(getTestRunState()),
     () => selector(getTestRunState()),
   )
 
-export const isSuiteBusy = (suite: TestSuite, s: TestRunState = state): boolean => {
+export const isSuiteBusy = (
+  suite: TestSuite,
+  s: TestRunState = state,
+): boolean => {
   if (s.suites[suite].status === 'running') return true
   if (!s.hub.running) return false
   if (s.hub.active === suite) return true
@@ -196,16 +196,22 @@ const emitRun = (
     task: string
     headed?: boolean
     e2eFast?: boolean
+    updateSnapshots?: boolean
   },
 ) => {
   addons.getChannel().emit(EVENTS.RUN, {
     suite,
-    headed: suite === 'e2e' ? filters.headed : undefined,
-    e2eFast: suite === 'e2e' ? filters.e2eFast !== false : undefined,
+    headed: suite === 'e2e' || suite === 'visual' ? filters.headed : undefined,
+    e2eFast:
+      suite === 'e2e' || suite === 'visual'
+        ? filters.e2eFast !== false
+        : undefined,
     scope: filters.scope,
     grade: filters.grade,
     template: filters.template || undefined,
     task: filters.task || undefined,
+    updateSnapshots:
+      suite === 'visual' ? Boolean(filters.updateSnapshots) : undefined,
   })
 }
 
@@ -261,8 +267,18 @@ export const startSuiteRun = (opts: {
   task: string
   headed?: boolean
   e2eFast?: boolean
+  updateSnapshots?: boolean
 }): boolean => {
-  const { suite, scope, grade, template, task, headed, e2eFast } = opts
+  const {
+    suite,
+    scope,
+    grade,
+    template,
+    task,
+    headed,
+    e2eFast,
+    updateSnapshots,
+  } = opts
   if (isSuiteBusy(suite) || isHubBusy()) return false
 
   patchSuite(suite, {
@@ -273,7 +289,15 @@ export const startSuiteRun = (opts: {
     persistDir: null,
     gotStructured: false,
   })
-  emitRun(suite, { scope, grade, template, task, headed, e2eFast })
+  emitRun(suite, {
+    scope,
+    grade,
+    template,
+    task,
+    headed,
+    e2eFast,
+    updateSnapshots,
+  })
   return true
 }
 
@@ -312,6 +336,7 @@ export const startHubRun = (opts: {
         unit: opts.selected.unit ? 'pending' : 'skipped',
         interactions: opts.selected.interactions ? 'pending' : 'skipped',
         e2e: opts.selected.e2e ? 'pending' : 'skipped',
+        visual: opts.selected.visual ? 'pending' : 'skipped',
       },
     },
   })

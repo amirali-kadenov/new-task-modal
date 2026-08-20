@@ -4,7 +4,9 @@ import type { TaskComponentProps } from '@/modules/tasks/model/types'
 
 import type { TextTask } from '../types.task'
 
+import { CatalogUpdateSnapshotsButton } from './catalog-update-snapshots-button'
 import { TaskSectionTestPanel } from './task-section-test-panel'
+import { TaskVerifiedCheckbox } from './task-verified-checkbox'
 import { TextTemplateStory, withoutSolution } from './text-template-story'
 import { TrainerLaunchLinks, type TrainerLaunch } from './trainer-launch-links'
 
@@ -66,10 +68,12 @@ export const RenderTemplateGroups = ({
 }: Props) => {
   return (
     <div>
+      <CatalogUpdateSnapshotsButton rootTitle={rootTitle} scope="allGroups" />
       {groups.map(({ group, count, task, launch }, index) => {
         return (
           <section
             key={group}
+            data-group={group}
             style={{
               marginBottom: 48,
               borderBottom: '1px solid #e5e7eb',
@@ -87,29 +91,38 @@ export const RenderTemplateGroups = ({
               ) : null}
             </h3>
 
-            <TrainerLaunchLinks launch={launch} />
+            <div data-visual-hide="">
+              <TaskVerifiedCheckbox rootTitle={rootTitle} taskId={task.id} />
+              <TrainerLaunchLinks launch={launch} />
+            </div>
 
-            <Variant label="Default">
-              <TextTemplateStory
+            <div data-visual-target="default">
+              <Variant label="Default">
+                <TextTemplateStory
+                  Template={Template}
+                  task={withoutSolution(task)}
+                />
+              </Variant>
+            </div>
+
+            <div data-visual-target="solution">
+              <Variant label="WithSolution">
+                {task.solution ? (
+                  <TextTemplateStory Template={Template} task={task} />
+                ) : (
+                  <MissingSolution group={group} />
+                )}
+              </Variant>
+            </div>
+
+            <div data-visual-hide="">
+              <TaskSectionTestPanel
                 Template={Template}
-                task={withoutSolution(task)}
+                task={task}
+                sectionKey={`all-groups:${group}`}
+                rootTitle={rootTitle}
               />
-            </Variant>
-
-            <Variant label="WithSolution">
-              {task.solution ? (
-                <TextTemplateStory Template={Template} task={task} />
-              ) : (
-                <MissingSolution group={group} />
-              )}
-            </Variant>
-
-            <TaskSectionTestPanel
-              Template={Template}
-              task={task}
-              sectionKey={`all-groups:${group}`}
-              rootTitle={rootTitle}
-            />
+            </div>
           </section>
         )
       })}

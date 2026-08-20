@@ -13,7 +13,6 @@ interface Props {
 }
 
 export const Message = ({ message }: Props) => {
-  console.log('MESSAGE', message.type, message)
   switch (message.type) {
     case 'audio':
       return (

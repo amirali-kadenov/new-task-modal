@@ -429,6 +429,29 @@
   border-color: #d1d5db;
 }
 
+.runSecondary {
+  height: 36px;
+  padding: 0 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.runSecondary:disabled {
+  color: #9ca3af;
+  cursor: not-allowed;
+  background: #f9fafb;
+  border-color: #e5e7eb;
+}
+
+.runSecondary:not(:disabled):hover {
+  background: #f3f4f6;
+}
+
 .stop {
   height: 36px;
   padding: 0 18px;
@@ -553,4 +576,57 @@
   white-space: pre-wrap;
   background: #0b1020;
   border-radius: 0 0 10px 10px;
+}
+
+.qaBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.qaBadgeOk {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #166534;
+  background: #dcfce7;
+  border-radius: 999px;
+}
+
+.qaBadgeIdle {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  background: #f3f4f6;
+  border-radius: 999px;
+}
+
+.qaBtn {
+  height: 32px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f2937;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.qaBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.qaBtn:hover:not(:disabled) {
+  background: #f9fafb;
 }

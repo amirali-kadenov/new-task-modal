@@ -1,11 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { useState } from 'react'
 
-import {
-  ButtonColor,
-  ButtonLayout,
-  ButtonSize,
-} from './button'
+import { ButtonColor, ButtonLayout, ButtonSize } from './button'
 import { ButtonWithLoader } from './button-with-loader'
 
 const meta = {
@@ -40,11 +36,7 @@ export const Default: Story = {
     }
 
     return (
-      <ButtonWithLoader
-        {...args}
-        isLoading={isLoading}
-        onClick={handleClick}
-      />
+      <ButtonWithLoader {...args} isLoading={isLoading} onClick={handleClick} />
     )
   },
 }

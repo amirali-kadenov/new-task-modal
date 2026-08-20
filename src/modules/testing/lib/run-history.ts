@@ -15,7 +15,10 @@ import type {
 const INDEX_NAME = 'index.json'
 
 const isSuite = (value: unknown): value is TestSuite =>
-  value === 'unit' || value === 'interactions' || value === 'e2e'
+  value === 'unit' ||
+  value === 'interactions' ||
+  value === 'e2e' ||
+  value === 'visual'
 
 const isScope = (value: unknown): value is TestScope =>
   value === 'all' || value === 'allGroups' || value === 'allTasks'

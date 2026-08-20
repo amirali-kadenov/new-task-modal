@@ -24,7 +24,7 @@ export const createFileMessage = (file: File, user: User): MessageInterface => {
     fileSize: file.size,
     fileType: file.type,
     fileUrl: URL.createObjectURL(file),
-  } as MessageInterface
+  }
 }
 
 export const createAudioMessage = (
@@ -70,6 +70,53 @@ export const getFileType = (file: File) => {
   if (AUDIO_EXT.includes(ext)) return 'audio'
 
   return 'file'
+}
+
+const FALLBACK_FILE_NAME = 'Файл'
+
+export const deriveFileNameFromUrl = (url: string): string => {
+  try {
+    const withoutQuery = url.split('?')[0]
+    const lastSegment = withoutQuery.split('/').filter(Boolean).pop()
+    return lastSegment ? decodeURIComponent(lastSegment) : FALLBACK_FILE_NAME
+  } catch {
+    return FALLBACK_FILE_NAME
+  }
+}
+
+export const normalizeChatMessage = (
+  message: MessageInterface,
+): MessageInterface => {
+  if (
+    message.type === 'image' ||
+    message.type === 'video' ||
+    message.type === 'file'
+  ) {
+    const raw = message as unknown as { text: string; fileName?: string }
+    const fileUrl = raw.text
+
+    if (message.type === 'file') {
+      return {
+        ...message,
+        fileUrl,
+        fileName: raw.fileName || deriveFileNameFromUrl(fileUrl),
+      }
+    }
+
+    return { ...message, fileUrl }
+  }
+  if (message.type === 'audio') {
+    const raw = message as unknown as { text: string; duration?: number }
+    return {
+      ...message,
+      audioUrl: raw.text,
+      duration:
+        typeof raw.duration === 'number' && Number.isFinite(raw.duration)
+          ? raw.duration
+          : 0,
+    }
+  }
+  return message
 }
 
 export interface DateMarker {

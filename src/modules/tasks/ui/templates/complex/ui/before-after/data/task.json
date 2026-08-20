@@ -38,10 +38,10 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number": 4
-  },
   "title": null,
+  "fields": {
+    "number": 3
+  },
   "description": {
     "isAnswerCellHidden": false,
     "isCalculatorClosed": false,
@@ -49,15 +49,15 @@
       {
         "content": {
           "with_audio_player": false,
-          "aze": "Radiusu 4 sm olan çevrənin xaricinə çəkilmiş kvadratın perimetrini hesablayın.\n",
-          "kgz": "Сүрөттө көрсөтүлгөң радиусу 4 сантиметрге барабар болгон айлананын сыртына сызылган квадраттын периметрин табыңыз.\n",
-          "uzb": "Rasmdagi radiusi 4 cm bo'lgan aylanaga tashqi chizilgan kvadratning perimetrini toping.\n",
-          "eng": "Calculate the perimeter of the square outside the circle of radius 4 cm shown in the figure.\n",
-          "rus": "Вычислите периметр квадрата вне окружности радиусом 4 см, изображенной на рисунке.",
-          "kaz": "Cуреттегі радиусы 4 см болатын шеңбердің сыртындағы квадраттың периметрін есептеңіз.\n",
+          "aze": "Radiusu 3 sm olan çevrənin xaricinə çəkilmiş kvadratın perimetrini hesablayın.\n",
+          "kgz": "Сүрөттө көрсөтүлгөң радиусу 3 сантиметрге барабар болгон айлананын сыртына сызылган квадраттын периметрин табыңыз.\n",
+          "uzb": "Rasmdagi radiusi 3 cm bo'lgan aylanaga tashqi chizilgan kvadratning perimetrini toping.\n",
+          "eng": "Calculate the perimeter of the square outside the circle of radius 3 cm shown in the figure.\n",
+          "rus": "Вычислите периметр квадрата вне окружности радиусом 3 см, изображенной на рисунке.",
+          "kaz": "Cуреттегі радиусы 3 см болатын шеңбердің сыртындағы квадраттың периметрін есептеңіз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "في الصورة مربع يحيط بدائرة نصف قطرها 4 سم. أوجد محيط المربع.",
+          "areg": "في الصورة مربع يحيط بدائرة نصف قطرها 3 سم. أوجد محيط المربع.",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": 10
@@ -72,15 +72,15 @@
         "background_image": null,
         "content": {
           "with_audio_player": false,
-          "aze": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 sm</text>\n</svg>\n",
-          "kgz": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 см</text>\n</svg>\n",
-          "uzb": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 cm</text>\n</svg>\n",
-          "eng": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 cm</text>\n</svg>\n",
-          "rus": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 см</text>\n</svg>\n",
-          "kaz": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 см</text>\n</svg>\n",
+          "aze": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 sm</text>\n</svg>\n",
+          "kgz": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 см</text>\n</svg>\n",
+          "uzb": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 cm</text>\n</svg>\n",
+          "eng": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 cm</text>\n</svg>\n",
+          "rus": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 см</text>\n</svg>\n",
+          "kaz": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 см</text>\n</svg>\n",
           "arjd": "",
           "arsa": "",
-          "areg": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">4 سم</text>\n</svg>\n",
+          "areg": "\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nwidth=\"161px\" height=\"162px\" viewBox=\"0 0 161 162\" style=\"enable-background:new 0 0 161 162;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}\n.st2{fill:none;stroke:#FF0000;stroke-miterlimit:10;}\n.st3{font-family:'SourceSansPro-Regular';}\n.st4{font-size:14.1563px;}\n</style>\n<circle class=\"st0\" cx=\"80.14\" cy=\"80.67\" r=\"75\"/>\n<circle cx=\"80.14\" cy=\"80.67\" r=\"2.5\"/>\n<line class=\"st1\" x1=\"80.14\" y1=\"80.67\" x2=\"155.14\" y2=\"80.67\"/>\n<rect x=\"5.14\" y=\"5.67\" class=\"st2\" width=\"150\" height=\"150\"/>\n<text transform=\"matrix(1 0 0 1 105 70)\" class=\"st0 st4\">3 سم</text>\n</svg>\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": 160,
@@ -91,7 +91,7 @@
   },
   "type": "Elixir.Task_4_7_18_17",
   "position": 14,
-  "id": "b80ea252-51f9-4da3-918f-ae0950494430",
+  "id": "5a1146f1-0079-4d7a-a135-0d6503a1eecd",
   "solution": {
     "type": "formula",
     "answer": {
@@ -102,7 +102,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "32",
+      "rus": "24",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

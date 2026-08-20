@@ -41,10 +41,10 @@ beforeEach(() => {
 
 describe('ChatInput', () => {
   it('shows text field, attach, and microphone when empty', () => {
-    const { container } = renderInput()
+    renderInput()
 
     expect(screen.getByPlaceholderText('Cообщение...')).toBeInTheDocument()
-    expect(container.querySelector('input[type="file"]')).toBeTruthy()
+    expect(screen.getByTestId('chat-file-input')).toBeInTheDocument()
     // attach + microphone
     expect(screen.getAllByRole('button')).toHaveLength(2)
   })
@@ -86,10 +86,8 @@ describe('ChatInput', () => {
     ['clip.mp4', 'video'],
     ['doc.pdf', 'file'],
   ] as const)('attaches %s as %s message', async (name, type) => {
-    const { onAddMessage, container } = renderInput()
-    const fileInput = container.querySelector(
-      'input[type="file"]',
-    ) as HTMLInputElement
+    const { onAddMessage } = renderInput()
+    const fileInput = screen.getByTestId('chat-file-input')
 
     const file = new File(['data'], name, { type: 'application/octet-stream' })
     fireEvent.change(fileInput, { target: { files: [file] } })
@@ -106,10 +104,8 @@ describe('ChatInput', () => {
   })
 
   it('attaches voice.mp3 as audio message', async () => {
-    const { onAddMessage, container } = renderInput()
-    const fileInput = container.querySelector(
-      'input[type="file"]',
-    ) as HTMLInputElement
+    const { onAddMessage } = renderInput()
+    const fileInput = screen.getByTestId('chat-file-input')
 
     fireEvent.change(fileInput, {
       target: {
@@ -161,7 +157,7 @@ describe('ChatInput', () => {
     fireEvent.click(screen.getAllByRole('button').at(-1)!)
     await waitFor(() => expect(start).toHaveBeenCalled())
 
-    fireEvent.click(screen.getAllByRole('button')[0]!)
+    fireEvent.click(screen.getAllByRole('button')[0])
 
     expect(cancel).toHaveBeenCalled()
     expect(onAddMessage).not.toHaveBeenCalled()

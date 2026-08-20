@@ -42,9 +42,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 2606
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -58,13 +55,16 @@
             "areg": "حول من وحدة الجرام إلى وحدة القياس المحددة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 9020
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": "",
@@ -83,7 +83,7 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "2606",
+                    "9020",
                     {
                       "with_audio_player": false,
                       "aze": "q",
@@ -143,7 +143,7 @@
           },
           "type": "Elixir.Task_4_6_2_21",
           "position": 20,
-          "id": "e5668cd5-fc86-472e-bbab-b98496d70fa7",
+          "id": "dfe6119a-bb17-43a6-8eac-07ddb41c4885",
           "solution": {
             "type": "table",
             "answer": {
@@ -154,7 +154,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "2;;606",
+              "rus": "9;;20",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -231,9 +231,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 1195
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -247,13 +244,16 @@
             "areg": "حول من وحدة الكيلوجرام إلى وحدة القياس المحددة:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 4876
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": "",
@@ -272,7 +272,7 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "1195",
+                    "4876",
                     {
                       "with_audio_player": false,
                       "aze": "kq",
@@ -332,7 +332,7 @@
           },
           "type": "Elixir.Task_4_6_2_23",
           "position": 22,
-          "id": "cf48dfda-65bf-4081-bb74-fdb2ca3fb11b",
+          "id": "6147b8cc-d0af-40f2-9061-178e24ab00c7",
           "solution": {
             "type": "table",
             "answer": {
@@ -343,7 +343,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "1;;195",
+              "rus": "4;;876",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -420,9 +420,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 4583
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -436,13 +433,16 @@
             "areg": "حول إلى وحدة القياس المحددة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 8427
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": "",
@@ -461,14 +461,14 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "4583",
+                    "8427",
                     {
                       "with_audio_player": false,
                       "aze": "il",
                       "kgz": "",
                       "uzb": "yil",
                       "eng": "year",
-                      "rus": "года",
+                      "rus": "лет",
                       "kaz": "жыл",
                       "arjd": "",
                       "arsa": "",
@@ -521,7 +521,7 @@
           },
           "type": "Elixir.Task_4_6_4_18",
           "position": 17,
-          "id": "9edd60b2-3a25-4bad-99db-15fc04182ff2",
+          "id": "dff86400-ffc6-4f64-a06e-5ea516dd9ac9",
           "solution": {
             "type": "table",
             "answer": {
@@ -532,7 +532,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "45;;83",
+              "rus": "84;;27",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -609,9 +609,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 2092
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -625,13 +622,16 @@
             "areg": "حول إلى وحدة القياس المحددة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 7205
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": "",
@@ -650,7 +650,7 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "2092",
+                    "7205",
                     {
                       "with_audio_player": false,
                       "aze": "ml",
@@ -710,7 +710,7 @@
           },
           "type": "Elixir.Task_4_6_5_8",
           "position": 7,
-          "id": "0228f960-1aef-4fa8-9598-6bdf444f3467",
+          "id": "c8018d86-8ff8-4b8f-bdd8-4596c640f728",
           "solution": {
             "type": "table",
             "answer": {
@@ -721,7 +721,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "2;;92",
+              "rus": "7;;205",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -798,9 +798,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 20342
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -814,13 +811,16 @@
             "areg": "حول إلى وحدة القياس المحددة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 59916
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": "",
@@ -839,7 +839,7 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "20342",
+                    "59916",
                     {
                       "with_audio_player": false,
                       "aze": "ml",
@@ -899,7 +899,7 @@
           },
           "type": "Elixir.Task_4_6_5_10",
           "position": 9,
-          "id": "4e5f3382-23f7-43d0-8296-cdf2554160fc",
+          "id": "a4ea0529-b09b-4f1e-be5f-de6ba604b98d",
           "solution": {
             "type": "table",
             "answer": {
@@ -910,7 +910,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "20;;342",
+              "rus": "59;;916",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -987,9 +987,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 521172
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -1003,13 +1000,16 @@
             "areg": "حول إلى وحدة القياس المحددة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 672857
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": "",
@@ -1028,7 +1028,7 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "521172",
+                    "672857",
                     {
                       "with_audio_player": false,
                       "aze": "ml",
@@ -1088,7 +1088,7 @@
           },
           "type": "Elixir.Task_4_6_5_12",
           "position": 11,
-          "id": "18f68d97-e959-4a4e-82ce-a09398abb858",
+          "id": "6a31d13d-09cf-4507-84e8-4576943df8d7",
           "solution": {
             "type": "table",
             "answer": {
@@ -1099,7 +1099,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "521;;172",
+              "rus": "672;;857",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

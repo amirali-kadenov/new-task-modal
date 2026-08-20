@@ -1,9 +1,8 @@
 import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
 import { isTranslation } from '@/modules/tasks/lib/translation-utils'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
-import { ComplexSolutionParts } from '@/modules/tasks/ui/common/task-solution/complex-solution-parts'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import { joinMathAnswers } from '@/modules/tasks/ui/templates/text/lib/join-math-answers'
 import { stripMathDelimiters } from '@/modules/tasks/ui/templates/text/lib/strip-math-delimiters'
@@ -12,17 +11,16 @@ import type { Translation } from '@/types/api/task'
 import { MathFormula } from '@/ui/math-text/math-formula'
 
 import { isTextOnlyComplexDescription } from '../lib/is-text-only-complex-description'
-import type {
-  ComplexTask,
-  SimpleComplexAnswerInput,
-} from '../lib/types.task'
+import type { ComplexTask, SimpleComplexAnswerInput } from '../lib/types.task'
 
-import { ComplexDescription } from './complex-description'
+import { ComplexSolutionCondition } from './complex-solution-condition'
 import styles from './complex.module.scss'
 
 type Props = TaskSolutionComponentProps<ComplexTask> & {
+  id: string
   withBefore?: boolean
   withAfter?: boolean
+  equationLayout?: boolean
 }
 
 const translateAdornment = (
@@ -40,11 +38,15 @@ export const ComplexSolution = ({
   deps,
   answer,
   solution,
+  id,
   withBefore = false,
   withAfter = false,
+  equationLayout = false,
 }: Props) => {
   const translate = (value: Translation | string) =>
     deps.global.translateTasks(value)
+
+  const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
 
   // Strip then re-wrap: panel uses MathText (needs `\(...\)`); MathFormula wraps itself.
   const correctAnswer = stripMathDelimiters(
@@ -62,15 +64,6 @@ export const ComplexSolution = ({
   const suffix = withAfter
     ? translateAdornment(answerInput?.after, translate)
     : ''
-
-  const solutionParts =
-    solution &&
-    typeof solution === 'object' &&
-    'parts' in solution &&
-    Array.isArray((solution as { parts?: unknown }).parts)
-      ? (solution as { parts: Parameters<typeof ComplexSolutionParts>[0]['parts'] })
-          .parts
-      : null
 
   const answerControls = showAnswer ? (
     <>
@@ -106,8 +99,19 @@ export const ComplexSolution = ({
     />
   )
 
+  const description = (
+    <ComplexSolutionCondition
+      description={task.description}
+      deps={deps}
+      solution={solution}
+      separator={separator}
+      translate={translate}
+      equationLayout={equationLayout}
+    />
+  )
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-template-id={id}>
       <TaskTitle title={task.title} deps={deps} />
 
       {inlineExpression ? (
@@ -118,13 +122,13 @@ export const ComplexSolution = ({
             data-layout="inline"
             data-testid="complex-expression-row"
           >
-            <ComplexDescription description={task.description} deps={deps} />
+            {description}
             {answerControls}
           </div>
         </>
       ) : (
         <>
-          <ComplexDescription description={task.description} deps={deps} />
+          {description}
           {answerPanel}
           {showAdornmentRow ? (
             <div className={`${styles.inputRow} ${styles.solutionRow}`}>
@@ -134,11 +138,7 @@ export const ComplexSolution = ({
         </>
       )}
 
-      {solutionParts ? (
-        <ComplexSolutionParts parts={solutionParts} deps={deps} />
-      ) : (
-        <SolutionExplanation solution={solution} deps={deps} />
-      )}
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

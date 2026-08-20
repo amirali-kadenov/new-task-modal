@@ -8,7 +8,6 @@ import {
   renderInTrainerStory,
   renderOpenInTrainerStory,
 } from './create-text-template-stories'
-import type { TemplateGroupFixture } from './render-template-groups'
 import {
   makePlayCalcOverflowInTrainer,
   makePlayCorrectAnswerInTrainer,
@@ -17,6 +16,8 @@ import {
   makePlayTheoryInTrainer,
   makePlayWrongAnswerInTrainer,
 } from './play-in-trainer'
+import type { AllTasksFile } from './render-template-all-tasks'
+import type { TemplateGroupFixture } from './render-template-groups'
 import {
   PLAY_CASES_CALC_OVERFLOW,
   PLAY_CASES_CORRECT,
@@ -33,9 +34,11 @@ export type TrainerStoryArgs = {
   groups: TemplateGroupFixture[]
   fallbackTask: TextTask
   rootTitle?: string
+  /** Full catalog fixture — enables per-task `taskId` resolution (Correct only). */
+  allTasks?: AllTasksFile
 }
 
-type GroupArgs = { group?: string; taskId?: string }
+type GroupArgs = { group?: string; taskId?: string; grade?: number }
 
 type OpenTrainerArgs = {
   groups: TemplateGroupFixture[]
@@ -45,22 +48,34 @@ type OpenTrainerArgs = {
   groupIds: string[]
 }
 
-/** Correct-answer flow story (sidebar: Flow/Correct). */
+/**
+ * Correct-answer flow story (sidebar: Flow/Correct).
+ * Also the trainer-parity snapshot target — `taskId` (+ `allTasks` supplied
+ * by the template file) resolves one catalog task instead of the group
+ * sample, so every task can be screenshotted, not just one per group.
+ */
 export const makeInTrainerCorrectStory = ({
   Template,
   groups,
   fallbackTask,
   rootTitle,
+  allTasks,
 }: TrainerStoryArgs) => ({
   name: 'Flow/Correct',
-  parameters: trainerPlayParameters(PLAY_CASES_CORRECT, TRAINER_STORY_DOCS.correct),
-  render: ({ group }: GroupArgs) =>
+  parameters: trainerPlayParameters(
+    PLAY_CASES_CORRECT,
+    TRAINER_STORY_DOCS.correct,
+  ),
+  render: ({ group, taskId, grade }: GroupArgs) =>
     renderInTrainerStory({
       Template,
       groups,
       fallbackTask,
       rootTitle,
       group: group ?? '',
+      taskId,
+      allTasks,
+      grade,
     }),
   play: makePlayCorrectAnswerInTrainer({ groups, fallbackTask }),
 })

@@ -15,6 +15,12 @@ export const VIDEO_EXPLANATION_TEXT = (
   </>
 )
 
+export const ANSWER_SOLUTION_INTRO_TEXT = (
+  <>
+    Держи ответ, после просмотра добавиться <b>две дополнительные задачи</b>
+  </>
+)
+
 export const INITIAL_MESSAGES: AiChatMessageType[] = [
   {
     id: Date.now() * 92423,

@@ -5,9 +5,11 @@ import type { MathInputRef } from '@/ui/math-input/types'
 import { MathFormula } from '@/ui/math-text/math-formula'
 import { MathText } from '@/ui/math-text/math-text'
 
+import { stripMathDelimiters } from '../../text/lib/strip-math-delimiters'
 import { formatComparisonSide } from '../lib/format-comparison-side'
 import { normalizeComparisonDescription } from '../lib/normalize-comparison-description'
 import type { ComparisonTaskDescription } from '../lib/types.task'
+
 import styles from './comparison.module.scss'
 
 interface Props {
@@ -47,7 +49,6 @@ export const ComparisonRow = ({
       {svg1 ? (
         <div
           className={styles.svgSide}
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: svg1 }}
         />
       ) : null}
@@ -63,7 +64,9 @@ export const ComparisonRow = ({
           className={styles.input}
         />
       ) : (
-        <MathFormula className={styles.answerFormula}>{answer}</MathFormula>
+        <MathFormula className={styles.answerFormula}>
+          {stripMathDelimiters(answer)}
+        </MathFormula>
       )}
 
       <div className={styles.side} data-testid="comparison-second">
@@ -72,7 +75,6 @@ export const ComparisonRow = ({
       {svg2 ? (
         <div
           className={styles.svgSide}
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: svg2 }}
         />
       ) : null}

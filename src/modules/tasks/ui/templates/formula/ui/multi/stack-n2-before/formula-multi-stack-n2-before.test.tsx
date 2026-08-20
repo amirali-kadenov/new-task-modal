@@ -26,9 +26,7 @@ const task = { ...(fixture as unknown as FormulaTask), solution: null }
 
 describe('formula.multi.stack.n2.before', () => {
   it('фикстура классифицируется в formula.multi.stack.n2.before', () => {
-    expect(classifyFormulaTemplate(task)).toBe(
-      'formula.multi.stack.n2.before',
-    )
+    expect(classifyFormulaTemplate(task)).toBe('formula.multi.stack.n2.before')
   })
 
   it('2 input столбиком с before', () => {

@@ -14,11 +14,6 @@
   },
   "difficulty": "x1",
   "result": "none",
-  "fields": {
-    "difficulty": "x1",
-    "number2": 40000,
-    "number1": 30000
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Ədədləri müqayisə edin.",
@@ -32,6 +27,11 @@
     "areg": "قارن بين العددين:",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "difficulty": "x1",
+    "number2": 30000,
+    "number1": 50000
+  },
   "description": {
     "svg2": "",
     "svg1": "",
@@ -42,12 +42,12 @@
     "text_after": "",
     "table_before": null,
     "type": "comparison",
-    "second": 40000,
-    "first": 30000
+    "second": 30000,
+    "first": 50000
   },
   "type": "Elixir.Task_4_1_13",
   "position": 0,
-  "id": "bc62555c-2774-4157-9cb1-d20e335cbd98",
+  "id": "5e6a3862-a985-4535-8705-1546a7c55393",
   "solution": {
     "type": "formula",
     "answer": {
@@ -58,7 +58,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "<",
+      "rus": ">",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

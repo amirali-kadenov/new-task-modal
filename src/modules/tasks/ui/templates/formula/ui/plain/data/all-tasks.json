@@ -29,11 +29,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 10,
-            "number1": 5
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -47,14 +42,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 10,
+            "number1": 8
+          },
           "description": {
-            "content": "5 · 10 = ",
+            "content": "8 · 10 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_2_6",
           "position": 0,
-          "id": "ad20ce2e-c76a-4166-bc4d-642f616e3767",
+          "id": "a1d30526-62cb-4928-92ca-77b588ac1f64",
           "solution": {
             "type": "formula",
             "answer": {
@@ -65,7 +65,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "50",
+              "rus": "80",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -129,11 +129,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 100,
-            "number1": 85
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -147,14 +142,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 100,
+            "number1": 69
+          },
           "description": {
-            "content": "85 · 100 = ",
+            "content": "69 · 100 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_2_7",
           "position": 2,
-          "id": "e1a64ba2-ac48-4d20-99a7-89282d942494",
+          "id": "3d26396f-94aa-4c25-a87e-218dc537c77a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -165,7 +165,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "8500",
+              "rus": "6900",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -229,11 +229,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 70000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -247,14 +242,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 3,
+            "number1": 70000
+          },
           "description": {
-            "content": "70000 + 2 = ",
+            "content": "70000 + 3 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_18",
           "position": 0,
-          "id": "aaf96455-3b6b-4622-a5f5-d9e1713955bb",
+          "id": "f71ae69f-5872-4a5d-897a-4673b3585f4f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -265,7 +265,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "70002",
+              "rus": "70003",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -329,11 +329,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 3,
-            "number1": 30006
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -347,14 +342,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 90006
+          },
           "description": {
-            "content": "30006 + 3 = ",
+            "content": "90006 + 2 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_19",
           "position": 5,
-          "id": "b95633fc-8594-4a3c-a768-2b5ae2407200",
+          "id": "f5f7ee9b-4b8c-4bb5-a5e7-a3ee28f4f1fd",
           "solution": {
             "type": "formula",
             "answer": {
@@ -365,7 +365,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "30009",
+              "rus": "90008",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -429,11 +429,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 90047
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -447,14 +442,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 1,
+            "number1": 60064
+          },
           "description": {
-            "content": "90047 + 2 = ",
+            "content": "60064 + 1 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_20",
           "position": 8,
-          "id": "222d5cf3-a724-48d4-9b62-6cfa863b4d57",
+          "id": "e2109d4e-bea2-4527-82cd-9db0bd6eeeb7",
           "solution": {
             "type": "formula",
             "answer": {
@@ -465,7 +465,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "90049",
+              "rus": "60065",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -529,11 +529,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 5,
-            "number1": 50140
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -547,14 +542,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 80860
+          },
           "description": {
-            "content": "50140 + 5 = ",
+            "content": "80860 + 2 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_21",
           "position": 15,
-          "id": "f61a604b-a859-45d6-94a1-06575e4caad7",
+          "id": "fa60fec3-51c3-4c84-9c5b-842c9ee7d5a9",
           "solution": {
             "type": "formula",
             "answer": {
@@ -565,7 +565,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "50145",
+              "rus": "80862",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -629,11 +629,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 5,
-            "number1": 90005
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -647,14 +642,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 8,
+            "number1": 50008
+          },
           "description": {
-            "content": "90005 - 5 = ",
+            "content": "50008 - 8 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_22",
           "position": 0,
-          "id": "f79cce4c-3e8d-437a-931a-69de470da7e3",
+          "id": "d9743a2e-e2fb-4df2-8b29-864a304cedda",
           "solution": {
             "type": "formula",
             "answer": {
@@ -665,7 +665,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "90000",
+              "rus": "50000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -729,11 +729,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 4,
-            "number1": 40006
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -747,14 +742,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 3,
+            "number1": 60008
+          },
           "description": {
-            "content": "40006 - 4 = ",
+            "content": "60008 - 3 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_23",
           "position": 5,
-          "id": "a879f867-c552-48c9-b020-6ed16f79da3f",
+          "id": "bd2e7a58-e8f0-43af-8959-60d464dd6375",
           "solution": {
             "type": "formula",
             "answer": {
@@ -765,7 +765,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "40002",
+              "rus": "60005",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -829,11 +829,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 5,
-            "number1": 20049
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -847,14 +842,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 1,
+            "number1": 20099
+          },
           "description": {
-            "content": "20049 - 5 = ",
+            "content": "20099 - 1 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_24",
           "position": 6,
-          "id": "e619a411-e890-4a1b-a6c2-af8c5bd573f2",
+          "id": "f817e7ff-aa6f-4d6a-89da-3393e9390f4a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -865,7 +865,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "20044",
+              "rus": "20098",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -929,11 +929,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 30,
-            "number1": 57780
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -947,14 +942,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 10,
+            "number1": 49970
+          },
           "description": {
-            "content": "57780 - 30 = ",
+            "content": "49970 - 10 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_25",
           "position": 9,
-          "id": "f9a72271-0ccf-4dcd-aa81-56dd6ec2a0b0",
+          "id": "1ee21631-2964-499b-b14f-d43d8e86c059",
           "solution": {
             "type": "formula",
             "answer": {
@@ -965,7 +965,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "57750",
+              "rus": "49960",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1029,11 +1029,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 5000,
-            "number1": 88000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1047,14 +1042,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 4000,
+            "number1": 66000
+          },
           "description": {
-            "content": "88000 - 5000 = ",
+            "content": "66000 - 4000 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_26",
           "position": 12,
-          "id": "71fc3a0a-bb5c-4ad1-bc9f-6802bc5a0335",
+          "id": "ea966117-dc13-4aa2-849a-da6a01f8013b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1065,7 +1065,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "83000",
+              "rus": "62000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1129,11 +1129,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 12,
-            "number1": 65112
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1147,14 +1142,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 17,
+            "number1": 98417
+          },
           "description": {
-            "content": "65112 - 12 = ",
+            "content": "98417 - 17 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_27",
           "position": 13,
-          "id": "dfd2e31e-e6ec-4b3d-afe1-3fea1b7137fc",
+          "id": "a4ee2aa2-ea90-4e42-8b2a-291ebd239993",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1165,7 +1165,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "65100",
+              "rus": "98400",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1229,10 +1229,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 44
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilmiş ədədi onluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -1246,14 +1242,18 @@
             "areg": "قرب العدد التالي إلى أقرب عشرة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 22
+          },
           "description": {
-            "content": "44 \\approx",
+            "content": "22 \\approx",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_14",
           "position": 0,
-          "id": "3e11edfe-bffc-44dc-b038-87a824fee9d1",
+          "id": "e80504d1-3869-44a5-80fb-01ce8e2c9c5d",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1264,7 +1264,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "40",
+              "rus": "20",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1328,10 +1328,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 38
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilmiş ədədi onluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -1345,14 +1341,18 @@
             "areg": "قرب العدد التالي إلى أقرب عشرة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 27
+          },
           "description": {
-            "content": "38 \\approx",
+            "content": "27 \\approx",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_15",
           "position": 1,
-          "id": "6965cc22-2d1c-47ee-ab5e-963a46ceebcc",
+          "id": "2a73e693-3741-4805-bcb3-898052ba9b0b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1363,7 +1363,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "40",
+              "rus": "30",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1427,10 +1427,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 607
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilmiş ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -1444,14 +1440,18 @@
             "areg": "قرب العدد التالي إلى أقرب مائة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 208
+          },
           "description": {
-            "content": "607 \\approx",
+            "content": "208 \\approx",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_16",
           "position": 12,
-          "id": "188e219c-fa6d-4a2a-9b61-cf00d56f5037",
+          "id": "66f1bdd9-c93b-434a-aabd-a11b3c37b56b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1462,7 +1462,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "600",
+              "rus": "200",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1526,10 +1526,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 663
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilmiş ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -1543,14 +1539,18 @@
             "areg": "قرب العدد التالي إلى أقرب مائة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 368
+          },
           "description": {
-            "content": "663 \\approx",
+            "content": "368 \\approx",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_17",
           "position": 13,
-          "id": "df9954b5-1557-4018-8574-832b3030850e",
+          "id": "aecdcf4b-f4b2-410b-a5b8-2316e663d751",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1561,7 +1561,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "700",
+              "rus": "400",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1625,10 +1625,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 6
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1642,14 +1638,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 8
+          },
           "description": {
-            "content": "\\dfrac{1}{6} + \\dfrac{1}{6} =",
+            "content": "\\dfrac{1}{8} + \\dfrac{1}{8} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_12",
           "position": 0,
-          "id": "1af24db5-733f-467a-96d1-ead0fe6f18b1",
+          "id": "5b72f380-e72a-4912-9780-7103cf41a504",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1660,7 +1660,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{2}{6}",
+              "rus": "\\frac{2}{8}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1724,12 +1724,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number3": 9,
-            "number2": 7,
-            "number1": 40000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1743,14 +1737,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number3": 3,
+            "number2": 6,
+            "number1": 60000
+          },
           "description": {
-            "content": "40000 + 7 + 9 =",
+            "content": "60000 + 6 + 3 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_74",
           "position": 20,
-          "id": "68d22d56-d6aa-497b-8c55-415b3212a7ea",
+          "id": "f7e87b9e-ab6f-4133-9e88-fc452683f5b3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1761,7 +1761,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "40016",
+              "rus": "60009",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1825,12 +1825,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number3": 1,
-            "number2": 1,
-            "number1": 3
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1844,14 +1838,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number3": 1,
+            "number2": 7,
+            "number1": 9
+          },
           "description": {
-            "content": "\\dfrac{1}{3} + \\dfrac{1}{3} =",
+            "content": "\\dfrac{7}{9} + \\dfrac{1}{9} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_13",
           "position": 2,
-          "id": "116720dc-050f-41d2-a4db-a3c32880bfd1",
+          "id": "179214a7-80ed-4726-a9af-a3796a9c12e0",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1862,7 +1862,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{2}{3}",
+              "rus": "\\frac{8}{9}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1926,12 +1926,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number3": 2,
-            "number2": 4,
-            "number1": 5
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1945,14 +1939,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number3": 1,
+            "number2": 3,
+            "number1": 8
+          },
           "description": {
-            "content": "\\dfrac{4}{5} - \\dfrac{2}{5} =",
+            "content": "\\dfrac{3}{8} - \\dfrac{1}{8} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_14",
           "position": 5,
-          "id": "5cf3bad5-3eca-494d-8b0b-3804be8ff77c",
+          "id": "857a55ff-ba1f-4fe8-8670-19ab9edd613f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1963,7 +1963,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{2}{5}",
+              "rus": "\\frac{2}{8}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2027,9 +2027,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 42
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2043,14 +2040,17 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 52
+          },
           "description": {
-            "content": "2 · 42 · 5 = ",
+            "content": "2 · 52 · 5 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_9_1_1",
           "position": 0,
-          "id": "fa2e1ad3-444d-4a39-95c7-2b7e1af3bf3b",
+          "id": "6903e0f8-bae7-4f6e-b227-7bab9e065846",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2061,7 +2061,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "420",
+              "rus": "520",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2125,9 +2125,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 32
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2141,14 +2138,17 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 68
+          },
           "description": {
-            "content": "2 · 32 · 50 = ",
+            "content": "2 · 68 · 50 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_9_1_2",
           "position": 1,
-          "id": "2b7eaa70-8152-4767-aa41-c74f738cbd08",
+          "id": "747443b0-a0d6-4b1b-a879-f2f2e16a2a86",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2159,7 +2159,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "3200",
+              "rus": "6800",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2223,9 +2223,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 59
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2239,14 +2236,17 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 98
+          },
           "description": {
-            "content": "20 · 59 · 5 = ",
+            "content": "20 · 98 · 5 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_9_1_3",
           "position": 2,
-          "id": "321ba9a9-c497-4fb9-9fe2-e4c269c0a13b",
+          "id": "69bd623a-7ee6-4b8f-9748-2cf49cb5da6f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2257,7 +2257,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "5900",
+              "rus": "9800",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2321,9 +2321,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 94
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2337,14 +2334,17 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 77
+          },
           "description": {
-            "content": "25 · 94 · 4 = ",
+            "content": "25 · 77 · 4 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_9_1_4",
           "position": 3,
-          "id": "d1ed50da-8523-47af-a61a-d97387c6e9ff",
+          "id": "9ab433f9-3515-45df-bf00-b38868a7ba54",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2355,7 +2355,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "9400",
+              "rus": "7700",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2419,9 +2419,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 33
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2435,14 +2432,17 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 11
+          },
           "description": {
-            "content": "15 · 33 · 2 = ",
+            "content": "15 · 11 · 2 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_9_1_5",
           "position": 4,
-          "id": "27b730dd-909f-49fb-9899-c9750ae3d42b",
+          "id": "2c6dd841-fe1a-4ed9-b829-8fe591a0fd49",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2453,7 +2453,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "990",
+              "rus": "330",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2517,9 +2517,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 3
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2533,6 +2530,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 3
+          },
           "description": {
             "content": "15 · 3 · 4 = ",
             "direction": "",
@@ -2540,7 +2540,7 @@
           },
           "type": "Elixir.Task_4_9_1_6",
           "position": 5,
-          "id": "04aaeddf-6432-4f8f-a636-0b42c413c7f4",
+          "id": "86fd8a08-d8bd-4997-be0d-e8a70e759b8b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2615,9 +2615,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 75
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2631,14 +2628,17 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 65
+          },
           "description": {
-            "content": "75 · 2 · 200 = ",
+            "content": "65 · 2 · 200 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_9_1_7",
           "position": 6,
-          "id": "7fdb4519-1116-4a9b-9169-d008358a52c0",
+          "id": "75a1fa6c-da0d-46c7-b944-58a48a82e079",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2649,7 +2649,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "30000",
+              "rus": "26000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2713,10 +2713,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 1,
-            "number1": 44366
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2730,14 +2726,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 1,
+            "number1": 90677
+          },
           "description": {
-            "content": "44366 · 1 = ",
+            "content": "90677 · 1 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_2_1_1",
           "position": 0,
-          "id": "8061a4ff-765b-42f8-8376-75b399b3a2a7",
+          "id": "dbb2e55c-fce9-44c5-b382-15b873785ce3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2748,7 +2748,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "44366",
+              "rus": "90677",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2812,10 +2812,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 0,
-            "number1": 99646
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2829,14 +2825,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 0,
+            "number1": 38585
+          },
           "description": {
-            "content": "99646 · 0 = ",
+            "content": "38585 · 0 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_2_1_2",
           "position": 1,
-          "id": "4abc06b1-5d92-4829-b671-daa3f2c8c551",
+          "id": "acf82176-4683-43fb-aad7-0b4ae35e0145",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2911,10 +2911,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 5000,
-            "number1": 90000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2928,14 +2924,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 3000,
+            "number1": 10000
+          },
           "description": {
-            "content": "90000 + 5000 =",
+            "content": "10000 + 3000 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_75",
           "position": 25,
-          "id": "9911eadf-c2ef-40cb-a455-dda7330a8af9",
+          "id": "e763373e-a10c-40a5-b6ae-db740d61e55b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2946,7 +2946,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "95000",
+              "rus": "13000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3010,10 +3010,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 10000,
-            "number1": 10000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3027,14 +3023,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 20000,
+            "number1": 50000
+          },
           "description": {
-            "content": "10000 + 10000 =",
+            "content": "50000 + 20000 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_78",
           "position": 28,
-          "id": "268c7f93-b1f9-4ff9-96b4-c86951fdc6e9",
+          "id": "471103da-6560-4119-89e9-7b4dd00e3cd7",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3045,7 +3045,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "20000",
+              "rus": "70000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3109,10 +3109,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 35000,
-            "number1": 35000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3126,14 +3122,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 14000,
+            "number1": 56000
+          },
           "description": {
-            "content": "35000 + 35000 = ",
+            "content": "56000 + 14000 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_80",
           "position": 30,
-          "id": "6f3ed858-4bf6-40f7-b27b-5aacd3cb4a4b",
+          "id": "68d14376-3079-4c6b-b2a5-b6d6880023d0",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3208,10 +3208,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 3142,
-            "number1": 20000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3225,14 +3221,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 7632,
+            "number1": 60000
+          },
           "description": {
-            "content": "20000 + 3142 = ",
+            "content": "60000 + 7632 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_81",
           "position": 31,
-          "id": "085c31ed-a9bb-46c9-b1e1-d9db9f895565",
+          "id": "fd005ae3-dc4b-4ceb-92b4-539dc75bd0a3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3243,7 +3243,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "23142",
+              "rus": "67632",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3307,12 +3307,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 2,
-            "number3": 90,
-            "number2": 500,
-            "number1": 20000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3326,14 +3320,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 7,
+            "number3": 80,
+            "number2": 900,
+            "number1": 70000
+          },
           "description": {
-            "content": "20000 + 500 + 90 + 2 =",
+            "content": "70000 + 900 + 80 + 7 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_79",
           "position": 29,
-          "id": "41ef419e-98d2-4333-b8e7-b68102618ad8",
+          "id": "44201ac8-c43e-49b7-a30d-784ef2ab20c3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3344,7 +3344,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "20592",
+              "rus": "70987",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3408,12 +3408,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 17,
-            "number3": 26,
-            "number2": 800,
-            "number1": 30000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3427,14 +3421,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 14,
+            "number3": 25,
+            "number2": 500,
+            "number1": 60000
+          },
           "description": {
-            "content": "30000 + 800 + 26 + 17 =",
+            "content": "60000 + 500 + 25 + 14 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_82",
           "position": 32,
-          "id": "e43467dc-8da7-40b4-9ee5-cdc43a5f8fa6",
+          "id": "c430afd2-ca68-491b-b75c-f3dfd30699b8",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3445,7 +3445,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "30843",
+              "rus": "60539",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3509,12 +3509,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 32,
-            "number3": 51,
-            "number2": 8000,
-            "number1": 30000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3528,14 +3522,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 40,
+            "number3": 47,
+            "number2": 9000,
+            "number1": 40000
+          },
           "description": {
-            "content": "30000 + 8000 + 51 + 32 =",
+            "content": "40000 + 9000 + 47 + 40 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_83",
           "position": 33,
-          "id": "ec5e7814-5287-49bf-be33-1c6d227d6a14",
+          "id": "9465d943-bdb3-4a91-8651-6fa4ccfef68a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3546,7 +3546,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "38083",
+              "rus": "49087",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3610,12 +3610,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 57,
-            "number3": 35,
-            "number2": 26,
-            "number1": 85
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3629,14 +3623,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 42,
+            "number3": 17,
+            "number2": 34,
+            "number1": 54
+          },
           "description": {
-            "content": "\\dfrac{26}{85} + \\dfrac{35}{85} - \\dfrac{57}{85} =",
+            "content": "\\dfrac{34}{54} + \\dfrac{17}{54} - \\dfrac{42}{54} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_17_1",
           "position": 13,
-          "id": "13546ddf-7a3c-4ca7-bac4-2b214447f53d",
+          "id": "3a89ed2e-7f92-4ee7-80ed-29a1c33200c0",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3647,7 +3647,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{4}{85}",
+              "rus": "\\frac{9}{54}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3711,12 +3711,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 16,
-            "number3": 20,
-            "number2": 46,
-            "number1": 59
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3730,14 +3724,20 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 24,
+            "number3": 28,
+            "number2": 41,
+            "number1": 62
+          },
           "description": {
-            "content": "\\dfrac{46}{59} - \\dfrac{20}{59} + \\dfrac{16}{59} =",
+            "content": "\\dfrac{41}{62} - \\dfrac{28}{62} + \\dfrac{24}{62} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_17_2",
           "position": 14,
-          "id": "dcb418fe-be2a-4d06-aae4-cdb7b750ffa3",
+          "id": "35b264d0-7d5e-4a15-b581-22c79ab428c4",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3748,7 +3748,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{42}{59}",
+              "rus": "\\frac{37}{62}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3812,13 +3812,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number4": 2,
-            "number3": 1,
-            "number2": 1,
-            "number1": 6
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3832,14 +3825,21 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number4": 1,
+            "number3": 1,
+            "number2": 1,
+            "number1": 5
+          },
           "description": {
-            "content": "\\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{2}{6} =",
+            "content": "\\dfrac{1}{5} + \\dfrac{1}{5} + \\dfrac{1}{5} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_15",
           "position": 8,
-          "id": "a91aa500-c659-4497-ba5c-54ca2ecea5bc",
+          "id": "a1f6ea25-9252-4c3c-808f-4b2b37b5aa2b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3850,7 +3850,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{4}{6}",
+              "rus": "\\frac{3}{5}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3914,13 +3914,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number4": 1,
-            "number3": 2,
-            "number2": 4,
-            "number1": 8
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -3934,14 +3927,21 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number4": 1,
+            "number3": 2,
+            "number2": 4,
+            "number1": 6
+          },
           "description": {
-            "content": "\\dfrac{4}{8} - \\dfrac{2}{8} - \\dfrac{1}{8} =",
+            "content": "\\dfrac{4}{6} - \\dfrac{2}{6} - \\dfrac{1}{6} =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_11_16",
           "position": 11,
-          "id": "4c45443a-ef71-4f37-ae33-160f31d56fcd",
+          "id": "64a142a6-f831-4e00-989e-289e08d4f31f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3952,7 +3952,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{1}{8}",
+              "rus": "\\frac{1}{6}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4016,11 +4016,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 4,
-            "number1": 7,
-            "letter": "b"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4034,14 +4029,19 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 3,
+            "number1": 2,
+            "letter": "b"
+          },
           "description": {
-            "content": "7b + 4b = ",
+            "content": "2b + 3b = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_9_1",
           "position": 2,
-          "id": "fe14bddb-aa23-48a5-b1fb-07f8431b3e20",
+          "id": "0a4c2160-cad4-471e-a6ae-bfeb34e11e65",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4052,7 +4052,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "11b",
+              "rus": "5b",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4116,11 +4116,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 5,
-            "number1": 9,
-            "letter": "c"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4134,14 +4129,19 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 6,
+            "number1": 8,
+            "letter": "x"
+          },
           "description": {
-            "content": "9c - 5c = ",
+            "content": "8x - 6x = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_9_2",
           "position": 3,
-          "id": "b4400868-8eaf-48f1-aff7-2f7b26d2bf80",
+          "id": "e31c6d16-ac1c-44ee-9bd9-72b3eedd0999",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4152,7 +4152,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "4c",
+              "rus": "2x",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4216,11 +4216,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 9,
-            "number1": 14,
-            "letter": "x"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Qruplaşdırma qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4234,14 +4229,19 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 7,
+            "number1": 11,
+            "letter": "a"
+          },
           "description": {
-            "content": "14 · 9x = ",
+            "content": "11 · 7a = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_10_1",
           "position": 6,
-          "id": "51837a4a-8e4f-4dff-b78b-25b4e852226b",
+          "id": "92aca4e8-fb5b-4af3-8d67-62ffa25bba42",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4252,7 +4252,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "126x",
+              "rus": "77a",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4316,11 +4316,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 9,
-            "number1": 13,
-            "letter": "a"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Qruplaşdırma qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4334,14 +4329,19 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 5,
+            "number1": 13,
+            "letter": "y"
+          },
           "description": {
-            "content": "9a · 13  = ",
+            "content": "5y · 13  = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_10_2",
           "position": 7,
-          "id": "2024b65e-ad10-4148-975a-e565a13d58a8",
+          "id": "39efd3a6-5a21-4b54-ad97-5521968a9665",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4352,7 +4352,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "117a",
+              "rus": "65y",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4416,11 +4416,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 9,
-            "number1": 2,
-            "letter": "a"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Qruplaşdırma qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4434,14 +4429,19 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 6,
+            "number1": 9,
+            "letter": "x"
+          },
           "description": {
-            "content": "a · 2 · 9 = ",
+            "content": "x · 9 · 6 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_12_1",
           "position": 10,
-          "id": "4e818ab3-20dc-42f7-b3a9-843644d28842",
+          "id": "7d9668d7-dae5-4735-900d-c78d766ab85c",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4452,7 +4452,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "18a",
+              "rus": "54x",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4516,12 +4516,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 13,
-            "number2": 18,
-            "number1": 17,
-            "letter": "z"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4535,14 +4529,20 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 18,
+            "number2": 10,
+            "number1": 16,
+            "letter": "y"
+          },
           "description": {
-            "content": "17z + 18z + 13z = ",
+            "content": "16y + 10y + 18y = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_11_1",
           "position": 8,
-          "id": "04efc8b8-d4d0-4139-89b1-756f02d69eaf",
+          "id": "7645e2bb-c3db-400a-8569-8f96da3d0031",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4553,7 +4553,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "48z",
+              "rus": "44y",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4617,12 +4617,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 13,
-            "number2": 5,
-            "number1": 13,
-            "letter": "z"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4636,14 +4630,20 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 7,
+            "number2": 6,
+            "number1": 5,
+            "letter": "y"
+          },
           "description": {
-            "content": "13z + 5z - 13z = ",
+            "content": "5y + 6y - 7y = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_11_2",
           "position": 9,
-          "id": "db6b97a5-3803-467d-8679-7548de5df4cc",
+          "id": "d533180b-3e8d-442a-a4d0-94942876641f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4654,7 +4654,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "5z",
+              "rus": "4y",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4718,12 +4718,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 15,
-            "number2": 6,
-            "number1": 8,
-            "letter": "c"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Qruplaşdırma qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4737,14 +4731,20 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 12,
+            "number2": 5,
+            "number1": 7,
+            "letter": "y"
+          },
           "description": {
-            "content": "8c · 6 · 15 = ",
+            "content": "7y · 5 · 12 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_12_2",
           "position": 11,
-          "id": "3adc517c-26f6-46b2-919e-5be577190410",
+          "id": "f3647e7e-d536-4ba9-8519-9a0ad6fabd0c",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4755,7 +4755,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "720c",
+              "rus": "420y",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4819,12 +4819,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 18,
-            "number2": 2,
-            "number1": 80,
-            "letter": "y"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Qruplaşdırma qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4838,14 +4832,20 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 16,
+            "number2": 3,
+            "number1": 80,
+            "letter": "z"
+          },
           "description": {
-            "content": "80 · 2y · 18 = ",
+            "content": "80 · 3z · 16 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_12_3",
           "position": 12,
-          "id": "170db046-fd46-493e-85a2-a77013404443",
+          "id": "a2b45cd7-c823-4393-b720-fc02008f4f22",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4856,7 +4856,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "2880y",
+              "rus": "3840z",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4920,12 +4920,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 14,
-            "number2": 49,
-            "number1": 42,
-            "letter": "b"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -4939,14 +4933,20 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 13,
+            "number2": 51,
+            "number1": 69,
+            "letter": "c"
+          },
           "description": {
-            "content": "42b + 49b + 14 = ",
+            "content": "69c + 51c + 13 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_13_1",
           "position": 13,
-          "id": "dfc096b9-53f5-4dbd-a8ff-637b988ec9a8",
+          "id": "ef13ab81-ddae-479b-9a4c-515f1f51d399",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4957,7 +4957,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "91b+14",
+              "rus": "120c+13",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5021,11 +5021,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 7,
-            "number2": 1000,
-            "number1": 90000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -5039,14 +5034,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 9,
+            "number2": 2000,
+            "number1": 50000
+          },
           "description": {
-            "content": "90000 + 1000 + 7 =",
+            "content": "50000 + 2000 + 9 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_76",
           "position": 26,
-          "id": "62982271-41b5-47f5-b0a3-b842ef04b738",
+          "id": "55e9edc9-ff7c-417a-9843-82daa49c9005",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5057,7 +5057,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "91007",
+              "rus": "52009",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5121,11 +5121,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 3000,
-            "number2": 1000,
-            "number1": 90000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -5139,14 +5134,19 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 3000,
+            "number2": 2000,
+            "number1": 70000
+          },
           "description": {
-            "content": "90000 + 1000 + 3000 =",
+            "content": "70000 + 2000 + 3000 =",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_1_77",
           "position": 27,
-          "id": "47606e3d-a72b-47b3-82e3-cb445b9f288e",
+          "id": "019c1de1-8673-4748-a8bd-7089d75fea67",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5157,7 +5157,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "94000",
+              "rus": "75000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5221,10 +5221,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 4,
-            "number1": 1
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Kəsrin məxrəcində hansı ədəd dayanır?",
@@ -5238,18 +5234,22 @@
             "areg": "اكتب القسمة بصيغة الكسر الاعتيادي.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 3,
+            "number1": 2
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "1 : 4 = ",
-              "kgz": "1 : 4 = ",
-              "uzb": "1 : 4 = ",
-              "eng": "1 ÷ 4 = ",
-              "rus": "1 : 4 = ",
-              "kaz": "1 : 4 = ",
-              "arjd": "1 : 4 = ",
-              "arsa": "1 : 4 = ",
-              "areg": "1 : 4 = ",
+              "aze": "2 : 3 = ",
+              "kgz": "2 : 3 = ",
+              "uzb": "2 : 3 = ",
+              "eng": "2 ÷ 3 = ",
+              "rus": "2 : 3 = ",
+              "kaz": "2 : 3 = ",
+              "arjd": "2 : 3 = ",
+              "arsa": "2 : 3 = ",
+              "areg": "2 : 3 = ",
               "module_name": "Elixir.Helpers.Translation"
             },
             "direction": "",
@@ -5257,7 +5257,7 @@
           },
           "type": "Elixir.Task_4_11_2_5",
           "position": 8,
-          "id": "2a102c36-6fa6-4833-b102-4663e8d4a995",
+          "id": "0f11790b-c6f6-4c99-81cd-1d269344f907",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5268,7 +5268,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{1}{4}",
+              "rus": "\\frac{2}{3}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5332,10 +5332,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 73,
-            "number1": 8
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Nisbəti kəsr şəklində yazın.",
@@ -5349,18 +5345,22 @@
             "areg": "اكتب القسمة بصيغة الكسر الاعتيادي.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 49,
+            "number1": 5
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "8 : 73 = ",
-              "kgz": "8 : 73 = ",
-              "uzb": "8 : 73 = ",
-              "eng": "8 ÷ 73 = ",
-              "rus": "8 : 73 = ",
-              "kaz": "8 : 73 = ",
-              "arjd": "8 : 73 = ",
-              "arsa": "8 : 73 = ",
-              "areg": "8 : 73 = ",
+              "aze": "5 : 49 = ",
+              "kgz": "5 : 49 = ",
+              "uzb": "5 : 49 = ",
+              "eng": "5 ÷ 49 = ",
+              "rus": "5 : 49 = ",
+              "kaz": "5 : 49 = ",
+              "arjd": "5 : 49 = ",
+              "arsa": "5 : 49 = ",
+              "areg": "5 : 49 = ",
               "module_name": "Elixir.Helpers.Translation"
             },
             "direction": "",
@@ -5368,7 +5368,7 @@
           },
           "type": "Elixir.Task_4_11_2_6",
           "position": 9,
-          "id": "e2c7465b-255d-4823-809f-bee28db86341",
+          "id": "c05a3e62-6e19-45b1-aeca-e7134974c197",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5379,7 +5379,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{8}{73}",
+              "rus": "\\frac{5}{49}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5443,9 +5443,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter": "y"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ifadəni sadələşdirin.",
@@ -5459,14 +5456,17 @@
             "areg": "أوجد التعبير في أبسط صورة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter": "x"
+          },
           "description": {
-            "content": "y + y + y = ",
+            "content": "x + x + x = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_8_1",
           "position": 0,
-          "id": "994aa613-f325-4b88-ba88-934b60e58acf",
+          "id": "b9db049a-7c0e-43a0-a87e-edcb9cb5f7be",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5477,7 +5477,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "3y",
+              "rus": "3x",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5541,9 +5541,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter": "a"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ifadəni sadələşdirin.",
@@ -5557,14 +5554,17 @@
             "areg": "أوجد التعبير في أبسط صورة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter": "z"
+          },
           "description": {
-            "content": "a + a + a + a = ",
+            "content": "z + z + z + z = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_8_2",
           "position": 1,
-          "id": "f3d2757f-f195-4aa5-9256-48545d8e92b5",
+          "id": "bff059c3-40d9-4bc4-b409-48470f885925",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5575,7 +5575,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "4a",
+              "rus": "4z",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5639,10 +5639,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number1": 7,
-            "letter": "y"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -5656,14 +5652,18 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number1": 9,
+            "letter": "c"
+          },
           "description": {
-            "content": "7y + y = ",
+            "content": "9c + c = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_9_3",
           "position": 4,
-          "id": "e5c33e15-28dc-4bd0-987b-123fb4b52c0d",
+          "id": "04383633-e6de-4760-8990-7d61cc87d78a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5674,7 +5674,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "8y",
+              "rus": "10c",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5738,10 +5738,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number1": 3,
-            "letter": "b"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -5755,14 +5751,18 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number1": 7,
+            "letter": "b"
+          },
           "description": {
-            "content": "3b - b = ",
+            "content": "7b - b = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_9_4",
           "position": 5,
-          "id": "937769d6-ef6d-4f23-aba0-52a266d1f66a",
+          "id": "249b0f07-5a7a-49a2-bb56-6a30c9d4637a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5773,7 +5773,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "2b",
+              "rus": "6b",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5837,13 +5837,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number4": 58,
-            "number3": 31,
-            "number2": 38,
-            "number1": 61,
-            "letter": "b"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -5857,14 +5850,21 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number4": 45,
+            "number3": 62,
+            "number2": 43,
+            "number1": 39,
+            "letter": "c"
+          },
           "description": {
-            "content": "61b + 38 + 31b + 58 = ",
+            "content": "39c + 43 + 62c + 45 = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_13_2",
           "position": 14,
-          "id": "851f7641-1527-46b9-955d-78e9ef1b14aa",
+          "id": "3e423b0d-0de6-4081-905b-799ab3869080",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5875,7 +5875,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "92b+96",
+              "rus": "101c+88",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5939,13 +5939,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter2": "c",
-            "letter1": "b",
-            "number3": 13,
-            "number2": 58,
-            "number1": 34
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -5959,14 +5952,21 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter2": "x",
+            "letter1": "y",
+            "number3": 14,
+            "number2": 55,
+            "number1": 33
+          },
           "description": {
-            "content": "34b + 58b + 13c = ",
+            "content": "33y + 55y + 14x = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_13_3",
           "position": 15,
-          "id": "fca78569-4171-4146-9ba3-6445aec234c0",
+          "id": "cf5034a8-2b10-4e9c-8bc3-de8876377041",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5977,7 +5977,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "92b+13c",
+              "rus": "88y+14x",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -6041,14 +6041,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "letter2": "y",
-            "letter1": "b",
-            "number4": 55,
-            "number3": 50,
-            "number2": 33,
-            "number1": 60
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Paylama qanunundan istifadə edərək ifadəni sadələşdirin.",
@@ -6062,14 +6054,22 @@
             "areg": "أوجد التعبير في أبسط صورة باستخدام خاصية التوزيع.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "letter2": "b",
+            "letter1": "c",
+            "number4": 87,
+            "number3": 30,
+            "number2": 33,
+            "number1": 31
+          },
           "description": {
-            "content": "60b + 33y - 50b + 55y = ",
+            "content": "31c + 33b - 30c + 87b = ",
             "direction": "",
             "type": "formula"
           },
           "type": "Elixir.Task_4_12_13_4",
           "position": 16,
-          "id": "eade773c-d8d5-42cf-a275-4f661750f919",
+          "id": "eb3422bb-75ec-4d05-8e24-9732059ded78",
           "solution": {
             "type": "formula",
             "answer": {
@@ -6080,7 +6080,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "10b+88y",
+              "rus": "c+120b",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

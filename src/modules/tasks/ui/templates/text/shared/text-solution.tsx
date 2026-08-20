@@ -1,8 +1,8 @@
 import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
 import { isTranslation } from '@/modules/tasks/lib/translation-utils'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Task, Translation } from '@/types/api/task'
 import { MathFormula } from '@/ui/math-text/math-formula'
@@ -107,7 +107,7 @@ export const TextSolution = ({
         </div>
       )}
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

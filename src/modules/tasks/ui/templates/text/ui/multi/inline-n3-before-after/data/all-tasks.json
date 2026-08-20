@@ -123,10 +123,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 324,
-            "number1": 27
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
@@ -140,16 +136,20 @@
             "areg": "ضع شرط المسألة التالية وقم بحلها:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 380,
+            "number1": 20
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Sahəsi 27 ha olan tarladan 324 s buğda yığılıb.\\(\\\\\\)Buğdanın məhsuldarlığı nə qədərdir?",
-              "kgz": "27 гектар аянттан 324 центнерден буудай жыйналды.\\(\\\\\\)Буудайдын түшүмдүүлүгү кандай болду?",
-              "uzb": "Maydoni 27 ga bo'lgan ekin maydonidan 324 q bug'doy terildi.\\(\\\\\\)Bug'doyning hosildorligi qanday?",
-              "eng": "324 quintals of wheat are harvested from a field of  27 hectares.\\(\\\\\\)What is the wheat yield per hectare?",
-              "rus": "С поля площадью 27 га собрано 324 ц пшеницы.\\(\\\\\\)Какова была урожайность пшеницы?",
-              "kaz": "Ауданы 27 га болатын егіс алқабынан 324 ц бидай жиналды.\\(\\\\\\)Бидайдың түсімділігі қанша болды?",
+              "aze": "Sahəsi 20 ha olan tarladan 380 s buğda yığılıb.\\(\\\\\\)Buğdanın məhsuldarlığı nə qədərdir?",
+              "kgz": "20 гектар аянттан 380 центнерден буудай жыйналды.\\(\\\\\\)Буудайдын түшүмдүүлүгү кандай болду?",
+              "uzb": "Maydoni 20 ga bo'lgan ekin maydonidan 380 q bug'doy terildi.\\(\\\\\\)Bug'doyning hosildorligi qanday?",
+              "eng": "380 quintals of wheat are harvested from a field of  20 hectares.\\(\\\\\\)What is the wheat yield per hectare?",
+              "rus": "С поля площадью 20 га собрано 380 ц пшеницы.\\(\\\\\\)Какова была урожайность пшеницы?",
+              "kaz": "Ауданы 20 га болатын егіс алқабынан 380 ц бидай жиналды.\\(\\\\\\)Бидайдың түсімділігі қанша болды?",
               "arjd": "",
               "arsa": "",
               "areg": "",
@@ -159,7 +159,7 @@
           },
           "type": "Elixir.Task_4_10_9_14",
           "position": 12,
-          "id": "84d54b7d-e706-496b-b5e9-f7880b481d3d",
+          "id": "f8102d80-350d-489b-a7bb-f80d1bd2a0f1",
           "solution": {
             "type": "text",
             "answer": {
@@ -170,7 +170,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "324;;27;;12",
+              "rus": "380;;20;;19",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -328,10 +328,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 18,
-            "number1": 180
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Aşağıdakı məsələnin şərtini qurun və həll edin:",
@@ -345,16 +341,20 @@
             "areg": "ضع شرط المسألة التالية وقم بحلها:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 10,
+            "number1": 120
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Kartofun məhsuldarlığı hektara 180 kq-dır.\\(\\\\\\)Sahəsi 18 ha olan tarladan nə qədər kq kartof yığmaq olar?",
-              "kgz": "Картошканын түшүмдүүлүгү гектарына 180 килограммды түзөт.\\(\\\\\\)18 гектар аянттан канча килограмм картошка алууга болот?",
-              "uzb": "Kartoshkaning hosildorligi gektardan 180 kg.\\(\\\\\\)Maydoni 18 ga bo'lgan yerdan necha kg kartoshka tersa bo'ladi?",
-              "eng": "The potato yield is 180 kg per hectare.\\(\\\\\\)How many kg of potatoes can be harvested from a field of 18 hectares?",
-              "rus": "Урожайность картофеля 180 кг с гектара.\\(\\\\\\)Сколько кг картофеля можно собрать с поля площадью 18 га?",
-              "kaz": "Картоптың түсімділігі гектарына 180 кг.\\(\\\\\\)Ауданы 18 га болатын жерден қанша кг картоп жинауға болады?",
+              "aze": "Kartofun məhsuldarlığı hektara 120 kq-dır.\\(\\\\\\)Sahəsi 10 ha olan tarladan nə qədər kq kartof yığmaq olar?",
+              "kgz": "Картошканын түшүмдүүлүгү гектарына 120 килограммды түзөт.\\(\\\\\\)10 гектар аянттан канча килограмм картошка алууга болот?",
+              "uzb": "Kartoshkaning hosildorligi gektardan 120 kg.\\(\\\\\\)Maydoni 10 ga bo'lgan yerdan necha kg kartoshka tersa bo'ladi?",
+              "eng": "The potato yield is 120 kg per hectare.\\(\\\\\\)How many kg of potatoes can be harvested from a field of 10 hectares?",
+              "rus": "Урожайность картофеля 120 кг с гектара.\\(\\\\\\)Сколько кг картофеля можно собрать с поля площадью 10 га?",
+              "kaz": "Картоптың түсімділігі гектарына 120 кг.\\(\\\\\\)Ауданы 10 га болатын жерден қанша кг картоп жинауға болады?",
               "arjd": "",
               "arsa": "",
               "areg": "",
@@ -364,7 +364,7 @@
           },
           "type": "Elixir.Task_4_10_9_15",
           "position": 13,
-          "id": "386adb4a-85de-4901-8c5f-46f6c0bdc062",
+          "id": "617ae34e-4414-42a3-a996-c0d50decd68a",
           "solution": {
             "type": "text",
             "answer": {
@@ -375,7 +375,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "180;;18;;3240",
+              "rus": "120;;10;;1200",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

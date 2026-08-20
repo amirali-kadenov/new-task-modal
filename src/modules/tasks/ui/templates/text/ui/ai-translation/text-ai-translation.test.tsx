@@ -56,6 +56,10 @@ describe('text.aiTranslation', () => {
     expect(screen.getByTestId('text-suffix')).toHaveTextContent(
       new RegExp((task.answerInput as Translation).rus),
     )
-    expect(screen.getAllByTestId('math-formula').some((el) => el.textContent === 'c + 23')).toBe(true)
+    expect(
+      screen
+        .getAllByTestId('math-formula')
+        .some((el) => el.textContent === 'c + 23'),
+    ).toBe(true)
   })
 })

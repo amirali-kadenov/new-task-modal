@@ -72,7 +72,10 @@ const config: StorybookConfig = {
     '../src/**/*.mdx',
     '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
   ],
-  staticDirs: ['../public', { from: '../test-artifacts', to: '/test-artifacts' }],
+  staticDirs: [
+    '../public',
+    { from: '../test-artifacts', to: '/test-artifacts' },
+  ],
   addons: [
     '@chromatic-com/storybook',
     '@storybook/addon-docs',

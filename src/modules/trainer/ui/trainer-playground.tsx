@@ -9,10 +9,7 @@ import {
 } from '@/modules/tasks/ui/templates/text/lib/storybook'
 
 import type { TrainerStateTab } from '../lib/apply-trainer-state'
-import {
-  getTrainerVariant,
-  TRAINER_VARIANTS,
-} from '../lib/trainer-variants'
+import { getTrainerVariant, TRAINER_VARIANTS } from '../lib/trainer-variants'
 
 import styles from './trainer-playground.module.scss'
 
@@ -178,9 +175,7 @@ export const TrainerPlayground = ({
                 type="button"
                 role="tab"
                 aria-selected={stateTab === tab.id}
-                className={
-                  stateTab === tab.id ? styles.tabActive : styles.tab
-                }
+                className={stateTab === tab.id ? styles.tabActive : styles.tab}
                 onClick={() => setStateTab(tab.id)}
               >
                 {tab.label}

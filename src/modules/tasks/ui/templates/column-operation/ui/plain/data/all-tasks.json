@@ -30,11 +30,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 4,
-            "number1": 73318
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -48,13 +43,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 6,
+            "number1": 85527
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}73318\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{99999}4}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}85527\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{99999}6}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_1_28",
           "position": 0,
-          "id": "2259aa38-6bd8-46e6-8b27-cb1c2d2f0f9e",
+          "id": "d7b8ad14-f996-4eb1-a50c-cc2e22b11983",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -65,7 +65,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "73322",
+              "rus": "85533",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -129,11 +129,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 9,
-            "number1": 216613
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -147,13 +142,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 8,
+            "number1": 641303
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}216613\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{999999}9}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}641303\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{999999}8}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_4_33",
           "position": 0,
-          "id": "3225c105-1b9f-43b4-a553-3f11358d9ab4",
+          "id": "688cc9b6-97cf-4e32-9ab7-5ef7df940faf",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -164,7 +164,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "216622",
+              "rus": "641311",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -228,11 +228,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 40,
-            "number1": 8723274
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Alt-alta toplama əməlini yerinə yetirin.",
@@ -246,13 +241,18 @@
             "areg": "أوجد ناتج الجمع ما يلي باستخدام الطريقة الرأسية:",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 54,
+            "number1": 6022238
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}8723274\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{999999}40}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}6022238\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{+}}}\n  \\smash{\\phantom{999999}54}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_8_6_1",
           "position": 0,
-          "id": "bb133b60-6558-485c-9981-1a97d7043b85",
+          "id": "1f217e68-d5d1-40da-82af-65f4b44674f6",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -263,7 +263,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "8723314",
+              "rus": "6022292",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -327,11 +327,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 9,
-            "number1": 56635
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -345,13 +340,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 3,
+            "number1": 12911
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}56635\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{-}}}\n  \\smash{\\phantom{99999}9}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}12911\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{-}}}\n  \\smash{\\phantom{99999}3}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_1_29",
           "position": 0,
-          "id": "c042b447-08ec-4f59-bfca-1ebb16aeb524",
+          "id": "7229e802-16ea-49ac-8a1c-7af7b8358e7d",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -362,7 +362,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "56626",
+              "rus": "12908",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -426,11 +426,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 8,
-            "number1": 313153
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -444,13 +439,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 4,
+            "number1": 338163
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}313153\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{-}}}\n  \\smash{\\phantom{999999}8}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}338163\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{-}}}\n  \\smash{\\phantom{999999}4}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_4_34",
           "position": 0,
-          "id": "6fd52458-0be4-4113-8b87-700c63260b24",
+          "id": "9ecf9585-73d3-4515-b52e-7541b71be993",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -461,7 +461,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "313145",
+              "rus": "338159",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -525,11 +525,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 29,
-            "number1": 1314143
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Alt-alta çıxma əməlini yerinə yetirin.",
@@ -543,13 +538,18 @@
             "areg": "أوجد ناتج الطرح ما يلي باستخدام الطريقة الرأسية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 41,
+            "number1": 8188641
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}1314143\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{-}}}\n  \\smash{\\phantom{999999}29}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}8188641\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{-}}}\n  \\smash{\\phantom{999999}41}\n}\\\\[-6pt]\n\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_8_7_1",
           "position": 0,
-          "id": "c31704a8-815e-4926-80f1-5f1466b79585",
+          "id": "00150af4-c9cd-4a14-9649-20cb82bc4a45",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -560,7 +560,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "1314114",
+              "rus": "8188600",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -624,11 +624,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 13125
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -642,13 +637,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 23326
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}13125\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{99999}2}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}23326\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{99999}2}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_2_3",
           "position": 0,
-          "id": "d61c2a55-3a0c-41f9-ad3e-0c6eaac58e8f",
+          "id": "62584a24-22a8-443d-a956-5fa6083242b1",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -659,7 +659,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "26250",
+              "rus": "46652",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -723,11 +723,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 433447
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -741,13 +736,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 132228
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}433447\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{999999}2}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}132228\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{999999}2}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_5_3",
           "position": 0,
-          "id": "2d149acd-0273-4917-ab20-0d2b7c3119cf",
+          "id": "7463a7bb-ed1c-4876-aded-a5e40fd53810",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -758,7 +758,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "866894",
+              "rus": "264456",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -822,11 +822,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 4761082
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -840,13 +835,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 5698407
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}4761082\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9999999}2}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}5698407\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9999999}2}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_8_9_1",
           "position": 0,
-          "id": "7acc871e-cd27-44bc-ad9c-66407ad14228",
+          "id": "6720b3fc-5c5f-4322-b6ab-cd916f85cdb7",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -857,7 +857,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "9522164",
+              "rus": "11396814",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -921,11 +921,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 11,
-            "number1": 71
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Vurma əməlini sütunla yerinə yetirin.",
@@ -939,13 +934,18 @@
             "areg": "أوجد ناتج ضرب ما يلى باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 11,
+            "number1": 62
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}71\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9}11}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}62\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9}11}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_4",
           "position": 0,
-          "id": "f6488722-3e91-4962-97bf-c40db4f7b85c",
+          "id": "6d7aa1ab-79c7-4ffd-adc0-2d2ba7315779",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -956,7 +956,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "781",
+              "rus": "682",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1020,11 +1020,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 111,
-            "number1": 557
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Üçrəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1038,13 +1033,18 @@
             "areg": "اضرب العدد المكون من ثلاثة أرقام في العدد المكون من ثلاثة أرقام \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 111,
+            "number1": 849
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}557\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}849\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_8_1",
           "position": 0,
-          "id": "dbbc0622-8b72-428d-8dbd-aae585bba08b",
+          "id": "ddcf96b6-633e-419e-9b25-06032d946d17",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1055,7 +1055,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "61827",
+              "rus": "94239",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1119,11 +1119,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 111,
-            "number1": 6291
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Dördrəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1137,13 +1132,18 @@
             "areg": "اضرب العدد المكون من أربعة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 111,
+            "number1": 5526
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}6291\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{99}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}5526\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{99}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_8_2",
           "position": 5,
-          "id": "f955fb13-ac2d-4370-a7d3-71360d998418",
+          "id": "2e59e020-20b9-4336-9cf9-612cc1107879",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1154,7 +1154,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "698301",
+              "rus": "613386",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1218,11 +1218,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 111,
-            "number1": 27231
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Beşrəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1236,13 +1231,18 @@
             "areg": "اضرب العدد المكون من خمسة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 111,
+            "number1": 15513
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}27231\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{999}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}15513\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{999}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_8_3",
           "position": 10,
-          "id": "aa1e0825-1902-4c4d-93d5-60ea290757cb",
+          "id": "f8a22040-4980-47c3-ae21-0ec77f4d3072",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1253,7 +1253,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "3022641",
+              "rus": "1721943",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1317,11 +1317,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 111,
-            "number1": 732661
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Altırəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1335,13 +1330,18 @@
             "areg": "اضرب العدد المكون من ستة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 111,
+            "number1": 935451
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}732661\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9999}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}935451\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9999}111}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_8_4",
           "position": 15,
-          "id": "f787ba92-b038-416d-94d9-a0818592c9e9",
+          "id": "b41c78e0-c19f-481e-8312-0f89fcdd0387",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1352,7 +1352,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "81325371",
+              "rus": "103835061",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1416,11 +1416,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 101,
-            "number1": 152
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Üçrəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1434,13 +1429,18 @@
             "areg": "اضرب العدد المكون من ثلاثة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 101,
+            "number1": 823
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}152\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}823\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_9_1",
           "position": 0,
-          "id": "55bede01-78e9-46c1-8657-81ce2ed787cd",
+          "id": "d1c1b80f-b74e-476b-9da2-cee354bf1014",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1451,7 +1451,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "15352",
+              "rus": "83123",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1515,11 +1515,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 101,
-            "number1": 4282
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Dördrəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1533,13 +1528,18 @@
             "areg": "اضرب العدد المكون من أربعة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 101,
+            "number1": 2837
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}4282\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{99}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}2837\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{99}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_9_2",
           "position": 4,
-          "id": "54c91534-2538-4edb-b4fc-472c6927f5fb",
+          "id": "aa833fdd-cfd4-4c20-a214-f85338ce8bae",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1550,7 +1550,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "432482",
+              "rus": "286537",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1614,11 +1614,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 101,
-            "number1": 94377
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Beşrəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1632,13 +1627,18 @@
             "areg": "اضرب العدد المكون من خمسة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 101,
+            "number1": 82494
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}94377\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{999}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}82494\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{999}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_9_3",
           "position": 8,
-          "id": "e7690701-8fad-42a3-92c2-966d9a9ef3ab",
+          "id": "16d1f299-0563-4a01-971d-90b932ee1ae7",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1649,7 +1649,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "9532077",
+              "rus": "8331894",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1713,11 +1713,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 101,
-            "number1": 541628
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Altırəqəmli ədədin üçrəqəmli ədədə vurma əməlini sütunla yerinə yetirin.",
@@ -1731,13 +1726,18 @@
             "areg": "اضرب العدد المكون من ستة أرقام في العدد المكون من ثلاثة أرقام  \\(\\\\\\)      باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 101,
+            "number1": 512325
+          },
           "description": {
-            "content": "\\begin{array}{c}\n\\phantom{99}541628\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9999}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
+            "content": "\\begin{array}{c}\n\\phantom{99}512325\\\\[-6pt]\n\\underline{\n  {}^{{}^{{}^{\\times}}}\n  \\smash{\\phantom{9999}101}\n}\\\\[-6pt]\n\n\\end{array}\n",
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_9_4",
           "position": 12,
-          "id": "2745522a-8565-4ad0-ad84-9ae8a757d5de",
+          "id": "1b7c0919-2957-448e-92b7-8c7de7bc1c46",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1748,7 +1748,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "54704428",
+              "rus": "51744825",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1812,11 +1812,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 78448
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1830,25 +1825,30 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 90000
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}78448}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}78448}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}90000}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}90000}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_2_4",
           "position": 0,
-          "id": "f27d48dd-ed5d-46e1-a6b8-1aadc7b9221e",
+          "id": "25e0b66d-a8ab-47c6-9f6c-d6fc9d05a11b",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1859,7 +1859,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "39224",
+              "rus": "45000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1923,11 +1923,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 560806
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1941,25 +1936,30 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 548848
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}560806}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}560806}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}548848}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}548848}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_5_4",
           "position": 0,
-          "id": "b9ef228b-55d4-4713-a9f7-88cd5de9bab3",
+          "id": "3dd48d94-79a7-4a52-8315-b65052465f44",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -1970,7 +1970,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "280403",
+              "rus": "274424",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2034,11 +2034,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 2,
-            "number1": 13516660
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Bölmə əməlini yerinə yetirin.",
@@ -2052,25 +2047,30 @@
             "areg": "قم بعملية القسمة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 2,
+            "number1": 7233548
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}13516660}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}13516660}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}7233548}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}7233548}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_8_10_1",
           "position": 0,
-          "id": "0b7a5d55-a3a1-45f1-ba8c-a32600983b2c",
+          "id": "da852014-acdc-41cd-806e-2b6398842a3e",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -2081,7 +2081,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "6758330",
+              "rus": "3616774",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2145,11 +2145,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 27,
-            "number1": 513
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Budaqlı bölməni yerinə yetirin.",
@@ -2163,25 +2158,30 @@
             "areg": "أوجد خارج قسمة  ما يلى باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 45,
+            "number1": 900
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}513}\n\\right\\vert{\\underline{27}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{27} \\vert \\overline{\\phantom{9}513}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}900}\n\\right\\vert{\\underline{45}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{45} \\vert \\overline{\\phantom{9}900}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_5",
           "position": 0,
-          "id": "adbfcfa2-6a4e-47b7-a1ef-cc634a2676cd",
+          "id": "689cb0ef-63fe-4314-84ba-5b93e529d9cc",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -2192,7 +2192,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "19",
+              "rus": "20",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2256,11 +2256,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 22,
-            "number1": 6644
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Budaqlı bölməni yerinə yetirin.",
@@ -2274,25 +2269,30 @@
             "areg": "أوجد خارج قسمة  ما يلى باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 49,
+            "number1": 4949
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}6644}\n\\right\\vert{\\underline{22}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{22} \\vert \\overline{\\phantom{9}6644}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}4949}\n\\right\\vert{\\underline{49}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{49} \\vert \\overline{\\phantom{9}4949}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_6",
           "position": 0,
-          "id": "46a39610-2439-4bc9-afe7-d636a2199b42",
+          "id": "69210f99-845b-4b8a-ba9c-42460e17b944",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -2303,7 +2303,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "302",
+              "rus": "101",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2367,11 +2367,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 157,
-            "number1": 7065
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Budaqlı bölməni yerinə yetirin.",
@@ -2385,25 +2380,30 @@
             "areg": "أوجد خارج قسمة  ما يلى باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 361,
+            "number1": 6498
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}7065}\n\\right\\vert{\\underline{157}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{157} \\vert \\overline{\\phantom{9}7065}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}6498}\n\\right\\vert{\\underline{361}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{361} \\vert \\overline{\\phantom{9}6498}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_10",
           "position": 0,
-          "id": "7170d5b4-ff69-448c-9a29-37f666c60f12",
+          "id": "7f99606c-4a92-455d-a96f-8feecee33a19",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -2414,7 +2414,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "45",
+              "rus": "18",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2478,11 +2478,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 121,
-            "number1": 25289
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Budaqlı bölməni yerinə yetirin.",
@@ -2496,25 +2491,30 @@
             "areg": "أوجد خارج قسمة  ما يلى باستخدام الخوارزمية المعيارية",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 987,
+            "number1": 893235
+          },
           "description": {
             "content": {
               "with_audio_player": false,
-              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}25289}\n\\right\\vert{\\underline{121}}\n\\end{array}\\\\\n",
-              "areg": "\\begin{array}{}\n{121} \\vert \\overline{\\phantom{9}25289}\n\\end{array}\n",
+              "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}893235}\n\\right\\vert{\\underline{987}}\n\\end{array}\\\\\n",
+              "areg": "\\begin{array}{}\n{987} \\vert \\overline{\\phantom{9}893235}\n\\end{array}\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "columnOperation"
           },
           "type": "Elixir.Task_4_9_11",
           "position": 0,
-          "id": "eefa5ad6-9529-4221-9712-35cdf1975809",
+          "id": "8ed76703-1245-4363-ab5a-1ede72a370b4",
           "solution": {
             "type": "columnOperation",
             "answer": {
@@ -2525,7 +2525,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "209",
+              "rus": "905",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

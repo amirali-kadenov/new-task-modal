@@ -1,6 +1,9 @@
 import type { PlayCaseResult } from '@/testing/play-results'
 
-const ANSI_RE = /\u001b\[[0-9;]*m/g
+// Built from String.fromCharCode instead of a literal escape so the
+// source has no raw control character (no-control-regex).
+const ESC = String.fromCharCode(27)
+const ANSI_RE = new RegExp(`${ESC}\\[[0-9;]*m`, 'g')
 
 const slug = (label: string): string =>
   label
@@ -20,8 +23,12 @@ export const parseSuiteLogCases = (log: string): PlayCaseResult[] => {
     const line = raw.replace(ANSI_RE, '').trim()
     if (!line) continue
 
-    const passMatch = line.match(/^[✓✔]\s+(?:\d+\s+)?(.+?)(?:\s+\(?\d+(?:\.\d+)?m?s\)?)?$/)
-    const failMatch = line.match(/^[×✘✗]\s+(?:\d+\s+)?(.+?)(?:\s+\(?\d+(?:\.\d+)?m?s\)?)?$/)
+    const passMatch = line.match(
+      /^[✓✔]\s+(?:\d+\s+)?(.+?)(?:\s+\(?\d+(?:\.\d+)?m?s\)?)?$/,
+    )
+    const failMatch = line.match(
+      /^[×✘✗]\s+(?:\d+\s+)?(.+?)(?:\s+\(?\d+(?:\.\d+)?m?s\)?)?$/,
+    )
 
     const label = (passMatch?.[1] ?? failMatch?.[1])?.trim()
     if (!label) continue

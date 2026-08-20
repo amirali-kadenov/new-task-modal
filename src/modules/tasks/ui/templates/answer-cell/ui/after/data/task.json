@@ -26,11 +26,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number3": 56,
-    "number2": 99000,
-    "number1": 41
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Əməliyyatı yerinə yetirin və verilmiş ölçü vahidi ilə ifadə edin.",
@@ -44,6 +39,11 @@
     "areg": "أوجد ناتج ما يلى بوحدة القياس المطلوبة:",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number3": 55,
+    "number2": 10000,
+    "number1": 66
+  },
   "description": {
     "withAudio": true,
     "text_before": "",
@@ -54,22 +54,22 @@
     "answer_cell_margin": "",
     "content": {
       "with_audio_player": false,
-      "aze": "56 l + 41 l 99000 ml  = \\( \\ \\) answercell",
-      "kgz": "56 л + 41 л 99000 мл  = \\( \\ \\) answercell",
-      "uzb": "56 L + 41 L 99000 mL  = \\( \\ \\) answercell",
-      "eng": "56 L + 41 L 99000 mL  = \\( \\ \\) answercell",
-      "rus": "56 л + 41 л 99000 мл  = \\( \\ \\) answercell",
-      "kaz": "56 л + 41 л 99000 мл  = \\( \\ \\) answercell",
-      "arjd": "56 л + 41 л 99000 мл  = \\( \\ \\) answercell",
-      "arsa": "56 لتر + 41 لتر 99000 ملل  = \\( \\ \\) answercell",
-      "areg": "56 لتر + 41 لتر 99000 ملل  = \\( \\ \\) answercell",
+      "aze": "55 l + 66 l 10000 ml  = \\( \\ \\) answercell",
+      "kgz": "55 л + 66 л 10000 мл  = \\( \\ \\) answercell",
+      "uzb": "55 L + 66 L 10000 mL  = \\( \\ \\) answercell",
+      "eng": "55 L + 66 L 10000 mL  = \\( \\ \\) answercell",
+      "rus": "55 л + 66 л 10000 мл  = \\( \\ \\) answercell",
+      "kaz": "55 л + 66 л 10000 мл  = \\( \\ \\) answercell",
+      "arjd": "55 л + 66 л 10000 мл  = \\( \\ \\) answercell",
+      "arsa": "55 لتر + 66 لتر 10000 ملل  = \\( \\ \\) answercell",
+      "areg": "55 لتر + 66 لتر 10000 ملل  = \\( \\ \\) answercell",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "answerCell"
   },
   "type": "Elixir.Task_4_6_10_23",
   "position": 22,
-  "id": "23f6d2c9-38c7-46d1-9681-e213df3a1458",
+  "id": "b7618ab0-21a0-45bf-802a-00dcc7611341",
   "solution": {
     "type": "formula",
     "answer": {
@@ -80,7 +80,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "196",
+      "rus": "131",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

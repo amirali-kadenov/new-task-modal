@@ -177,7 +177,7 @@ export interface AudioMessage extends BaseMessage {
 export interface FileMessage extends BaseMessage {
   type: 'file'
   fileName: string
-  fileSize: number
+  fileSize?: number
   fileType: string
   fileUrl: string
 }

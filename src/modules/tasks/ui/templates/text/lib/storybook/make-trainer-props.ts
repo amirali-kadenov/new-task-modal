@@ -6,8 +6,8 @@ import type {
   TaskModalState,
 } from '@/modules/task-modal/model/types/props'
 import { pickTranslationText } from '@/modules/tasks/lib/translation-utils'
-import type { Task, TaskSolution } from '@/types/api/task'
 import type { User } from '@/types/api/api'
+import type { Task, TaskSolution } from '@/types/api/task'
 
 import { stripMathDelimiters } from '../strip-math-delimiters'
 import type { TextTask } from '../types.task'
@@ -30,7 +30,7 @@ const STORY_USER: User = {
   id: 1,
   firstname: 'Story',
   surname: 'User',
-} as User
+}
 
 /** Per-task wrong-attempt counter for heart animation (3 → 2 → 1 → solution). */
 const wrongAttemptsByTaskId = new Map<string, number>()
@@ -50,9 +50,21 @@ export const getFixtureAnswerString = (
   if (solution == null || typeof solution === 'string') {
     return typeof solution === 'string' ? solution : ''
   }
-  if (typeof solution.answer === 'string') return solution.answer
+  if (typeof solution.answer === 'string' && solution.answer) {
+    return solution.answer
+  }
   if (solution.answer && typeof solution.answer === 'object') {
-    return pickTranslationText(solution.answer)
+    const text = pickTranslationText(solution.answer)
+    if (text) return text
+  }
+  // Multiple-choice fallback: mirrors real API grading (see
+  // scripts/audit-api-vs-fixtures.mjs primaryAnswerRaw) — MC parts carry
+  // the correct answer as a variant letter, not `solution.answer`.
+  const parts = solution.parts ?? []
+  const mc = parts.find((p) => p.type === 180 && Array.isArray(p.variants))
+  if (mc?.variants) {
+    const index = mc.variants.findIndex((v) => v.isCorrect || v.correct)
+    if (index >= 0) return String.fromCharCode(65 + index)
   }
   return ''
 }
@@ -81,7 +93,7 @@ const makeHostProps = (): TaskModalHostProps => ({
   userProgress: 50,
   fontSizeFactor: 1,
   socket: {},
-  isTesting: true,
+  isTesting: false,
   location: {
     pathname: '/',
     search: '',
@@ -136,7 +148,7 @@ export const makeTrainerState = (
     isStartedToday: true,
     timeLeft: null,
     hasTheory: withTheory,
-    currentUser: STORY_USER as TaskModalState['currentUser'],
+    currentUser: STORY_USER,
     selectedIndexes: [],
     lockVersion: null,
     characterTexts: {
@@ -214,6 +226,8 @@ export const makeTrainerProps = (
     deps: {
       api: {
         checkAnswer: async (submitted: { answer?: string | null }) => {
+          // No real network call — fixture-backed mock computes synchronously.
+          await Promise.resolve()
           const user = normalizeTrainerAnswer(String(submitted.answer ?? ''))
           const isCorrect = expectedAnswer.length > 0 && user === expectedAnswer
 
@@ -261,13 +275,14 @@ export const makeTrainerProps = (
             newTasks: [],
           }
         },
-        getTaskSolution: async () => ({
-          solution: fixtureSolution,
-          penaltyTasks: [],
-          newTasks: [],
-          lockVersion: 1,
-        }),
-        getVideoExplanation: async () => {
+        getTaskSolution: () =>
+          Promise.resolve({
+            solution: fixtureSolution,
+            penaltyTasks: [],
+            newTasks: [],
+            lockVersion: 1,
+          }),
+        getVideoExplanation: () => {
           const fixtureVideoId =
             (task as { videoId?: string | null }).videoId ?? null
           const fixtureVideoUrl =
@@ -278,7 +293,7 @@ export const makeTrainerProps = (
           const fallbackUrl =
             'https://youtube.com/embed/174g9gLVGqA?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1'
 
-          return {
+          return Promise.resolve({
             videoId: fixtureVideoId || '174g9gLVGqA',
             videoUrl: fixtureVideoUrl || fallbackUrl,
             videoUrlAsTranslation: fixtureVideoTranslation,
@@ -290,11 +305,12 @@ export const makeTrainerProps = (
             lockVersion: 1,
             penaltyTasks: [],
             newTasks: [],
-          }
+          })
         },
-        getExistsFreezingToday: async () => ({ existsToday: false }),
-        getLastChatMessages: async () => ({ messages: [] }),
-        sendChatMessage: async (text: string, type = 'text') => {
+        setPupilActiveTask: () => Promise.resolve({}),
+        getExistsFreezingToday: () => Promise.resolve({ existsToday: false }),
+        getLastChatMessages: () => Promise.resolve({ messages: [] }),
+        sendChatMessage: (text: string, type = 'text') => {
           const message = {
             id: Date.now(),
             text,
@@ -308,25 +324,27 @@ export const makeTrainerProps = (
           mentorSocketHandlers
             .find((h) => h.when === 'new_chat_message_added')
             ?.execute(message)
-          return message
+          return Promise.resolve(message)
         },
-        getLessonById: async () =>
-          withTheory
-            ? {
-                theory: [
-                  {
-                    type: 'video_url',
-                    position: '1',
-                    content: {
-                      rus: STORY_THEORY_VIDEO_URL,
-                      kaz: STORY_THEORY_VIDEO_URL,
-                      eng: STORY_THEORY_VIDEO_URL,
-                      school: STORY_THEORY_VIDEO_URL,
+        getLessonById: () =>
+          Promise.resolve(
+            withTheory
+              ? {
+                  theory: [
+                    {
+                      type: 'video_url',
+                      position: '1',
+                      content: {
+                        rus: STORY_THEORY_VIDEO_URL,
+                        kaz: STORY_THEORY_VIDEO_URL,
+                        eng: STORY_THEORY_VIDEO_URL,
+                        school: STORY_THEORY_VIDEO_URL,
+                      },
                     },
-                  },
-                ],
-              }
-            : { theory: [] },
+                  ],
+                }
+              : { theory: [] },
+          ),
       },
       global: {
         translate,

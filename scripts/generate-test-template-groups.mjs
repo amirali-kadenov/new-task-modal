@@ -6,9 +6,11 @@
  *   node scripts/generate-test-template-groups.mjs
  */
 import fs from 'node:fs'
-import path from 'node:path'
 import { createRequire } from 'node:module'
+import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 import {
   mapGroupTasks,
   mapGroupTasksWithBodies,
@@ -18,7 +20,6 @@ import {
   loadSnapshotForGrade,
   toAllTasksFilePayload,
 } from './lib/snapshot.mjs'
-import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -29,10 +30,7 @@ const structural = require(
   path.join(repoRoot, 'stats/server/src/pipeline/structuralAnalysis.js'),
 )
 
-const testRoot = path.join(
-  modalRoot,
-  'src/modules/tasks/ui/templates/test',
-)
+const testRoot = path.join(modalRoot, 'src/modules/tasks/ui/templates/test')
 
 const FOLDER_BY_ID = {
   'test.plain': 'ui/plain',
@@ -208,7 +206,8 @@ for (const grade of grades) {
 Object.entries(FOLDER_BY_ID).forEach(([tid, folder]) => {
   const rows = (byTpl[tid] || []).slice().sort((a, b) => {
     return (
-      Number(a.group.replace('test_', '')) - Number(b.group.replace('test_', ''))
+      Number(a.group.replace('test_', '')) -
+      Number(b.group.replace('test_', ''))
     )
   })
   const outDir = path.join(testRoot, folder, 'data')

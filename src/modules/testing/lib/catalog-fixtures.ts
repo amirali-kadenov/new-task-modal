@@ -130,9 +130,7 @@ export const assertAllTasksData = (
   for (const g of grades) {
     const tasks: TemplateAllTaskFixture[] = getAllTasksForGrade(raw, g)
     if (tasks.length === 0) {
-      throw new Error(
-        `[allTasks] ${variant.key}: no tasks for grade=${g}`,
-      )
+      throw new Error(`[allTasks] ${variant.key}: no tasks for grade=${g}`)
     }
     for (const item of tasks) {
       if (!item.id?.trim()) {

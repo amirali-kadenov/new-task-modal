@@ -6,6 +6,22 @@ export type AnswerCellAdornment = 'plain' | 'before' | 'after' | 'beforeAfter'
 
 interface ClassifiableTask {
   answerInput?: unknown
+  description?: { content?: unknown }
+  fields?: unknown
+}
+
+/**
+ * A stack/n2/plain answerCell is normally an arithmetic expression
+ * (`"answercell + answercell"`, `"620 + answercell = 861"`). Number-sequence
+ * tasks share the same answerInput shape but their `content` is a
+ * semicolon-delimited list of literal numbers with no arithmetic operator
+ * (`"28; 33; answercell; answercell; 48; 53; 58; 63; 68"`) — those get
+ * fixed-width cells instead of the arithmetic default's stretching ones.
+ */
+const isSequenceContent = (content: unknown): boolean => {
+  if (typeof content !== 'string') return false
+  if (/[+\-·×÷=]/.test(content)) return false
+  return content.split(';').length >= 4
 }
 
 const isTranslationValue = (value: unknown): value is Record<string, unknown> =>
@@ -38,11 +54,10 @@ const isMultiAnswerInput = (ai: Record<string, unknown>): boolean =>
 
 /**
  * Known catalog: `answerCell.plain`, `answerCell.after`,
- * `answerCell.multi.inline.n2.plain`, `answerCell.multi.stack.n2.plain`.
+ * `answerCell.multi.inline.n2.plain`, `answerCell.multi.stack.n2.plain`,
+ * `answerCell.multi.stack.n2.sequence`.
  */
-export const classifyAnswerCellTemplate = (
-  task: ClassifiableTask,
-): string => {
+export const classifyAnswerCellTemplate = (task: ClassifiableTask): string => {
   const ai = task.answerInput
 
   if (ai == null || typeof ai !== 'object') return 'answerCell.plain'
@@ -58,6 +73,15 @@ export const classifyAnswerCellTemplate = (
     const anyBefore = inputs.some((input) => hasText(input?.before))
     const anyAfter = inputs.some((input) => hasText(input?.after))
     const adorn = adornmentOf(anyBefore ? 'x' : '', anyAfter ? 'x' : '')
+
+    if (
+      layout === 'stack' &&
+      inputs.length === 2 &&
+      adorn === 'plain' &&
+      isSequenceContent(task.description?.content)
+    ) {
+      return 'answerCell.multi.stack.n2.sequence'
+    }
 
     return `answerCell.multi.${layout}.n${inputs.length}.${adorn}`
   }

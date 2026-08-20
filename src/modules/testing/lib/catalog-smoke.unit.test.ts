@@ -55,7 +55,7 @@ describe('catalog fixtures smoke', () => {
           return
         }
 
-        assertAllGroupsData(variant, grade)
+        expect(() => assertAllGroupsData(variant, grade)).not.toThrow()
       })
     })
   }
@@ -75,7 +75,7 @@ describe('catalog fixtures smoke', () => {
           return
         }
 
-        assertAllTasksData(variant, grade)
+        expect(() => assertAllTasksData(variant, grade)).not.toThrow()
       })
     })
   }

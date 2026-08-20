@@ -68,31 +68,31 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 36,
-        "number1": 6
-      },
       "title": null,
+      "fields": {
+        "number2": 15,
+        "number1": 3
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Dərzi 6 günə 36 köynək tikir. Dərzinin məhsuldarlığı nə qədərdir?",
-          "kgz": "Тиүүчү 6 күндө 36 көйнөк тигет. Тигүүчүнүн жумушунун өндүрүмдүүлүгү канчага барабар?",
-          "uzb": "Tikuvchi 6 kunda 36 ta libos tikadi. Tikuvchining unumdorligi qanday?",
-          "eng": "The tailor sews 36 shirts in 6 days. What is the productivity of a tailor?",
-          "rus": "Портной шьет 36 рубашек за 6 дней. Чему равна производительность портного?",
-          "kaz": "Тігінші 6 күнде 36 көйлек тігеді. Тігіншінің өнімділігі қандай?",
+          "aze": "Dərzi 3 günə 15 köynək tikir. Dərzinin məhsuldarlığı nə qədərdir?",
+          "kgz": "Тиүүчү 3 күндө 15 көйнөк тигет. Тигүүчүнүн жумушунун өндүрүмдүүлүгү канчага барабар?",
+          "uzb": "Tikuvchi 3 kunda 15 ta libos tikadi. Tikuvchining unumdorligi qanday?",
+          "eng": "The tailor sews 15 shirts in 3 days. What is the productivity of a tailor?",
+          "rus": "Портной шьет 15 рубашек за 3 дня. Чему равна производительность портного?",
+          "kaz": "Тігінші 3 күнде 15 көйлек тігеді. Тігіншінің өнімділігі қандай?",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كان الخياط يخيط 36 قميصًا في 6 أيام، فكم إنتاجيته في اليوم الواحد؟\n",
+          "areg": "إذا كان الخياط يخيط 15 قميصًا في 3 أيام، فكم إنتاجيته في اليوم الواحد؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_1_3",
       "position": 2,
-      "id": "1b6de3d9-2748-48c7-913e-d58291dc7ec9",
+      "id": "9f2cabf4-6ce3-4b11-b453-12d7b103999a",
       "solution": {
         "type": "text",
         "answer": {
@@ -103,7 +103,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "6",
+          "rus": "5",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -202,33 +202,33 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 28,
-        "number3": 364,
-        "number2": 17,
-        "number1": 102
-      },
       "title": null,
+      "fields": {
+        "number4": 25,
+        "number3": 175,
+        "number2": 26,
+        "number1": 130
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Mətbəədə dərslikləri iki avtomat qablaşdırır. Avtomatlardan biri 17 dəqiqəyə 102 kitab qablaşdırır.\nİkinci maşın 28 dəqiqəyə 364 kitab qablaşdırır. Daha sürətli işləyən avtomatın məhsuldarlığı nə qədərdir?\n",
-          "kgz": "Басмаканада окуу китептерди эки машина менен таңгакташат. Машиналардын бири 102 китепти 17 мүнөттө таңгактайт.\nЭкинчиси 364 мүнөттө 28 китепти таңгактайт.\nТез иштеген машинанын өндүрүмдүүлүгү кандай?\n",
-          "uzb": "Bosmaxonada ikkita avtomatik mashina darsliklarni chop etdi.\nMashinalardan biri 102 ta kitobni 17 minutda chop etadi.\nIkkinchi mashina 364 ta kitobni 28 minutda chop etadi.\nMashinaning ikkinchi tezroq chop etadigan mashinaning unumdorligi qanday?\n",
-          "eng": "In the printing house, textbooks are packed by two vending machines. One of the vending machines packs 102 books in 17 minutes.\nThe second machine packs 364 books in 28 minutes. What is the performance of the machine that works faster?\n\n",
-          "rus": "В типографии два автоматических станка оборачивают учебники. Один автомат оборачивает 102 книги за 17 минут.\nВторая машина оборачивает 364 книги за 28 минут. Какова производительность более быстрого автомата?\n",
-          "kaz": "Баспаханада екі автоматты мәшине оқулықтарды орады. Автоматтардың біреуі жүктелген 102 кітапты 17 минут ішінде орады.\nЕкінші автомат жүктелген 364 кітапты 28 минутта орады. Екі автоматтың ішінен жылдамырақ істейтін автоматтың өнімділігі нешеге тең?\n",
+          "aze": "Mətbəədə dərslikləri iki avtomat qablaşdırır. Avtomatlardan biri 26 dəqiqəyə 130 kitab qablaşdırır.\nİkinci maşın 25 dəqiqəyə 175 kitab qablaşdırır. Daha sürətli işləyən avtomatın məhsuldarlığı nə qədərdir?\n",
+          "kgz": "Басмаканада окуу китептерди эки машина менен таңгакташат. Машиналардын бири 130 китепти 26 мүнөттө таңгактайт.\nЭкинчиси 175 мүнөттө 25 китепти таңгактайт.\nТез иштеген машинанын өндүрүмдүүлүгү кандай?\n",
+          "uzb": "Bosmaxonada ikkita avtomatik mashina darsliklarni chop etdi.\nMashinalardan biri 130 ta kitobni 26 minutda chop etadi.\nIkkinchi mashina 175 ta kitobni 25 minutda chop etadi.\nMashinaning ikkinchi tezroq chop etadigan mashinaning unumdorligi qanday?\n",
+          "eng": "In the printing house, textbooks are packed by two vending machines. One of the vending machines packs 130 books in 26 minutes.\nThe second machine packs 175 books in 25 minutes. What is the performance of the machine that works faster?\n\n",
+          "rus": "В типографии два автоматических станка оборачивают учебники. Один автомат оборачивает 130 книг за 26 минут.\nВторая машина оборачивает 175 книг за 25 минут. Какова производительность более быстрого автомата?\n",
+          "kaz": "Баспаханада екі автоматты мәшине оқулықтарды орады. Автоматтардың біреуі жүктелген 130 кітапты 26 минут ішінде орады.\nЕкінші автомат жүктелген 175 кітапты 25 минутта орады. Екі автоматтың ішінен жылдамырақ істейтін автоматтың өнімділігі нешеге тең?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "في المطبعة آلتان لتغليف الكتب. إذا كانت الآلة الأولى تغلّف 102 كتاب في 17 دقيقة،\nبينما تغلّف الآلة الثانية 364 كتابًا في 28 دقيقة، فأيهما أسرع إنتاجية؟\n",
+          "areg": "في المطبعة آلتان لتغليف الكتب. إذا كانت الآلة الأولى تغلّف 130 كتابًا في 26 دقيقة،\nبينما تغلّف الآلة الثانية 175 كتابًا في 25 دقيقة، فأيهما أسرع إنتاجية؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_1_8",
       "position": 7,
-      "id": "454e698b-fe28-4c69-8153-75a3816a88d5",
+      "id": "26f473ff-7d86-481a-a864-0638b61637af",
       "solution": {
         "type": "text",
         "answer": {
@@ -239,7 +239,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "13",
+          "rus": "7",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -338,32 +338,32 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 8,
-        "number2": 18,
-        "number1": 288
-      },
       "title": null,
+      "fields": {
+        "number3": 6,
+        "number2": 18,
+        "number1": 522
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Birinci traktor 288 hektar torpaq sahəsini 18 saata şumlayır. İkinci traktor bu torpağı 8 saat ərzində şumlayır.\nİki traktorun birgə işlədiyi zaman məhsuldarlığı nə qədərdir?\n",
-          "kgz": "Биринчи трактор 288 гектар жерди 18 саатта айдайт.\nАл эми экинчи трактор бул жерди 8 саатта айдайт. Эки трактор бирге иштегенде алардын өндүрүмдүүлүгү кандай болот?\n",
-          "uzb": "Birinchi traktor 288 gektar 18 soat yerni haydaydi.\nIkkinchi traktor esa huddi shu gektarni 8 soatda tugatadi. Ikki traktor birgalikda ishlagandagi unumdorligini toping?\n",
-          "eng": "The first tractor plows 288 hectares of land in 18 hours.\nThe second tractor plows the same land in 8 hours. What is the combined performance of the two tractors?\n",
-          "rus": "Первый трактор вспахивает участок площадью 288 га земли за 18 часов.\nА второй трактор вспашет этот же участок за 8 часов. Какова совместная производительность двух тракторов?\n",
-          "kaz": "Бірінші трактор 288 га жер алқабын 18 сағатта жыртып бітіреді.\nАл екінші трактор сол алқабты 8 сағатта бітіреді. Екі трактордың бірлескен кездегі еңбек өнімділігі қандай?\n",
+          "aze": "Birinci traktor 522 hektar torpaq sahəsini 18 saata şumlayır. İkinci traktor bu torpağı 6 saat ərzində şumlayır.\nİki traktorun birgə işlədiyi zaman məhsuldarlığı nə qədərdir?\n",
+          "kgz": "Биринчи трактор 522 гектар жерди 18 саатта айдайт.\nАл эми экинчи трактор бул жерди 6 саатта айдайт. Эки трактор бирге иштегенде алардын өндүрүмдүүлүгү кандай болот?\n",
+          "uzb": "Birinchi traktor 522 gektar 18 soat yerni haydaydi.\nIkkinchi traktor esa huddi shu gektarni 6 soatda tugatadi. Ikki traktor birgalikda ishlagandagi unumdorligini toping?\n",
+          "eng": "The first tractor plows 522 hectares of land in 18 hours.\nThe second tractor plows the same land in 6 hours. What is the combined performance of the two tractors?\n",
+          "rus": "Первый трактор вспахивает участок площадью 522 га земли за 18 часов.\nА второй трактор вспашет этот же участок за 6 часов. Какова совместная производительность двух тракторов?\n",
+          "kaz": "Бірінші трактор 522 га жер алқабын 18 сағатта жыртып бітіреді.\nАл екінші трактор сол алқабты 6 сағатта бітіреді. Екі трактордың бірлескен кездегі еңбек өнімділігі қандай?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كان في المزرعة جراران، يحرث الجرار الأول 288 هكتار من الأرض في 18 ساعة، بينما يحرث الجرار الثاني نفس المساحة من الأرض في 8 ساعات، فما هي إنتاجية الجرارين في حالة العمل معًا في نفس الوقت؟\n",
+          "areg": "إذا كان في المزرعة جراران، يحرث الجرار الأول 522 هكتار من الأرض في 18 ساعة، بينما يحرث الجرار الثاني نفس المساحة من الأرض في 6 ساعات، فما هي إنتاجية الجرارين في حالة العمل معًا في نفس الوقت؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_2_2",
       "position": 1,
-      "id": "fce19cea-7dfe-46e4-b232-f16738ddae4d",
+      "id": "c54310fb-a0cf-4337-b36a-5460038b661c",
       "solution": {
         "type": "text",
         "answer": {
@@ -374,7 +374,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "52",
+          "rus": "116",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

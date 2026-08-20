@@ -3,16 +3,15 @@ import clsx from 'clsx'
 import type { TaskSolution as TaskSolutionType } from '@/types/api/task'
 import { MathText } from '@/ui/math-text/math-text'
 
+import type { TaskModalDependencies } from '../../../../task-modal/model/types/props'
 import {
   isComplexSolution,
   isFormulaStringSolution,
   type TaskSolutionValue,
 } from '../../../lib/solution-types'
-import type { TaskModalDependencies } from '../../../task-modal/model/types/props'
 
 import { ComplexSolutionParts } from './complex-solution-parts'
 import { SolutionContentText } from './solution-content-text'
-
 import s from './solution-explanation.module.scss'
 
 interface Props {

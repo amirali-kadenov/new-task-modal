@@ -11,6 +11,7 @@ import { ImagePart } from '@/modules/tasks/ui/templates/complex/shared/figures/i
 import { TextPart } from '@/modules/tasks/ui/templates/complex/shared/figures/text-part'
 
 import type { TestTaskDescription } from '../lib/types.task'
+
 import styles from './test.module.scss'
 
 interface Props {
@@ -21,7 +22,9 @@ interface Props {
 /** Display-only figures / images above the radio options. */
 export const TestFigures = ({ description, deps }: Props) => {
   const images = Array.isArray(description.images)
-    ? description.images.filter((item) => typeof item === 'string' && item.trim())
+    ? description.images.filter(
+        (item) => typeof item === 'string' && item.trim(),
+      )
     : []
   const figures = Array.isArray(description.figures) ? description.figures : []
   const vertical = Boolean(description.isFiguresVertical)
@@ -36,26 +39,20 @@ export const TestFigures = ({ description, deps }: Props) => {
       data-testid="test-figures"
     >
       {description.background ? (
-        <div
-          // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: description.background }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: description.background }} />
       ) : null}
       {images.length > 0 ? (
         <div className={styles.images}>
           {images.map((html, index) => (
-            <div
-              key={index}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <div key={index} dangerouslySetInnerHTML={{ __html: html }} />
           ))}
         </div>
       ) : null}
       {figures.map((raw, index) => {
-        const part = normalizeComplexPart(
-          raw as Record<string, unknown>,
-        ) as { type: number; [key: string]: unknown }
+        const part = normalizeComplexPart(raw as Record<string, unknown>) as {
+          type: number
+          [key: string]: unknown
+        }
         const type = Number(part.type)
 
         switch (type) {
@@ -77,10 +74,7 @@ export const TestFigures = ({ description, deps }: Props) => {
             )
           case FigureType.AngleList:
             return (
-              <AngleListPart
-                key={index}
-                part={part as ComplexAngleListPart}
-              />
+              <AngleListPart key={index} part={part as ComplexAngleListPart} />
             )
           default:
             return (

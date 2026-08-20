@@ -1,7 +1,13 @@
+import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
+
 import type { ComplexCoordinatePlanePart } from '../../lib/types.task'
 import styles from '../complex.module.scss'
 
-import { PlaneAxes, PlaneDot, PlaneFigure } from './coordinate-plane/plane-figures'
+import {
+  PlaneAxes,
+  PlaneDot,
+  PlaneFigure,
+} from './coordinate-plane/plane-figures'
 import {
   planeLength,
   type PlaneOptions,
@@ -10,6 +16,7 @@ import {
 
 interface Props {
   part: ComplexCoordinatePlanePart
+  deps: TaskModalDependencies
 }
 
 const toOptions = (part: ComplexCoordinatePlanePart): PlaneOptions => ({
@@ -27,11 +34,12 @@ const toOptions = (part: ComplexCoordinatePlanePart): PlaneOptions => ({
 })
 
 /** Display-only CoordinatePlane (no click / draw for grade 4). */
-export const CoordinatePlanePart = ({ part }: Props) => {
+export const CoordinatePlanePart = ({ part, deps }: Props) => {
   const options = toOptions(part)
   const length = planeLength(options)
   const reduce = options.reduceHeight ?? 0
   const height = Math.max(40, length - reduce)
+  const translate = (value: unknown) => deps.global.translateTasks(value)
 
   const points = Array.isArray(part.points)
     ? (part.points as PlanePoint[]).filter(
@@ -46,12 +54,19 @@ export const CoordinatePlanePart = ({ part }: Props) => {
     <svg
       className={styles.planeSvg}
       data-figure-type="110"
-      width="100%"
+      data-testid="complex-coordinate-plane-part"
+      width={length}
+      height={height}
       viewBox={`0 0 ${length} ${height}`}
     >
       <PlaneAxes options={options} />
       {figures.map((figure, index) => (
-        <PlaneFigure key={`fig-${index}`} options={options} figure={figure} />
+        <PlaneFigure
+          key={`fig-${index}`}
+          options={options}
+          figure={figure}
+          translate={translate}
+        />
       ))}
       {points.map((point, index) => (
         <PlaneDot key={`pt-${index}`} options={options} point={point} />

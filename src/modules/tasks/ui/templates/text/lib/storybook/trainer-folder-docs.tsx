@@ -84,11 +84,7 @@ export const buildTrainerFolderDocsMarkdown = (
 }
 
 /** Docs page: Title + Markdown only (no Description / Stories / Primary). */
-export const TemplateTrainerDocsPage = ({
-  markdown,
-}: {
-  markdown: string
-}) => (
+export const TemplateTrainerDocsPage = ({ markdown }: { markdown: string }) => (
   <>
     <Title />
     <Markdown>{markdown}</Markdown>

@@ -3,10 +3,11 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import {
   ALL_GROUPS,
   getGroupControlOptions,
+  makePlayAllGroupsSmoke,
+  makePlayMathRegressions,
   renderAllGroupsStory,
   type TemplateGroupFixture,
   type TextTemplateStoryMetaArgs,
-  makePlayAllGroupsSmoke,
 } from '../../lib/storybook'
 
 import groupsJson from './data/groups.json'
@@ -19,6 +20,7 @@ const ROOT_TITLE = 'Templates/Text/plain'
 
 const meta = {
   title: 'Templates/Text/plain/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,
@@ -39,7 +41,10 @@ export default meta
 type Story = StoryObj<TextTemplateStoryMetaArgs>
 
 export const All: Story = {
-  play: makePlayAllGroupsSmoke(),
+  play: async (ctx) => {
+    await makePlayAllGroupsSmoke()(ctx)
+    await makePlayMathRegressions()(ctx)
+  },
   render: ({ group }) =>
     renderAllGroupsStory({
       Template,

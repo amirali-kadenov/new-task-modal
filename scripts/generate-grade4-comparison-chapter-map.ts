@@ -138,7 +138,8 @@ for (let chapter = 1; chapter <= 12; chapter += 1) {
   const existing = fs.readFileSync(chapterPath, 'utf8')
   const claimedIds = claimedByChapter.get(chapter) ?? new Set<string>()
   const kept = extractNonComparisonEntries(existing, claimedIds)
-  const grouped = byChapter.get(chapter) ?? new Map()
+  const grouped =
+    byChapter.get(chapter) ?? new Map<string, Array<number | string>>()
 
   const comparisonEntries = comparisonTemplateTypes.flatMap(
     ([templateType, expression]) => {

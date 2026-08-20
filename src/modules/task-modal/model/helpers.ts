@@ -1,3 +1,5 @@
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
+
 import type { TaskModalDependencies } from './types/props'
 
 export const FOCUSED = 'focused'
@@ -14,7 +16,8 @@ export const getParentWithAttr = (element: HTMLElement, attr: string) => {
 }
 
 export const isAnswerEmpty = (answer: string, deps: TaskModalDependencies) => {
-  return answer
-    .split(deps.helpers.TaskHelper.multipleTaskAnswerSeparator)
-    .some((it) => it === '')
+  return splitMultiAnswer(
+    answer,
+    deps.helpers.TaskHelper.multipleTaskAnswerSeparator,
+  ).some((it) => it === '')
 }

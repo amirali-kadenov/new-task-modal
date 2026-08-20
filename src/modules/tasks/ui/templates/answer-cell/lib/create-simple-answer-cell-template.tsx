@@ -61,6 +61,7 @@ export const createSimpleAnswerCellTemplate = ({
           multi={false}
           onChange={onChange}
           mathInputRef={(ref) => setMathInputRef(ref, mathInput)}
+          taskType={task.type}
         />
       </div>
     )

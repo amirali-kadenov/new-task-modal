@@ -5,6 +5,7 @@ import { MathText } from '@/ui/math-text/math-text'
 
 import { normalizeAnswerCellDescription } from '../lib/normalize-answer-cell-description'
 import type { AnswerCellTaskDescription } from '../lib/types.task'
+
 import styles from './answer-cell.module.scss'
 
 interface Props {
@@ -45,7 +46,6 @@ export const AnswerCellDescriptionExtras = ({ description, deps }: Props) => {
       {imageBefore ? (
         <div
           className={styles.imageBefore}
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: imageBefore }}
         />
       ) : null}

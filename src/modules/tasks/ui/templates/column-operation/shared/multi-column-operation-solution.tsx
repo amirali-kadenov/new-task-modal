@@ -1,18 +1,26 @@
+import { getCorrectMultiAnswerParts } from '@/modules/tasks/lib/get-correct-multi-answer-parts'
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
-import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { getDescriptionTranslation } from '@/modules/tasks/ui/common/task-description/model/get-description-translation'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Task } from '@/types/api/task'
 import { MathFormula } from '@/ui/math-text/math-formula'
 
 import { joinMathAnswers } from '../../text/lib/join-math-answers'
-import { stripMathDelimiters } from '../../text/lib/strip-math-delimiters'
 import { TextAdornment } from '../../text/shared/text-adornment'
+import {
+  isDivisionCornerTex,
+  parseDivisionCorner,
+} from '../lib/parse-division-corner'
+import { toDivisionCornerNumbers } from '../lib/parse-division-corner-numbers'
 import type { ColumnOperationTask } from '../lib/types.task'
+
 import { ColumnOperationDescription } from './column-operation-description'
 import styles from './column-operation.module.scss'
+import { LongDivisionSteps } from './long-division-steps'
 
 type Props = TaskSolutionComponentProps<ColumnOperationTask> & {
   layout: 'stack' | 'inline'
@@ -30,24 +38,51 @@ export const MultiColumnOperationSolution = ({
   const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
     deps.global.translateTasks(value)
 
-  const correctValues = stripMathDelimiters(
-    getCorrectAnswerFromSolution(solution, translate),
-  ).split(separator)
-  const userValues = answer.split(separator)
+  const correctValues = getCorrectMultiAnswerParts(
+    solution,
+    separator,
+    translate,
+  )
+  const userValues = splitMultiAnswer(answer, separator)
 
   const inputEntries = getInlineInputEntries(
     task as unknown as Task<'columnOperation'>,
     translate,
   )
 
+  const rawDescription = getDescriptionTranslation(
+    task as unknown as Task<'columnOperation'>,
+    deps,
+  )
+  const isDivision = Boolean(
+    rawDescription && isDivisionCornerTex(rawDescription),
+  )
+  const divisionCornerParts =
+    isDivision && rawDescription
+      ? parseDivisionCorner(rawDescription, {
+          quotient: correctValues[0] || undefined,
+        })
+      : null
+  const divisionNumbers = divisionCornerParts
+    ? toDivisionCornerNumbers(divisionCornerParts)
+    : null
+
   return (
     <div className={styles.container}>
       <TaskTitle title={task.title} deps={deps} />
-      <ColumnOperationDescription
-        task={task}
-        deps={deps}
-        quotient={correctValues[0] || undefined}
-      />
+      {divisionNumbers ? (
+        <LongDivisionSteps
+          dividend={divisionNumbers.dividend}
+          divisor={divisionNumbers.divisor}
+        />
+      ) : (
+        <ColumnOperationDescription
+          task={task}
+          deps={deps}
+          quotient={correctValues[0] || undefined}
+          remainder={correctValues[1] || undefined}
+        />
+      )}
 
       <SolutionAnswerPanel
         userAnswer={userValues.join(' ; ')}
@@ -61,10 +96,7 @@ export const MultiColumnOperationSolution = ({
         className={layout === 'inline' ? styles.inline : styles.stack}
       >
         {inputEntries.map(({ key, before, after }, index) => (
-          <div
-            key={key}
-            className={`${styles.inputRow} ${styles.solutionRow}`}
-          >
+          <div key={key} className={`${styles.inputRow} ${styles.solutionRow}`}>
             {before && (
               <TextAdornment
                 data-testid="text-prefix"
@@ -86,7 +118,11 @@ export const MultiColumnOperationSolution = ({
         ))}
       </div>
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody
+        solution={solution}
+        deps={deps}
+        suppressFreeTextContent={Boolean(divisionNumbers)}
+      />
     </div>
   )
 }

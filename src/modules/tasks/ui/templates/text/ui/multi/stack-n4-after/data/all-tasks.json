@@ -108,38 +108,38 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "list": [
+              2,
               3,
               4,
               5,
               6,
               7,
-              8,
-              11
+              9
             ]
           },
-          "title": null,
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Bağdan çəkisi 3 kq, 4 kq, 5 kq, 6 kq, 7 kq, 8 kq və 11 kq olan 7 balqabaq yığıldı.\nBalqabaqları 4 səbətə elə yerləşdirin ki, səbətlərin çəkisi eyni olsun. (Səbətdə bir neçə balqabaq olduqda, kütlələri nöqtəli vergüllə göstərin).\n",
-              "kgz": "Бакчадан 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 8 кг, 11 салмактагы 7 ашкабак жыйналды.\nАшкабактар ар бир себеттин массасы бирдей​​ болгондой кылып, 4 себетке бөлүнүп салынды.\nЭгерде ар бири себеттин массасы бирдей болсо, анда бул ашкабактарды ар бир себетке салыңыз. (Себеттеги ашкабактардын массаларын үтүрлүү чекит менен көрсөтүңүз)\n",
-              "uzb": "Bog'dan og'irligi 3 kg, 4 kg, 5 kg, 6 kg, 7 kg, 8 kg va 11 kg bo'lgan 7 ta qovoq olindi. Qovoqlar savatlarning og'irligi bir xil bo'ladigandek, 4 ta savatga bo'linib solindi. Agar savatlarning og'irligi bir xil bo'lsa, u holda bu qovoqlarni har bir savatga joylashtiring. (Savatda bir nechta qovoq bo'lgan holda,og'irliklarini nuqtali vergul bilan ko'rsating)\n",
-              "eng": "7 pumpkins weighing 3 kg, 4 kg, 5 kg, 6 kg, 7 kg, 8 kg, and 11 kg are collected from the garden.\nHow can the pumpkins be divided into 4 baskets so that the mass of each basket is the same?\n(If there is more than one pumpkin in a basket, indicate the weights with a semicolon.)\n",
-              "rus": "С огорода собрали 7 тыкв весом 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 8 кг и 11 кг.\nКак можно распределить эти тыквы по 4 корзинам так, чтобы вес корзин был одинаковым?\n(Если в корзине несколько тыкв, укажите их вес через точку с запятой)\n",
-              "kaz": "Бақшадан массалары 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 8 кг, 11 кг болатын 7 асқабақ жинап алынды.\nСебеттердің массалары бірдей болатындай етіп асқабақтарды 4 себетке қалай бөліп салуға болады?\n(Себетте бірнеше асқабақтар болған жағдайда, массаларын нүктелі үтірмен көрсетіңіз)\n",
+              "aze": "Bağdan çəkisi 2 kq, 3 kq, 4 kq, 5 kq, 6 kq, 7 kq və 9 kq olan 7 balqabaq yığıldı.\nBalqabaqları 4 səbətə elə yerləşdirin ki, səbətlərin çəkisi eyni olsun. (Səbətdə bir neçə balqabaq olduqda, kütlələri nöqtəli vergüllə göstərin).\n",
+              "kgz": "Бакчадан 2 кг, 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 9 салмактагы 7 ашкабак жыйналды.\nАшкабактар ар бир себеттин массасы бирдей​​ болгондой кылып, 4 себетке бөлүнүп салынды.\nЭгерде ар бири себеттин массасы бирдей болсо, анда бул ашкабактарды ар бир себетке салыңыз. (Себеттеги ашкабактардын массаларын үтүрлүү чекит менен көрсөтүңүз)\n",
+              "uzb": "Bog'dan og'irligi 2 kg, 3 kg, 4 kg, 5 kg, 6 kg, 7 kg va 9 kg bo'lgan 7 ta qovoq olindi. Qovoqlar savatlarning og'irligi bir xil bo'ladigandek, 4 ta savatga bo'linib solindi. Agar savatlarning og'irligi bir xil bo'lsa, u holda bu qovoqlarni har bir savatga joylashtiring. (Savatda bir nechta qovoq bo'lgan holda,og'irliklarini nuqtali vergul bilan ko'rsating)\n",
+              "eng": "7 pumpkins weighing 2 kg, 3 kg, 4 kg, 5 kg, 6 kg, 7 kg, and 9 kg are collected from the garden.\nHow can the pumpkins be divided into 4 baskets so that the mass of each basket is the same?\n(If there is more than one pumpkin in a basket, indicate the weights with a semicolon.)\n",
+              "rus": "С огорода собрали 7 тыкв весом 2 кг, 3 кг, 4 кг, 5 кг, 6 кг, 7 кг и 9 кг.\nКак можно распределить эти тыквы по 4 корзинам так, чтобы вес корзин был одинаковым?\n(Если в корзине несколько тыкв, укажите их вес через точку с запятой)\n",
+              "kaz": "Бақшадан массалары 2 кг, 3 кг, 4 кг, 5 кг, 6 кг, 7 кг, 9 кг болатын 7 асқабақ жинап алынды.\nСебеттердің массалары бірдей болатындай етіп асқабақтарды 4 себетке қалай бөліп салуға болады?\n(Себетте бірнеше асқабақтар болған жағдайда, массаларын нүктелі үтірмен көрсетіңіз)\n",
               "arjd": "",
               "arsa": "",
-              "areg": "إذا جمع الجد من الحقل 7 ثمار يقطين (قرع عسلي) بأوزان 3 كجم، 4 كجم، 5 كجم، 6 كجم، 7 كجم، 8 كجم، و11 كجم،\nفكيف يمكن تقسيم ثمار القرع على 4 سلال بحيث تكون كتلها متساوية؟\n(إذا كان في السلة الواحدة أكثر من ثمرة قرع فاستخدام الفاصلة المنقوطة للإشارة إلى الأوزان).\n",
+              "areg": "إذا جمع الجد من الحقل 7 ثمار يقطين (قرع عسلي) بأوزان 2 كجم، 3 كجم، 4 كجم، 5 كجم، 6 كجم، 7 كجم، و9 كجم،\nفكيف يمكن تقسيم ثمار القرع على 4 سلال بحيث تكون كتلها متساوية؟\n(إذا كان في السلة الواحدة أكثر من ثمرة قرع فاستخدام الفاصلة المنقوطة للإشارة إلى الأوزان).\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_6_12_12",
           "position": 11,
-          "id": "3505bb12-f5a5-4806-b7a2-0a366e491e79",
+          "id": "d720dfc3-e145-482b-ab24-bad5b3a344aa",
           "solution": {
             "type": "text",
             "answer": {
@@ -150,7 +150,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "3;8;;4;7;;5;6;;11",
+              "rus": "2;7;;3;6;;4;5;;9",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

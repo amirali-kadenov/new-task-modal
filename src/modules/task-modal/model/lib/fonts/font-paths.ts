@@ -1,8 +1,8 @@
 // src/utils/fontPaths.ts
-import HalvarBd from '/public/fonts/HalvarMittel-Bd.woff2'
-import HalvarRg from '/public/fonts/HalvarMittel-Rg.woff2'
-import PlatformBd from '/public/fonts/Platform-Bold-Desktop.woff2'
-import PlatformRg from '/public/fonts/Platform-Regular-Desktop.woff2'
+import HalvarBd from '@/assets/fonts/HalvarMittel-Bd.woff2?inline'
+import HalvarRg from '@/assets/fonts/HalvarMittel-Rg.woff2?inline'
+import PlatformBd from '@/assets/fonts/Platform-Bold-Desktop.woff2?inline'
+import PlatformRg from '@/assets/fonts/Platform-Regular-Desktop.woff2?inline'
 
 const FONT_PATHS = {
   'Halvar Mittel': { 400: HalvarRg, 700: HalvarBd },

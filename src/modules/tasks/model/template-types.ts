@@ -34,6 +34,7 @@ export const TemplateTypes = {
       },
       Stack: {
         N2Plain: 'answerCell.multi.stack.n2.plain',
+        N2Sequence: 'answerCell.multi.stack.n2.sequence',
       },
     },
   },
@@ -57,6 +58,7 @@ export const TemplateTypes = {
   Complex: {
     Plain: 'complex.plain',
     After: 'complex.after',
+    AfterEquation: 'complex.after.equation',
     BeforeAfter: 'complex.beforeAfter',
     Multi: {
       Stack: {

@@ -22,6 +22,10 @@ const RULES: { re: RegExp; text: string }[] = [
     text: 'Smoke: каталог Groups монтируется в Chromium без необработанной ошибки.',
   },
   {
+    re: /\[allGroups]|\[allTasks].*›/i,
+    text: 'Visual: скриншот раскладки/задачи сравнивается с PNG эталоном.',
+  },
+  {
     re: /new trainer accepts/i,
     text: 'E2E: в новом тренажёре правильный ответ принимается (кнопка «Проверить» снова disabled).',
   },

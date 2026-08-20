@@ -13,10 +13,7 @@ import { fileURLToPath } from 'node:url'
 
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(dirname, '..')
-const templatesRoot = path.join(
-  root,
-  'src/modules/tasks/ui/templates',
-)
+const templatesRoot = path.join(root, 'src/modules/tasks/ui/templates')
 
 const walk = (dir, acc = []) => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -50,9 +47,7 @@ const extractImportPath = (source) => {
 }
 
 const extractTemplateImport = (source) => {
-  const m = source.match(
-    /import \{\s*(\w+)\s+as Template\s*\} from '\.'/ ,
-  )
+  const m = source.match(/import \{\s*(\w+)\s+as Template\s*\} from '\.'/)
   return m?.[1] ?? null
 }
 
@@ -60,8 +55,6 @@ const extractMetaArgsType = (source) => {
   const m = source.match(/satisfies Meta<([^>]+)>/)
   return m?.[1] ?? 'Record<string, unknown>'
 }
-
-const ROOT_TITLE_CONST = `const ROOT_TITLE = '`
 
 const buildAllGroups = ({
   importPath,
@@ -117,243 +110,6 @@ export const All: Story = {
 }
 `
 
-const buildTrainer = ({
-  importPath,
-  templateName,
-  metaArgs,
-  rootTitle,
-  hasPlay,
-}) => `import type { Meta, StoryObj } from '@storybook/react-vite'
-
-import {
-  getGroupControlOptions,
-  getOpenInTrainerControls,
-  ${hasPlay ? 'makePlayCorrectAnswerInTrainer,\n  makePlayWrongAnswerInTrainer,\n  ' : ''}renderInTrainerStory,
-  renderOpenInTrainerStory,
-  type TemplateGroupFixture,
-} from '${importPath}'
-
-import groupsJson from './data/groups.json'
-import fixture from './data/task.json'
-
-import { ${templateName} as Template } from '.'
-
-const task = fixture as unknown as NonNullable<${metaArgs} extends { task?: infer T } ? T : never> extends never
-  ? import('${importPath}').never
-  : never
-`
-
-// The above type hack is too fragile. Use simpler approach without fancy types.
-const buildTrainerSimple = ({
-  importPath,
-  templateName,
-  metaArgs,
-  rootTitle,
-  taskTypeImport,
-  hasPlay,
-}) => {
-  const playImports = hasPlay
-    ? `  makePlayCorrectAnswerInTrainer,
-  makePlayWrongAnswerInTrainer,
-`
-    : ''
-  const playCorrect = hasPlay
-    ? `
-  play: makePlayCorrectAnswerInTrainer({ groups, fallbackTask: task }),`
-    : ''
-  const playWrong = hasPlay
-    ? `
-  play: makePlayWrongAnswerInTrainer({ groups, fallbackTask: task }),`
-    : ''
-
-  return `import type { Meta, StoryObj } from '@storybook/react-vite'
-
-import {
-  getGroupControlOptions,
-  getOpenInTrainerControls,
-${playImports}  renderInTrainerStory,
-  renderOpenInTrainerStory,
-  type TemplateGroupFixture,
-} from '${importPath}'
-${taskTypeImport}
-import groupsJson from './data/groups.json'
-import fixture from './data/task.json'
-
-import { ${templateName} as Template } from '.'
-
-const task = fixture as unknown as ${taskTypeImport ? 'Task' : 'any'}
-const groups = groupsJson as unknown as TemplateGroupFixture[]
-const openInTrainer = getOpenInTrainerControls(groups)
-const { groupIds, defaultGroup } = getGroupControlOptions(groups)
-const ROOT_TITLE = '${rootTitle}'
-
-const meta = {
-  title: '${rootTitle}/Trainer',
-  component: Template,
-  args: {
-    group: defaultGroup,
-  },
-  argTypes: {
-    group: {
-      control: 'select',
-      options: groupIds,
-      description: 'Structural group из data/groups.json',
-    },
-  },
-} satisfies Meta<${metaArgs}>
-
-export default meta
-type Story = StoryObj<${metaArgs}>
-
-export const InTrainer: Story = {
-  render: ({ group }) =>
-    renderInTrainerStory({
-      Template,
-      groups,
-      fallbackTask: task,
-      group,
-      rootTitle: ROOT_TITLE,
-    }),${playCorrect}
-}
-
-export const InTrainerWrongAnswer: Story = {
-  render: ({ group }) =>
-    renderInTrainerStory({
-      Template,
-      groups,
-      fallbackTask: task,
-      group,
-      rootTitle: ROOT_TITLE,
-    }),${playWrong}
-}
-
-export const OpenInTrainer: Story = {
-  args: {
-    group: openInTrainer.defaultGroup,
-    taskId: openInTrainer.defaultTaskId,
-  },
-  argTypes: {
-    group: {
-      control: 'select',
-      options: openInTrainer.groupIds,
-      description: 'Structural group из data/groups.json',
-    },
-    taskId: {
-      control: false,
-      description: 'taskId задач выбранной group (4_1_1, …) — select в canvas',
-    },
-  },
-  render: ({ group, taskId }) =>
-    renderOpenInTrainerStory({
-      groups,
-      group,
-      taskId,
-      rootTitle: ROOT_TITLE,
-    }),
-}
-`
-}
-
-const buildData = ({
-  importPath,
-  templateName,
-  metaArgs,
-  rootTitle,
-  taskTypeName,
-}) => `import type { Meta, StoryObj } from '@storybook/react-vite'
-
-import {
-  getGroupControlOptions,
-  getOpenInTrainerControls,
-  normalizeAllTasksFile,
-  renderDataAllGroupsStory,
-  renderDataAllTasksStory,
-  renderDataOneTaskStory,
-  type AllTasksFile,
-  type TemplateGroupFixture,
-} from '${importPath}'
-
-import allTasksJson from './data/all-tasks.json'
-import groupsJson from './data/groups.json'
-import fixture from './data/task.json'
-
-import { ${templateName} as Template } from '.'
-
-const task = fixture as unknown as ${taskTypeName}
-const groups = groupsJson as unknown as TemplateGroupFixture[]
-const allTasks = normalizeAllTasksFile(
-  allTasksJson as unknown as AllTasksFile,
-)
-const openInTrainer = getOpenInTrainerControls(groups)
-const { groupIds, defaultGroup } = getGroupControlOptions(groups)
-const ROOT_TITLE = '${rootTitle}'
-
-const meta = {
-  title: '${rootTitle}/Data',
-  component: Template,
-  args: {
-    grade: allTasks.defaultGrade,
-    group: defaultGroup,
-    taskId: openInTrainer.defaultTaskId,
-  },
-  argTypes: {
-    grade: {
-      control: 'select',
-      options: allTasks.grades,
-      description: 'Класс (grade)',
-    },
-    group: {
-      control: 'select',
-      options: groupIds,
-      description: 'Structural group',
-    },
-    taskId: {
-      control: false,
-      description: 'taskId — select в canvas',
-    },
-  },
-  parameters: {
-    controls: { disable: false },
-  },
-} satisfies Meta<${metaArgs}>
-
-export default meta
-type Story = StoryObj<${metaArgs}>
-
-export const OneTask: Story = {
-  name: 'One Task',
-  render: ({ grade, group, taskId }) =>
-    renderDataOneTaskStory({
-      rootTitle: ROOT_TITLE,
-      groups,
-      allTasks: allTasksJson as unknown as AllTasksFile,
-      fallbackTask: task,
-      grade: grade ?? allTasks.defaultGrade,
-      group,
-      taskId,
-    }),
-}
-
-export const AllGroups: Story = {
-  name: 'All Groups',
-  render: () =>
-    renderDataAllGroupsStory({
-      rootTitle: ROOT_TITLE,
-      groups,
-    }),
-}
-
-export const AllTasks: Story = {
-  name: 'All Tasks',
-  render: ({ grade }) =>
-    renderDataAllTasksStory({
-      rootTitle: ROOT_TITLE,
-      allTasks: allTasksJson as unknown as AllTasksFile,
-      grade: grade ?? allTasks.defaultGrade,
-    }),
-}
-`
-
 const guessTaskType = (dir, mainSource) => {
   // Prefer existing type import from main stories
   const m = mainSource.match(
@@ -366,20 +122,30 @@ const guessTaskType = (dir, mainSource) => {
     return { name: m[1], importPath: rel }
   }
   // Fallback by family
-  if (dir.includes('/text/')) return { name: 'TextTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/table/')) return { name: 'TableTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/formula/')) return { name: 'FormulaTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/equation/')) return { name: 'EquationTask', importPath: '../../shared/lib/types.task' }
-  if (dir.includes('/test/')) return { name: 'TestTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/complex/')) return { name: 'ComplexTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/comparison/')) return { name: 'ComparisonTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/column-operation/')) return { name: 'ColumnOperationTask', importPath: '../../lib/types.task' }
-  if (dir.includes('/answer-cell/')) return { name: 'AnswerCellTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/text/'))
+    return { name: 'TextTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/table/'))
+    return { name: 'TableTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/formula/'))
+    return { name: 'FormulaTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/equation/'))
+    return { name: 'EquationTask', importPath: '../../shared/lib/types.task' }
+  if (dir.includes('/test/'))
+    return { name: 'TestTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/complex/'))
+    return { name: 'ComplexTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/comparison/'))
+    return { name: 'ComparisonTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/column-operation/'))
+    return { name: 'ColumnOperationTask', importPath: '../../lib/types.task' }
+  if (dir.includes('/answer-cell/'))
+    return { name: 'AnswerCellTask', importPath: '../../lib/types.task' }
   return { name: 'any', importPath: null }
 }
 
 const resolveTaskImport = (templateDir, typeInfo, storybookImport) => {
-  if (!typeInfo.importPath || typeInfo.name === 'any') return { name: 'any', stmt: '' }
+  if (!typeInfo.importPath || typeInfo.name === 'any')
+    return { name: 'any', stmt: '' }
   // Prefer relative from template dir to types.task near storybook
   // storybookImport like '../../lib/storybook' → '../../lib/types.task'
   const typesFromSb = storybookImport.replace(/\/storybook$/, '/types.task')
@@ -719,7 +485,7 @@ export const AllTasks: Story = {
   }
 
   // Add ROOT_TITLE + pass to Default/WithSolution
-  if (!mainSrc.includes("const ROOT_TITLE = ")) {
+  if (!mainSrc.includes('const ROOT_TITLE = ')) {
     const titleMatch = mainSrc.match(/title:\s*'([^']+)'/)
     const mainTitle = titleMatch?.[1] ?? rootTitle
     mainSrc = mainSrc.replace(

@@ -22,4 +22,25 @@ export const useChat = () => {
   const [isTyping, setIsTyping] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
+
+  return {
+    messages,
+    setMessages,
+    messageText,
+    setMessageText,
+    isSending,
+    setIsSending,
+    isLoading,
+    setIsLoading,
+    activeTab,
+    setActiveTab,
+    isRecording,
+    setIsRecording,
+    mediaRecorder,
+    setMediaRecorder,
+    isTyping,
+    setIsTyping,
+    messagesEndRef,
+    fileInputRef,
+  }
 }

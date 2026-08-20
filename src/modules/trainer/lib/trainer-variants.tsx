@@ -1,15 +1,6 @@
 import type { ComponentType, ReactNode } from 'react'
 
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
-import {
-  getGroupControlOptions,
-  pickTask,
-  TextTemplateTrainer,
-} from '@/modules/tasks/ui/templates/text/lib/storybook'
-import type { TextTask } from '@/modules/tasks/ui/templates/text/lib/types.task'
-
-import type { TrainerStateTab } from './apply-trainer-state'
-
 import { AnswerCellAfter } from '@/modules/tasks/ui/templates/answer-cell/ui/after'
 import groups_AnswerCell_after from '@/modules/tasks/ui/templates/answer-cell/ui/after/data/groups.json'
 import task_AnswerCell_after from '@/modules/tasks/ui/templates/answer-cell/ui/after/data/task.json'
@@ -19,6 +10,9 @@ import task_AnswerCell_multi_inline_n2_plain from '@/modules/tasks/ui/templates/
 import { AnswerCellMultiStackN2Plain } from '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-plain'
 import groups_AnswerCell_multi_stack_n2_plain from '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-plain/data/groups.json'
 import task_AnswerCell_multi_stack_n2_plain from '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-plain/data/task.json'
+import { AnswerCellMultiStackN2Sequence } from '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-sequence'
+import groups_AnswerCell_multi_stack_n2_sequence from '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-sequence/data/groups.json'
+import task_AnswerCell_multi_stack_n2_sequence from '@/modules/tasks/ui/templates/answer-cell/ui/multi/stack-n2-sequence/data/task.json'
 import { AnswerCellPlain } from '@/modules/tasks/ui/templates/answer-cell/ui/plain'
 import groups_AnswerCell_plain from '@/modules/tasks/ui/templates/answer-cell/ui/plain/data/groups.json'
 import task_AnswerCell_plain from '@/modules/tasks/ui/templates/answer-cell/ui/plain/data/task.json'
@@ -82,6 +76,13 @@ import task_Table_plain from '@/modules/tasks/ui/templates/table/ui/plain/data/t
 import { TestPlain } from '@/modules/tasks/ui/templates/test/ui/plain'
 import groups_Test_plain from '@/modules/tasks/ui/templates/test/ui/plain/data/groups.json'
 import task_Test_plain from '@/modules/tasks/ui/templates/test/ui/plain/data/task.json'
+import {
+  getGroupControlOptions,
+  pickTask,
+  TextTemplateTrainer,
+} from '@/modules/tasks/ui/templates/text/lib/storybook'
+import type { TemplateGroupFixture } from '@/modules/tasks/ui/templates/text/lib/storybook'
+import type { TextTask } from '@/modules/tasks/ui/templates/text/lib/types.task'
 import { TextAfter } from '@/modules/tasks/ui/templates/text/ui/after'
 import groups_Text_after from '@/modules/tasks/ui/templates/text/ui/after/data/groups.json'
 import task_Text_after from '@/modules/tasks/ui/templates/text/ui/after/data/task.json'
@@ -128,19 +129,27 @@ import { TextPlain } from '@/modules/tasks/ui/templates/text/ui/plain'
 import groups_Text_plain from '@/modules/tasks/ui/templates/text/ui/plain/data/groups.json'
 import task_Text_plain from '@/modules/tasks/ui/templates/text/ui/plain/data/task.json'
 
+import type { TrainerStateTab } from './apply-trainer-state'
+
 export type TrainerVariant = {
   key: string
   label: string
   groupIds: string[]
   defaultGroup: string
   /** Fixture groups — used by Storybook play helpers. */
-  groups: Array<{ group: string; task?: TextTask }>
+  groups: TemplateGroupFixture[]
   /** Fallback task fixture when the selected group has no task. */
   fallbackTask: unknown
   render: (group: string, stateTab?: TrainerStateTab) => ReactNode
 }
 
-const makeVariant = ({
+// `Template` varies per call site — each template's component expects its own
+// task subtype (ComplexTask, EquationTask, TableTask, …), so it's generic
+// here and each call below gets full type-checking against its own fixture.
+// TrainerVariant itself is homogeneous (stored in one array across all
+// templates), so the single erasure to `TaskComponentProps<TextTask>` for
+// rendering is an intentional, localized unsafe cast — not a stand-in `any`.
+const makeVariant = <T,>({
   key,
   label,
   Template,
@@ -149,12 +158,12 @@ const makeVariant = ({
 }: {
   key: string
   label: string
-  Template: ComponentType<TaskComponentProps<any>>
+  Template: ComponentType<TaskComponentProps<T>>
   groupsJson: unknown
   fallbackTask: unknown
 }): TrainerVariant => {
-  const groups = groupsJson as Array<{ group: string; task?: TextTask }>
-  const { groupIds, defaultGroup } = getGroupControlOptions(groups as any)
+  const groups = groupsJson as TemplateGroupFixture[]
+  const { groupIds, defaultGroup } = getGroupControlOptions(groups)
   return {
     key,
     label,
@@ -163,12 +172,13 @@ const makeVariant = ({
     groups,
     fallbackTask,
     render: (group, stateTab = 'idle') => {
-      const TrainerTemplate =
-        Template as ComponentType<TaskComponentProps<TextTask>>
+      const TrainerTemplate = Template as unknown as ComponentType<
+        TaskComponentProps<TextTask>
+      >
       return (
         <TextTemplateTrainer
           Template={TrainerTemplate}
-          task={pickTask(groups as any, group, fallbackTask as TextTask)}
+          task={pickTask(groups, group, fallbackTask as TextTask)}
           stateTab={stateTab}
         />
       )
@@ -197,6 +207,13 @@ export const TRAINER_VARIANTS: TrainerVariant[] = [
     Template: AnswerCellMultiStackN2Plain,
     groupsJson: groups_AnswerCell_multi_stack_n2_plain,
     fallbackTask: task_AnswerCell_multi_stack_n2_plain,
+  }),
+  makeVariant({
+    key: 'AnswerCell/multi/stack-n2-sequence',
+    label: 'AnswerCell / multi / stack-n2-sequence',
+    Template: AnswerCellMultiStackN2Sequence,
+    groupsJson: groups_AnswerCell_multi_stack_n2_sequence,
+    fallbackTask: task_AnswerCell_multi_stack_n2_sequence,
   }),
   makeVariant({
     key: 'AnswerCell/plain',

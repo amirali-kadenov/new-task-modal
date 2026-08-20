@@ -107,7 +107,7 @@ export interface TaskDescriptionEquation {
   content: Translation
 }
 
-export interface TableCell extends Translation {}
+export type TableCell = Translation
 
 export interface TableRow {
   cells: (TableCell | string)[]
@@ -171,7 +171,7 @@ export interface TaskSolutionPart {
 export interface TaskSolution {
   answer?: string | Translation
   content?: Translation | string
-  type?: TaskDescriptionType | string
+  type?: string
   parts?: TaskSolutionPart[]
   error?: Translation | string
 }

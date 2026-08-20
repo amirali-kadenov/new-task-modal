@@ -1,5 +1,11 @@
 import { useState } from 'react'
 
+import { collectMultiInputValues } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import {
+  joinMultiAnswer,
+  toWireMultiAnswer,
+} from '@/modules/tasks/lib/multi-answer'
+
 import { isApiError } from '../../lib/is-api-error'
 import {
   useAppState,
@@ -47,11 +53,12 @@ export const useCheckAnswer = ({ props, refs }: Args) => {
   const resetValues = () => {
     setAnswer('')
     setPrevAnswer(null)
-    refs.mathInput.current?.clear()
+    refs.mathInput.current?.forEach((field) => field.setLatex(''))
   }
 
   const checkAnswer = async () => {
     let answer = useStore.getState().answer
+    let storeFormatAnswer = answer
     const { deps, hostProps } = props
     const { enums, api, global, helpers, alert, lodash, localize } = deps
     const {
@@ -86,6 +93,33 @@ export const useCheckAnswer = ({ props, refs }: Args) => {
 
       if (typeof answer === 'string') {
         answer = helpers.CyrillicTo.default_numeral(answer)
+
+        const separator = helpers.TaskHelper.multipleTaskAnswerSeparator
+        const inputMap = refs.mathInput.current
+        const multiValues =
+          inputMap && inputMap.size > 1
+            ? collectMultiInputValues(inputMap)
+            : null
+
+        // Multi-input tasks (2+ MathQuill fields): re-read every field's
+        // current latex straight from MathQuill right before submit instead
+        // of trusting the store's incrementally-built `answer`. The value the
+        // pupil sees on screen is always correct; a stale/incomplete join
+        // upstream (e.g. an onChange that fired before every field mounted)
+        // should not lose a field's value at the moment that matters most.
+        answer = multiValues
+          ? multiValues.join(separator)
+          : toWireMultiAnswer(answer, separator)
+
+        // `answer` above is wire-format (API payload). The live store's
+        // `answer` is built by `joinMultiAnswer`, which substitutes an
+        // internal separator for multi-input tasks — `prevAnswer` must be
+        // recorded in that same format, otherwise `answer === prevAnswer`
+        // in actions.tsx never matches and resubmitting an identical wrong
+        // answer never gets its submit button re-disabled.
+        storeFormatAnswer = multiValues
+          ? joinMultiAnswer(multiValues, separator)
+          : answer
       }
 
       // const isLengthMoreThan255 = isString && answer.length > 255
@@ -220,7 +254,7 @@ export const useCheckAnswer = ({ props, refs }: Args) => {
           ...(response.newTasks ?? []),
         ]
 
-        setPrevAnswer(answer)
+        setPrevAnswer(storeFormatAnswer)
 
         setState({
           activeTask: updatedActiveTask,

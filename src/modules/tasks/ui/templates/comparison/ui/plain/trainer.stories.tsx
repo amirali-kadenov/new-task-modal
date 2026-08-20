@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react-vite'
+import type { Meta } from '@storybook/react-vite'
 
 import {
   getGroupControlOptions,
@@ -17,6 +17,7 @@ import {
 } from '../../lib/storybook'
 import type { ComparisonTask as Task } from '../../lib/types.task'
 
+import allTasksJson from './data/all-tasks.json'
 import groupsJson from './data/groups.json'
 import fixture from './data/task.json'
 
@@ -47,7 +48,6 @@ const meta = {
 } satisfies Meta<ComparisonStoryMetaArgs>
 
 export default meta
-type Story = StoryObj<ComparisonStoryMetaArgs>
 
 export const Checklist = makeOpenInTrainerStory({
   groups,
@@ -61,6 +61,7 @@ export const Correct = makeInTrainerCorrectStory({
   Template,
   groups,
   fallbackTask: task,
+  allTasks: allTasksJson,
   rootTitle: ROOT_TITLE,
 })
 

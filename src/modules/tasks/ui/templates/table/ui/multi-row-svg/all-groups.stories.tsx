@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/Table/multi-row-svg'
 
 const meta = {
   title: 'Templates/Table/multi-row-svg/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

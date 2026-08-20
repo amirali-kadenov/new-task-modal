@@ -6,9 +6,11 @@
  *   node scripts/generate-complex-template-groups.mjs
  */
 import fs from 'node:fs'
-import path from 'node:path'
 import { createRequire } from 'node:module'
+import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 import {
   mapGroupTasks,
   mapGroupTasksWithBodies,
@@ -18,7 +20,6 @@ import {
   loadSnapshotForGrade,
   toAllTasksFilePayload,
 } from './lib/snapshot.mjs'
-import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -37,6 +38,7 @@ const complexRoot = path.join(
 const FOLDER_BY_ID = {
   'complex.plain': 'ui/plain',
   'complex.after': 'ui/after',
+  'complex.after.equation': 'ui/after-equation',
   'complex.beforeAfter': 'ui/before-after',
   'complex.multi.stack.n2.after': 'ui/multi/stack-n2-after',
   'complex.multi.stack.n2.beforeAfter': 'ui/multi/stack-n2-before-after',
@@ -63,6 +65,16 @@ function adornmentOf(hasBefore, hasAfter) {
   if (hasAfter) return 'after'
   return 'plain'
 }
+function hasTableAnswerCell(parts) {
+  if (!Array.isArray(parts) || !parts.length) return false
+  return parts.some((part) => {
+    if (Number(part.type) !== 120) return false
+    return (part.rows || []).some((row) =>
+      (row.cells || []).some((cell) => cell === 'answercell'),
+    )
+  })
+}
+
 function classify(task) {
   const ai = task.answerInput
   if (ai == null || typeof ai !== 'object') return 'complex.plain'
@@ -78,7 +90,15 @@ function classify(task) {
     })
     return `complex.multi.${layout}.n${keys.length}.${adornmentOf(b, a)}`
   }
-  return `complex.${adornmentOf(hasText(ai.before), hasText(ai.after))}`
+  const adorn = adornmentOf(hasText(ai.before), hasText(ai.after))
+  if (
+    adorn === 'after' &&
+    Boolean(task.description?.isAnswerCellHidden) &&
+    hasTableAnswerCell(task.description?.parts)
+  ) {
+    return 'complex.after.equation'
+  }
+  return `complex.${adorn}`
 }
 
 function makeTranslation(rus) {

@@ -56,7 +56,6 @@ export const RadioButton = ({
       {htmlLabel ? (
         <span
           className={styles.radioLabel}
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: label }}
         />
       ) : (

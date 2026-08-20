@@ -1,5 +1,6 @@
 import type { TaskSolutionResponse } from '@/types/api/api'
 
+import { MAX_LIVES } from '../../constants'
 import { isApiError } from '../../lib/is-api-error'
 import { useAppState, useSetAppState } from '../../store/task-modal-store'
 import type { TaskModalProps } from '../../types/props'
@@ -55,7 +56,7 @@ export const useShowSolution = ({ props }: Args) => {
         answer: resolvedAnswer,
         selectedIndexes: [],
         clearSelectedIndexes: true,
-        attemptsCount: 3,
+        attemptsCount: MAX_LIVES,
       }
 
       const activeTaskOrItsPenaltyPositionIndex = findLastIndex(

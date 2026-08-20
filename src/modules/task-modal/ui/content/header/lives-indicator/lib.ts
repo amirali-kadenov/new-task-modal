@@ -1,4 +1,4 @@
-import type { TaskModalActions } from '@/modules/task-modal/model/types/actions'
+import { MAX_LIVES } from '@/modules/task-modal/model/constants'
 import type {
   TaskModalProps,
   TaskModalState,
@@ -7,26 +7,27 @@ import type { Task } from '@/types/api/task'
 
 interface Args {
   activeTask: Task
-  actions: TaskModalActions
+  tasks: Task[]
 }
 
-export const getLivesCount = ({ activeTask, actions }: Args) => {
-  let lives = 3
-
+/**
+ * Lives math must read the live `tasks` array from this package's own store
+ * (not the legacy host app's state, which is frozen at mount and never sees
+ * penalty tasks inserted by this package's own answer-check flow — see
+ * `use-check-answer.ts`'s `handleIncorrectAnswer`).
+ */
+export const getLivesCount = ({ activeTask, tasks }: Args) => {
   if (!activeTask.isPenalty) {
-    return lives
-  }
-  // console.log('LIVES COUNT', actions)
-  if (actions.isLastPenaltyTaskAtPosition(activeTask)) {
-    /**
-     * if it is last penalty task in penalty tasks row (triangles) - 2 lives
-     */
-    lives = 2
-  } else {
-    lives = 1
+    return MAX_LIVES
   }
 
-  return lives
+  const nextTaskIndex = tasks.findIndex((task) => task.id === activeTask.id) + 1
+  const nextTask = tasks[nextTaskIndex]
+
+  /**
+   * if it is last penalty task in penalty tasks row (triangles) - 2 lives
+   */
+  return nextTask?.isPenalty ? 1 : 2
 }
 
 export const checkIfLastAttemptSuccessfull = (

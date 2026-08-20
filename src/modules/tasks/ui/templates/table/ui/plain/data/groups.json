@@ -206,11 +206,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number2": 1,
-        "number1": 10000
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -224,13 +219,18 @@
         "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number2": 4,
+        "number1": 10000
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -249,7 +249,7 @@
               "colspan": 1,
               "border_bottom": null,
               "cells": [
-                "10000 · 1 = ",
+                "10000 · 4 = ",
                 "answercell"
               ],
               "width": null
@@ -268,7 +268,7 @@
       },
       "type": "Elixir.Task_4_2_1_3",
       "position": 2,
-      "id": "c6b2710d-de67-4e21-91a3-2644182a3a09",
+      "id": "877172de-ee28-4f32-8cb9-0a56b10f0ab3",
       "solution": {
         "type": "table",
         "answer": {
@@ -279,7 +279,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "10000",
+          "rus": "40000",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -624,9 +624,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 948337
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Verilən ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -640,13 +637,16 @@
         "areg": "قرّب العدد التالي إلى أقرب مائة.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 144803
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -665,7 +665,7 @@
               "colspan": 1,
               "border_bottom": null,
               "cells": [
-                "948337",
+                "144803",
                 " \\(\\approx\\) ",
                 "answercell"
               ],
@@ -685,7 +685,7 @@
       },
       "type": "Elixir.Task_4_4_13",
       "position": 0,
-      "id": "7f0da406-16bf-4b8f-9230-d9c567479dd9",
+      "id": "cf522972-d549-4984-b9cf-0b40f86d451b",
       "solution": {
         "type": "table",
         "answer": {
@@ -696,7 +696,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "948300",
+          "rus": "144800",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1005,10 +1005,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 1,
-        "number1": 79704
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1022,13 +1018,17 @@
         "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 1,
+        "number1": 69833
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -1049,15 +1049,15 @@
               "cells": [
                 {
                   "with_audio_player": false,
-                  "aze": "79704 : 1 = ",
-                  "kgz": "79704 : 1 = ",
-                  "uzb": "79704 : 1 = ",
-                  "eng": "79704 ÷ 1 = ",
-                  "rus": "79704 : 1 = ",
-                  "kaz": "79704 : 1 = ",
-                  "arjd": "79704 : 1 = ",
-                  "arsa": "79704 : 1 = ",
-                  "areg": "79704 : 1 = ",
+                  "aze": "69833 : 1 = ",
+                  "kgz": "69833 : 1 = ",
+                  "uzb": "69833 : 1 = ",
+                  "eng": "69833 ÷ 1 = ",
+                  "rus": "69833 : 1 = ",
+                  "kaz": "69833 : 1 = ",
+                  "arjd": "69833 : 1 = ",
+                  "arsa": "69833 : 1 = ",
+                  "areg": "69833 : 1 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "answercell"
@@ -1078,7 +1078,7 @@
       },
       "type": "Elixir.Task_4_2_1_5",
       "position": 8,
-      "id": "cec0975a-fc5f-40ce-90c8-a3f84f9476ea",
+      "id": "50624063-f8dd-493f-9178-f992f077c320",
       "solution": {
         "type": "table",
         "answer": {
@@ -1089,7 +1089,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "79704",
+          "rus": "69833",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1218,10 +1218,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number": 767578
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Verilən ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -1235,13 +1231,17 @@
         "areg": "قرّب العدد التالي إلى أقرب مائة.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number": 524262
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -1260,7 +1260,7 @@
               "colspan": 1,
               "border_bottom": null,
               "cells": [
-                "767578",
+                "524262",
                 " \\(\\approx\\) ",
                 "answercell"
               ],
@@ -1280,7 +1280,7 @@
       },
       "type": "Elixir.Task_4_4_14",
       "position": 1,
-      "id": "3ce6d11b-2eae-4d13-add8-95cbc6fb16b6",
+      "id": "e40650ee-1a82-4551-8caf-a92a378eaacc",
       "solution": {
         "type": "table",
         "answer": {
@@ -1291,7 +1291,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "767600",
+          "rus": "524300",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1402,13 +1402,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number4": 2,
-        "number3": 8,
-        "number2": 1600,
-        "number1": 14000
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Səmərəli üsulla hesablayın.",
@@ -1422,13 +1415,20 @@
         "areg": "استخدم الطريقة الفعالة لحساب:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number4": 2,
+        "number3": 4,
+        "number2": 1600,
+        "number1": 12000
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -1449,15 +1449,15 @@
               "cells": [
                 {
                   "with_audio_player": false,
-                  "aze": "(14000 + 1600 + 8) : 2 = ",
-                  "kgz": "(14000 + 1600 + 8) : 2 = ",
-                  "uzb": "(14000 + 1600 + 8) : 2 = ",
-                  "eng": "(14000 + 1600 + 8) ÷ 2 = ",
-                  "rus": "(14000 + 1600 + 8) : 2 = ",
-                  "kaz": "(14000 + 1600 + 8) : 2 = ",
-                  "arjd": "(14000 + 1600 + 8) : 2 = ",
-                  "arsa": "(14000 + 1600 + 8) : 2 = ",
-                  "areg": "(14000 + 1600 + 8) : 2 = ",
+                  "aze": "(12000 + 1600 + 4) : 2 = ",
+                  "kgz": "(12000 + 1600 + 4) : 2 = ",
+                  "uzb": "(12000 + 1600 + 4) : 2 = ",
+                  "eng": "(12000 + 1600 + 4) ÷ 2 = ",
+                  "rus": "(12000 + 1600 + 4) : 2 = ",
+                  "kaz": "(12000 + 1600 + 4) : 2 = ",
+                  "arjd": "(12000 + 1600 + 4) : 2 = ",
+                  "arsa": "(12000 + 1600 + 4) : 2 = ",
+                  "areg": "(12000 + 1600 + 4) : 2 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "answercell"
@@ -1478,7 +1478,7 @@
       },
       "type": "Elixir.Task_4_2_2_1",
       "position": 0,
-      "id": "53f992fe-d7d1-4da8-9192-0416b0e757e0",
+      "id": "36a579e1-b5b3-4a60-815d-dd740f56a4f7",
       "solution": {
         "type": "table",
         "answer": {
@@ -1489,7 +1489,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "7804",
+          "rus": "6802",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1618,12 +1618,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number3": 3212,
-        "number2": 3,
-        "number1": 22221
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1637,13 +1631,19 @@
         "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number3": 3399,
+        "number2": 2,
+        "number1": 33121
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -1662,7 +1662,7 @@
               "colspan": 1,
               "border_bottom": null,
               "cells": [
-                "22221 ⋅ 3 + 3212 = ",
+                "33121 ⋅ 2 + 3399 = ",
                 "answercell"
               ],
               "width": null
@@ -1681,7 +1681,7 @@
       },
       "type": "Elixir.Task_4_2_2_2",
       "position": 1,
-      "id": "cba4da76-c2dd-417d-8e5c-80a2d16a918f",
+      "id": "221cfdd5-0eee-4352-b220-a1f9cb1e38c8",
       "solution": {
         "type": "table",
         "answer": {
@@ -1692,7 +1692,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "69875",
+          "rus": "69641",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1821,11 +1821,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 3,
-        "number2": 18786,
-        "number1": 12812
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1839,13 +1834,18 @@
         "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 3,
+        "number2": 10323,
+        "number1": 14997
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": "",
@@ -1864,7 +1864,7 @@
               "colspan": 1,
               "border_bottom": null,
               "cells": [
-                "(12812 + 18786) · 3 = ",
+                "(14997 + 10323) · 3 = ",
                 "answercell"
               ],
               "width": null
@@ -1883,7 +1883,7 @@
       },
       "type": "Elixir.Task_4_2_19",
       "position": 3,
-      "id": "7f1d3068-41a9-4619-9f42-1d762e7a1016",
+      "id": "e0414c97-c611-42ef-a8f4-67a9aebf23c1",
       "solution": {
         "type": "table",
         "answer": {
@@ -1894,7 +1894,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "94794",
+          "rus": "75960",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

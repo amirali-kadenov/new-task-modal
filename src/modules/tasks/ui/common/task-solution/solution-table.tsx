@@ -1,6 +1,4 @@
-import clsx from 'clsx'
-
-import type { Translation } from '@/types/api/api'
+import type { Translation } from '@/types/api/task'
 import { MathText } from '@/ui/math-text/math-text'
 
 import type { TaskModalDependencies } from '../../../../task-modal/model/types/props'
@@ -14,7 +12,10 @@ interface Props {
   deps: TaskModalDependencies
 }
 
-const renderCell = (cell: Translation | string, deps: TaskModalDependencies) => {
+const renderCell = (
+  cell: Translation | string,
+  deps: TaskModalDependencies,
+) => {
   if (typeof cell === 'string') {
     return <MathText>{cell}</MathText>
   }

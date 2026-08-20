@@ -75,10 +75,11 @@ describe('table.plain', () => {
       },
     }
 
-    const { container } = renderTemplate(Template, withSvg)
+    renderTemplate(Template, withSvg)
 
-    expect(screen.getByTestId('table-html-cell')).toBeInTheDocument()
-    expect(container.querySelector('svg')).toBeTruthy()
+    const htmlCell = screen.getByTestId('table-html-cell')
+    expect(htmlCell).toBeInTheDocument()
+    expect(htmlCell.innerHTML.includes('<svg')).toBe(true)
     expect(screen.queryByText(/<svg version/)).not.toBeInTheDocument()
   })
 
@@ -105,5 +106,6 @@ describe('table.plain', () => {
     const table = screen.getByTestId('task-table')
     expect(table.className).toMatch(/tableRemoveBorders/)
     expect(table.className).toMatch(/tableRemovePadding/)
+    expect(table.className).toMatch(/equationStretch/)
   })
 })

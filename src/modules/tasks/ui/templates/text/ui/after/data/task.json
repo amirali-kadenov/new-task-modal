@@ -26,32 +26,32 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number3": 2,
-    "number2": 11094,
-    "number1": 99946
-  },
   "title": null,
+  "fields": {
+    "number3": 7,
+    "number2": 11061,
+    "number1": 99430
+  },
   "description": {
     "with_audio": true,
     "content": {
       "with_audio_player": false,
-      "aze": "Dəvə bir həftə ərzində 11094 litr su içir. Dəvə 2 həftə su içsə, 99946 litr sudan nə qədər su qalar?\n",
-      "kgz": "Төө бир жумада 11094 литр суу иче алат. Эгерде төө 2 жума суу ичсе, 99946  литр суудан канча литр суу калат?\n",
-      "uzb": "Tuya bir haftada 11094 litr suv ichadi. Tuya suvni 2 hafta davomida ichsa, 99946 l suvdan qancha qoladi?\n",
-      "eng": "A camel can drink 11094 litres of water in a week.\nHow many litres of water are left from 99946 litres of water if the camel drinks water for 2 weeks?\n",
-      "rus": "Верблюд может выпить 11094 л воды за неделю.\nСколько литров воды останется из 99946 л, если верблюд будет пить воду в течение 2 недели?\n",
-      "kaz": "Түйе бір аптада 11094 литр су іше алады.\nТүйе суды 2 апта бойы ішсе, 99946 л судан неше литр су артылып қалады?\n",
+      "aze": "Dəvə bir həftə ərzində 11061 litr su içir. Dəvə 7 həftə su içsə, 99430 litr sudan nə qədər su qalar?\n",
+      "kgz": "Төө бир жумада 11061 литр суу иче алат. Эгерде төө 7 жума суу ичсе, 99430  литр суудан канча литр суу калат?\n",
+      "uzb": "Tuya bir haftada 11061 litr suv ichadi. Tuya suvni 7 hafta davomida ichsa, 99430 l suvdan qancha qoladi?\n",
+      "eng": "A camel can drink 11061 litres of water in a week.\nHow many litres of water are left from 99430 litres of water if the camel drinks water for 7 weeks?\n",
+      "rus": "Верблюд может выпить 11061 л воды за неделю.\nСколько литров воды останется из 99430 л, если верблюд будет пить воду в течение 7 недель?\n",
+      "kaz": "Түйе бір аптада 11061 литр су іше алады.\nТүйе суды 7 апта бойы ішсе, 99430 л судан неше литр су артылып қалады?\n",
       "arjd": "",
-      "arsa": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًالترًا؟\n",
-      "areg": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًا؟\n",
+      "arsa": "يشرب الجمل 11061 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة 7 أسابيع أسابيع، فكم لترًا يتبقّى من 99430 لترًالترًا؟\n",
+      "areg": "يشرب الجمل 11061 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة 7 أسابيع أسابيع، فكم لترًا يتبقّى من 99430 لترًا؟\n",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "text"
   },
   "type": "Elixir.Task_4_2_36",
   "position": 15,
-  "id": "4c36c5f6-b69b-4ff2-af2a-58e7ec9a233c",
+  "id": "88106b54-eaa0-42b6-a5bc-714d2f1e4412",
   "solution": {
     "type": "text",
     "answer": {
@@ -62,7 +62,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "77758",
+      "rus": "22003",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

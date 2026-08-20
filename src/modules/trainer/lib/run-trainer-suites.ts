@@ -1,7 +1,6 @@
 import { within } from 'storybook/test'
 
 import { useAiChatStore } from '@/modules/chat/ui/ai-chat/model/ai-chat-store'
-import type { TemplateGroupFixture } from '@/modules/tasks/ui/templates/text/lib/storybook'
 import {
   pickTask,
   resetTrainerSession,
@@ -80,7 +79,7 @@ export const initialCaseResults = (
 
 const playFixtures = (args: TrainerPlaygroundArgs) => {
   const variant = getTrainerVariant(args.variantKey)
-  const groups = variant.groups as unknown as TemplateGroupFixture[]
+  const groups = variant.groups
   const fallbackTask = variant.fallbackTask as TextTask
   return { groups, fallbackTask }
 }

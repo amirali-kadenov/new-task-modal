@@ -9,18 +9,19 @@ import { useCalcSetup } from '@/modules/task-modal/model/hooks/layout/use-calc-s
 import { useInputFocus } from '@/modules/task-modal/model/hooks/layout/use-input-focus'
 import { useTaskModalRefs } from '@/modules/task-modal/model/hooks/layout/use-refs'
 import { useOpenState } from '@/modules/task-modal/model/hooks/use-open-state'
+import { isCalcForceHidden } from '@/modules/task-modal/model/lib/calc-visibility-param'
 import { injectFonts } from '@/modules/task-modal/model/lib/fonts/inject-fonts'
+import { isShellFitContent } from '@/modules/task-modal/model/lib/shell-fit-param'
 import {
   useAppState,
   useStore,
 } from '@/modules/task-modal/model/store/task-modal-store'
 import { TaskModalProviders } from '@/modules/task-modal/providers'
-import { TaskModalControls } from '@/modules/task-modal/ui/content/controls/controls'
 import contentStyles from '@/modules/task-modal/ui/content/content.module.scss'
+import { TaskModalControls } from '@/modules/task-modal/ui/content/controls/controls'
 import { TaskModalHeader } from '@/modules/task-modal/ui/content/header/header'
 import { TaskHints } from '@/modules/task-modal/ui/content/task-hints/task-hints'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
-import type { Task } from '@/types/api/task'
 import {
   applyTrainerState,
   type TrainerStateTab,
@@ -100,6 +101,7 @@ export const TextTemplateTrainer = ({
   const canvas = useOpenState(false)
   const [ready, setReady] = useState(false)
   const [sessionKey, setSessionKey] = useState(0)
+  const fitContent = isShellFitContent(window.location.search)
 
   const closeTrainer = useCallback(() => {
     clearMathInputs(refs.mathInput)
@@ -140,7 +142,7 @@ export const TextTemplateTrainer = ({
 
   return (
     <TaskModalProviders>
-      <div className={styles.shell}>
+      <div className={clsx(styles.shell, fitContent && styles.shellFitContent)}>
         <TrainerBody
           key={sessionKey}
           Template={Template}
@@ -193,15 +195,20 @@ const TrainerBody = ({
     activeTask,
     isTesting: props.hostProps.isTesting,
   })
-  const storyCalcState = forceCalcOpen
+  const forcedOpenCalcState = forceCalcOpen
     ? {
         ...calcState,
         isEnabled: true,
-        // Force open for visual stories, but keep host parity: hide when solution shown
-        isOpen: calcState.isOpen || !activeTask.solution,
+        // Force open for visual stories; hide when solution is shown (host parity)
+        isOpen: !activeTask.solution,
         isSetupFinished: true,
       }
     : calcState
+  // `?calc=hidden` wins over `forceCalcOpen` — used to pixel-diff this story
+  // against the live trainer with the same param (see calc-visibility-param).
+  const storyCalcState = isCalcForceHidden(window.location.search)
+    ? { ...forcedOpenCalcState, isEnabled: false, isOpen: false }
+    : forcedOpenCalcState
   const lastFocusedInput = useInputFocus({
     refs,
     activeTask,
@@ -213,20 +220,22 @@ const TrainerBody = ({
     setIsAnswerChanged(true)
   }
 
+  const { root, header, taskContainer, mathInput } = refs
+
   return (
     <div
-      ref={refs.root}
+      ref={root}
       className={clsx('task-modal', contentStyles.container, styles.body)}
     >
-      <TaskModalHeader props={props} ref={refs.header} />
+      <TaskModalHeader props={props} ref={header} />
 
-      <div style={taskAreaStyle} ref={refs.taskContainer}>
+      <div style={taskAreaStyle} ref={taskContainer}>
         <Template
-          task={activeTask as unknown as TextTask}
+          task={activeTask}
           deps={props.deps}
           answer={answer}
           onChange={onChange}
-          mathInput={refs.mathInput}
+          mathInput={mathInput}
         />
         <TaskHints />
       </div>
@@ -234,7 +243,7 @@ const TrainerBody = ({
       <TaskModalControls
         props={{
           ...props,
-          activeTask: activeTask as Task,
+          activeTask: activeTask,
         }}
         refs={refs}
         calcState={storyCalcState}
@@ -255,10 +264,5 @@ const TrainerChat = ({
   onClose: () => void
 }) => {
   const { activeTask } = useAppState()
-  return (
-    <Chat
-      props={{ ...props, activeTask: activeTask as Task }}
-      onClose={onClose}
-    />
-  )
+  return <Chat props={{ ...props, activeTask: activeTask }} onClose={onClose} />
 }

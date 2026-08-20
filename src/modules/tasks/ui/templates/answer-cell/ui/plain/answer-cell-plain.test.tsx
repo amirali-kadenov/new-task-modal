@@ -47,4 +47,11 @@ describe('answerCell.plain', () => {
     expect(screen.queryByTestId('math-input')).not.toBeInTheDocument()
     expect(screen.getByText(/Правильный ответ/)).toBeInTheDocument()
   })
+
+  it('прячет answercell-строку, если у бэкенда нет структурированного ответа (\\(\\) placeholder)', () => {
+    renderTemplate(Template, { ...task, solution: makeSolution('\\(\\)') })
+
+    expect(screen.queryByTestId('answer-cell-row')).not.toBeInTheDocument()
+    expect(screen.queryByText(/Правильный ответ/)).not.toBeInTheDocument()
+  })
 })

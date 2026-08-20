@@ -10,6 +10,7 @@ import { TextAdornment } from '../../text/shared/text-adornment'
 import { FormulaDescription } from '../shared/formula-description'
 import { FormulaSolution } from '../shared/formula-solution'
 import styles from '../shared/formula.module.scss'
+
 import type { FormulaTask, SimpleFormulaAnswerInput } from './types.task'
 
 interface SimpleFormulaTemplateConfig {

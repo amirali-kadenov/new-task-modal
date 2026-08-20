@@ -61,11 +61,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number2": 2,
-        "number1": 48849
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -79,25 +74,30 @@
         "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number2": 2,
+        "number1": 66469
+      },
       "description": {
         "content": {
           "with_audio_player": false,
-          "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}48849}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
-          "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}48849}\n\\end{array}\n",
+          "aze": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "kgz": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "uzb": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "eng": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "rus": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "kaz": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "arjd": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "arsa": "\\begin{array}{c}\n\\left. {\\phantom{99}66469}\n\\right\\vert{\\underline{2}}\n\\end{array}\\\\\n",
+          "areg": "\\begin{array}{}\n{2} \\vert \\overline{\\phantom{9}66469}\n\\end{array}\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "columnOperation"
       },
       "type": "Elixir.Task_4_2_16",
       "position": 0,
-      "id": "caa4bc6c-8c15-4d28-bed0-c8042abbb5d5",
+      "id": "b69ec6f4-826e-42f2-97f1-9001b8f7f93b",
       "solution": {
         "type": "columnOperation",
         "answer": {
@@ -108,7 +108,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "24424;;1",
+          "rus": "33234;;1",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

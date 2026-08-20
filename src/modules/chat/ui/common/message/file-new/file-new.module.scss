@@ -7,6 +7,9 @@
 }
 
 .fileIcon {
+  width: to-rem(16px);
+  min-width: to-rem(16px);
+  height: to-rem(16px);
   color: var(--text-primary);
 }
 
@@ -21,6 +24,7 @@
   @include caption-bold;
 
   display: block; // For truncation to work
+  max-width: to-rem(220px);
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--text-primary);

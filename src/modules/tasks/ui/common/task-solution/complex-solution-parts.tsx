@@ -1,18 +1,20 @@
 import clsx from 'clsx'
 
-import type { Translation } from '@/types/api/api'
+import type { ComplexCoordinatePlanePart } from '@/modules/tasks/ui/templates/complex/lib/types.task'
+import { CoordinatePlanePart } from '@/modules/tasks/ui/templates/complex/shared/figures/coordinate-plane-part'
+import { uprightMathUnits } from '@/modules/tasks/ui/templates/text/lib/upright-math-units'
+import type { Translation } from '@/types/api/task'
 import { MathText } from '@/ui/math-text/math-text'
 
+import type { TaskModalDependencies } from '../../../../task-modal/model/types/props'
 import {
   SolutionFigureType,
   type ComplexSolutionPart,
 } from '../../../lib/solution-types'
-import type { TaskModalDependencies } from '../../../task-modal/model/types/props'
-
-import { SolutionContentText } from './solution-content-text'
-import { SolutionTable } from './solution-table'
 
 import s from './complex-solution-parts.module.scss'
+import { SolutionContentText } from './solution-content-text'
+import { SolutionTable } from './solution-table'
 
 interface Props {
   parts: ComplexSolutionPart[]
@@ -24,9 +26,7 @@ const renderContent = (
   deps: TaskModalDependencies,
 ) => {
   const text =
-    typeof content === 'string'
-      ? content
-      : deps.global.translateTasks(content)
+    typeof content === 'string' ? content : deps.global.translateTasks(content)
 
   return <SolutionContentText content={text} formulaClassName={s.formula} />
 }
@@ -59,7 +59,7 @@ const MultipleChoicePart = ({
               dangerouslySetInnerHTML={{ __html: variant.image }}
             />
           ) : (
-            <MathText>{label}</MathText>
+            <MathText>{uprightMathUnits(label)}</MathText>
           )}
         </div>
       )
@@ -110,9 +110,11 @@ export const ComplexSolutionParts = ({ parts, deps }: Props) => (
 
         case SolutionFigureType.CoordinatePlane:
           return (
-            <p key={index} className={s.unsupported}>
-              Coordinate plane (solution preview not available in new modal)
-            </p>
+            <CoordinatePlanePart
+              key={index}
+              part={part as unknown as ComplexCoordinatePlanePart}
+              deps={deps}
+            />
           )
 
         default:

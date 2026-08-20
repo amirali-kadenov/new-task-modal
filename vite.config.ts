@@ -119,7 +119,7 @@ export default defineConfig(({ mode }) => {
       },
       sourcemap: isDev,
       minify: isDev ? false : 'esbuild',
-      cssCodeSplit: true,
+      cssCodeSplit: false,
       assetsInlineLimit: 0,
       rollupOptions: {
         output: {

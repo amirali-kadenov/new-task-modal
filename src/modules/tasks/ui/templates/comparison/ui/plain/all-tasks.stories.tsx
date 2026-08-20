@@ -3,7 +3,6 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import {
   normalizeAllTasksFile,
   renderAllTasksStory,
-  type AllTasksFile,
   type ComparisonStoryMetaArgs,
   makePlayAllTasksSmoke,
 } from '../../lib/storybook'
@@ -18,15 +17,21 @@ const allTasks = normalizeAllTasksFile(allTasksJson)
 
 const meta = {
   title: 'Templates/Comparison/plain/Tasks',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     grade: allTasks.defaultGrade,
+    taskId: '',
   },
   argTypes: {
     grade: {
       control: 'select',
       options: allTasks.grades,
       description: 'Класс (grade) для списка задач в Tasks',
+    },
+    taskId: {
+      control: 'text',
+      description: 'Опционально: одна задача (пусто = все)',
     },
   },
   parameters: {
@@ -39,11 +44,12 @@ type Story = StoryObj<ComparisonStoryMetaArgs>
 
 export const All: Story = {
   play: makePlayAllTasksSmoke(),
-  render: ({ grade }) =>
+  render: ({ grade, taskId }) =>
     renderAllTasksStory({
       Template,
       tasks: allTasksJson,
       grade: grade ?? allTasks.defaultGrade,
+      taskId,
       rootTitle: ROOT_TITLE,
     }),
 }

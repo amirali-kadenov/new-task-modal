@@ -10,6 +10,16 @@
   // Do not overflow:hidden here — heart decrease animation uses top: -20px.
 }
 
+/**
+ * Opt-in via ?fit=content (trainer-parity visual check). Not content-auto —
+ * mirrors the real host's react-modal dialog height exactly: `modalStyle`
+ * (matheducator/reactjs_client/src/common/constants.js) sets the desktop
+ * modal content height to a flat `80%` of viewport.
+ */
+.shellFitContent {
+  height: 80dvh;
+}
+
 .body {
   display: flex;
   flex: 1;

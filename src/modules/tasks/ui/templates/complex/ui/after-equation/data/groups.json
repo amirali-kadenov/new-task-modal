@@ -1,0 +1,217 @@
+[
+  {
+    "group": "complex_5",
+    "count": 10,
+    "launch": {
+      "grade": 4,
+      "chapterId": "133",
+      "lessonId": "2251",
+      "taskIndex": 4
+    },
+    "tasks": [
+      {
+        "id": "4_7_2_3",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 4
+        }
+      },
+      {
+        "id": "4_7_2_4",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 6
+        }
+      },
+      {
+        "id": "4_7_2_5",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 8
+        }
+      },
+      {
+        "id": "4_7_2_6",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 10
+        }
+      },
+      {
+        "id": "4_7_2_12",
+        "launch": {
+          "grade": 4,
+          "chapterId": "133",
+          "lessonId": "2251",
+          "taskIndex": 18
+        }
+      }
+    ],
+    "task": {
+      "attemptsCount": null,
+      "isPrimary": true,
+      "hasVideoUrl": true,
+      "isPenalty": false,
+      "answerInput": {
+        "svg": "",
+        "before": "",
+        "after": {
+          "with_audio_player": false,
+          "aze": "sm³",
+          "kgz": "см³",
+          "uzb": "cm³",
+          "eng": "sm³",
+          "rus": "см³",
+          "kaz": "см³",
+          "arjd": "sm³",
+          "arsa": "",
+          "areg": "سم\\(^3\\)",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "text": " ",
+        "down": "",
+        "up": "",
+        "type": 10
+      },
+      "difficulty": "x1",
+      "result": "none",
+      "title": {
+        "with_audio_player": false,
+        "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
+        "kgz": "Көрсөтүлгөн бирдик менен туюнтуңуз.",
+        "uzb": "Ko'rsatilgan o'lchov birliklarida ifodalang.",
+        "eng": "Express it in the given unit of measurement.",
+        "rus": "Выразите в указанной единице измерения.",
+        "kaz": "Көрсетілген өлшем бірлігіне өрнектеңіз.",
+        "arjd": "",
+        "arsa": "",
+        "areg": "حول إلى وحدة القياس المطلوبة:",
+        "module_name": "Elixir.Helpers.Translation"
+      },
+      "fields": {
+        "difficulty": "x1",
+        "number": 6
+      },
+      "description": {
+        "isAnswerCellHidden": true,
+        "isCalculatorClosed": false,
+        "parts": [
+          {
+            "width": "auto",
+            "type": 120,
+            "tableAlign": "center",
+            "rows": [
+              {
+                "rowspan_list": [],
+                "rowspan_at": 0,
+                "rowspan": 1,
+                "colspan_list": [],
+                "colspan_at": 0,
+                "colspan": 1,
+                "border_bottom": null,
+                "cells": [
+                  {
+                    "with_audio_player": false,
+                    "aze": "6 \\(dm^3\\) = \\(\\ \\)",
+                    "kgz": "",
+                    "uzb": "6 \\(dm^3\\) = \\(\\ \\)",
+                    "eng": "6 \\(dm^3\\) = \\(\\ \\)",
+                    "rus": "6 \\(дм^3\\) = \\(\\ \\)",
+                    "kaz": "6 \\(дм^3\\) = \\(\\ \\)",
+                    "arjd": "",
+                    "arsa": "",
+                    "areg": "6 دسم\\(^3\\) = \\(\\ \\)",
+                    "module_name": "Elixir.Helpers.Translation"
+                  },
+                  "answercell",
+                  {
+                    "with_audio_player": false,
+                    "aze": "sm³",
+                    "kgz": "см³",
+                    "uzb": "cm³",
+                    "eng": "sm³",
+                    "rus": "см³",
+                    "kaz": "см³",
+                    "arjd": "sm³",
+                    "arsa": "",
+                    "areg": "سم\\(^3\\)",
+                    "module_name": "Elixir.Helpers.Translation"
+                  }
+                ],
+                "width": null
+              }
+            ],
+            "removePadding": true,
+            "removeBorders": true,
+            "padding": null,
+            "marginBottom": null,
+            "isAnswerCellHidden": true,
+            "columnHeaders": [],
+            "columnAlign": "center",
+            "bottomVarticalAlign": false,
+            "border": ""
+          }
+        ],
+        "type": "complex"
+      },
+      "type": "Elixir.Task_4_7_2_3",
+      "position": 4,
+      "id": "8e2a5e7d-b39b-467a-ac61-863b7f00313f",
+      "solution": {
+        "type": "formula",
+        "answer": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "6000",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        },
+        "content": {
+          "with_audio_player": false,
+          "aze": "",
+          "arsa": "",
+          "areg": "",
+          "kgz": "",
+          "uzb": "",
+          "eng": "",
+          "rus": "",
+          "kaz": "",
+          "school": "",
+          "module_name": "Elixir.Helpers.Translation"
+        }
+      },
+      "hint1": null,
+      "hint2": null,
+      "videoId": "oT82VjS-pQc",
+      "videoUrl": "https://youtube.com/embed/oT82VjS-pQc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+      "videoUrlAsTranslation": {
+        "school": "https://rutube.ru/play/embed/dbc9ae041d86018c4540aa1a038c4f54?p=rclw7k8kBl22IJ9rZUKlkQ",
+        "with_audio_player": false,
+        "aze": null,
+        "kgz": null,
+        "uzb": "https://youtube.com/embed/6xzJG36zmZQ?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "eng": null,
+        "rus": "https://youtube.com/embed/_no2-JNOB3M?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "kaz": "https://youtube.com/embed/oT82VjS-pQc?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+        "arjd": "",
+        "arsa": null,
+        "areg": null,
+        "module_name": "Elixir.Helpers.Translation"
+      }
+    }
+  }
+]

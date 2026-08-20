@@ -1,26 +1,58 @@
 import { TemplateTypes } from '../../../model/template-types.ts'
 
 const map = {
-  [TemplateTypes.Text.Plain]: [
-    '13_1', '13_2', '13_5', '14_2', '14_3', '14_4', '14_6', '14_7',
-    '14_8',
-  ],
-  [TemplateTypes.Text.After]: [
-    '13_3', '13_4', '13_6', '13_7', '14_5',
-  ],
-  [TemplateTypes.Formula.Plain]: [
-    '1_1', '1_2', '1_3', '1_4', '1_5', '1_6', '1_7',
+  [TemplateTypes.ColumnOperation.Multi.Stack.N2Before]: [7, 12],
+  [TemplateTypes.ColumnOperation.Plain]: [
+    4,
+    5,
+    6,
+    '8_1',
+    '8_2',
+    '8_3',
+    '8_4',
+    '9_1',
+    '9_2',
+    '9_3',
+    '9_4',
+    10,
+    11,
   ],
   [TemplateTypes.Complex.Plain]: [
-    '1_10', '1_11', '1_12', '1_13', '1_14', '1_15', '1_8', '1_9',
-    2, '3_1', '3_2', '3_3',
+    '1_8',
+    '1_9',
+    '1_10',
+    '1_11',
+    '1_12',
+    '1_13',
+    '1_14',
+    '1_15',
+    2,
+    '3_1',
+    '3_2',
+    '3_3',
   ],
-  [TemplateTypes.ColumnOperation.Plain]: [
-    4, 5, 6, 10, 11, '8_1', '8_2', '8_3',
-    '8_4', '9_1', '9_2', '9_3', '9_4',
+  [TemplateTypes.Formula.Plain]: [
+    '1_1',
+    '1_2',
+    '1_3',
+    '1_4',
+    '1_5',
+    '1_6',
+    '1_7',
   ],
-  [TemplateTypes.ColumnOperation.Multi.Stack.N2Before]: [
-    7, 12,
+  [TemplateTypes.Text.After]: ['13_3', '13_4', '13_6', '13_7', '14_5'],
+  [TemplateTypes.Text.Multi.Stack.N2After]: ['13_8'],
+  [TemplateTypes.Text.Multi.Stack.N2Before]: ['14_1'],
+  [TemplateTypes.Text.Plain]: [
+    '13_1',
+    '13_2',
+    '13_5',
+    '14_2',
+    '14_3',
+    '14_4',
+    '14_6',
+    '14_7',
+    '14_8',
   ],
 }
 

@@ -7,13 +7,11 @@ import {
   useAppState,
   useStore,
 } from '@/modules/task-modal/model/store/task-modal-store'
+import { LegacyTaskRoot } from '@/modules/task-modal/ui/legacy-task-root'
 import { useTaskComponent } from '@/modules/tasks/model/component/use-task-component'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 
 import type { TaskModalProps } from '../../../model/types/props'
-
-import { LegacyTaskRoot } from '@/modules/task-modal/ui/legacy-task-root'
-
 import { TaskHints } from '../task-hints/task-hints'
 
 import { ContainerSkeleton } from './container-skeleton'
@@ -51,7 +49,7 @@ export const TaskModalContainer = ({
     try {
       const key = activeTask.type.replace('Elixir.Task_', '')
       return Boolean(availableTasks?.[key])
-    } catch (e) {
+    } catch {
       return true
     }
   })()

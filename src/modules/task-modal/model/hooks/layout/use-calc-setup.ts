@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import type { Task } from '@/types/api/task'
 
@@ -25,8 +25,6 @@ export const useCalcSetup = ({ activeTask, refs, isTesting = false }: Args) => {
 
   const [setupTrigger, setSetupTrigger] = useState(0)
 
-  const setupTriggerRef = useRef<string | null>(null)
-
   // Effect 1: Determine if calculator should be enabled for this task type
   useEffect(() => {
     if (!isTaskLoaded) return
@@ -46,11 +44,46 @@ export const useCalcSetup = ({ activeTask, refs, isTesting = false }: Args) => {
   useEffect(() => {
     if (setupTrigger === 0) return
 
-    const removeEventListener = handleCalcOverflow({ refs, calc })
+    let removeEventListener: (() => void) | undefined
+    let cancelled = false
+    let innerRaf = 0
+    let retryId = 0
+    let attempts = 0
+    const MAX_ATTEMPTS = 40
 
-    setFinishedTaskId(activeTask.id)
+    const finishSetup = () => {
+      if (cancelled) return
+      removeEventListener = handleCalcOverflow({ refs, calc })
+      setFinishedTaskId(activeTask.id)
+    }
 
-    return removeEventListener
+    // On a cold deep-link load the MathQuill script can still be loading once
+    // the paint frames below fire — flipping isSetupFinished (and attaching
+    // use-input-focus's click handler) before MathQuill attaches makes inputs
+    // look clickable but do nothing. Wait for window.MathQuill too, same
+    // retry cadence as MathInput's own init retry.
+    const waitForMathQuill = () => {
+      if (cancelled) return
+      if (window.MathQuill || attempts++ >= MAX_ATTEMPTS) {
+        finishSetup()
+        return
+      }
+      retryId = window.setTimeout(waitForMathQuill, 50)
+    }
+
+    // Wait for paint so taskContainer scrollHeight/available height are real
+    // (otherwise overflow is missed and calc stays open with all [data-calc] keys).
+    const outerRaf = requestAnimationFrame(() => {
+      innerRaf = requestAnimationFrame(waitForMathQuill)
+    })
+
+    return () => {
+      cancelled = true
+      cancelAnimationFrame(outerRaf)
+      cancelAnimationFrame(innerRaf)
+      window.clearTimeout(retryId)
+      removeEventListener?.()
+    }
   }, [setupTrigger])
 
   // Derive whether setup is finished during render phase to avoid the 1-frame stale state

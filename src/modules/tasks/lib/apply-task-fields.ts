@@ -7,6 +7,11 @@ export const applyTaskFields = (
 
   return text.replace(/\{(\w+)\}/g, (_, key: string) => {
     const value = fields[key]
-    return value !== undefined && value !== null ? String(value) : `{${key}}`
+    if (value === undefined || value === null) return `{${key}}`
+    if (typeof value === 'string') return value
+    if (typeof value === 'number' || typeof value === 'boolean') {
+      return String(value)
+    }
+    return JSON.stringify(value)
   })
 }

@@ -29,17 +29,17 @@
           },
           "difficulty": "x1",
           "result": "none",
+          "title": null,
           "fields": {
             "difficulty": "x1",
             "variants": [
-              60000,
-              10000,
+              30000,
+              70000,
               50000,
-              30000
+              10000
             ],
-            "number": 30000
+            "number": 50000
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -48,28 +48,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "altmış min",
-                "kgz": "алтымыш миң",
-                "uzb": "oltmish ming",
-                "eng": "sixty thousand",
-                "rus": "шестьдесят тысяч",
-                "kaz": "алпыс мың",
+                "aze": "otuz min",
+                "kgz": "отуз миң",
+                "uzb": "o'ttiz ming",
+                "eng": "thirty thousand",
+                "rus": "тридцать тысяч",
+                "kaz": "отыз мың",
                 "arjd": "",
                 "arsa": "",
-                "areg": "ستون ألفًا",
+                "areg": "ثلاثون ألفًا",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "on min",
-                "kgz": "он миң",
-                "uzb": "o'n ming",
-                "eng": "ten thousand",
-                "rus": "десять тысяч",
-                "kaz": "он мың",
+                "aze": "yetmiş min",
+                "kgz": "жетимиш миң",
+                "uzb": "yetmish ming",
+                "eng": "seventy thousand",
+                "rus": "семьдесят тысяч",
+                "kaz": "жетпіс мың",
                 "arjd": "",
                 "arsa": "",
-                "areg": "عشرة آلاف",
+                "areg": "سبعون ألفًا",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -87,15 +87,15 @@
               },
               {
                 "with_audio_player": false,
-                "aze": "otuz min",
-                "kgz": "отуз миң",
-                "uzb": "o'ttiz ming",
-                "eng": "thirty thousand",
-                "rus": "тридцать тысяч",
-                "kaz": "отыз мың",
+                "aze": "on min",
+                "kgz": "он миң",
+                "uzb": "o'n ming",
+                "eng": "ten thousand",
+                "rus": "десять тысяч",
+                "kaz": "он мың",
                 "arjd": "",
                 "arsa": "",
-                "areg": "ثلاثون ألفًا",
+                "areg": "عشرة آلاف",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -108,15 +108,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "30000 ədədinin sözlərlə düzgün yazılışını seçin:",
-              "kgz": "30000 санынын туура окулушун көрсөтүңүз.",
-              "uzb": "30000 sonining to'g'ri o'qilishini ko'rsating.",
-              "eng": "Select the correct name of the number 30000.",
-              "rus": "Укажите правильное чтение числа 30000.",
-              "kaz": "30000 санының дұрыс аталуын көрсетіңіз.",
+              "aze": "50000 ədədinin sözlərlə düzgün yazılışını seçin:",
+              "kgz": "50000 санынын туура окулушун көрсөтүңүз.",
+              "uzb": "50000 sonining to'g'ri o'qilishini ko'rsating.",
+              "eng": "Select the correct name of the number 50000.",
+              "rus": "Укажите правильное чтение числа 50000.",
+              "kaz": "50000 санының дұрыс аталуын көрсетіңіз.",
               "arjd": "",
               "arsa": "",
-              "areg": "اختر الصيغة اللفظية التي تعبر عن العدد 30000",
+              "areg": "اختر الصيغة اللفظية التي تعبر عن العدد 50000",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -138,7 +138,7 @@
           },
           "type": "Elixir.Task_4_1_2",
           "position": 10,
-          "id": "a47d5fd0-5994-4536-9b52-4fb0bbf32105",
+          "id": "f7869de9-4ff4-4141-9d46-29242f7b6b8a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -149,7 +149,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "D",
+              "rus": "C",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -213,17 +213,17 @@
           },
           "difficulty": "x1",
           "result": "none",
+          "title": null,
           "fields": {
             "difficulty": "x1",
             "variants": [
-              100000,
+              600000,
               900000,
               400000,
               500000
             ],
-            "number": 100000
+            "number": 400000
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -232,15 +232,15 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "yüz min",
-                "kgz": "жүз миң",
-                "uzb": "bir yuz ming",
-                "eng": "one hundred thousand",
-                "rus": "сто тысяч",
-                "kaz": "жүз мың",
+                "aze": "altı yüz min",
+                "kgz": "алты жүз миң",
+                "uzb": "olti yuz ming",
+                "eng": "six hundred thousand",
+                "rus": "шестьсот тысяч",
+                "kaz": "алты жүз мың",
                 "arjd": "",
                 "arsa": "",
-                "areg": "مائة ألف",
+                "areg": "ستمائة ألف",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -292,15 +292,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "100000 ədədinin sözlərlə düzgün yazılışını göstərin:",
-              "kgz": "100000 санынын туура окулушун көрсөтүңүз.",
-              "uzb": "100000 sonining to'g'ri aytilishini ko'rsating.",
-              "eng": "Select the correct written name of the number 100000.",
-              "rus": "Укажите правильное чтение числа 100000.",
-              "kaz": "100000 санының дұрыс аталуын көрсетіңіз.",
+              "aze": "400000 ədədinin sözlərlə düzgün yazılışını göstərin:",
+              "kgz": "400000 санынын туура окулушун көрсөтүңүз.",
+              "uzb": "400000 sonining to'g'ri aytilishini ko'rsating.",
+              "eng": "Select the correct written name of the number 400000.",
+              "rus": "Укажите правильное чтение числа 400000.",
+              "kaz": "400000 санының дұрыс аталуын көрсетіңіз.",
               "arjd": "",
               "arsa": "",
-              "areg": "اختر الصيغة اللفظية الصحيحة للعدد 100000",
+              "areg": "اختر الصيغة اللفظية الصحيحة للعدد 400000",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -322,7 +322,7 @@
           },
           "type": "Elixir.Task_4_4_2",
           "position": 12,
-          "id": "f2f1c375-6106-4195-a2ac-30cf85f50809",
+          "id": "2aa2146f-a40d-4cd7-b03c-a9007fae4590",
           "solution": {
             "type": "formula",
             "answer": {
@@ -333,7 +333,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "C",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -397,17 +397,17 @@
           },
           "difficulty": "x1",
           "result": "none",
+          "title": null,
           "fields": {
             "difficulty": "x1",
             "variants": [
-              57000001,
-              32000001,
-              11000001,
-              55000001
+              42000006,
+              79000006,
+              25000006,
+              72000006
             ],
-            "number": 32000001
+            "number": 25000006
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -416,54 +416,54 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "əlli yeddi̇ milyon bi̇r",
+                "aze": "qırx i̇ki̇ milyon altı",
                 "kgz": "",
-                "uzb": "ellik yetti million bir",
-                "eng": "fifty-seven million and one",
-                "rus": "пятьдесят семь миллионов один",
-                "kaz": "елу жеті миллион бір",
+                "uzb": "qirq ikki million olti",
+                "eng": "forty-two million and six",
+                "rus": "сорок два миллиона шесть",
+                "kaz": "қырық екі миллион алты",
                 "arjd": "",
                 "arsa": "",
-                "areg": "سبعة وخمسون مليونًا وواحد",
+                "areg": "اثنان وأربعون مليونًا وستة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "otuz i̇ki̇ milyon bi̇r",
+                "aze": "yetmiş doqquz milyon altı",
                 "kgz": "",
-                "uzb": "o'ttiz ikki million bir",
-                "eng": "thirty-two million and one",
-                "rus": "тридцать два миллиона один",
-                "kaz": "отыз екі миллион бір",
+                "uzb": "yetmish to'qqiz million olti",
+                "eng": "seventy-nine million and six",
+                "rus": "семьдесят девять миллионов шесть",
+                "kaz": "жетпіс тоғыз миллион алты",
                 "arjd": "",
                 "arsa": "",
-                "areg": "اثنان وثلاثون مليونًا وواحد",
+                "areg": "تسعة وسبعون مليونًا وستة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "on bi̇r milyon bi̇r",
+                "aze": "iyirmi beş milyon altı",
                 "kgz": "",
-                "uzb": "o'n bir million bir",
-                "eng": "eleven million and one",
-                "rus": "одиннадцать миллион один",
-                "kaz": "он бір миллион бір",
+                "uzb": "yigirma besh million olti",
+                "eng": "twenty-five million and six",
+                "rus": "двадцать пять миллионов шесть",
+                "kaz": "жиырма бес миллион алты",
                 "arjd": "",
                 "arsa": "",
-                "areg": "أحد عشر مليونًا وواحد",
+                "areg": "خمسة وعشرون مليونًا وستة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "əlli beş milyon bi̇r",
+                "aze": "yetmiş i̇ki̇ milyon altı",
                 "kgz": "",
-                "uzb": "ellik besh million bir",
-                "eng": "fifty-five million and one",
-                "rus": "пятьдесят пять миллионов один",
-                "kaz": "елу бес миллион бір",
+                "uzb": "yetmish ikki million olti",
+                "eng": "seventy-two million and six",
+                "rus": "семьдесят два миллиона шесть",
+                "kaz": "жетпіс екі миллион алты",
                 "arjd": "",
                 "arsa": "",
-                "areg": "خمسة وخمسون مليونًا وواحد",
+                "areg": "اثنان وسبعون مليونًا وستة",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -476,15 +476,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "32000001 ədədinin düzgün yazılışını seçin",
-              "kgz": "32000001 санынын туура жазылышын көрсөтүңүз",
-              "uzb": "32000001 sonining to'g'ri yozilishini ko'rsating",
-              "eng": "Select the correct written name for the number 32000001.",
-              "rus": "Укажите правильное чтение числа 32000001.",
-              "kaz": "32000001 санының дұрыс жазылуын көрсетіңіз.",
+              "aze": "25000006 ədədinin düzgün yazılışını seçin",
+              "kgz": "25000006 санынын туура жазылышын көрсөтүңүз",
+              "uzb": "25000006 sonining to'g'ri yozilishini ko'rsating",
+              "eng": "Select the correct written name for the number 25000006.",
+              "rus": "Укажите правильное чтение числа 25000006.",
+              "kaz": "25000006 санының дұрыс жазылуын көрсетіңіз.",
               "arjd": "",
               "arsa": "",
-              "areg": "اختر الصيغة اللفظية الصحيحة للعدد 32000001:",
+              "areg": "اختر الصيغة اللفظية الصحيحة للعدد 25000006:",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -506,7 +506,7 @@
           },
           "type": "Elixir.Task_4_8_1_2",
           "position": 14,
-          "id": "5c8e9846-811f-4d7e-947c-7b0da2b8343d",
+          "id": "1d6fd70b-3b2c-4a6e-a2a2-4c6321272e99",
           "solution": {
             "type": "formula",
             "answer": {
@@ -517,7 +517,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "C",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -581,7 +581,9 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
+            "degree": 32,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -602,7 +604,7 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "D",
               "background": null,
               "figures": [
                 {
@@ -618,22 +620,48 @@
                       "degree": 0
                     },
                     {
-                      "text": "27°",
+                      "text": "32°",
                       "isTextVisible": true,
                       "isCurveVisible": true,
                       "dot": null,
-                      "degree": 27
+                      "degree": 32
                     }
                   ],
                   "centerPointLetter": "A"
                 }
               ],
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
+                {
+                  "with_audio_player": false,
+                  "aze": "Açıq bucaq",
+                  "kgz": "Жайылган бурч",
+                  "uzb": "Yoyiq burchak",
+                  "eng": "Straight angle",
+                  "rus": "Развернутый угол",
+                  "kaz": "жазыңқы бұрыш",
+                  "arjd": "زاوية مستقيمة",
+                  "arsa": "زاوية مستقيمة",
+                  "areg": "زاوية مستقيمة",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "Düz bucaq",
+                  "kgz": "Тик бурч",
+                  "uzb": "To'g'ri burchak",
+                  "eng": "Right angle",
+                  "rus": "Прямой угол",
+                  "kaz": "тік бұрыш",
+                  "arjd": "زاوية قائمة",
+                  "arsa": "زاوية قائمة",
+                  "areg": "زاوية قائمة",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
                 {
                   "with_audio_player": false,
                   "aze": "Kor bucaq",
@@ -659,32 +687,6 @@
                   "arsa": "زاوية حادة",
                   "areg": "زاوية حادة",
                   "module_name": "Elixir.Helpers.Translation"
-                },
-                {
-                  "with_audio_player": false,
-                  "aze": "Düz bucaq",
-                  "kgz": "Тик бурч",
-                  "uzb": "To'g'ri burchak",
-                  "eng": "Right angle",
-                  "rus": "Прямой угол",
-                  "kaz": "тік бұрыш",
-                  "arjd": "زاوية قائمة",
-                  "arsa": "زاوية قائمة",
-                  "areg": "زاوية قائمة",
-                  "module_name": "Elixir.Helpers.Translation"
-                },
-                {
-                  "with_audio_player": false,
-                  "aze": "Açıq bucaq",
-                  "kgz": "Жайылган бурч",
-                  "uzb": "Yoyiq burchak",
-                  "eng": "Straight angle",
-                  "rus": "Развернутый угол",
-                  "kaz": "жазыңқы бұрыш",
-                  "arjd": "زاوية مستقيمة",
-                  "arsa": "زاوية مستقيمة",
-                  "areg": "زاوية مستقيمة",
-                  "module_name": "Elixir.Helpers.Translation"
                 }
               ],
               "module_name": "Elixir.MultipleChoice",
@@ -702,16 +704,40 @@
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
-            },
-            "degree": 27
+            }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
+              {
+                "with_audio_player": false,
+                "aze": "Açıq bucaq",
+                "kgz": "Жайылган бурч",
+                "uzb": "Yoyiq burchak",
+                "eng": "Straight angle",
+                "rus": "Развернутый угол",
+                "kaz": "жазыңқы бұрыш",
+                "arjd": "زاوية مستقيمة",
+                "arsa": "زاوية مستقيمة",
+                "areg": "زاوية مستقيمة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              {
+                "with_audio_player": false,
+                "aze": "Düz bucaq",
+                "kgz": "Тик бурч",
+                "uzb": "To'g'ri burchak",
+                "eng": "Right angle",
+                "rus": "Прямой угол",
+                "kaz": "тік бұрыш",
+                "arjd": "زاوية قائمة",
+                "arsa": "زاوية قائمة",
+                "areg": "زاوية قائمة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
               {
                 "with_audio_player": false,
                 "aze": "Kor bucaq",
@@ -736,32 +762,6 @@
                 "arjd": "زاوية حادة",
                 "arsa": "زاوية حادة",
                 "areg": "زاوية حادة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
-              {
-                "with_audio_player": false,
-                "aze": "Düz bucaq",
-                "kgz": "Тик бурч",
-                "uzb": "To'g'ri burchak",
-                "eng": "Right angle",
-                "rus": "Прямой угол",
-                "kaz": "тік бұрыш",
-                "arjd": "زاوية قائمة",
-                "arsa": "زاوية قائمة",
-                "areg": "زاوية قائمة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
-              {
-                "with_audio_player": false,
-                "aze": "Açıq bucaq",
-                "kgz": "Жайылган бурч",
-                "uzb": "Yoyiq burchak",
-                "eng": "Straight angle",
-                "rus": "Развернутый угол",
-                "kaz": "жазыңқы бұрыш",
-                "arjd": "زاوية مستقيمة",
-                "arsa": "زاوية مستقيمة",
-                "areg": "زاوية مستقيمة",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -809,25 +809,25 @@
                     "degree": 0
                   },
                   {
-                    "text": "27°",
+                    "text": "32°",
                     "isTextVisible": true,
                     "isCurveVisible": true,
                     "dot": null,
-                    "degree": 27
+                    "degree": 32
                   }
                 ],
                 "centerPointLetter": "A"
               }
             ],
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "D",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_12_22_1",
           "position": 0,
-          "id": "1690c943-531f-4650-b4bd-578495589901",
+          "id": "febc5fc9-a72e-439b-bd22-f53859a100ba",
           "solution": {
             "type": "formula",
             "answer": {
@@ -838,7 +838,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "D",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -902,7 +902,9 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
+            "degree": 153,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -923,7 +925,7 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "D",
+              "correct_answer": "B",
               "background": null,
               "figures": [
                 {
@@ -939,21 +941,21 @@
                       "degree": 0
                     },
                     {
-                      "text": "142°",
+                      "text": "153°",
                       "isTextVisible": true,
                       "isCurveVisible": true,
                       "dot": null,
-                      "degree": 142
+                      "degree": 153
                     }
                   ],
                   "centerPointLetter": "A"
                 }
               ],
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
@@ -966,6 +968,19 @@
                   "arjd": "زاوية حادة",
                   "arsa": "زاوية حادة",
                   "areg": "زاوية حادة",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "Kor bucaq",
+                  "kgz": "Кең бурч",
+                  "uzb": "O'tmas burchak",
+                  "eng": "Obtuse angle",
+                  "rus": "Тупой угол",
+                  "kaz": "доғал бұрыш",
+                  "arjd": "زاوية منفرجة",
+                  "arsa": "زاوية منفرجة",
+                  "areg": "زاوية منفرجة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
@@ -993,19 +1008,6 @@
                   "arsa": "زاوية مستقيمة",
                   "areg": "زاوية مستقيمة",
                   "module_name": "Elixir.Helpers.Translation"
-                },
-                {
-                  "with_audio_player": false,
-                  "aze": "Kor bucaq",
-                  "kgz": "Кең бурч",
-                  "uzb": "O'tmas burchak",
-                  "eng": "Obtuse angle",
-                  "rus": "Тупой угол",
-                  "kaz": "доғал бұрыш",
-                  "arjd": "زاوية منفرجة",
-                  "arsa": "زاوية منفرجة",
-                  "areg": "زاوية منفرجة",
-                  "module_name": "Elixir.Helpers.Translation"
                 }
               ],
               "module_name": "Elixir.MultipleChoice",
@@ -1023,10 +1025,8 @@
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
-            },
-            "degree": 142
+            }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -1044,6 +1044,19 @@
                 "arjd": "زاوية حادة",
                 "arsa": "زاوية حادة",
                 "areg": "زاوية حادة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              {
+                "with_audio_player": false,
+                "aze": "Kor bucaq",
+                "kgz": "Кең бурч",
+                "uzb": "O'tmas burchak",
+                "eng": "Obtuse angle",
+                "rus": "Тупой угол",
+                "kaz": "доғал бұрыш",
+                "arjd": "زاوية منفرجة",
+                "arsa": "زاوية منفرجة",
+                "areg": "زاوية منفرجة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -1070,19 +1083,6 @@
                 "arjd": "زاوية مستقيمة",
                 "arsa": "زاوية مستقيمة",
                 "areg": "زاوية مستقيمة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
-              {
-                "with_audio_player": false,
-                "aze": "Kor bucaq",
-                "kgz": "Кең бурч",
-                "uzb": "O'tmas burchak",
-                "eng": "Obtuse angle",
-                "rus": "Тупой угол",
-                "kaz": "доғал бұрыш",
-                "arjd": "زاوية منفرجة",
-                "arsa": "زاوية منفرجة",
-                "areg": "زاوية منفرجة",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -1130,25 +1130,25 @@
                     "degree": 0
                   },
                   {
-                    "text": "142°",
+                    "text": "153°",
                     "isTextVisible": true,
                     "isCurveVisible": true,
                     "dot": null,
-                    "degree": 142
+                    "degree": 153
                   }
                 ],
                 "centerPointLetter": "A"
               }
             ],
             "countable": [],
-            "correctAnswer": "D",
+            "correctAnswer": "B",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_12_22_2",
           "position": 1,
-          "id": "e83b9d59-8125-420d-8132-d3b2a6386569",
+          "id": "1dfaf0da-5950-42f3-9072-1ecb73bb4c16",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1159,7 +1159,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "D",
+              "rus": "B",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1223,7 +1223,9 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
+            "degree": 90,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -1244,7 +1246,7 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "C",
+              "correct_answer": "A",
               "background": null,
               "figures": [
                 {
@@ -1270,38 +1272,12 @@
                   "centerPointLetter": "A"
                 }
               ],
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                {
-                  "with_audio_player": false,
-                  "aze": "İti bucaq",
-                  "kgz": "Тар бурч",
-                  "uzb": "O'tkir burchak",
-                  "eng": "Acute angle",
-                  "rus": "Острый угол",
-                  "kaz": "сүйір бұрыш",
-                  "arjd": "زاوية حادة",
-                  "arsa": "زاوية حادة",
-                  "areg": "زاوية حادة",
-                  "module_name": "Elixir.Helpers.Translation"
-                },
-                {
-                  "with_audio_player": false,
-                  "aze": "Kor bucaq",
-                  "kgz": "Кең бурч",
-                  "uzb": "O'tmas burchak",
-                  "eng": "Obtuse angle",
-                  "rus": "Тупой угол",
-                  "kaz": "доғал бұрыш",
-                  "arjd": "زاوية منفرجة",
-                  "arsa": "زاوية منفرجة",
-                  "areg": "زاوية منفرجة",
-                  "module_name": "Elixir.Helpers.Translation"
-                },
                 {
                   "with_audio_player": false,
                   "aze": "Düz bucaq",
@@ -1327,6 +1303,32 @@
                   "arsa": "زاوية مستقيمة",
                   "areg": "زاوية مستقيمة",
                   "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "Kor bucaq",
+                  "kgz": "Кең бурч",
+                  "uzb": "O'tmas burchak",
+                  "eng": "Obtuse angle",
+                  "rus": "Тупой угол",
+                  "kaz": "доғал бұрыш",
+                  "arjd": "زاوية منفرجة",
+                  "arsa": "زاوية منفرجة",
+                  "areg": "زاوية منفرجة",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "İti bucaq",
+                  "kgz": "Тар бурч",
+                  "uzb": "O'tkir burchak",
+                  "eng": "Acute angle",
+                  "rus": "Острый угол",
+                  "kaz": "сүйір бұрыш",
+                  "arjd": "زاوية حادة",
+                  "arsa": "زاوية حادة",
+                  "areg": "زاوية حادة",
+                  "module_name": "Elixir.Helpers.Translation"
                 }
               ],
               "module_name": "Elixir.MultipleChoice",
@@ -1344,42 +1346,14 @@
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
-            },
-            "degree": 90
+            }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              {
-                "with_audio_player": false,
-                "aze": "İti bucaq",
-                "kgz": "Тар бурч",
-                "uzb": "O'tkir burchak",
-                "eng": "Acute angle",
-                "rus": "Острый угол",
-                "kaz": "сүйір бұрыш",
-                "arjd": "زاوية حادة",
-                "arsa": "زاوية حادة",
-                "areg": "زاوية حادة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
-              {
-                "with_audio_player": false,
-                "aze": "Kor bucaq",
-                "kgz": "Кең бурч",
-                "uzb": "O'tmas burchak",
-                "eng": "Obtuse angle",
-                "rus": "Тупой угол",
-                "kaz": "доғал бұрыш",
-                "arjd": "زاوية منفرجة",
-                "arsa": "زاوية منفرجة",
-                "areg": "زاوية منفرجة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
               {
                 "with_audio_player": false,
                 "aze": "Düz bucaq",
@@ -1404,6 +1378,32 @@
                 "arjd": "زاوية مستقيمة",
                 "arsa": "زاوية مستقيمة",
                 "areg": "زاوية مستقيمة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              {
+                "with_audio_player": false,
+                "aze": "Kor bucaq",
+                "kgz": "Кең бурч",
+                "uzb": "O'tmas burchak",
+                "eng": "Obtuse angle",
+                "rus": "Тупой угол",
+                "kaz": "доғал бұрыш",
+                "arjd": "زاوية منفرجة",
+                "arsa": "زاوية منفرجة",
+                "areg": "زاوية منفرجة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              {
+                "with_audio_player": false,
+                "aze": "İti bucaq",
+                "kgz": "Тар бурч",
+                "uzb": "O'tkir burchak",
+                "eng": "Acute angle",
+                "rus": "Острый угол",
+                "kaz": "сүйір бұрыш",
+                "arjd": "زاوية حادة",
+                "arsa": "زاوية حادة",
+                "areg": "زاوية حادة",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -1462,14 +1462,14 @@
               }
             ],
             "countable": [],
-            "correctAnswer": "C",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_12_22_3",
           "position": 2,
-          "id": "b9a8df4d-7ba9-43f7-aecd-09c45283919a",
+          "id": "ce105d85-3beb-4bdb-84d5-4f0032de59d5",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1480,7 +1480,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "C",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1544,7 +1544,9 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
+            "degree": 180,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -1565,7 +1567,7 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "A",
               "background": null,
               "figures": [
                 {
@@ -1591,25 +1593,12 @@
                   "centerPointLetter": "A"
                 }
               ],
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                {
-                  "with_audio_player": false,
-                  "aze": "Düz bucaq",
-                  "kgz": "Тик бурч",
-                  "uzb": "To'g'ri burchak",
-                  "eng": "Right angle",
-                  "rus": "Прямой угол",
-                  "kaz": "тік бұрыш",
-                  "arjd": "زاوية قائمة",
-                  "arsa": "زاوية قائمة",
-                  "areg": "زاوية قائمة",
-                  "module_name": "Elixir.Helpers.Translation"
-                },
                 {
                   "with_audio_player": false,
                   "aze": "Açıq bucaq",
@@ -1648,6 +1637,19 @@
                   "arsa": "زاوية حادة",
                   "areg": "زاوية حادة",
                   "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "Düz bucaq",
+                  "kgz": "Тик бурч",
+                  "uzb": "To'g'ri burchak",
+                  "eng": "Right angle",
+                  "rus": "Прямой угол",
+                  "kaz": "тік бұрыш",
+                  "arjd": "زاوية قائمة",
+                  "arsa": "زاوية قائمة",
+                  "areg": "زاوية قائمة",
+                  "module_name": "Elixir.Helpers.Translation"
                 }
               ],
               "module_name": "Elixir.MultipleChoice",
@@ -1665,29 +1667,14 @@
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
-            },
-            "degree": 180
+            }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              {
-                "with_audio_player": false,
-                "aze": "Düz bucaq",
-                "kgz": "Тик бурч",
-                "uzb": "To'g'ri burchak",
-                "eng": "Right angle",
-                "rus": "Прямой угол",
-                "kaz": "тік бұрыш",
-                "arjd": "زاوية قائمة",
-                "arsa": "زاوية قائمة",
-                "areg": "زاوية قائمة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
               {
                 "with_audio_player": false,
                 "aze": "Açıq bucaq",
@@ -1725,6 +1712,19 @@
                 "arjd": "زاوية حادة",
                 "arsa": "زاوية حادة",
                 "areg": "زاوية حادة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              {
+                "with_audio_player": false,
+                "aze": "Düz bucaq",
+                "kgz": "Тик бурч",
+                "uzb": "To'g'ri burchak",
+                "eng": "Right angle",
+                "rus": "Прямой угол",
+                "kaz": "тік бұрыш",
+                "arjd": "زاوية قائمة",
+                "arsa": "زاوية قائمة",
+                "areg": "زاوية قائمة",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -1783,14 +1783,14 @@
               }
             ],
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_12_22_4",
           "position": 3,
-          "id": "62117f39-8c42-4f91-941c-c378c3b5c330",
+          "id": "8ca927c1-0b78-4b06-ace4-cd81ffffc89a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1801,7 +1801,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1865,7 +1865,9 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
+            "degree": 69,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -1886,7 +1888,7 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "E",
               "background": null,
               "figures": [
                 {
@@ -1902,46 +1904,33 @@
                       "degree": 0
                     },
                     {
-                      "text": "47°",
+                      "text": "69°",
                       "isTextVisible": true,
                       "isCurveVisible": true,
                       "dot": null,
-                      "degree": 47
+                      "degree": 69
                     }
                   ],
                   "centerPointLetter": "A"
                 }
               ],
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "Açıq bucaq",
-                  "kgz": "Жайылган бурч",
-                  "uzb": "Yoyiq burchak",
-                  "eng": "Straight angle",
-                  "rus": "Развернутый угол",
-                  "kaz": "жазыңқы бұрыш",
-                  "arjd": "زاوية مستقيمة",
-                  "arsa": "زاوية مستقيمة",
-                  "areg": "زاوية مستقيمة",
-                  "module_name": "Elixir.Helpers.Translation"
-                },
-                {
-                  "with_audio_player": false,
-                  "aze": "İti bucaq",
-                  "kgz": "Тар бурч",
-                  "uzb": "O'tkir burchak",
-                  "eng": "Acute angle",
-                  "rus": "Острый угол",
-                  "kaz": "сүйір бұрыш",
-                  "arjd": "زاوية حادة",
-                  "arsa": "زاوية حادة",
-                  "areg": "زاوية حادة",
+                  "aze": "Düz bucaq",
+                  "kgz": "Тик бурч",
+                  "uzb": "To'g'ri burchak",
+                  "eng": "Right angle",
+                  "rus": "Прямой угол",
+                  "kaz": "тік бұрыш",
+                  "arjd": "زاوية قائمة",
+                  "arsa": "زاوية قائمة",
+                  "areg": "زاوية قائمة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
@@ -1959,15 +1948,15 @@
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Düz bucaq",
-                  "kgz": "Тик бурч",
-                  "uzb": "To'g'ri burchak",
-                  "eng": "Right angle",
-                  "rus": "Прямой угол",
-                  "kaz": "тік бұрыш",
-                  "arjd": "زاوية قائمة",
-                  "arsa": "زاوية قائمة",
-                  "areg": "زاوية قائمة",
+                  "aze": "Açıq bucaq",
+                  "kgz": "Жайылган бурч",
+                  "uzb": "Yoyiq burchak",
+                  "eng": "Straight angle",
+                  "rus": "Развернутый угол",
+                  "kaz": "жазыңқы бұрыш",
+                  "arjd": "زاوية مستقيمة",
+                  "arsa": "زاوية مستقيمة",
+                  "areg": "زاوية مستقيمة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
@@ -1981,6 +1970,19 @@
                   "arjd": "زاوية كاملة",
                   "arsa": "زاوية كاملة",
                   "areg": "زاوية كاملة",
+                  "module_name": "Elixir.Helpers.Translation"
+                },
+                {
+                  "with_audio_player": false,
+                  "aze": "İti bucaq",
+                  "kgz": "Тар бурч",
+                  "uzb": "O'tkir burchak",
+                  "eng": "Acute angle",
+                  "rus": "Острый угол",
+                  "kaz": "сүйір бұрыш",
+                  "arjd": "زاوية حادة",
+                  "arsa": "زاوية حادة",
+                  "areg": "زاوية حادة",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -1999,10 +2001,8 @@
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
-            },
-            "degree": 47
+            }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -2011,28 +2011,15 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "Açıq bucaq",
-                "kgz": "Жайылган бурч",
-                "uzb": "Yoyiq burchak",
-                "eng": "Straight angle",
-                "rus": "Развернутый угол",
-                "kaz": "жазыңқы бұрыш",
-                "arjd": "زاوية مستقيمة",
-                "arsa": "زاوية مستقيمة",
-                "areg": "زاوية مستقيمة",
-                "module_name": "Elixir.Helpers.Translation"
-              },
-              {
-                "with_audio_player": false,
-                "aze": "İti bucaq",
-                "kgz": "Тар бурч",
-                "uzb": "O'tkir burchak",
-                "eng": "Acute angle",
-                "rus": "Острый угол",
-                "kaz": "сүйір бұрыш",
-                "arjd": "زاوية حادة",
-                "arsa": "زاوية حادة",
-                "areg": "زاوية حادة",
+                "aze": "Düz bucaq",
+                "kgz": "Тик бурч",
+                "uzb": "To'g'ri burchak",
+                "eng": "Right angle",
+                "rus": "Прямой угол",
+                "kaz": "тік бұрыш",
+                "arjd": "زاوية قائمة",
+                "arsa": "زاوية قائمة",
+                "areg": "زاوية قائمة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -2050,15 +2037,15 @@
               },
               {
                 "with_audio_player": false,
-                "aze": "Düz bucaq",
-                "kgz": "Тик бурч",
-                "uzb": "To'g'ri burchak",
-                "eng": "Right angle",
-                "rus": "Прямой угол",
-                "kaz": "тік бұрыш",
-                "arjd": "زاوية قائمة",
-                "arsa": "زاوية قائمة",
-                "areg": "زاوية قائمة",
+                "aze": "Açıq bucaq",
+                "kgz": "Жайылган бурч",
+                "uzb": "Yoyiq burchak",
+                "eng": "Straight angle",
+                "rus": "Развернутый угол",
+                "kaz": "жазыңқы бұрыш",
+                "arjd": "زاوية مستقيمة",
+                "arsa": "زاوية مستقيمة",
+                "areg": "زاوية مستقيمة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -2072,6 +2059,19 @@
                 "arjd": "زاوية كاملة",
                 "arsa": "زاوية كاملة",
                 "areg": "زاوية كاملة",
+                "module_name": "Elixir.Helpers.Translation"
+              },
+              {
+                "with_audio_player": false,
+                "aze": "İti bucaq",
+                "kgz": "Тар бурч",
+                "uzb": "O'tkir burchak",
+                "eng": "Acute angle",
+                "rus": "Острый угол",
+                "kaz": "сүйір бұрыш",
+                "arjd": "زاوية حادة",
+                "arsa": "زاوية حادة",
+                "areg": "زاوية حادة",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -2119,25 +2119,25 @@
                     "degree": 0
                   },
                   {
-                    "text": "47°",
+                    "text": "69°",
                     "isTextVisible": true,
                     "isCurveVisible": true,
                     "dot": null,
-                    "degree": 47
+                    "degree": 69
                   }
                 ],
                 "centerPointLetter": "A"
               }
             ],
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "E",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_6_6_1_2",
           "position": 4,
-          "id": "ef855001-c8ab-4552-b0ea-2e564e850f5a",
+          "id": "d3fcc8ff-7319-4ce6-a5c5-198d9135b424",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2148,7 +2148,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "E",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2212,7 +2212,9 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
+            "degree": 120,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -2233,7 +2235,7 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "C",
               "background": null,
               "figures": [
                 {
@@ -2249,33 +2251,33 @@
                       "degree": 0
                     },
                     {
-                      "text": "117°",
+                      "text": "120°",
                       "isTextVisible": true,
                       "isCurveVisible": true,
                       "dot": null,
-                      "degree": 117
+                      "degree": 120
                     }
                   ],
                   "centerPointLetter": "A"
                 }
               ],
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "Kor bucaq",
-                  "kgz": "Кең бурч",
-                  "uzb": "O'tmas burchak",
-                  "eng": "Obtuse angle",
-                  "rus": "Тупой угол",
-                  "kaz": "доғал бұрыш",
-                  "arjd": "زاوية منفرجة",
-                  "arsa": "زاوية منفرجة",
-                  "areg": "زاوية منفرجة",
+                  "aze": "Açıq bucaq",
+                  "kgz": "Жайылган бурч",
+                  "uzb": "Yoyiq burchak",
+                  "eng": "Straight angle",
+                  "rus": "Развернутый угол",
+                  "kaz": "жазыңқы бұрыш",
+                  "arjd": "زاوية مستقيمة",
+                  "arsa": "زاوية مستقيمة",
+                  "areg": "زاوية مستقيمة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
@@ -2293,15 +2295,15 @@
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Açıq bucaq",
-                  "kgz": "Жайылган бурч",
-                  "uzb": "Yoyiq burchak",
-                  "eng": "Straight angle",
-                  "rus": "Развернутый угол",
-                  "kaz": "жазыңқы бұрыш",
-                  "arjd": "زاوية مستقيمة",
-                  "arsa": "زاوية مستقيمة",
-                  "areg": "زاوية مستقيمة",
+                  "aze": "Kor bucaq",
+                  "kgz": "Кең бурч",
+                  "uzb": "O'tmas burchak",
+                  "eng": "Obtuse angle",
+                  "rus": "Тупой угол",
+                  "kaz": "доғал бұрыш",
+                  "arjd": "زاوية منفرجة",
+                  "arsa": "زاوية منفرجة",
+                  "areg": "زاوية منفرجة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
@@ -2346,10 +2348,8 @@
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
-            },
-            "degree": 117
+            }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -2358,15 +2358,15 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "Kor bucaq",
-                "kgz": "Кең бурч",
-                "uzb": "O'tmas burchak",
-                "eng": "Obtuse angle",
-                "rus": "Тупой угол",
-                "kaz": "доғал бұрыш",
-                "arjd": "زاوية منفرجة",
-                "arsa": "زاوية منفرجة",
-                "areg": "زاوية منفرجة",
+                "aze": "Açıq bucaq",
+                "kgz": "Жайылган бурч",
+                "uzb": "Yoyiq burchak",
+                "eng": "Straight angle",
+                "rus": "Развернутый угол",
+                "kaz": "жазыңқы бұрыш",
+                "arjd": "زاوية مستقيمة",
+                "arsa": "زاوية مستقيمة",
+                "areg": "زاوية مستقيمة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -2384,15 +2384,15 @@
               },
               {
                 "with_audio_player": false,
-                "aze": "Açıq bucaq",
-                "kgz": "Жайылган бурч",
-                "uzb": "Yoyiq burchak",
-                "eng": "Straight angle",
-                "rus": "Развернутый угол",
-                "kaz": "жазыңқы бұрыш",
-                "arjd": "زاوية مستقيمة",
-                "arsa": "زاوية مستقيمة",
-                "areg": "زاوية مستقيمة",
+                "aze": "Kor bucaq",
+                "kgz": "Кең бурч",
+                "uzb": "O'tmas burchak",
+                "eng": "Obtuse angle",
+                "rus": "Тупой угол",
+                "kaz": "доғал бұрыш",
+                "arjd": "زاوية منفرجة",
+                "arsa": "زاوية منفرجة",
+                "areg": "زاوية منفرجة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
@@ -2466,25 +2466,25 @@
                     "degree": 0
                   },
                   {
-                    "text": "117°",
+                    "text": "120°",
                     "isTextVisible": true,
                     "isCurveVisible": true,
                     "dot": null,
-                    "degree": 117
+                    "degree": 120
                   }
                 ],
                 "centerPointLetter": "A"
               }
             ],
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "C",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_6_6_1_3",
           "position": 5,
-          "id": "35a50385-6222-4ad1-89fc-856b74967837",
+          "id": "ba01df5d-f7fd-44c4-9d70-cbf8f6792012",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2495,7 +2495,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "C",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2559,13 +2559,14 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number5": 4546,
-            "number6": 8579,
-            "number4": 4031,
-            "number3": 69899,
-            "number2": 17576,
-            "number1": 52323,
+            "number5": 8714,
+            "number6": 18158,
+            "number4": 9442,
+            "number3": 123487,
+            "number2": 92803,
+            "number1": 30684,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -2589,36 +2590,36 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "52323 + 17576 = 69899",
-                  "kgz": "52323 + 17576 = 69899",
-                  "uzb": "52323 + 17576 = 69899",
-                  "eng": "52323 + 17576 = 69899",
-                  "rus": "52323 + 17576 = 69899",
-                  "kaz": "52323 + 17576 = 69899",
-                  "arjd": "52323 + 17576 = 69899",
+                  "aze": "30684 + 92803 = 123487",
+                  "kgz": "30684 + 92803 = 123487",
+                  "uzb": "30684 + 92803 = 123487",
+                  "eng": "30684 + 92803 = 123487",
+                  "rus": "30684 + 92803 = 123487",
+                  "kaz": "30684 + 92803 = 123487",
+                  "arjd": "30684 + 92803 = 123487",
                   "arsa": "",
-                  "areg": "\\(52323 + 17576 = 69899\\)",
+                  "areg": "\\(30684 + 92803 = 123487\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "8579 = 4031 + 4546",
-                  "kgz": "8579 = 4031 + 4546",
-                  "uzb": "8579 = 4031 + 4546",
-                  "eng": "8579 = 4031 + 4546",
-                  "rus": "8579 = 4031 + 4546",
-                  "kaz": "8579 = 4031 + 4546",
-                  "arjd": "8579 = 4031 + 4546",
+                  "aze": "18158 = 9442 + 8714",
+                  "kgz": "18158 = 9442 + 8714",
+                  "uzb": "18158 = 9442 + 8714",
+                  "eng": "18158 = 9442 + 8714",
+                  "rus": "18158 = 9442 + 8714",
+                  "kaz": "18158 = 9442 + 8714",
+                  "arjd": "18158 = 9442 + 8714",
                   "arsa": "",
-                  "areg": "\\(8579 = 4031 + 4546\\)",
+                  "areg": "\\(18158 = 9442 + 8714\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -2639,7 +2640,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -2648,28 +2648,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "52323 + 17576 = 69899",
-                "kgz": "52323 + 17576 = 69899",
-                "uzb": "52323 + 17576 = 69899",
-                "eng": "52323 + 17576 = 69899",
-                "rus": "52323 + 17576 = 69899",
-                "kaz": "52323 + 17576 = 69899",
-                "arjd": "52323 + 17576 = 69899",
+                "aze": "30684 + 92803 = 123487",
+                "kgz": "30684 + 92803 = 123487",
+                "uzb": "30684 + 92803 = 123487",
+                "eng": "30684 + 92803 = 123487",
+                "rus": "30684 + 92803 = 123487",
+                "kaz": "30684 + 92803 = 123487",
+                "arjd": "30684 + 92803 = 123487",
                 "arsa": "",
-                "areg": "\\(52323 + 17576 = 69899\\)",
+                "areg": "\\(30684 + 92803 = 123487\\)",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "8579 = 4031 + 4546",
-                "kgz": "8579 = 4031 + 4546",
-                "uzb": "8579 = 4031 + 4546",
-                "eng": "8579 = 4031 + 4546",
-                "rus": "8579 = 4031 + 4546",
-                "kaz": "8579 = 4031 + 4546",
-                "arjd": "8579 = 4031 + 4546",
+                "aze": "18158 = 9442 + 8714",
+                "kgz": "18158 = 9442 + 8714",
+                "uzb": "18158 = 9442 + 8714",
+                "eng": "18158 = 9442 + 8714",
+                "rus": "18158 = 9442 + 8714",
+                "kaz": "18158 = 9442 + 8714",
+                "arjd": "18158 = 9442 + 8714",
                 "arsa": "",
-                "areg": "\\(8579 = 4031 + 4546\\)",
+                "areg": "\\(18158 = 9442 + 8714\\)",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -2712,7 +2712,7 @@
           },
           "type": "Elixir.Task_4_3_4_1",
           "position": 0,
-          "id": "2ad9f509-e0d7-49c0-9642-e45c2078758a",
+          "id": "22cf08bf-17b1-4892-a4c4-cfe15492afc7",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2787,13 +2787,14 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number5": 1060,
-            "number6": 1849,
-            "number4": 2907,
-            "number3": 23328,
-            "number2": 46767,
-            "number1": 70095,
+            "number5": 1317,
+            "number6": 4972,
+            "number4": 6289,
+            "number3": 14237,
+            "number2": 37195,
+            "number1": 51431,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -2814,39 +2815,39 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "B",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "70095 – 46767 = 23328",
-                  "kgz": "70095 – 46767 = 23328",
-                  "uzb": "70095 – 46767 = 23328",
-                  "eng": "70095 – 46767 = 23328",
-                  "rus": "70095 – 46767 = 23328",
-                  "kaz": "70095 – 46767 = 23328",
-                  "arjd": "70095 – 46767 = 23328",
+                  "aze": "51431 – 37195 = 14237",
+                  "kgz": "51431 – 37195 = 14237",
+                  "uzb": "51431 – 37195 = 14237",
+                  "eng": "51431 – 37195 = 14237",
+                  "rus": "51431 – 37195 = 14237",
+                  "kaz": "51431 – 37195 = 14237",
+                  "arjd": "51431 – 37195 = 14237",
                   "arsa": "",
-                  "areg": "\\(70095 – 46767 = 23328\\)",
+                  "areg": "\\(51431 – 37195 = 14237\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "1849 = 2907 – 1060",
-                  "kgz": "1849 = 2907 – 1060",
-                  "uzb": "1849 = 2907 – 1060",
-                  "eng": "1849 = 2907 – 1060",
-                  "rus": "1849 = 2907 – 1060",
-                  "kaz": "1849 = 2907 – 1060",
-                  "arjd": "1849 = 2907 – 1060",
+                  "aze": "4972 = 6289 – 1317",
+                  "kgz": "4972 = 6289 – 1317",
+                  "uzb": "4972 = 6289 – 1317",
+                  "eng": "4972 = 6289 – 1317",
+                  "rus": "4972 = 6289 – 1317",
+                  "kaz": "4972 = 6289 – 1317",
+                  "arjd": "4972 = 6289 – 1317",
                   "arsa": "",
-                  "areg": "\\(1849 = 2907 – 1060\\)",
+                  "areg": "\\(4972 = 6289 – 1317\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -2867,7 +2868,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -2876,28 +2876,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "70095 – 46767 = 23328",
-                "kgz": "70095 – 46767 = 23328",
-                "uzb": "70095 – 46767 = 23328",
-                "eng": "70095 – 46767 = 23328",
-                "rus": "70095 – 46767 = 23328",
-                "kaz": "70095 – 46767 = 23328",
-                "arjd": "70095 – 46767 = 23328",
+                "aze": "51431 – 37195 = 14237",
+                "kgz": "51431 – 37195 = 14237",
+                "uzb": "51431 – 37195 = 14237",
+                "eng": "51431 – 37195 = 14237",
+                "rus": "51431 – 37195 = 14237",
+                "kaz": "51431 – 37195 = 14237",
+                "arjd": "51431 – 37195 = 14237",
                 "arsa": "",
-                "areg": "\\(70095 – 46767 = 23328\\)",
+                "areg": "\\(51431 – 37195 = 14237\\)",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "1849 = 2907 – 1060",
-                "kgz": "1849 = 2907 – 1060",
-                "uzb": "1849 = 2907 – 1060",
-                "eng": "1849 = 2907 – 1060",
-                "rus": "1849 = 2907 – 1060",
-                "kaz": "1849 = 2907 – 1060",
-                "arjd": "1849 = 2907 – 1060",
+                "aze": "4972 = 6289 – 1317",
+                "kgz": "4972 = 6289 – 1317",
+                "uzb": "4972 = 6289 – 1317",
+                "eng": "4972 = 6289 – 1317",
+                "rus": "4972 = 6289 – 1317",
+                "kaz": "4972 = 6289 – 1317",
+                "arjd": "4972 = 6289 – 1317",
                 "arsa": "",
-                "areg": "\\(1849 = 2907 – 1060\\)",
+                "areg": "\\(4972 = 6289 – 1317\\)",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -2933,14 +2933,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "B",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_3_4_2",
           "position": 1,
-          "id": "094c28c1-2144-499e-9a31-f1963b177455",
+          "id": "ceb3379b-86aa-46a6-87f5-e236e0a3301c",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2951,7 +2951,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "B",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3015,13 +3015,14 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "number5": 2,
-            "number6": 40,
-            "number4": 76,
-            "number3": 1625,
-            "number2": 25,
-            "number1": 65,
+            "number6": 44,
+            "number4": 90,
+            "number3": 1067,
+            "number2": 11,
+            "number1": 97,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -3045,36 +3046,36 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "\\(65 ⋅ 25 = 1625\\)",
-                  "kgz": "\\(65 ⋅ 25 = 1625\\)",
-                  "uzb": "\\(65 ⋅ 25 = 1625\\)",
-                  "eng": "65 ⋅ 25 = 1625",
-                  "rus": "\\(65 ⋅ 25 = 1625\\)",
-                  "kaz": "\\(65 ⋅ 25 = 1625\\)",
-                  "arjd": "\\(65 ⋅ 25 = 1625\\)",
+                  "aze": "\\(97 ⋅ 11 = 1067\\)",
+                  "kgz": "\\(97 ⋅ 11 = 1067\\)",
+                  "uzb": "\\(97 ⋅ 11 = 1067\\)",
+                  "eng": "97 ⋅ 11 = 1067",
+                  "rus": "\\(97 ⋅ 11 = 1067\\)",
+                  "kaz": "\\(97 ⋅ 11 = 1067\\)",
+                  "arjd": "\\(97 ⋅ 11 = 1067\\)",
                   "arsa": "",
-                  "areg": "\\(\\(65 ⋅ 25 = 1625\\)\\)",
+                  "areg": "\\(\\(97 ⋅ 11 = 1067\\)\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "40 = 76 : 2",
-                  "kgz": "40 = 76 : 2",
-                  "uzb": "40 = 76 : 2",
-                  "eng": "40 = 76 ÷ 2",
-                  "rus": "40 = 76 : 2",
-                  "kaz": "40 = 76 : 2",
-                  "arjd": "40 = 76 : 2",
+                  "aze": "44 = 90 : 2",
+                  "kgz": "44 = 90 : 2",
+                  "uzb": "44 = 90 : 2",
+                  "eng": "44 = 90 ÷ 2",
+                  "rus": "44 = 90 : 2",
+                  "kaz": "44 = 90 : 2",
+                  "arjd": "44 = 90 : 2",
                   "arsa": "",
-                  "areg": "\\(40 = 76 \\div 2\\)",
+                  "areg": "\\(44 = 90 \\div 2\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -3095,7 +3096,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -3104,28 +3104,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "\\(65 ⋅ 25 = 1625\\)",
-                "kgz": "\\(65 ⋅ 25 = 1625\\)",
-                "uzb": "\\(65 ⋅ 25 = 1625\\)",
-                "eng": "65 ⋅ 25 = 1625",
-                "rus": "\\(65 ⋅ 25 = 1625\\)",
-                "kaz": "\\(65 ⋅ 25 = 1625\\)",
-                "arjd": "\\(65 ⋅ 25 = 1625\\)",
+                "aze": "\\(97 ⋅ 11 = 1067\\)",
+                "kgz": "\\(97 ⋅ 11 = 1067\\)",
+                "uzb": "\\(97 ⋅ 11 = 1067\\)",
+                "eng": "97 ⋅ 11 = 1067",
+                "rus": "\\(97 ⋅ 11 = 1067\\)",
+                "kaz": "\\(97 ⋅ 11 = 1067\\)",
+                "arjd": "\\(97 ⋅ 11 = 1067\\)",
                 "arsa": "",
-                "areg": "\\(\\(65 ⋅ 25 = 1625\\)\\)",
+                "areg": "\\(\\(97 ⋅ 11 = 1067\\)\\)",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "40 = 76 : 2",
-                "kgz": "40 = 76 : 2",
-                "uzb": "40 = 76 : 2",
-                "eng": "40 = 76 ÷ 2",
-                "rus": "40 = 76 : 2",
-                "kaz": "40 = 76 : 2",
-                "arjd": "40 = 76 : 2",
+                "aze": "44 = 90 : 2",
+                "kgz": "44 = 90 : 2",
+                "uzb": "44 = 90 : 2",
+                "eng": "44 = 90 ÷ 2",
+                "rus": "44 = 90 : 2",
+                "kaz": "44 = 90 : 2",
+                "arjd": "44 = 90 : 2",
                 "arsa": "",
-                "areg": "\\(40 = 76 \\div 2\\)",
+                "areg": "\\(44 = 90 \\div 2\\)",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -3168,7 +3168,7 @@
           },
           "type": "Elixir.Task_4_3_4_3",
           "position": 2,
-          "id": "f6e6110f-6aa2-4426-b6f8-509da440844a",
+          "id": "efc3dcb3-97ff-4e22-90d8-70afb6e071c1",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3243,13 +3243,14 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number5": 71,
-            "number6": 1136,
-            "number4": 16,
-            "number3": 206,
+            "number5": 15,
+            "number6": 1168,
+            "number4": 78,
+            "number3": 119,
             "number2": 6,
-            "number1": 1230,
+            "number1": 714,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -3270,39 +3271,39 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "1230 : 6 = 206",
-                  "kgz": "1230 : 6 = 206",
-                  "uzb": "1230 : 6 = 206",
-                  "eng": "1230 ÷ 6 = 206",
-                  "rus": "1230 : 6 = 206",
-                  "kaz": "1230 : 6 = 206",
-                  "arjd": "1230 : 6 = 206",
+                  "aze": "714 : 6 = 119",
+                  "kgz": "714 : 6 = 119",
+                  "uzb": "714 : 6 = 119",
+                  "eng": "714 ÷ 6 = 119",
+                  "rus": "714 : 6 = 119",
+                  "kaz": "714 : 6 = 119",
+                  "arjd": "714 : 6 = 119",
                   "arsa": "",
-                  "areg": "\\(1230 \\div 6 = 206\\)",
+                  "areg": "\\(714 \\div 6 = 119\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "1136 = 16 ⋅ 71",
-                  "kgz": "1136 = 16 ⋅ 71",
-                  "uzb": "1136 = 16 ⋅ 71",
-                  "eng": "1136 = 16 ⋅ 71",
-                  "rus": "1136 = 16 ⋅ 71",
-                  "kaz": "1136 = 16 ⋅ 71",
-                  "arjd": "1136 = 16 ⋅ 71",
+                  "aze": "1168 = 78 ⋅ 15",
+                  "kgz": "1168 = 78 ⋅ 15",
+                  "uzb": "1168 = 78 ⋅ 15",
+                  "eng": "1168 = 78 ⋅ 15",
+                  "rus": "1168 = 78 ⋅ 15",
+                  "kaz": "1168 = 78 ⋅ 15",
+                  "arjd": "1168 = 78 ⋅ 15",
                   "arsa": "",
-                  "areg": "\\(1136 = 16 ⋅ 71\\)",
+                  "areg": "\\(1168 = 78 ⋅ 15\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -3323,7 +3324,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -3332,28 +3332,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "1230 : 6 = 206",
-                "kgz": "1230 : 6 = 206",
-                "uzb": "1230 : 6 = 206",
-                "eng": "1230 ÷ 6 = 206",
-                "rus": "1230 : 6 = 206",
-                "kaz": "1230 : 6 = 206",
-                "arjd": "1230 : 6 = 206",
+                "aze": "714 : 6 = 119",
+                "kgz": "714 : 6 = 119",
+                "uzb": "714 : 6 = 119",
+                "eng": "714 ÷ 6 = 119",
+                "rus": "714 : 6 = 119",
+                "kaz": "714 : 6 = 119",
+                "arjd": "714 : 6 = 119",
                 "arsa": "",
-                "areg": "\\(1230 \\div 6 = 206\\)",
+                "areg": "\\(714 \\div 6 = 119\\)",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "1136 = 16 ⋅ 71",
-                "kgz": "1136 = 16 ⋅ 71",
-                "uzb": "1136 = 16 ⋅ 71",
-                "eng": "1136 = 16 ⋅ 71",
-                "rus": "1136 = 16 ⋅ 71",
-                "kaz": "1136 = 16 ⋅ 71",
-                "arjd": "1136 = 16 ⋅ 71",
+                "aze": "1168 = 78 ⋅ 15",
+                "kgz": "1168 = 78 ⋅ 15",
+                "uzb": "1168 = 78 ⋅ 15",
+                "eng": "1168 = 78 ⋅ 15",
+                "rus": "1168 = 78 ⋅ 15",
+                "kaz": "1168 = 78 ⋅ 15",
+                "arjd": "1168 = 78 ⋅ 15",
                 "arsa": "",
-                "areg": "\\(1136 = 16 ⋅ 71\\)",
+                "areg": "\\(1168 = 78 ⋅ 15\\)",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -3389,14 +3389,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_3_4_4",
           "position": 3,
-          "id": "2c6e8882-074d-4c2a-8c58-af0a8d786570",
+          "id": "480b58b4-2f05-46a9-b445-bef4b8bb220d",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3407,7 +3407,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3471,15 +3471,16 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number7": 29524,
-            "number8": 77013,
-            "number5": 34926,
-            "number6": 12563,
-            "number4": 90533,
-            "number3": 79452,
-            "number2": 3288,
-            "number1": 7791,
+            "number7": 17904,
+            "number8": 81403,
+            "number5": 27157,
+            "number6": 36340,
+            "number4": 39456,
+            "number3": 24886,
+            "number2": 7654,
+            "number1": 6916,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -3500,39 +3501,39 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "7791 + 3288 = 90533 – 79452",
-                  "kgz": "7791 + 3288 = 90533 – 79452",
-                  "uzb": "7791 + 3288 = 90533 – 79452",
-                  "eng": "7791 + 3288 = 90533 – 79452",
-                  "rus": "7791 + 3288 = 90533 – 79452",
-                  "kaz": "7791 + 3288 = 90533 – 79452",
-                  "arjd": "7791 + 3288 = 90533 – 79452",
+                  "aze": "6916 + 7654 = 39456 – 24886",
+                  "kgz": "6916 + 7654 = 39456 – 24886",
+                  "uzb": "6916 + 7654 = 39456 – 24886",
+                  "eng": "6916 + 7654 = 39456 – 24886",
+                  "rus": "6916 + 7654 = 39456 – 24886",
+                  "kaz": "6916 + 7654 = 39456 – 24886",
+                  "arjd": "6916 + 7654 = 39456 – 24886",
                   "arsa": "",
-                  "areg": "\\(7791 + 3288 = 90533 – 79452\\)",
+                  "areg": "\\(6916 + 7654 = 39456 – 24886\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "34926 + 12563 = 77013 – 29524",
-                  "kgz": "34926 + 12563 = 77013 – 29524",
-                  "uzb": "34926 + 12563 = 77013 – 29524",
-                  "eng": "34926 + 12563 = 77013 – 29524",
-                  "rus": "34926 + 12563 = 77013 – 29524",
-                  "kaz": "34926 + 12563 = 77013 – 29524",
-                  "arjd": "34926 + 12563 = 77013 – 29524",
+                  "aze": "27157 + 36340 = 81403 – 17904",
+                  "kgz": "27157 + 36340 = 81403 – 17904",
+                  "uzb": "27157 + 36340 = 81403 – 17904",
+                  "eng": "27157 + 36340 = 81403 – 17904",
+                  "rus": "27157 + 36340 = 81403 – 17904",
+                  "kaz": "27157 + 36340 = 81403 – 17904",
+                  "arjd": "27157 + 36340 = 81403 – 17904",
                   "arsa": "",
-                  "areg": "\\(34926 + 12563 = 77013 – 29524\\)",
+                  "areg": "\\(27157 + 36340 = 81403 – 17904\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -3553,7 +3554,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -3562,28 +3562,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "7791 + 3288 = 90533 – 79452",
-                "kgz": "7791 + 3288 = 90533 – 79452",
-                "uzb": "7791 + 3288 = 90533 – 79452",
-                "eng": "7791 + 3288 = 90533 – 79452",
-                "rus": "7791 + 3288 = 90533 – 79452",
-                "kaz": "7791 + 3288 = 90533 – 79452",
-                "arjd": "7791 + 3288 = 90533 – 79452",
+                "aze": "6916 + 7654 = 39456 – 24886",
+                "kgz": "6916 + 7654 = 39456 – 24886",
+                "uzb": "6916 + 7654 = 39456 – 24886",
+                "eng": "6916 + 7654 = 39456 – 24886",
+                "rus": "6916 + 7654 = 39456 – 24886",
+                "kaz": "6916 + 7654 = 39456 – 24886",
+                "arjd": "6916 + 7654 = 39456 – 24886",
                 "arsa": "",
-                "areg": "\\(7791 + 3288 = 90533 – 79452\\)",
+                "areg": "\\(6916 + 7654 = 39456 – 24886\\)",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "34926 + 12563 = 77013 – 29524",
-                "kgz": "34926 + 12563 = 77013 – 29524",
-                "uzb": "34926 + 12563 = 77013 – 29524",
-                "eng": "34926 + 12563 = 77013 – 29524",
-                "rus": "34926 + 12563 = 77013 – 29524",
-                "kaz": "34926 + 12563 = 77013 – 29524",
-                "arjd": "34926 + 12563 = 77013 – 29524",
+                "aze": "27157 + 36340 = 81403 – 17904",
+                "kgz": "27157 + 36340 = 81403 – 17904",
+                "uzb": "27157 + 36340 = 81403 – 17904",
+                "eng": "27157 + 36340 = 81403 – 17904",
+                "rus": "27157 + 36340 = 81403 – 17904",
+                "kaz": "27157 + 36340 = 81403 – 17904",
+                "arjd": "27157 + 36340 = 81403 – 17904",
                 "arsa": "",
-                "areg": "\\(34926 + 12563 = 77013 – 29524\\)",
+                "areg": "\\(27157 + 36340 = 81403 – 17904\\)",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -3619,14 +3619,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_3_4_5",
           "position": 4,
-          "id": "85e72750-ad2b-4d15-9950-89caf98aa0e0",
+          "id": "8865ebff-4320-4459-8f25-14ada54c6873",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3637,7 +3637,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3701,15 +3701,16 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number7": 7,
-            "number8": 1904,
-            "number5": 68,
-            "number6": 4,
-            "number4": 5392,
+            "number7": 4,
+            "number8": 1396,
+            "number5": 50,
+            "number6": 7,
+            "number4": 3136,
             "number3": 8,
-            "number2": 7,
-            "number1": 96,
+            "number2": 8,
+            "number1": 49,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -3730,39 +3731,39 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "96 · 7 = 5392 : 8",
-                  "kgz": "96 · 7 = 5392 : 8",
-                  "uzb": "96 · 7 = 5392 : 8",
-                  "eng": "96 · 7 = 5392 ÷ 8",
-                  "rus": "96 · 7 = 5392 : 8",
-                  "kaz": "96 · 7 = 5392 : 8",
-                  "arjd": "96 · 7 = 5392 : 8",
+                  "aze": "49 · 8 = 3136 : 8",
+                  "kgz": "49 · 8 = 3136 : 8",
+                  "uzb": "49 · 8 = 3136 : 8",
+                  "eng": "49 · 8 = 3136 ÷ 8",
+                  "rus": "49 · 8 = 3136 : 8",
+                  "kaz": "49 · 8 = 3136 : 8",
+                  "arjd": "49 · 8 = 3136 : 8",
                   "arsa": "",
-                  "areg": "\\(96 · 7 = 5392 \\div 8\\)",
+                  "areg": "\\(49 · 8 = 3136 \\div 8\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "68 · 4 = 1904 : 7",
-                  "kgz": "68 · 4 = 1904 : 7",
-                  "uzb": "68 · 4 = 1904 : 7",
-                  "eng": "68 · 4 = 1904 ÷ 7",
-                  "rus": "68 · 4 = 1904 : 7",
-                  "kaz": "68 · 4 = 1904 : 7",
-                  "arjd": "68 · 4 = 1904 : 7",
+                  "aze": "50 · 7 = 1396 : 4",
+                  "kgz": "50 · 7 = 1396 : 4",
+                  "uzb": "50 · 7 = 1396 : 4",
+                  "eng": "50 · 7 = 1396 ÷ 4",
+                  "rus": "50 · 7 = 1396 : 4",
+                  "kaz": "50 · 7 = 1396 : 4",
+                  "arjd": "50 · 7 = 1396 : 4",
                   "arsa": "",
-                  "areg": "\\(68 · 4 = 1904 \\div 7\\)",
+                  "areg": "\\(50 · 7 = 1396 \\div 4\\)",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -3783,7 +3784,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -3792,28 +3792,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "96 · 7 = 5392 : 8",
-                "kgz": "96 · 7 = 5392 : 8",
-                "uzb": "96 · 7 = 5392 : 8",
-                "eng": "96 · 7 = 5392 ÷ 8",
-                "rus": "96 · 7 = 5392 : 8",
-                "kaz": "96 · 7 = 5392 : 8",
-                "arjd": "96 · 7 = 5392 : 8",
+                "aze": "49 · 8 = 3136 : 8",
+                "kgz": "49 · 8 = 3136 : 8",
+                "uzb": "49 · 8 = 3136 : 8",
+                "eng": "49 · 8 = 3136 ÷ 8",
+                "rus": "49 · 8 = 3136 : 8",
+                "kaz": "49 · 8 = 3136 : 8",
+                "arjd": "49 · 8 = 3136 : 8",
                 "arsa": "",
-                "areg": "\\(96 · 7 = 5392 \\div 8\\)",
+                "areg": "\\(49 · 8 = 3136 \\div 8\\)",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "68 · 4 = 1904 : 7",
-                "kgz": "68 · 4 = 1904 : 7",
-                "uzb": "68 · 4 = 1904 : 7",
-                "eng": "68 · 4 = 1904 ÷ 7",
-                "rus": "68 · 4 = 1904 : 7",
-                "kaz": "68 · 4 = 1904 : 7",
-                "arjd": "68 · 4 = 1904 : 7",
+                "aze": "50 · 7 = 1396 : 4",
+                "kgz": "50 · 7 = 1396 : 4",
+                "uzb": "50 · 7 = 1396 : 4",
+                "eng": "50 · 7 = 1396 ÷ 4",
+                "rus": "50 · 7 = 1396 : 4",
+                "kaz": "50 · 7 = 1396 : 4",
+                "arjd": "50 · 7 = 1396 : 4",
                 "arsa": "",
-                "areg": "\\(68 · 4 = 1904 \\div 7\\)",
+                "areg": "\\(50 · 7 = 1396 \\div 4\\)",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -3849,14 +3849,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_3_4_6",
           "position": 5,
-          "id": "6518bd9a-d78c-4f01-b698-25463e7f81b4",
+          "id": "b67ca399-3c46-46cb-a63e-5ac30c536dd4",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3867,7 +3867,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3931,13 +3931,14 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number5": 172,
-            "number6": 251,
-            "number4": 425,
-            "number3": 535,
-            "number2": 141,
-            "number1": 395,
+            "number5": 432,
+            "number6": 386,
+            "number4": 820,
+            "number3": 547,
+            "number2": 132,
+            "number1": 417,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -3961,14 +3962,14 @@
               "correct_answer": "B",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                "395 + 141 < 535",
-                "425 - 172 > 251"
+                "417 + 132 < 547",
+                "820 - 432 > 386"
               ],
               "module_name": "Elixir.MultipleChoice",
               "question": {
@@ -3987,15 +3988,14 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              "395 + 141 < 535",
-              "425 - 172 > 251"
+              "417 + 132 < 547",
+              "820 - 432 > 386"
             ],
             "type": "test",
             "toLeftFigures": false,
@@ -4036,7 +4036,7 @@
           },
           "type": "Elixir.Task_4_3_4_14",
           "position": 13,
-          "id": "edde8d13-3bea-4063-a4cf-d8fe3bc07a83",
+          "id": "3d0fe522-1a14-4604-9718-c1bcafa3966f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4111,13 +4111,14 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number5": 8,
-            "number6": 105,
-            "number4": 856,
-            "number3": 257,
-            "number2": 15,
-            "number1": 17,
+            "number5": 6,
+            "number6": 160,
+            "number4": 948,
+            "number3": 504,
+            "number2": 22,
+            "number1": 23,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -4138,27 +4139,27 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "B",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                "17 ⋅ 15 < 257",
+                "23 ⋅ 22 < 504",
                 {
                   "with_audio_player": false,
-                  "aze": "856 : 8 < 105",
-                  "kgz": "856 : 8 < 105",
-                  "uzb": "856 : 8 < 105",
-                  "eng": "856 ÷ 8 < 105",
-                  "rus": "856 : 8 < 105",
-                  "kaz": "856 : 8 < 105",
-                  "arjd": "856 : 8 < 105",
-                  "arsa": "856 : 8 < 105",
-                  "areg": "856 : 8 < 105",
+                  "aze": "948 : 6 < 160",
+                  "kgz": "948 : 6 < 160",
+                  "uzb": "948 : 6 < 160",
+                  "eng": "948 ÷ 6 < 160",
+                  "rus": "948 : 6 < 160",
+                  "kaz": "948 : 6 < 160",
+                  "arjd": "948 : 6 < 160",
+                  "arsa": "948 : 6 < 160",
+                  "areg": "948 : 6 < 160",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -4179,25 +4180,24 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              "17 ⋅ 15 < 257",
+              "23 ⋅ 22 < 504",
               {
                 "with_audio_player": false,
-                "aze": "856 : 8 < 105",
-                "kgz": "856 : 8 < 105",
-                "uzb": "856 : 8 < 105",
-                "eng": "856 ÷ 8 < 105",
-                "rus": "856 : 8 < 105",
-                "kaz": "856 : 8 < 105",
-                "arjd": "856 : 8 < 105",
-                "arsa": "856 : 8 < 105",
-                "areg": "856 : 8 < 105",
+                "aze": "948 : 6 < 160",
+                "kgz": "948 : 6 < 160",
+                "uzb": "948 : 6 < 160",
+                "eng": "948 ÷ 6 < 160",
+                "rus": "948 : 6 < 160",
+                "kaz": "948 : 6 < 160",
+                "arjd": "948 : 6 < 160",
+                "arsa": "948 : 6 < 160",
+                "areg": "948 : 6 < 160",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -4233,14 +4233,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "B",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_3_4_15",
           "position": 14,
-          "id": "788689a3-6de6-46e4-8a78-c407ce9becb0",
+          "id": "fb746aa7-810d-4ae9-a51d-233dc83077d4",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4251,7 +4251,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "B",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4315,10 +4315,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "incorrect_variant": "grade4_sector1",
-            "correct_variant": "grade4_sector3"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hansı çevrənin daha çox hissəsi rənglənib?",
@@ -4331,6 +4327,10 @@
             "arsa": "",
             "areg": "في أي دائرة الأجزاء الملونة أكثر؟",
             "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "incorrect_variant": "grade4_sector1",
+            "correct_variant": "grade4_sector3"
           },
           "description": {
             "withAudioOnVariants": true,
@@ -4368,7 +4368,7 @@
           },
           "type": "Elixir.Task_4_11_7_1",
           "position": 0,
-          "id": "1a5a33e6-233d-437a-8c1e-78f2a6bc4ed7",
+          "id": "b2628308-92e5-4338-9c92-b9ed7105791b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4443,10 +4443,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "incorrect_variant": "grade4_sectors3",
-            "correct_variant": "grade4_sector5"
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hansı çevrənin daha çox hissəsi rənglənib?",
@@ -4459,6 +4455,10 @@
             "arsa": "",
             "areg": "في أي دائرة الأجزاء الملونة أكثر؟",
             "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "incorrect_variant": "grade4_sectors3",
+            "correct_variant": "grade4_sector5"
           },
           "description": {
             "withAudioOnVariants": true,
@@ -4496,7 +4496,7 @@
           },
           "type": "Elixir.Task_4_11_7_2",
           "position": 1,
-          "id": "1a431c9f-a7a9-4b16-b573-25ff5c4e1450",
+          "id": "19c6b2d1-bbf8-4ba9-baf6-d70622b76448",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4571,6 +4571,7 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -4592,49 +4593,48 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "D",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                1,
-                5,
-                7,
-                4
+                12,
+                11,
+                8,
+                1
               ],
               "module_name": "Elixir.MultipleChoice",
               "question": {
                 "with_audio_player": false,
-                "aze": "k < 3 bərabərsizliyini ödəyən ədədi tapın.\n",
-                "kgz": "k < 3 барабарсыздыгын канааттандырган санды табыңыз.",
-                "uzb": "k < 3 tengsizlik yechimini qanoatlantiradigan sonni toping.",
-                "eng": "Find a number that satisfies the inequality k < 3.",
-                "rus": "Найдите число, которое удовлетворяет решению неравенства k < 3.",
-                "kaz": "\\(k\\) < 3 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
+                "aze": "k < 7 bərabərsizliyini ödəyən ədədi tapın.\n",
+                "kgz": "k < 7 барабарсыздыгын канааттандырган санды табыңыз.",
+                "uzb": "k < 7 tengsizlik yechimini qanoatlantiradigan sonni toping.",
+                "eng": "Find a number that satisfies the inequality k < 7.",
+                "rus": "Найдите число, которое удовлетворяет решению неравенства k < 7.",
+                "kaz": "\\(k\\) < 7 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "أوجد العدد الذي يمثل حل المتباينة k < 3.",
+                "areg": "أوجد العدد الذي يمثل حل المتباينة k < 7.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
             },
-            "number": 3
+            "number": 7
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              1,
-              5,
-              7,
-              4
+              12,
+              11,
+              8,
+              1
             ],
             "type": "test",
             "toLeftFigures": false,
@@ -4645,15 +4645,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "k < 3 bərabərsizliyini ödəyən ədədi tapın.\n",
-              "kgz": "k < 3 барабарсыздыгын канааттандырган санды табыңыз.",
-              "uzb": "k < 3 tengsizlik yechimini qanoatlantiradigan sonni toping.",
-              "eng": "Find a number that satisfies the inequality k < 3.",
-              "rus": "Найдите число, которое удовлетворяет решению неравенства k < 3.",
-              "kaz": "\\(k\\) < 3 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
+              "aze": "k < 7 bərabərsizliyini ödəyən ədədi tapın.\n",
+              "kgz": "k < 7 барабарсыздыгын канааттандырган санды табыңыз.",
+              "uzb": "k < 7 tengsizlik yechimini qanoatlantiradigan sonni toping.",
+              "eng": "Find a number that satisfies the inequality k < 7.",
+              "rus": "Найдите число, которое удовлетворяет решению неравенства k < 7.",
+              "kaz": "\\(k\\) < 7 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
               "arjd": "",
               "arsa": "",
-              "areg": "أوجد العدد الذي يمثل حل المتباينة k < 3.",
+              "areg": "أوجد العدد الذي يمثل حل المتباينة k < 7.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -4668,14 +4668,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "D",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_12_2_1",
           "position": 4,
-          "id": "7074393d-7489-45e2-bb99-0e2024831467",
+          "id": "e30d64b5-2c6f-4e9a-b11f-95f4b41bbd8a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4686,7 +4686,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "D",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4750,6 +4750,7 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -4774,46 +4775,45 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                21,
-                16,
+                23,
+                20,
                 18,
-                17
+                19
               ],
               "module_name": "Elixir.MultipleChoice",
               "question": {
                 "with_audio_player": false,
-                "aze": "t > 20 bərabərsizliyini ödəyən ədədi tapın.\n",
-                "kgz": "t > 20 барабарсыздыгын канааттандырган санды табыңыз.",
-                "uzb": "t > 20 tengsizlik yechimini qanoatlantiradigan sonni toping.",
-                "eng": "Find a number that satisfies the inequality t > 200.",
-                "rus": "Найдите число, которое удовлетворяет решению неравенства t > 20.",
-                "kaz": "\\(t\\) > 20 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
+                "aze": "t > 22 bərabərsizliyini ödəyən ədədi tapın.\n",
+                "kgz": "t > 22 барабарсыздыгын канааттандырган санды табыңыз.",
+                "uzb": "t > 22 tengsizlik yechimini qanoatlantiradigan sonni toping.",
+                "eng": "Find a number that satisfies the inequality t > 220.",
+                "rus": "Найдите число, которое удовлетворяет решению неравенства t > 22.",
+                "kaz": "\\(t\\) > 22 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "أوجد العدد الذي يمثل حل المتباينة t > 20.",
+                "areg": "أوجد العدد الذي يمثل حل المتباينة t > 22.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
             },
-            "number": 20
+            "number": 22
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              21,
-              16,
+              23,
+              20,
               18,
-              17
+              19
             ],
             "type": "test",
             "toLeftFigures": false,
@@ -4824,15 +4824,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "t > 20 bərabərsizliyini ödəyən ədədi tapın.\n",
-              "kgz": "t > 20 барабарсыздыгын канааттандырган санды табыңыз.",
-              "uzb": "t > 20 tengsizlik yechimini qanoatlantiradigan sonni toping.",
-              "eng": "Find a number that satisfies the inequality t > 200.",
-              "rus": "Найдите число, которое удовлетворяет решению неравенства t > 20.",
-              "kaz": "\\(t\\) > 20 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
+              "aze": "t > 22 bərabərsizliyini ödəyən ədədi tapın.\n",
+              "kgz": "t > 22 барабарсыздыгын канааттандырган санды табыңыз.",
+              "uzb": "t > 22 tengsizlik yechimini qanoatlantiradigan sonni toping.",
+              "eng": "Find a number that satisfies the inequality t > 220.",
+              "rus": "Найдите число, которое удовлетворяет решению неравенства t > 22.",
+              "kaz": "\\(t\\) > 22 теңсіздігінің шешімін қанағаттандыратын санды табыңыз.",
               "arjd": "",
               "arsa": "",
-              "areg": "أوجد العدد الذي يمثل حل المتباينة t > 20.",
+              "areg": "أوجد العدد الذي يمثل حل المتباينة t > 22.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -4854,7 +4854,7 @@
           },
           "type": "Elixir.Task_4_12_2_2",
           "position": 5,
-          "id": "c9a70ca9-2aa2-47da-bb1d-5d053c03c6d7",
+          "id": "27dd5dc7-837f-4554-b2b9-d46533264441",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4929,6 +4929,7 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -4953,17 +4954,17 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                "165°",
-                "90°",
-                "58°",
-                "43°",
-                "180°"
+                "168°",
+                "71°",
+                "13°",
+                "180°",
+                "90°"
               ],
               "module_name": "Elixir.MultipleChoice",
               "question": {
@@ -4982,18 +4983,17 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              "165°",
-              "90°",
-              "58°",
-              "43°",
-              "180°"
+              "168°",
+              "71°",
+              "13°",
+              "180°",
+              "90°"
             ],
             "type": "test",
             "toLeftFigures": false,
@@ -5034,7 +5034,7 @@
           },
           "type": "Elixir.Task_4_12_23_1",
           "position": 8,
-          "id": "0829ca47-2c44-4fcc-81e3-ab94960d0f6d",
+          "id": "fcb75d0b-3c01-4e68-986e-a873270cbd64",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5109,6 +5109,7 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -5133,17 +5134,17 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
-                "60°",
+                "63°",
                 "180°",
-                "169°",
+                "115°",
                 "90°",
-                "94°"
+                "166°"
               ],
               "module_name": "Elixir.MultipleChoice",
               "question": {
@@ -5162,18 +5163,17 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
             "variantsWidth": 150,
             "variantsCenter": false,
             "variants": [
-              "60°",
+              "63°",
               "180°",
-              "169°",
+              "115°",
               "90°",
-              "94°"
+              "166°"
             ],
             "type": "test",
             "toLeftFigures": false,
@@ -5214,7 +5214,7 @@
           },
           "type": "Elixir.Task_4_12_23_2",
           "position": 9,
-          "id": "38275550-5593-4c69-aa78-630933010f25",
+          "id": "eb729772-e3cd-4672-9176-8a72aa76a5e2",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5289,9 +5289,22 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
+            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
+            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
+            "eng": "Read the statement and decide if it is true or false.",
+            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
+            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
           "fields": {
-            "number2": 81,
-            "number1": 83,
+            "number2": 76,
+            "number1": 78,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -5315,11 +5328,11 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
@@ -5351,32 +5364,19 @@
               "module_name": "Elixir.MultipleChoice",
               "question": {
                 "with_audio_player": false,
-                "aze": "83 ədədi 81 ədəddən kiçikdir.",
-                "kgz": "83 саны  81 санынан кичине.",
-                "uzb": "83 soni 81 sonidan kichik.",
-                "eng": "The number 83 is less than the number 81.",
-                "rus": "Число 83 меньше числа 81.",
-                "kaz": "83 саны 81 санынан кіші.",
+                "aze": "78 ədədi 76 ədəddən kiçikdir.",
+                "kgz": "78 саны  76 санынан кичине.",
+                "uzb": "78 soni 76 sonidan kichik.",
+                "eng": "The number 78 is less than the number 76.",
+                "rus": "Число 78 меньше числа 76.",
+                "kaz": "78 саны 76 санынан кіші.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "العدد 83 أصغر من العدد 81.",
+                "areg": "العدد 78 أصغر من العدد 76.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
             }
-          },
-          "title": {
-            "with_audio_player": false,
-            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
-            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
-            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
-            "eng": "Read the statement and decide if it is true or false.",
-            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
-            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
-            "arjd": "",
-            "arsa": "",
-            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
-            "module_name": "Elixir.Helpers.Translation"
           },
           "description": {
             "withAudioOnVariants": true,
@@ -5420,15 +5420,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "83 ədədi 81 ədəddən kiçikdir.",
-              "kgz": "83 саны  81 санынан кичине.",
-              "uzb": "83 soni 81 sonidan kichik.",
-              "eng": "The number 83 is less than the number 81.",
-              "rus": "Число 83 меньше числа 81.",
-              "kaz": "83 саны 81 санынан кіші.",
+              "aze": "78 ədədi 76 ədəddən kiçikdir.",
+              "kgz": "78 саны  76 санынан кичине.",
+              "uzb": "78 soni 76 sonidan kichik.",
+              "eng": "The number 78 is less than the number 76.",
+              "rus": "Число 78 меньше числа 76.",
+              "kaz": "78 саны 76 санынан кіші.",
               "arjd": "",
               "arsa": "",
-              "areg": "العدد 83 أصغر من العدد 81.",
+              "areg": "العدد 78 أصغر من العدد 76.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -5450,7 +5450,7 @@
           },
           "type": "Elixir.Task_4_10_12_1",
           "position": 0,
-          "id": "cab74033-12d6-44c1-b427-67e2efcada09",
+          "id": "b850c774-0c0e-4183-b81f-e69c2f744dc3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5525,9 +5525,22 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
+            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
+            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
+            "eng": "Read the statement and decide if it is true or false.",
+            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
+            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
           "fields": {
-            "number2": 254,
-            "number1": 235,
+            "number2": 224,
+            "number1": 241,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -5551,11 +5564,11 @@
               "correct_answer": "B",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
@@ -5587,32 +5600,19 @@
               "module_name": "Elixir.MultipleChoice",
               "question": {
                 "with_audio_player": false,
-                "aze": "235 və 254 üçrəqəmli ədədlərdir.",
-                "kgz": "235 жана 254 сандары үч орундуу сан болуп эсептелет.",
-                "uzb": "235 va 254 - uch xonali sonlar.",
-                "eng": "The numbers 235 and 254  are three-digit numbers.",
-                "rus": "Числа 235 и 254 являются трехзначными числами.",
-                "kaz": "235 мен 254 үш таңбалы сандар.",
+                "aze": "241 və 224 üçrəqəmli ədədlərdir.",
+                "kgz": "241 жана 224 сандары үч орундуу сан болуп эсептелет.",
+                "uzb": "241 va 224 - uch xonali sonlar.",
+                "eng": "The numbers 241 and 224  are three-digit numbers.",
+                "rus": "Числа 241 и 224 являются трехзначными числами.",
+                "kaz": "241 мен 224 үш таңбалы сандар.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "العددان 235 و254 يتكونان من ثلاثة أرقام.",
+                "areg": "العددان 241 و224 يتكونان من ثلاثة أرقام.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
             }
-          },
-          "title": {
-            "with_audio_player": false,
-            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
-            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
-            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
-            "eng": "Read the statement and decide if it is true or false.",
-            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
-            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
-            "arjd": "",
-            "arsa": "",
-            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
-            "module_name": "Elixir.Helpers.Translation"
           },
           "description": {
             "withAudioOnVariants": true,
@@ -5656,15 +5656,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "235 və 254 üçrəqəmli ədədlərdir.",
-              "kgz": "235 жана 254 сандары үч орундуу сан болуп эсептелет.",
-              "uzb": "235 va 254 - uch xonali sonlar.",
-              "eng": "The numbers 235 and 254  are three-digit numbers.",
-              "rus": "Числа 235 и 254 являются трехзначными числами.",
-              "kaz": "235 мен 254 үш таңбалы сандар.",
+              "aze": "241 və 224 üçrəqəmli ədədlərdir.",
+              "kgz": "241 жана 224 сандары үч орундуу сан болуп эсептелет.",
+              "uzb": "241 va 224 - uch xonali sonlar.",
+              "eng": "The numbers 241 and 224  are three-digit numbers.",
+              "rus": "Числа 241 и 224 являются трехзначными числами.",
+              "kaz": "241 мен 224 үш таңбалы сандар.",
               "arjd": "",
               "arsa": "",
-              "areg": "العددان 235 و254 يتكونان من ثلاثة أرقام.",
+              "areg": "العددان 241 و224 يتكونان من ثلاثة أرقام.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -5686,7 +5686,7 @@
           },
           "type": "Elixir.Task_4_10_12_2",
           "position": 1,
-          "id": "fb6ba24d-453f-480e-91a0-5df5d8e7f7f4",
+          "id": "8ae4e943-1b3a-4774-a2bc-b2265662b74b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5761,6 +5761,19 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
+            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
+            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
+            "eng": "Read the statement and decide if it is true or false.",
+            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
+            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -5782,14 +5795,14 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "B",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
@@ -5821,33 +5834,20 @@
               "module_name": "Elixir.MultipleChoice",
               "question": {
                 "with_audio_player": false,
-                "aze": "385 cüt ədəddir.",
-                "kgz": "385 жуп сан.",
-                "uzb": "385 - juft son",
-                "eng": "385 even number.",
-                "rus": "385 четное число.",
-                "kaz": "385 саны жұп сан.",
+                "aze": "484 cüt ədəddir.",
+                "kgz": "484 жуп сан.",
+                "uzb": "484 - juft son",
+                "eng": "484 even number.",
+                "rus": "484 четное число.",
+                "kaz": "484 саны жұп сан.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "385 عدد زوجي.",
+                "areg": "484 عدد زوجي.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
             },
-            "number": 385
-          },
-          "title": {
-            "with_audio_player": false,
-            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
-            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
-            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
-            "eng": "Read the statement and decide if it is true or false.",
-            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
-            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
-            "arjd": "",
-            "arsa": "",
-            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
-            "module_name": "Elixir.Helpers.Translation"
+            "number": 484
           },
           "description": {
             "withAudioOnVariants": true,
@@ -5891,15 +5891,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "385 cüt ədəddir.",
-              "kgz": "385 жуп сан.",
-              "uzb": "385 - juft son",
-              "eng": "385 even number.",
-              "rus": "385 четное число.",
-              "kaz": "385 саны жұп сан.",
+              "aze": "484 cüt ədəddir.",
+              "kgz": "484 жуп сан.",
+              "uzb": "484 - juft son",
+              "eng": "484 even number.",
+              "rus": "484 четное число.",
+              "kaz": "484 саны жұп сан.",
               "arjd": "",
               "arsa": "",
-              "areg": "385 عدد زوجي.",
+              "areg": "484 عدد زوجي.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -5914,14 +5914,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "B",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_10_12_4",
           "position": 3,
-          "id": "75663412-4b6b-4a7b-8690-f52a68ba3f65",
+          "id": "b0f8c244-7047-4bff-a736-ba3e24aa0c3f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -5932,7 +5932,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "B",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -5996,6 +5996,19 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
+            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
+            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
+            "eng": "Read the statement and decide if it is true or false.",
+            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
+            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -6017,14 +6030,14 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "B",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
@@ -6056,33 +6069,20 @@
               "module_name": "Elixir.MultipleChoice",
               "question": {
                 "with_audio_player": false,
-                "aze": "210 sm 2 m-dən azdır.",
-                "kgz": "210 см 2 м ден кичине.",
-                "uzb": "210 cm 2 m dan kam.",
-                "eng": "210 cm less than 2 m.",
-                "rus": "210 см меньше 2 м.",
-                "kaz": "210 см 2 м-ден кем.",
+                "aze": "194 sm 2 m-dən azdır.",
+                "kgz": "194 см 2 м ден кичине.",
+                "uzb": "194 cm 2 m dan kam.",
+                "eng": "194 cm less than 2 m.",
+                "rus": "194 см меньше 2 м.",
+                "kaz": "194 см 2 м-ден кем.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "210 سم أقل من 2 متر.",
+                "areg": "194 سم أقل من 2 متر.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               "table": null
             },
-            "number": 210
-          },
-          "title": {
-            "with_audio_player": false,
-            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
-            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
-            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
-            "eng": "Read the statement and decide if it is true or false.",
-            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
-            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
-            "arjd": "",
-            "arsa": "",
-            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
-            "module_name": "Elixir.Helpers.Translation"
+            "number": 194
           },
           "description": {
             "withAudioOnVariants": true,
@@ -6126,15 +6126,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "210 sm 2 m-dən azdır.",
-              "kgz": "210 см 2 м ден кичине.",
-              "uzb": "210 cm 2 m dan kam.",
-              "eng": "210 cm less than 2 m.",
-              "rus": "210 см меньше 2 м.",
-              "kaz": "210 см 2 м-ден кем.",
+              "aze": "194 sm 2 m-dən azdır.",
+              "kgz": "194 см 2 м ден кичине.",
+              "uzb": "194 cm 2 m dan kam.",
+              "eng": "194 cm less than 2 m.",
+              "rus": "194 см меньше 2 м.",
+              "kaz": "194 см 2 м-ден кем.",
               "arjd": "",
               "arsa": "",
-              "areg": "210 سم أقل من 2 متر.",
+              "areg": "194 سم أقل من 2 متر.",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -6149,14 +6149,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "B",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_10_12_5",
           "position": 4,
-          "id": "e65a7355-7415-4c5f-bfb6-0d2d9701a313",
+          "id": "fd2e1629-e309-41a6-b090-21bdf9a5a48b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -6167,7 +6167,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "B",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -6231,6 +6231,7 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -6252,78 +6253,78 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "A",
+              "correct_answer": "D",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "Hər bir kvadrat düzbucaqlı ola bilər.",
-                  "kgz": "Ар бир квадрат тик бурчтук болушу мүмкүн.",
-                  "uzb": "Har qanday kvadrat to’g’ri to'rtburchak bo'ladi.",
-                  "eng": "Any square can be a rectangle.",
-                  "rus": "Любой квадрат может быть прямоугольником.",
-                  "kaz": "Кез келген шаршы тіктөртбұрыш бола алады.",
+                  "aze": "May - yay ayıdır.",
+                  "kgz": "Май - жай айы",
+                  "uzb": "May – yoz oyi",
+                  "eng": "May is a summer month.",
+                  "rus": "Май – месяц лета.",
+                  "kaz": "Мамыр – жаз айы",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "أي مربع يمكن أن يكون مستطيلاً.",
+                  "areg": "شهر مايو هو أحد أشهر الصيف.",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Canavar suyu yeyir.",
-                  "kgz": "Карышкыр сууду жашайт.",
-                  "uzb": "Bo'ri suvda yashaydi.",
-                  "eng": "Wolf lives in water.",
-                  "rus": "Волк живет в воде.",
-                  "kaz": "Қасқыр суда өмір сүреді.",
+                  "aze": "Bazar ertəsindən sonra cümə olacaq.",
+                  "kgz": "Дүйшөмбүдөн кийин жума болот.",
+                  "uzb": "Dushanbadan keyingi kun juma",
+                  "eng": "After Monday, there will be Friday",
+                  "rus": "После понедельника будет пятница.",
+                  "kaz": "Дүйсенбіден кейінгі күн жұма.",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "ذئب يعيش في الماء.",
+                  "areg": "اليوم الذي يلي الإثنين هو الجمعة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Hər bir dördbucaqlının 3 təpəsi var.",
-                  "kgz": "Ар бир төрт бурчтуктун 3 чокусу бар",
-                  "uzb": "Har qanday to'rtburchakning 3 ta uchi bor",
-                  "eng": "Any quadrilateral has 3 vertices",
-                  "rus": "Любой четырехугольник имеет 3 вершин",
-                  "kaz": "Кез келген төртбұрыштың 3 төбесі бар",
+                  "aze": "Maral suyu yeyir.",
+                  "kgz": "Бугу сууду жашайт.",
+                  "uzb": "Bug'u suvda yashaydi.",
+                  "eng": "Deer lives in water.",
+                  "rus": "Олень живет в воде.",
+                  "kaz": "Бұғы суда өмір сүреді.",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "أي شكل رباعي له 3 رؤوس",
+                  "areg": "غزال يعيش في الماء.",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Ördək - heyvandır.",
-                  "kgz": "Өрдөк - жаныбар",
-                  "uzb": "O'rdak - parranda",
-                  "eng": "Duck – animal.",
-                  "rus": "Утка – животное.",
-                  "kaz": "Үйрек – жануар",
+                  "aze": "70 ədədi 5-ə qalıqsız bölünür.",
+                  "kgz": "70 5ке калдыксыз бөлүнөт.",
+                  "uzb": "70 soni 5 ga qoldiqsiz bo'linadi.",
+                  "eng": "70 is divisible by 5 without a remainder.",
+                  "rus": "70 делится на 5 без остатка.",
+                  "kaz": "70 саны 5-ке қалдықсыз бөлінеді.",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "بطة هو حيوان",
+                  "areg": "العدد 70 يقبل القسمة على 5 بدون باقٍ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Bazar ertəsindən sonra çərşənbə olacaq.",
-                  "kgz": "Дүйшөмбүдөн кийин шаршемби болот.",
-                  "uzb": "Dushanbadan keyingi kun chorshanba",
-                  "eng": "After Monday, there will be Wednesday",
-                  "rus": "После понедельника будет среда.",
-                  "kaz": "Дүйсенбіден кейінгі күн сәрсенбі.",
+                  "aze": "Bayquş - heyvandır.",
+                  "kgz": "Үкү - жаныбар",
+                  "uzb": "Ukki - parranda",
+                  "eng": "Owl – animal.",
+                  "rus": "Сова – животное.",
+                  "kaz": "Үкі – жануар",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "اليوم الذي يلي الإثنين هو الأربعاء",
+                  "areg": "بومة هو حيوان",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -6344,7 +6345,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -6353,67 +6353,67 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "Hər bir kvadrat düzbucaqlı ola bilər.",
-                "kgz": "Ар бир квадрат тик бурчтук болушу мүмкүн.",
-                "uzb": "Har qanday kvadrat to’g’ri to'rtburchak bo'ladi.",
-                "eng": "Any square can be a rectangle.",
-                "rus": "Любой квадрат может быть прямоугольником.",
-                "kaz": "Кез келген шаршы тіктөртбұрыш бола алады.",
+                "aze": "May - yay ayıdır.",
+                "kgz": "Май - жай айы",
+                "uzb": "May – yoz oyi",
+                "eng": "May is a summer month.",
+                "rus": "Май – месяц лета.",
+                "kaz": "Мамыр – жаз айы",
                 "arjd": "",
                 "arsa": "",
-                "areg": "أي مربع يمكن أن يكون مستطيلاً.",
+                "areg": "شهر مايو هو أحد أشهر الصيف.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Canavar suyu yeyir.",
-                "kgz": "Карышкыр сууду жашайт.",
-                "uzb": "Bo'ri suvda yashaydi.",
-                "eng": "Wolf lives in water.",
-                "rus": "Волк живет в воде.",
-                "kaz": "Қасқыр суда өмір сүреді.",
+                "aze": "Bazar ertəsindən sonra cümə olacaq.",
+                "kgz": "Дүйшөмбүдөн кийин жума болот.",
+                "uzb": "Dushanbadan keyingi kun juma",
+                "eng": "After Monday, there will be Friday",
+                "rus": "После понедельника будет пятница.",
+                "kaz": "Дүйсенбіден кейінгі күн жұма.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "ذئب يعيش في الماء.",
+                "areg": "اليوم الذي يلي الإثنين هو الجمعة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Hər bir dördbucaqlının 3 təpəsi var.",
-                "kgz": "Ар бир төрт бурчтуктун 3 чокусу бар",
-                "uzb": "Har qanday to'rtburchakning 3 ta uchi bor",
-                "eng": "Any quadrilateral has 3 vertices",
-                "rus": "Любой четырехугольник имеет 3 вершин",
-                "kaz": "Кез келген төртбұрыштың 3 төбесі бар",
+                "aze": "Maral suyu yeyir.",
+                "kgz": "Бугу сууду жашайт.",
+                "uzb": "Bug'u suvda yashaydi.",
+                "eng": "Deer lives in water.",
+                "rus": "Олень живет в воде.",
+                "kaz": "Бұғы суда өмір сүреді.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "أي شكل رباعي له 3 رؤوس",
+                "areg": "غزال يعيش في الماء.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Ördək - heyvandır.",
-                "kgz": "Өрдөк - жаныбар",
-                "uzb": "O'rdak - parranda",
-                "eng": "Duck – animal.",
-                "rus": "Утка – животное.",
-                "kaz": "Үйрек – жануар",
+                "aze": "70 ədədi 5-ə qalıqsız bölünür.",
+                "kgz": "70 5ке калдыксыз бөлүнөт.",
+                "uzb": "70 soni 5 ga qoldiqsiz bo'linadi.",
+                "eng": "70 is divisible by 5 without a remainder.",
+                "rus": "70 делится на 5 без остатка.",
+                "kaz": "70 саны 5-ке қалдықсыз бөлінеді.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "بطة هو حيوان",
+                "areg": "العدد 70 يقبل القسمة على 5 بدون باقٍ",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Bazar ertəsindən sonra çərşənbə olacaq.",
-                "kgz": "Дүйшөмбүдөн кийин шаршемби болот.",
-                "uzb": "Dushanbadan keyingi kun chorshanba",
-                "eng": "After Monday, there will be Wednesday",
-                "rus": "После понедельника будет среда.",
-                "kaz": "Дүйсенбіден кейінгі күн сәрсенбі.",
+                "aze": "Bayquş - heyvandır.",
+                "kgz": "Үкү - жаныбар",
+                "uzb": "Ukki - parranda",
+                "eng": "Owl – animal.",
+                "rus": "Сова – животное.",
+                "kaz": "Үкі – жануар",
                 "arjd": "",
                 "arsa": "",
-                "areg": "اليوم الذي يلي الإثنين هو الأربعاء",
+                "areg": "بومة هو حيوان",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -6449,14 +6449,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "A",
+            "correctAnswer": "D",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_10_12_6",
           "position": 5,
-          "id": "8532d7d9-6b3b-4f2b-bf9f-a4d0d9817775",
+          "id": "b798a253-bc18-4150-b47e-0a5c8b78b6b3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -6467,7 +6467,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "A",
+              "rus": "D",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -6531,6 +6531,7 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -6552,78 +6553,78 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "Dekabr - qış ayıdır.",
-                  "kgz": "Декабрь – кыш айы.",
-                  "uzb": "Dekabr - qish oyi.",
-                  "eng": "December – the month of winter.",
-                  "rus": "Декабрь – месяц зимы.",
-                  "kaz": "Желтоқсан – қыс айы.",
+                  "aze": "Desimetr - çəki vahididir.",
+                  "kgz": "Дециметр – салмакты ченөөнүн бирдиги.",
+                  "uzb": "Dekimetr – massa o'lchov birligi.",
+                  "eng": "A Decimeter is a unit of mass.",
+                  "rus": "Дециметр – единица измерения массы.",
+                  "kaz": "Дециметр - массаның өлшем бірлігі.",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "شهر ديسمبر من شهور الشتاء ",
+                  "areg": "الديسيمتر - وحدة قياس الكتلة.",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Hər bir dördbucaqlının 3 təpəsi var.",
-                  "kgz": "Ар бир төрт бурчтуктун 3 чокусу бар",
-                  "uzb": "Har qanday to'rtburchakning 3 ta uchi bor",
-                  "eng": "Any quadrilateral has 3 vertices",
-                  "rus": "Любой четырехугольник имеет 3 вершин",
-                  "kaz": "Кез келген төртбұрыштың 3 төбесі бар",
+                  "aze": "Qarışqa - böcəkdir.",
+                  "kgz": "Кумурска - курт-кумурскалар.",
+                  "uzb": "Chumoli - hasharot",
+                  "eng": "Ant – insect.",
+                  "rus": "Муравей – насекомое.",
+                  "kaz": "Құмырсқа – жәндік",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "أي شكل رباعي له 3 رؤوس",
+                  "areg": "نملة هو حشرة",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Arı - böcəkdir.",
-                  "kgz": "Аары - курт-кумурскалар.",
-                  "uzb": "Ari - hasharot",
-                  "eng": "Bee – insect.",
-                  "rus": "Пчела – насекомое.",
-                  "kaz": "Ара – жәндік",
+                  "aze": "61 tək ədəddir.",
+                  "kgz": "61 так сан.",
+                  "uzb": "61 soni toq son",
+                  "eng": "61 an odd number",
+                  "rus": "61 нечетное число",
+                  "kaz": "61 саны тақ сан",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "نحلة هو حشرة",
+                  "areg": "العدد 61 عدد فردي",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "Kubun 6 üzü var.",
-                  "kgz": "Кубтун 6 тарабы бар.",
-                  "uzb": "Kubning 6 ta yog’i bor.",
-                  "eng": "The cube has 6 sides.",
-                  "rus": "Куб имеет 6 сторон.",
-                  "kaz": "Текшенің 6 жағы бар.",
+                  "aze": "105 ədədi  35 ilə 3 ədədinin hasilinə bərabərdir.",
+                  "kgz": "105 35 караганда 3 эсе көп.",
+                  "uzb": "105 soni 35 dan 3 marta ko'p.",
+                  "eng": "105 in 3 times more than 35.",
+                  "rus": "105 в три раза больше, чем 35.",
+                  "kaz": "105 саны 35-тен үш есе артық.",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "للمكعب 6 أوجه.",
+                  "areg": "العدد 105 هو 3 أضعاف العدد 35",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "455 ədədi 5-ə qalıqsız bölünür.",
-                  "kgz": "455 5ке калдыксыз бөлүнөт.",
-                  "uzb": "455 soni 5 ga qoldiqsiz bo'linadi.",
-                  "eng": "455 is divisible by 5 without a remainder.",
-                  "rus": "455 делится на 5 без остатка.",
-                  "kaz": "455 саны 5-ке қалдықсыз бөлінеді.",
+                  "aze": "Yanvar - qış ayıdır.",
+                  "kgz": "Январь – кыш айы.",
+                  "uzb": "Yanvar - qish oyi.",
+                  "eng": "January – the month of winter.",
+                  "rus": "Январь – месяц зимы.",
+                  "kaz": "Қаңтар – қыс айы.",
                   "arjd": "",
                   "arsa": "",
-                  "areg": "العدد 455 يقبل القسمة على 5 بدون باقٍ",
+                  "areg": "شهر يناير من شهور الشتاء ",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -6644,7 +6645,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -6653,67 +6653,67 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "Dekabr - qış ayıdır.",
-                "kgz": "Декабрь – кыш айы.",
-                "uzb": "Dekabr - qish oyi.",
-                "eng": "December – the month of winter.",
-                "rus": "Декабрь – месяц зимы.",
-                "kaz": "Желтоқсан – қыс айы.",
+                "aze": "Desimetr - çəki vahididir.",
+                "kgz": "Дециметр – салмакты ченөөнүн бирдиги.",
+                "uzb": "Dekimetr – massa o'lchov birligi.",
+                "eng": "A Decimeter is a unit of mass.",
+                "rus": "Дециметр – единица измерения массы.",
+                "kaz": "Дециметр - массаның өлшем бірлігі.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "شهر ديسمبر من شهور الشتاء ",
+                "areg": "الديسيمتر - وحدة قياس الكتلة.",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Hər bir dördbucaqlının 3 təpəsi var.",
-                "kgz": "Ар бир төрт бурчтуктун 3 чокусу бар",
-                "uzb": "Har qanday to'rtburchakning 3 ta uchi bor",
-                "eng": "Any quadrilateral has 3 vertices",
-                "rus": "Любой четырехугольник имеет 3 вершин",
-                "kaz": "Кез келген төртбұрыштың 3 төбесі бар",
+                "aze": "Qarışqa - böcəkdir.",
+                "kgz": "Кумурска - курт-кумурскалар.",
+                "uzb": "Chumoli - hasharot",
+                "eng": "Ant – insect.",
+                "rus": "Муравей – насекомое.",
+                "kaz": "Құмырсқа – жәндік",
                 "arjd": "",
                 "arsa": "",
-                "areg": "أي شكل رباعي له 3 رؤوس",
+                "areg": "نملة هو حشرة",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Arı - böcəkdir.",
-                "kgz": "Аары - курт-кумурскалар.",
-                "uzb": "Ari - hasharot",
-                "eng": "Bee – insect.",
-                "rus": "Пчела – насекомое.",
-                "kaz": "Ара – жәндік",
+                "aze": "61 tək ədəddir.",
+                "kgz": "61 так сан.",
+                "uzb": "61 soni toq son",
+                "eng": "61 an odd number",
+                "rus": "61 нечетное число",
+                "kaz": "61 саны тақ сан",
                 "arjd": "",
                 "arsa": "",
-                "areg": "نحلة هو حشرة",
+                "areg": "العدد 61 عدد فردي",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "Kubun 6 üzü var.",
-                "kgz": "Кубтун 6 тарабы бар.",
-                "uzb": "Kubning 6 ta yog’i bor.",
-                "eng": "The cube has 6 sides.",
-                "rus": "Куб имеет 6 сторон.",
-                "kaz": "Текшенің 6 жағы бар.",
+                "aze": "105 ədədi  35 ilə 3 ədədinin hasilinə bərabərdir.",
+                "kgz": "105 35 караганда 3 эсе көп.",
+                "uzb": "105 soni 35 dan 3 marta ko'p.",
+                "eng": "105 in 3 times more than 35.",
+                "rus": "105 в три раза больше, чем 35.",
+                "kaz": "105 саны 35-тен үш есе артық.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "للمكعب 6 أوجه.",
+                "areg": "العدد 105 هو 3 أضعاف العدد 35",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "455 ədədi 5-ə qalıqsız bölünür.",
-                "kgz": "455 5ке калдыксыз бөлүнөт.",
-                "uzb": "455 soni 5 ga qoldiqsiz bo'linadi.",
-                "eng": "455 is divisible by 5 without a remainder.",
-                "rus": "455 делится на 5 без остатка.",
-                "kaz": "455 саны 5-ке қалдықсыз бөлінеді.",
+                "aze": "Yanvar - qış ayıdır.",
+                "kgz": "Январь – кыш айы.",
+                "uzb": "Yanvar - qish oyi.",
+                "eng": "January – the month of winter.",
+                "rus": "Январь – месяц зимы.",
+                "kaz": "Қаңтар – қыс айы.",
                 "arjd": "",
                 "arsa": "",
-                "areg": "العدد 455 يقبل القسمة على 5 بدون باقٍ",
+                "areg": "شهر يناير من شهور الشتاء ",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -6749,14 +6749,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_10_12_7",
           "position": 6,
-          "id": "7af1d9e4-0151-4a38-94b4-7a7b5955caa8",
+          "id": "4e4cfdf8-d2a2-47ff-9615-f61556224248",
           "solution": {
             "type": "formula",
             "answer": {
@@ -6767,7 +6767,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -6831,15 +6831,15 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "variants": [
-              38972,
-              97522,
-              95707
+              62935,
+              38737,
+              61861
             ],
-            "number": 97522
+            "number": 61861
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -6848,41 +6848,41 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "otuz səkki̇z min doqquz yüz yetmiş i̇ki̇",
-                "kgz": "отуз сегиз миң тогуз жүз жетимиш эки",
-                "uzb": "o'ttiz sakkiz ming to'qqiz yuz yetmish ikki",
-                "eng": "thirty-eight thousand nine hundred and seventy-two",
-                "rus": "тридцать восемь тысяч девятьсот семьдесят два",
-                "kaz": "отыз сегіз мың тоғыз жүз жетпіс екі",
+                "aze": "altmış i̇ki̇ min doqquz yüz otuz beş",
+                "kgz": "алтымыш эки миң тогуз жүз отуз беш",
+                "uzb": "oltmish ikki ming to'qqiz yuz o'ttiz besh",
+                "eng": "sixty-two thousand nine hundred and thirty-five",
+                "rus": "шестьдесят два тысячи девятьсот тридцать пять",
+                "kaz": "алпыс екі мың тоғыз жүз отыз бес",
                 "arjd": "",
                 "arsa": "",
-                "areg": "ثمانية وثلاثون ألفًا وتسعمائة واثنان وسبعون",
+                "areg": "اثنان وستون ألفًا وتسعمائة وخمسة وثلاثون",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "doxsan yeddi̇ min beş yüz iyirmi i̇ki̇",
-                "kgz": "токсон жети миң беш жүз жыйырма эки",
-                "uzb": "to'qson yetti ming besh yuz yigirma ikki",
-                "eng": "ninety-seven thousand five hundred and twenty-two",
-                "rus": "девяносто семь тысяч пятьсот двадцать два",
-                "kaz": "тоқсан жеті мың бес жүз жиырма екі",
+                "aze": "otuz səkki̇z min yeddi̇ yüz otuz yeddi̇",
+                "kgz": "отуз сегиз миң жети жүз отуз жети",
+                "uzb": "o'ttiz sakkiz ming yetti yuz o'ttiz yetti",
+                "eng": "thirty-eight thousand seven hundred and thirty-seven",
+                "rus": "тридцать восемь тысяч семьсот тридцать семь",
+                "kaz": "отыз сегіз мың жеті жүз отыз жеті",
                 "arjd": "",
                 "arsa": "",
-                "areg": "سبعة وتسعون ألفًا وخمسمائة واثنان وعشرون",
+                "areg": "ثمانية وثلاثون ألفًا وسبعمائة وسبعة وثلاثون",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "doxsan beş min yeddi̇ yüz yeddi̇",
-                "kgz": "токсон беш миң жети жүз жети",
-                "uzb": "to'qson besh ming yetti yuz yetti",
-                "eng": "ninety-five thousand seven hundred and seven",
-                "rus": "девяносто пять тысяч семьсот семь",
-                "kaz": "тоқсан бес мың жеті жүз жеті",
+                "aze": "altmış bi̇r min səkki̇z yüz altmış bi̇r",
+                "kgz": "алтымыш бир миң сегиз жүз алтымыш бир",
+                "uzb": "oltmish bir ming sakkiz yuz oltmish bir",
+                "eng": "sixty-one thousand eight hundred and sixty-one",
+                "rus": "шестьдесят один тысяча восемьсот шестьдесят один",
+                "kaz": "алпыс бір мың сегіз жүз алпыс бір",
                 "arjd": "",
                 "arsa": "",
-                "areg": "خمسة وتسعون ألفًا وسبعمائة وسبعة",
+                "areg": "واحد وستون ألفًا وثمانمائة وواحد وستون",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -6895,15 +6895,15 @@
             "questionAfter": null,
             "question": {
               "with_audio_player": false,
-              "aze": "97522 ədədinin düzgün sözlərlə yazılışını seçin:",
-              "kgz": "Төмөндөгүлөрдөн 97522 санын көрсөтүңүз.",
-              "uzb": "Quyidagi sonlarning ichidan 97522 sonini ko'rsating.",
-              "eng": "Select the correct name of the number 97522.",
-              "rus": "Выберите чтение числа 97522 из записей ниже.",
-              "kaz": "Төмендегі сандардың ішінен 97522 санын белгілеңіз. ",
+              "aze": "61861 ədədinin düzgün sözlərlə yazılışını seçin:",
+              "kgz": "Төмөндөгүлөрдөн 61861 санын көрсөтүңүз.",
+              "uzb": "Quyidagi sonlarning ichidan 61861 sonini ko'rsating.",
+              "eng": "Select the correct name of the number 61861.",
+              "rus": "Выберите чтение числа 61861 из записей ниже.",
+              "kaz": "Төмендегі сандардың ішінен 61861 санын белгілеңіз. ",
               "arjd": "",
               "arsa": "",
-              "areg": "اختر الصيغة اللفظية الصحيحة للعدد 97522",
+              "areg": "اختر الصيغة اللفظية الصحيحة للعدد 61861",
               "module_name": "Elixir.Helpers.Translation"
             },
             "maxWidth": "",
@@ -6925,7 +6925,7 @@
           },
           "type": "Elixir.Task_4_1_69",
           "position": 20,
-          "id": "93875318-3eb3-407e-9b05-dea7fef464fa",
+          "id": "1e178cc5-aac0-4e8c-b4f2-d9ff29fb063a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -6936,7 +6936,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "C",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -7000,11 +7000,12 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number4": 9886,
-            "number3": 9888,
-            "number2": 1014,
-            "number1": 1013,
+            "number4": 8671,
+            "number3": 8669,
+            "number2": 3488,
+            "number1": 3490,
             "multiple_choice": {
               "wrap_variants?": false,
               "with_audio_on_variants": true,
@@ -7025,39 +7026,39 @@
               "audio_question": "",
               "align_from_bottom": false,
               "correct_variants": [],
-              "correct_answer": "B",
+              "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
-                  "aze": "1013 > 1014",
-                  "kgz": "1013 > 1014",
-                  "uzb": "1013 > 1014",
-                  "eng": "1013 > 1014",
-                  "rus": "1013 > 1014",
-                  "kaz": "1013 > 1014",
-                  "arjd": "1013 > 1014",
-                  "arsa": "1013 > 1014",
-                  "areg": "1013 > 1014",
+                  "aze": "3490 > 3488",
+                  "kgz": "3490 > 3488",
+                  "uzb": "3490 > 3488",
+                  "eng": "3490 > 3488",
+                  "rus": "3490 > 3488",
+                  "kaz": "3490 > 3488",
+                  "arjd": "3490 > 3488",
+                  "arsa": "3490 > 3488",
+                  "areg": "3490 > 3488",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 {
                   "with_audio_player": false,
-                  "aze": "9888 > 9886",
-                  "kgz": "9888 > 9886",
-                  "uzb": "9888 > 9886",
-                  "eng": "9888 > 9886",
-                  "rus": "9888 > 9886",
-                  "kaz": "9888 > 9886",
-                  "arjd": "9888 > 9886",
-                  "arsa": "9888 > 9886",
-                  "areg": "9888 > 9886",
+                  "aze": "8669 > 8671",
+                  "kgz": "8669 > 8671",
+                  "uzb": "8669 > 8671",
+                  "eng": "8669 > 8671",
+                  "rus": "8669 > 8671",
+                  "kaz": "8669 > 8671",
+                  "arjd": "8669 > 8671",
+                  "arsa": "8669 > 8671",
+                  "areg": "8669 > 8671",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -7078,7 +7079,6 @@
               "table": null
             }
           },
-          "title": null,
           "description": {
             "withAudioOnVariants": true,
             "withAudio": true,
@@ -7087,28 +7087,28 @@
             "variants": [
               {
                 "with_audio_player": false,
-                "aze": "1013 > 1014",
-                "kgz": "1013 > 1014",
-                "uzb": "1013 > 1014",
-                "eng": "1013 > 1014",
-                "rus": "1013 > 1014",
-                "kaz": "1013 > 1014",
-                "arjd": "1013 > 1014",
-                "arsa": "1013 > 1014",
-                "areg": "1013 > 1014",
+                "aze": "3490 > 3488",
+                "kgz": "3490 > 3488",
+                "uzb": "3490 > 3488",
+                "eng": "3490 > 3488",
+                "rus": "3490 > 3488",
+                "kaz": "3490 > 3488",
+                "arjd": "3490 > 3488",
+                "arsa": "3490 > 3488",
+                "areg": "3490 > 3488",
                 "module_name": "Elixir.Helpers.Translation"
               },
               {
                 "with_audio_player": false,
-                "aze": "9888 > 9886",
-                "kgz": "9888 > 9886",
-                "uzb": "9888 > 9886",
-                "eng": "9888 > 9886",
-                "rus": "9888 > 9886",
-                "kaz": "9888 > 9886",
-                "arjd": "9888 > 9886",
-                "arsa": "9888 > 9886",
-                "areg": "9888 > 9886",
+                "aze": "8669 > 8671",
+                "kgz": "8669 > 8671",
+                "uzb": "8669 > 8671",
+                "eng": "8669 > 8671",
+                "rus": "8669 > 8671",
+                "kaz": "8669 > 8671",
+                "arjd": "8669 > 8671",
+                "arsa": "8669 > 8671",
+                "areg": "8669 > 8671",
                 "module_name": "Elixir.Helpers.Translation"
               }
             ],
@@ -7144,14 +7144,14 @@
             "hasMultipleAnswers": false,
             "figures": null,
             "countable": [],
-            "correctAnswer": "B",
+            "correctAnswer": "A",
             "background": null,
             "audioQuestion": "",
             "alignFromBottom": false
           },
           "type": "Elixir.Task_4_3_4_13",
           "position": 12,
-          "id": "4fe11cc1-0b85-4418-9a36-4d4d09d98b1b",
+          "id": "b8d469df-7a63-4ff3-b3f3-aad4bd0cd40f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -7162,7 +7162,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "B",
+              "rus": "A",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -7226,6 +7226,19 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": {
+            "with_audio_player": false,
+            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
+            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
+            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
+            "eng": "Read the statement and decide if it is true or false.",
+            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
+            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
+            "arjd": "",
+            "arsa": "",
+            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
+            "module_name": "Elixir.Helpers.Translation"
+          },
           "fields": {
             "multiple_choice": {
               "wrap_variants?": false,
@@ -7250,11 +7263,11 @@
               "correct_answer": "A",
               "background": null,
               "figures": null,
-              "countable": [],
               "images": null,
-              "max_items_per_row": 10,
               "left_position_figures": 0,
               "with_audio": true,
+              "countable": [],
+              "max_items_per_row": 10,
               "variants": [
                 {
                   "with_audio_player": false,
@@ -7300,19 +7313,6 @@
               "table": null
             },
             "word": "Килограмм"
-          },
-          "title": {
-            "with_audio_player": false,
-            "aze": "Mülahizəni oxuyun və onun doğru və ya yanlış olduğunu müəyyən edin.",
-            "kgz": "Айтылышты окуңуз жана анын чын же жалган экенин аныктаңыз.",
-            "uzb": "Mulohazani o'qing va uning rost yoki yolg'on ekanligini aniqlang.",
-            "eng": "Read the statement and decide if it is true or false.",
-            "rus": "Прочитайте высказывание и определите, истинно оно или ложно.",
-            "kaz": "Пікірді оқып, оның ақиқат немесе жалған екенін анықтаңыз.",
-            "arjd": "",
-            "arsa": "",
-            "areg": "اقرأ العبارة ثم حدد ما إذا كانت حقيقة أم خاطئة.",
-            "module_name": "Elixir.Helpers.Translation"
           },
           "description": {
             "withAudioOnVariants": true,
@@ -7386,7 +7386,7 @@
           },
           "type": "Elixir.Task_4_10_12_3",
           "position": 2,
-          "id": "6a48f3ae-0f04-415f-9fb9-540bd8c7c57b",
+          "id": "48ab20ee-6229-4660-8b10-b83177441b8a",
           "solution": {
             "type": "formula",
             "answer": {

@@ -17,6 +17,8 @@ export const SpoilerText = ({ children }: Props) => {
 
   return (
     <Spoiler
+      // Block children (MathText / SolutionExplanation) are invalid inside <span>.
+      tagName="div"
       forceFallback={IS_SAFARI}
       accentColor={'black'}
       theme="dark"
@@ -24,7 +26,7 @@ export const SpoilerText = ({ children }: Props) => {
       className={clsx(
         styles.spoiler,
         hidden && IS_SAFARI && styles.withPulse,
-        !hidden && styles.cursor,
+        hidden && styles.cursor,
       )}
       onClick={() => setHidden(false)}
       fallback={

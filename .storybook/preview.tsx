@@ -1,8 +1,9 @@
-import { injectFonts } from '@/modules/task-modal/model/lib/fonts/inject-fonts'
-import { initTestRunChannel } from '@/modules/testing/lib/test-run-store'
 import type { Preview } from '@storybook/react-vite'
 import { MathJaxContext, type MathJax3Config } from 'better-react-mathjax'
 import type { ReactNode } from 'react'
+
+import { injectFonts } from '@/modules/task-modal/model/lib/fonts/inject-fonts'
+import { initTestRunChannel } from '@/modules/testing/lib/test-run-store'
 
 import 'react-toastify/dist/ReactToastify.css'
 
@@ -116,18 +117,13 @@ const preview: Preview = {
             'Падения',
           ],
           'Statistics',
-          [
-            'Overview',
-            'Interface',
-            'Tables',
-            'Generation',
-            'Panel',
-          ],
+          ['Overview', 'Interface', 'Tables', 'Generation', 'Panel', 'Gaps'],
           'Design System',
           'Templates',
           'Canvas',
           'Chat',
           'Trainer',
+          'Math UI',
           'UI',
         ],
       },

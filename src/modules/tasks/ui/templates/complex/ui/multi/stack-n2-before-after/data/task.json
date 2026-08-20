@@ -75,10 +75,10 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number": 32
-  },
   "title": null,
+  "fields": {
+    "number": 60
+  },
   "description": {
     "isAnswerCellHidden": false,
     "isCalculatorClosed": false,
@@ -252,15 +252,15 @@
             "textAnchor": null,
             "text": {
               "with_audio_player": false,
-              "aze": "32 sm",
-              "kgz": "32 см",
-              "uzb": "32 cm",
-              "eng": "32 cm",
-              "rus": "32 см",
-              "kaz": "32 см",
-              "arjd": "32 cm",
-              "arsa": "32 سم",
-              "areg": "32 سم",
+              "aze": "60 sm",
+              "kgz": "60 см",
+              "uzb": "60 cm",
+              "eng": "60 cm",
+              "rus": "60 см",
+              "kaz": "60 см",
+              "arjd": "60 cm",
+              "arsa": "60 سم",
+              "areg": "60 سم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "isLatex": false,
@@ -314,15 +314,15 @@
             "textAnchor": null,
             "text": {
               "with_audio_player": false,
-              "aze": "32 sm",
-              "kgz": "32 см",
-              "uzb": "32 cm",
-              "eng": "32 cm",
-              "rus": "32 см",
-              "kaz": "32 см",
-              "arjd": "32 cm",
-              "arsa": "32 سم",
-              "areg": "32 سم",
+              "aze": "60 sm",
+              "kgz": "60 см",
+              "uzb": "60 cm",
+              "eng": "60 cm",
+              "rus": "60 см",
+              "kaz": "60 см",
+              "arjd": "60 cm",
+              "arsa": "60 سم",
+              "areg": "60 سم",
               "module_name": "Elixir.Helpers.Translation"
             },
             "isLatex": false,
@@ -344,7 +344,7 @@
   },
   "type": "Elixir.Task_4_7_18_8",
   "position": 7,
-  "id": "7f30c5e8-f659-48c8-abdd-6e77785a939b",
+  "id": "2b384b17-4c36-4a20-b8d3-01c8ee0f854b",
   "solution": {
     "type": "formula",
     "answer": {
@@ -355,7 +355,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "16;;8",
+      "rus": "30;;15",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

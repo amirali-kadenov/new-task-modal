@@ -1,5 +1,6 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 
+import type { PlayCaseResult, PlayCaseStatus } from '@/testing/play-results'
 import { PlayResultsPanel } from '@/testing/play-results-panel'
 
 import {
@@ -23,39 +24,31 @@ import {
 import { useTemplateOptions, useTaskOptions } from './test-suite-runner'
 import styles from './test-suite-runner.module.scss'
 
-const SUITES: TestSuite[] = ['unit', 'interactions', 'e2e']
+const SUITES: TestSuite[] = ['unit', 'interactions', 'e2e', 'visual']
 
 const SUITE_CHECK_LABELS: Record<TestSuite, string> = {
   unit: 'Данные и логика (unit)',
   interactions: 'В окне задачи (integration)',
   e2e: 'В живом приложении (e2e)',
+  visual: 'Скриншоты (visual)',
 }
 
 const SUITE_HINTS: Record<TestSuite, string> = {
   unit: 'без браузера: fixtures, classify, логика задания',
   interactions: 'сценарии в Storybook',
   e2e: 'настоящее приложение (порт 8888)',
+  visual: 'PNG эталоны Groups/Tasks (порт 6006)',
 }
 
 /** Plan order: layouts → grade tasks → all. */
 const SCOPE_ORDER: TestScope[] = ['allGroups', 'allTasks', 'all']
 
-const STATUS_COLOR: Record<HubSuiteStatus, string> = {
-  idle: '#6b7280',
-  pending: '#9ca3af',
-  running: '#2563eb',
-  passed: '#16a34a',
-  failed: '#dc2626',
-  skipped: '#9ca3af',
-}
-
-const STATUS_LABEL: Record<HubSuiteStatus, string> = {
-  idle: 'ожидание',
-  pending: 'в очереди',
-  running: 'идёт…',
-  passed: 'успех',
-  failed: 'падение',
-  skipped: 'пропуск',
+const hubStatusToPlay = (status: HubSuiteStatus): PlayCaseStatus => {
+  if (status === 'passed') return 'pass'
+  if (status === 'failed') return 'fail'
+  if (status === 'running') return 'running'
+  // idle | pending | skipped → pending (skipped noted via descriptionRu)
+  return 'pending'
 }
 
 export const AllSuitesRunner = () => {
@@ -66,6 +59,7 @@ export const AllSuitesRunner = () => {
     unit: true,
     interactions: true,
     e2e: true,
+    visual: false,
   })
   const [scope, setScope] = useState<TestScope>('allTasks')
   const [grade, setGrade] = useState<TestGrade>(4)
@@ -88,6 +82,25 @@ export const AllSuitesRunner = () => {
   const casesHeader = activeSuite
     ? `Проверки — ${SUITE_LABELS[activeSuite]}`
     : 'Проверки'
+
+  const suiteChecklist = useMemo<PlayCaseResult[]>(
+    () =>
+      SUITES.map((suite) => {
+        const status = suiteStatus[suite]
+        return {
+          id: `suite-${suite}`,
+          label: SUITE_LABELS[suite],
+          status: hubStatusToPlay(status),
+          descriptionRu:
+            status === 'skipped'
+              ? 'пропуск'
+              : status === 'pending'
+                ? 'в очереди'
+                : SUITE_HINTS[suite],
+        }
+      }),
+    [suiteStatus],
+  )
 
   const onRun = () => {
     if (isHubBusy() || isAnySuiteBusy()) return
@@ -317,28 +330,15 @@ export const AllSuitesRunner = () => {
         </div>
       </header>
 
-      <section className={styles.artifacts}>
-        <h2 className={styles.sectionTitle}>Наборы</h2>
-        <ul className={styles.statusList}>
-          {SUITES.map((suite) => (
-            <li key={suite} className={styles.statusItem}>
-              <span className={styles.statusName}>{SUITE_LABELS[suite]}</span>
-              <span
-                className={styles.statusValue}
-                style={{ color: STATUS_COLOR[suiteStatus[suite]] }}
-              >
-                {STATUS_LABEL[suiteStatus[suite]]}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <div className={styles.resultsWrap}>
+        <PlayResultsPanel cases={suiteChecklist} header="Наборы" />
+      </div>
 
-      {cases.length > 0 && (
+      {cases.length > 0 ? (
         <div className={styles.resultsWrap}>
           <PlayResultsPanel cases={cases} header={casesHeader} />
         </div>
-      )}
+      ) : null}
 
       <details className={styles.logDetails} open={running || Boolean(log)}>
         <summary>Общий лог</summary>

@@ -34,6 +34,7 @@ export const FileInput = ({ onAddFile, disabled }: Props) => {
         ref={fileInputRef}
         onChange={handleFileSelect}
         style={{ display: 'none' }}
+        data-testid="chat-file-input"
       />
     </>
   )

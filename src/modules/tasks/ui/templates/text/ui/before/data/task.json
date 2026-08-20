@@ -26,11 +26,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number3": 92,
-    "number2": 22,
-    "number1": 134546
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Tənliyi həll edin.",
@@ -44,26 +39,31 @@
     "areg": "حل المعادلة التالية",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number3": 93,
+    "number2": 28,
+    "number1": 134540
+  },
   "description": {
     "with_audio": true,
     "content": {
       "with_audio_player": false,
-      "aze": "(134546 – \\(x\\)) + 22 = 92",
-      "kgz": "(134546 – \\(x\\)) + 22 = 92",
-      "uzb": "(134546 – \\(x\\)) + 22 = 92",
-      "eng": "(134,546 – \\(x\\)) + 22 = 92",
-      "rus": "(134546 – \\(x\\)) + 22 = 92",
-      "kaz": "(134546 – \\(x\\)) + 22 = 92",
-      "arjd": "(134546 – \\(x\\)) + 22 = 92",
-      "arsa": "(134546 – \\(x\\)) + 22 = 92",
-      "areg": "(134546 – \\(x\\)) + 22 = 92",
+      "aze": "(134540 – \\(x\\)) + 28 = 93",
+      "kgz": "(134540 – \\(x\\)) + 28 = 93",
+      "uzb": "(134540 – \\(x\\)) + 28 = 93",
+      "eng": "(134,540 – \\(x\\)) + 28 = 93",
+      "rus": "(134540 – \\(x\\)) + 28 = 93",
+      "kaz": "(134540 – \\(x\\)) + 28 = 93",
+      "arjd": "(134540 – \\(x\\)) + 28 = 93",
+      "arsa": "(134540 – \\(x\\)) + 28 = 93",
+      "areg": "(134540 – \\(x\\)) + 28 = 93",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "text"
   },
   "type": "Elixir.Task_4_12_7_1",
   "position": 0,
-  "id": "53f21d1d-4074-4171-9e3c-1c47c1c6f366",
+  "id": "09345739-5351-485e-a957-3071b6ae4f51",
   "solution": {
     "type": "text",
     "answer": {
@@ -74,7 +74,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "134476",
+      "rus": "134475",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

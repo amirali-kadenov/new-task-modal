@@ -25,7 +25,8 @@ const hostArg = args.find((a) => a.startsWith('--host='))
 let launchBase
 if (flag === '--test') launchBase = HOSTS.test
 else if (flag === '--prod') launchBase = HOSTS.prod
-else if (hostArg) launchBase = hostArg.slice('--host='.length).replace(/\/$/, '')
+else if (hostArg)
+  launchBase = hostArg.slice('--host='.length).replace(/\/$/, '')
 
 if (!launchBase) {
   console.error(

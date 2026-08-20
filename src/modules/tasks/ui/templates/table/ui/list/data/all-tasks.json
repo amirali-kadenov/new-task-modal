@@ -29,35 +29,35 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "thousands": 0,
-            "ten_thousands": 7,
-            "hundred_thousands": 5,
-            "tens": 7,
-            "hundreds": 1,
-            "units": 6
-          },
           "title": null,
+          "fields": {
+            "thousands": 3,
+            "ten_thousands": 7,
+            "hundred_thousands": 9,
+            "tens": 4,
+            "hundreds": 1,
+            "units": 5
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "570176 ədədinin mərtəbə vahidlərini müəyyən edin.\n",
-              "kgz": "570176 санынын разряддык курамын аныктаңыз.\n",
-              "uzb": "570176 sonining xona tarkibini aniqlang.\n",
-              "eng": "Determine the place value composition of the number 570176.\n",
-              "rus": "Определите разрядный состав числа 570176.\n",
-              "kaz": "570176 санының разрядтық құрамын анықтаңыз.\n",
+              "aze": "973145 ədədinin mərtəbə vahidlərini müəyyən edin.\n",
+              "kgz": "973145 санынын разряддык курамын аныктаңыз.\n",
+              "uzb": "973145 sonining xona tarkibini aniqlang.\n",
+              "eng": "Determine the place value composition of the number 973145.\n",
+              "rus": "Определите разрядный состав числа 973145.\n",
+              "kaz": "973145 санының разрядтық құрамын анықтаңыз.\n",
               "arjd": "",
               "arsa": "",
-              "areg": "اكتب العدد 570176 بصيغة الوحدات:\n",
+              "areg": "اكتب العدد 973145 بصيغة الوحدات:\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "table",
@@ -133,7 +133,7 @@
                       "aze": "- minliklər",
                       "kgz": "- миңдик",
                       "uzb": "- minglik",
-                      "eng": "- thousand",
+                      "eng": "- thousands",
                       "rus": "- тысячи",
                       "kaz": "- мыңдық",
                       "arjd": "",
@@ -236,7 +236,7 @@
           },
           "type": "Elixir.Task_4_4_55",
           "position": 8,
-          "id": "4e3a5712-6b6f-4f14-9d5e-01ccd245d871",
+          "id": "ef2f8b8c-8693-4187-92af-d1f05a04c5f8",
           "solution": {
             "type": "table",
             "answer": {
@@ -247,7 +247,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "5;;7;;0;;1;;7;;6",
+              "rus": "9;;7;;3;;1;;4;;5",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -311,22 +311,22 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "thousands": 4,
-            "ten_thousands": 6,
-            "hundred_thousands": 2,
-            "tens": 8,
-            "hundreds": 0,
-            "units": 7
-          },
           "title": null,
+          "fields": {
+            "thousands": 6,
+            "ten_thousands": 9,
+            "hundred_thousands": 7,
+            "tens": 4,
+            "hundreds": 4,
+            "units": 1
+          },
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": {
@@ -357,7 +357,7 @@
                   "colspan": 1,
                   "border_bottom": null,
                   "cells": [
-                    "264087 = ",
+                    "796441 = ",
                     "answercell",
                     " + ",
                     "answercell",
@@ -386,7 +386,7 @@
           },
           "type": "Elixir.Task_4_4_56",
           "position": 9,
-          "id": "854a4f9c-1465-4188-9b2f-617f50bda627",
+          "id": "35a33e46-42ce-4772-9658-69981d1536d9",
           "solution": {
             "type": "table",
             "answer": {
@@ -397,7 +397,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "200000;;60000;;4000;;0;;80;;7",
+              "rus": "700000;;90000;;6000;;400;;40;;1",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

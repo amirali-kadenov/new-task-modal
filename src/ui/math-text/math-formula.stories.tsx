@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import type { CSSProperties, ReactNode } from 'react'
 
 import {
+  isAllMathSymbolsSection,
   SYMBOL_SECTIONS,
   type SymbolEntry,
   type SymbolSection,
@@ -10,7 +11,7 @@ import {
 import { MathFormula } from './math-formula'
 
 const meta = {
-  title: 'UI/MathFormula',
+  title: 'Math UI/MathFormula',
   component: MathFormula,
   parameters: {
     docs: {
@@ -68,6 +69,15 @@ const comboGridStyle: CSSProperties = {
   gap: 12,
 }
 
+const wrapRowStyle: CSSProperties = {
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  gap: '8px 12px',
+  alignItems: 'center',
+  maxWidth: '100%',
+}
+
 const cardStyle: CSSProperties = {
   display: 'flex',
   flexDirection: 'column',
@@ -77,6 +87,8 @@ const cardStyle: CSSProperties = {
   border: '1px solid var(--border-subtle, #e0e0e0)',
   borderRadius: 8,
   minHeight: 72,
+  maxWidth: '100%',
+  overflow: 'hidden',
 }
 
 const labelStyle: CSSProperties = {
@@ -110,6 +122,18 @@ const SymbolCatalog = ({
       обёртки <code>\\(...\\)</code>).
     </p>
     {sections.map((section) => {
+      if (isAllMathSymbolsSection(section.title)) {
+        return (
+          <section key={section.title}>
+            <h3 style={sectionTitleStyle}>{section.title}</h3>
+            <div style={{ ...cardStyle, ...wrapRowStyle }}>
+              {section.items.map((item) => (
+                <MathFormula key={item.tex}>{item.tex}</MathFormula>
+              ))}
+            </div>
+          </section>
+        )
+      }
       const isCombo = section.title.startsWith('Комбинации')
       return (
         <section key={section.title}>

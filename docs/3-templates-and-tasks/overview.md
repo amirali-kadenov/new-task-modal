@@ -44,3 +44,9 @@ src/modules/tasks/ui/templates/<template-name>/
 - `inline: true` — поля ввода интегрируются прямо в текст условия.
 - `stack: true` — элементы подзадач располагаются друг под другом.
 - `beforeAfter` — отображение вспомогательных графических элементов или пояснений до/после текстового блока.
+
+---
+
+## Visual regression
+
+Скриншотные проверки Groups/Tasks (Playwright): см. [visual-regression.md](./visual-regression.md).

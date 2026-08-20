@@ -54,15 +54,9 @@
   },
   "difficulty": null,
   "result": "none",
+  "title": null,
   "fields": {
     "number_list": [
-      {
-        "module_name": "Elixir.Fraction",
-        "b": 17,
-        "sign": 1,
-        "a": 3,
-        "integer": 0
-      },
       {
         "module_name": "Elixir.Fraction",
         "b": 17,
@@ -74,14 +68,14 @@
         "module_name": "Elixir.Fraction",
         "b": 17,
         "sign": 1,
-        "a": 4,
+        "a": 2,
         "integer": 0
       },
       {
         "module_name": "Elixir.Fraction",
         "b": 17,
         "sign": 1,
-        "a": 10,
+        "a": 9,
         "integer": 0
       },
       {
@@ -90,30 +84,36 @@
         "sign": 1,
         "a": 12,
         "integer": 0
+      },
+      {
+        "module_name": "Elixir.Fraction",
+        "b": 17,
+        "sign": 1,
+        "a": 11,
+        "integer": 0
       }
     ]
   },
-  "title": null,
   "description": {
     "with_audio": true,
     "content": {
       "with_audio_player": false,
-      "aze": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) kəsrlərini artan sıra ilə yazın.",
-      "kgz": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) Бөлчөктөрдү өсүү тартибинде бири-бирин үтүрлүү чекит менен ажыратып жазыңыз.",
-      "uzb": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) kasrlar o'sish tartibida yozing.",
-      "eng": "Write down the fractions in ascending order, separating them with a semicolon \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\)",
-      "rus": "Запишите дроби в порядке возрастания, разделив их точкой с запятой \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\)",
-      "kaz": "\\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) бөлшектерін өсу ретімен теріп жазыңыз.\n",
+      "aze": "\\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\) kəsrlərini artan sıra ilə yazın.",
+      "kgz": "\\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\) Бөлчөктөрдү өсүү тартибинде бири-бирин үтүрлүү чекит менен ажыратып жазыңыз.",
+      "uzb": "\\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\) kasrlar o'sish tartibida yozing.",
+      "eng": "Write down the fractions in ascending order, separating them with a semicolon \\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\)",
+      "rus": "Запишите дроби в порядке возрастания, разделив их точкой с запятой \\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\)",
+      "kaz": "\\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\) бөлшектерін өсу ретімен теріп жазыңыз.\n",
       "arjd": "",
       "arsa": "",
-      "areg": "رتِّب هذه الكسور \\(\\frac{3}{17}; \\frac{7}{17}; \\frac{4}{17}; \\frac{10}{17}; \\frac{12}{17}\\) ترتيبًا تصاعديًا.",
+      "areg": "رتِّب هذه الكسور \\(\\frac{7}{17}; \\frac{2}{17}; \\frac{9}{17}; \\frac{12}{17}; \\frac{11}{17}\\) ترتيبًا تصاعديًا.",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "text"
   },
   "type": "Elixir.Task_4_11_9_1",
   "position": 4,
-  "id": "316d2494-8bb1-43af-947d-bdaddf2a1338",
+  "id": "4a0c02af-f9dd-4998-add8-f4f6d0d3ca04",
   "solution": {
     "type": "text",
     "answer": {
@@ -124,7 +124,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "\\frac{3}{17};;\\frac{4}{17};;\\frac{7}{17};;\\frac{10}{17};;\\frac{12}{17}",
+      "rus": "\\frac{2}{17};;\\frac{7}{17};;\\frac{9}{17};;\\frac{11}{17};;\\frac{12}{17}",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

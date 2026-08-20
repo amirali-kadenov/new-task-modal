@@ -27,9 +27,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number": 2606
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -43,13 +40,16 @@
     "areg": "حول من وحدة الجرام إلى وحدة القياس المحددة:",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number": 9020
+  },
   "description": {
     "isTableReversed": false,
     "isTableFlip": false,
     "isCentered": true,
     "answerCellWithComparison": false,
-    "isAnswerCellHidden": true,
     "imageBefore": "",
+    "isAnswerCellHidden": true,
     "isCalculatorClosed": false,
     "withAudio": true,
     "content": "",
@@ -68,7 +68,7 @@
           "colspan": 1,
           "border_bottom": null,
           "cells": [
-            "2606",
+            "9020",
             {
               "with_audio_player": false,
               "aze": "q",
@@ -128,7 +128,7 @@
   },
   "type": "Elixir.Task_4_6_2_21",
   "position": 20,
-  "id": "e5668cd5-fc86-472e-bbab-b98496d70fa7",
+  "id": "dfe6119a-bb17-43a6-8eac-07ddb41c4885",
   "solution": {
     "type": "table",
     "answer": {
@@ -139,7 +139,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "2;;606",
+      "rus": "9;;20",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

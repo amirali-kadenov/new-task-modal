@@ -40,9 +40,7 @@ const isMultiAnswerInput = (ai: Record<string, unknown>): boolean =>
  * Known catalog (grade 4): `comparison.plain` only.
  * Classifier still supports adornment/multi shapes for future grades.
  */
-export const classifyComparisonTemplate = (
-  task: ClassifiableTask,
-): string => {
+export const classifyComparisonTemplate = (task: ClassifiableTask): string => {
   const ai = task.answerInput
 
   if (ai == null || typeof ai !== 'object') return 'comparison.plain'

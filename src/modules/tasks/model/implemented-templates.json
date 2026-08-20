@@ -37,6 +37,7 @@
   "complex": [
     "complex.plain",
     "complex.after",
+    "complex.after.equation",
     "complex.beforeAfter",
     "complex.multi.stack.n2.after",
     "complex.multi.stack.n2.beforeAfter"
@@ -45,7 +46,8 @@
     "answerCell.plain",
     "answerCell.after",
     "answerCell.multi.inline.n2.plain",
-    "answerCell.multi.stack.n2.plain"
+    "answerCell.multi.stack.n2.plain",
+    "answerCell.multi.stack.n2.sequence"
   ],
   "comparison": ["comparison.plain"],
   "test": ["test.plain"],

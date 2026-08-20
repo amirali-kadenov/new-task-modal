@@ -16,9 +16,13 @@ import {
   type ColumnOperationStoryMetaArgs,
   type OperationFixture,
   type TemplateGroupFixture,
+  getOpenInTrainerControls,
+  normalizeAllTasksFile,
+  type AllTasksFile,
 } from '../../../lib/storybook'
 import type { ColumnOperationTask } from '../../../lib/types.task'
 
+import allTasksJson from './data/all-tasks.json'
 import groupsJson from './data/groups.json'
 import operationsJson from './data/operations.json'
 import fixture from './data/task.json'
@@ -30,6 +34,9 @@ const task = fixture as unknown as ColumnOperationTask
 const groups = groupsJson as unknown as TemplateGroupFixture[]
 const operations = operationsJson as unknown as OperationFixture[]
 const { groupIds, defaultGroup } = getGroupControlOptions(groups)
+const allTasks = allTasksJson as unknown as AllTasksFile
+const normalizedTasks = normalizeAllTasksFile(allTasks)
+const openInTrainer = getOpenInTrainerControls(groups)
 
 const ROOT_TITLE = 'Templates/ColumnOperation/multi/stack-n2-before'
 
@@ -38,6 +45,7 @@ const meta = {
   component: Template,
   args: {
     group: defaultGroup,
+    taskId: openInTrainer.defaultTaskId,
   },
   argTypes: {
     ...HIDDEN_TASK_ARGTYPES,
@@ -46,6 +54,11 @@ const meta = {
       options: groupIds,
       description:
         'Операция из data/groups.json: plus / minus / times / div (`all` — все в AllGroups)',
+    },
+    taskId: {
+      control: 'select',
+      options: openInTrainer.allTaskIds,
+      description: 'Конкретная задача (id) из all-tasks.json',
     },
   },
   parameters: templateDocs(readme),
@@ -56,30 +69,31 @@ type Story = StoryObj<ColumnOperationStoryMetaArgs>
 
 export const Default: Story = {
   parameters: storyDocs(STORY_DOCS.default),
-  argTypes: {
-    group: { options: groupIds },
-  },
-  render: ({ group }) =>
+  render: ({ group, taskId }) =>
     renderDefaultStory({
       Template,
       groups,
       fallbackTask: task,
       group,
+      taskId,
+      allTasks,
+      grade: normalizedTasks.defaultGrade,
       rootTitle: ROOT_TITLE,
     }),
 }
 
 export const WithSolution: Story = {
   parameters: storyDocs(STORY_DOCS.withSolution),
-  argTypes: {
-    group: { options: groupIds },
-  },
-  render: ({ group }) =>
+  render: ({ group, taskId }) =>
     renderWithSolutionStory({
       Template,
       groups,
       fallbackTask: task,
       group,
+      taskId,
+      allTasks,
+      grade: normalizedTasks.defaultGrade,
+      rootTitle: ROOT_TITLE,
     }),
 }
 

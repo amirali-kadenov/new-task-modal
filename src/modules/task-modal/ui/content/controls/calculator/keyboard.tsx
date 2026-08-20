@@ -25,7 +25,10 @@ export const Keyboard = ({ keys, mode, onKeyPress }: Props) => {
 
         return (
           <button
+            type="button"
             data-calc
+            data-calc-key={symbol.label}
+            aria-label={symbol.label}
             key={symbol.title}
             onClick={handleClick}
             className={clsx(styles.button, {

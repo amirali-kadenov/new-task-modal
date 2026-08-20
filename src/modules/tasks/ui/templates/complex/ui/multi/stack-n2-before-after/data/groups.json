@@ -105,10 +105,10 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 32
-      },
       "title": null,
+      "fields": {
+        "number": 60
+      },
       "description": {
         "isAnswerCellHidden": false,
         "isCalculatorClosed": false,
@@ -282,15 +282,15 @@
                 "textAnchor": null,
                 "text": {
                   "with_audio_player": false,
-                  "aze": "32 sm",
-                  "kgz": "32 см",
-                  "uzb": "32 cm",
-                  "eng": "32 cm",
-                  "rus": "32 см",
-                  "kaz": "32 см",
-                  "arjd": "32 cm",
-                  "arsa": "32 سم",
-                  "areg": "32 سم",
+                  "aze": "60 sm",
+                  "kgz": "60 см",
+                  "uzb": "60 cm",
+                  "eng": "60 cm",
+                  "rus": "60 см",
+                  "kaz": "60 см",
+                  "arjd": "60 cm",
+                  "arsa": "60 سم",
+                  "areg": "60 سم",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "isLatex": false,
@@ -344,15 +344,15 @@
                 "textAnchor": null,
                 "text": {
                   "with_audio_player": false,
-                  "aze": "32 sm",
-                  "kgz": "32 см",
-                  "uzb": "32 cm",
-                  "eng": "32 cm",
-                  "rus": "32 см",
-                  "kaz": "32 см",
-                  "arjd": "32 cm",
-                  "arsa": "32 سم",
-                  "areg": "32 سم",
+                  "aze": "60 sm",
+                  "kgz": "60 см",
+                  "uzb": "60 cm",
+                  "eng": "60 cm",
+                  "rus": "60 см",
+                  "kaz": "60 см",
+                  "arjd": "60 cm",
+                  "arsa": "60 سم",
+                  "areg": "60 سم",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "isLatex": false,
@@ -374,7 +374,7 @@
       },
       "type": "Elixir.Task_4_7_18_8",
       "position": 7,
-      "id": "7f30c5e8-f659-48c8-abdd-6e77785a939b",
+      "id": "2b384b17-4c36-4a20-b8d3-01c8ee0f854b",
       "solution": {
         "type": "formula",
         "answer": {
@@ -385,7 +385,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "16;;8",
+          "rus": "30;;15",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -521,11 +521,11 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 54,
-        "number1": 18
-      },
       "title": null,
+      "fields": {
+        "number2": 18,
+        "number1": 6
+      },
       "description": {
         "isAnswerCellHidden": false,
         "isCalculatorClosed": false,
@@ -667,15 +667,15 @@
                 "textAnchor": null,
                 "text": {
                   "with_audio_player": false,
-                  "aze": "18 sm",
-                  "kgz": "18 см",
-                  "uzb": "18 cm",
-                  "eng": "18 cm",
-                  "rus": "18 см",
-                  "kaz": "18 см",
-                  "arjd": "18 cm",
-                  "arsa": "18 سم",
-                  "areg": "18 سم",
+                  "aze": "6 sm",
+                  "kgz": "6 см",
+                  "uzb": "6 cm",
+                  "eng": "6 cm",
+                  "rus": "6 см",
+                  "kaz": "6 см",
+                  "arjd": "6 cm",
+                  "arsa": "6 سم",
+                  "areg": "6 سم",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "isLatex": false,
@@ -748,15 +748,15 @@
                 "textAnchor": null,
                 "text": {
                   "with_audio_player": false,
-                  "aze": "54 sm",
-                  "kgz": "54 см",
-                  "uzb": "54 cm",
-                  "eng": "54 cm",
-                  "rus": "54 см",
-                  "kaz": "54 см",
-                  "arjd": "54 cm",
-                  "arsa": "54 سم",
-                  "areg": "54 سم",
+                  "aze": "18 sm",
+                  "kgz": "18 см",
+                  "uzb": "18 cm",
+                  "eng": "18 cm",
+                  "rus": "18 см",
+                  "kaz": "18 см",
+                  "arjd": "18 cm",
+                  "arsa": "18 سم",
+                  "areg": "18 سم",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "isLatex": false,
@@ -778,7 +778,7 @@
       },
       "type": "Elixir.Task_4_7_18_6",
       "position": 5,
-      "id": "d818a2e2-eae5-4172-9909-c169941d7678",
+      "id": "1b12e8bc-9700-4eb8-bb29-a4d77e5b0303",
       "solution": {
         "type": "formula",
         "answer": {
@@ -789,7 +789,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "18;;9",
+          "rus": "6;;3",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

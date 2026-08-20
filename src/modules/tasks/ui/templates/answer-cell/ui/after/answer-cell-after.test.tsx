@@ -43,4 +43,16 @@ describe('answerCell.after', () => {
     expect(screen.queryByTestId('math-input')).not.toBeInTheDocument()
     expect(screen.getByText(/Правильный ответ/)).toBeInTheDocument()
   })
+
+  it('единица измерения (answerInput.after) показана рядом с ответом в панели', () => {
+    renderTemplate(Template, { ...task, solution: makeSolution('20000') })
+
+    // Separate sibling node, not concatenated into the MathFormula/MathText
+    // string (Cyrillic text inside `\(...\)` renders italicized/broken).
+    const units = screen.getAllByTestId('answer-unit')
+    expect(units.length).toBeGreaterThan(0)
+    for (const unit of units) {
+      expect(unit).toHaveTextContent('л')
+    }
+  })
 })

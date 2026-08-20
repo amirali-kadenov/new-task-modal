@@ -14,10 +14,6 @@
   },
   "difficulty": "x1",
   "result": "none",
-  "fields": {
-    "difficulty": "x1",
-    "number": 9161278
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Verilən ədədi onluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -31,12 +27,16 @@
     "areg": "قرّب العدد التالي إلى أقرب عشرة.",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "difficulty": "x1",
+    "number": 2871737
+  },
   "description": {
     "isAnswerCellHidden": false,
     "isCalculatorClosed": false,
     "parts": [
       {
-        "content": "9161278 \\( \\approx \\)",
+        "content": "2871737 \\( \\approx \\)",
         "type": 10
       }
     ],
@@ -44,7 +44,7 @@
   },
   "type": "Elixir.Task_4_8_5_1",
   "position": 0,
-  "id": "d499923d-517c-49f5-8299-6c6eb6f92352",
+  "id": "8136fee8-8b94-45a3-86f4-f7bb20efb85c",
   "solution": {
     "type": "formula",
     "answer": {
@@ -55,7 +55,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "9161280",
+      "rus": "2871740",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

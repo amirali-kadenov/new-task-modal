@@ -25,11 +25,9 @@
 
 ## Stories
 
-[text-plain.stories.tsx](text-plain.stories.tsx): `Default`, `WithSolution`, `MathRegressions`, `AllGroups`
-(все structural groups из [data/groups.json](data/groups.json)).
-
-`MathRegressions` — text_16 / text_18 / text_61 + `play` с DOM-инвариантами MathJax
-(`pnpm test:interactions`).
+[text-plain.stories.tsx](text-plain.stories.tsx): `Default`, `WithSolution` (Controls:
+`group` + `taskId`). Каталог — `Groups` / `Tasks`. MathJax-инварианты
+(text_16 / text_18 / text_61 и др.) — в `play` у `Groups / All`.
 
 ## Тесты
 
@@ -38,7 +36,7 @@
 | Команда | Что проверяет |
 |---------|----------------|
 | `pnpm test:unit` | Структура React + **строки** при **моке** MathText/MathFormula (шрифт/курсив/`mjx-merror` не видны) |
-| `pnpm test:interactions` | Реальный MathJax в Chromium: нет `mjx-merror`, нет сырых `\(`/`\)`, единицы upright |
+| `pnpm test:interactions` | Реальный MathJax в Chromium: нет `mjx-merror`, нет сырых `\(`/`\)`, единицы upright (`Groups / All`) |
 
 [text-plain.test.tsx](text-plain.test.tsx): classify → `text.plain`; один input; solution-ветка;
 разметка ответа `joinMathAnswers` для MathText.

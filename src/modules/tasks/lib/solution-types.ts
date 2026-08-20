@@ -31,6 +31,8 @@ export interface ComplexSolutionPart {
   rows?: SolutionTableRow[]
   width?: string
   tableAlign?: string
+  /** CoordinatePlane (type 110) fields — mirrors ComplexCoordinatePlanePart. */
+  [key: string]: unknown
 }
 
 export interface TaskSolutionObject {
@@ -50,6 +52,25 @@ export const isTranslationObject = (value: unknown): value is Translation => {
   )
 }
 
+/** Prefer current-locale translate, then any non-empty language field (ME often fills only `rus`). */
+const translationAnswerText = (
+  answer: Translation,
+  translate?: (value: Translation | string) => string,
+): string => {
+  const translated = translate?.(answer)
+  if (translated != null && translated.trim()) return translated
+  return (
+    answer.rus ||
+    answer.kaz ||
+    answer.eng ||
+    answer.uzb ||
+    answer.aze ||
+    answer.kgz ||
+    answer.school ||
+    ''
+  )
+}
+
 export const formatSolutionAnswer = (
   answer: string | Translation | undefined | null,
   translate?: (value: Translation | string) => string,
@@ -60,10 +81,9 @@ export const formatSolutionAnswer = (
     return isPlaceholderAnswer(answer) ? '' : answer
   }
 
-  if (isTranslationObject(answer)) {
-    const text = translate
-      ? translate(answer)
-      : answer.rus || answer.kaz || answer.eng || ''
+  // Match Global.translate (`_.isObject`) — do not require `module_name`.
+  if (typeof answer === 'object' && !Array.isArray(answer)) {
+    const text = translationAnswerText(answer, translate)
     return isPlaceholderAnswer(text) ? '' : text
   }
 

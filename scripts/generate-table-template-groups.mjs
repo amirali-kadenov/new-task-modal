@@ -6,9 +6,11 @@
  *   node scripts/generate-table-template-groups.mjs
  */
 import fs from 'node:fs'
-import path from 'node:path'
 import { createRequire } from 'node:module'
+import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 import {
   mapGroupTasks,
   mapGroupTasksWithBodies,
@@ -18,7 +20,6 @@ import {
   loadSnapshotForGrade,
   toAllTasksFilePayload,
 } from './lib/snapshot.mjs'
-import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -29,10 +30,7 @@ const structural = require(
   path.join(repoRoot, 'stats/server/src/pipeline/structuralAnalysis.js'),
 )
 
-const tableRoot = path.join(
-  modalRoot,
-  'src/modules/tasks/ui/templates/table',
-)
+const tableRoot = path.join(modalRoot, 'src/modules/tasks/ui/templates/table')
 
 const FOLDER_BY_ID = {
   'table.plain': 'ui/plain',
@@ -46,8 +44,7 @@ const FOLDER_BY_ID = {
 
 const isAnswerCell = (cell) => cell === 'answercell'
 
-const answerCellCount = (row) =>
-  (row.cells || []).filter(isAnswerCell).length
+const answerCellCount = (row) => (row.cells || []).filter(isAnswerCell).length
 
 const hasSvg = (row) =>
   (row.cells || []).some(

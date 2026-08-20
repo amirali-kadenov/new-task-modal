@@ -8,7 +8,12 @@ interface Props {
 
 const MATH_JAX_CONFIG: MathJax3Config = {
   loader: { load: ['input/tex', 'output/chtml'] },
-  chtml: { matchFontHeight: false },
+  // `matchFontHeight` (default true) scales MathJax output to the actual
+  // rendered font's ex-height so numbers/formulas match surrounding plain
+  // text. Was off, so MathJax used its own fixed metrics — visibly smaller
+  // and baseline-shifted vs plain text next to it (e.g. answer-cell
+  // solution rows mixing plain-text and MathFormula-rendered numbers).
+  chtml: { matchFontHeight: true },
   options: {
     renderActions: {
       addMenu: [], // disables MathJax context menu

@@ -45,9 +45,9 @@ export const HIDDEN_TASK_ARGTYPES = {
 /** Descriptions for the story set every variant shares. */
 export const STORY_DOCS = {
   default:
-    'Базовый вид варианта без решения. Control `group` переключает structural group из `data/groups.json`.',
+    'Базовый вид варианта без решения. Controls `group` и `taskId` выбирают structural group и конкретную задачу из `all-tasks.json`.',
   withSolution:
-    'Режим решения: поля показывают правильный ответ и недоступны для ввода. Требует `solution` у выбранной группы.',
+    'Режим решения: поля показывают правильный ответ и недоступны для ввода. Controls `group` / `taskId` — как у Default.',
   inTrainer:
     'Полный сценарий тренажёра — заголовок, действия и проверка ответа. Ближе всего к поведению на хосте.',
   allGroups:

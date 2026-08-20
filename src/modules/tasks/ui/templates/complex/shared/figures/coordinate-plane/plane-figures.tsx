@@ -99,13 +99,7 @@ export const PlaneAxes = ({ options }: AxesProps) => {
         const x = getAxisX(options, i)
         return (
           <g key={`grid-${i}`}>
-            <line
-              x1={x}
-              y1={-mid}
-              x2={x}
-              y2={mid}
-              stroke="lightgrey"
-            />
+            <line x1={x} y1={-mid} x2={x} y2={mid} stroke="lightgrey" />
           </g>
         )
       })
@@ -114,10 +108,7 @@ export const PlaneAxes = ({ options }: AxesProps) => {
   const axisContent = showAxis ? (
     <>
       <line x1={0} y1={0} x2={length} y2={0} stroke="black" />
-      <path
-        d={`M${arrowLength},-5 L0,0 L${arrowLength},5z`}
-        fill="black"
-      />
+      <path d={`M${arrowLength},-5 L0,0 L${arrowLength},5z`} fill="black" />
       <path
         d={`M${length - arrowLength},-5 L${length},0 L${length - arrowLength},5z`}
         fill="black"
@@ -228,9 +219,15 @@ export const PlaneAxes = ({ options }: AxesProps) => {
 interface FigureProps {
   options: PlaneOptions
   figure: Record<string, unknown>
+  /** ME parity: resolve Translation / string labels (side lengths, units). */
+  translate: (value: unknown) => string
 }
 
-export const PlaneFigure = ({ options, figure }: FigureProps): ReactNode => {
+export const PlaneFigure = ({
+  options,
+  figure,
+  translate,
+}: FigureProps): ReactNode => {
   const type = Number(figure.type)
 
   switch (type) {
@@ -350,8 +347,7 @@ export const PlaneFigure = ({ options, figure }: FigureProps): ReactNode => {
       const color = (figure.color as string) || 'black'
       const center = { x: (d1.x + d2.x) / 2, y: (d1.y + d2.y) / 2 }
       const degree =
-        (Math.atan((d2.y - center.y) / (d2.x - center.x || 1)) * 180) /
-        Math.PI
+        (Math.atan((d2.y - center.y) / (d2.x - center.x || 1)) * 180) / Math.PI
       const flip = d1.x > d2.x ? 1 : -1
       return (
         <g stroke={color} fill={color}>
@@ -383,13 +379,7 @@ export const PlaneFigure = ({ options, figure }: FigureProps): ReactNode => {
       const x = typeof figure.x === 'number' ? figure.x : 0
       const y = typeof figure.y === 'number' ? figure.y : 0
       const d = fromPointToDot(options, x, y)
-      const raw = figure.text
-      const label =
-        typeof raw === 'string'
-          ? raw
-          : raw && typeof raw === 'object' && 'ru' in (raw as object)
-            ? String((raw as { ru?: string }).ru ?? '')
-            : ''
+      const label = translate(figure.text)
       if (!label) return null
       return (
         <text
@@ -400,7 +390,7 @@ export const PlaneFigure = ({ options, figure }: FigureProps): ReactNode => {
           fontSize={(figure.fontSize as number) || 18}
           transform={
             figure.degree
-              ? `rotate(${figure.degree} ${d.x} ${d.y})`
+              ? `rotate(${Number(figure.degree)} ${d.x} ${d.y})`
               : undefined
           }
         >
@@ -425,7 +415,7 @@ export const PlaneFigure = ({ options, figure }: FigureProps): ReactNode => {
         fill === 'transparent'
           ? `M${mDot.x} ${mDot.y}`
           : `M${centerDot.x} ${centerDot.y} L${mDot.x} ${mDot.y}`
-      const d = `${start} A${rx} ${ry} ${figure.xAxisRotation ?? 0} ${figure.largeArcFlag ?? 0} ${figure.sweepFlag ?? 0} ${endDot.x} ${endDot.y}`
+      const d = `${start} A${rx} ${ry} ${Number(figure.xAxisRotation ?? 0)} ${Number(figure.largeArcFlag ?? 0)} ${Number(figure.sweepFlag ?? 0)} ${endDot.x} ${endDot.y}`
       return (
         <g>
           <path
@@ -436,7 +426,7 @@ export const PlaneFigure = ({ options, figure }: FigureProps): ReactNode => {
             strokeDasharray={figure.dashed ? '5' : undefined}
             transform={
               figure.rotateDegree
-                ? `rotate(${figure.rotateDegree} ${centerDot.x} ${centerDot.y})`
+                ? `rotate(${Number(figure.rotateDegree)} ${centerDot.x} ${centerDot.y})`
                 : undefined
             }
           />

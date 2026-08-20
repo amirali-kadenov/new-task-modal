@@ -87,7 +87,8 @@ export const PLAY_CASES_SHOW_ANSWER: PlayCaseDef[] = [
   {
     id: 'open-chat',
     label: 'Открыть чат',
-    descriptionRu: 'Открывается AI-чат с действиями «Смотреть пример» / «Показать ответ».',
+    descriptionRu:
+      'Открывается AI-чат с действиями «Смотреть пример» / «Показать ответ».',
   },
   {
     id: 'show-answer',

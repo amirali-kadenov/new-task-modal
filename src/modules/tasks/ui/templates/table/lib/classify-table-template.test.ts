@@ -120,8 +120,20 @@ describe('classifyTableTemplate', () => {
           table: {
             rows: [
               { cells: ['Колесо', 'Радиус', 'Диаметр'] },
-              { cells: ['<svg viewBox="0 0 150 150"></svg>', '12', 'answercell'] },
-              { cells: ['<svg viewBox="0 0 150 150"></svg>', 'answercell', '26'] },
+              {
+                cells: [
+                  '<svg viewBox="0 0 150 150"></svg>',
+                  '12',
+                  'answercell',
+                ],
+              },
+              {
+                cells: [
+                  '<svg viewBox="0 0 150 150"></svg>',
+                  'answercell',
+                  '26',
+                ],
+              },
             ],
           },
         },

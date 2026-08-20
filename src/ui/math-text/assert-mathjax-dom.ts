@@ -5,18 +5,54 @@
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms))
 
-/** Wait until at least one `mjx-container` appears under `root`. */
+const isSkippableTextParent = (node: Node | null): boolean => {
+  if (!node || node.nodeType !== Node.ELEMENT_NODE) return false
+  const tag = (node as Element).tagName.toLowerCase()
+  return tag === 'script' || tag === 'style' || tag === 'noscript'
+}
+
+/** Raw `\(` / `\)` left in visible text nodes under `root` (unfinished typeset). */
+const findRawMathDelimiterHits = (root: ParentNode): string[] => {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
+  const hits: string[] = []
+
+  let current = walker.nextNode()
+  while (current) {
+    if (!isSkippableTextParent(current.parentNode)) {
+      const text = current.textContent ?? ''
+      if (text.includes('\\(') || text.includes('\\)')) {
+        hits.push(text.trim().slice(0, 60))
+      }
+    }
+    current = walker.nextNode()
+  }
+
+  return hits
+}
+
+/**
+ * Wait until MathJax has typeset everything under `root`: at least one
+ * `mjx-container` exists AND no raw `\(`/`\)` remain in text nodes. Domains
+ * that mount several `MathText` instances per message (e.g. `complex`
+ * answer tables) fire independent, unbatched typeset calls — waiting for
+ * only the first container to appear races ahead of the rest.
+ */
 export const waitForMathJax = async (
   root: ParentNode,
-  timeoutMs = 5000,
+  timeoutMs = 8000,
 ): Promise<void> => {
   const start = Date.now()
   while (Date.now() - start < timeoutMs) {
-    if (root.querySelector('mjx-container')) return
+    if (
+      root.querySelector('mjx-container') &&
+      findRawMathDelimiterHits(root).length === 0
+    ) {
+      return
+    }
     await sleep(50)
   }
   throw new Error(
-    `MathJax: no mjx-container within ${timeoutMs}ms (typeset may have failed)`,
+    `MathJax: typesetting incomplete within ${timeoutMs}ms (no mjx-container, or raw \\( \\) still present)`,
   )
 }
 
@@ -34,31 +70,12 @@ export const assertNoMathJaxErrors = (root: ParentNode): void => {
   )
 }
 
-const isSkippableTextParent = (node: Node | null): boolean => {
-  if (!node || node.nodeType !== Node.ELEMENT_NODE) return false
-  const tag = (node as Element).tagName.toLowerCase()
-  return tag === 'script' || tag === 'style' || tag === 'noscript'
-}
-
 /**
  * After typeset, visible text must not still contain raw `\(` / `\)`
  * (double-wrap leaves a trailing `\)` outside math).
  */
 export const assertNoRawMathDelimiters = (root: ParentNode): void => {
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
-  const hits: string[] = []
-
-  let current = walker.nextNode()
-  while (current) {
-    if (!isSkippableTextParent(current.parentNode)) {
-      const text = current.textContent ?? ''
-      if (text.includes('\\(') || text.includes('\\)')) {
-        hits.push(text.trim().slice(0, 60))
-      }
-    }
-    current = walker.nextNode()
-  }
-
+  const hits = findRawMathDelimiterHits(root)
   if (hits.length === 0) return
   throw new Error(
     `MathJax: raw \\( or \\) left in text nodes (${hits.length}). Samples: ${hits.slice(0, 3).join(' | ')}`,

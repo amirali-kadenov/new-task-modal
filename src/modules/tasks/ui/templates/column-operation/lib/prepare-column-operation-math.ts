@@ -1,3 +1,5 @@
+import { uprightUnitsInTex } from '@/modules/tasks/ui/templates/text/lib/upright-math-units'
+
 /**
  * Sanitize / normalize columnOperation LaTeX before MathJax render.
  *
@@ -23,5 +25,7 @@ export const prepareColumnOperationMath = (tex: string): string => {
   const trimmed = tex.trim()
   if (!trimmed) return trimmed
 
-  return stripTrailingArrayBreaks(enlargeOperators(trimmed)).trim()
+  return uprightUnitsInTex(
+    stripTrailingArrayBreaks(enlargeOperators(trimmed)),
+  ).trim()
 }

@@ -5,6 +5,8 @@ import '../../../.storybook/mathquill-bootstrap'
 
 import {
   getMathQuillTex,
+  ALL_MATH_SYMBOLS_MATHQUILL_TEX,
+  isAllMathSymbolsSection,
   SYMBOL_SECTIONS,
   type SymbolSection,
 } from '../math-symbol-catalog'
@@ -12,7 +14,7 @@ import {
 import { MathInput } from './math-input'
 
 const meta = {
-  title: 'UI/MathInput',
+  title: 'Math UI/MathInput',
   component: MathInput,
   parameters: {
     docs: {
@@ -30,9 +32,11 @@ type Story = StoryObj<typeof meta>
 const ControlledMathInput = ({
   formula: initial,
   className,
+  style,
 }: {
   formula: string
   className?: string
+  style?: CSSProperties
 }) => {
   const [formula, setFormula] = useState(initial)
   return (
@@ -40,6 +44,7 @@ const ControlledMathInput = ({
       formula={formula}
       onMathFieldChanged={setFormula}
       className={className}
+      style={style}
     />
   )
 }
@@ -103,6 +108,26 @@ const cardStyle: CSSProperties = {
   border: '1px solid var(--border-subtle, #e0e0e0)',
   borderRadius: 8,
   minHeight: 88,
+  maxWidth: '100%',
+}
+
+const allSymbolsWrapStyle: CSSProperties = {
+  boxSizing: 'border-box',
+  width: '100%',
+  maxWidth: '100%',
+  minWidth: 0,
+  padding: 12,
+  overflowX: 'auto',
+  background: 'var(--bg-surface, #fff)',
+  border: '1px solid var(--border-subtle, #e0e0e0)',
+  borderRadius: 8,
+}
+
+const allSymbolsFieldStyle: CSSProperties = {
+  boxSizing: 'border-box',
+  width: 'max-content',
+  maxWidth: 'none',
+  minWidth: 0,
 }
 
 const labelStyle: CSSProperties = {
@@ -140,14 +165,30 @@ const SymbolCatalog = ({
 }: {
   sections: SymbolSection[]
 }): ReactNode => (
-  <div>
+  <div style={{ maxWidth: '100%', minWidth: 0 }}>
     <p style={{ margin: '0 0 8px', color: 'var(--text-secondary, #666)' }}>
-      Каталог символов и комбинаций для MathInput / MathQuill. Команды,
-      которые MathQuill не поддерживает (например{' '}
-      <code>\\angle</code>, <code>\\triangle</code>, индексный корень),
-      скрыты; <code>\\dfrac</code> заменён на <code>\\frac</code>.
+      Каталог символов и комбинаций для MathInput / MathQuill. Команды, которые
+      MathQuill не поддерживает (например <code>\\angle</code>,{' '}
+      <code>\\triangle</code>, индексный корень), скрыты; <code>\\dfrac</code>{' '}
+      заменён на <code>\\frac</code>.
     </p>
     {sections.map((section) => {
+      if (isAllMathSymbolsSection(section.title)) {
+        return (
+          <section
+            key={section.title}
+            style={{ maxWidth: '100%', minWidth: 0 }}
+          >
+            <h3 style={sectionTitleStyle}>{section.title}</h3>
+            <div style={allSymbolsWrapStyle}>
+              <ControlledMathInput
+                formula={ALL_MATH_SYMBOLS_MATHQUILL_TEX}
+                style={allSymbolsFieldStyle}
+              />
+            </div>
+          </section>
+        )
+      }
       const isCombo = section.title.startsWith('Комбинации')
       return (
         <section key={section.title}>

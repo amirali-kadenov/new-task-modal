@@ -1,5 +1,3 @@
-const IS_SAFARI = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
-
 export class MediaRecorderWrapper {
   private mediaRecorder: MediaRecorder | null = null
   private mediaStream: MediaStream | null = null
@@ -96,7 +94,10 @@ export class MediaRecorderWrapper {
     if (!this.mediaStream) return null
     if (this.analyser) return this.analyser
 
-    const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext
+    const AudioContextClass =
+      window.AudioContext ||
+      (window as Window & { webkitAudioContext?: typeof AudioContext })
+        .webkitAudioContext
     const audioContext = new AudioContextClass()
     const source = audioContext.createMediaStreamSource(this.mediaStream)
     this.analyser = audioContext.createAnalyser()

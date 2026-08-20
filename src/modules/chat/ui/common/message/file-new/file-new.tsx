@@ -5,7 +5,7 @@ import s from './file-new.module.scss'
 
 interface FileMessageProps {
   fileName: string
-  fileSize: number
+  fileSize?: number
   fileUrl: string
 }
 
@@ -21,6 +21,8 @@ export default function FileMessage({
     link.click()
   }
 
+  const formattedSize = formatFileSize(fileSize)
+
   return (
     <div className={s.content}>
       <Button
@@ -33,13 +35,14 @@ export default function FileMessage({
       </Button>
       <div className={s.fileInfo}>
         <span className={s.fileName}>{fileName}</span>
-        <span className={s.fileSize}>{formatFileSize(fileSize)}</span>
+        {formattedSize && <span className={s.fileSize}>{formattedSize}</span>}
       </div>
     </div>
   )
 }
 
-const formatFileSize = (bytes: number) => {
+const formatFileSize = (bytes?: number) => {
+  if (bytes == null || Number.isNaN(bytes)) return null
   if (bytes < 1024) return `${bytes} B`
   if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`

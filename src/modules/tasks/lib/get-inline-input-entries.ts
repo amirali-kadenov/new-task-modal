@@ -43,5 +43,8 @@ export const getInlineInputEntries = (
 
 export const hasInlineAnswerInput = (task: Task): boolean => {
   const answerInput = task.answerInput as Record<string, unknown> | undefined
-  return Boolean(answerInput?.inline) || getInlineInputEntries(task, (s) => s).length > 0
+  return (
+    Boolean(answerInput?.inline) ||
+    getInlineInputEntries(task, (s) => s).length > 0
+  )
 }

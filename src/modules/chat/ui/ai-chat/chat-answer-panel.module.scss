@@ -1,0 +1,58 @@
+.container {
+  @include body-medium-regular;
+
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  gap: var(--space-4);
+  align-items: baseline;
+
+  // .chat is `position: fixed; inset: 0;` — 100vw below the `sm` breakpoint,
+  // 375px (+1px border) at/above it. Subtract .messages + .message horizontal
+  // padding to get the real available width without touching message.module.scss.
+  max-width: calc(100vw - (var(--space-16) * 2) - (var(--space-12) * 2));
+  padding: var(--space-4) 0;
+
+  @include min-width(sm) {
+    max-width: calc(
+      375px - 2px - (var(--space-16) * 2) - (var(--space-12) * 2)
+    );
+  }
+
+  :global(mjx-math) {
+    font-weight: 700;
+    line-height: 0.3;
+  }
+}
+
+.label {
+  flex-shrink: 0;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.answer {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
+  :global(mjx-c) {
+    padding-right: 0.05em;
+  }
+}
+
+.unit {
+  flex-shrink: 0;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.ellipsis {
+  flex-shrink: 0;
+
+  // cancel .row's `gap` so the dots sit flush against the truncated text
+  margin-left: calc(var(--space-4) * -1);
+}

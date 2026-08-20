@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react'
 import type { Task } from '@/types/api/task'
 
 import { getParentWithAttr } from '../../helpers'
+import { useStore } from '../../store/task-modal-store'
 
 import type { CalcState } from './use-calc-setup'
 import type { TaskModalRefs } from './use-refs'
@@ -19,6 +20,7 @@ interface Args {
 
 export const useInputFocus = ({ refs, activeTask, calcState }: Args) => {
   const lastFocusedInput = useRef<HTMLElement | null>(null)
+  const isTaskLoaded = useStore((s) => s.isTaskLoaded)
 
   useEffect(() => {
     const root = refs.root.current
@@ -33,6 +35,10 @@ export const useInputFocus = ({ refs, activeTask, calcState }: Args) => {
       lastFocusedInput.current = input
 
       input.classList.add(FOCUSED)
+
+      if (!calcState.isOpen) {
+        input.scrollIntoView({ block: 'center', behavior: 'smooth' })
+      }
     }
 
     const setInitialFocus = () => {
@@ -42,6 +48,11 @@ export const useInputFocus = ({ refs, activeTask, calcState }: Args) => {
 
       if (input instanceof HTMLElement) {
         setFocusedInput(input)
+
+        // Programmatic .focus() bubbles a focusin to the overflow handler's
+        // `data-control` listener, which reopens the calculator — undoing a
+        // deliberate close (overflow layout, or solution shown). Don't fight it.
+        if (calcState.isEnabled && !calcState.isOpen) return
 
         const map = refs.mathInput.current
         if (!map) return
@@ -82,14 +93,29 @@ export const useInputFocus = ({ refs, activeTask, calcState }: Args) => {
 
     setInitialFocus()
 
+    // Lazy templates / MathJax can mount [data-input] after isSetupFinished.
+    const observer = new MutationObserver(() => {
+      if (!lastFocusedInput.current) setInitialFocus()
+    })
+    observer.observe(taskContainer, { childList: true, subtree: true })
+
+    let raf2 = 0
+    const raf1 = requestAnimationFrame(() => {
+      setInitialFocus()
+      raf2 = requestAnimationFrame(() => setInitialFocus())
+    })
+
     root.addEventListener('click', handler)
 
     return () => {
+      observer.disconnect()
+      cancelAnimationFrame(raf1)
+      cancelAnimationFrame(raf2)
       root.removeEventListener('click', handler)
       lastFocusedInput.current?.classList.remove(FOCUSED)
       lastFocusedInput.current = null
     }
-  }, [activeTask.id, calcState.isSetupFinished])
+  }, [activeTask.id, calcState.isSetupFinished, isTaskLoaded])
 
   return lastFocusedInput
 }

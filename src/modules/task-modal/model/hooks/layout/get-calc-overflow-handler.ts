@@ -3,53 +3,84 @@ import type { OpenState } from '../use-open-state'
 
 import type { TaskModalRefs } from './use-refs'
 
+const DATA_CONTROL = 'data-control'
+
 type Args = {
   refs: TaskModalRefs
   calc: OpenState
 }
+
+/**
+ * Overflow layout: keep calc closed to free vertical space, reopen when the
+ * pupil targets an answer control (`data-control`) via click or focusin.
+ *
+ * Listeners are attached before the initial close so an early click/focus is
+ * not lost (race with React effect timing / e2e).
+ */
 export const handleCalcOverflow = ({ refs, calc }: Args) => {
   const taskContainer = refs.taskContainer.current
   if (!taskContainer) return () => null
 
-  let onClick: (event: PointerEvent) => void = () => {}
-
-  if (
+  const isOverflowing =
     hasOverflow(taskContainer) ||
-    exceedsAvailableHeight(taskContainer, refs)
-  ) {
-    calc.close()
+    Boolean(exceedsAvailableHeight(taskContainer, refs))
 
-    const triggerCalc = (isControl: boolean) => {
+  const onControlGesture = (isControl: boolean) => {
+    if (isOverflowing) {
       if (isControl) {
         calc.open()
       } else {
         calc.close()
       }
+      return
     }
 
-    onClick = getClickHandler({ onClick: triggerCalc })
-  } else {
-    const openOnce = (isControl: boolean) => {
-      if (isControl) calc.open()
+    if (isControl) {
+      calc.open()
     }
-
-    onClick = getClickHandler({ onClick: openOnce })
   }
+
+  const onClick = getControlGestureHandler({
+    onGesture: onControlGesture,
+  })
+  const onFocusIn = getControlGestureHandler({
+    onGesture: (isControl) => {
+      // Focus only opens; never close on focus moving within the task.
+      if (isControl) calc.open()
+    },
+  })
 
   taskContainer.addEventListener('click', onClick)
+  taskContainer.addEventListener('focusin', onFocusIn)
+
+  if (isOverflowing) {
+    const active = document.activeElement
+    const controlFocused =
+      active instanceof HTMLElement &&
+      (active.hasAttribute(DATA_CONTROL) ||
+        Boolean(getParentWithAttr(active, DATA_CONTROL)))
+
+    if (controlFocused) {
+      calc.open()
+    } else {
+      calc.close()
+    }
+  }
+
   return () => {
     taskContainer.removeEventListener('click', onClick)
+    taskContainer.removeEventListener('focusin', onFocusIn)
   }
 }
 
-const DATA_CONTROL = 'data-control'
-
-interface GetClickHandlerArgs {
-  onClick: (isControl: boolean) => void
+interface GetControlGestureHandlerArgs {
+  onGesture: (isControl: boolean) => void
 }
 
-const getClickHandler = ({ onClick }: GetClickHandlerArgs) => {
-  const handler = (event: PointerEvent) => {
+const getControlGestureHandler = ({
+  onGesture,
+}: GetControlGestureHandlerArgs) => {
+  const handler = (event: Event) => {
     const target = event.target
 
     const isElement = target instanceof HTMLElement
@@ -58,7 +89,7 @@ const getClickHandler = ({ onClick }: GetClickHandlerArgs) => {
     const isControl = target.hasAttribute(DATA_CONTROL)
     const parentControl = getParentWithAttr(target, DATA_CONTROL)
 
-    onClick(Boolean(isControl || parentControl))
+    onGesture(Boolean(isControl || parentControl))
   }
 
   return handler
@@ -80,7 +111,6 @@ const exceedsAvailableHeight = (
   const header = refs.header.current
   const calc = refs.calc.current
   const actions = refs.actions.current
-  //   debugger
 
   if (!calc || !actions || !root || !header) return
 

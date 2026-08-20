@@ -53,11 +53,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number2": 40000,
-        "number1": 30000
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədləri müqayisə edin.",
@@ -71,6 +66,11 @@
         "areg": "قارن بين العددين:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number2": 30000,
+        "number1": 50000
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -81,12 +81,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": 40000,
-        "first": 30000
+        "second": 30000,
+        "first": 50000
       },
       "type": "Elixir.Task_4_1_13",
       "position": 0,
-      "id": "bc62555c-2774-4157-9cb1-d20e335cbd98",
+      "id": "5e6a3862-a985-4535-8705-1546a7c55393",
       "solution": {
         "type": "formula",
         "answer": {
@@ -97,7 +97,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "<",
+          "rus": ">",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -388,10 +388,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 824,
-        "number1": 82
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Müqayisə edin:",
@@ -405,6 +401,10 @@
         "areg": "قارن",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 432,
+        "number1": 43
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -417,34 +417,34 @@
         "type": "comparison",
         "second": {
           "with_audio_player": false,
-          "aze": "824 mm",
-          "kgz": "824 ",
-          "uzb": "824 mm",
-          "eng": "824 mm",
-          "rus": "824 мм",
-          "kaz": "824 мм",
-          "arjd": "824 (mm)",
-          "arsa": "824 ",
-          "areg": "824 مم",
+          "aze": "432 mm",
+          "kgz": "432 ",
+          "uzb": "432 mm",
+          "eng": "432 mm",
+          "rus": "432 мм",
+          "kaz": "432 мм",
+          "arjd": "432 (mm)",
+          "arsa": "432 ",
+          "areg": "432 مم",
           "module_name": "Elixir.Helpers.Translation"
         },
         "first": {
           "with_audio_player": false,
-          "aze": "82 sm",
-          "kgz": "82 см",
-          "uzb": "82 cm",
-          "eng": "82 cm",
-          "rus": "82 см",
-          "kaz": "82 см",
-          "arjd": "82 cm",
-          "arsa": "82 سم",
-          "areg": "82 سم",
+          "aze": "43 sm",
+          "kgz": "43 см",
+          "uzb": "43 cm",
+          "eng": "43 cm",
+          "rus": "43 см",
+          "kaz": "43 см",
+          "arjd": "43 cm",
+          "arsa": "43 سم",
+          "areg": "43 سم",
           "module_name": "Elixir.Helpers.Translation"
         }
       },
       "type": "Elixir.Task_4_6_8_1",
       "position": 0,
-      "id": "60e7332f-acdf-4b8b-ace0-9d803d4b5c06",
+      "id": "b840129e-a1ca-4092-a14a-7c6f01d1305f",
       "solution": {
         "type": "formula",
         "answer": {
@@ -692,11 +692,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 899,
-        "number2": 33,
-        "number1": 9
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Müqayisə edin:",
@@ -710,6 +705,11 @@
         "areg": "قارن",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 311,
+        "number2": 48,
+        "number1": 3
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -722,34 +722,34 @@
         "type": "comparison",
         "second": {
           "with_audio_player": false,
-          "aze": "899 sm",
-          "kgz": "899 см",
-          "uzb": "899 cm",
-          "eng": "899 cm",
-          "rus": "899 см",
-          "kaz": "899 см",
-          "arjd": "899 cm",
-          "arsa": "899 سم",
-          "areg": "899 سم",
+          "aze": "311 sm",
+          "kgz": "311 см",
+          "uzb": "311 cm",
+          "eng": "311 cm",
+          "rus": "311 см",
+          "kaz": "311 см",
+          "arjd": "311 cm",
+          "arsa": "311 سم",
+          "areg": "311 سم",
           "module_name": "Elixir.Helpers.Translation"
         },
         "first": {
           "with_audio_player": false,
-          "aze": "9 m 33 sm",
-          "kgz": "9 м 33 см",
-          "uzb": "9 m 33 cm",
-          "eng": "9 m 33 cm",
-          "rus": "9 м 33 см",
-          "kaz": "9 м 33 см",
-          "arjd": "9  33 cm",
-          "arsa": "9 م 33 سم",
-          "areg": "9 م 33 سم",
+          "aze": "3 m 48 sm",
+          "kgz": "3 м 48 см",
+          "uzb": "3 m 48 cm",
+          "eng": "3 m 48 cm",
+          "rus": "3 м 48 см",
+          "kaz": "3 м 48 см",
+          "arjd": "3  48 cm",
+          "arsa": "3 م 48 سم",
+          "areg": "3 م 48 سم",
           "module_name": "Elixir.Helpers.Translation"
         }
       },
       "type": "Elixir.Task_4_6_8_3",
       "position": 2,
-      "id": "a16d929e-39b5-474c-8d34-bd0466059648",
+      "id": "1cc65ee0-ffae-480b-bdbf-4a26976f146e",
       "solution": {
         "type": "formula",
         "answer": {
@@ -916,12 +916,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 5,
-        "number3": 1,
-        "number2": 12,
-        "number1": 6
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Müqayisə edin:",
@@ -935,6 +929,12 @@
         "areg": "قارن",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 3,
+        "number3": 3,
+        "number2": 15,
+        "number1": 6
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -947,34 +947,34 @@
         "type": "comparison",
         "second": {
           "with_audio_player": false,
-          "aze": "\\(\\frac{1}{6}\\) dəqiqə",
-          "kgz": "\\(\\frac{1}{6}\\) мүнөт",
-          "uzb": "\\(\\frac{1}{6}\\) min",
-          "eng": "\\(\\frac{1}{6}\\) min",
-          "rus": "\\(\\frac{1}{6}\\) мин",
-          "kaz": "\\(\\frac{1}{6}\\) мин",
+          "aze": "\\(\\frac{3}{6}\\) dəqiqə",
+          "kgz": "\\(\\frac{3}{6}\\) мүнөт",
+          "uzb": "\\(\\frac{3}{6}\\) min",
+          "eng": "\\(\\frac{3}{6}\\) min",
+          "rus": "\\(\\frac{3}{6}\\) мин",
+          "kaz": "\\(\\frac{3}{6}\\) мин",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(\\frac{1}{6}\\) دقيقة",
+          "areg": "\\(\\frac{3}{6}\\) دقيقة",
           "module_name": "Elixir.Helpers.Translation"
         },
         "first": {
           "with_audio_player": false,
-          "aze": "\\(\\frac{5}{12}\\) dəqiqə",
-          "kgz": "\\(\\frac{5}{12}\\) мүнөт",
-          "uzb": "\\(\\frac{5}{12}\\) min",
-          "eng": "\\(\\frac{5}{12}\\) min",
-          "rus": "\\(\\frac{5}{12}\\) мин",
-          "kaz": "\\(\\frac{5}{12}\\) мин",
+          "aze": "\\(\\frac{3}{15}\\) dəqiqə",
+          "kgz": "\\(\\frac{3}{15}\\) мүнөт",
+          "uzb": "\\(\\frac{3}{15}\\) min",
+          "eng": "\\(\\frac{3}{15}\\) min",
+          "rus": "\\(\\frac{3}{15}\\) мин",
+          "kaz": "\\(\\frac{3}{15}\\) мин",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(\\frac{5}{12}\\) دقيقة",
+          "areg": "\\(\\frac{3}{15}\\) دقيقة",
           "module_name": "Elixir.Helpers.Translation"
         }
       },
       "type": "Elixir.Task_4_11_18_4",
       "position": 3,
-      "id": "9e477cd5-2369-4b6d-a88a-3c959f8d0076",
+      "id": "9ad6fe5d-f1d6-4380-98bc-2a39daa20522",
       "solution": {
         "type": "formula",
         "answer": {
@@ -985,7 +985,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": ">",
+          "rus": "<",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1105,11 +1105,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 9,
-        "number1": 4,
-        "letter": "c"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadələri müqayisə edin",
@@ -1123,6 +1118,11 @@
         "areg": "قارن بين التعبيرات الجبرية.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 9,
+        "number1": 3,
+        "letter": "x"
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -1133,12 +1133,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": "\\(c\\) + 9",
-        "first": "\\(c\\) + 4"
+        "second": "\\(x\\) + 9",
+        "first": "\\(x\\) + 3"
       },
       "type": "Elixir.Task_4_12_16_1",
       "position": 0,
-      "id": "11207f5a-e95c-4484-a166-f64f6ab94a1b",
+      "id": "ee145042-f808-4ec5-8be6-d91666983809",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1260,13 +1260,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 84,
-        "number3": 73,
-        "number2": 46,
-        "number1": 41,
-        "letter": "a"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadələri müqayisə edin",
@@ -1280,6 +1273,13 @@
         "areg": "قارن بين التعبيرات الجبرية.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 75,
+        "number3": 88,
+        "number2": 79,
+        "number1": 22,
+        "letter": "b"
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -1290,12 +1290,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": "\\(a\\) + 73 + 84",
-        "first": "\\(a\\) + 41 + 46"
+        "second": "\\(b\\) + 88 + 75",
+        "first": "\\(b\\) + 22 + 79"
       },
       "type": "Elixir.Task_4_12_16_7",
       "position": 6,
-      "id": "7a5ab2bb-e498-43ab-abab-70fc4ef227ab",
+      "id": "9d97c5a1-4f8a-41d7-8add-338ede65b8d5",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1381,12 +1381,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number3": 4,
-        "number2": 3,
-        "number1": 5
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Kəsrləri müqayisə edin.",
@@ -1400,6 +1394,12 @@
         "areg": "قارن بين الكسرين.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number3": 6,
+        "number2": 7,
+        "number1": 8
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -1410,12 +1410,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": "\\(\\dfrac{4}{5}\\)",
-        "first": "\\(\\dfrac{3}{5}\\)"
+        "second": "\\(\\dfrac{6}{8}\\)",
+        "first": "\\(\\dfrac{7}{8}\\)"
       },
       "type": "Elixir.Task_4_11_8_1",
       "position": 2,
-      "id": "3ee50cc0-d4c3-4318-b476-e23d45997ca1",
+      "id": "4ca8400e-120f-4ffe-9772-e4869cb84771",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1426,7 +1426,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "<",
+          "rus": ">",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1510,15 +1510,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 31,
-        "number6": 4,
-        "number4": 51,
-        "number3": 7,
-        "number2": 42,
-        "number1": 97,
-        "letter": "x"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadələri müqayisə edin",
@@ -1532,6 +1523,15 @@
         "areg": "قارن بين التعبيرات الجبرية.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number5": 80,
+        "number6": 9,
+        "number4": 94,
+        "number3": 4,
+        "number2": 42,
+        "number1": 91,
+        "letter": "b"
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -1542,12 +1542,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": "(51\\(x\\) + 31\\(x\\)) · 4",
-        "first": "(97\\(x\\) + 42\\(x\\)) · 7"
+        "second": "(94\\(b\\) + 80\\(b\\)) · 9",
+        "first": "(91\\(b\\) + 42\\(b\\)) · 4"
       },
       "type": "Elixir.Task_4_12_16_12",
       "position": 11,
-      "id": "4971866b-5211-466a-9e1e-f5d86b7bb8f8",
+      "id": "44711f13-9774-4f32-a161-75ccd63fc750",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1558,7 +1558,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": ">",
+          "rus": "<",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1642,12 +1642,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "y",
-        "letter1": "x",
-        "number2": 5,
-        "number1": 3
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadələri müqayisə edin",
@@ -1661,6 +1655,12 @@
         "areg": "قارن بين التعبيرات الجبرية.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "z",
+        "letter1": "y",
+        "number2": 9,
+        "number1": 3
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -1671,12 +1671,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": "\\(x\\) + \\(y\\) + 5",
-        "first": "\\(x\\) + \\(y\\) + 3"
+        "second": "\\(y\\) + \\(z\\) + 9",
+        "first": "\\(y\\) + \\(z\\) + 3"
       },
       "type": "Elixir.Task_4_12_16_15",
       "position": 14,
-      "id": "0090a945-54aa-4fa1-b367-999a8297de9b",
+      "id": "e3a095ce-6457-4e24-a67a-672c09d05a47",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1762,12 +1762,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 7,
-        "number2": 3,
-        "number1": 19,
-        "letter": "x"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadələri müqayisə edin",
@@ -1781,6 +1775,12 @@
         "areg": "قارن بين التعبيرات الجبرية.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 3,
+        "number2": 9,
+        "number1": 33,
+        "letter": "x"
+      },
       "description": {
         "svg2": "",
         "svg1": "",
@@ -1791,12 +1791,12 @@
         "text_after": "",
         "table_before": null,
         "type": "comparison",
-        "second": "(\\(x\\) + 19) · 7",
-        "first": "(\\(x\\) + 19) · 3"
+        "second": "(\\(x\\) + 33) · 3",
+        "first": "(\\(x\\) + 33) · 9"
       },
       "type": "Elixir.Task_4_12_16_14",
       "position": 13,
-      "id": "790b8eaa-fd05-4da2-a756-8e69589822a6",
+      "id": "37420bf2-1e7a-4f87-97b6-436ca491b227",
       "solution": {
         "type": "formula",
         "answer": {
@@ -1807,7 +1807,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "<",
+          "rus": ">",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

@@ -1,3 +1,5 @@
+import { stripEmptyMathIslands } from '@/modules/tasks/ui/templates/text/lib/strip-empty-math-islands'
+import { uprightUnitsInTex } from '@/modules/tasks/ui/templates/text/lib/upright-math-units'
 import { MathFormula } from '@/ui/math-text/math-formula'
 import { MathText } from '@/ui/math-text/math-text'
 
@@ -11,19 +13,30 @@ const CYRILLIC_RE = /[а-яА-ЯёЁ]/
 
 /**
  * MathJax math mode italicizes letters and `\text{…}` uses MJX text fonts
- * (not Halvar). Cyrillic unit labels in `\(…\)` are unwrapped to plain text
- * so they stay upright and inherit the UI font. Real math like `\(v\)` /
- * `\(t\)` is left unchanged.
+ * (not Halvar). Cyrillic prose labels in `\(…\)` are unwrapped to plain text
+ * so they stay upright and inherit the UI font. Islands with `^` / `_`
+ * (e.g. `дм^3`) stay in math mode with upright units via `\mathrm`.
+ * Empty spacer islands from ME answer cells are dropped (they break typesetting).
+ * Latin math like `\(v\)` / `\(t\)` is left unchanged.
  */
-export const uprightCyrillicMath = (content: string): string =>
-  content.replace(/\\\(([\s\S]*?)\\\)/g, (match, inner: string) => {
-    if (!CYRILLIC_RE.test(inner)) return match
-    let forText = inner.trim()
-    const textWrapped = /^\\text\{([\s\S]*)\}$/.exec(forText)
-    if (textWrapped) forText = textWrapped[1]
-    // `\ ` is a LaTeX control space — drop the backslash
-    return forText.replace(/\\ /g, ' ').replace(/\s+/g, ' ').trim()
-  })
+export const uprightCyrillicMath = (content: string): string => {
+  const withUnits = content.replace(
+    /\\\(([\s\S]*?)\\\)/g,
+    (match, inner: string) => {
+      if (!CYRILLIC_RE.test(inner)) return match
+      // Powers / subscripts must stay typeset (complex_5: `дм^3` → дм³).
+      if (/[\^_]/.test(inner)) {
+        return `\\(${uprightUnitsInTex(inner)}\\)`
+      }
+      let forText = inner.trim()
+      const textWrapped = /^\\text\{([\s\S]*)\}$/.exec(forText)
+      if (textWrapped) forText = textWrapped[1]
+      // `\ ` is a LaTeX control space — drop the backslash
+      return forText.replace(/\\ /g, ' ').replace(/\s+/g, ' ').trim()
+    },
+  )
+  return stripEmptyMathIslands(withUnits)
+}
 
 interface StaticCellProps {
   content: string
@@ -41,7 +54,6 @@ export const TableStaticCellContent = ({
       <div
         className={styles.htmlCell}
         data-testid="table-html-cell"
-        // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: content }}
       />
     )

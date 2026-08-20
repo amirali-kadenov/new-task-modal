@@ -237,9 +237,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 159
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Göstərilən ölçü vahidinə çevirin.",
@@ -253,6 +250,9 @@
         "areg": "حول إلى وحدة القياس المحددة.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 847
+      },
       "description": {
         "withAudio": true,
         "text_before": "",
@@ -263,12 +263,12 @@
         "answer_cell_margin": "",
         "content": {
           "with_audio_player": false,
-          "aze": "159 kq = answercell s answercell kq",
-          "kgz": "159 кг = answercell ц answercell кг",
-          "uzb": "159 kg = answercell q answercell kg",
-          "eng": "159 kg = answercell centners answercell kg",
-          "rus": "159 кг = answercell ц answercell кг",
-          "kaz": "159 кг = answercell ц answercell кг",
+          "aze": "847 kq = answercell s answercell kq",
+          "kgz": "847 кг = answercell ц answercell кг",
+          "uzb": "847 kg = answercell q answercell kg",
+          "eng": "847 kg = answercell centners answercell kg",
+          "rus": "847 кг = answercell ц answercell кг",
+          "kaz": "847 кг = answercell ц answercell кг",
           "arjd": "",
           "arsa": "",
           "areg": "",
@@ -278,7 +278,7 @@
       },
       "type": "Elixir.Task_4_6_2_22",
       "position": 21,
-      "id": "d99ebba5-0a04-4ccb-932f-84d4679156b4",
+      "id": "12e8157b-bc28-432d-a3e0-0992e43be941",
       "solution": {
         "type": "formula",
         "answer": {
@@ -289,7 +289,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "1;;59",
+          "rus": "8;;47",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

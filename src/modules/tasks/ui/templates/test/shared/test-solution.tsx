@@ -4,8 +4,8 @@ import {
   SolutionFigureType,
 } from '@/modules/tasks/lib/solution-types'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Translation } from '@/types/api/task'
 import { isHtmlRadioLabel } from '@/ui/radio-button/radio-button'
@@ -79,7 +79,7 @@ export const TestSolution = ({ task, deps, answer, solution }: Props) => {
         readOnly
       />
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

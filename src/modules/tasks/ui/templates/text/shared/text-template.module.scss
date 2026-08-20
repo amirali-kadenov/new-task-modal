@@ -19,8 +19,8 @@
 }
 
 .input {
-  flex: 0 1 auto;
-  min-width: 120px;
+  flex: 0 0 120px;
+  width: 120px;
 }
 
 /** Solution-mode formula — no min-width so unit suffix sits next to the answer. */

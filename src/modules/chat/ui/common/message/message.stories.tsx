@@ -2,7 +2,10 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 
 import { DateMessage } from './date/date-message'
 import { Message } from './message'
+import { MessageContainer } from './message-container'
 import { MessageSkeleton } from './message-skeleton'
+import { MessageTime } from './message-time'
+import { VoiceMessageSkeleton } from './voice/voice'
 
 const IMAGE_URL = '/storybook-media/sample-image.jpg'
 const VIDEO_URL = '/storybook-media/sample-video.mp4'
@@ -120,6 +123,15 @@ export const Audio: Story = {
         ...sender(isFromPupil),
       }}
     />
+  ),
+}
+
+export const AudioLoading: Story = {
+  render: ({ isFromPupil }) => (
+    <MessageContainer isFromPupil={isFromPupil}>
+      <VoiceMessageSkeleton />
+      <MessageTime sentAt={now.toISOString()} />
+    </MessageContainer>
   ),
 }
 

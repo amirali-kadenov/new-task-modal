@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/Text/ai-translation'
 
 const meta = {
   title: 'Templates/Text/ai-translation/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

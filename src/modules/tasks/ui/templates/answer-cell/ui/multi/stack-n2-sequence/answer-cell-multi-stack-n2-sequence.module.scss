@@ -1,0 +1,13 @@
+/* stylelint-disable selector-class-pattern */
+
+/* Blanks in a number sequence (e.g. "28; 33; ___ ; ___ ; 48; 53; 58; 63; 68")
+ * sit inline among several short literal numbers — a fixed narrow width
+ * keeps them visually matched to their neighbors instead of stretching to
+ * fill the row (which the shared .cellInput default does for arithmetic
+ * answerCell tasks like "___ + ___"). */
+.cellInput {
+  flex: 0 0 auto;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+}

@@ -29,22 +29,22 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
             "number5": 41,
-            "number6": 533,
-            "number4": 310,
-            "number3": 62,
-            "number2": 16,
-            "number1": 29
+            "number6": 779,
+            "number4": 168,
+            "number3": 84,
+            "number2": 21,
+            "number1": 21
           },
-          "title": null,
           "description": {
             "isTableReversed": false,
             "isTableFlip": false,
             "isCentered": true,
             "answerCellWithComparison": false,
-            "isAnswerCellHidden": true,
             "imageBefore": "",
+            "isAnswerCellHidden": true,
             "isCalculatorClosed": false,
             "withAudio": true,
             "content": {
@@ -152,8 +152,8 @@
                       "areg": "",
                       "module_name": "Elixir.Helpers.Translation"
                     },
-                    "29",
-                    "16",
+                    "21",
+                    "21",
                     "answercell"
                   ],
                   "width": null
@@ -182,19 +182,19 @@
                     },
                     {
                       "with_audio_player": false,
-                      "aze": "62",
-                      "kgz": "62",
-                      "uzb": "62",
+                      "aze": "84",
+                      "kgz": "84",
+                      "uzb": "84",
                       "eng": "",
-                      "rus": "62",
-                      "kaz": "62",
+                      "rus": "84",
+                      "kaz": "84",
                       "arjd": "",
                       "arsa": "",
                       "areg": "",
                       "module_name": "Elixir.Helpers.Translation"
                     },
                     "answercell",
-                    "310"
+                    "168"
                   ],
                   "width": null
                 },
@@ -222,7 +222,7 @@
                     },
                     "answercell",
                     "41",
-                    "533"
+                    "779"
                   ],
                   "width": null
                 }
@@ -240,7 +240,7 @@
           },
           "type": "Elixir.Task_4_10_9_9",
           "position": 7,
-          "id": "8e82bb98-8b79-444a-a6b8-1af24351c07e",
+          "id": "bc7bb0f5-cf2e-4849-b289-6bafe5ed59b4",
           "solution": {
             "type": "table",
             "answer": {
@@ -251,7 +251,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "464;;5;;13",
+              "rus": "441;;2;;19",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

@@ -1,12 +1,19 @@
-import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
+import { getCorrectMultiAnswerParts } from '@/modules/tasks/lib/get-correct-multi-answer-parts'
+import {
+  joinMultiAnswer,
+  splitMultiAnswer,
+} from '@/modules/tasks/lib/multi-answer'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 
 import { joinMathAnswers } from '../../text/lib/join-math-answers'
-import { stripMathDelimiters } from '../../text/lib/strip-math-delimiters'
-import type { AnswerCellTask } from '../lib/types.task'
+import { getAnswerCellUnit } from '../lib/get-answer-cell-unit'
+import type {
+  AnswerCellTask,
+  SimpleAnswerCellAnswerInput,
+} from '../lib/types.task'
 
 import { AnswerCellDescriptionExtras } from './answer-cell-description-extras'
 import { AnswerCellRow } from './answer-cell-row'
@@ -31,45 +38,57 @@ export const AnswerCellSolution = ({
   const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
     deps.global.translateTasks(value)
 
-  const correctAnswer = stripMathDelimiters(
-    getCorrectAnswerFromSolution(solution, translate),
-  )
   const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-
-  const correctParts = multi
-    ? correctAnswer.split(separator)
-    : [correctAnswer]
+  const correctParts = getCorrectMultiAnswerParts(
+    solution,
+    separator,
+    translate,
+  )
 
   const userDisplay = multi
-    ? answer.split(separator).join(' ; ')
+    ? splitMultiAnswer(answer, separator).join(' ; ')
     : answer
+
+  // Backend sometimes has no structured answer for this task (placeholder
+  // `\(\)` in every language) — the real value only exists as explanation
+  // prose. Hide the row instead of rendering empty answercell inputs.
+  const hasCorrectAnswer = correctParts.some((part) => part.trim() !== '')
+
+  const unit =
+    withAfter && !multi
+      ? getAnswerCellUnit(
+          task.answerInput as SimpleAnswerCellAnswerInput | undefined,
+          translate,
+        )
+      : ''
 
   return (
     <div className={styles.container}>
       <TaskTitle title={task.title} deps={deps} />
-      <AnswerCellDescriptionExtras
-        description={task.description}
-        deps={deps}
-      />
+      <AnswerCellDescriptionExtras description={task.description} deps={deps} />
 
       <SolutionAnswerPanel
         userAnswer={userDisplay}
         correctAnswer={joinMathAnswers(correctParts)}
+        unit={unit}
         deps={deps}
       />
 
-      <AnswerCellRow
-        description={task.description}
-        answerInput={task.answerInput}
-        deps={deps}
-        answer={correctAnswer}
-        mode="solution"
-        withBefore={withBefore}
-        withAfter={withAfter}
-        multi={multi}
-      />
+      {hasCorrectAnswer ? (
+        <AnswerCellRow
+          description={task.description}
+          answerInput={task.answerInput}
+          deps={deps}
+          answer={joinMultiAnswer(correctParts, separator)}
+          mode="solution"
+          withBefore={withBefore}
+          withAfter={withAfter}
+          multi={multi}
+          taskType={task.type}
+        />
+      ) : null}
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

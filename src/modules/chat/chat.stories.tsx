@@ -41,10 +41,7 @@ const ChatStoryHost = () => {
   return (
     <TaskModalProviders>
       <StoryPhoneFrame>
-        <Chat
-          props={{ ...props, activeTask }}
-          onClose={() => undefined}
-        />
+        <Chat props={{ ...props, activeTask }} onClose={() => undefined} />
       </StoryPhoneFrame>
     </TaskModalProviders>
   )

@@ -2,7 +2,11 @@ import { screen } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
 
 import { classifyComparisonTemplate } from '../../lib/classify-comparison-template'
-import { makeSolution, makeTranslation, renderTemplate } from '../../lib/testing/test-utils'
+import {
+  makeSolution,
+  makeTranslation,
+  renderTemplate,
+} from '../../lib/testing/test-utils'
 import type { ComparisonTask } from '../../lib/types.task'
 
 import fixture from './data/task.json'
@@ -32,12 +36,22 @@ describe('comparison.plain', () => {
   it('first | input | second', () => {
     renderTemplate(Template, task)
 
+    // Fixture sides are plain numbers, not Translations — narrow before
+    // stringifying so this stays type-safe if that ever changes.
+    const { first, second } = task.description
+    if (typeof first !== 'number' && typeof first !== 'string') {
+      throw new Error('expected fixture `first` to be a number or string')
+    }
+    if (typeof second !== 'number' && typeof second !== 'string') {
+      throw new Error('expected fixture `second` to be a number or string')
+    }
+
     expect(screen.getByTestId('comparison-row')).toBeInTheDocument()
     expect(screen.getByTestId('comparison-first')).toHaveTextContent(
-      String(task.description.first),
+      String(first),
     )
     expect(screen.getByTestId('comparison-second')).toHaveTextContent(
-      String(task.description.second),
+      String(second),
     )
     expect(screen.getAllByTestId('math-input')).toHaveLength(1)
   })
@@ -53,9 +67,7 @@ describe('comparison.plain', () => {
     })
 
     expect(screen.getByTestId('comparison-first')).toHaveTextContent('9000065')
-    expect(screen.getByTestId('comparison-second')).toHaveTextContent(
-      '9000056',
-    )
+    expect(screen.getByTestId('comparison-second')).toHaveTextContent('9000056')
   })
 
   it('единицы в math-островах через mathrm', () => {

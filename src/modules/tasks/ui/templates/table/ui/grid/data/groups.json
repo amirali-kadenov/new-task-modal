@@ -98,18 +98,18 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 72771,
-        "number1": 3381
-      },
       "title": null,
+      "fields": {
+        "number2": 44731,
+        "number1": 4031
+      },
       "description": {
         "isTableReversed": false,
         "isTableFlip": false,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
         "content": {
@@ -193,29 +193,29 @@
               "cells": [
                 {
                   "with_audio_player": false,
-                  "aze": "3381",
-                  "kgz": "3381",
-                  "uzb": "3381",
-                  "eng": "3381",
-                  "rus": "3381",
-                  "kaz": "3381",
-                  "arjd": "3381",
-                  "arsa": "3381",
-                  "areg": "3381",
+                  "aze": "4031",
+                  "kgz": "4031",
+                  "uzb": "4031",
+                  "eng": "4031",
+                  "rus": "4031",
+                  "kaz": "4031",
+                  "arjd": "4031",
+                  "arsa": "4031",
+                  "areg": "4031",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "answercell",
                 {
                   "with_audio_player": false,
-                  "aze": "72771",
-                  "kgz": "72771",
-                  "uzb": "72771",
-                  "eng": "72771",
-                  "rus": "72771",
-                  "kaz": "72771",
-                  "arjd": "72771",
-                  "arsa": "72771",
-                  "areg": "72771",
+                  "aze": "44731",
+                  "kgz": "44731",
+                  "uzb": "44731",
+                  "eng": "44731",
+                  "rus": "44731",
+                  "kaz": "44731",
+                  "arjd": "44731",
+                  "arsa": "44731",
+                  "areg": "44731",
                   "module_name": "Elixir.Helpers.Translation"
                 }
               ],
@@ -235,7 +235,7 @@
       },
       "type": "Elixir.Task_4_3_5_1",
       "position": 0,
-      "id": "74acac3f-89f6-40b6-85e5-17d94233af07",
+      "id": "fbd23af5-bf4d-4123-8978-58f1b2d1faf9",
       "solution": {
         "type": "table",
         "answer": {
@@ -246,7 +246,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "69390",
+          "rus": "40700",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -339,14 +339,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 0,
-        "number6": 5,
-        "number4": 5,
-        "number3": 4,
-        "number2": 4,
-        "number1": 4
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Cədvəli doldurun.",
@@ -360,16 +352,24 @@
         "areg": "املأ الجدول",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number5": 2,
+        "number6": 1,
+        "number4": 9,
+        "number3": 1,
+        "number2": 7,
+        "number1": 6
+      },
       "description": {
         "isTableReversed": true,
         "isTableFlip": true,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
-        "content": "444505",
+        "content": "671921",
         "type": "table",
         "table": {
           "width": "100%",
@@ -523,7 +523,7 @@
       },
       "type": "Elixir.Task_4_4_57",
       "position": 10,
-      "id": "d9a8ddca-b201-44e9-a70a-16dcc70c0dbf",
+      "id": "d129a7c4-c0ba-424a-8b87-d5e416719537",
       "solution": {
         "type": "table",
         "answer": {
@@ -534,7 +534,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "5;;0;;5",
+          "rus": "9;;2;;1",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -618,13 +618,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 7,
-        "number4": 5,
-        "number3": 5,
-        "number2": 1,
-        "number1": 9
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Cədvəli doldurun.",
@@ -638,16 +631,23 @@
         "areg": "املأ الجدول",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number5": 7,
+        "number4": 6,
+        "number3": 0,
+        "number2": 0,
+        "number1": 9
+      },
       "description": {
         "isTableReversed": true,
         "isTableFlip": true,
         "isCentered": true,
         "answerCellWithComparison": false,
-        "isAnswerCellHidden": true,
         "imageBefore": "",
+        "isAnswerCellHidden": true,
         "isCalculatorClosed": false,
         "withAudio": true,
-        "content": "91557",
+        "content": "90067",
         "type": "table",
         "table": {
           "width": "100%",
@@ -801,7 +801,7 @@
       },
       "type": "Elixir.Task_4_1_56_1",
       "position": 20,
-      "id": "6c6e25b6-7155-4a8c-b295-76b056d6d2da",
+      "id": "3ef952c7-4342-419b-ab30-b054d9d44aac",
       "solution": {
         "type": "table",
         "answer": {
@@ -812,7 +812,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "5;;5;;7",
+          "rus": "0;;6;;7",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

@@ -59,7 +59,10 @@ export const useShowVideoExplanation = ({ props }: Args) => {
           response.result === CheckUserAnswerResult.ShowSolution
             ? UserActionResult.Error
             : UserActionResult.None,
-        attemptsCount: response.attemptsCount,
+        attemptsCount: Math.max(
+          activeTask.attemptsCount ?? 0,
+          response.attemptsCount,
+        ),
         selectedIndexes: [],
         answer:
           (activeTask.description?.type as string) ===

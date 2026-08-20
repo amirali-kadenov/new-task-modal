@@ -144,32 +144,32 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 6,
-        "number2": 288,
-        "number1": 144
-      },
       "title": null,
+      "fields": {
+        "number3": 7,
+        "number2": 148,
+        "number1": 370
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Nənə 6 ədəd ağ və qırmızı sap alıb. Qırmızı rəngli saplar üçün 144 manat, ağ rəngli saplar üçün isə 288 manat ödəmişdir.\nƏgər saplarin qiymətləri eynidirsə, nənə neçə ağ və qırmızı sap alıb?\n",
-          "kgz": "Чоң эне 6 даана ак жана кызыл жип сатып алды.\nКызыл жипке 144 сом, ак жипке 288 сом төлөдү.\nЖиптердин баасы бирдей болсо, чоң эне канча ак жана канча кызыл жип сатып алганын табыңыз?\n",
-          "uzb": "Buvijon oq va qizil rangli 6 o'ram ip sotib oldi.\nU qizil iplarga 144 so'm, oq iplarga 288 so'm to'ladi.\nAgar iplarning narxlari bir xil bo'lsa, buvijon nechta oq va qizil ip sotib olganini toping.\n",
-          "eng": "A grandmother buys 6 balls of white and red yarn.\nShe pays 144 cents for the red yarn and 288 cents for the white yarn.\nIf the prices of the yarns are the same, how many balls of white and red yarn does the grandmother buy?\n",
-          "rus": "Бабушка купила 6 мотков белой и красной нитки.\nЗа красные нитки она заплатила 144 тенге, за белые — 288 тенге.\nЕсли цены на нитки одинаковы, найдите, сколько белых и красных ниток купила бабушка?\n",
-          "kaz": "Әжей ақ және қызыл түсті 6 орам тоқыма жіп сатып алды.\nОл қызыл жіптерге 144 теңге, ал ақ жіптерге 288 теңге төледі.\nЕгер жіптердің бағалары бірдей болса, әжей қанша ақ және қызыл жіп сатып алғанын табыңыз.\n",
+          "aze": "Nənə 7 ədəd ağ və qırmızı sap alıb. Qırmızı rəngli saplar üçün 370 manat, ağ rəngli saplar üçün isə 148 manat ödəmişdir.\nƏgər saplarin qiymətləri eynidirsə, nənə neçə ağ və qırmızı sap alıb?\n",
+          "kgz": "Чоң эне 7 даана ак жана кызыл жип сатып алды.\nКызыл жипке 370 сом, ак жипке 148 сом төлөдү.\nЖиптердин баасы бирдей болсо, чоң эне канча ак жана канча кызыл жип сатып алганын табыңыз?\n",
+          "uzb": "Buvijon oq va qizil rangli 7 o'ram ip sotib oldi.\nU qizil iplarga 370 so'm, oq iplarga 148 so'm to'ladi.\nAgar iplarning narxlari bir xil bo'lsa, buvijon nechta oq va qizil ip sotib olganini toping.\n",
+          "eng": "A grandmother buys 7 balls of white and red yarn.\nShe pays 370 cents for the red yarn and 148 cents for the white yarn.\nIf the prices of the yarns are the same, how many balls of white and red yarn does the grandmother buy?\n",
+          "rus": "Бабушка купила 7 мотков белой и красной нитки.\nЗа красные нитки она заплатила 370 тенге, за белые — 148 тенге.\nЕсли цены на нитки одинаковы, найдите, сколько белых и красных ниток купила бабушка?\n",
+          "kaz": "Әжей ақ және қызыл түсті 7 орам тоқыма жіп сатып алды.\nОл қызыл жіптерге 370 теңге, ал ақ жіптерге 148 теңге төледі.\nЕгер жіптердің бағалары бірдей болса, әжей қанша ақ және қызыл жіп сатып алғанын табыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "اشترت الجدة 6 لفات من الخيوط البيضاء والحمراء،\nودفعت 144 جنيهًا ثمن الخيوط الحمراء، في حين دفعت 288 جنيهًا ثمن الخيوط البيضاء.\nإذا كانت أسعار الخيوط متساوية، فكم عدد لفات كل من الخيوط البيضاء والخيوط الحمراء التي اشترتها الجدة؟\n",
+          "areg": "اشترت الجدة 7 لفات من الخيوط البيضاء والحمراء،\nودفعت 370 جنيهًا ثمن الخيوط الحمراء، في حين دفعت 148 جنيهًا ثمن الخيوط البيضاء.\nإذا كانت أسعار الخيوط متساوية، فكم عدد لفات كل من الخيوط البيضاء والخيوط الحمراء التي اشترتها الجدة؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_12_11",
       "position": 10,
-      "id": "c051367b-9278-438b-8c07-4ac54b00c51e",
+      "id": "5b9d9cce-672c-4828-91df-d4e7cde1194e",
       "solution": {
         "type": "text",
         "answer": {
@@ -180,7 +180,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "4;;2",
+          "rus": "2;;5",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

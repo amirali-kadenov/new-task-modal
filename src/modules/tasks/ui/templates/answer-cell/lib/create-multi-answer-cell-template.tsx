@@ -16,6 +16,8 @@ interface MultiAnswerCellTemplateConfig {
   inputCount: number
   withBefore?: boolean
   withAfter?: boolean
+  /** Extra class merged onto each input cell, for templates needing a non-default width. */
+  cellInputClassName?: string
 }
 
 /**
@@ -25,8 +27,10 @@ interface MultiAnswerCellTemplateConfig {
 export const createMultiAnswerCellTemplate = ({
   id,
   layout,
+  inputCount,
   withBefore = false,
   withAfter = false,
+  cellInputClassName,
 }: MultiAnswerCellTemplateConfig) => {
   const MultiAnswerCellTemplate = ({
     task,
@@ -50,10 +54,11 @@ export const createMultiAnswerCellTemplate = ({
     }
 
     const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-    const { setRef, handleChange } = getMultipleInputHandlers({
+    const { bindRef, handleChange } = getMultipleInputHandlers({
       onChange,
       separator,
       mathInput,
+      inputCount,
     })
 
     return (
@@ -76,8 +81,10 @@ export const createMultiAnswerCellTemplate = ({
           withBefore={withBefore}
           withAfter={withAfter}
           multi
-          setRef={setRef}
+          bindRef={bindRef}
           onChange={handleChange}
+          taskType={task.type}
+          cellInputClassName={cellInputClassName}
         />
       </div>
     )

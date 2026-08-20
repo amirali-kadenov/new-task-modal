@@ -7,20 +7,20 @@ import {
   templateDocs,
 } from '../../../shared/storybook/story-docs'
 import {
-  ALL_GROUPS,
   getGroupControlOptions,
+  getOpenInTrainerControls,
   makePlayCanvasAndChatInTrainer,
-  makePlayMathRegressions,
-  MATH_REGRESSION_GROUPS,
-  renderAllGroupsStory,
+  normalizeAllTasksFile,
   renderDefaultStory,
   renderInTrainerStory,
   renderWithSolutionStory,
+  type AllTasksFile,
   type TemplateGroupFixture,
   type TextTemplateStoryMetaArgs,
 } from '../../lib/storybook'
 import type { TextTask } from '../../lib/types.task'
 
+import allTasksJson from './data/all-tasks.json'
 import groupsJson from './data/groups.json'
 import fixture from './data/task.json'
 import readme from './README.md?raw'
@@ -29,19 +29,19 @@ import { TextPlain as Template } from '.'
 
 const task = fixture as unknown as TextTask
 const groups = groupsJson as unknown as TemplateGroupFixture[]
+const allTasks = allTasksJson as unknown as AllTasksFile
+const normalizedTasks = normalizeAllTasksFile(allTasks)
 const { groupIds, defaultGroup } = getGroupControlOptions(groups)
+const openInTrainer = getOpenInTrainerControls(groups)
 
 const ROOT_TITLE = 'Templates/Text/plain'
-
-const mathRegressionGroups = groups.filter((g) =>
-  (MATH_REGRESSION_GROUPS as readonly string[]).includes(g.group),
-)
 
 const meta = {
   title: 'Templates/Text/plain',
   component: Template,
   args: {
     group: defaultGroup,
+    taskId: openInTrainer.defaultTaskId,
   },
   argTypes: {
     ...HIDDEN_TASK_ARGTYPES,
@@ -50,6 +50,11 @@ const meta = {
       options: groupIds,
       description:
         'Structural group из data/groups.json (`all` — все в AllGroups)',
+    },
+    taskId: {
+      control: 'select',
+      options: openInTrainer.allTaskIds,
+      description: 'Конкретная задача (id) из all-tasks.json',
     },
   },
   parameters: templateDocs(readme),
@@ -60,48 +65,30 @@ type Story = StoryObj<TextTemplateStoryMetaArgs>
 
 export const Default: Story = {
   parameters: storyDocs(STORY_DOCS.default),
-  argTypes: {
-    group: { options: groupIds },
-  },
-  render: ({ group }) =>
+  render: ({ group, taskId }) =>
     renderDefaultStory({
       Template,
       groups,
       fallbackTask: task,
       group,
+      taskId,
+      allTasks,
+      grade: normalizedTasks.defaultGrade,
       rootTitle: ROOT_TITLE,
     }),
 }
 
 export const WithSolution: Story = {
   parameters: storyDocs(STORY_DOCS.withSolution),
-  argTypes: {
-    group: { options: groupIds },
-  },
-  render: ({ group }) =>
+  render: ({ group, taskId }) =>
     renderWithSolutionStory({
       Template,
       groups,
       fallbackTask: task,
       group,
-      rootTitle: ROOT_TITLE,
-    }),
-}
-
-/**
- * Known MathJax regressions (text_16 upright units, text_18/61 answer LaTeX).
- * `play` runs under `pnpm test:interactions` with real MathJax (not unit mocks).
- */
-export const MathRegressions: Story = {
-  parameters: {
-    skipRunPlayButton: true,
-  },
-  play: makePlayMathRegressions(),
-  render: () =>
-    renderAllGroupsStory({
-      Template,
-      groups: mathRegressionGroups,
-      group: ALL_GROUPS,
+      taskId,
+      allTasks,
+      grade: normalizedTasks.defaultGrade,
       rootTitle: ROOT_TITLE,
     }),
 }

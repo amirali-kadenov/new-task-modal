@@ -14,11 +14,6 @@
   },
   "difficulty": "x1",
   "result": "none",
-  "fields": {
-    "difficulty": "x1",
-    "number2": 1,
-    "number1": 10000
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -32,13 +27,18 @@
     "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "difficulty": "x1",
+    "number2": 4,
+    "number1": 10000
+  },
   "description": {
     "isTableReversed": false,
     "isTableFlip": false,
     "isCentered": true,
     "answerCellWithComparison": false,
-    "isAnswerCellHidden": true,
     "imageBefore": "",
+    "isAnswerCellHidden": true,
     "isCalculatorClosed": false,
     "withAudio": true,
     "content": "",
@@ -57,7 +57,7 @@
           "colspan": 1,
           "border_bottom": null,
           "cells": [
-            "10000 · 1 = ",
+            "10000 · 4 = ",
             "answercell"
           ],
           "width": null
@@ -76,7 +76,7 @@
   },
   "type": "Elixir.Task_4_2_1_3",
   "position": 2,
-  "id": "c6b2710d-de67-4e21-91a3-2644182a3a09",
+  "id": "877172de-ee28-4f32-8cb9-0a56b10f0ab3",
   "solution": {
     "type": "table",
     "answer": {
@@ -87,7 +87,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "10000",
+      "rus": "40000",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

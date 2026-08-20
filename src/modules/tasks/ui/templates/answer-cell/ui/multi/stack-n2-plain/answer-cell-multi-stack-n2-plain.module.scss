@@ -1,0 +1,5 @@
+/* stylelint-disable selector-class-pattern */
+
+/* Shared .cellInput now stretches (flex: 1 1 auto) on its own, so cells
+ * in a multi-cell row share the available width instead of overlapping —
+ * no per-variant width cap needed here. */

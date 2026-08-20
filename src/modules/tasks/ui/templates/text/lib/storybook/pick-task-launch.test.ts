@@ -1,8 +1,9 @@
-import { describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vitest'
 
 import {
   getGroupTaskRefs,
   pickTaskLaunch,
+  resolveTrainerGroup,
   type TemplateGroupFixture,
   type TrainerLaunch,
 } from '@/modules/tasks/ui/templates/text/lib/storybook'
@@ -73,5 +74,34 @@ describe('pickTaskLaunch', () => {
       },
     ]
     expect(pickTaskLaunch(empty, 'empty')).toEqual(launchB)
+  })
+})
+
+describe('resolveTrainerGroup', () => {
+  const prev = process.env.STORYBOOK_TEST_TASK
+
+  afterEach(() => {
+    if (prev == null) delete process.env.STORYBOOK_TEST_TASK
+    else process.env.STORYBOOK_TEST_TASK = prev
+  })
+
+  it('uses args.group when env unset', () => {
+    delete process.env.STORYBOOK_TEST_TASK
+    expect(resolveTrainerGroup(groups, 'g2')).toBe('g2')
+  })
+
+  it('prefers env group id over args', () => {
+    process.env.STORYBOOK_TEST_TASK = 'g1'
+    expect(resolveTrainerGroup(groups, 'g2')).toBe('g1')
+  })
+
+  it('maps env task id to owning group', () => {
+    process.env.STORYBOOK_TEST_TASK = '4_1_3'
+    expect(resolveTrainerGroup(groups, 'g2')).toBe('g1')
+  })
+
+  it('falls back to args when env matches nothing', () => {
+    process.env.STORYBOOK_TEST_TASK = 'unknown'
+    expect(resolveTrainerGroup(groups, 'g2')).toBe('g2')
   })
 })

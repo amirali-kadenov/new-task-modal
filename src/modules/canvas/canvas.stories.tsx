@@ -88,24 +88,24 @@ export const Default: Story = {
       clearBtn = view.getByTitle('Очистить всё')
       closeBtn = view.getByTitle('Закрыть доску')
 
-      expect(drawBtn).toBeVisible()
-      expect(eraseBtn).toBeVisible()
-      expect(undoBtn).toBeDisabled()
-      expect(redoBtn).toBeDisabled()
-      expect(clearBtn).toBeVisible()
-      expect(closeBtn).toBeVisible()
+      await expect(drawBtn).toBeVisible()
+      await expect(eraseBtn).toBeVisible()
+      await expect(undoBtn).toBeDisabled()
+      await expect(redoBtn).toBeDisabled()
+      await expect(clearBtn).toBeVisible()
+      await expect(closeBtn).toBeVisible()
     })
 
     await runPlayStep('modes', 'Toggle erase / draw', async () => {
       await userEvent.click(eraseBtn!)
-      expect(eraseBtn!.className).toMatch(/active/)
+      await expect(eraseBtn!.className).toMatch(/active/)
       await userEvent.click(drawBtn!)
-      expect(drawBtn!.className).toMatch(/active/)
+      await expect(drawBtn!.className).toMatch(/active/)
     })
 
     await runPlayStep('strokeUndo', 'Stroke then undo', async () => {
       board = canvasElement.querySelector('canvas') as HTMLCanvasElement
-      expect(board).toBeTruthy()
+      await expect(board).toBeTruthy()
       drawStroke(board)
       await waitFor(() => expect(undoBtn!).toBeEnabled())
       await userEvent.click(undoBtn!)

@@ -1,64 +1,25 @@
 import { ErrorBoundary } from '@/lib/error-boundary/error-boundary'
-import type { TaskSolution } from '@/types/api/task'
-import { MathText } from '@/ui/math-text/math-text'
+import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
+import type { Task } from '@/types/api/task'
 import { SpoilerText } from '@/ui/spoiler/spoiler'
 
-import type {
-  TaskModalDependencies,
-  TaskModalState,
-} from '../../../task-modal/model/types/props'
-import { getDescriptionTranslation } from '../../../tasks/ui/common/task-description/model/get-description-translation'
+import { ChatSolutionView } from './chat-solution-view'
+import { ANSWER_SOLUTION_INTRO_TEXT } from './model/constants'
+import s from './solution-message.module.scss'
 
 interface Props {
-  solution: TaskSolution
+  task: Task
   deps: TaskModalDependencies
-  state: TaskModalState
+  answer: string
 }
 
-export const SolutionMessage = ({ solution, deps, state }: Props) => {
+export const SolutionMessage = ({ task, deps, answer }: Props) => {
   return (
     <ErrorBoundary>
+      <div className={s.intro}>{ANSWER_SOLUTION_INTRO_TEXT}</div>
       <SpoilerText>
-        УСЛОВИЕ
-        <br />
-        {getDescriptionTranslation(state.activeTask, deps)}
-        <br />
-        <br />
-        <b style={{ fontWeight: 'bold !important' }}>
-          Верный ответ:{' '}
-          <MathText inline>
-            {deps.global.translateTasks(solution.answer)}
-          </MathText>
-        </b>
+        <ChatSolutionView task={task} deps={deps} answer={answer} />
       </SpoilerText>
     </ErrorBoundary>
   )
 }
-
-// const MyVideoMessage = ({ message }: { message: MyVideoMessageType }) => {
-//   const ref = useRef<HTMLIFrameElement>(null)
-
-//   return <YoutubeVideo url={message.url} />
-//   // return (
-//   //   <div
-//   //     key={message.id}
-//   //     style={{
-//   //       minHeight: 206,
-//   //       height: 206,
-//   //       width: 300,
-//   //       borderRadius: 12,
-//   //       overflow: 'hidden',
-//   //     }}
-//   //   >
-//   //     <iframe
-//   //       title="Теория"
-//   //       id="video-iframe"
-//   //       width="100%"
-//   //       height="100%"
-//   //       src={`${message.url}${message.url.includes('?p=') ? '&' : '?'}&rel=0&controls=0&modestbranding=1&showinfo=0&autoplay=0`}
-//   //       allowFullScreen={true}
-//   //       // allow="autoplay *"
-//   //     />
-//   //   </div>
-//   // )
-// }

@@ -74,6 +74,24 @@ const VideoMessage = ({
     setNativeControlsUnlocked(true)
   }
 
+  const handleSeekKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (!videoRef.current || !videoDuration) return
+    const step = videoDuration * 0.05
+    if (e.key === 'ArrowRight') {
+      e.preventDefault()
+      videoRef.current.currentTime = Math.min(
+        videoDuration,
+        videoRef.current.currentTime + step,
+      )
+    } else if (e.key === 'ArrowLeft') {
+      e.preventDefault()
+      videoRef.current.currentTime = Math.max(
+        0,
+        videoRef.current.currentTime - step,
+      )
+    }
+  }
+
   useEffect(() => {
     const video = videoRef.current
     if (!video) return
@@ -186,7 +204,17 @@ const VideoMessage = ({
 
       {/* Bottom progress strip — only when native controls are hidden */}
       {isPlaying && !showNativeControls && (
-        <div className={s.progressTrack} onClick={handleSeek}>
+        <div
+          className={s.progressTrack}
+          onClick={handleSeek}
+          onKeyDown={handleSeekKeyDown}
+          role="slider"
+          tabIndex={0}
+          aria-label="Seek video"
+          aria-valuemin={0}
+          aria-valuemax={videoDuration ?? 0}
+          aria-valuenow={progress * (videoDuration ?? 0)}
+        >
           <div
             className={s.progressFill}
             style={{ width: `${progress * 100}%` }}

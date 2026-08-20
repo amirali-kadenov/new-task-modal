@@ -96,13 +96,14 @@ export const updatePlayCase = (
       },
     ]
   } else {
-    const prev = scope.cases[index]!
+    const prev = scope.cases[index]
     scope.cases = scope.cases.map((c, i) =>
       i === index
         ? {
             ...c,
             ...patch,
-            error: patch.status === 'pass' ? undefined : (patch.error ?? c.error),
+            error:
+              patch.status === 'pass' ? undefined : (patch.error ?? c.error),
             label: patch.label ?? prev.label,
           }
         : c,

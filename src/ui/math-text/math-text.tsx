@@ -10,16 +10,21 @@ type Props = ComponentProps<typeof MathJax> & {
   inline?: boolean
 }
 
-export const MathText = ({ children, className, inline }: Props) => {
+export const MathText = ({ children, className, inline, onTypeset }: Props) => {
   const content =
     typeof children === 'string' ? normalizeFractionStyle(children) : children
+
+  const handleTypeset = () => {
+    scheduleMathStretch()
+    onTypeset?.()
+  }
 
   return (
     <MathJax
       className={clsx(styles.mathText, className)}
       inline={inline}
-      onInitTypeset={scheduleMathStretch}
-      onTypeset={scheduleMathStretch}
+      onInitTypeset={handleTypeset}
+      onTypeset={handleTypeset}
     >
       {content}
     </MathJax>

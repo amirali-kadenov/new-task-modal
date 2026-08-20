@@ -50,6 +50,10 @@ describe('text.before', () => {
     renderTemplate(Template, { ...task, solution: makeSolution('42') })
 
     expect(screen.getByTestId('text-prefix')).toHaveTextContent(/x/)
-    expect(screen.getAllByTestId('math-formula').some((el) => el.textContent === '42')).toBe(true)
+    expect(
+      screen
+        .getAllByTestId('math-formula')
+        .some((el) => el.textContent === '42'),
+    ).toBe(true)
   })
 })

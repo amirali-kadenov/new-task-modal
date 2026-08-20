@@ -38,9 +38,7 @@ export const parseVitestJson = (raw: string): SuiteCaseResult[] => {
   for (const file of data.testResults ?? []) {
     for (const assertion of file.assertionResults ?? []) {
       const label =
-        assertion.fullName?.trim() ||
-        assertion.title?.trim() ||
-        'unnamed test'
+        assertion.fullName?.trim() || assertion.title?.trim() || 'unnamed test'
       const failed = assertion.status === 'failed'
       const error = assertion.failureMessages?.filter(Boolean).join('\n')
       cases.push({

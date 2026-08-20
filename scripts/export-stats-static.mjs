@@ -5,8 +5,8 @@
  * Usage (from new-task-modal):
  *   node scripts/export-stats-static.mjs
  */
-import { createRequire } from 'node:module'
 import fs from 'node:fs'
+import { createRequire } from 'node:module'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -37,8 +37,7 @@ async function main() {
     process.exit(1)
   }
 
-  const preferred =
-    list.find((s) => (s.grades || []).includes(4)) || list[0]
+  const preferred = list.find((s) => (s.grades || []).includes(4)) || list[0]
   const snapshotName = preferred.name
   const outputDir = preferred.outputDir
   const grades = Array.isArray(preferred.grades) ? preferred.grades.slice() : []
@@ -57,7 +56,8 @@ async function main() {
         grades: grades,
         withSolutions: Boolean(preferred.withSolutions),
         taskCount: preferred.taskCount != null ? preferred.taskCount : null,
-        lessonCount: preferred.lessonCount != null ? preferred.lessonCount : null,
+        lessonCount:
+          preferred.lessonCount != null ? preferred.lessonCount : null,
       },
     ],
   }

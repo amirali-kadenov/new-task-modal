@@ -93,31 +93,31 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 3,
-        "number1": 21
-      },
       "title": null,
+      "fields": {
+        "number2": 5,
+        "number1": 18
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Ailədə 3 oğlan var. Onların hər biri əvvəlkindən 3 yaş kiçikdir. Əgər onların yaşlarının cəmi 21-dirsə, hər üç uşağın neçə yaşı var?\n",
-          "kgz": "Үй-бүлөдө 3 эркек бала бар. Алардын ар бири мурункусунан 3 жашка кичүү.\nЭгер алардын жаштарынын суммасы 21 болсо, анда үч баланын ар бири канча жашта?\n",
-          "uzb": "Bir oilada 3 nafar o'g'il bor.\nUlarning har biri avvalgisidan 3 yoshga kichik.\nAgar barchasini yoshini yig'indisi 21 bo'lsa, uch nafar o'g'ilning har biri necha yoshda?\n",
-          "eng": "There are 3 boys in a family. Each of them is 3 years younger than the one before.\nIf the sum of their ages is 21, how old is each boy?\n",
-          "rus": "В семье 3 мальчика. Каждый из них моложе предыдущего на 3 года. Если сумма их возрастов равна 21, то сколько лет каждому из трех мальчиков?\n",
-          "kaz": "Отбасында 3 ер бала бар. Олардың әрқайсысы алдынғысынан 3 жас кіші. Бәрінің жасын қосқана 21 болса, үш баланың әрқайсысы неше жаста?\n",
+          "aze": "Ailədə 3 oğlan var. Onların hər biri əvvəlkindən 5 yaş kiçikdir. Əgər onların yaşlarının cəmi 18-dirsə, hər üç uşağın neçə yaşı var?\n",
+          "kgz": "Үй-бүлөдө 3 эркек бала бар. Алардын ар бири мурункусунан 5 жашка кичүү.\nЭгер алардын жаштарынын суммасы 18 болсо, анда үч баланын ар бири канча жашта?\n",
+          "uzb": "Bir oilada 3 nafar o'g'il bor.\nUlarning har biri avvalgisidan 5 yoshga kichik.\nAgar barchasini yoshini yig'indisi 18 bo'lsa, uch nafar o'g'ilning har biri necha yoshda?\n",
+          "eng": "There are 3 boys in a family. Each of them is 5 years younger than the one before.\nIf the sum of their ages is 18, how old is each boy?\n",
+          "rus": "В семье 3 мальчика. Каждый из них моложе предыдущего на 5 лет. Если сумма их возрастов равна 18, то сколько лет каждому из трех мальчиков?\n",
+          "kaz": "Отбасында 3 ер бала бар. Олардың әрқайсысы алдынғысынан 5 жас кіші. Бәрінің жасын қосқана 18 болса, үш баланың әрқайсысы неше жаста?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "في أسرة ما ثلاثة إخوة، كل واحد منهم أصغر من أخيه الذي يكبره 3 سنوات.\nإذا كان مجموع أعمارهم 21 سنةً، فكم عمر كل واحد منهم؟\n",
+          "areg": "في أسرة ما ثلاثة إخوة، كل واحد منهم أصغر من أخيه الذي يكبره 5 سنوات.\nإذا كان مجموع أعمارهم 18 سنةً، فكم عمر كل واحد منهم؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_14_8",
       "position": 7,
-      "id": "8cd31349-e054-4cf2-9c46-e88e09c5885e",
+      "id": "9d8dbf74-c343-4ed7-9ceb-3f3f61ed25f0",
       "solution": {
         "type": "text",
         "answer": {
@@ -128,7 +128,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "4;;7;;10",
+          "rus": "1;;6;;11",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

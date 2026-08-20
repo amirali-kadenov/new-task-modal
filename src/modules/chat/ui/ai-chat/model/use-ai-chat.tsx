@@ -3,7 +3,10 @@ import { useEffect } from 'react'
 import { useShowSolution } from '@/modules/task-modal/model/hooks/api/use-show-solution'
 import { useShowVideoExplanation } from '@/modules/task-modal/model/hooks/api/use-show-video-explanation'
 import { useTheory } from '@/modules/task-modal/model/hooks/api/use-theory'
-import { useAppState } from '@/modules/task-modal/model/store/task-modal-store'
+import {
+  useAppState,
+  useStore,
+} from '@/modules/task-modal/model/store/task-modal-store'
 import type { TaskModalProps } from '@/modules/task-modal/model/types/props'
 
 import { createTextMessage } from '../../../model/helpers'
@@ -25,6 +28,7 @@ interface Args {
 export const useAiChat = ({ props }: Args) => {
   const state = useAppState()
   const { locatedCountry, activeTask } = state
+  const answer = useStore((s) => s.answer)
   const { deps } = props
   const user = deps.global.getUser()
 
@@ -132,9 +136,9 @@ export const useAiChat = ({ props }: Args) => {
           id: Date.now(),
           text: (
             <SolutionMessage
-              solution={response.solution}
+              task={{ ...activeTask, solution: response.solution }}
+              answer={answer}
               deps={deps}
-              state={state}
             />
           ),
           senderUserId: 0,

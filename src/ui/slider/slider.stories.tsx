@@ -60,7 +60,7 @@ export const Default: Story = {
     })
 
     await runPlayStep('navigate', 'Click last dot', async () => {
-      await userEvent.click(dots![2]!)
+      await userEvent.click(dots![2])
       await expect(dots![2]).toBeInTheDocument()
     })
   }),

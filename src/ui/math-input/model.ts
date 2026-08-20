@@ -162,7 +162,8 @@ export const insertSymbolToMathField = (
   mathField: MathField | null,
   symbol: string,
 ): void => {
-  // mathField?.focus()
+  // Calculator clicks steal focus (letter slide / pagination); restore before write.
+  mathField?.focus()
 
   // Try keystroke handling first
   if (handleKeystroke(mathField, symbol)) {

@@ -10,14 +10,12 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: center;
 }
 
 .textPart {
   width: 100%;
   font-size: 1.05em;
   line-height: 1.4;
-  text-align: center;
 }
 
 .imagePart {
@@ -91,6 +89,10 @@
   align-items: flex-end;
 }
 
+.container[data-template-id='complex.plain'] .solutionRow {
+  align-items: flex-start;
+}
+
 .answerFormula {
   flex: 0 1 auto;
 }
@@ -120,8 +122,18 @@
 }
 
 .planeSvg,
-.numberLineSvg,
-.angleListSvg {
+.numberLineSvg {
   max-width: 100%;
   height: auto;
+}
+
+.angleListSvg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  /* stylelint-disable-next-line declaration-no-important -- beats the UA
+     default `svg:not(:root) { overflow: hidden }`, which otherwise wins
+     over a plain class selector regardless of source order. */
+  overflow: visible !important;
 }

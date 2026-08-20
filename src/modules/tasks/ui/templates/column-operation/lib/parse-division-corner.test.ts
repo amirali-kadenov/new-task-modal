@@ -1,9 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import {
-  parseDivisionCorner,
-  stripPhantoms,
-} from './parse-division-corner'
+import { parseDivisionCorner, stripPhantoms } from './parse-division-corner'
 
 const divSnippet = `\\begin{array}{c}
 \\left. {\\phantom{99}30202}

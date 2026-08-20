@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react-vite'
 import { Controls, Primary } from '@storybook/addon-docs/blocks'
+import type { Meta, StoryObj } from '@storybook/react-vite'
 import { expect, userEvent, waitFor, within } from 'storybook/test'
 
 import { isAutomatedInteractionRun } from '@/testing/with-on-demand-play'
@@ -82,9 +82,7 @@ export const Solution: Story = {
 
 export const VideoExplanation: Story = {
   tags: ['!autodocs'],
-  render: (args) => (
-    <TrainerPlayground {...args} stateTab="videoExplanation" />
-  ),
+  render: (args) => <TrainerPlayground {...args} stateTab="videoExplanation" />,
 }
 
 export const CanvasAndChat: Story = {
@@ -125,12 +123,12 @@ export const ToolbarChecks: Story = {
 
       await userEvent.selectOptions(groupSelect, nextGroup)
 
-      await waitFor(() => {
+      await waitFor(async () => {
         const afterSelect = canvas.getByTestId('trainer-task-select')
         const afterTasks = [...afterSelect.querySelectorAll('option')].map(
           (o) => o.value,
         )
-        expect(afterTasks).not.toEqual(beforeTasks)
+        await expect(afterTasks).not.toEqual(beforeTasks)
       })
     }
 

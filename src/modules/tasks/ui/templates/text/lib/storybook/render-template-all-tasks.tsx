@@ -4,7 +4,9 @@ import type { TaskComponentProps } from '@/modules/tasks/model/types'
 
 import type { TextTask } from '../types.task'
 
+import { CatalogUpdateSnapshotsButton } from './catalog-update-snapshots-button'
 import { TaskSectionTestPanel } from './task-section-test-panel'
+import { TaskVerifiedCheckbox } from './task-verified-checkbox'
 import { TextTemplateStory, withoutSolution } from './text-template-story'
 import { TrainerLaunchLinks, type TrainerLaunch } from './trainer-launch-links'
 
@@ -103,9 +105,12 @@ export const RenderTemplateAllTasks = ({
 
   return (
     <div>
+      <CatalogUpdateSnapshotsButton rootTitle={rootTitle} scope="allTasks" />
       {tasks.map(({ id, group, launch, task }, index) => (
         <section
           key={id}
+          data-task={id}
+          data-group={group}
           style={{
             marginBottom: 48,
             borderBottom: '1px solid #e5e7eb',
@@ -119,9 +124,12 @@ export const RenderTemplateAllTasks = ({
             </span>
           </h3>
 
-          <TrainerLaunchLinks launch={launch} />
+          <div data-visual-hide="">
+            <TaskVerifiedCheckbox rootTitle={rootTitle} taskId={id} />
+            <TrainerLaunchLinks launch={launch} />
+          </div>
 
-          <div style={{ marginBottom: 20 }}>
+          <div data-visual-target="default" style={{ marginBottom: 20 }}>
             <div style={variantLabelStyle}>Default</div>
             <TextTemplateStory
               Template={Template}
@@ -129,7 +137,7 @@ export const RenderTemplateAllTasks = ({
             />
           </div>
 
-          <div>
+          <div data-visual-target="solution" style={{ marginBottom: 20 }}>
             <div style={variantLabelStyle}>WithSolution</div>
             {task.solution ? (
               <TextTemplateStory Template={Template} task={task} />
@@ -140,12 +148,14 @@ export const RenderTemplateAllTasks = ({
             )}
           </div>
 
-          <TaskSectionTestPanel
-            Template={Template}
-            task={task}
-            sectionKey={`all-tasks:${id}`}
-            rootTitle={rootTitle}
-          />
+          <div data-visual-hide="">
+            <TaskSectionTestPanel
+              Template={Template}
+              task={task}
+              sectionKey={`all-tasks:${id}`}
+              rootTitle={rootTitle}
+            />
+          </div>
         </section>
       ))}
     </div>

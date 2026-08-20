@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/AnswerCell/multi/inline-n2-plain'
 
 const meta = {
   title: 'Templates/AnswerCell/multi/inline-n2-plain/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

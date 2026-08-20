@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+
 import s from './audio.module.scss'
 
 interface Props {

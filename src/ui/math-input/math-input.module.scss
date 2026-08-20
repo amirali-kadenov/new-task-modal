@@ -4,7 +4,21 @@
 .mathInput {
   @include body-lead-regular;
 
+  /* MathQuill sets display:inline-block on .mq-editable-field / .mq-math-mode
+   * and breaks flex centering from .input — re-assert it here. */
+  display: flex !important;
+  align-items: center;
   padding-block: to-rem(11px);
+  overflow-x: auto;
+
+  /* Cancel MathQuill's .mq-math-mode { font-size: 115% } so body-lead 24px sticks. */
+  font-size: to-rem(24px) !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   &:focus,
   &:global(.mq-focused),
@@ -12,6 +26,11 @@
     border: 1px solid var(--border-focus) !important;
     border-radius: var(--radius-l) !important;
     box-shadow: 0 0 0 1px var(--border-focus) !important;
+  }
+
+  :global(.mq-root-block) {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -44,6 +63,7 @@
   }
 
   .mq-math-mode .mq-root-block {
+    width: auto !important;
     overflow: visible !important;
   }
 

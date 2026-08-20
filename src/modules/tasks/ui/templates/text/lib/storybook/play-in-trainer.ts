@@ -1,14 +1,18 @@
 import { expect, userEvent, waitFor, within } from 'storybook/test'
 
-import type { TaskSolution } from '@/types/api/task'
 import { runPlayStep } from '@/testing/play-step'
 import { withOnDemandPlay } from '@/testing/with-on-demand-play'
 import { withTrackedPlay } from '@/testing/with-tracked-play'
+import type { TaskSolution } from '@/types/api/task'
+import {
+  assertNoRawMathDelimiters,
+  waitForMathJax,
+} from '@/ui/math-text/assert-mathjax-dom'
 
 import { stripMathDelimiters } from '../strip-math-delimiters'
 import type { TextTask } from '../types.task'
 
-import { pickTask } from './create-text-template-stories'
+import { pickTask, resolveTrainerGroup } from './create-text-template-stories'
 import {
   getFixtureAnswerString,
   STORY_THEORY_VIDEO_ID,
@@ -141,13 +145,12 @@ type MathQuillField = {
  * `latex()` / `typedText()` still fire the field `edit` handler → store update.
  */
 const getMathQuillField = (field: HTMLElement): MathQuillField => {
-  const getInterface = window.MathQuill?.getInterface
-  if (!getInterface) {
+  if (!window.MathQuill?.getInterface) {
     throw new Error(
       'MathQuill is not loaded — ensure `.storybook/preview.tsx` imports `./mathquill-bootstrap`',
     )
   }
-  const MQ = getInterface(2) as unknown as {
+  const MQ = window.MathQuill.getInterface(2) as unknown as {
     (el: HTMLElement): MathQuillField | undefined
   }
   const mathField = MQ(field)
@@ -246,13 +249,21 @@ export const runPlayCorrectAnswerForTask =
 export const runPlayCorrectAnswerInTrainer =
   ({ groups, fallbackTask }: MakePlayArgs) =>
   async ({ canvasElement, args }: PlayCanvasArgs) => {
-    const task = pickTask(groups, args?.group ?? '', fallbackTask)
+    const task = pickTask(
+      groups,
+      resolveTrainerGroup(groups, args?.group),
+      fallbackTask,
+    )
     return runPlayCorrectAnswerForTask(task)({ canvasElement })
   }
 
 export const makePlayCorrectAnswerInTrainer = (args: MakePlayArgs) =>
-  withTrackedPlay([...PLAY_CASES_CORRECT], async (ctx) => {
-    const task = pickTask(args.groups, ctx.args?.group ?? '', args.fallbackTask)
+  withTrackedPlay([...PLAY_CASES_CORRECT], async (ctx: PlayCanvasArgs) => {
+    const task = pickTask(
+      args.groups,
+      resolveTrainerGroup(args.groups, ctx.args?.group),
+      args.fallbackTask,
+    )
     const user = makeStoryUser()
     const rawAnswer = getFixtureAnswerString(task.solution).trim()
     if (!rawAnswer) return
@@ -260,8 +271,8 @@ export const makePlayCorrectAnswerInTrainer = (args: MakePlayArgs) =>
     const checkButton = await findCheckButton(ctx.canvasElement)
 
     await runPlayStep(
-      PLAY_CASES_CORRECT[0]!.id,
-      PLAY_CASES_CORRECT[0]!.label,
+      PLAY_CASES_CORRECT[0].id,
+      PLAY_CASES_CORRECT[0].label,
       async () => {
         await settle(DEV_STEP_DELAY_MS)
         const radioInput = findRadioByValue(ctx.canvasElement, rawAnswer)
@@ -277,8 +288,8 @@ export const makePlayCorrectAnswerInTrainer = (args: MakePlayArgs) =>
     )
 
     await runPlayStep(
-      PLAY_CASES_CORRECT[1]!.id,
-      PLAY_CASES_CORRECT[1]!.label,
+      PLAY_CASES_CORRECT[1].id,
+      PLAY_CASES_CORRECT[1].label,
       async () => {
         await settle(DEV_STEP_DELAY_MS)
         await user.click(checkButton)
@@ -317,7 +328,7 @@ export const runPlayWrongAnswerForTask =
       await submitCheck(canvasElement, user)
       await waitFor(async () => {
         const button = await findCheckButton(canvasElement)
-        expect(button).toBeDisabled()
+        await expect(button).toBeDisabled()
       })
       await settle(DEV_STEP_DELAY_MS)
       return
@@ -332,7 +343,7 @@ export const runPlayWrongAnswerForTask =
     await submitCheck(canvasElement, user)
     await waitFor(async () => {
       const button = await findCheckButton(canvasElement)
-      expect(button).toBeDisabled()
+      await expect(button).toBeDisabled()
     })
     await waitFor(() =>
       expect(canvasElement.querySelector('img[alt=""]')).toBeTruthy(),
@@ -348,9 +359,11 @@ export const runPlayWrongAnswerForTask =
     await submitCheck(canvasElement, user)
     await waitFor(async () => {
       const button = await findCheckButton(canvasElement)
-      expect(button).toBeDisabled()
+      await expect(button).toBeDisabled()
     })
-    expect(canvas.queryByRole('button', { name: 'Далее' })).toBeNull()
+    await expect(
+      canvas.queryByRole('button', { name: 'Далее' }),
+    ).not.toBeInTheDocument()
     await settle(DEV_STEP_DELAY_MS)
 
     // Attempt 3 — mock returns ShowSolution → primary button becomes "Далее".
@@ -376,13 +389,21 @@ export const runPlayWrongAnswerForTask =
 export const runPlayWrongAnswerInTrainer =
   ({ groups, fallbackTask }: MakePlayArgs) =>
   async ({ canvasElement, args }: PlayCanvasArgs) => {
-    const task = pickTask(groups, args?.group ?? '', fallbackTask)
+    const task = pickTask(
+      groups,
+      resolveTrainerGroup(groups, args?.group),
+      fallbackTask,
+    )
     return runPlayWrongAnswerForTask(task)({ canvasElement })
   }
 
 export const makePlayWrongAnswerInTrainer = (args: MakePlayArgs) =>
-  withTrackedPlay([...PLAY_CASES_WRONG], async (ctx) => {
-    const task = pickTask(args.groups, ctx.args?.group ?? '', args.fallbackTask)
+  withTrackedPlay([...PLAY_CASES_WRONG], async (ctx: PlayCanvasArgs) => {
+    const task = pickTask(
+      args.groups,
+      resolveTrainerGroup(args.groups, ctx.args?.group),
+      args.fallbackTask,
+    )
     const rawAnswer = getFixtureAnswerString(task.solution).trim()
     if (!rawAnswer) return
 
@@ -399,36 +420,38 @@ export const makePlayWrongAnswerInTrainer = (args: MakePlayArgs) =>
 
     if (radioWrongValues.length > 0) {
       await runPlayStep(
-        PLAY_CASES_WRONG[0]!.id,
-        PLAY_CASES_WRONG[0]!.label,
+        PLAY_CASES_WRONG[0].id,
+        PLAY_CASES_WRONG[0].label,
         async () => {
           const wrongInput = findRadioByValue(
             ctx.canvasElement,
-            radioWrongValues[0]!,
+            radioWrongValues[0],
           )
           if (!wrongInput) return
           await user.click(wrongInput)
           await submitCheck(ctx.canvasElement, user)
           await waitFor(async () => {
             const button = await findCheckButton(ctx.canvasElement)
-            expect(button).toBeDisabled()
+            await expect(button).toBeDisabled()
           })
         },
       )
       await runPlayStep(
-        PLAY_CASES_WRONG[1]!.id,
-        PLAY_CASES_WRONG[1]!.label,
+        PLAY_CASES_WRONG[1].id,
+        PLAY_CASES_WRONG[1].label,
         async () => {
           // Radio path often cannot reach «Далее» — assert still blocked.
-          expect(canvas.queryByRole('button', { name: 'Далее' })).toBeNull()
+          await expect(
+            canvas.queryByRole('button', { name: 'Далее' }),
+          ).not.toBeInTheDocument()
         },
       )
       return
     }
 
     await runPlayStep(
-      PLAY_CASES_WRONG[0]!.id,
-      PLAY_CASES_WRONG[0]!.label,
+      PLAY_CASES_WRONG[0].id,
+      PLAY_CASES_WRONG[0].label,
       async () => {
         await fillAllMathFields(
           ctx.canvasElement,
@@ -438,7 +461,7 @@ export const makePlayWrongAnswerInTrainer = (args: MakePlayArgs) =>
         await submitCheck(ctx.canvasElement, user)
         await waitFor(async () => {
           const button = await findCheckButton(ctx.canvasElement)
-          expect(button).toBeDisabled()
+          await expect(button).toBeDisabled()
         })
         await waitFor(() =>
           expect(ctx.canvasElement.querySelector('img[alt=""]')).toBeTruthy(),
@@ -453,16 +476,18 @@ export const makePlayWrongAnswerInTrainer = (args: MakePlayArgs) =>
         await submitCheck(ctx.canvasElement, user)
         await waitFor(async () => {
           const button = await findCheckButton(ctx.canvasElement)
-          expect(button).toBeDisabled()
+          await expect(button).toBeDisabled()
         })
-        expect(canvas.queryByRole('button', { name: 'Далее' })).toBeNull()
+        await expect(
+          canvas.queryByRole('button', { name: 'Далее' }),
+        ).not.toBeInTheDocument()
         await settle(DEV_STEP_DELAY_MS)
       },
     )
 
     await runPlayStep(
-      PLAY_CASES_WRONG[1]!.id,
-      PLAY_CASES_WRONG[1]!.label,
+      PLAY_CASES_WRONG[1].id,
+      PLAY_CASES_WRONG[1].label,
       async () => {
         await fillAllMathFields(
           ctx.canvasElement,
@@ -507,7 +532,7 @@ export const runPlayCanvasAndChatInTrainer = async ({
   })
   await user.click(showExample)
   const thumbnails = await canvas.findAllByAltText('Video thumbnail')
-  expect(thumbnails.length).toBeGreaterThan(0)
+  await expect(thumbnails.length).toBeGreaterThan(0)
 
   const showAnswer = await canvas.findByRole('button', {
     name: 'Показать ответ',
@@ -534,9 +559,59 @@ export const makePlayCanvasAndChatInTrainer = withOnDemandPlay(
   runPlayCanvasAndChatInTrainer,
 )
 
+/** Play against a concrete fixture task (gallery section / local panel). */
+export const runPlayHintsForTask =
+  (task: TextTask) =>
+  async ({ canvasElement }: PlayCanvasArgs) => {
+    const user = makeStoryUser()
+    const canvas = within(canvasElement)
+    const rawAnswer = getFixtureAnswerString(task.solution).trim()
+    if (!rawAnswer) return
+
+    await findCheckButton(canvasElement)
+    await settle(DEV_STEP_DELAY_MS)
+
+    const options = canvasElement.querySelectorAll<HTMLInputElement>(
+      'input[type="radio"]',
+    )
+    const radioOptions = Array.from(options).map((option) => option.value)
+    const radioWrongValues = radioOptions.filter((value) => value !== rawAnswer)
+
+    if (radioWrongValues.length > 0) {
+      const wrongInput = findRadioByValue(canvasElement, radioWrongValues[0])
+      if (!wrongInput) return
+      await user.click(wrongInput)
+      await submitCheck(canvasElement, user)
+      await canvas.findByTestId('task-hint-1')
+      return
+    }
+
+    await fillAllMathFields(
+      canvasElement,
+      user,
+      makeWrongPartsForAttempt(task.solution, 1),
+    )
+    await submitCheck(canvasElement, user)
+    await canvas.findByTestId('task-hint-1')
+
+    await settle(DEV_STEP_DELAY_MS)
+    await fillAllMathFields(
+      canvasElement,
+      user,
+      makeWrongPartsForAttempt(task.solution, 2),
+    )
+    await submitCheck(canvasElement, user)
+    await canvas.findByTestId('task-hint-2')
+    await settle(DEV_STEP_DELAY_MS)
+  }
+
 export const makePlayHintsInTrainer = (args: MakePlayArgs) =>
-  withTrackedPlay([...PLAY_CASES_HINTS], async (ctx) => {
-    const task = pickTask(args.groups, ctx.args?.group ?? '', args.fallbackTask)
+  withTrackedPlay([...PLAY_CASES_HINTS], async (ctx: PlayCanvasArgs) => {
+    const task = pickTask(
+      args.groups,
+      resolveTrainerGroup(args.groups, ctx.args?.group),
+      args.fallbackTask,
+    )
     const user = makeStoryUser()
     const canvas = within(ctx.canvasElement)
     const rawAnswer = getFixtureAnswerString(task.solution).trim()
@@ -552,13 +627,13 @@ export const makePlayHintsInTrainer = (args: MakePlayArgs) =>
     const radioWrongValues = radioOptions.filter((value) => value !== rawAnswer)
 
     await runPlayStep(
-      PLAY_CASES_HINTS[0]!.id,
-      PLAY_CASES_HINTS[0]!.label,
+      PLAY_CASES_HINTS[0].id,
+      PLAY_CASES_HINTS[0].label,
       async () => {
         if (radioWrongValues.length > 0) {
           const wrongInput = findRadioByValue(
             ctx.canvasElement,
-            radioWrongValues[0]!,
+            radioWrongValues[0],
           )
           if (!wrongInput) return
           await user.click(wrongInput)
@@ -576,19 +651,19 @@ export const makePlayHintsInTrainer = (args: MakePlayArgs) =>
 
     if (radioWrongValues.length > 0) {
       await runPlayStep(
-        PLAY_CASES_HINTS[1]!.id,
-        PLAY_CASES_HINTS[1]!.label,
+        PLAY_CASES_HINTS[1].id,
+        PLAY_CASES_HINTS[1].label,
         async () => {
           // Radio path: only one wrong option — hint1 is enough.
-          expect(canvas.getByTestId('task-hint-1')).toBeTruthy()
+          await expect(canvas.getByTestId('task-hint-1')).toBeInTheDocument()
         },
       )
       return
     }
 
     await runPlayStep(
-      PLAY_CASES_HINTS[1]!.id,
-      PLAY_CASES_HINTS[1]!.label,
+      PLAY_CASES_HINTS[1].id,
+      PLAY_CASES_HINTS[1].label,
       async () => {
         await settle(DEV_STEP_DELAY_MS)
         await fillAllMathFields(
@@ -602,7 +677,6 @@ export const makePlayHintsInTrainer = (args: MakePlayArgs) =>
       },
     )
   })
-
 export const runPlayTheoryInTrainer = async ({
   canvasElement,
 }: {
@@ -619,7 +693,7 @@ export const runPlayTheoryInTrainer = async ({
 
   await waitFor(() => {
     const thumbs = canvas.getAllByAltText('Video thumbnail')
-    expect(
+    return expect(
       thumbs.some((img) =>
         (img.getAttribute('src') ?? '').includes(STORY_THEORY_VIDEO_ID),
       ),
@@ -634,8 +708,8 @@ export const makePlayTheoryInTrainer = withTrackedPlay(
     const canvas = within(canvasElement)
 
     await runPlayStep(
-      PLAY_CASES_THEORY[0]!.id,
-      PLAY_CASES_THEORY[0]!.label,
+      PLAY_CASES_THEORY[0].id,
+      PLAY_CASES_THEORY[0].label,
       async () => {
         const openChatButton = await canvas.findByRole('button', {
           name: 'Открыть чат',
@@ -646,12 +720,12 @@ export const makePlayTheoryInTrainer = withTrackedPlay(
     )
 
     await runPlayStep(
-      PLAY_CASES_THEORY[1]!.id,
-      PLAY_CASES_THEORY[1]!.label,
+      PLAY_CASES_THEORY[1].id,
+      PLAY_CASES_THEORY[1].label,
       async () => {
         await waitFor(() => {
           const thumbs = canvas.getAllByAltText('Video thumbnail')
-          expect(
+          return expect(
             thumbs.some((img) =>
               (img.getAttribute('src') ?? '').includes(STORY_THEORY_VIDEO_ID),
             ),
@@ -662,6 +736,49 @@ export const makePlayTheoryInTrainer = withTrackedPlay(
   },
 )
 
+/**
+ * «Верный ответ:» inside the actual chat message bubble — the
+ * interaction-controls addon renders play-case descriptions in the same
+ * canvasElement, and one of them contains this exact phrase, so a plain
+ * `findByText` can match either. Filter to the real message.
+ */
+const findAnswerLabelInMessage = (canvasElement: HTMLElement) =>
+  waitFor(() => {
+    const canvas = within(canvasElement)
+    const matches = canvas.getAllByText(/Верный ответ:/)
+    const inMessage = matches.find((el) => el.closest('[class*="message"]'))
+    if (!inMessage) {
+      throw new Error('"Верный ответ:" not found inside a chat message')
+    }
+    return inMessage
+  })
+
+/** Open chat → «Показать ответ» (gallery section / local panel). */
+export const runPlayShowAnswerInTrainer = async ({
+  canvasElement,
+}: {
+  canvasElement: HTMLElement
+}) => {
+  const user = makeStoryUser()
+  const canvas = within(canvasElement)
+
+  const openChatButton = await canvas.findByRole('button', {
+    name: 'Открыть чат',
+  })
+  await user.click(openChatButton)
+  await canvas.findByRole('heading', { name: 'AI-чат' })
+
+  const showAnswer = await canvas.findByRole('button', {
+    name: 'Показать ответ',
+  })
+  await user.click(showAnswer)
+  await findAnswerLabelInMessage(canvasElement)
+  await waitFor(() => {
+    const calcKeys = canvasElement.querySelectorAll('[data-calc]')
+    return expect(calcKeys.length).toBe(0)
+  })
+}
+
 export const makePlayShowAnswerInTrainer = withTrackedPlay(
   [...PLAY_CASES_SHOW_ANSWER],
   async ({ canvasElement }) => {
@@ -669,8 +786,8 @@ export const makePlayShowAnswerInTrainer = withTrackedPlay(
     const canvas = within(canvasElement)
 
     await runPlayStep(
-      PLAY_CASES_SHOW_ANSWER[0]!.id,
-      PLAY_CASES_SHOW_ANSWER[0]!.label,
+      PLAY_CASES_SHOW_ANSWER[0].id,
+      PLAY_CASES_SHOW_ANSWER[0].label,
       async () => {
         const openChatButton = await canvas.findByRole('button', {
           name: 'Открыть чат',
@@ -681,47 +798,61 @@ export const makePlayShowAnswerInTrainer = withTrackedPlay(
     )
 
     await runPlayStep(
-      PLAY_CASES_SHOW_ANSWER[1]!.id,
-      PLAY_CASES_SHOW_ANSWER[1]!.label,
+      PLAY_CASES_SHOW_ANSWER[1].id,
+      PLAY_CASES_SHOW_ANSWER[1].label,
       async () => {
         const showAnswer = await canvas.findByRole('button', {
           name: 'Показать ответ',
         })
         await user.click(showAnswer)
-        await canvas.findByText(/Верный ответ:/)
+        const answerLabel = await findAnswerLabelInMessage(canvasElement)
         await waitFor(() => {
           const calcKeys = canvasElement.querySelectorAll('[data-calc]')
-          expect(calcKeys.length).toBe(0)
+          return expect(calcKeys.length).toBe(0)
         })
+
+        // Chat spoiler condition+answer must typeset — no raw `\(...\)` left.
+        const messageRoot =
+          answerLabel.closest('[class*="message"]') ?? canvasElement
+        await waitForMathJax(messageRoot)
+        assertNoRawMathDelimiters(messageRoot)
       },
     )
   },
 )
+
+/** Long content hides calculator (gallery section / local panel). */
+export const runPlayCalcOverflowInTrainer = async ({
+  canvasElement,
+}: {
+  canvasElement: HTMLElement
+}) => {
+  await findCheckButton(canvasElement)
+  await waitFor(() => {
+    const calcKeys = canvasElement.querySelectorAll('[data-calc]')
+    return expect(calcKeys.length).toBe(0)
+  })
+}
 
 export const makePlayCalcOverflowInTrainer = withTrackedPlay(
   [...PLAY_CASES_CALC_OVERFLOW],
   async ({ canvasElement }) => {
     await runPlayStep(
-      PLAY_CASES_CALC_OVERFLOW[0]!.id,
-      PLAY_CASES_CALC_OVERFLOW[0]!.label,
+      PLAY_CASES_CALC_OVERFLOW[0].id,
+      PLAY_CASES_CALC_OVERFLOW[0].label,
       async () => {
-        await findCheckButton(canvasElement)
-        await waitFor(() => {
-          const calcKeys = canvasElement.querySelectorAll('[data-calc]')
-          expect(calcKeys.length).toBe(0)
-        })
+        await runPlayCalcOverflowInTrainer({ canvasElement })
       },
     )
   },
 )
-
 export const makePlayOpenInTrainer = () =>
   withTrackedPlay([...PLAY_CASES_OPEN], async ({ canvasElement }) => {
     const canvas = within(canvasElement)
 
     await runPlayStep(
-      PLAY_CASES_OPEN[0]!.id,
-      PLAY_CASES_OPEN[0]!.label,
+      PLAY_CASES_OPEN[0].id,
+      PLAY_CASES_OPEN[0].label,
       async () => {
         const newLink = await canvas.findByRole('link', {
           name: 'Новый тренажёр',
@@ -734,8 +865,8 @@ export const makePlayOpenInTrainer = () =>
     )
 
     await runPlayStep(
-      PLAY_CASES_OPEN[1]!.id,
-      PLAY_CASES_OPEN[1]!.label,
+      PLAY_CASES_OPEN[1].id,
+      PLAY_CASES_OPEN[1].label,
       async () => {
         const oldLink = canvas.getByRole('link', { name: 'Старый тренажёр' })
         await expect(oldLink).toHaveAttribute(
@@ -746,8 +877,8 @@ export const makePlayOpenInTrainer = () =>
     )
 
     await runPlayStep(
-      PLAY_CASES_OPEN[2]!.id,
-      PLAY_CASES_OPEN[2]!.label,
+      PLAY_CASES_OPEN[2].id,
+      PLAY_CASES_OPEN[2].label,
       async () => {
         const openBtn = canvas.getByRole('button', { name: 'Все задачи' })
         await userEvent.click(openBtn)

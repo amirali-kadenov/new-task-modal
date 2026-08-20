@@ -29,10 +29,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 9161278
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi onluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -46,12 +42,16 @@
             "areg": "قرّب العدد التالي إلى أقرب عشرة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 2871737
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "9161278 \\( \\approx \\)",
+                "content": "2871737 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -59,7 +59,7 @@
           },
           "type": "Elixir.Task_4_8_5_1",
           "position": 0,
-          "id": "d499923d-517c-49f5-8299-6c6eb6f92352",
+          "id": "8136fee8-8b94-45a3-86f4-f7bb20efb85c",
           "solution": {
             "type": "formula",
             "answer": {
@@ -70,7 +70,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "9161280",
+              "rus": "2871740",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -134,10 +134,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 2586775
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi yüzlüklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -151,12 +147,16 @@
             "areg": "قرّب العدد التالي إلى أقرب مائة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 5522255
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "2586775 \\( \\approx \\)",
+                "content": "5522255 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -164,7 +164,7 @@
           },
           "type": "Elixir.Task_4_8_5_2",
           "position": 3,
-          "id": "3031ce1e-0771-4829-b884-5ce4593ad07f",
+          "id": "f2ef2515-5123-4843-bc87-f02f344d5363",
           "solution": {
             "type": "formula",
             "answer": {
@@ -175,7 +175,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "2586800",
+              "rus": "5522300",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -239,10 +239,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 5998697
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi minliklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -256,12 +252,16 @@
             "areg": "قرّب العدد التالي إلى أقرب ألف.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 2325987
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "5998697 \\( \\approx \\)",
+                "content": "2325987 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -269,7 +269,7 @@
           },
           "type": "Elixir.Task_4_8_5_3",
           "position": 6,
-          "id": "8b190c9f-bfa5-4a27-80ec-305d3f33c092",
+          "id": "4f96382e-7030-4315-ae47-9397a8c25d9b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -280,7 +280,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "5999000",
+              "rus": "2326000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -344,10 +344,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 6186655
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi onminliklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -361,12 +357,16 @@
             "areg": "قرّب العدد التالي إلي عشرات الألوف.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 7167535
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "6186655 \\( \\approx \\)",
+                "content": "7167535 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -374,7 +374,7 @@
           },
           "type": "Elixir.Task_4_8_5_4",
           "position": 9,
-          "id": "8fbe3b3e-93a4-4e15-b3a0-246bd6c5b98d",
+          "id": "7c7d73ca-f765-46c2-a821-8733a2f94077",
           "solution": {
             "type": "formula",
             "answer": {
@@ -385,7 +385,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "6190000",
+              "rus": "7170000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -449,10 +449,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 6813675
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi yüzminliklər mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -466,12 +462,16 @@
             "areg": "قرّب العدد التالي إلي مئات الألوف.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 1256695
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "6813675 \\( \\approx \\)",
+                "content": "1256695 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -479,7 +479,7 @@
           },
           "type": "Elixir.Task_4_8_5_5",
           "position": 12,
-          "id": "278eb120-212a-49ac-a360-fefe4eeeafb4",
+          "id": "5d22ec38-75b6-4096-a075-0ba8987c799f",
           "solution": {
             "type": "formula",
             "answer": {
@@ -490,7 +490,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "6800000",
+              "rus": "1300000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -554,10 +554,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 1448564
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi milyonluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -571,12 +567,16 @@
             "areg": "قرب العدد التالي إلى أقرب مليون.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 1589924
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "1448564 \\( \\approx \\)",
+                "content": "1589924 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -584,7 +584,7 @@
           },
           "type": "Elixir.Task_4_8_5_6",
           "position": 15,
-          "id": "5edfba99-511f-416c-ad5d-fc07bfcce11e",
+          "id": "2105e882-5bee-48cd-891e-6529114c968d",
           "solution": {
             "type": "formula",
             "answer": {
@@ -595,7 +595,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "1000000",
+              "rus": "2000000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -659,10 +659,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 85191195
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi onmilyonluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -676,12 +672,16 @@
             "areg": "قرب العدد التالي إلى أقرب عشرات الملايين.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 54591369
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "85191195 \\( \\approx \\)",
+                "content": "54591369 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -689,7 +689,7 @@
           },
           "type": "Elixir.Task_4_8_5_7",
           "position": 18,
-          "id": "2e7ceb4a-f276-4460-8ddc-ef819e90bf60",
+          "id": "8b66844a-81c0-4795-a960-b3303187bcf8",
           "solution": {
             "type": "formula",
             "answer": {
@@ -700,7 +700,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "90000000",
+              "rus": "50000000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -764,10 +764,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number": 440
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək 5 ədədinə bölmə əməlini yerinə yetirin.\n",
@@ -781,6 +777,10 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة للقسمة على 5.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number": 340
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -788,15 +788,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "440 : 5 = ",
-                  "kgz": "440 : 5 = ",
-                  "uzb": "440 : 5 = ",
-                  "eng": "440 ÷ 5 = ",
-                  "rus": "440 : 5 = ",
-                  "kaz": "440 : 5 = ",
-                  "arjd": "440 : 5 = ",
-                  "arsa": "440 : 5 = ",
-                  "areg": "440 : 5 = ",
+                  "aze": "340 : 5 = ",
+                  "kgz": "340 : 5 = ",
+                  "uzb": "340 : 5 = ",
+                  "eng": "340 ÷ 5 = ",
+                  "rus": "340 : 5 = ",
+                  "kaz": "340 : 5 = ",
+                  "arjd": "340 : 5 = ",
+                  "arsa": "340 : 5 = ",
+                  "areg": "340 : 5 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -806,7 +806,7 @@
           },
           "type": "Elixir.Task_4_9_1_15",
           "position": 14,
-          "id": "1d59fe1d-d4e0-4469-9bcf-a4963a75ac8b",
+          "id": "5aa70529-9c71-44e9-ad54-e8d4476badc3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -817,7 +817,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "88",
+              "rus": "68",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -881,11 +881,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 80,
-            "number1": 90
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -899,12 +894,17 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 30,
+            "number1": 70
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "90 · 80 = ",
+                "content": "70 · 30 = ",
                 "type": 10
               }
             ],
@@ -912,7 +912,7 @@
           },
           "type": "Elixir.Task_4_9_2",
           "position": 0,
-          "id": "994b19de-54e7-4c4e-b80a-71031b36921a",
+          "id": "7a767482-96d7-4de0-9931-0f87113127fe",
           "solution": {
             "type": "formula",
             "answer": {
@@ -923,7 +923,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "7200",
+              "rus": "2100",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -987,11 +987,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 60,
-            "number1": 4800
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1005,6 +1000,11 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 40,
+            "number1": 3200
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1012,15 +1012,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "4800 : 60 = ",
-                  "kgz": "4800 : 60 = ",
-                  "uzb": "4800 : 60 = ",
-                  "eng": "4800 ÷ 60 = ",
-                  "rus": "4800 : 60 = ",
-                  "kaz": "4800 : 60 = ",
-                  "arjd": "4800 : 60 = ",
-                  "arsa": "4800 : 60 = ",
-                  "areg": "4800 : 60 = ",
+                  "aze": "3200 : 40 = ",
+                  "kgz": "3200 : 40 = ",
+                  "uzb": "3200 : 40 = ",
+                  "eng": "3200 ÷ 40 = ",
+                  "rus": "3200 : 40 = ",
+                  "kaz": "3200 : 40 = ",
+                  "arjd": "3200 : 40 = ",
+                  "arsa": "3200 : 40 = ",
+                  "areg": "3200 : 40 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1030,7 +1030,7 @@
           },
           "type": "Elixir.Task_4_9_3_1",
           "position": 5,
-          "id": "a620d500-58af-425c-9bc9-c18e108a515d",
+          "id": "9f12a344-b5f7-4405-b5d7-49b1860c0bbf",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1105,11 +1105,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number2": 900,
-            "number1": 540000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -1123,6 +1118,11 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number2": 400,
+            "number1": 120000
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1130,15 +1130,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "540000 : 900 = ",
-                  "kgz": "540000 : 900 = ",
-                  "uzb": "540000 : 900 = ",
-                  "eng": "540000 ÷ 900 = ",
-                  "rus": "540000 : 900 = ",
-                  "kaz": "540000 : 900 = ",
-                  "arjd": "540000 : 900 = ",
-                  "arsa": "540000 : 900 = ",
-                  "areg": "540000 : 900 = ",
+                  "aze": "120000 : 400 = ",
+                  "kgz": "120000 : 400 = ",
+                  "uzb": "120000 : 400 = ",
+                  "eng": "120000 ÷ 400 = ",
+                  "rus": "120000 : 400 = ",
+                  "kaz": "120000 : 400 = ",
+                  "arjd": "120000 : 400 = ",
+                  "arsa": "120000 : 400 = ",
+                  "areg": "120000 : 400 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1148,7 +1148,7 @@
           },
           "type": "Elixir.Task_4_9_3_2",
           "position": 7,
-          "id": "24dbb11c-b524-44db-b4cf-8fadc162378f",
+          "id": "cd9fb99f-9d08-4c69-a87f-383cbaceaf9b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1159,7 +1159,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "600",
+              "rus": "300",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1223,9 +1223,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 814468751
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Verilən ədədi yüzmilyonluqlar mərtəbəsinə qədər yuvarlaqlaşdırın.",
@@ -1239,12 +1236,15 @@
             "areg": "قرب العدد التالي إلى أقرب مئات الملايين.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 327152143
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "814468751 \\( \\approx \\)",
+                "content": "327152143 \\( \\approx \\)",
                 "type": 10
               }
             ],
@@ -1252,7 +1252,7 @@
           },
           "type": "Elixir.Task_4_8_5_8",
           "position": 20,
-          "id": "6bc0433f-6145-4555-ba0f-9c40fdeed724",
+          "id": "1a4e43c2-2fb8-453b-96e3-54817a255590",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1263,7 +1263,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "800000000",
+              "rus": "300000000",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1327,9 +1327,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 24
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -1343,6 +1340,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 30
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1350,15 +1350,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "24 : (2 · 3) = ",
-                  "kgz": "24 : (2 · 3) = ",
-                  "uzb": "24 : (2 · 3) = ",
-                  "eng": "24 ÷ (2 · 3) = ",
-                  "rus": "24 : (2 · 3) = ",
-                  "kaz": "24 : (2 · 3) = ",
-                  "arjd": "24 : (2 · 3) = ",
-                  "arsa": "24 : (2 · 3) = ",
-                  "areg": "24 : (2 · 3) = ",
+                  "aze": "30 : (2 · 3) = ",
+                  "kgz": "30 : (2 · 3) = ",
+                  "uzb": "30 : (2 · 3) = ",
+                  "eng": "30 ÷ (2 · 3) = ",
+                  "rus": "30 : (2 · 3) = ",
+                  "kaz": "30 : (2 · 3) = ",
+                  "arjd": "30 : (2 · 3) = ",
+                  "arsa": "30 : (2 · 3) = ",
+                  "areg": "30 : (2 · 3) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1368,7 +1368,7 @@
           },
           "type": "Elixir.Task_4_9_1_8",
           "position": 7,
-          "id": "8ef1c02f-110e-4518-8d00-ccdb173dd4bc",
+          "id": "a4d5ae79-818e-4843-887f-d9e1c201991d",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1379,7 +1379,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "4",
+              "rus": "5",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1443,9 +1443,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 180
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -1459,6 +1456,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 228
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1466,15 +1466,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "180 : (3 · 4) = ",
-                  "kgz": "180 : (3 · 4) = ",
-                  "uzb": "180 : (3 · 4) = ",
-                  "eng": "180 ÷ (3 · 4) = ",
-                  "rus": "180 : (3 · 4) = ",
-                  "kaz": "180 : (3 · 4) = ",
-                  "arjd": "180 : (3 · 4) = ",
-                  "arsa": "180 : (3 · 4) = ",
-                  "areg": "180 : (3 · 4) = ",
+                  "aze": "228 : (3 · 4) = ",
+                  "kgz": "228 : (3 · 4) = ",
+                  "uzb": "228 : (3 · 4) = ",
+                  "eng": "228 ÷ (3 · 4) = ",
+                  "rus": "228 : (3 · 4) = ",
+                  "kaz": "228 : (3 · 4) = ",
+                  "arjd": "228 : (3 · 4) = ",
+                  "arsa": "228 : (3 · 4) = ",
+                  "areg": "228 : (3 · 4) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1484,7 +1484,7 @@
           },
           "type": "Elixir.Task_4_9_1_9",
           "position": 8,
-          "id": "b978cfcc-1184-4744-aa5d-5ad45f21dc64",
+          "id": "5026b2c3-773b-4018-baf3-d9ea294a6f47",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1495,7 +1495,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "15",
+              "rus": "19",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1559,9 +1559,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 280
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -1575,6 +1572,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 60
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1582,15 +1582,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "280 : (4 · 5) = ",
-                  "kgz": "280 : (4 · 5) = ",
-                  "uzb": "280 : (4 · 5) = ",
-                  "eng": "280 ÷ (4 · 5) = ",
-                  "rus": "280 : (4 · 5) = ",
-                  "kaz": "280 : (4 · 5) = ",
-                  "arjd": "280 : (4 · 5) = ",
-                  "arsa": "280 : (4 · 5) = ",
-                  "areg": "280 : (4 · 5) = ",
+                  "aze": "60 : (4 · 5) = ",
+                  "kgz": "60 : (4 · 5) = ",
+                  "uzb": "60 : (4 · 5) = ",
+                  "eng": "60 ÷ (4 · 5) = ",
+                  "rus": "60 : (4 · 5) = ",
+                  "kaz": "60 : (4 · 5) = ",
+                  "arjd": "60 : (4 · 5) = ",
+                  "arsa": "60 : (4 · 5) = ",
+                  "areg": "60 : (4 · 5) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1600,7 +1600,7 @@
           },
           "type": "Elixir.Task_4_9_1_10",
           "position": 9,
-          "id": "fa868920-e6b1-4b3d-9371-1151093cc8fe",
+          "id": "5384bc6b-8eeb-46fa-b2b1-4cc386111bbd",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1611,7 +1611,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "14",
+              "rus": "3",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1675,9 +1675,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 560
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -1691,6 +1688,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 280
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1698,15 +1698,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "560 : (4 · 10) = ",
-                  "kgz": "560 : (4 · 10) = ",
-                  "uzb": "560 : (4 · 10) = ",
-                  "eng": "560 ÷ (4 · 10) = ",
-                  "rus": "560 : (4 · 10) = ",
-                  "kaz": "560 : (4 · 10) = ",
-                  "arjd": "560 : (4 · 10) = ",
-                  "arsa": "560 : (4 · 10) = ",
-                  "areg": "560 : (4 · 10) = ",
+                  "aze": "280 : (4 · 10) = ",
+                  "kgz": "280 : (4 · 10) = ",
+                  "uzb": "280 : (4 · 10) = ",
+                  "eng": "280 ÷ (4 · 10) = ",
+                  "rus": "280 : (4 · 10) = ",
+                  "kaz": "280 : (4 · 10) = ",
+                  "arjd": "280 : (4 · 10) = ",
+                  "arsa": "280 : (4 · 10) = ",
+                  "areg": "280 : (4 · 10) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1716,7 +1716,7 @@
           },
           "type": "Elixir.Task_4_9_1_11",
           "position": 10,
-          "id": "0a9ce972-f2e1-41c2-a751-7e6d23e1ae16",
+          "id": "4c151ddf-b965-4ec5-8b4e-7f2fbc39b44b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1727,7 +1727,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "14",
+              "rus": "7",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1791,9 +1791,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 720
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -1807,6 +1804,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 540
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1814,15 +1814,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "720 : (9 · 10) = ",
-                  "kgz": "720 : (9 · 10) = ",
-                  "uzb": "720 : (9 · 10) = ",
-                  "eng": "720 ÷ (9 · 10) = ",
-                  "rus": "720 : (9 · 10) = ",
-                  "kaz": "720 : (9 · 10) = ",
-                  "arjd": "720 : (9 · 10) = ",
-                  "arsa": "720 : (9 · 10) = ",
-                  "areg": "720 : (9 · 10) = ",
+                  "aze": "540 : (9 · 10) = ",
+                  "kgz": "540 : (9 · 10) = ",
+                  "uzb": "540 : (9 · 10) = ",
+                  "eng": "540 ÷ (9 · 10) = ",
+                  "rus": "540 : (9 · 10) = ",
+                  "kaz": "540 : (9 · 10) = ",
+                  "arjd": "540 : (9 · 10) = ",
+                  "arsa": "540 : (9 · 10) = ",
+                  "areg": "540 : (9 · 10) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1832,7 +1832,7 @@
           },
           "type": "Elixir.Task_4_9_1_12",
           "position": 11,
-          "id": "4b5a3d6b-cf60-4c7b-8db6-5cbe5ddadea1",
+          "id": "921f0e46-538d-4ed5-b688-49310c71bba9",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1843,7 +1843,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "8",
+              "rus": "6",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -1907,9 +1907,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 540
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -1923,6 +1920,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 720
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -1930,15 +1930,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "540 : (30 · 3) = ",
-                  "kgz": "540 : (30 · 3) = ",
-                  "uzb": "540 : (30 · 3) = ",
-                  "eng": "540 ÷ (30 · 3) = ",
-                  "rus": "540 : (30 · 3) = ",
-                  "kaz": "540 : (30 · 3) = ",
-                  "arjd": "540 : (30 · 3) = ",
-                  "arsa": "540 : (30 · 3) = ",
-                  "areg": "540 : (30 · 3) = ",
+                  "aze": "720 : (30 · 3) = ",
+                  "kgz": "720 : (30 · 3) = ",
+                  "uzb": "720 : (30 · 3) = ",
+                  "eng": "720 ÷ (30 · 3) = ",
+                  "rus": "720 : (30 · 3) = ",
+                  "kaz": "720 : (30 · 3) = ",
+                  "arjd": "720 : (30 · 3) = ",
+                  "arsa": "720 : (30 · 3) = ",
+                  "areg": "720 : (30 · 3) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -1948,7 +1948,7 @@
           },
           "type": "Elixir.Task_4_9_1_13",
           "position": 12,
-          "id": "4614349c-7f40-4e46-8837-5b75ded2ab15",
+          "id": "fbf8a90d-7df7-4d2e-8a17-f5623106bcfa",
           "solution": {
             "type": "formula",
             "answer": {
@@ -1959,7 +1959,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "6",
+              "rus": "8",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2023,9 +2023,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 240
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Səmərəli üsuldan istifadə edərək ifadənin qiymətini tapın.",
@@ -2039,6 +2036,9 @@
             "areg": "احسب التعبير التالي باستخدام الطريقة الفعالة.",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 560
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -2046,15 +2046,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "240 : (20 · 4) = ",
-                  "kgz": "240 : (20 · 4) = ",
-                  "uzb": "240 : (20 · 4) = ",
-                  "eng": "240 ÷ (20 · 4) = ",
-                  "rus": "240 : (20 · 4) = ",
-                  "kaz": "240 : (20 · 4) = ",
-                  "arjd": "240 : (20 · 4) = ",
-                  "arsa": "240 : (20 · 4) = ",
-                  "areg": "240 : (20 · 4) = ",
+                  "aze": "560 : (20 · 4) = ",
+                  "kgz": "560 : (20 · 4) = ",
+                  "uzb": "560 : (20 · 4) = ",
+                  "eng": "560 ÷ (20 · 4) = ",
+                  "rus": "560 : (20 · 4) = ",
+                  "kaz": "560 : (20 · 4) = ",
+                  "arjd": "560 : (20 · 4) = ",
+                  "arsa": "560 : (20 · 4) = ",
+                  "areg": "560 : (20 · 4) = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -2064,7 +2064,7 @@
           },
           "type": "Elixir.Task_4_9_1_14",
           "position": 13,
-          "id": "156f90fe-32c6-4af8-9f60-28565254fade",
+          "id": "8dece101-6f1c-48a6-86b8-2283fdf423b3",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2075,7 +2075,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "3",
+              "rus": "7",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2139,9 +2139,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 4
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Bərabərsizliyi ödəyən ədədləri nöqtəli vergüllə ayıraraq yazın.",
@@ -2155,12 +2152,15 @@
             "areg": "اكتب الأعداد التي تمثل حلولا للمتباينة التالية باستخدام الفاصلة المنقوطة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 2
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "\\(k\\) < 4",
+                "content": "\\(k\\) < 2",
                 "type": 10
               },
               {
@@ -2202,7 +2202,7 @@
           },
           "type": "Elixir.Task_4_12_3_1",
           "position": 6,
-          "id": "7329942c-6faa-443b-aae5-68031f174e44",
+          "id": "051eece5-257d-4cf2-957b-2eeb139f94b0",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2213,7 +2213,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "0;1;2;3",
+              "rus": "0;1",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2277,9 +2277,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number": 6
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Bərabərsizliyi ödəyən ədədləri nöqtəli vergüllə ayıraraq yazın.",
@@ -2293,12 +2290,15 @@
             "areg": "اكتب الأعداد التي تمثل حلولا للمتباينة التالية باستخدام الفاصلة المنقوطة",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number": 5
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "\\(t\\) > 6",
+                "content": "\\(t\\) > 5",
                 "type": 10
               },
               {
@@ -2340,7 +2340,7 @@
           },
           "type": "Elixir.Task_4_12_3_2",
           "position": 7,
-          "id": "b57e14b7-f8ec-4a5a-b4e1-78a148cd4d6b",
+          "id": "a639009b-cab3-4eed-b1ea-841455b1b4ab",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2351,7 +2351,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "7",
+              "rus": "6;7",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2415,12 +2415,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number3": 81387,
-            "number2": 22,
-            "number1": 46576
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2434,12 +2428,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number3": 81597,
+            "number2": 22,
+            "number1": 98565
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "46576 ⋅ 22 + 81387 = ",
+                "content": "98565 ⋅ 22 + 81597 = ",
                 "type": 10
               }
             ],
@@ -2447,7 +2447,7 @@
           },
           "type": "Elixir.Task_4_5_5",
           "position": 0,
-          "id": "4cf7c19c-83b7-4d54-a0ab-9ff1cb88f384",
+          "id": "91db8cff-a498-4239-b6d6-893af416345b",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2458,7 +2458,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "1106059",
+              "rus": "2250027",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2522,12 +2522,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number3": 31122,
-            "number2": 2,
-            "number1": 75999
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2541,12 +2535,18 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number3": 52218,
+            "number2": 2,
+            "number1": 47695
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "75999 ⋅ 2 − 31122 = ",
+                "content": "47695 ⋅ 2 − 52218 = ",
                 "type": 10
               }
             ],
@@ -2554,7 +2554,7 @@
           },
           "type": "Elixir.Task_4_5_6",
           "position": 1,
-          "id": "740d84eb-bec1-4f09-9a83-e35a13ad5943",
+          "id": "3ea591cc-362e-492d-87ab-ec1d618b2120",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2565,7 +2565,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "120876",
+              "rus": "43172",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2629,12 +2629,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number3": 97575,
-            "number2": 5,
-            "number1": 447970
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2648,6 +2642,12 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number3": 97896,
+            "number2": 5,
+            "number1": 149415
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -2655,15 +2655,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "97575 + 447970 ÷ 5 = ",
-                  "kgz": "97575 + 447970 ÷ 5 = ",
-                  "uzb": "97575 + 447970 ÷ 5 = ",
-                  "eng": "97575 + 447970 : 5 = ",
-                  "rus": "97575 + 447970 ÷ 5 = ",
-                  "kaz": "97575 + 447970 ÷ 5 = ",
-                  "arjd": "97575 + 447970 ÷ 5 = ",
-                  "arsa": "97575 + 447970 ÷ 5 = ",
-                  "areg": "97575 + 447970 ÷ 5 = ",
+                  "aze": "97896 + 149415 ÷ 5 = ",
+                  "kgz": "97896 + 149415 ÷ 5 = ",
+                  "uzb": "97896 + 149415 ÷ 5 = ",
+                  "eng": "97896 + 149415 : 5 = ",
+                  "rus": "97896 + 149415 ÷ 5 = ",
+                  "kaz": "97896 + 149415 ÷ 5 = ",
+                  "arjd": "97896 + 149415 ÷ 5 = ",
+                  "arsa": "97896 + 149415 ÷ 5 = ",
+                  "areg": "97896 + 149415 ÷ 5 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -2673,7 +2673,7 @@
           },
           "type": "Elixir.Task_4_5_9",
           "position": 6,
-          "id": "d31a6ae7-e046-4554-b7e1-e3a34165ca81",
+          "id": "fafe3287-f779-40b3-8a49-74dcef14d227",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2684,7 +2684,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "187169",
+              "rus": "127779",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2748,13 +2748,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number4": 3,
-            "number3": 113898,
-            "number2": 2,
-            "number1": 25966
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2768,6 +2761,13 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number4": 3,
+            "number3": 83274,
+            "number2": 2,
+            "number1": 25855
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -2775,15 +2775,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "kgz": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "uzb": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "eng": "25966 ⋅ 2 + 113898 ÷ 3 = ",
-                  "rus": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "kaz": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "arjd": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "arsa": "25966 ⋅ 2 + 113898 : 3 = ",
-                  "areg": "25966 ⋅ 2 + 113898 : 3 = ",
+                  "aze": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "kgz": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "uzb": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "eng": "25855 ⋅ 2 + 83274 ÷ 3 = ",
+                  "rus": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "kaz": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "arjd": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "arsa": "25855 ⋅ 2 + 83274 : 3 = ",
+                  "areg": "25855 ⋅ 2 + 83274 : 3 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -2793,7 +2793,7 @@
           },
           "type": "Elixir.Task_4_5_11",
           "position": 12,
-          "id": "931ca52d-ea30-4fbd-8c6f-0a2b2b39d8e4",
+          "id": "9e46fc29-e940-4861-a85c-faf894fc848a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2804,7 +2804,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "89898",
+              "rus": "79468",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2868,13 +2868,6 @@
           },
           "difficulty": "x1",
           "result": "none",
-          "fields": {
-            "difficulty": "x1",
-            "number4": 3,
-            "number3": 209064,
-            "number2": 4,
-            "number1": 25643
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -2888,6 +2881,13 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "difficulty": "x1",
+            "number4": 3,
+            "number3": 115425,
+            "number2": 4,
+            "number1": 28773
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -2895,15 +2895,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "kgz": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "uzb": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "eng": "25643 ⋅ 4 - 209064 ÷ 3 = ",
-                  "rus": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "kaz": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "arjd": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "arsa": "25643 ⋅ 4 - 209064 : 3 = ",
-                  "areg": "25643 ⋅ 4 - 209064 : 3 = ",
+                  "aze": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "kgz": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "uzb": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "eng": "28773 ⋅ 4 - 115425 ÷ 3 = ",
+                  "rus": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "kaz": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "arjd": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "arsa": "28773 ⋅ 4 - 115425 : 3 = ",
+                  "areg": "28773 ⋅ 4 - 115425 : 3 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -2913,7 +2913,7 @@
           },
           "type": "Elixir.Task_4_5_12",
           "position": 13,
-          "id": "096fa1e4-871c-4b4b-82d4-fc89d69ff77a",
+          "id": "0bf7c5a3-59af-4912-8bd8-ddf21871f069",
           "solution": {
             "type": "formula",
             "answer": {
@@ -2924,7 +2924,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "32884",
+              "rus": "76617",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -2988,9 +2988,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "figure_position": 3
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Fiqurun rənglənmiş hissələrinin sayını kəsr şəklində yazın.",
@@ -3003,6 +3000,9 @@
             "arsa": "",
             "areg": "اكتب الأجزاء الملونة من الشكل بصيغة الكسر الاعتيادي.",
             "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "figure_position": 2
           },
           "description": {
             "isAnswerCellHidden": false,
@@ -3082,7 +3082,7 @@
                         "y": -1
                       }
                     ],
-                    "fill": "#fff200",
+                    "fill": "transparent",
                     "borderColor": "black"
                   },
                   {
@@ -3125,7 +3125,7 @@
           },
           "type": "Elixir.Task_4_11_1_1",
           "position": 0,
-          "id": "e741cbde-8645-4ce5-a5fd-00df593006e7",
+          "id": "a79db540-896d-4842-bc36-e56f08490e02",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3136,7 +3136,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{2}{3}",
+              "rus": "\\frac{1}{3}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3200,9 +3200,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "figure_position": 4
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Fiqurun rənglənmiş hissələrinin sayını kəsr şəklində yazın.",
@@ -3215,6 +3212,9 @@
             "arsa": "",
             "areg": "اكتب الأجزاء الملونة من الشكل بصيغة الكسر الاعتيادي.",
             "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "figure_position": 5
           },
           "description": {
             "isAnswerCellHidden": false,
@@ -3264,7 +3264,7 @@
                     "showDots": false,
                     "ry": 2,
                     "rx": 2,
-                    "rotateDegree": 0,
+                    "rotateDegree": 90,
                     "mPoint": {
                       "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
                       "x": 2,
@@ -3373,7 +3373,7 @@
           },
           "type": "Elixir.Task_4_11_1_2",
           "position": 1,
-          "id": "8ea2a2ed-b516-4f87-a165-6a1572a50ac1",
+          "id": "0db531e8-0e68-4872-8ad8-4cf55032a79a",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3448,9 +3448,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "figure_position": 4
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Fiqurun rənglənmiş hissələrinin sayını kəsr şəklində yazın.",
@@ -3463,6 +3460,9 @@
             "arsa": "",
             "areg": "اكتب الأجزاء الملونة من الشكل بصيغة الكسر الاعتيادي.",
             "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "figure_position": 3
           },
           "description": {
             "isAnswerCellHidden": false,
@@ -3633,38 +3633,6 @@
                     "borderColor": "black"
                   },
                   {
-                    "xAxisRotation": 0,
-                    "type": 110,
-                    "sweepFlag": 1,
-                    "strokeWidth": 0,
-                    "showDots": false,
-                    "ry": 2,
-                    "rx": 2,
-                    "rotateDegree": 180,
-                    "mPoint": {
-                      "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
-                      "x": 2,
-                      "letter": "",
-                      "y": 0
-                    },
-                    "largeArcFlag": 0,
-                    "fill": "#fff200",
-                    "endPoint": {
-                      "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
-                      "x": 1.41,
-                      "letter": "",
-                      "y": -1.42
-                    },
-                    "dashed": false,
-                    "centerPoint": {
-                      "module_name": "Elixir.CustomeTypes.CoordinatePlane.Point",
-                      "x": 0,
-                      "letter": "",
-                      "y": 0
-                    },
-                    "borderColor": "black"
-                  },
-                  {
                     "type": 30,
                     "showDotLetters": false,
                     "point2": {
@@ -3757,7 +3725,7 @@
           },
           "type": "Elixir.Task_4_11_1_3",
           "position": 2,
-          "id": "718fb798-ab9f-4bc6-9c2b-1d47c7b14c0b",
+          "id": "2ee21876-2eef-4891-a482-533fde300f49",
           "solution": {
             "type": "formula",
             "answer": {
@@ -3768,7 +3736,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{5}{8}",
+              "rus": "\\frac{4}{8}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -3832,9 +3800,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "figure_position": 4
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Fiqurun rənglənmiş hissələrinin sayını kəsr şəklində yazın.",
@@ -3847,6 +3812,9 @@
             "arsa": "",
             "areg": "اكتب الأجزاء الملونة من الشكل بصيغة الكسر الاعتيادي.",
             "module_name": "Elixir.Helpers.Translation"
+          },
+          "fields": {
+            "figure_position": 2
           },
           "description": {
             "isAnswerCellHidden": false,
@@ -3980,7 +3948,7 @@
                         "y": -1
                       }
                     ],
-                    "fill": "black",
+                    "fill": "transparent",
                     "borderColor": "black"
                   },
                   {
@@ -4088,7 +4056,7 @@
                         "y": -1
                       }
                     ],
-                    "fill": "black",
+                    "fill": "transparent",
                     "borderColor": "black"
                   },
                   {
@@ -4212,7 +4180,7 @@
           },
           "type": "Elixir.Task_4_11_1_4",
           "position": 3,
-          "id": "ac8394df-2c34-4e98-9e27-224830113cf7",
+          "id": "2bbd2cd7-3720-4739-bd7c-c09bc64271d1",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4223,7 +4191,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "\\frac{5}{12}",
+              "rus": "\\frac{3}{12}",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4287,11 +4255,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 96594,
-            "number2": 4,
-            "number1": 75659
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -4305,12 +4268,17 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 96378,
+            "number2": 4,
+            "number1": 36944
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "96594 + 75659 ⋅ 4 = ",
+                "content": "96378 + 36944 ⋅ 4 = ",
                 "type": 10
               }
             ],
@@ -4318,7 +4286,7 @@
           },
           "type": "Elixir.Task_4_5_7",
           "position": 4,
-          "id": "31c2e6a0-1868-409f-9f4a-fca7c7a30dec",
+          "id": "bc257b8d-5207-4b31-9112-ee83d2b0e4bd",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4329,7 +4297,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "399230",
+              "rus": "244154",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4393,11 +4361,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 596754,
-            "number2": 4,
-            "number1": 17338
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -4411,12 +4374,17 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 596836,
+            "number2": 4,
+            "number1": 57356
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
             "parts": [
               {
-                "content": "596754 - 17338 ⋅ 4 = ",
+                "content": "596836 - 57356 ⋅ 4 = ",
                 "type": 10
               }
             ],
@@ -4424,7 +4392,7 @@
           },
           "type": "Elixir.Task_4_5_8",
           "position": 5,
-          "id": "ead22b86-2abc-4baa-aa43-7ec7e5998fd2",
+          "id": "e13f65a2-0fa1-4381-8d8d-deba9a9b5bc9",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4435,7 +4403,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "527402",
+              "rus": "367412",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4499,11 +4467,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 316513,
-            "number2": 5,
-            "number1": 194235
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -4517,6 +4480,11 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number3": 316710,
+            "number2": 5,
+            "number1": 283965
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -4524,15 +4492,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "316513 - 194235 : 5 = ",
-                  "kgz": "316513 - 194235 : 5 = ",
-                  "uzb": "316513 - 194235 : 5 = ",
-                  "eng": "316513 - 194235 ÷ 5 = ",
-                  "rus": "316513 - 194235 : 5 = ",
-                  "kaz": "316513 - 194235 : 5 = ",
-                  "arjd": "316513 - 194235 : 5 = ",
-                  "arsa": "316513 - 194235 : 5 = ",
-                  "areg": "316513 - 194235 : 5 = ",
+                  "aze": "316710 - 283965 : 5 = ",
+                  "kgz": "316710 - 283965 : 5 = ",
+                  "uzb": "316710 - 283965 : 5 = ",
+                  "eng": "316710 - 283965 ÷ 5 = ",
+                  "rus": "316710 - 283965 : 5 = ",
+                  "kaz": "316710 - 283965 : 5 = ",
+                  "arjd": "316710 - 283965 : 5 = ",
+                  "arsa": "316710 - 283965 : 5 = ",
+                  "areg": "316710 - 283965 : 5 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -4542,7 +4510,7 @@
           },
           "type": "Elixir.Task_4_5_10",
           "position": 7,
-          "id": "e7c72e1e-6092-457c-935d-cd319923c715",
+          "id": "1816261d-ae51-4265-919e-83958c9a9d5e",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4553,7 +4521,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "277666",
+              "rus": "259917",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -4617,10 +4585,6 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number2": 7000,
-            "number1": 30100000
-          },
           "title": {
             "with_audio_player": false,
             "aze": "Hesablayın (cavabda yalnız sonda tapılan qiyməti daxil edin):",
@@ -4634,6 +4598,10 @@
             "areg": "احسب ما يلي (ثم اكتب الناتج النهائي فقط)",
             "module_name": "Elixir.Helpers.Translation"
           },
+          "fields": {
+            "number2": 4000,
+            "number1": 15600000
+          },
           "description": {
             "isAnswerCellHidden": false,
             "isCalculatorClosed": false,
@@ -4641,15 +4609,15 @@
               {
                 "content": {
                   "with_audio_player": false,
-                  "aze": "30100000 : 7000 = ",
-                  "kgz": "30100000 : 7000 = ",
-                  "uzb": "30100000 : 7000 = ",
-                  "eng": "30100000 ÷ 7000 = ",
-                  "rus": "30100000 : 7000 = ",
-                  "kaz": "30100000 : 7000 = ",
-                  "arjd": "30100000 : 7000 = ",
-                  "arsa": "30100000 : 7000 = ",
-                  "areg": "30100000 : 7000 = ",
+                  "aze": "15600000 : 4000 = ",
+                  "kgz": "15600000 : 4000 = ",
+                  "uzb": "15600000 : 4000 = ",
+                  "eng": "15600000 ÷ 4000 = ",
+                  "rus": "15600000 : 4000 = ",
+                  "kaz": "15600000 : 4000 = ",
+                  "arjd": "15600000 : 4000 = ",
+                  "arsa": "15600000 : 4000 = ",
+                  "areg": "15600000 : 4000 = ",
                   "module_name": "Elixir.Helpers.Translation"
                 },
                 "type": 10
@@ -4659,7 +4627,7 @@
           },
           "type": "Elixir.Task_4_9_3_3",
           "position": 9,
-          "id": "85eccbe7-d9c7-461d-a527-eeaa778eb6bb",
+          "id": "c254dfc9-6f4a-4ca5-a052-91e58eeb6c2d",
           "solution": {
             "type": "formula",
             "answer": {
@@ -4670,7 +4638,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "4300",
+              "rus": "3900",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

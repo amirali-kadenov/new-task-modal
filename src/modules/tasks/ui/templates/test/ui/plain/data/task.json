@@ -14,17 +14,17 @@
   },
   "difficulty": "x1",
   "result": "none",
+  "title": null,
   "fields": {
     "difficulty": "x1",
     "variants": [
-      60000,
-      10000,
+      30000,
+      70000,
       50000,
-      30000
+      10000
     ],
-    "number": 30000
+    "number": 50000
   },
-  "title": null,
   "description": {
     "withAudioOnVariants": true,
     "withAudio": true,
@@ -33,28 +33,28 @@
     "variants": [
       {
         "with_audio_player": false,
-        "aze": "altmış min",
-        "kgz": "алтымыш миң",
-        "uzb": "oltmish ming",
-        "eng": "sixty thousand",
-        "rus": "шестьдесят тысяч",
-        "kaz": "алпыс мың",
+        "aze": "otuz min",
+        "kgz": "отуз миң",
+        "uzb": "o'ttiz ming",
+        "eng": "thirty thousand",
+        "rus": "тридцать тысяч",
+        "kaz": "отыз мың",
         "arjd": "",
         "arsa": "",
-        "areg": "ستون ألفًا",
+        "areg": "ثلاثون ألفًا",
         "module_name": "Elixir.Helpers.Translation"
       },
       {
         "with_audio_player": false,
-        "aze": "on min",
-        "kgz": "он миң",
-        "uzb": "o'n ming",
-        "eng": "ten thousand",
-        "rus": "десять тысяч",
-        "kaz": "он мың",
+        "aze": "yetmiş min",
+        "kgz": "жетимиш миң",
+        "uzb": "yetmish ming",
+        "eng": "seventy thousand",
+        "rus": "семьдесят тысяч",
+        "kaz": "жетпіс мың",
         "arjd": "",
         "arsa": "",
-        "areg": "عشرة آلاف",
+        "areg": "سبعون ألفًا",
         "module_name": "Elixir.Helpers.Translation"
       },
       {
@@ -72,15 +72,15 @@
       },
       {
         "with_audio_player": false,
-        "aze": "otuz min",
-        "kgz": "отуз миң",
-        "uzb": "o'ttiz ming",
-        "eng": "thirty thousand",
-        "rus": "тридцать тысяч",
-        "kaz": "отыз мың",
+        "aze": "on min",
+        "kgz": "он миң",
+        "uzb": "o'n ming",
+        "eng": "ten thousand",
+        "rus": "десять тысяч",
+        "kaz": "он мың",
         "arjd": "",
         "arsa": "",
-        "areg": "ثلاثون ألفًا",
+        "areg": "عشرة آلاف",
         "module_name": "Elixir.Helpers.Translation"
       }
     ],
@@ -93,15 +93,15 @@
     "questionAfter": null,
     "question": {
       "with_audio_player": false,
-      "aze": "30000 ədədinin sözlərlə düzgün yazılışını seçin:",
-      "kgz": "30000 санынын туура окулушун көрсөтүңүз.",
-      "uzb": "30000 sonining to'g'ri o'qilishini ko'rsating.",
-      "eng": "Select the correct name of the number 30000.",
-      "rus": "Укажите правильное чтение числа 30000.",
-      "kaz": "30000 санының дұрыс аталуын көрсетіңіз.",
+      "aze": "50000 ədədinin sözlərlə düzgün yazılışını seçin:",
+      "kgz": "50000 санынын туура окулушун көрсөтүңүз.",
+      "uzb": "50000 sonining to'g'ri o'qilishini ko'rsating.",
+      "eng": "Select the correct name of the number 50000.",
+      "rus": "Укажите правильное чтение числа 50000.",
+      "kaz": "50000 санының дұрыс аталуын көрсетіңіз.",
       "arjd": "",
       "arsa": "",
-      "areg": "اختر الصيغة اللفظية التي تعبر عن العدد 30000",
+      "areg": "اختر الصيغة اللفظية التي تعبر عن العدد 50000",
       "module_name": "Elixir.Helpers.Translation"
     },
     "maxWidth": "",
@@ -123,7 +123,7 @@
   },
   "type": "Elixir.Task_4_1_2",
   "position": 10,
-  "id": "a47d5fd0-5994-4536-9b52-4fb0bbf32105",
+  "id": "f7869de9-4ff4-4141-9d46-29242f7b6b8a",
   "solution": {
     "type": "formula",
     "answer": {
@@ -134,7 +134,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "D",
+      "rus": "C",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

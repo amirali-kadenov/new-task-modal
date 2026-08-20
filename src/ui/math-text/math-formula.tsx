@@ -8,18 +8,24 @@ import { scheduleMathStretch } from './stretch-tall-glyphs'
 interface Props {
   children: string
   className?: string
+  onTypeset?: () => void
 }
 
-export const MathFormula = ({ children, className }: Props) => {
+export const MathFormula = ({ children, className, onTypeset }: Props) => {
   // Wrap first — normalizeFractionStyle only rewrites islands inside `\(...\)`.
   const content = normalizeFractionStyle(`\\(${children}\\)`)
+
+  const handleTypeset = () => {
+    scheduleMathStretch()
+    onTypeset?.()
+  }
 
   return (
     <MathJax
       className={clsx(styles.mathText, className)}
       inline
-      onInitTypeset={scheduleMathStretch}
-      onTypeset={scheduleMathStretch}
+      onInitTypeset={handleTypeset}
+      onTypeset={handleTypeset}
     >
       {content}
     </MathJax>

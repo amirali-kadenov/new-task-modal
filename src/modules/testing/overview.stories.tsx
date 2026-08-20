@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
-import { TestingOverview } from '@/docs/TestingOverview'
+import { TestingOverview } from '@/docs/testing-overview'
 
 const meta = {
   title: 'Testing/Overview',

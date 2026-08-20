@@ -2,13 +2,13 @@ import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { useEffect, useState } from 'react'
 
 import type { TaskModalProps } from '@/modules/task-modal/model/types/props'
-import type {
-  ChatMessageType,
-  MessageInterface,
-  TextMessage,
-} from '@/types/api/api'
+import type { ChatMessageType, MessageInterface } from '@/types/api/api'
 
-import { getFileType, insertDateMarkers } from '../../model/helpers'
+import {
+  getFileType,
+  insertDateMarkers,
+  normalizeChatMessage,
+} from '../../model/helpers'
 import { ChatLayout } from '../common/chat-layout/chat-layout'
 import { ChatInput } from '../common/input/chat-input'
 import { DateMessage } from '../common/message/date/date-message'
@@ -30,10 +30,13 @@ export const MentorChat = ({ props }: Props) => {
     queryFn: () =>
       deps.api.getLastChatMessages(undefined, true).then((response) => {
         const data = response as { messages: MessageInterface[] }
-        return data.messages.map((message) => ({
-          ...message,
-          isFromPupil: message.senderUserId === currentUserId,
-        }))
+        return data.messages.map((message) => {
+          const normalized = normalizeChatMessage(message)
+          return {
+            ...normalized,
+            isFromPupil: normalized.senderUserId === currentUserId,
+          }
+        })
       }),
   })
   // console.log('MENTOR CHAT, messages', { messages, isLoading })
@@ -42,10 +45,11 @@ export const MentorChat = ({ props }: Props) => {
     const socketEvents = [
       {
         when: 'new_chat_message_added',
-        execute: (message: TextMessage) => {
+        execute: (message: MessageInterface) => {
+          const normalized = normalizeChatMessage(message)
           const updatedMessage = {
-            ...message,
-            isFromPupil: message.senderUserId === currentUserId,
+            ...normalized,
+            isFromPupil: normalized.senderUserId === currentUserId,
           }
 
           queryClient.setQueryData<MessageInterface[]>(
@@ -59,8 +63,8 @@ export const MentorChat = ({ props }: Props) => {
             },
           )
 
-          if (!message.isFromPupil) {
-            // deps.alert.showInfoMessage(message.text as string)
+          if (!updatedMessage.isFromPupil) {
+            // deps.alert.showInfoMessage(updatedMessage.text as string)
           }
         },
       },
@@ -135,11 +139,11 @@ export const MentorChat = ({ props }: Props) => {
 
   const handleAddFile = (file: File) => {
     const type = getFileType(file) as ChatMessageType
-    sendMedia(file, type)
+    void sendMedia(file, type)
   }
 
   const handleAddVoice = (blob: Blob) => {
-    sendMedia(blob, 'audio')
+    void sendMedia(blob, 'audio')
   }
 
   useEffect(() => {

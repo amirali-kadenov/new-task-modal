@@ -1,14 +1,13 @@
 import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
-
-import type { EquationTask } from './lib/types.task'
 
 import { EquationAnswerRow } from './equation-answer-row'
 import { EquationContent } from './equation-content'
 import styles from './equation.module.scss'
+import type { EquationTask } from './lib/types.task'
 
 type Props = TaskSolutionComponentProps<EquationTask> & {
   withBefore?: boolean
@@ -49,7 +48,7 @@ export const EquationSolution = ({
         correctAnswer={correctAnswer}
       />
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

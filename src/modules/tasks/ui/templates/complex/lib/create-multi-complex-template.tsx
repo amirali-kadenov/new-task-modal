@@ -1,5 +1,6 @@
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
@@ -8,8 +9,9 @@ import type { Task } from '@/types/api/task'
 import { MathInput } from '@/ui/math-input/math-input'
 
 import { ComplexDescription } from '../shared/complex-description'
-import { MultiComplexSolution } from '../shared/multi-complex-solution'
 import styles from '../shared/complex.module.scss'
+import { complexDescriptionHasTableAnswerCells } from '../shared/figures/table-part'
+import { MultiComplexSolution } from '../shared/multi-complex-solution'
 
 import type { ComplexTask } from './types.task'
 
@@ -48,14 +50,29 @@ export const createMultiComplexTemplate = ({
     }
 
     const hideInput = Boolean(task.description?.isAnswerCellHidden)
+    const tableHasAnswerCells = complexDescriptionHasTableAnswerCells(
+      task.description?.parts,
+    )
+    const useTableInputs = hideInput && tableHasAnswerCells
     const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-    const { setRef, handleChange } = getMultipleInputHandlers({
+    const { setRef, bindRef, handleChange } = getMultipleInputHandlers({
       onChange,
       separator,
       mathInput,
     })
 
-    const answerValues = answer.split(separator)
+    let tableInputCounter = 0
+    const tableAnswerBindings = useTableInputs
+      ? {
+          answer,
+          separator,
+          bindRef,
+          handleChange,
+          nextInputIndex: () => tableInputCounter++,
+        }
+      : null
+
+    const answerValues = splitMultiAnswer(answer, separator)
     const inputEntries = getInlineInputEntries(
       task as unknown as Task<'text'>,
       (value) => deps.global.translateTasks(value),
@@ -64,7 +81,11 @@ export const createMultiComplexTemplate = ({
     return (
       <div className={styles.container} data-template-id={id}>
         <TaskTitle title={task.title} deps={deps} />
-        <ComplexDescription description={task.description} deps={deps} />
+        <ComplexDescription
+          description={task.description}
+          deps={deps}
+          tableAnswerBindings={tableAnswerBindings}
+        />
 
         {!hideInput ? (
           <div

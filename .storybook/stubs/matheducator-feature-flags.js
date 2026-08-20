@@ -7,6 +7,6 @@ export function getFeatureFlags() {
   return { showStatsButtons: true }
 }
 
-export function subscribeFeatureFlags(_listener) {
+export function subscribeFeatureFlags() {
   return () => {}
 }

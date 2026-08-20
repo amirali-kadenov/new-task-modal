@@ -218,12 +218,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 335,
-        "number3": 7,
-        "number2": 343,
-        "number1": 494
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Tənliyi həll edin.",
@@ -237,25 +231,31 @@
         "areg": "حل المعادلة التالية",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 726,
+        "number3": 4,
+        "number2": 804,
+        "number1": 353
+      },
       "description": {
         "content": {
           "with_audio_player": false,
-          "aze": "494 + x = 343 · 7 + 335",
-          "kgz": "494 + x = 343 · 7 + 335",
-          "uzb": "494 + x = 343 · 7 + 335",
-          "eng": "494 + x = 343 · 7 + 335",
-          "rus": "494 + x = 343 · 7 + 335",
-          "kaz": "494 + x = 343 · 7 + 335",
-          "arjd": "494 + x = 343 · 7 + 335",
-          "arsa": "494 + x = 343 · 7 + 335",
-          "areg": "494 + x = 343 × 7 + 335",
+          "aze": "353 + x = 804 · 4 + 726",
+          "kgz": "353 + x = 804 · 4 + 726",
+          "uzb": "353 + x = 804 · 4 + 726",
+          "eng": "353 + x = 804 · 4 + 726",
+          "rus": "353 + x = 804 · 4 + 726",
+          "kaz": "353 + x = 804 · 4 + 726",
+          "arjd": "353 + x = 804 · 4 + 726",
+          "arsa": "353 + x = 804 · 4 + 726",
+          "areg": "353 + x = 804 × 4 + 726",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "equation"
       },
       "type": "Elixir.Task_4_3_6_1",
       "position": 0,
-      "id": "dcc2b05f-d2a3-43d8-b796-972b2641eeca",
+      "id": "a49664ec-940e-4eaa-81bb-ba73f364a5d2",
       "solution": {
         "type": "formula",
         "answer": {
@@ -266,7 +266,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "2242",
+          "rus": "3589",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -488,13 +488,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 930,
-        "number4": 996,
-        "number3": 6,
-        "number2": 112,
-        "number1": 4614
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Tənliyi həll edin.",
@@ -508,25 +501,32 @@
         "areg": "حل المعادلة التالية",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number5": 745,
+        "number4": 772,
+        "number3": 3,
+        "number2": 419,
+        "number1": 2907
+      },
       "description": {
         "content": {
           "with_audio_player": false,
-          "aze": "(996 + 4614 : 6) - x = 112 + 930",
-          "kgz": "(996 + 4614 : 6) - x = 112 + 930",
-          "uzb": "(996 + 4614 : 6) - x = 112 + 930",
-          "eng": "(996 + 4614 ÷ 6) - x = 112 + 930",
-          "rus": "(996 + 4614 : 6) - x = 112 + 930",
-          "kaz": "(996 + 4614 : 6) - x = 112 + 930",
-          "arjd": "(996 + 4614 : 6) - x = 112 + 930",
-          "arsa": "(996 + 4614 : 6) - x = 112 + 930",
-          "areg": "(996 + 4614 : 6) – x = 112 + 930",
+          "aze": "(772 + 2907 : 3) - x = 419 + 745",
+          "kgz": "(772 + 2907 : 3) - x = 419 + 745",
+          "uzb": "(772 + 2907 : 3) - x = 419 + 745",
+          "eng": "(772 + 2907 ÷ 3) - x = 419 + 745",
+          "rus": "(772 + 2907 : 3) - x = 419 + 745",
+          "kaz": "(772 + 2907 : 3) - x = 419 + 745",
+          "arjd": "(772 + 2907 : 3) - x = 419 + 745",
+          "arsa": "(772 + 2907 : 3) - x = 419 + 745",
+          "areg": "(772 + 2907 : 3) – x = 419 + 745",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "equation"
       },
       "type": "Elixir.Task_4_3_7_1",
       "position": 0,
-      "id": "65237b7a-bcfb-48de-a6b9-9805014c869f",
+      "id": "1eaeaf15-943b-4d0a-8fdf-a61b60122d2c",
       "solution": {
         "type": "formula",
         "answer": {
@@ -537,7 +537,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "723",
+          "rus": "577",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -651,11 +651,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 973,
-        "number2": 852,
-        "number1": 11
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Tənliyi həll edin.",
@@ -669,25 +664,30 @@
         "areg": "حل المعادلة التالية",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 409,
+        "number2": 145,
+        "number1": 6
+      },
       "description": {
         "content": {
           "with_audio_player": false,
-          "aze": "11x + 852 = 973",
-          "kgz": "11x + 852 = 973",
-          "uzb": "11x + 852 = 973",
-          "eng": "11x + 852 = 973",
-          "rus": "11x + 852 = 973",
-          "kaz": "11x + 852 = 973",
-          "arjd": "11x + 852 = 973",
-          "arsa": "11x + 852 = 973",
-          "areg": "11x + 852 = 973",
+          "aze": "6x + 145 = 409",
+          "kgz": "6x + 145 = 409",
+          "uzb": "6x + 145 = 409",
+          "eng": "6x + 145 = 409",
+          "rus": "6x + 145 = 409",
+          "kaz": "6x + 145 = 409",
+          "arjd": "6x + 145 = 409",
+          "arsa": "6x + 145 = 409",
+          "areg": "6x + 145 = 409",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "equation"
       },
       "type": "Elixir.Task_4_3_8_1",
       "position": 0,
-      "id": "acde478e-7261-42e2-ae18-baddccbe7deb",
+      "id": "b33d2ebb-46d8-4579-a41d-077a7a6711b4",
       "solution": {
         "type": "formula",
         "answer": {
@@ -698,7 +698,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "11",
+          "rus": "44",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

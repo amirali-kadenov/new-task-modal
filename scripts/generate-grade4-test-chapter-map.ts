@@ -30,9 +30,7 @@ const chaptersRoot = path.resolve(
   'src/modules/tasks/ui/grades/grade-4',
 )
 
-const testTemplateTypes = [
-  ['test.plain', 'TemplateTypes.Test.Plain'],
-] as const
+const testTemplateTypes = [['test.plain', 'TemplateTypes.Test.Plain']] as const
 
 const latestSnapshot = fs
   .readdirSync(snapshotsRoot, { withFileTypes: true })
@@ -116,8 +114,7 @@ const extractNonTestEntries = (
   claimedIds: Set<string>,
 ): string[] => {
   const entries: string[] = []
-  const pattern =
-    /\s*\[(TemplateTypes\.(?!Test)[^\]]+)\]:\s*\[([\s\S]*?)\],/g
+  const pattern = /\s*\[(TemplateTypes\.(?!Test)[^\]]+)\]:\s*\[([\s\S]*?)\],/g
 
   for (const match of source.matchAll(pattern)) {
     const [, expression, body] = match
@@ -138,17 +135,20 @@ for (let chapter = 1; chapter <= 12; chapter += 1) {
   const existing = fs.readFileSync(chapterPath, 'utf8')
   const claimedIds = claimedByChapter.get(chapter) ?? new Set<string>()
   const kept = extractNonTestEntries(existing, claimedIds)
-  const grouped = byChapter.get(chapter) ?? new Map()
+  const grouped =
+    byChapter.get(chapter) ?? new Map<string, Array<number | string>>()
 
-  const testEntries = testTemplateTypes.flatMap(([templateType, expression]) => {
-    const ids = (grouped.get(templateType) ?? []).slice().sort((a, b) => {
-      if (typeof a === 'number' && typeof b === 'number') return a - b
-      return String(a).localeCompare(String(b))
-    })
-    if (!ids.length) return []
-    mappedCount += ids.length
-    return [`  [${expression}]: [\n${formatTaskIds(ids)}\n  ],`]
-  })
+  const testEntries = testTemplateTypes.flatMap(
+    ([templateType, expression]) => {
+      const ids = (grouped.get(templateType) ?? []).slice().sort((a, b) => {
+        if (typeof a === 'number' && typeof b === 'number') return a - b
+        return String(a).localeCompare(String(b))
+      })
+      if (!ids.length) return []
+      mappedCount += ids.length
+      return [`  [${expression}]: [\n${formatTaskIds(ids)}\n  ],`]
+    },
+  )
 
   const allEntries = [...kept, ...testEntries]
   if (!allEntries.length) continue

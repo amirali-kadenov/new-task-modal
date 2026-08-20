@@ -8,6 +8,8 @@ import styles from './column-operation.module.scss'
 
 type Props = DivisionCornerParts & {
   className?: string
+  /** Solution view: division-with-remainder — show under the quotient. */
+  remainder?: string
 }
 
 /** School «уголок» via HTML/CSS — top-aligned digits, stable paddings. */
@@ -15,6 +17,7 @@ export const DivisionCorner = ({
   dividend,
   divisor,
   quotient,
+  remainder,
   className,
 }: Props) => (
   <div className={clsx(styles.corner, className)}>
@@ -28,6 +31,11 @@ export const DivisionCorner = ({
       {quotient !== undefined && (
         <div className={styles.cornerQuotient}>
           <MathFormula>{quotient}</MathFormula>
+        </div>
+      )}
+      {remainder !== undefined && (
+        <div className={styles.cornerRemainder}>
+          <MathFormula>{remainder}</MathFormula>
         </div>
       )}
     </div>

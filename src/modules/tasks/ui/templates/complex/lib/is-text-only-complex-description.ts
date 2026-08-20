@@ -10,9 +10,7 @@ export const isTextOnlyComplexDescription = (
   if (!parts?.length) return false
 
   return parts.every((raw) => {
-    const part = normalizeComplexPart(
-      raw as unknown as Record<string, unknown>,
-    )
+    const part = normalizeComplexPart(raw as unknown as Record<string, unknown>)
     return Number(part.type) === FigureType.Text
   })
 }

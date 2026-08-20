@@ -25,6 +25,169 @@ export const getMathQuillTex = (item: SymbolEntry): string | null => {
   return toMathQuillTex(item.tex)
 }
 
+/** AllSymbols section: every glyph in one block (MathText wraps; MathInput = one field). */
+export const ALL_MATH_SYMBOLS_TITLE = 'Все математические символы'
+
+/** Atomic glyphs for the “all symbols” block (not school-formula combinations). */
+export const ALL_MATH_SYMBOL_TOKENS: string[] = [
+  ...'0123456789'.split(''),
+  ...'abcdefghijklmnopqrstuvwxyz'.split(''),
+  ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''),
+  // operators
+  '+',
+  '-',
+  '\\cdot',
+  '\\times',
+  ':',
+  '\\div',
+  '\\pm',
+  '\\mp',
+  // comparisons
+  '=',
+  '\\neq',
+  '<',
+  '>',
+  '\\leq',
+  '\\geq',
+  '\\approx',
+  '\\equiv',
+  // punctuation
+  ',',
+  ';',
+  '\\ldots',
+  // brackets / abs
+  '(',
+  ')',
+  '[',
+  ']',
+  '\\{',
+  '\\}',
+  '|',
+  '\\langle',
+  '\\rangle',
+  // fraction / powers / index
+  '\\frac{1}{2}',
+  '\\dfrac{3}{4}',
+  'x^{2}',
+  'x^{3}',
+  'a_{n}',
+  // roots
+  '\\sqrt{2}',
+  '\\sqrt[3]{8}',
+  '\\sqrt[n]{x}',
+  // greek lowercase
+  '\\alpha',
+  '\\beta',
+  '\\gamma',
+  '\\delta',
+  '\\epsilon',
+  '\\varepsilon',
+  '\\zeta',
+  '\\eta',
+  '\\theta',
+  '\\vartheta',
+  '\\iota',
+  '\\kappa',
+  '\\lambda',
+  '\\mu',
+  '\\nu',
+  '\\xi',
+  '\\pi',
+  '\\varpi',
+  '\\rho',
+  '\\varrho',
+  '\\sigma',
+  '\\varsigma',
+  '\\tau',
+  '\\upsilon',
+  '\\phi',
+  '\\varphi',
+  '\\chi',
+  '\\psi',
+  '\\omega',
+  // greek uppercase
+  '\\Gamma',
+  '\\Delta',
+  '\\Theta',
+  '\\Lambda',
+  '\\Xi',
+  '\\Pi',
+  '\\Sigma',
+  '\\Upsilon',
+  '\\Phi',
+  '\\Psi',
+  '\\Omega',
+  // geometry / relations
+  '^{\\circ}',
+  '\\angle',
+  '\\triangle',
+  '\\parallel',
+  '\\perp',
+  '\\sim',
+  '\\cong',
+  // misc
+  '\\infty',
+  '\\%',
+  '\\sum',
+  '\\prod',
+  '\\log',
+  '\\ln',
+  '\\sin',
+  '\\cos',
+  '\\tan',
+]
+
+/** Tokens MathQuill cannot parse in a concatenated dump — omit or remap. */
+const MATHQUILL_TOKEN_MAP: Record<string, string | false> = {
+  '\\mp': false,
+  '\\equiv': false,
+  '\\{': false,
+  '\\}': false,
+  '\\langle': false,
+  '\\rangle': false,
+  '\\sqrt[3]{8}': false,
+  '\\sqrt[n]{x}': false,
+  '\\angle': false,
+  '\\triangle': false,
+  '\\parallel': false,
+  '\\perp': false,
+  '\\sim': false,
+  '\\cong': false,
+  '\\prod': false,
+  '\\ln': false,
+  '\\Upsilon': false,
+  // variant greek — often missing in MathQuill
+  '\\varepsilon': false,
+  '\\vartheta': false,
+  '\\varpi': false,
+  '\\varrho': false,
+  '\\varsigma': false,
+  '\\varphi': false,
+  '\\Xi': false,
+  '\\Psi': false,
+  // bare degree op breaks the whole latex() call
+  '^{\\circ}': '90^{\\circ}',
+  // bare % after join is safer as 25\%
+  '\\%': '25\\%',
+  // bare sum without limits is flaky when glued to neighbors
+  '\\sum': '\\sum_{i}',
+}
+
+export const ALL_MATH_SYMBOLS_TEX = ALL_MATH_SYMBOL_TOKENS.join('\\,')
+
+/** MathQuill rejects `\\,` / `\\quad` between atoms — use commas as separators. */
+export const ALL_MATH_SYMBOLS_MATHQUILL_TEX = ALL_MATH_SYMBOL_TOKENS.flatMap(
+  (tex) => {
+    const mapped = MATHQUILL_TOKEN_MAP[tex]
+    if (mapped === false) return []
+    if (typeof mapped === 'string') return [mapped]
+    return [toMathQuillTex(tex)]
+  },
+).join(',')
+
+export const isAllMathSymbolsSection = (title: string) =>
+  title === ALL_MATH_SYMBOLS_TITLE
+
 export const SYMBOL_SECTIONS: SymbolSection[] = [
   {
     title: 'Операторы',
@@ -149,6 +312,10 @@ export const SYMBOL_SECTIONS: SymbolSection[] = [
     ],
   },
   {
+    title: ALL_MATH_SYMBOLS_TITLE,
+    items: ALL_MATH_SYMBOL_TOKENS.map((tex) => ({ label: tex, tex })),
+  },
+  {
     title: 'Геометрия и единицы',
     items: [
       { label: 'Градус', tex: '90^{\\circ}' },
@@ -176,7 +343,11 @@ export const SYMBOL_SECTIONS: SymbolSection[] = [
       { label: 'Многоточие', tex: '1, 2, 3, \\ldots, n' },
       { label: 'Запятая / точка с запятой', tex: 'a, b; c, d' },
       { label: 'Сумма', tex: '\\sum_{i=1}^{n} a_{i}' },
-      { label: 'Произведение', tex: '\\prod_{i=1}^{n} a_{i}', mathquill: false },
+      {
+        label: 'Произведение',
+        tex: '\\prod_{i=1}^{n} a_{i}',
+        mathquill: false,
+      },
       { label: 'Логарифм', tex: '\\log_{2} 8 = 3' },
       { label: 'Натуральный лог', tex: '\\ln e = 1', mathquill: false },
     ],

@@ -9,15 +9,16 @@
  *   node scripts/generate-column-operation-template-groups.mjs
  */
 import fs from 'node:fs'
-import path from 'node:path'
 import { createRequire } from 'node:module'
+import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 import {
   getAvailableGrades,
   loadSnapshotForGrade,
   toAllTasksFilePayload,
 } from './lib/snapshot.mjs'
-import { loadEnrichmentMaps, withEnrichment } from './lib/enrichment.mjs'
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -43,7 +44,8 @@ function getContent(task) {
   const content = task.description?.content
   if (typeof content === 'string') return content
   if (content && typeof content === 'object') {
-    if (typeof content.rus === 'string' && content.rus.trim()) return content.rus
+    if (typeof content.rus === 'string' && content.rus.trim())
+      return content.rus
     for (const value of Object.values(content)) {
       if (typeof value === 'string' && value.includes('\\begin')) return value
     }
@@ -185,10 +187,7 @@ function collectColumnOperationRows(data, solutionById, enrichment, grade) {
       }
       byTplOp[tid][op].count += 1
       const taskId = fetchAnswers.taskIdFromType(task.type || '')
-      if (
-        taskId &&
-        !byTplOp[tid][op].tasks.some((t) => t.id === taskId)
-      ) {
+      if (taskId && !byTplOp[tid][op].tasks.some((t) => t.id === taskId)) {
         const launch = makeLaunch(bundle, taskIndex, grade)
         const withSolTask = enrichTask(task, solutionById, enrichment)
         byTplOp[tid][op].tasks.push({
@@ -233,12 +232,22 @@ const enrichment = loadEnrichmentMaps(grade4.snapshotDir)
 const solutionById = buildSolutionIndex(structureDump, grade4.answersDump)
 console.log(`Snapshot: ${grade4.dataPath}; grades: ${grades.join(', ')}`)
 
-const byTplOp = collectColumnOperationRows(grade4.data, solutionById, enrichment, 4)
+const byTplOp = collectColumnOperationRows(
+  grade4.data,
+  solutionById,
+  enrichment,
+  4,
+)
 const byTplAllTasksByGrade = {}
 
 for (const grade of grades) {
   const snap = grade === 4 ? grade4 : loadSnapshotForGrade(grade)
-  const found = collectColumnOperationRows(snap.data, solutionById, enrichment, grade)
+  const found = collectColumnOperationRows(
+    snap.data,
+    solutionById,
+    enrichment,
+    grade,
+  )
   for (const [tid, ops] of Object.entries(found)) {
     if (!byTplAllTasksByGrade[tid]) byTplAllTasksByGrade[tid] = {}
     byTplAllTasksByGrade[tid][grade] = OPERATION_ORDER.filter(

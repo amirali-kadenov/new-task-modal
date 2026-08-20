@@ -23,9 +23,41 @@
 }
 
 .answer {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
   margin-left: var(--space-4);
+  overflow: visible;
+  white-space: normal;
+
+  :global(mjx-c) {
+    padding-right: 0.05em;
+  }
+}
+
+/* User's (often wrong, sometimes garbage-long) answer — truncated with an
+ * ellipsis instead of overflowing the row, unlike the correct answer above
+ * which wraps. */
+.userAnswer {
+  flex: 0 1 auto;
+  min-width: 0;
+  margin-left: var(--space-4);
+  overflow: hidden;
+  white-space: nowrap;
+
+  :global(mjx-c) {
+    padding-right: 0.05em;
+  }
+}
+
+.ellipsis {
+  flex-shrink: 0;
+}
+
+.unit {
+  flex-shrink: 0;
+  margin-left: var(--space-4);
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .delimeter {

@@ -1,3 +1,7 @@
+import {
+  uprightMathUnits,
+  uprightUnitsInTex,
+} from '@/modules/tasks/ui/templates/text/lib/upright-math-units'
 import { MathFormula } from '@/ui/math-text/math-formula'
 import { MathText } from '@/ui/math-text/math-text'
 
@@ -26,7 +30,11 @@ export const SolutionContentText = ({ content, formulaClassName }: Props) => {
 
   // Raw TeX environment without inline delimiters needs explicit wrapping.
   if (content.includes('\\begin{') && !content.includes('\\(')) {
-    return <MathFormula className={formulaClassName}>{content}</MathFormula>
+    return (
+      <MathFormula className={formulaClassName}>
+        {uprightUnitsInTex(content)}
+      </MathFormula>
+    )
   }
 
   const parts = content
@@ -37,7 +45,7 @@ export const SolutionContentText = ({ content, formulaClassName }: Props) => {
     <>
       {parts.map((part, index) => (
         <div key={index}>
-          <MathText inline>{part}</MathText>
+          <MathText inline>{uprightMathUnits(part)}</MathText>
         </div>
       ))}
     </>

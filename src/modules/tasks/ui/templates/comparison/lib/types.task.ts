@@ -19,7 +19,7 @@ export interface ComparisonTaskDescription {
   svg1?: string | null
   svg2?: string | null
   equations?: Array<Translation | string>
-  tableBefore?: unknown | null
+  tableBefore?: unknown
   withAudio?: boolean
 }
 

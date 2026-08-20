@@ -1,5 +1,5 @@
-import { applyTaskFields } from '@/modules/tasks/lib/apply-task-fields'
 import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
+import { applyTaskFields } from '@/modules/tasks/lib/apply-task-fields'
 import type {
   Task,
   TaskDescriptionAnswerCell,
@@ -14,8 +14,8 @@ export const getDescriptionTranslation = <T extends TaskDescriptionType>(
 ) => {
   const description = task.description
 
-  let result: Translation | string | '' =
-    description?.content !== undefined ? description.content : ''
+  let result: Translation | string =
+    (description as { content?: Translation | string }).content ?? ''
 
   if (description.type === deps.enums.TaskDescriptionType.Text) {
     result = description.content
@@ -24,9 +24,7 @@ export const getDescriptionTranslation = <T extends TaskDescriptionType>(
   if (description.type === deps.enums.TaskDescriptionType.Formula) {
     const formulaContent = description.content
     result =
-      typeof formulaContent === 'string'
-        ? formulaContent
-        : formulaContent
+      typeof formulaContent === 'string' ? formulaContent : formulaContent
   }
 
   if (description.type === deps.enums.TaskDescriptionType.Test) {
@@ -34,7 +32,7 @@ export const getDescriptionTranslation = <T extends TaskDescriptionType>(
   }
 
   if (description.type === deps.enums.TaskDescriptionType.AnswerCell) {
-    result = (description as TaskDescriptionAnswerCell).textBefore
+    result = (description as TaskDescriptionAnswerCell).textBefore ?? ''
   }
 
   if (description.type === deps.enums.TaskDescriptionType.Equation) {
@@ -42,7 +40,8 @@ export const getDescriptionTranslation = <T extends TaskDescriptionType>(
   }
 
   if (description.type === deps.enums.TaskDescriptionType.Comparison) {
-    result = (description as { text_before?: Translation | string }).text_before || ''
+    result =
+      (description as { text_before?: Translation | string }).text_before || ''
   }
 
   if (description.type === deps.enums.TaskDescriptionType.ColumnOperation) {

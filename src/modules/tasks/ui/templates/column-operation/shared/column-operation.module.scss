@@ -7,6 +7,17 @@
 .description {
   font-size: 1.1em;
   line-height: 1.4;
+
+  /* MathJax centers display-mode blocks by default (`text-align: center`
+   * on `mjx-container[jax="CHTML"][display="true"]`, injected at runtime);
+   * this description is standalone content, not prose, so it should hug the
+   * left edge like the уголок. Same specificity as MathJax's own rule means
+   * an unqualified override is an injection-order coin flip — `!important`
+   * makes the win unconditional (same pattern as math-text.module.scss). */
+  :global(mjx-container[jax='CHTML'][display='true']) {
+    /* stylelint-disable-next-line declaration-no-important */
+    text-align: left !important;
+  }
 }
 
 /* CIS school «уголок»: HTML layout — not MathJax array.
@@ -44,6 +55,53 @@
 .cornerQuotient {
   padding-top: 0.05em;
   padding-left: 0.35em;
+}
+
+.cornerRemainder {
+  padding-top: 0.05em;
+  padding-left: 0.35em;
+  border-top: 1px dashed currentcolor;
+  opacity: 0.85;
+}
+
+/* Step-by-step long-division worked example — each step's `marginLeft` (set
+ * inline, in `ch`, from the step's digit position) approximates the
+ * reference (matheducator) layout, which is itself only approximately
+ * column-aligned rather than pixel-exact. */
+.longDivisionSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+  margin-top: 0.3em;
+  font-size: 1.1em;
+  line-height: 1.2;
+}
+
+.stepGroup {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.stepCurrent {
+  white-space: nowrap;
+}
+
+.stepSubtrahend {
+  display: flex;
+  gap: 0.15em;
+  align-items: center;
+  padding-bottom: 0.05em;
+  white-space: nowrap;
+  border-bottom: 1.5px solid currentcolor;
+}
+
+.stepMinus {
+  flex-shrink: 0;
+}
+
+.stepRemainder {
+  white-space: nowrap;
 }
 
 .inputRow {

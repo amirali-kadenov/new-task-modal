@@ -242,31 +242,31 @@
       },
       "difficulty": "x1",
       "result": "none",
+      "title": null,
       "fields": {
         "difficulty": "x1",
-        "number": 10000
+        "number": 80000
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "On min ədədini rəqəmlərlə yazın.",
-          "kgz": "Он миң санын цифра менен жазыңыз.",
-          "uzb": "O'n ming sonini raqamlar bilan yozing.",
-          "eng": "Write the number ten thousand in numerals.",
-          "rus": "Запишите цифрами число десять тысяч.",
-          "kaz": "Он мың санын цифрмен жазыңыз.",
+          "aze": "Səksən min ədədini rəqəmlərlə yazın.",
+          "kgz": "Сексен миң санын цифра менен жазыңыз.",
+          "uzb": "Sakson ming sonini raqamlar bilan yozing.",
+          "eng": "Write the number eighty thousand in numerals.",
+          "rus": "Запишите цифрами число восемьдесят тысяч.",
+          "kaz": "Сексен мың санын цифрмен жазыңыз.",
           "arjd": "",
           "arsa": "",
-          "areg": "اكتب العدد «عشرة آلاف» بالصيغة القياسية",
+          "areg": "اكتب العدد «ثمانون ألفًا» بالصيغة القياسية",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_1",
       "position": 0,
-      "id": "0dcb6094-7deb-4ae2-b29a-0947301a66de",
+      "id": "da0b6c5b-6291-469b-8557-315582a79561",
       "solution": {
         "type": "text",
         "answer": {
@@ -277,7 +277,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "10000",
+          "rus": "80000",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1018,32 +1018,32 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 7,
-        "number2": 11043,
-        "number1": 91218
-      },
       "title": null,
+      "fields": {
+        "number3": 5,
+        "number2": 11368,
+        "number1": 91705
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Mağazaya 91218 dəftər gətirdilər. Sentyabrda 11043 dəftər satıldı. Sentyabrda satılan dəftərlərin sayı avqust ayında satılan dəftərlərin sayından 7 dəfə azdır. Avqust və sentyabr aylarında dəftərlər satıldıqdan sonra mağazada neçə dəftər qaldı?\n",
-          "kgz": "Дүкөндүн кампасына 91218 дептер алынып келинди.\nСентябрь айында 11043 дептер сатылды.\nБул август айында сатылганга караганда 7 эсеге аз.\nАнда дүкөндө канча дептер калды?\n",
-          "uzb": "Do'konga 91218 ta daftar olib kelindi.\nSentyabr oyida 11043 ta daftar sotildi.\nBu oktyabr oyiga qaraganda 7 marta kam.\nDo'konda yana nechta daftar qoldi?\n",
-          "eng": "91218 notebooks are brought to the shop's warehouse.\nIn September, 11043 notebooks are sold, which is 7 times less than in August.\nHow many notebooks are left in the shop?\n",
-          "rus": "На склад магазина привезли 91218 тетрадей.\nВ сентябре было продано 11043 тетради, что в 7 раз меньше, чем в августе.\nТогда сколько непроданных тетрадей осталось в магазине?\n",
-          "kaz": "Дүкен қоймасына 91218 дәптер әкелінді. Қыркүйек айында 11043 дәптер сатылды, бұл тамыз айына қарағанда 7 есе кем.\nСонда дүкенде тағы неше дәптер қалды?\n",
+          "aze": "Mağazaya 91705 dəftər gətirdilər. Sentyabrda 11368 dəftər satıldı. Sentyabrda satılan dəftərlərin sayı avqust ayında satılan dəftərlərin sayından 5 dəfə azdır. Avqust və sentyabr aylarında dəftərlər satıldıqdan sonra mağazada neçə dəftər qaldı?\n",
+          "kgz": "Дүкөндүн кампасына 91705 дептер алынып келинди.\nСентябрь айында 11368 дептер сатылды.\nБул август айында сатылганга караганда 5 эсеге аз.\nАнда дүкөндө канча дептер калды?\n",
+          "uzb": "Do'konga 91705 ta daftar olib kelindi.\nSentyabr oyida 11368 ta daftar sotildi.\nBu oktyabr oyiga qaraganda 5 marta kam.\nDo'konda yana nechta daftar qoldi?\n",
+          "eng": "91705 notebooks are brought to the shop's warehouse.\nIn September, 11368 notebooks are sold, which is 5 times less than in August.\nHow many notebooks are left in the shop?\n",
+          "rus": "На склад магазина привезли 91705 тетрадей.\nВ сентябре было продано 11368 тетрадей, что в 5 раз меньше, чем в августе.\nТогда сколько непроданных тетрадей осталось в магазине?\n",
+          "kaz": "Дүкен қоймасына 91705 дәптер әкелінді. Қыркүйек айында 11368 дәптер сатылды, бұл тамыз айына қарағанда 5 есе кем.\nСонда дүкенде тағы неше дәптер қалды?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كان في المخزن 91218 دفترًا ، وتم بيع 11043 دفترًا في  شهر سبتمبر، ولكن هذا العدد أقل 7 مرات مما تم بيعه في  شهر أغسطس، فكم عدد الدفاتر المتبقية في  المخزن؟\n",
+          "areg": "إذا كان في المخزن 91705 دفاتر ، وتم بيع 11368 دفترًا في  شهر سبتمبر، ولكن هذا العدد أقل 5 مرات مما تم بيعه في  شهر أغسطس، فكم عدد الدفاتر المتبقية في  المخزن؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_2_35",
       "position": 14,
-      "id": "803e169b-a044-46b3-a1e5-c2469dd9b126",
+      "id": "e2220e61-d40d-4d4b-80be-598ece1d224c",
       "solution": {
         "type": "text",
         "answer": {
@@ -1054,7 +1054,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "2874",
+          "rus": "23497",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1759,31 +1759,31 @@
       },
       "difficulty": null,
       "result": "none",
+      "title": null,
       "fields": {
         "number2": 2,
-        "number1": 23286
+        "number1": 23750
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "İl ərzində şahmat yarışlarında 23286 oğlan və oğlanların sayından 2 dəfə az qız iştirak edib.\nİl ərzində şahmat yarışlarında neçə qız iştirak edib?\n",
-          "kgz": "Бир жыл ичинде шахмат боюнча мелдешке 23286 эркек бала жана андан 2 эсе аз кыздар катышты.\nБир жылда шахмат боюнча мелдешке канча кыз катышты?\n",
-          "uzb": "Bir yilda shaxmat musobaqasida 23286 nafar o'g'il bola va undan 2 marta kam qiz bola qatnashdi.\nBir yilda shaxmat musobaqasida necha nafar qiz bola qatnashdi?\n",
-          "eng": "During the year, 23286 boys and 2 times fewer girls participate in chess competitions.\nHow many girls participate in chess competitions during the year?\n",
-          "rus": "За год в шахматном турнире приняли участие 23286 мальчиков и в 2 раза меньше девочек.\nСколько девочек участвовало в шахматном турнире за год?\n",
-          "kaz": "Бір жылда шахмат жарысына 23286 ұл бала және одан 2 есе кем қыз бала қатысты.\nБір жылда шахмат жарысына неше қыз бала қатысты?\n",
+          "aze": "İl ərzində şahmat yarışlarında 23750 oğlan və oğlanların sayından 2 dəfə az qız iştirak edib.\nİl ərzində şahmat yarışlarında neçə qız iştirak edib?\n",
+          "kgz": "Бир жыл ичинде шахмат боюнча мелдешке 23750 эркек бала жана андан 2 эсе аз кыздар катышты.\nБир жылда шахмат боюнча мелдешке канча кыз катышты?\n",
+          "uzb": "Bir yilda shaxmat musobaqasida 23750 nafar o'g'il bola va undan 2 marta kam qiz bola qatnashdi.\nBir yilda shaxmat musobaqasida necha nafar qiz bola qatnashdi?\n",
+          "eng": "During the year, 23750 boys and 2 times fewer girls participate in chess competitions.\nHow many girls participate in chess competitions during the year?\n",
+          "rus": "За год в шахматном турнире приняли участие 23750 мальчиков и в 2 раза меньше девочек.\nСколько девочек участвовало в шахматном турнире за год?\n",
+          "kaz": "Бір жылда шахмат жарысына 23750 ұл бала және одан 2 есе кем қыз бала қатысты.\nБір жылда шахмат жарысына неше қыз бала қатысты?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "خلال سنة واحدة شارك في مسابقة الشطرنج 23286 من اللاعبين. إذا كان عدد اللاعبات اللاتي شاركن في المسابقة أقل مرتين من اللاعبين، فكم عدد اللاعبات المشاركات؟\n",
+          "areg": "خلال سنة واحدة شارك في مسابقة الشطرنج 23750 من اللاعبين. إذا كان عدد اللاعبات اللاتي شاركن في المسابقة أقل مرتين من اللاعبين، فكم عدد اللاعبات المشاركات؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_2_28",
       "position": 1,
-      "id": "a39fffe4-edf4-44c0-b526-915e444dff0f",
+      "id": "f236577f-6d01-46ad-99fd-df29ecf23146",
       "solution": {
         "type": "text",
         "answer": {
@@ -1794,7 +1794,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "11643",
+          "rus": "11875",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1896,11 +1896,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number2": 60091,
-        "number1": 20008
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədi ifadə şəklində yazın.",
@@ -1914,26 +1909,31 @@
         "areg": "اكتب التعبير اللفظي التالي في شكل تعبير عددي.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number2": 80087,
+        "number1": 50009
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Iyirmi min səkki̇z üstəgəl altmış min doxsan bi̇r",
-          "kgz": "Жыйырма миң сегиз плюс алтымыш миң токсон бир",
-          "uzb": "Yigirma ming sakkiz qo'shilgan oltmish ming to'qson bir",
-          "eng": "Twenty thousand and eight plus sixty thousand and ninety-one.",
-          "rus": "Двадцать тысяч восемь плюс шестьдесят тысяч девяносто один.",
-          "kaz": "Жиырма мың сегіз қосу алпыс мың тоқсан бір",
+          "aze": "Əlli min doqquz üstəgəl səksən min səksən yeddi̇",
+          "kgz": "Элүү миң тогуз плюс сексен миң сексен жети",
+          "uzb": "Ellik ming to'qqiz qo'shilgan sakson ming sakson yetti",
+          "eng": "Fifty thousand and nine plus eighty thousand and eighty-seven.",
+          "rus": "Пятьдесят тысяч девять плюс восемьдесят тысяч восемьдесят семь.",
+          "kaz": "Елу мың тоғыз қосу сексен мың сексен жеті",
           "arjd": "",
           "arsa": "",
-          "areg": "عشرون ألفًا وثمانية زائد ستين ألفًا وواحد وتسعين",
+          "areg": "خمسون ألفًا وتسعة زائد ثمانين ألفًا وسبعة وثمانين",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_1_1",
       "position": 0,
-      "id": "81b07d83-746d-4bd2-9ecb-413c78f1ae79",
+      "id": "bc8d52a8-6faf-4430-b888-8b470144f98f",
       "solution": {
         "type": "text",
         "answer": {
@@ -1944,7 +1944,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "20008 + 60091",
+          "rus": "50009 + 80087",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2163,30 +2163,30 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 902
-      },
       "title": null,
+      "fields": {
+        "number": 924
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Sahədə dovşanlar otlayır. Onların qulaqlarının ümumi sayı 902-dir. Sahədə neçə dovşan var?\n",
-          "kgz": "Талаада коёндор жайылып жүрөт. Санап келгенде коендордун кулактарынын саны 902 болгон. Талаада канча коён бар?\n",
-          "uzb": "Hovlida quyonlar bor. Sanagan paytda ularning quloqlarining soni 902 bo'ldi. Hovlida nechta quyon bor?\n",
-          "eng": "There are some rabbits grazing in the steppe. At the time of counting, they have 902 ears. How many rabbits are there in the field?\n",
-          "rus": "В поле пасутся кролики. При подсчете число их ушей составило 902. Сколько кроликов на поле?\n",
-          "kaz": "Далада қояндар жайылып жүр. Санаған кезде олардың құлақтарының саны 902 болды. Далада барлығы неше қоян бар?\n",
+          "aze": "Sahədə dovşanlar otlayır. Onların qulaqlarının ümumi sayı 924-dür. Sahədə neçə dovşan var?\n",
+          "kgz": "Талаада коёндор жайылып жүрөт. Санап келгенде коендордун кулактарынын саны 924 болгон. Талаада канча коён бар?\n",
+          "uzb": "Hovlida quyonlar bor. Sanagan paytda ularning quloqlarining soni 924 bo'ldi. Hovlida nechta quyon bor?\n",
+          "eng": "There are some rabbits grazing in the steppe. At the time of counting, they have 924 ears. How many rabbits are there in the field?\n",
+          "rus": "В поле пасутся кролики. При подсчете число их ушей составило 924. Сколько кроликов на поле?\n",
+          "kaz": "Далада қояндар жайылып жүр. Санаған кезде олардың құлақтарының саны 924 болды. Далада барлығы неше қоян бар?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا قام عادل بعد آذان الأرانب الموجودة في الحقل، وكان مجموعها 902 أذن، فكم عدد الأرانب في الحقل؟\n",
+          "areg": "إذا قام عادل بعد آذان الأرانب الموجودة في الحقل، وكان مجموعها 924 أذنًا، فكم عدد الأرانب في الحقل؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_2_56",
       "position": 12,
-      "id": "ed64a96d-c901-430d-af93-874b936be5f6",
+      "id": "699f6727-7801-426d-b971-f5c27a323466",
       "solution": {
         "type": "text",
         "answer": {
@@ -2197,7 +2197,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "451",
+          "rus": "462",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2416,11 +2416,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 19,
-        "number2": 33,
-        "number1": 3
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Məchul ədədi tapın.",
@@ -2434,26 +2429,31 @@
         "areg": "أوجد العدد المجهول",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 49,
+        "number2": 44,
+        "number1": 8
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "3 dəfə artırılmış 19 ədədindən 33 vahid az olan ədədi tapın.",
-          "kgz": "3 санынын 19 эселенгенинен 33 кө кичине болгон санды табыңыз.\n",
-          "uzb": "3 ga ko'paytirilgan 19 sonidan 33 ga kam bo'ladigan noma'lum sonni toping.",
-          "eng": "Find the number that is 33 less than 3 times 19.\n",
-          "rus": "Найдите неизвестное число, которое на 33 меньше увеличенного в 3 раза числа 19.\n",
-          "kaz": "3 еселенген 19 санынан 33-ке кем болатын белгісіз санды табыңыз.\n",
+          "aze": "8 dəfə artırılmış 49 ədədindən 44 vahid az olan ədədi tapın.",
+          "kgz": "8 санынын 49 эселенгенинен 44 кө кичине болгон санды табыңыз.\n",
+          "uzb": "8 ga ko'paytirilgan 49 sonidan 44 ga kam bo'ladigan noma'lum sonni toping.",
+          "eng": "Find the number that is 44 less than 8 times 49.\n",
+          "rus": "Найдите неизвестное число, которое на 44 меньше увеличенного в 8 раз числа 49.\n",
+          "kaz": "8 еселенген 49 санынан 44-ке кем болатын белгісіз санды табыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "أوجد العدد المجهول الذي يقل 33 عن حاصل ضرب 3 في 19",
+          "areg": "أوجد العدد المجهول الذي يقل 44 عن حاصل ضرب 8 في 49",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_5_10",
       "position": 9,
-      "id": "ecd832f9-3fbf-486a-968c-a8dd943e0a1b",
+      "id": "d2d466b6-f40f-4927-85be-77bbc539fa32",
       "solution": {
         "type": "text",
         "answer": {
@@ -2464,7 +2464,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "24",
+          "rus": "348",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2629,12 +2629,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 1,
-        "number3": 2,
-        "number2": 8,
-        "number1": 9
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədi rəqəmlərlə yazın.",
@@ -2648,26 +2642,32 @@
         "areg": "اكتب صيغة الوحدات للعدد التالي بالصيغة القياسية:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 7,
+        "number3": 3,
+        "number2": 5,
+        "number1": 9
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Təkliklər sinfi - 1 təklik, 2 yüzlük və minliklər sinfi - 8 minlik, 9 onminlik\n",
-          "kgz": "Биринчи класстын 1 бирдиги 2 жүздүгү жана экинчи класстын 8 миңдигинин бирдиги жана 9 миңдигинин ондугу\n",
-          "uzb": "Birinchi sinfning 1 birligi 2 yuzligi va ikkinchi sinfning 8 birlik mingligi bilan 9 o'n mingligi.\n",
-          "eng": "1 one of the first class and 9 ten-thousands, 2 hundreds, 8 ones of the second class.\n",
-          "rus": "1 единица 2 сотни первого класса и 8 единиц тысяч и 9 десятков тысяч второго класса.\n",
-          "kaz": "Бірінші класстың 1 бірлігі 2 жүздігі және екінші класстың 8 бірлік мыңдығы мен 9 ондық мыңдығы\n",
+          "aze": "Təkliklər sinfi - 7 təklik, 3 yüzlük və minliklər sinfi - 5 minlik, 9 onminlik\n",
+          "kgz": "Биринчи класстын 7 бирдиги 3 жүздүгү жана экинчи класстын 5 миңдигинин бирдиги жана 9 миңдигинин ондугу\n",
+          "uzb": "Birinchi sinfning 7 birligi 3 yuzligi va ikkinchi sinfning 5 birlik mingligi bilan 9 o'n mingligi.\n",
+          "eng": "7 ones of the first class and 9 ten-thousands, 3 hundreds, 5 ones of the second class.\n",
+          "rus": "7 единиц 3 сотни первого класса и 5 единиц тысяч и 9 десятков тысяч второго класса.\n",
+          "kaz": "Бірінші класстың 7 бірлігі 3 жүздігі және екінші класстың 5 бірлік мыңдығы мен 9 ондық мыңдығы\n",
           "arjd": "",
           "arsa": "",
-          "areg": "في الوحدات 1 آحاد و2 مئات، وفي الألوف 8 آحاد ألوف، و9 عشرات ألوف.\n",
+          "areg": "في الوحدات 7 آحاد و3 مئات، وفي الألوف 5 آحاد ألوف، و9 عشرات ألوف.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_58",
       "position": 23,
-      "id": "9a961b26-ce11-4f97-9a0a-e637046aea8c",
+      "id": "5788e1db-db3f-4ff9-b33a-b8ddbd819299",
       "solution": {
         "type": "text",
         "answer": {
@@ -2678,7 +2678,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "98201",
+          "rus": "95307",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2834,10 +2834,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 1000,
-        "number1": 8
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Əməli yerinə yetirin.",
@@ -2850,6 +2846,10 @@
         "arsa": "",
         "areg": "",
         "module_name": "Elixir.Helpers.Translation"
+      },
+      "fields": {
+        "number2": 1000,
+        "number1": 8
       },
       "description": {
         "with_audio": true,
@@ -2870,7 +2870,7 @@
       },
       "type": "Elixir.Task_4_6_10_30",
       "position": 29,
-      "id": "6612b86c-1e38-42df-ba41-7ae8036f498b",
+      "id": "a266aa45-e930-4341-a0fb-179e35faf834",
       "solution": {
         "type": "text",
         "answer": {
@@ -3028,11 +3028,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "x": "a",
-        "y": "z",
-        "number": 80
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadə şəklində yazın.",
@@ -3046,26 +3041,31 @@
         "areg": "اكتب هذه المسألة في شكل تعبير رياضي:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "x": "z",
+        "y": "a",
+        "number": 17
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "\\(a\\) və \\(z\\) ədədlərinin cəmini 80 dəfə artırın.",
-          "kgz": "\\(a\\), \\(z\\) тамгаларынын суммасын 80 эсе чоңойтуңуз.",
-          "uzb": "\\(a\\) va \\(z\\) harflarining yig'indisini 80 ga ko'paytiring.",
-          "eng": "Increase the sum of the letters \\(a\\) and \\(z\\) by a factor of 80.",
-          "rus": "Сумму букв \\(a\\) и \\(z\\) увеличьте в 80 раз.",
-          "kaz": "\\(a\\) және \\(z\\) әріптерінің қосындысын 80 еселеңіз.",
+          "aze": "\\(z\\) və \\(a\\) ədədlərinin cəmini 17 dəfə artırın.",
+          "kgz": "\\(z\\), \\(a\\) тамгаларынын суммасын 17 эсе чоңойтуңуз.",
+          "uzb": "\\(z\\) va \\(a\\) harflarining yig'indisini 17 ga ko'paytiring.",
+          "eng": "Increase the sum of the letters \\(z\\) and \\(a\\) by a factor of 17.",
+          "rus": "Сумму букв \\(z\\) и \\(a\\) увеличьте в 17 раз.",
+          "kaz": "\\(z\\) және \\(a\\) әріптерінің қосындысын 17 еселеңіз.",
           "arjd": "",
           "arsa": "",
-          "areg": "اضرب ناتج جمع \\(a\\) و\\(z\\) في 80",
+          "areg": "اضرب ناتج جمع \\(z\\) و\\(a\\) في 17",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_2_5",
       "position": 4,
-      "id": "05b3d653-78b4-47f3-a1ee-f39a19c3fe3a",
+      "id": "ec766f1c-1bec-499c-91f6-dc68b32edc88",
       "solution": {
         "type": "text",
         "answer": {
@@ -3076,7 +3076,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "(a+z)\\cdot 80",
+          "rus": "(z+a)\\cdot 17",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3214,12 +3214,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 3,
-        "number2": 35,
-        "number1": 41,
-        "letter": "x"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadəni sadələşdirin və qiyməti tapın (cavab olaraq yalnız sonda tapılan qiyməti daxil edin):",
@@ -3233,26 +3227,32 @@
         "areg": "أوجد قيمة المقدار في أبسط صورة (ثم اكتب الناتج النهائي فقط):",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 2,
+        "number2": 9,
+        "number1": 13,
+        "letter": "c"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "41\\(x\\) – 35\\(x\\), burada \\(x\\) = 3",
-          "kgz": "41\\(x\\) – 35\\(x\\), бул жерде \\(x\\) = 3",
-          "uzb": "41\\(x\\) – 35\\(x\\), bu yerda \\(x\\) = 3",
-          "eng": "41\\(x\\) – 35\\(x\\), with \\(x\\) = 3\n",
-          "rus": "41\\(x\\) – 35\\(x\\), при \\(x\\) = 3",
-          "kaz": "41\\(x\\) – 35\\(x\\), мұндағы \\(x\\) = 3",
+          "aze": "13\\(c\\) – 9\\(c\\), burada \\(c\\) = 2",
+          "kgz": "13\\(c\\) – 9\\(c\\), бул жерде \\(c\\) = 2",
+          "uzb": "13\\(c\\) – 9\\(c\\), bu yerda \\(c\\) = 2",
+          "eng": "13\\(c\\) – 9\\(c\\), with \\(c\\) = 2\n",
+          "rus": "13\\(c\\) – 9\\(c\\), при \\(c\\) = 2",
+          "kaz": "13\\(c\\) – 9\\(c\\), мұндағы \\(c\\) = 2",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(x\\)35 - \\(x\\)41، حيث 3 = \\(x\\)\n",
+          "areg": "\\(c\\)9 - \\(c\\)13، حيث 2 = \\(c\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_14_1",
       "position": 17,
-      "id": "10208e7c-2153-43b2-b985-d614dc1b83bb",
+      "id": "0616c8da-a0da-4ab3-bc87-f59cf6d03a52",
       "solution": {
         "type": "text",
         "answer": {
@@ -3263,7 +3263,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "18",
+          "rus": "8",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3383,11 +3383,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 3,
-        "number1": 24,
-        "x": "b"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadə şəklində yazın.",
@@ -3401,26 +3396,31 @@
         "areg": "اكتب هذه المسألة في شكل تعبير رياضي:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 5,
+        "number1": 21,
+        "x": "b"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "\\(b\\) dəyişənini 3 dəfə artırıb üzərinə 24 əlavə edin.",
-          "kgz": "3 эсе чоңойтулган \\(b\\) санына 24 санын кошуңуз.",
-          "uzb": "3 ko'paytirilgan \\(b\\) harfiga 24 ni qo'shing.",
-          "eng": "Add the number 24 to 3 times the letter \\(b\\).",
-          "rus": "Прибавьте к числу 24 в 3 раза увеличенную букву \\(b\\).",
-          "kaz": "3 еселенген \\(b\\) әрпіне 24 санын қосыңыз. ",
+          "aze": "\\(b\\) dəyişənini 5 dəfə artırıb üzərinə 21 əlavə edin.",
+          "kgz": "5 эсе чоңойтулган \\(b\\) санына 21 санын кошуңуз.",
+          "uzb": "5 ko'paytirilgan \\(b\\) harfiga 21 ni qo'shing.",
+          "eng": "Add the number 21 to 5 times the letter \\(b\\).",
+          "rus": "Прибавьте к числу 21 в 5 раз увеличенную букву \\(b\\).",
+          "kaz": "5 еселенген \\(b\\) әрпіне 21 санын қосыңыз. ",
           "arjd": "",
           "arsa": "",
-          "areg": "أضف 24 إلى حاصل ضرب 3 في \\(b\\).",
+          "areg": "أضف 21 إلى حاصل ضرب 5 في \\(b\\).",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_2_1",
       "position": 0,
-      "id": "e7bb1d9f-5365-4be9-a93d-3660fcf15463",
+      "id": "1ea39ba7-9168-4091-bca9-ecd42cf3683d",
       "solution": {
         "type": "text",
         "answer": {
@@ -3431,7 +3431,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "3b+24",
+          "rus": "5b+21",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3551,33 +3551,33 @@
       },
       "difficulty": null,
       "result": "none",
+      "title": null,
       "fields": {
-        "number3": 79,
-        "number2": 5,
-        "number1": 36,
+        "number3": 80,
+        "number2": 8,
+        "number1": 16,
         "x": "c"
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "5\\(c\\) + 79 hərfi ifadəsinin qiymətini \\(c\\) = 36 olduqda tapın.",
-          "kgz": "Эгер \\(c\\) = 36 болсо, анда 5\\(c\\) + 79 тамгалуу туюнтмасынын маанисин табыңыз.\n",
-          "uzb": "\\(c\\) ning qiymatini 36 ga teng deb, 5\\(c\\) + 79 harfli ifodaning qiymatini toping\n",
-          "eng": "Given that the value of \\(c\\) is 36, find the value of the algebraic expression 5\\(c\\) + 79.\n",
-          "rus": "Найдите значение буквенного выражения 5\\(c\\) + 79, при \\(c\\) = 36.\n",
-          "kaz": "\\(c\\)-ның мәнін 36-ға тең деп алып, 5\\(c\\) + 79 әріпті өрнегінің мәнін табыңыз\n",
+          "aze": "8\\(c\\) + 80 hərfi ifadəsinin qiymətini \\(c\\) = 16 olduqda tapın.",
+          "kgz": "Эгер \\(c\\) = 16 болсо, анда 8\\(c\\) + 80 тамгалуу туюнтмасынын маанисин табыңыз.\n",
+          "uzb": "\\(c\\) ning qiymatini 16 ga teng deb, 8\\(c\\) + 80 harfli ifodaning qiymatini toping\n",
+          "eng": "Given that the value of \\(c\\) is 16, find the value of the algebraic expression 8\\(c\\) + 80.\n",
+          "rus": "Найдите значение буквенного выражения 8\\(c\\) + 80, при \\(c\\) = 16.\n",
+          "kaz": "\\(c\\)-ның мәнін 16-ға тең деп алып, 8\\(c\\) + 80 әріпті өрнегінің мәнін табыңыз\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كانت 36 = \\(c\\)، فأوجد قيمة المقدر الجبري التالي: 79 + \\(c\\)5\n",
+          "areg": "إذا كانت 16 = \\(c\\)، فأوجد قيمة المقدر الجبري التالي: 80 + \\(c\\)8\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_3_1",
       "position": 0,
-      "id": "a5490ea0-a60e-496f-9b84-f3482596b710",
+      "id": "5857d7ff-fa2a-4e35-b7bf-d695c7dde7eb",
       "solution": {
         "type": "text",
         "answer": {
@@ -3588,7 +3588,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "259",
+          "rus": "208",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3699,10 +3699,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 3,
-        "number1": 2
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Kəsrin surətində hansı ədəd dayanır?",
@@ -3716,14 +3712,18 @@
         "areg": "ما هو العدد في بسط الكسر؟",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 3,
+        "number1": 1
+      },
       "description": {
         "with_audio": true,
-        "content": "\\(\\dfrac{2}{3}\\)",
+        "content": "\\(\\dfrac{1}{3}\\)",
         "type": "text"
       },
       "type": "Elixir.Task_4_11_2_1",
       "position": 4,
-      "id": "03c51568-a39e-4c96-a952-a573daf91647",
+      "id": "8e04fb13-4e07-4e3a-9652-b4cdecb3e5e2",
       "solution": {
         "type": "text",
         "answer": {
@@ -3734,7 +3734,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "2",
+          "rus": "1",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3827,32 +3827,32 @@
       },
       "difficulty": "x1",
       "result": "none",
+      "title": null,
       "fields": {
         "difficulty": "x1",
         "number2": 3,
-        "number1": 78
+        "number1": 54
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "78 ədədinin \\(\\dfrac{1}{3}\\) hissəsi nə qədərdir?",
-          "kgz": "78 санынын \\(\\dfrac{1}{3}\\) бөлүгү канчага барабар?",
-          "uzb": "78 ning \\(\\dfrac{1}{3}\\) qismini toping?",
-          "eng": "What is \\(\\dfrac{1}{3}\\) of 78?",
-          "rus": "Чему равна \\(\\dfrac{1}{3}\\) часть числа 78?",
-          "kaz": "78-дің \\(\\dfrac{1}{3}\\) бөлігі нешеге тең?",
+          "aze": "54 ədədinin \\(\\dfrac{1}{3}\\) hissəsi nə qədərdir?",
+          "kgz": "54 санынын \\(\\dfrac{1}{3}\\) бөлүгү канчага барабар?",
+          "uzb": "54 ning \\(\\dfrac{1}{3}\\) qismini toping?",
+          "eng": "What is \\(\\dfrac{1}{3}\\) of 54?",
+          "rus": "Чему равна \\(\\dfrac{1}{3}\\) часть числа 54?",
+          "kaz": "54-тің \\(\\dfrac{1}{3}\\) бөлігі нешеге тең?",
           "arjd": "",
           "arsa": "",
-          "areg": "كم يساوي: \\(\\dfrac{1}{3}\\) من 78",
+          "areg": "كم يساوي: \\(\\dfrac{1}{3}\\) من 54",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_11_11_2",
       "position": 5,
-      "id": "02920d79-0075-482f-bc47-2c9dd311f26e",
+      "id": "12ddb199-0fca-4bbc-931f-7c31f5637b03",
       "solution": {
         "type": "text",
         "answer": {
@@ -3863,7 +3863,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "26",
+          "rus": "18",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3983,15 +3983,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "s",
-        "number5": 2,
-        "letter1": "p",
-        "number4": 9,
-        "number3": 212,
-        "number2": 150,
-        "number1": 280
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadəni sadələşdirin və qiyməti tapın (cavab olaraq yalnız sonda tapılan qiyməti daxil edin):",
@@ -4005,26 +3996,35 @@
         "areg": "اكتب التعبير الذي يحتوي على متغيرين في أبسط صورة، وأوجد قيمته.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "p",
+        "number5": 9,
+        "letter1": "b",
+        "number4": 2,
+        "number3": 203,
+        "number2": 195,
+        "number1": 267
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "(280 + 150)\\(p\\) + 212\\(s\\), burada \\(p\\) = 9 , \\(s\\) = 2",
-          "kgz": "(280 + 150)\\(p\\) + 212\\(s\\), бул жерде \\(p\\) = 9 , \\(s\\) = 2",
-          "uzb": "(280 + 150)\\(p\\) + 212\\(s\\), bu yerda \\(p\\) = 9 , \\(s\\) = 2",
-          "eng": "(280 + 150)\\(p\\) + 212\\(s\\), at \\(p\\) = 9 , \\(s\\) = 2\n",
-          "rus": "(280 + 150)\\(p\\) + 212\\(s\\), при \\(p\\) = 9 , \\(s\\) = 2",
-          "kaz": "(280 + 150)\\(p\\) + 212\\(s\\), мұндағы \\(p\\) = 9 , \\(s\\) = 2",
+          "aze": "(267 + 195)\\(b\\) + 203\\(p\\), burada \\(b\\) = 2 , \\(p\\) = 9",
+          "kgz": "(267 + 195)\\(b\\) + 203\\(p\\), бул жерде \\(b\\) = 2 , \\(p\\) = 9",
+          "uzb": "(267 + 195)\\(b\\) + 203\\(p\\), bu yerda \\(b\\) = 2 , \\(p\\) = 9",
+          "eng": "(267 + 195)\\(b\\) + 203\\(p\\), at \\(b\\) = 2 , \\(p\\) = 9\n",
+          "rus": "(267 + 195)\\(b\\) + 203\\(p\\), при \\(b\\) = 2 , \\(p\\) = 9",
+          "kaz": "(267 + 195)\\(b\\) + 203\\(p\\), мұндағы \\(b\\) = 2 , \\(p\\) = 9",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(s\\)212 + \\(p\\)(150 + 280)، حيث 9 = \\(p\\) 2 = \\(s\\)\n",
+          "areg": "\\(p\\)203 + \\(b\\)(195 + 267)، حيث 2 = \\(b\\) 9 = \\(p\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_15_3",
       "position": 2,
-      "id": "5ffa4dee-273b-463d-9bb3-120ecdf9bbb8",
+      "id": "8707ab5f-7d69-46a3-bff1-baca28670649",
       "solution": {
         "type": "text",
         "answer": {
@@ -4035,7 +4035,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "4294",
+          "rus": "2751",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4137,33 +4137,33 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 50,
-        "number3": 1700,
-        "number2": 50,
-        "number1": 1410
-      },
       "title": null,
+      "fields": {
+        "number4": 30,
+        "number3": 1800,
+        "number2": 70,
+        "number1": 1400
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Milli geyimləri bəzəmək üçün ustalar hər birində 1410 muncuq olan 50 qutu istifadə ediblər.\nİşin tamamlanması üçün onlarda hələ də hər birində 1700 muncuq olan 50 qutu qalıb. Ustalara cəmi neçə muncuq lazım oldu?\n",
-          "kgz": "Улуттук кийимдерди кооздоо үчүн тигүүчүлөр ар бири 1410 шурудан турган 50 куту колдонушкан.\nИшти бүтүрүү үчүн дагы ар биринде 1700 шурудан турган  50 куту бар болчу. Усталарга жалпысынан канча шуру керек болчу?\n",
-          "uzb": "Milliy kiyimlarni bezash uchun tikuvchilar har birida 1410 ta zardan iborat 50 ta quti zar ishlatdi.\nUlarda hali har birida 1700 ta zar solingan 50 ta quti bor. Tikuvchilarga jami nechta zar kerak bo'ldi?\n",
-          "eng": "To decorate national clothes, the craftsmen used 50 boxes of 1410 beads each.\nThey still have 50 boxes of 1700 beads each left to complete the work.\nHow many beads did the craftsmen need in total?\n",
-          "rus": "Для украшения национальной одежды мастера использовали 50 коробочек по 1410 бусинок в каждой.\nУ них еще осталось 50 коробочек по 1700 бусинок в каждой для завершения работы.\nСколько всего бусинок понадобилось мастерам?\n",
-          "kaz": "Ұлттық киімдерді безендіру үшін шеберлер әрқайсысында 1410 моншағы бар 50 қорап моншақ жұмсады.\nОларда әлі әрқайсысында 1700 моншақ салынған 50 қорап бар. Шеберлерге барлығы қанша моншақ қажет болды?\n",
+          "aze": "Milli geyimləri bəzəmək üçün ustalar hər birində 1400 muncuq olan 70 qutu istifadə ediblər.\nİşin tamamlanması üçün onlarda hələ də hər birində 1800 muncuq olan 30 qutu qalıb. Ustalara cəmi neçə muncuq lazım oldu?\n",
+          "kgz": "Улуттук кийимдерди кооздоо үчүн тигүүчүлөр ар бири 1400 шурудан турган 70 куту колдонушкан.\nИшти бүтүрүү үчүн дагы ар биринде 1800 шурудан турган  30 куту бар болчу. Усталарга жалпысынан канча шуру керек болчу?\n",
+          "uzb": "Milliy kiyimlarni bezash uchun tikuvchilar har birida 1400 ta zardan iborat 70 ta quti zar ishlatdi.\nUlarda hali har birida 1800 ta zar solingan 30 ta quti bor. Tikuvchilarga jami nechta zar kerak bo'ldi?\n",
+          "eng": "To decorate national clothes, the craftsmen used 70 boxes of 1400 beads each.\nThey still have 30 boxes of 1800 beads each left to complete the work.\nHow many beads did the craftsmen need in total?\n",
+          "rus": "Для украшения национальной одежды мастера использовали 70 коробочек по 1400 бусинок в каждой.\nУ них еще осталось 30 коробочек по 1800 бусинок в каждой для завершения работы.\nСколько всего бусинок понадобилось мастерам?\n",
+          "kaz": "Ұлттық киімдерді безендіру үшін шеберлер әрқайсысында 1400 моншағы бар 70 қорап моншақ жұмсады.\nОларда әлі әрқайсысында 1800 моншақ салынған 30 қорап бар. Шеберлерге барлығы қанша моншақ қажет болды?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "استخدم الحرفيون 50 علبة من الخرز لتزيين الملابس في الاحتفال (في كل علبة 1410 خرزات). إذا كان لديهم 50 علبة خرز أخرى غير مستخدَمة (في كل منها 1700 خرزة)، فكم إجمالي عدد الخرز الذي يحتاجونه لإنهاء العمل؟\n",
+          "areg": "استخدم الحرفيون 70 علبة من الخرز لتزيين الملابس في الاحتفال (في كل علبة 1400 خرزة). إذا كان لديهم 30 علبة خرز أخرى غير مستخدَمة (في كل منها 1800 خرزة)، فكم إجمالي عدد الخرز الذي يحتاجونه لإنهاء العمل؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_9_14_4",
       "position": 3,
-      "id": "b4965d08-6995-40b9-ad84-18888ff6eb7e",
+      "id": "8080225a-ca97-4521-8451-a9856a44ce7d",
       "solution": {
         "type": "text",
         "answer": {
@@ -4174,7 +4174,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "155500",
+          "rus": "152000",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4276,12 +4276,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 2,
-        "number1": 3,
-        "x": "c",
-        "y": "z"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadə şəklində yazın.",
@@ -4295,26 +4289,32 @@
         "areg": "اكتب هذه المسألة في شكل تعبير رياضي:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 8,
+        "number1": 5,
+        "x": "x",
+        "y": "a"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "3 və \\(c\\) ədədinin hasili ilə 2 və \\(z\\) ədədinin hasilini toplayın.",
-          "kgz": "\\(c\\) жана 3 санынын көбөйтүндүсүнө \\(z\\) жана 2 санынын көбөйтүндүсүн кошуңуз",
-          "uzb": "3 ga ko'paytirilgan \\(c\\) harfiga 2 ga ko'paytirilgan \\(z\\) harfini qo'shing.",
-          "eng": "Add 3 times the letter \\(c\\) to 2 times the letter \\(z\\).",
-          "rus": "К произведению 3 и \\(c\\) прибавьте произведение 2 и \\(z\\).",
-          "kaz": "3 еселенген \\(c\\) әрпіне 2 еселенген \\(z\\) әрпін қосыңыз. ",
+          "aze": "5 və \\(x\\) ədədinin hasili ilə 8 və \\(a\\) ədədinin hasilini toplayın.",
+          "kgz": "\\(x\\) жана 5 санынын көбөйтүндүсүнө \\(a\\) жана 8 санынын көбөйтүндүсүн кошуңуз",
+          "uzb": "5 ga ko'paytirilgan \\(x\\) harfiga 8 ga ko'paytirilgan \\(a\\) harfini qo'shing.",
+          "eng": "Add 5 times the letter \\(x\\) to 8 times the letter \\(a\\).",
+          "rus": "К произведению 5 и \\(x\\) прибавьте произведение 8 и \\(a\\).",
+          "kaz": "5 еселенген \\(x\\) әрпіне 8 еселенген \\(a\\) әрпін қосыңыз. ",
           "arjd": "",
           "arsa": "",
-          "areg": "أضف حاصل ضرب 3 في \\(c\\) إلى حاصل ضرب 2 في \\(z\\)",
+          "areg": "أضف حاصل ضرب 5 في \\(x\\) إلى حاصل ضرب 8 في \\(a\\)",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_2_17",
       "position": 16,
-      "id": "fb168456-4f78-4f55-97cc-e3906b436625",
+      "id": "d50190b8-5781-411e-8996-0b8cfe0affde",
       "solution": {
         "type": "text",
         "answer": {
@@ -4325,7 +4325,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "3c+2z",
+          "rus": "5x+8a",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4427,34 +4427,34 @@
       },
       "difficulty": null,
       "result": "none",
+      "title": null,
       "fields": {
-        "number3": 31,
-        "number2": 6,
-        "number1": 48,
+        "number3": 17,
+        "number2": 7,
+        "number1": 45,
         "x": "c",
         "y": "y"
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "(\\(c\\) - \\(y\\)) · 6 hərfi ifadəsinin qiymətini \\(c\\) = 48 və \\(y\\) = 31 olduqda tapın.\n",
-          "kgz": "Эгер \\(c\\) = 48, \\(y\\) = 31 болсо, (\\(c\\) - \\(y\\)) · 6 тамгалуу туюнтманын маанисин табыңыз.\n",
-          "uzb": "\\(c\\) ning qiymatini 48 ga, \\(y\\) ning qiymatini 31 ga teng deb, (\\(c\\) - \\(y\\)) · 6 harfli ifodaning qiymatini toping.\n",
-          "eng": "Given that the value of \\(c\\) is 48 and the value of \\(y\\) is 31, find the value of the algebraic expression (\\(c\\) - \\(y\\)) · 6.\n",
-          "rus": "Найдите значение буквенного выражения (\\(c\\) - \\(y\\)) · 6, при \\(c\\) = 48 и \\(y\\) = 31.\n",
-          "kaz": "\\(c\\)-ның мәнін 48-ге, ал \\(y\\)-тың мәнін 31-ге тең деп алып, (\\(c\\) - \\(y\\)) · 6 әріпті өрнегінің мәнін табыңыз\n",
+          "aze": "(\\(c\\) - \\(y\\)) · 7 hərfi ifadəsinin qiymətini \\(c\\) = 45 və \\(y\\) = 17 olduqda tapın.\n",
+          "kgz": "Эгер \\(c\\) = 45, \\(y\\) = 17 болсо, (\\(c\\) - \\(y\\)) · 7 тамгалуу туюнтманын маанисин табыңыз.\n",
+          "uzb": "\\(c\\) ning qiymatini 45 ga, \\(y\\) ning qiymatini 17 ga teng deb, (\\(c\\) - \\(y\\)) · 7 harfli ifodaning qiymatini toping.\n",
+          "eng": "Given that the value of \\(c\\) is 45 and the value of \\(y\\) is 17, find the value of the algebraic expression (\\(c\\) - \\(y\\)) · 7.\n",
+          "rus": "Найдите значение буквенного выражения (\\(c\\) - \\(y\\)) · 7, при \\(c\\) = 45 и \\(y\\) = 17.\n",
+          "kaz": "\\(c\\)-ның мәнін 45-ке, ал \\(y\\)-тың мәнін 17-ге тең деп алып, (\\(c\\) - \\(y\\)) · 7 әріпті өрнегінің мәнін табыңыз\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كانت 48 = \\(c\\) و 31 = \\(y\\)، فأوجد ناتج التعبير التالي: \\((c - y) \\times 6\\)\n",
+          "areg": "إذا كانت 45 = \\(c\\) و 17 = \\(y\\)، فأوجد ناتج التعبير التالي: \\((c - y) \\times 7\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_3_7",
       "position": 6,
-      "id": "dffdf5b2-a89f-442b-9bda-44b9a62be3bb",
+      "id": "504c0f52-dcab-4532-918c-d66a30fea48f",
       "solution": {
         "type": "text",
         "answer": {
@@ -4465,7 +4465,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "102",
+          "rus": "196",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4567,13 +4567,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 9,
-        "number3": 73,
-        "number2": 55,
-        "number1": 74,
-        "letter": "b"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadəni sadələşdirin və qiyməti tapın (cavab olaraq yalnız sonda tapılan qiyməti daxil edin):",
@@ -4587,26 +4580,33 @@
         "areg": "أوجد قيمة المقدار في أبسط صورة (ثم اكتب الناتج النهائي فقط):",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number4": 2,
+        "number3": 31,
+        "number2": 39,
+        "number1": 37,
+        "letter": "b"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "74\\(b\\) + 55 - 73\\(b\\), burada \\(b\\) = 9",
-          "kgz": "74\\(b\\) + 55 - 73\\(b\\), бул жерде \\(b\\) = 9",
-          "uzb": "74\\(b\\) + 55 - 73\\(b\\), bu yerda \\(b\\) = 9",
-          "eng": "74\\(b\\) + 55 - 73\\(b\\), with \\(b\\) = 9\n",
-          "rus": "74\\(b\\) + 55 - 73\\(b\\), при \\(b\\) = 9",
-          "kaz": "74\\(b\\) + 55 - 73\\(b\\), мұндағы \\(b\\) = 9",
+          "aze": "37\\(b\\) + 39 - 31\\(b\\), burada \\(b\\) = 2",
+          "kgz": "37\\(b\\) + 39 - 31\\(b\\), бул жерде \\(b\\) = 2",
+          "uzb": "37\\(b\\) + 39 - 31\\(b\\), bu yerda \\(b\\) = 2",
+          "eng": "37\\(b\\) + 39 - 31\\(b\\), with \\(b\\) = 2\n",
+          "rus": "37\\(b\\) + 39 - 31\\(b\\), при \\(b\\) = 2",
+          "kaz": "37\\(b\\) + 39 - 31\\(b\\), мұндағы \\(b\\) = 2",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(b\\)73 - 55 + \\(b\\)74، حيث 9 = \\(b\\)\n",
+          "areg": "\\(b\\)31 - 39 + \\(b\\)37، حيث 2 = \\(b\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_14_2",
       "position": 18,
-      "id": "c507ab4d-1c62-4a1c-8bfb-9528fc318cc7",
+      "id": "19bc9d2d-073d-42b9-b7a3-3f0ca4870f82",
       "solution": {
         "type": "text",
         "answer": {
@@ -4617,7 +4617,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "64",
+          "rus": "51",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4719,14 +4719,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "p",
-        "letter1": "x",
-        "number4": 6,
-        "number3": 2,
-        "number2": 31,
-        "number1": 23
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadəni sadələşdirin və qiyməti tapın (cavab olaraq yalnız sonda tapılan qiyməti daxil edin):",
@@ -4740,26 +4732,34 @@
         "areg": "اكتب التعبير الذي يحتوي على متغيرين في أبسط صورة، وأوجد قيمته.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "y",
+        "letter1": "b",
+        "number4": 5,
+        "number3": 6,
+        "number2": 36,
+        "number1": 22
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "(\\(x\\) + \\(p\\)) · 23 + 31\\(x\\), burada \\(x\\) = 2, \\(p\\) = 6",
-          "kgz": "(\\(x\\) + \\(p\\)) · 23 + 31\\(x\\), бул жерде \\(x\\) = 2, \\(p\\) = 6",
-          "uzb": "(\\(x\\) + \\(p\\)) · 23 + 31\\(x\\), bu yerda \\(x\\) = 2, \\(p\\) = 6",
-          "eng": "(\\(x\\) + \\(p\\)) · 23 + 31\\(x\\), where \\(x\\) = 2, \\(p\\) = 6",
-          "rus": "(\\(x\\) + \\(p\\)) · 23 + 31\\(x\\), при \\(x\\) = 2, \\(p\\) = 6",
-          "kaz": "(\\(x\\) + \\(p\\)) · 23 + 31\\(x\\), мұндағы \\(x\\) = 2, \\(p\\) = 6",
+          "aze": "(\\(b\\) + \\(y\\)) · 22 + 36\\(b\\), burada \\(b\\) = 6, \\(y\\) = 5",
+          "kgz": "(\\(b\\) + \\(y\\)) · 22 + 36\\(b\\), бул жерде \\(b\\) = 6, \\(y\\) = 5",
+          "uzb": "(\\(b\\) + \\(y\\)) · 22 + 36\\(b\\), bu yerda \\(b\\) = 6, \\(y\\) = 5",
+          "eng": "(\\(b\\) + \\(y\\)) · 22 + 36\\(b\\), where \\(b\\) = 6, \\(y\\) = 5",
+          "rus": "(\\(b\\) + \\(y\\)) · 22 + 36\\(b\\), при \\(b\\) = 6, \\(y\\) = 5",
+          "kaz": "(\\(b\\) + \\(y\\)) · 22 + 36\\(b\\), мұндағы \\(b\\) = 6, \\(y\\) = 5",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(x\\)31 + 23 · (\\(p\\) + \\(x\\))، حيث \\(x\\) = 2، \\(p\\) = 6",
+          "areg": "\\(b\\)36 + 22 · (\\(y\\) + \\(b\\))، حيث \\(b\\) = 6، \\(y\\) = 5",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_15_9",
       "position": 8,
-      "id": "64fa8f92-47c7-450b-9d72-0afe40dea13a",
+      "id": "affec6e2-77f3-4299-afff-bf92fc107c46",
       "solution": {
         "type": "text",
         "answer": {
@@ -4770,7 +4770,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "246",
+          "rus": "458",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4863,13 +4863,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 9,
-        "number4": 9,
-        "number3": 9,
-        "number2": 3,
-        "number1": 9
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədi rəqəmlərlə yazın.",
@@ -4883,26 +4876,33 @@
         "areg": "اكتب صيغة الوحدات للعدد التالي بالصيغة القياسية:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number5": 7,
+        "number4": 2,
+        "number3": 4,
+        "number2": 3,
+        "number1": 8
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Təkliklər sinfi - 9 təklik, 9 onluq, 9 yüzlük və minliklər sinfi - 3 minlik, 9 onminlik\n",
-          "kgz": "Биринчи класстын 9 бирдигинен 9 ондугунан 9 жүздүгүнөн жана экинчи класстын 3 миңдигинен жана 9 он миңдигинен.\n",
-          "uzb": "Birinchi sinfning 9 birligi 9 o'nligi 9 yuzligi va ikkinchi sinfning 3 birlik mingligi bilan 9 o'n mingligi.\n",
-          "eng": "9 ones, 9 tens, 9 hundreds, 3 ones of the first class and 9 ten-thousands of the second class.\n",
-          "rus": "9 единиц 9 десятков 9 сотен первого класса и 3 единицы тысячи и 9 десятков тысяч второго класса.\n",
-          "kaz": "Бірінші класстың 9 бірлігі 9 ондығы 9 жүздігі және екінші класстың 3 бірлік мыңдығы мен 9 ондық мыңдығы\n",
+          "aze": "Təkliklər sinfi - 7 təklik, 2 onluq, 4 yüzlük və minliklər sinfi - 3 minlik, 8 onminlik\n",
+          "kgz": "Биринчи класстын 7 бирдигинен 2 ондугунан 4 жүздүгүнөн жана экинчи класстын 3 миңдигинен жана 8 он миңдигинен.\n",
+          "uzb": "Birinchi sinfning 7 birligi 2 o'nligi 4 yuzligi va ikkinchi sinfning 3 birlik mingligi bilan 8 o'n mingligi.\n",
+          "eng": "7 ones, 2 tens, 4 hundreds, 3 ones of the first class and 8 ten-thousands of the second class.\n",
+          "rus": "7 единиц 2 десятка 4 сотни первого класса и 3 единицы тысячи и 8 десятков тысяч второго класса.\n",
+          "kaz": "Бірінші класстың 7 бірлігі 2 ондығы 4 жүздігі және екінші класстың 3 бірлік мыңдығы мен 8 ондық мыңдығы\n",
           "arjd": "",
           "arsa": "",
-          "areg": "في الوحدات 9 آحاد و9 عشرات و9 مئات، وفي الألوف 3 آحاد ألوف، و9 عشرات ألوف.\n",
+          "areg": "في الوحدات 7 آحاد و2 عشرات و4 مئات، وفي الألوف 3 آحاد ألوف، و8 عشرات ألوف.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_57",
       "position": 22,
-      "id": "70540c98-4870-436a-8348-179e6bd2cc53",
+      "id": "e567c43d-e4d2-435b-b368-d659aa57745a",
       "solution": {
         "type": "text",
         "answer": {
@@ -4913,7 +4913,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "93999",
+          "rus": "83427",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5006,6 +5006,7 @@
       },
       "difficulty": null,
       "result": "none",
+      "title": null,
       "fields": {
         "b": 2,
         "e": 9,
@@ -5014,7 +5015,6 @@
         "a": 1,
         "c": 6
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
@@ -5034,7 +5034,7 @@
       },
       "type": "Elixir.Task_4_1_49",
       "position": 9,
-      "id": "d0439faa-c1d6-4fc4-8706-533c32bf9d7e",
+      "id": "bb3c4ad2-dbe6-4113-b469-87ce7debdc68",
       "solution": {
         "type": "text",
         "answer": {
@@ -5120,35 +5120,35 @@
       },
       "difficulty": "x1",
       "result": "none",
+      "title": null,
       "fields": {
         "difficulty": "x1",
         "numbers": [
           5,
-          6,
-          8
+          2,
+          1
         ]
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "5, 6, 8 rəqəmlərindən bir dəfə istifadə etməklə neçə ikirəqəmli ədəd düzəltmək olar?",
-          "kgz": "5, 6, 8 цифралары кайталанбагандай кылып канча эки орундуу сан жазууга болот?\n",
-          "uzb": "5, 6, 8 raqamlari takrorlanmaydigan nechta ikki xonali son yozish mumkin?",
-          "eng": "How many two-digit numbers can be made up of the digits 5, 6, 8 if the digits do not repeat?\n",
-          "rus": "Сколько двузначных чисел можно составить из цифр 5, 6, 8 так, чтобы цифры не повторялись?\n",
-          "kaz": "5, 6, 8 цифлары қайталанбайтындай қанша екі таңбалы сан жазуға болады?\n",
+          "aze": "5, 2, 1 rəqəmlərindən bir dəfə istifadə etməklə neçə ikirəqəmli ədəd düzəltmək olar?",
+          "kgz": "5, 2, 1 цифралары кайталанбагандай кылып канча эки орундуу сан жазууга болот?\n",
+          "uzb": "5, 2, 1 raqamlari takrorlanmaydigan nechta ikki xonali son yozish mumkin?",
+          "eng": "How many two-digit numbers can be made up of the digits 5, 2, 1 if the digits do not repeat?\n",
+          "rus": "Сколько двузначных чисел можно составить из цифр 5, 2, 1 так, чтобы цифры не повторялись?\n",
+          "kaz": "5, 2, 1 цифлары қайталанбайтындай қанша екі таңбалы сан жазуға болады?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "كم عددًا مكونًا من رقمين يمكن كتابته باستخدام الأرقام 5, 6, 8 دون تكرار؟",
+          "areg": "كم عددًا مكونًا من رقمين يمكن كتابته باستخدام الأرقام 5, 2, 1 دون تكرار؟",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_13_1",
       "position": 0,
-      "id": "8ce5bc86-6b84-469e-b1b6-26f6b14b417e",
+      "id": "7c23829d-ca16-4d82-8e79-5bf7c3878454",
       "solution": {
         "type": "text",
         "answer": {
@@ -5243,34 +5243,34 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "b": 7,
-        "e": 1,
-        "d": 4,
-        "a": 8,
-        "c": 6
-      },
       "title": null,
+      "fields": {
+        "b": 6,
+        "e": 2,
+        "d": 3,
+        "a": 7,
+        "c": 4
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "8, 7, 6, 4, 1 rəqəmlərindən istifadə etməklə düzələn ən böyük və ən kiçik beşrəqəmli ədədi yazın.\nOnların fərqi nəyə bərabərdir?\n",
-          "kgz": "8, 7, 6, 4, 1 цифралары менен жазылган эң чоң жана эң кичине беш орундуу сандарды жазыңыз.\nАлардын айырмасы канчага барабар?\n",
-          "uzb": "8, 7, 6, 4, 1 raqamlari yordamida eng katta va eng kichik besh xonali sonlarni yozing.\nUlarning ayirmasi nechaga teng?\n",
-          "eng": "Write the largest and smallest five-digit numbers using the digits 8, 7, 6, 4, 1.\nWhat is the difference between the two five-digit numbers?\n",
-          "rus": "Напишите наибольшее и наименьшее пятизначные числа из цифр 8, 7, 6, 4, 1. Чему равна их разность?\n",
-          "kaz": "8, 7, 6, 4, 1 цифрларынан ең үлкен және ең кіші бес таңбалы сандарды жазыңыз. Олардың айырмасы нешеге тең?\n",
+          "aze": "7, 6, 4, 3, 2 rəqəmlərindən istifadə etməklə düzələn ən böyük və ən kiçik beşrəqəmli ədədi yazın.\nOnların fərqi nəyə bərabərdir?\n",
+          "kgz": "7, 6, 4, 3, 2 цифралары менен жазылган эң чоң жана эң кичине беш орундуу сандарды жазыңыз.\nАлардын айырмасы канчага барабар?\n",
+          "uzb": "7, 6, 4, 3, 2 raqamlari yordamida eng katta va eng kichik besh xonali sonlarni yozing.\nUlarning ayirmasi nechaga teng?\n",
+          "eng": "Write the largest and smallest five-digit numbers using the digits 7, 6, 4, 3, 2.\nWhat is the difference between the two five-digit numbers?\n",
+          "rus": "Напишите наибольшее и наименьшее пятизначные числа из цифр 7, 6, 4, 3, 2. Чему равна их разность?\n",
+          "kaz": "7, 6, 4, 3, 2 цифрларынан ең үлкен және ең кіші бес таңбалы сандарды жазыңыз. Олардың айырмасы нешеге тең?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "استخدم الأرقام 8 ، 7 ، 6 ، 4 ، 1 لكتابة أكبر عدد وأصغر عدد يتكون من خمسة أرقام.\nكم يساوي الفرق بينهما؟\n",
+          "areg": "استخدم الأرقام 7 ، 6 ، 4 ، 3 ، 2 لكتابة أكبر عدد وأصغر عدد يتكون من خمسة أرقام.\nكم يساوي الفرق بينهما؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_38",
       "position": 8,
-      "id": "89b0a273-7a19-44fc-ab0f-16ab13607a84",
+      "id": "6ca1631e-e6d2-48f9-ba50-66ed3b10566e",
       "solution": {
         "type": "text",
         "answer": {
@@ -5281,7 +5281,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "72963",
+          "rus": "52965",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5365,35 +5365,35 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 5,
-        "number3": 46,
-        "number2": 6,
-        "number1": 21,
-        "x": "b",
-        "y": "x"
-      },
       "title": null,
+      "fields": {
+        "number4": 7,
+        "number3": 67,
+        "number2": 3,
+        "number1": 97,
+        "x": "c",
+        "y": "z"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "\\(b\\) = 21 və \\(x\\) = 46 olduqda 6\\(b\\) + 5\\(x\\) hərfi ifadəsinin qiymətini tapın.\n",
-          "kgz": "Эгер \\(b\\) = 21, \\(x\\) = 46 болсо, 6\\(b\\) + 5\\(x\\) тамгалуу туюнтманын маанисин табыңыз.\n",
-          "uzb": "\\(b\\) ning qiymatini 21 ga, \\(x\\) ning qiymatini 46 ga teng deb, 6\\(b\\) + 5\\(x\\) harfli ifodaning qiymatini toping.\n",
-          "eng": "Given that the value of \\(b\\) is 21 and the value of \\(x\\) is 46, find the value of the algebraic expression 6\\(b\\) + 5\\(x\\).\n",
-          "rus": "Найдите значение буквенного выражения 6\\(b\\) + 5\\(x\\), при \\(b\\) = 21 и \\(x\\) = 46.\n",
-          "kaz": "\\(b\\)-ның мәнін 21-ге, ал \\(x\\)-тың мәнін 46-ға тең деп алып, 6\\(b\\) + 5\\(x\\) әріпті өрнегінің мәнін табыңыз\n",
+          "aze": "\\(c\\) = 97 və \\(z\\) = 67 olduqda 3\\(c\\) + 7\\(z\\) hərfi ifadəsinin qiymətini tapın.\n",
+          "kgz": "Эгер \\(c\\) = 97, \\(z\\) = 67 болсо, 3\\(c\\) + 7\\(z\\) тамгалуу туюнтманын маанисин табыңыз.\n",
+          "uzb": "\\(c\\) ning qiymatini 97 ga, \\(z\\) ning qiymatini 67 ga teng deb, 3\\(c\\) + 7\\(z\\) harfli ifodaning qiymatini toping.\n",
+          "eng": "Given that the value of \\(c\\) is 97 and the value of \\(z\\) is 67, find the value of the algebraic expression 3\\(c\\) + 7\\(z\\).\n",
+          "rus": "Найдите значение буквенного выражения 3\\(c\\) + 7\\(z\\), при \\(c\\) = 97 и \\(z\\) = 67.\n",
+          "kaz": "\\(c\\)-ның мәнін 97-ге, ал \\(z\\)-тың мәнін 67-ге тең деп алып, 3\\(c\\) + 7\\(z\\) әріпті өрнегінің мәнін табыңыз\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كانت 21 = \\(b\\) و 46 = \\(x\\)، فأوجد ناتج التعبير التالي: \\(6b + 5x\\)\n",
+          "areg": "إذا كانت 97 = \\(c\\) و 67 = \\(z\\)، فأوجد ناتج التعبير التالي: \\(3c + 7z\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_3_11",
       "position": 10,
-      "id": "47eb1cea-f23d-4cfa-8044-33256cb76dc4",
+      "id": "1efeb911-47b9-453f-9913-005409e98929",
       "solution": {
         "type": "text",
         "answer": {
@@ -5404,7 +5404,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "356",
+          "rus": "760",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5488,35 +5488,35 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 94,
-        "number6": 2,
-        "number4": 5,
-        "number3": 42,
-        "number2": 8,
-        "number1": 91
-      },
       "title": null,
+      "fields": {
+        "number5": 72,
+        "number6": 6,
+        "number4": 7,
+        "number3": 48,
+        "number2": 4,
+        "number1": 80
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "\\(a\\) = 91 və \\(b\\) = 42 və \\(c\\) = 94 olduqda 8\\(a\\) + 5\\(b\\) + 2\\(c\\) hərfi ifadəsinin qiymətini tapın.\n",
-          "kgz": "Эгер \\(a\\) = 91, \\(b\\) = 42, \\(c\\) = 94 болсо, 8\\(a\\) + 5\\(b\\) + 2\\(c\\) тамгалуу туюнтманын маанисин табыңыз.\n",
-          "uzb": "\\(a\\) ning qiymatini 91 ga, \\(b\\) ning qiymatini 42 ga, \\(c\\) ning qiymatini 94 ga teng deb, 8\\(a\\) + 5\\(b\\) + 2\\(c\\) harfli ifodaning qiymatini toping.\n",
-          "eng": "Given that the value of \\(a\\) is 91, \\(b\\) is 42, and \\(c\\) is 94, find the value of the algebraic expression 8\\(a\\) + 5\\(b\\) + 2\\(c\\).\n",
-          "rus": "Найдите значение буквенного выражения 8\\(a\\) + 5\\(b\\) + 2\\(c\\), при \\(a\\) = 91, \\(b\\) = 42 и \\(c\\) = 94.\n",
-          "kaz": "\\(a\\)-ның мәнін 91-ге, \\(b\\)-ның мәнін 42-ге, ал \\(c\\)-ның мәнін 94-ке тең деп алып,\n8\\(a\\) + 5\\(b\\) + 2\\(c\\) әріпті өрнегінің мәнін табыңыз.\n",
+          "aze": "\\(a\\) = 80 və \\(b\\) = 48 və \\(c\\) = 72 olduqda 4\\(a\\) + 7\\(b\\) + 6\\(c\\) hərfi ifadəsinin qiymətini tapın.\n",
+          "kgz": "Эгер \\(a\\) = 80, \\(b\\) = 48, \\(c\\) = 72 болсо, 4\\(a\\) + 7\\(b\\) + 6\\(c\\) тамгалуу туюнтманын маанисин табыңыз.\n",
+          "uzb": "\\(a\\) ning qiymatini 80 ga, \\(b\\) ning qiymatini 48 ga, \\(c\\) ning qiymatini 72 ga teng deb, 4\\(a\\) + 7\\(b\\) + 6\\(c\\) harfli ifodaning qiymatini toping.\n",
+          "eng": "Given that the value of \\(a\\) is 80, \\(b\\) is 48, and \\(c\\) is 72, find the value of the algebraic expression 4\\(a\\) + 7\\(b\\) + 6\\(c\\).\n",
+          "rus": "Найдите значение буквенного выражения 4\\(a\\) + 7\\(b\\) + 6\\(c\\), при \\(a\\) = 80, \\(b\\) = 48 и \\(c\\) = 72.\n",
+          "kaz": "\\(a\\)-ның мәнін 80-ге, \\(b\\)-ның мәнін 48-ге, ал \\(c\\)-ның мәнін 72-ге тең деп алып,\n4\\(a\\) + 7\\(b\\) + 6\\(c\\) әріпті өрнегінің мәнін табыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كانت 91 = \\(a\\) و 42 = \\(b\\) و 94 = \\(c\\)، فأوجد ناتج التعبير التالي:\n\\(8a + 5b + 2c\\)\n",
+          "areg": "إذا كانت 80 = \\(a\\) و 48 = \\(b\\) و 72 = \\(c\\)، فأوجد ناتج التعبير التالي:\n\\(4a + 7b + 6c\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_3_13",
       "position": 12,
-      "id": "12b65a43-e51e-4a10-9449-ab2ebf3af032",
+      "id": "c6b2cc60-7497-44df-8345-f6490df430af",
       "solution": {
         "type": "text",
         "answer": {
@@ -5527,7 +5527,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "1126",
+          "rus": "1088",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5611,34 +5611,34 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 7,
-        "number4": 2,
-        "number3": 72,
-        "number2": 5,
-        "number1": 32
-      },
       "title": null,
+      "fields": {
+        "number5": 6,
+        "number4": 5,
+        "number3": 71,
+        "number2": 8,
+        "number1": 21
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "\\(a\\) = 32 və \\(b\\) = 72 və \\(c\\) = 7 olduqda (5\\(a\\) + 2\\(b\\)) · \\(c\\) hərfi ifadəsinin qiymətini tapın.\n",
-          "kgz": "Эгер \\(a\\) = 32, \\(b\\) = 72, \\(c\\) = 7 болсо, (5\\(a\\) + 2\\(b\\)) · \\(c\\)\nтамгалуу туюнтманын маанисин табыңыз.\n",
-          "uzb": "\\(a\\) ning qiymatini 32 ga, \\(b\\) ning qiymatini 72 ga, \\(c\\) ning qiymatini 7 ga teng deb, (5\\(a\\) + 2\\(b\\)) · \\(c\\) harfli ifodaning qiymatini toping.\n",
-          "eng": "Given that the value of \\(a\\) is 32, \\(b\\) is 72, and \\(c\\) is 7, find the value of the algebraic expression (5\\(a\\) + 2\\(b\\)) · \\(c\\).\n",
-          "rus": "Найдите значение буквенного выражения (5\\(a\\) + 2\\(b\\)) · \\(c\\), при \\(a\\) = 32, \\(b\\) = 72 и \\(c\\) = 7.\n",
-          "kaz": "\\(a\\)-ның мәнін 32-ге, \\(b\\)-ның мәнін 72-ге, ал \\(c\\)-ның мәнін 7-ге тең деп алып,\n(5\\(a\\) + 2\\(b\\)) · \\(c\\) әріпті өрнегінің мәнін табыңыз.\n",
+          "aze": "\\(a\\) = 21 və \\(b\\) = 71 və \\(c\\) = 6 olduqda (8\\(a\\) + 5\\(b\\)) · \\(c\\) hərfi ifadəsinin qiymətini tapın.\n",
+          "kgz": "Эгер \\(a\\) = 21, \\(b\\) = 71, \\(c\\) = 6 болсо, (8\\(a\\) + 5\\(b\\)) · \\(c\\)\nтамгалуу туюнтманын маанисин табыңыз.\n",
+          "uzb": "\\(a\\) ning qiymatini 21 ga, \\(b\\) ning qiymatini 71 ga, \\(c\\) ning qiymatini 6 ga teng deb, (8\\(a\\) + 5\\(b\\)) · \\(c\\) harfli ifodaning qiymatini toping.\n",
+          "eng": "Given that the value of \\(a\\) is 21, \\(b\\) is 71, and \\(c\\) is 6, find the value of the algebraic expression (8\\(a\\) + 5\\(b\\)) · \\(c\\).\n",
+          "rus": "Найдите значение буквенного выражения (8\\(a\\) + 5\\(b\\)) · \\(c\\), при \\(a\\) = 21, \\(b\\) = 71 и \\(c\\) = 6.\n",
+          "kaz": "\\(a\\)-ның мәнін 21-ге, \\(b\\)-ның мәнін 71-ге, ал \\(c\\)-ның мәнін 6-ға тең деп алып,\n(8\\(a\\) + 5\\(b\\)) · \\(c\\) әріпті өрнегінің мәнін табыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كانت 32 = \\(a\\) و 72 = \\(b\\) و 7 = \\(c\\)، فأوجد ناتج التعبير التالي:\n\\((5a + 2b) \\times c\\)\n",
+          "areg": "إذا كانت 21 = \\(a\\) و 71 = \\(b\\) و 6 = \\(c\\)، فأوجد ناتج التعبير التالي:\n\\((8a + 5b) \\times c\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_3_15",
       "position": 14,
-      "id": "be6178fc-dc0a-45a0-9073-af9a184201fa",
+      "id": "81f8206f-a27a-4246-8d4d-87bbfe6d2ec9",
       "solution": {
         "type": "text",
         "answer": {
@@ -5649,7 +5649,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "2128",
+          "rus": "3138",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5724,14 +5724,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "thousands": 2,
-        "ten_thousands": 6,
-        "hundred_thousands": 5,
-        "tens": 0,
-        "hundreds": 6,
-        "units": 4
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədi yazın.",
@@ -5745,26 +5737,34 @@
         "areg": "اكتب العدد الذي يتكون من:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "thousands": 9,
+        "ten_thousands": 4,
+        "hundred_thousands": 6,
+        "tens": 0,
+        "hundreds": 5,
+        "units": 3
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "5 yüzminlik 6 onminlik 2 minlik 6 yüzlük 0 onluq 4 təklik =\n",
-          "kgz": "5 жүз миңдик 6 он миңдик 2 миңдик 6 жүздүк 0 ондук 4 бирдик =",
-          "uzb": "5 yuz minglik 6 o'n minglik 2 minglik 6 yuzlik 0 o'nlik 4 birlik = ",
-          "eng": "5 hundred-thousands, 6 ten-thousands, 2 thousands, 6 hundreds, 0 tens, 4 ones = ",
-          "rus": "5 сотен тысяч 6 десятков тысяч 2 тысячи 6 сотен 0 десятков 4 единицы.",
-          "kaz": "5 жүз мыңдық 6 он мыңдық 2 мыңдық 6 жүздік 0 ондық 4 бірлік =",
+          "aze": "6 yüzminlik 4 onminlik 9 minlik 5 yüzlük 0 onluq 3 təklik =\n",
+          "kgz": "6 жүз миңдик 4 он миңдик 9 миңдик 5 жүздүк 0 ондук 3 бирдик =",
+          "uzb": "6 yuz minglik 4 o'n minglik 9 minglik 5 yuzlik 0 o'nlik 3 birlik = ",
+          "eng": "6 hundred-thousands, 4 ten-thousands, 9 thousands, 5 hundreds, 0 tens, 3 ones = ",
+          "rus": "6 сотен тысяч 4 десятка тысяч 9 тысяч 5 сотен 0 десятков 3 единицы.",
+          "kaz": "6 жүз мыңдық 4 он мыңдық 9 мыңдық 5 жүздік 0 ондық 3 бірлік =",
           "arjd": "",
           "arsa": "",
-          "areg": "اكتب العدد التالي بالصيغة القياسية:\n4 آحاد، 0 عشرات، 6 مئات، 2 آحاد ألوف، 6 عشرات ألوف، 5 مئات ألوف =\n",
+          "areg": "اكتب العدد التالي بالصيغة القياسية:\n3 آحاد، 0 عشرات، 5 مئات، 9 آحاد ألوف، 4 عشرات ألوف، 6 مئات ألوف =\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_4_9",
       "position": 6,
-      "id": "7a053fdf-6d2f-4136-864e-d997c4839eaa",
+      "id": "3652772a-5090-4623-9f7b-a128343085fa",
       "solution": {
         "type": "text",
         "answer": {
@@ -5775,7 +5775,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "562604",
+          "rus": "649503",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5859,14 +5859,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 2,
-        "number6": 0,
-        "number4": 8,
-        "number3": 0,
-        "number2": 5,
-        "number1": 3
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədi rəqəmlərlə yazın.",
@@ -5880,26 +5872,34 @@
         "areg": "اكتب صيغة الوحدات للعدد التالي بالصيغة القياسية:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number5": 4,
+        "number6": 9,
+        "number4": 7,
+        "number3": 1,
+        "number2": 0,
+        "number1": 8
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Birinci sinifdə 0 təklik 2 onluq 8 yüzlük və ikinci sinifdə 0 minlik 5 onminlik 3 yüzminlik var.\n",
-          "kgz": "Биринчи класста 0 бирдик 2 ондук 8 жүздүк  жана экинчи класста 0 миңдик 5 он миңдик 2 миңдик .\n",
-          "uzb": "Birinchi sinfning 0 birligi 2 o'nligi 8 yuzligi va ikkinchi sinfning 0 birlik mingligi 5 o'n mingligi bilan 3 yuz mingligi.\n",
-          "eng": "Write the number in digits: 0 one, 2 tens, and 8 hundreds of the first class, and 0 thousand, 5 ten-thousands, and 3 hundred-thousands of the second class.\n",
-          "rus": "0 единиц 2 десятка 8 сотен первого класа и 0 тысяч 5 десятков тысяч 3 сотни тысяч второго класа.\n",
-          "kaz": "Бірінші кластың 0 бірлігі 2 ондығы 8 жүздігі және екінші кластың 0 бірлік мыңдығы 5 ондық мыңдығы және 3 жүздік мыңдығы\n",
+          "aze": "Birinci sinifdə 9 təklik 4 onluq 7 yüzlük və ikinci sinifdə 1 minlik 0 onminlik 8 yüzminlik var.\n",
+          "kgz": "Биринчи класста 9 бирдик 4 ондук 7 жүздүк  жана экинчи класста 1 миңдик 0 он миңдик 4 миңдик .\n",
+          "uzb": "Birinchi sinfning 9 birligi 4 o'nligi 7 yuzligi va ikkinchi sinfning 1 birlik mingligi 0 o'n mingligi bilan 8 yuz mingligi.\n",
+          "eng": "Write the number in digits: 9 ones, 4 tens, and 7 hundreds of the first class, and 1 thousand, 0 ten-thousand, and 8 hundred-thousands of the second class.\n",
+          "rus": "9 единиц 4 десятка 7 сотен первого класа и 1 тысяча 0 десятков тысяч 8 сотен тысяч второго класа.\n",
+          "kaz": "Бірінші кластың 9 бірлігі 4 ондығы 7 жүздігі және екінші кластың 1 бірлік мыңдығы 0 ондық мыңдығы және 8 жүздік мыңдығы\n",
           "arjd": "",
           "arsa": "",
-          "areg": "0 آحاد، 2 عشرات، 8 مئات، و0 آحاد ألوف، و5 عشرات ألوف، و3 مئات ألوف.\n",
+          "areg": "9 آحاد، 4 عشرات، 7 مئات، و1 آحاد ألوف، و0 عشرات ألوف، و8 مئات ألوف.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_4_58",
       "position": 12,
-      "id": "4b579532-1bf8-45b3-9cc7-afde8445e8e8",
+      "id": "76c0a76b-b1a8-4bb5-be1a-04ebf980dca8",
       "solution": {
         "type": "text",
         "answer": {
@@ -5910,7 +5910,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "350820",
+          "rus": "801749",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -5985,33 +5985,33 @@
       },
       "difficulty": "x1",
       "result": "none",
+      "title": null,
       "fields": {
         "difficulty": "x1",
-        "number3": 2,
-        "number2": 7,
-        "number1": 32
+        "number3": 4,
+        "number2": 5,
+        "number1": 120
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Hansı ədədin \\(\\dfrac{2}{7}\\) hissəsi 32 olacaq?",
-          "kgz": "Кайсы сандын \\(\\dfrac{2}{7}\\) бөлүгү 32 санына барабар болот?",
-          "uzb": "Qaysi sonning \\(\\dfrac{2}{7}\\) qismi 32 ga teng?",
-          "eng": "Which number has \\(\\dfrac{2}{7}\\) of it equal to 32?",
-          "rus": "У какого числа \\(\\dfrac{2}{7}\\) части будет 32?",
-          "kaz": "Қандай санның \\(\\dfrac{2}{7}\\) бөлігі 32-ге тең?",
+          "aze": "Hansı ədədin \\(\\dfrac{4}{5}\\) hissəsi 120 olacaq?",
+          "kgz": "Кайсы сандын \\(\\dfrac{4}{5}\\) бөлүгү 120 санына барабар болот?",
+          "uzb": "Qaysi sonning \\(\\dfrac{4}{5}\\) qismi 120 ga teng?",
+          "eng": "Which number has \\(\\dfrac{4}{5}\\) of it equal to 120?",
+          "rus": "У какого числа \\(\\dfrac{4}{5}\\) части будет 120?",
+          "kaz": "Қандай санның \\(\\dfrac{4}{5}\\) бөлігі 120-ға тең?",
           "arjd": "",
           "arsa": "",
-          "areg": "أي عدد \\(\\dfrac{2}{7}\\) منه يساوي 138؟",
+          "areg": "أي عدد \\(\\dfrac{4}{5}\\) منه يساوي 138؟",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_11_11_8",
       "position": 14,
-      "id": "547d7117-8917-44a6-9ea7-8f393aaa9a0c",
+      "id": "0bc3c363-c514-442d-883b-13f95207d828",
       "solution": {
         "type": "text",
         "answer": {
@@ -6022,7 +6022,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "112",
+          "rus": "150",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6106,16 +6106,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "b",
-        "number5": 5,
-        "number6": 4,
-        "letter1": "x",
-        "number4": 606,
-        "number3": 817,
-        "number2": 535,
-        "number1": 630
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadəni sadələşdirin və qiyməti tapın (cavab olaraq yalnız sonda tapılan qiyməti daxil edin):",
@@ -6129,26 +6119,36 @@
         "areg": "اكتب التعبير الذي يحتوي على متغيرين في أبسط صورة، وأوجد قيمته.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "x",
+        "number5": 7,
+        "number6": 3,
+        "letter1": "z",
+        "number4": 628,
+        "number3": 841,
+        "number2": 566,
+        "number1": 606
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "(630 + 535 + 817)\\(x\\) – 606\\(b\\), burada \\(x\\) = 5, \\(b\\) = 4",
-          "kgz": "(630 + 535 + 817)\\(x\\) – 606\\(b\\), бул жерде \\(x\\) = 5, \\(b\\) = 4",
-          "uzb": "(630 + 535 + 817)\\(x\\) – 606\\(b\\), bu yerda \\(x\\) = 5, \\(b\\) = 4",
-          "eng": "(630 + 535 + 817)\\(x\\) – 606\\(b\\), at \\(x\\) = 5, \\(b\\) = 4\n",
-          "rus": "(630 + 535 + 817)\\(x\\) – 606\\(b\\), при \\(x\\) = 5, \\(b\\) = 4",
-          "kaz": "(630 + 535 + 817)\\(x\\) – 606\\(b\\), мұндағы \\(x\\) = 5, \\(b\\) = 4",
+          "aze": "(606 + 566 + 841)\\(z\\) – 628\\(x\\), burada \\(z\\) = 7, \\(x\\) = 3",
+          "kgz": "(606 + 566 + 841)\\(z\\) – 628\\(x\\), бул жерде \\(z\\) = 7, \\(x\\) = 3",
+          "uzb": "(606 + 566 + 841)\\(z\\) – 628\\(x\\), bu yerda \\(z\\) = 7, \\(x\\) = 3",
+          "eng": "(606 + 566 + 841)\\(z\\) – 628\\(x\\), at \\(z\\) = 7, \\(x\\) = 3\n",
+          "rus": "(606 + 566 + 841)\\(z\\) – 628\\(x\\), при \\(z\\) = 7, \\(x\\) = 3",
+          "kaz": "(606 + 566 + 841)\\(z\\) – 628\\(x\\), мұндағы \\(z\\) = 7, \\(x\\) = 3",
           "arjd": "",
           "arsa": "",
-          "areg": "\\(b\\)606 - \\(x\\)(817 + 535 + 630)، حيث 5 = \\(x\\)، 4 = \\(b\\)\n",
+          "areg": "\\(x\\)628 - \\(z\\)(841 + 566 + 606)، حيث 7 = \\(z\\)، 3 = \\(x\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_15_5",
       "position": 4,
-      "id": "3b6f5923-c8b3-44d1-a479-d2e32600c0cd",
+      "id": "6a4cd819-6be5-48bc-b6c3-cc3e0bfc315f",
       "solution": {
         "type": "text",
         "answer": {
@@ -6159,7 +6159,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "7486",
+          "rus": "12207",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6234,14 +6234,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "thousands": 6,
-        "ten_thousands": 6,
-        "tens": 4,
-        "hundreds": 0,
-        "units": 7
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Ədədi yazın.",
@@ -6255,26 +6247,34 @@
         "areg": "اكتب العدد الذي يتكون من:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "thousands": 6,
+        "ten_thousands": 9,
+        "tens": 1,
+        "hundreds": 7,
+        "units": 4
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Ədədi yazın: 6 onminlik 6 minlik 0 yüzlük 4 onluq 7 təklik =\n",
-          "kgz": "6 миңдин ондугу 6 миңдин бирдиги 0 жүздүк 4 ондук 7 бирдик =\n",
-          "uzb": "6 o'n minglik 6 minglik 0 yuzlik 4 o'nlik 7 birlik =",
-          "eng": "6 ten-thousands, 6 thousands, 0 hundreds, 4 tens, 7 ones =\n",
-          "rus": "6 десятков тысяч 6 тысяч 0 сотен 4 десятка 7 единиц.\n",
-          "kaz": "6 он мыңдық 6 мыңдық 0 жүздік 4 ондық 7 бірлік =",
+          "aze": "Ədədi yazın: 9 onminlik 6 minlik 7 yüzlük 1 onluq 4 təklik =\n",
+          "kgz": "9 миңдин ондугу 6 миңдин бирдиги 7 жүздүк 1 ондук 4 бирдик =\n",
+          "uzb": "9 o'n minglik 6 minglik 7 yuzlik 1 o'nlik 4 birlik =",
+          "eng": "9 ten-thousands, 6 thousands, 7 hundreds, 1 ten, 4 ones =\n",
+          "rus": "9 десятков тысяч 6 тысяч 7 сотен 1 десяток 4 единицы.\n",
+          "kaz": "9 он мыңдық 6 мыңдық 7 жүздік 1 ондық 4 бірлік =",
           "arjd": "",
           "arsa": "",
-          "areg": "7 آحاد، 4 عشرات، 0 مئات، 6 آحاد ألوف، 6 عشرات ألوف.\n",
+          "areg": "4 آحاد، 1 عشرات، 7 مئات، 6 آحاد ألوف، 9 عشرات ألوف.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_9",
       "position": 17,
-      "id": "c837f91d-e65f-4648-b97f-d2d0d09999a6",
+      "id": "3d543438-7671-41d1-b597-47f63abf7654",
       "solution": {
         "type": "text",
         "answer": {
@@ -6285,7 +6285,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "66,047",
+          "rus": "96,714",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6360,33 +6360,33 @@
       },
       "difficulty": null,
       "result": "none",
+      "title": null,
       "fields": {
         "b": 6,
-        "d": 1,
-        "a": 9,
-        "c": 3
+        "d": 4,
+        "a": 8,
+        "c": 5
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "9, 6, 3, 1 rəqəmlərindən bir dəfə istifadə etməklə\ndüzələn ən böyük və ən kiçik dördrəqəmli ədədləri yazın.\nOnların cəmi nəyə bərabərdir?\n",
-          "kgz": "9, 6, 3, 1 цифралары менен эң чоң жана эң кичине төрт орундуу сандарды жазыңыз. Алардын суммасы канчага барабар?\n",
-          "uzb": "9, 6, 3, 1 raqamlaridan eng katta va eng kichik to'rt xonali sonlarni yozing. Ularning yig'indisi nechaga teng?\n",
-          "eng": "Write the largest and smallest four-digit numbers using the digits 9, 6, 3 and 1. What is the sum of the two numbers?\n",
-          "rus": "Напишите наибольшее и наименьшее четырехзначные числа из цифр 9, 6, 3, 1. Чему равна их сумма?\n",
-          "kaz": "9, 6, 3, 1 цифрларынан ең үлкен және ең кіші төрт таңбалы сандарды жазыңыз. Олардың қосындысы нешеге тең?\n",
+          "aze": "8, 6, 5, 4 rəqəmlərindən bir dəfə istifadə etməklə\ndüzələn ən böyük və ən kiçik dördrəqəmli ədədləri yazın.\nOnların cəmi nəyə bərabərdir?\n",
+          "kgz": "8, 6, 5, 4 цифралары менен эң чоң жана эң кичине төрт орундуу сандарды жазыңыз. Алардын суммасы канчага барабар?\n",
+          "uzb": "8, 6, 5, 4 raqamlaridan eng katta va eng kichik to'rt xonali sonlarni yozing. Ularning yig'indisi nechaga teng?\n",
+          "eng": "Write the largest and smallest four-digit numbers using the digits 8, 6, 5 and 4. What is the sum of the two numbers?\n",
+          "rus": "Напишите наибольшее и наименьшее четырехзначные числа из цифр 8, 6, 5, 4. Чему равна их сумма?\n",
+          "kaz": "8, 6, 5, 4 цифрларынан ең үлкен және ең кіші төрт таңбалы сандарды жазыңыз. Олардың қосындысы нешеге тең?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "استخدم الأرقام 9, 6, 3, 1 لكتابة أكبر عدد وأصغر عدد يتكون من أربعة أرقام. كم يساوي مجموعهما؟\n",
+          "areg": "استخدم الأرقام 8, 6, 5, 4 لكتابة أكبر عدد وأصغر عدد يتكون من أربعة أرقام. كم يساوي مجموعهما؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_47",
       "position": 7,
-      "id": "88c571fe-4331-4313-873e-c6862193be4b",
+      "id": "76d806d2-5d65-48bc-8fba-9997133e3307",
       "solution": {
         "type": "text",
         "answer": {
@@ -6397,7 +6397,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "11000",
+          "rus": "13222",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6472,33 +6472,33 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "e": 1,
-        "d": 4,
-        "a": 7,
-        "c": 5
-      },
       "title": null,
+      "fields": {
+        "e": 2,
+        "d": 5,
+        "a": 9,
+        "c": 8
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "7, 7, 5, 4, 1 rəqəmlərindən bir dəfə istifadə etməklə düzələn ən böyük və ən kiçik beşrəqəmli ədədləri yazın. onların fərqi nəyə bərabərdir?\n",
-          "kgz": "7, 7, 5, 4, 1 цифралары менен эң чоң жана эң кичине беш орундуу сандарды жазыңыз. алардын айырмасы канчага барабар?\n",
-          "uzb": "7, 7, 5, 4, 1 raqamlaridan eng katta va eng kichik besh xonali sonni yozing.\nularning ayirmasi nechaga teng?\n",
-          "eng": "Write the largest and smallest five-digit numbers using the digits 7, 7, 5, 4, 1. what is the difference of the two numbers?\n",
-          "rus": "Напишите наибольшее и наименьшее пятизначные числа из цифр 7, 7, 5, 4, 1. чему равна их разность?\n",
-          "kaz": "7, 7, 5, 4, 1 цифрларынан ең үлкен және ең кіші бес таңбалы сандарды жазыңыз. олардың айырмасы нешеге тең?\n",
+          "aze": "9, 9, 8, 5, 2 rəqəmlərindən bir dəfə istifadə etməklə düzələn ən böyük və ən kiçik beşrəqəmli ədədləri yazın. onların fərqi nəyə bərabərdir?\n",
+          "kgz": "9, 9, 8, 5, 2 цифралары менен эң чоң жана эң кичине беш орундуу сандарды жазыңыз. алардын айырмасы канчага барабар?\n",
+          "uzb": "9, 9, 8, 5, 2 raqamlaridan eng katta va eng kichik besh xonali sonni yozing.\nularning ayirmasi nechaga teng?\n",
+          "eng": "Write the largest and smallest five-digit numbers using the digits 9, 9, 8, 5, 2. what is the difference of the two numbers?\n",
+          "rus": "Напишите наибольшее и наименьшее пятизначные числа из цифр 9, 9, 8, 5, 2. чему равна их разность?\n",
+          "kaz": "9, 9, 8, 5, 2 цифрларынан ең үлкен және ең кіші бес таңбалы сандарды жазыңыз. олардың айырмасы нешеге тең?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "استخدم الأرقام 7، 7، 5، 4، 1 لكتابة أكبر عدد وأصغر عدد يتكون من خمسة أرقام. كم يساوي الفرق بينهما؟\n",
+          "areg": "استخدم الأرقام 9، 9، 8، 5، 2 لكتابة أكبر عدد وأصغر عدد يتكون من خمسة أرقام. كم يساوي الفرق بينهما؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_1_48",
       "position": 8,
-      "id": "56506857-5b0b-4c10-b80e-28d03c084cdb",
+      "id": "97311789-584a-4bdf-8a26-23f4cd6adf76",
       "solution": {
         "type": "text",
         "answer": {
@@ -6509,7 +6509,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "62964",
+          "rus": "73953",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6584,11 +6584,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "z",
-        "letter1": "y",
-        "number": 18
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Hərfi ifadə şəklində yazın.",
@@ -6602,26 +6597,31 @@
         "areg": "اكتب هذه المسألة في شكل تعبير رياضي:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "z",
+        "letter1": "b",
+        "number": 33
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "\\(y\\) ədədini \\(z\\) ədədi ilə 18-in nisbətinə vurun.",
-          "kgz": "\\(y\\) тамгасынан \\(z\\) жана 18 санынын тийиндисине көбөйтүңүз.",
-          "uzb": "\\(y\\) harfiga \\(z\\) va 18 ning bo'linmasini ko'paytiring.",
-          "eng": "Multiply the quotient of \\(z\\) and 18 by the letter \\(y\\).",
-          "rus": "Букву \\(y\\) умножьте на частное \\(z\\) и 18.",
-          "kaz": "\\(y\\) әрпіне \\(z\\) және 18-дің бөліндісін көбейтіңіз.",
+          "aze": "\\(b\\) ədədini \\(z\\) ədədi ilə 33-ün nisbətinə vurun.",
+          "kgz": "\\(b\\) тамгасынан \\(z\\) жана 33 санынын тийиндисине көбөйтүңүз.",
+          "uzb": "\\(b\\) harfiga \\(z\\) va 33 ning bo'linmasini ko'paytiring.",
+          "eng": "Multiply the quotient of \\(z\\) and 33 by the letter \\(b\\).",
+          "rus": "Букву \\(b\\) умножьте на частное \\(z\\) и 33.",
+          "kaz": "\\(b\\) әрпіне \\(z\\) және 33-тің бөліндісін көбейтіңіз.",
           "arjd": "",
           "arsa": "",
-          "areg": "اضرب \\(y\\) في خارج قسمة \\(z\\) على 18.",
+          "areg": "اضرب \\(b\\) في خارج قسمة \\(z\\) على 33.",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_3_2_12",
       "position": 11,
-      "id": "2362aa57-aa5b-4280-93a8-a572a3d4918f",
+      "id": "311101e5-9a27-4655-9ad1-d88a9e7c264d",
       "solution": {
         "type": "text",
         "answer": {
@@ -6632,7 +6632,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "y \\cdot (z : 18)",
+          "rus": "b \\cdot (z : 33)",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6707,35 +6707,35 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "b": 6,
-        "e": 3,
-        "d": 4,
-        "a": 9,
-        "f": 2,
-        "c": 5
-      },
       "title": null,
+      "fields": {
+        "b": 8,
+        "e": 4,
+        "d": 5,
+        "f": 2,
+        "a": 9,
+        "c": 7
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "9, 6, 5, 4, 3, 2 rəqəmlərindən istifadə edərək ən böyük və ən kiçik altırəqəmli ədədləri yazın. Onların fərqi nə qədərdir?\n",
-          "kgz": "9, 6, 5, 4, 3, 2 цифралары менен эң чоң жана эң кичине алты орундуу сандарды жазыңыз. Алардын айырмасы канчага барабар?\n",
-          "uzb": "9, 6, 5, 4, 3, 2 raqamlaridan eng katta va eng kichik olti xonali sonlarni yozing.\nUlarning ayirmasi nechaga teng?\n",
-          "eng": "Write the greatest and smallest six-digit numbers you can create using the digits 9, 6, 5, 4, 3, and 2.\nWhat is the difference between these two numbers?\n",
-          "rus": "Запишите наибольшее и наименьшее шестизначные числа из цифр 9, 6, 5, 4, 3, 2.Чему равна их разность?\n",
-          "kaz": "9, 6, 5, 4, 3, 2 цифрларынан ең үлкен және ең кіші алты таңбалы сандарды жазыңыз. Олардың айырмасы нешеге тең?\n",
+          "aze": "9, 8, 7, 5, 4, 2 rəqəmlərindən istifadə edərək ən böyük və ən kiçik altırəqəmli ədədləri yazın. Onların fərqi nə qədərdir?\n",
+          "kgz": "9, 8, 7, 5, 4, 2 цифралары менен эң чоң жана эң кичине алты орундуу сандарды жазыңыз. Алардын айырмасы канчага барабар?\n",
+          "uzb": "9, 8, 7, 5, 4, 2 raqamlaridan eng katta va eng kichik olti xonali sonlarni yozing.\nUlarning ayirmasi nechaga teng?\n",
+          "eng": "Write the greatest and smallest six-digit numbers you can create using the digits 9, 8, 7, 5, 4, and 2.\nWhat is the difference between these two numbers?\n",
+          "rus": "Запишите наибольшее и наименьшее шестизначные числа из цифр 9, 8, 7, 5, 4, 2.Чему равна их разность?\n",
+          "kaz": "9, 8, 7, 5, 4, 2 цифрларынан ең үлкен және ең кіші алты таңбалы сандарды жазыңыз. Олардың айырмасы нешеге тең?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "استخدم الأرقام 9, 6, 5, 4, 3, 2 لكتابة أكبر عدد وأصغر عدد يتكون من ستة أرقام. كم يساوي الفرق بينهما؟\n",
+          "areg": "استخدم الأرقام 9, 8, 7, 5, 4, 2 لكتابة أكبر عدد وأصغر عدد يتكون من ستة أرقام. كم يساوي الفرق بينهما؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_4_42",
       "position": 7,
-      "id": "a15fadc3-e394-41d0-a577-3e919f9671b8",
+      "id": "137855d2-47a6-48c3-87f4-8155e46225f4",
       "solution": {
         "type": "text",
         "answer": {
@@ -6746,7 +6746,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "730863",
+          "rus": "741753",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6821,10 +6821,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter": "b",
-        "number": 38
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -6838,26 +6834,30 @@
         "areg": "حل المسألة بإنشاء تعبير.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter": "a",
+        "number": 23
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Usta \\(b\\) ədəd detal hazırladı. Ustanın köməkçisi isə ondan 38 detal daha az hazırladı.\nUstanın köməkçisinin hazırladığı detalların sayını ifadə şəklində yazın.\n",
-          "kgz": "Уста \\(b\\) тетик жасаган. Ал эми устанын жардамчысы 38 тетикти аз чыгарган.\nУстанын  жардамчысы жасаган тетиктердин санын табуунун туюнтмасын  түзүңүз.\n",
-          "uzb": "Usta \\(b\\) dona detal yasadi. Shogirdi esa ustozidan 38 ta kam detal yasadi.\nShogirdi yasagan detallar sonini algebraik ifoda ko'rinishida yozing.\n",
-          "eng": "The master made \\(b\\) parts, and the assistant foreman made 38 fewer parts.\nWrite the number of parts that the assistant foreman made as an expression.\n",
-          "rus": "Мастер изготовил \\(b\\) деталей. А помощник мастера изготовил на 38 деталей меньше.\nЗапишите количество деталей, которые изготовил помощник мастера, составив выражение.\n",
-          "kaz": "Шебер \\(b\\) дана бөлшек жасады. Ал шебердің көмекшісі одан 38-ге кем бөлшек жасады.\nШебердің көмекшісінің жасаған бөлшектер санын өрнек құрып жазыңыз.\n",
+          "aze": "Usta \\(a\\) ədəd detal hazırladı. Ustanın köməkçisi isə ondan 23 detal daha az hazırladı.\nUstanın köməkçisinin hazırladığı detalların sayını ifadə şəklində yazın.\n",
+          "kgz": "Уста \\(a\\) тетик жасаган. Ал эми устанын жардамчысы 23 тетикти аз чыгарган.\nУстанын  жардамчысы жасаган тетиктердин санын табуунун туюнтмасын  түзүңүз.\n",
+          "uzb": "Usta \\(a\\) dona detal yasadi. Shogirdi esa ustozidan 23 ta kam detal yasadi.\nShogirdi yasagan detallar sonini algebraik ifoda ko'rinishida yozing.\n",
+          "eng": "The master made \\(a\\) parts, and the assistant foreman made 23 fewer parts.\nWrite the number of parts that the assistant foreman made as an expression.\n",
+          "rus": "Мастер изготовил \\(a\\) деталей. А помощник мастера изготовил на 23 детали меньше.\nЗапишите количество деталей, которые изготовил помощник мастера, составив выражение.\n",
+          "kaz": "Шебер \\(a\\) дана бөлшек жасады. Ал шебердің көмекшісі одан 23-ке кем бөлшек жасады.\nШебердің көмекшісінің жасаған бөлшектер санын өрнек құрып жазыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا صنع العامل \\(b\\) قطعة من الفخار، وصنع مساعده 38 قطعة من الفخار أقل منه،\nفاكتب تعبيرًا يمثل عدد القطع التي صنعها المساعد.\n",
+          "areg": "إذا صنع العامل \\(a\\) قطعة من الفخار، وصنع مساعده 23 قطعة من الفخار أقل منه،\nفاكتب تعبيرًا يمثل عدد القطع التي صنعها المساعد.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_17_2",
       "position": 1,
-      "id": "1eb770f4-ec90-4a1d-8fd3-ae15e8485cb6",
+      "id": "fb89c3c5-eed5-48e5-aa8d-5fe1daf1bf19",
       "solution": {
         "type": "text",
         "answer": {
@@ -6868,7 +6868,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "b-38",
+          "rus": "a-23",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -6943,11 +6943,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 42,
-        "number1": 10,
-        "letter": "z"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -6961,26 +6956,31 @@
         "areg": "حل المسألة بإنشاء تعبير.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 22,
+        "number1": 11,
+        "letter": "x"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "İşçi \\(z\\) qutu hazırladı. Bu, hazırlanmalı olan bütün qutuların \\(\\frac{1}{10}\\) hissəsini təşkil edir.\nİşçi ümumilikdə neçə qutu hazırlamalıdır? Burada \\(z\\) = 42.\n",
-          "kgz": "Жумушчу \\(z\\) кутучаларды жасаган, бул бардык кутулардын  \\(\\frac{1}{10}\\) бөлүгүн түзөт.\nЖумушчу бардыгы болуп канча кутуча жасашы керек? Мында \\(z\\) = 42.\n",
-          "uzb": "Bir ishchi \\(z\\) quti ishlab chiqardi, bu ishlab chiqarilishi kerak bo'lgan jami qutilarning \\(\\frac{1}{10}\\) qismini tashkil qiladi.\nIshchi jami qancha quti ishlab chiqarishi kerak? Bu yerda \\(z\\) = 42.\n",
-          "eng": "The worker makes \\(z\\) boxes, which is \\(\\frac{1}{10}\\) of all the boxes that need to be made.\nWrite the total number of boxes the worker has to make as an expression. Here \\(z\\) = 42\n",
-          "rus": "Рабочий изготовил \\(z\\) коробок, что составляет \\(\\frac{1}{10}\\) часть всех коробок, которые надо изготовить.\nСколько всего коробок должен изготовить рабочий? Здесь \\(z\\) = 42.\n",
-          "kaz": "Жұмысшы \\(z\\) қорап әзірледі, бұл жасау керек қораптың \\(\\frac{1}{10}\\) бөлігін құрайды.\nЖұмысшы қанша қорап әзірлеу керек? Мұндағы \\(z\\) = 42.\n",
+          "aze": "İşçi \\(x\\) qutu hazırladı. Bu, hazırlanmalı olan bütün qutuların \\(\\frac{1}{11}\\) hissəsini təşkil edir.\nİşçi ümumilikdə neçə qutu hazırlamalıdır? Burada \\(x\\) = 22.\n",
+          "kgz": "Жумушчу \\(x\\) кутучаларды жасаган, бул бардык кутулардын  \\(\\frac{1}{11}\\) бөлүгүн түзөт.\nЖумушчу бардыгы болуп канча кутуча жасашы керек? Мында \\(x\\) = 22.\n",
+          "uzb": "Bir ishchi \\(x\\) quti ishlab chiqardi, bu ishlab chiqarilishi kerak bo'lgan jami qutilarning \\(\\frac{1}{11}\\) qismini tashkil qiladi.\nIshchi jami qancha quti ishlab chiqarishi kerak? Bu yerda \\(x\\) = 22.\n",
+          "eng": "The worker makes \\(x\\) boxes, which is \\(\\frac{1}{11}\\) of all the boxes that need to be made.\nWrite the total number of boxes the worker has to make as an expression. Here \\(x\\) = 22\n",
+          "rus": "Рабочий изготовил \\(x\\) коробок, что составляет \\(\\frac{1}{11}\\) часть всех коробок, которые надо изготовить.\nСколько всего коробок должен изготовить рабочий? Здесь \\(x\\) = 22.\n",
+          "kaz": "Жұмысшы \\(x\\) қорап әзірледі, бұл жасау керек қораптың \\(\\frac{1}{11}\\) бөлігін құрайды.\nЖұмысшы қанша қорап әзірлеу керек? Мұндағы \\(x\\) = 22.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "صنع العامل \\(z\\) صندوقًا، وهذا يمثل \\(\\frac{1}{10}\\) جزءًا من إجمالي عدد الصناديق التي يجب صنعها.\nكم إجمالي عدد الصناديق التي يجب على العامل صنعها؟ حيث 42 = \\(z\\)\n",
+          "areg": "صنع العامل \\(x\\) صندوقًا، وهذا يمثل \\(\\frac{1}{11}\\) جزءًا من إجمالي عدد الصناديق التي يجب صنعها.\nكم إجمالي عدد الصناديق التي يجب على العامل صنعها؟ حيث 22 = \\(x\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_17_9",
       "position": 8,
-      "id": "6602952b-dbe4-4f29-82ea-d2cd025ca99e",
+      "id": "955659b3-9c17-4123-a91f-51cda381b1a7",
       "solution": {
         "type": "text",
         "answer": {
@@ -6991,7 +6991,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "420",
+          "rus": "242",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -7066,32 +7066,32 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "name2": "bahyt",
-        "name3": "eldos",
-        "name1": "abzal"
-      },
       "title": null,
+      "fields": {
+        "name2": "ramazan",
+        "name3": "abzal",
+        "name1": "zholdas"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "100 m final qaçışında Orxan, Aydın və Elçin iştirak edirlər.\nMükafat yerlərinin mümkün variantlarını adlandırın.\n",
-          "kgz": "100 м ге чуркоодо  Айбек, Бакыт жана Элдос катышышты.\nАлдыңкы орундарды бөлүштүрүүнүн  мүмкүн болгон варианттарын атаңыз.\n",
-          "uzb": "100 metrga yugurishda Akobir, Baxtiyor va Eldos ishtirok etadi.\nBolalarning marraga yetib kelishining necha hil usuli bor?\n",
-          "eng": "Thomas, Ruslan and William are participating in the final 100 m race.\nList all possible ways they can win 1st, 2nd, and 3rd places.\n",
-          "rus": "В финальном забеге на 100 м участвуют Матвей, Руслан и Сергей.\nНазовите возможные варианты распределения призовых мест.\n",
-          "kaz": "100 м жүгіруге Абзал, Бахыт және Елдос қатысады. Балалардың мәреге келуінің неше мүмкін нұсқасы бар?\n",
+          "aze": "100 m final qaçışında Eldar, Elçin və Orxan iştirak edirlər.\nMükafat yerlərinin mümkün variantlarını adlandırın.\n",
+          "kgz": "100 м ге чуркоодо  Жолдош, Айып жана Айбек катышышты.\nАлдыңкы орундарды бөлүштүрүүнүн  мүмкүн болгон варианттарын атаңыз.\n",
+          "uzb": "100 metrga yugurishda Javlon, Ramazon va Akobir ishtirok etadi.\nBolalarning marraga yetib kelishining necha hil usuli bor?\n",
+          "eng": "Brian, Aleksey and Thomas are participating in the final 100 m race.\nList all possible ways they can win 1st, 2nd, and 3rd places.\n",
+          "rus": "В финальном забеге на 100 м участвуют Андрей, Алексей и Матвей.\nНазовите возможные варианты распределения призовых мест.\n",
+          "kaz": "100 м жүгіруге Жолдас, Рамазан және Абзал қатысады. Балалардың мәреге келуінің неше мүмкін нұсқасы бар?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا شارك محمد وسعيد وخالد في سباق 100 متر، فكم عدد الاحتمالات المختلفة لوصولهم إلى خط النهاية؟\n",
+          "areg": "إذا شارك إبراهيم ومحمد ورمضان في سباق 100 متر، فكم عدد الاحتمالات المختلفة لوصولهم إلى خط النهاية؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_13_2",
       "position": 3,
-      "id": "2179dd56-ca3e-4151-9840-17c4544c3b6e",
+      "id": "bc171033-57d6-48c1-88c9-ca546b39a5bf",
       "solution": {
         "type": "text",
         "answer": {
@@ -7177,35 +7177,35 @@
       },
       "difficulty": null,
       "result": "none",
+      "title": null,
       "fields": {
         "name6": "azhar",
-        "name2": "zholdas",
+        "name2": "ramazan",
         "name3": "saiat",
         "name4": "aiman",
-        "name5": "adia",
-        "name1": "omar"
+        "name5": "aiym",
+        "name1": "nariman"
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Rəqs dərnəyinə Murad, Eldar, Anar, Aygün, Sevda, Gülər yazılıb. Qızlar və oğlanlar neçə rəqs cütlüyü yarada bilər?\n",
-          "kgz": "Өмүрбек, Жолдош, Саяк, Айтурган, Аделина, Асыл бал бий ийримине жазылышты.\nКыздар менен балдар канча жупту түзө алат?\n",
-          "uzb": "Raqs to‘garagida Umar, Javlon, Sardor, Dilfuza, Malika, Farangiz qatnashadi.\nO'g'il bolalar va qizlar nechta raqs juftligi bo'lishi mumkin?\n",
-          "eng": "Oleg, Brian, and Roman join the ballroom dance club with Irina, Olga, and Linda.\nHow many dance pairs can they make between the boys and girls?\n",
-          "rus": "В кружок бального танца записались Олег, Андрей, Роман, Ирина, Ольга, Анна. Сколько танцевальных пар девочки и мальчики могут образовать?\n",
-          "kaz": "Би үйірмесіне Омар, Жолдас, Саят, Айман, Адия, Ажар қатысады. Ұлдар мен қыздар неше би жұптарын құра алады?\n",
+          "aze": "Rəqs dərnəyinə Nurlan, Elçin, Anar, Aygün, Türkan, Gülər yazılıb. Qızlar və oğlanlar neçə rəqs cütlüyü yarada bilər?\n",
+          "kgz": "Надырбек, Айып, Саяк, Айтурган, Айым, Асыл бал бий ийримине жазылышты.\nКыздар менен балдар канча жупту түзө алат?\n",
+          "uzb": "Raqs to‘garagida Nodir, Ramazon, Sardor, Dilfuza, Asal, Farangiz qatnashadi.\nO'g'il bolalar va qizlar nechta raqs juftligi bo'lishi mumkin?\n",
+          "eng": "Andrew, Aleksey, and Roman join the ballroom dance club with Irina, , and Linda.\nHow many dance pairs can they make between the boys and girls?\n",
+          "rus": "В кружок бального танца записались Егор, Алексей, Роман, Ирина, София, Анна. Сколько танцевальных пар девочки и мальчики могут образовать?\n",
+          "kaz": "Би үйірмесіне Нариман, Рамазан, Саят, Айман, Айым, Ажар қатысады. Ұлдар мен қыздар неше би жұптарын құра алады?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "في مسابقة الشطرنج يشارك الأولاد عمر وإبراهيم وسعيد مع البنات سلمى وزينب وحليمة.\nإذا كل فريق يتكوّن من لاعب ولاعبة، فكم عدد الفرق المحتملة؟\n",
+          "areg": "في مسابقة الشطرنج يشارك الأولاد كريم ورمضان وسعيد مع البنات سلمى ولبنى وحليمة.\nإذا كل فريق يتكوّن من لاعب ولاعبة، فكم عدد الفرق المحتملة؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_13_3",
       "position": 4,
-      "id": "6b47af0f-316b-487e-8b9a-325c7a129a45",
+      "id": "5aefb83f-346c-4b18-a92f-2c8ee644e884",
       "solution": {
         "type": "text",
         "answer": {
@@ -7291,32 +7291,32 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "lesson3": "painting",
-        "lesson2": "native_language",
-        "lesson1": "knowledge_world"
-      },
       "title": null,
+      "fields": {
+        "lesson3": "natural_science",
+        "lesson2": "math",
+        "lesson1": "native_language"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Həyat bilgisi, ana dili və rəsm fənləri üzrə cədvəl tərtib etmək lazımdır. Cədvəl tərtib etmək üçün neçə mümkün variant var?\n",
-          "kgz": "Табият таануу, Эне тили жана Сүрөт сабактарынан түзүлгөн сабактын жүгүртмөсүн түзүшүбүз керек.\nСабактын жүгүртмөсүн түзүү үчүн канча вариант бар?\n",
-          "uzb": "Dunyoshunoslik, ona tili va rasm fanlaridan dars jadvalini tuzish kerak.\nDars jadvalini necha xil usulda tuzish mumkin?\n",
-          "eng": "You need to make a schedule for the subjects: world studies, native language, and painting.\nHow many possible ways are there to arrange the schedule?\n",
-          "rus": "Нужно составить расписание по предметам мироведение, родной язык и рисование. Сколько различных вариантов составления расписания существует?\n",
-          "kaz": "Дүниетану, ана тілі және бейнелеу пәндерінен сабақ кестесін құрау керек. Сабақ кестесін неше түрлі тәсілмен құрастыруға болады?\n",
+          "aze": "Ana dili, riyaziyyat və təbiət fənləri üzrə cədvəl tərtib etmək lazımdır. Cədvəl tərtib etmək üçün neçə mümkün variant var?\n",
+          "kgz": "Эне тили, математика жана жаратылыш сабактарынан түзүлгөн сабактын жүгүртмөсүн түзүшүбүз керек.\nСабактын жүгүртмөсүн түзүү үчүн канча вариант бар?\n",
+          "uzb": "Ona tili, matematika va tabiatshunoslik fanlaridan dars jadvalini tuzish kerak.\nDars jadvalini necha xil usulda tuzish mumkin?\n",
+          "eng": "You need to make a schedule for the subjects: native language, math, and natural science.\nHow many possible ways are there to arrange the schedule?\n",
+          "rus": "Нужно составить расписание по предметам родной язык, математика и естествознание. Сколько различных вариантов составления расписания существует?\n",
+          "kaz": "Ана тілі, математика және жаратылыстану пәндерінен сабақ кестесін құрау керек. Сабақ кестесін неше түрлі тәсілмен құрастыруға болады?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا كنا نحتاج إلى إعداد جدول حصص بطرق مختلفة لثلاث مواد دراسية هي الدراسات الاجتماعية واللغة الأم العربية والتربية الفنية، فبكم طريقة يمكن ترتيب الجدول؟\n",
+          "areg": "إذا كنا نحتاج إلى إعداد جدول حصص بطرق مختلفة لثلاث مواد دراسية هي اللغة الأم والرياضيات العربية والعلوم الطبيعية ، فبكم طريقة يمكن ترتيب الجدول؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_13_4",
       "position": 5,
-      "id": "4a341998-5108-46a4-90d2-1b19da7f6bd2",
+      "id": "fc30fe3e-6572-4fea-be00-93c3d8588e20",
       "solution": {
         "type": "text",
         "answer": {

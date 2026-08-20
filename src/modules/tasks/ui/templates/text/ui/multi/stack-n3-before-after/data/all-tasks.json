@@ -123,32 +123,32 @@
           },
           "difficulty": null,
           "result": "none",
-          "fields": {
-            "number3": 293,
-            "number2": 588,
-            "number1": 665
-          },
           "title": null,
+          "fields": {
+            "number3": 294,
+            "number2": 590,
+            "number1": 666
+          },
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Alboma, boyalara və karandaşlara 665 qəpik xərclənib.\nAlboma və boyalara 588 qəpik, boyalara və karandaşlara isə 293 qəpik xərclənib.\nAlbom, boya və karandaşların hər birinin ayrı-ayrılıqda qiymətini tapın.\n",
-              "kgz": "Альбом, боектор жана калемдер 665 сомго сатып алынган.\nАльбом жана боектор үчүн 588 сом, боектор жана калемдер үчүн - 293 сом төлөштү.\nАльбом, боектор жана калемдердин ар бири канча акча турат?\n",
-              "uzb": "665 so'mga albom, bo'yoq va qalam sotib olindi.\nAlbom va bo'yoqqa 588 so'm, bo'yoq va qalamga esa 293 so'm to'landi.\nAlbom, bo'yoq va qalamning alohida narxi necha so'm?\n",
-              "eng": "An album, paints, and pencils are bought for 665 cents.\nThe cost of the album and paints is 588 cents, and the cost of the paints and pencils is 293 cents.\nHow much does each item cost?\n",
-              "rus": "Альбом, краски и карандаши были куплены за 665 тенге.\nЗа альбом и краски заплатили 588 тенге, за краски и карандаши - 293 тенге.\nСколько стоит альбом, краски и карандаши по отдельности?\n",
-              "kaz": "665 теңгеге альбом, бояу және қарындаш сатып алынды.\nАльбом мен бояуға 588 теңге, ал бояу мен қарындашқа 293 теңге төленді.\nАльбом, бояу және қарындаш жеке-жеке қанша теңге тұрады?\n",
+              "aze": "Alboma, boyalara və karandaşlara 666 qəpik xərclənib.\nAlboma və boyalara 590 qəpik, boyalara və karandaşlara isə 294 qəpik xərclənib.\nAlbom, boya və karandaşların hər birinin ayrı-ayrılıqda qiymətini tapın.\n",
+              "kgz": "Альбом, боектор жана калемдер 666 сомго сатып алынган.\nАльбом жана боектор үчүн 590 сом, боектор жана калемдер үчүн - 294 сом төлөштү.\nАльбом, боектор жана калемдердин ар бири канча акча турат?\n",
+              "uzb": "666 so'mga albom, bo'yoq va qalam sotib olindi.\nAlbom va bo'yoqqa 590 so'm, bo'yoq va qalamga esa 294 so'm to'landi.\nAlbom, bo'yoq va qalamning alohida narxi necha so'm?\n",
+              "eng": "An album, paints, and pencils are bought for 666 cents.\nThe cost of the album and paints is 590 cents, and the cost of the paints and pencils is 294 cents.\nHow much does each item cost?\n",
+              "rus": "Альбом, краски и карандаши были куплены за 666 тенге.\nЗа альбом и краски заплатили 590 тенге, за краски и карандаши - 294 тенге.\nСколько стоит альбом, краски и карандаши по отдельности?\n",
+              "kaz": "666 теңгеге альбом, бояу және қарындаш сатып алынды.\nАльбом мен бояуға 590 теңге, ал бояу мен қарындашқа 294 теңге төленді.\nАльбом, бояу және қарындаш жеке-жеке қанша теңге тұрады?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "اشترى طالب كراسة رسم وعلبة ألوان مائية ودستة أقلام رصاص بسعر 665 جنيهًا.\nإذا دفع 588 جنيهًا ثمن كراسة الرسم وعلبة الألوان المائية، ودفع 293 جنيهات ثمن علبة الألوان المائية ودستة أقلام الرصاص،\nفما هو سعر كراسة الرسم وعلبة الألوان المائية ودستة أقلام الرصاص كل على حدة؟\n",
+              "areg": "اشترى طالب كراسة رسم وعلبة ألوان مائية ودستة أقلام رصاص بسعر 666 جنيهًا.\nإذا دفع 590 جنيهًا ثمن كراسة الرسم وعلبة الألوان المائية، ودفع 294 جنيهات ثمن علبة الألوان المائية ودستة أقلام الرصاص،\nفما هو سعر كراسة الرسم وعلبة الألوان المائية ودستة أقلام الرصاص كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_3_12_10",
           "position": 9,
-          "id": "56aabbae-8ecb-46a9-b7d8-f092f55e15fc",
+          "id": "cadd4831-9841-4075-a678-50b83e77e9f5",
           "solution": {
             "type": "text",
             "answer": {
@@ -159,7 +159,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "372;;216;;77",
+              "rus": "372;;218;;76",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"
@@ -317,32 +317,32 @@
           },
           "difficulty": null,
           "result": "none",
+          "title": null,
           "fields": {
-            "number3": 189,
-            "number2": 309,
+            "number3": 187,
+            "number2": 307,
             "number1": 392
           },
-          "title": null,
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Qələm, silgi və karandaş 392 qəpiyə alınıb.\nQələm və silgi üçün 309 qəpik, qələm və karandaş üçün 189 qəpik ödəyiblər.\nQələm, silgi və karandaş ayrılıqda neçə qəpikdir?\n",
-              "kgz": "Калем сап, өчүргүч жана калем  392 сом турат.\nКалем сап жана өчүргүч үчун 309 сом, калем сап жана калем үчүн – 189 сом төлөштү.\nКалем сап, өчүргүч жана калемдин ар бири канча турат?\n",
-              "uzb": "392 so'mga qalam, o'chirg'ich va ruchka sotib olindi.\nQalam va o'chirg'ichga 309 so'm, qalam va ruchkaga esa 189 so'm to'landi.\nQalam, o'chirg'ich va ruchka har birining narxi necha so'm?\n",
-              "eng": "A pen, eraser, and pencil are bought for 392 cents.\nThe pen and eraser cost 309 cents, and the pen and pencil cost 189 cents.\nHow much does each item cost?\n",
-              "rus": "Ручка, ластик и карандаш куплены на 392 тенге.\nЗа ручку и ластик заплатили 309 тенге, за ручку и карандаш – 189 тенге.\nСколько стоит ручка, ластик и карандаш по отдельности?\n",
-              "kaz": "392 теңгеге қалам, өшіргіш және қарындаш сатып алынды.\nҚалам мен өшіргішке 309 теңге, ал қалам мен қарындашқа 189 теңге төленді.\nҚалам, өшіргіш және қарындаш әрқайсысы неше теңгеден тұрады?\n",
+              "aze": "Qələm, silgi və karandaş 392 qəpiyə alınıb.\nQələm və silgi üçün 307 qəpik, qələm və karandaş üçün 187 qəpik ödəyiblər.\nQələm, silgi və karandaş ayrılıqda neçə qəpikdir?\n",
+              "kgz": "Калем сап, өчүргүч жана калем  392 сом турат.\nКалем сап жана өчүргүч үчун 307 сом, калем сап жана калем үчүн – 187 сом төлөштү.\nКалем сап, өчүргүч жана калемдин ар бири канча турат?\n",
+              "uzb": "392 so'mga qalam, o'chirg'ich va ruchka sotib olindi.\nQalam va o'chirg'ichga 307 so'm, qalam va ruchkaga esa 187 so'm to'landi.\nQalam, o'chirg'ich va ruchka har birining narxi necha so'm?\n",
+              "eng": "A pen, eraser, and pencil are bought for 392 cents.\nThe pen and eraser cost 307 cents, and the pen and pencil cost 187 cents.\nHow much does each item cost?\n",
+              "rus": "Ручка, ластик и карандаш куплены на 392 тенге.\nЗа ручку и ластик заплатили 307 тенге, за ручку и карандаш – 187 тенге.\nСколько стоит ручка, ластик и карандаш по отдельности?\n",
+              "kaz": "392 теңгеге қалам, өшіргіш және қарындаш сатып алынды.\nҚалам мен өшіргішке 307 теңге, ал қалам мен қарындашқа 187 теңге төленді.\nҚалам, өшіргіш және қарындаш әрқайсысы неше теңгеден тұрады?\n",
               "arjd": "",
               "arsa": "",
-              "areg": "اشترى مصطفى من المكتبة علبة ألوان وكتابًا وكراسة رسم بمبلغ 392 جنيهًا.\nإذا دفع مصطفى 309 جنيهات ثمن الكتاب وكراسة الرسم،\nودفع 189 جنيهًا ثمن علبة الألوان وكراسة الرسم،\nفما هو سعر علبة الألوان والكتاب وكراسة الرسم كل على حدة؟\n",
+              "areg": "اشترى مصطفى من المكتبة علبة ألوان وكتابًا وكراسة رسم بمبلغ 392 جنيهًا.\nإذا دفع مصطفى 307 جنيهات ثمن الكتاب وكراسة الرسم،\nودفع 187 جنيهًا ثمن علبة الألوان وكراسة الرسم،\nفما هو سعر علبة الألوان والكتاب وكراسة الرسم كل على حدة؟\n",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_6_7_12",
           "position": 11,
-          "id": "0094419a-dd63-43b9-929a-8b7c891b9081",
+          "id": "f42b57e1-6814-4100-afd0-935092b30112",
           "solution": {
             "type": "text",
             "answer": {
@@ -353,7 +353,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "106;;203;;83",
+              "rus": "102;;205;;85",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

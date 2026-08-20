@@ -15,7 +15,7 @@ export const TasksNum = () => {
   const hasAdditionalTasks = tasksCount > initialTasksCount
 
   return (
-    <>
+    <span data-testid="tasks-num">
       {taskNum}
 
       {'/'}
@@ -28,6 +28,6 @@ export const TasksNum = () => {
       ) : (
         tasksCount
       )}
-    </>
+    </span>
   )
 }

@@ -15,9 +15,13 @@ export const EVENTS = {
   HISTORY_LIST_RESULT: `${ADDON_ID}/history-list-result`,
   HISTORY_READ: `${ADDON_ID}/history-read`,
   HISTORY_READ_RESULT: `${ADDON_ID}/history-read-result`,
+  QA_LIST: `${ADDON_ID}/qa-list`,
+  QA_LIST_RESULT: `${ADDON_ID}/qa-list-result`,
+  QA_SET_REVIEWED: `${ADDON_ID}/qa-set-reviewed`,
+  QA_SET_REVIEWED_RESULT: `${ADDON_ID}/qa-set-reviewed-result`,
 } as const
 
-export type TestSuite = 'unit' | 'interactions' | 'e2e'
+export type TestSuite = 'unit' | 'interactions' | 'e2e' | 'visual'
 
 /** Catalog smoke scope. `all` = full suite (legacy Run behaviour). */
 export type TestScope = 'all' | 'allGroups' | 'allTasks'
@@ -38,6 +42,8 @@ export type RunPayload = {
   task?: string
   /** E2e only: fast run (default true). false → video/trace on failure. */
   e2eFast?: boolean
+  /** Visual only: rewrite Playwright PNG baselines (`--update-snapshots`). */
+  updateSnapshots?: boolean
 }
 
 export type StopPayload = {
@@ -136,8 +142,7 @@ export const SCOPE_LABELS: Record<TestScope, string> = {
 
 /** One-line hint under the selected scope in the hub. */
 export const SCOPE_HINTS: Record<TestScope, string> = {
-  allGroups:
-    'Все layout/groups из groups.json — структуры UI шаблона',
+  allGroups: 'Все layout/groups из groups.json — структуры UI шаблона',
   allTasks:
     'Уникальные задачи из all-tasks.json выбранного класса (класс «все» = все классы); в e2e — по одной проверке на задачу',
   all: 'Полный прогон без фильтра по каталогу заданий',
@@ -147,4 +152,41 @@ export const SUITE_LABELS: Record<TestSuite, string> = {
   unit: 'Данные и логика',
   interactions: 'Проверки в окне задачи',
   e2e: 'Проверки в живом приложении',
+  visual: 'Скриншотные проверки',
+}
+
+export type TemplateQaAuto = {
+  ok: boolean
+  runId?: string
+  at: number
+  scope: TestScope
+}
+
+export type TemplateQaReviewed = {
+  ok: boolean
+  at?: number
+  note?: string
+  runId?: string
+}
+
+export type TemplateQaEntry = {
+  template: string
+  auto: TemplateQaAuto
+  reviewed: TemplateQaReviewed
+}
+
+export type QaListResultPayload = {
+  entries: TemplateQaEntry[]
+}
+
+export type QaSetReviewedPayload = {
+  template: string
+  reviewed: boolean
+  note?: string
+  runId?: string
+}
+
+export type QaSetReviewedResultPayload = {
+  entries: TemplateQaEntry[]
+  error?: string
 }

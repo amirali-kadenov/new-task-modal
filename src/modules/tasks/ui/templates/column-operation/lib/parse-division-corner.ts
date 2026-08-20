@@ -64,7 +64,7 @@ const parseLargeFrac = (
   const dOpen = '\\frac{'.length - 1
   const dClose = matchingBrace(inner, dOpen)
   if (dClose < 0) return null
-  let i = skipSpace(inner, dClose + 1)
+  const i = skipSpace(inner, dClose + 1)
   if (inner[i] !== '{') return null
   const qClose = matchingBrace(inner, i)
   if (qClose < 0 || skipSpace(inner, qClose + 1) !== inner.length) return null
@@ -77,6 +77,15 @@ const parseLargeFrac = (
 
 const CORNER_START = '\\left.'
 const VERT = '\\right\\vert'
+
+/**
+ * Whether `tex` contains the «уголок» shape at all, regardless of whether
+ * the quotient slot is parseable (e.g. a phantom-only placeholder in the
+ * question-form CMS text). Use this to decide "is this a division corner"
+ * without requiring a successful full parse.
+ */
+export const isDivisionCornerTex = (tex: string): boolean =>
+  tex.includes(CORNER_START) && tex.includes(VERT)
 
 export type DivisionCornerParts = {
   dividend: string

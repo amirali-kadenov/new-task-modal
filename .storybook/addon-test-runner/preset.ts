@@ -5,22 +5,20 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import { parsePlaywrightJson } from '../../src/modules/testing/lib/parse-playwright-json'
+import { parseVitestJson } from '../../src/modules/testing/lib/parse-vitest-json'
 import {
   appendHistoryRun,
   backfillHistoryFromDirs,
   readHistoryIndex,
   readRunLog,
 } from '../../src/modules/testing/lib/run-history'
-import { withDescriptionRu } from '../../src/modules/testing/lib/suite-case-ru'
 import { stripAnsi } from '../../src/modules/testing/lib/strip-ansi'
+import { withDescriptionRu } from '../../src/modules/testing/lib/suite-case-ru'
 import {
-  GRADE_ENV,
-  SCOPE_ENV,
-  TEMPLATE_ENV,
-  TASK_ENV,
-  vitestFilterPattern,
-} from '../../src/modules/testing/lib/test-scope'
-import { parseVitestJson } from '../../src/modules/testing/lib/parse-vitest-json'
+  applyVisualRunToQa,
+  readTemplateQa,
+  setTemplateReviewed,
+} from '../../src/modules/testing/lib/template-qa'
 import {
   EVENTS,
   type ArtifactItem,
@@ -31,6 +29,9 @@ import {
   type HistoryReadResultPayload,
   type HistoryRunRecord,
   type LogPayload,
+  type QaListResultPayload,
+  type QaSetReviewedPayload,
+  type QaSetReviewedResultPayload,
   type ResultsPayload,
   type RunPayload,
   type StopPayload,
@@ -39,6 +40,14 @@ import {
   type TestScope,
   type TestSuite,
 } from '../../src/modules/testing/lib/test-runner-events'
+import {
+  GRADE_ENV,
+  SCOPE_ENV,
+  TEMPLATE_ENV,
+  TASK_ENV,
+  vitestFileArgs,
+  vitestFilterPattern,
+} from '../../src/modules/testing/lib/test-scope'
 
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(dirname, '../..')
@@ -172,8 +181,7 @@ const normalizeGrade = (grade: TestGrade | undefined): string => {
 const normalizeTemplate = (template: string | undefined): string =>
   template?.trim() ?? ''
 
-const normalizeTask = (task: string | undefined): string =>
-  task?.trim() ?? ''
+const normalizeTask = (task: string | undefined): string => task?.trim() ?? ''
 
 const buildSpawn = (
   suite: TestSuite,
@@ -185,6 +193,7 @@ const buildSpawn = (
   template: string,
   task: string,
   e2eFast: boolean,
+  updateSnapshots = false,
 ): { command: string; args: string[]; env: NodeJS.ProcessEnv } => {
   const env: NodeJS.ProcessEnv = {
     ...process.env,
@@ -207,9 +216,18 @@ const buildSpawn = (
       '--reporter=json',
       `--outputFile=${jsonPath}`,
     ]
-    const pattern = vitestFilterPattern(scope, template || undefined)
-    if (pattern) {
-      args.push('-t', pattern)
+    const files = vitestFileArgs(suite, scope, template || undefined).filter(
+      (rel) => fs.existsSync(path.join(projectRoot, rel)),
+    )
+    // Narrow collect before -t so section-panel runs skip the full project.
+    args.push(...files)
+
+    // Unit catalog names need -t; storybook file-scoped runs must not use the
+    // unit-oriented pattern (story names like `All` never match → 0 executed).
+    const useNameFilter = suite === 'unit' || files.length === 0
+    if (useNameFilter) {
+      const pattern = vitestFilterPattern(scope, template || undefined)
+      if (pattern) args.push('-t', pattern)
     }
     return { command: 'npx', args, env }
   }
@@ -219,6 +237,22 @@ const buildSpawn = (
   env.E2E_FAST = e2eFast ? '1' : '0'
   if (!e2eFast) env.STORYBOOK_TEST_SCREENSHOT = '1'
   if (headed) env.HEADED = '1'
+
+  if (suite === 'visual') {
+    const args = ['playwright', 'test', '-c', 'e2e/visual/playwright.config.ts']
+    if (updateSnapshots) args.push('--update-snapshots')
+    if (headed) args.push('--headed')
+    if (scope === 'allGroups') {
+      args.push('--grep', String.raw`\[allGroups\]`)
+    } else if (scope === 'allTasks') {
+      args.push('--grep', String.raw`\[allTasks\]`)
+    }
+    if (template) {
+      const escaped = template.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      args.push('--grep', escaped)
+    }
+    return { command: 'npx', args, env }
+  }
 
   const args = ['playwright', 'test', '-c', 'e2e/playwright.config.ts']
   if (headed) args.push('--headed')
@@ -250,6 +284,8 @@ type ChannelEmit =
   | TemplatesListResultPayload
   | HistoryListResultPayload
   | HistoryReadResultPayload
+  | QaListResultPayload
+  | QaSetReviewedResultPayload
 
 type Channel = {
   on: (event: string, cb: (payload: never) => void) => void
@@ -265,16 +301,16 @@ export const experimental_serverChannel = async (channel: Channel) => {
   // (template-options.ts), not this channel — avoid importing catalog-fixtures
   // here: its @/ aliases fail under Storybook’s Node/CJS loader.
 
-  channel.on(EVENTS.HISTORY_LIST as string, (() => {
+  channel.on(EVENTS.HISTORY_LIST, () => {
     ensureDir(artifactsRoot)
     let runs = readHistoryIndex(artifactsRoot)
     if (runs.length === 0) {
       runs = backfillHistoryFromDirs(artifactsRoot)
     }
     channel.emit(EVENTS.HISTORY_LIST_RESULT, { runs })
-  }) as (payload: never) => void)
+  })
 
-  channel.on(EVENTS.HISTORY_READ as string, ((payload: HistoryReadPayload) => {
+  channel.on(EVENTS.HISTORY_READ, (payload: HistoryReadPayload) => {
     const persistDir = payload?.persistDir ?? ''
     const log = readRunLog(projectRoot, persistDir)
     const runs = readHistoryIndex(artifactsRoot)
@@ -286,9 +322,35 @@ export const experimental_serverChannel = async (channel: Channel) => {
       error: log ? undefined : 'Файл лога не найден',
     }
     channel.emit(EVENTS.HISTORY_READ_RESULT, result)
-  }) as (payload: never) => void)
+  })
 
-  channel.on(EVENTS.STOP as string, ((payload: StopPayload) => {
+  channel.on(EVENTS.QA_LIST, () => {
+    ensureDir(artifactsRoot)
+    channel.emit(EVENTS.QA_LIST_RESULT, {
+      entries: readTemplateQa(artifactsRoot),
+    })
+  })
+
+  channel.on(EVENTS.QA_SET_REVIEWED, (payload: QaSetReviewedPayload) => {
+    ensureDir(artifactsRoot)
+    const template = payload?.template?.trim() ?? ''
+    if (!template) {
+      channel.emit(EVENTS.QA_SET_REVIEWED_RESULT, {
+        entries: readTemplateQa(artifactsRoot),
+        error: 'Выберите шаблон',
+      })
+      return
+    }
+    const entries = setTemplateReviewed(
+      artifactsRoot,
+      template,
+      Boolean(payload.reviewed),
+      { note: payload.note, runId: payload.runId },
+    )
+    channel.emit(EVENTS.QA_SET_REVIEWED_RESULT, { entries })
+  })
+
+  channel.on(EVENTS.STOP, (payload: StopPayload) => {
     const target = payload?.suite
     const entries = target
       ? ([[target, running.get(target)]] as const).filter(
@@ -313,11 +375,12 @@ export const experimental_serverChannel = async (channel: Channel) => {
         })
       }
     }
-  }) as (payload: never) => void)
+  })
 
-  channel.on(EVENTS.RUN as string, ((payload: RunPayload) => {
+  channel.on(EVENTS.RUN, (payload: RunPayload) => {
     const suite = payload?.suite
-    if (!suite || !['unit', 'interactions', 'e2e'].includes(suite)) return
+    if (!suite || !['unit', 'interactions', 'e2e', 'visual'].includes(suite))
+      return
     if (running.has(suite)) {
       channel.emit(EVENTS.LOG, {
         suite,
@@ -341,7 +404,10 @@ export const experimental_serverChannel = async (channel: Channel) => {
     fs.mkdirSync(artifactDir, { recursive: true })
     ensureDir(persistAbs)
 
-    const headed = suite === 'e2e' && Boolean(payload.headed)
+    const headed =
+      (suite === 'e2e' || suite === 'visual') && Boolean(payload.headed)
+    const updateSnapshots =
+      suite === 'visual' && Boolean(payload.updateSnapshots)
     const { command, args, env } = buildSpawn(
       suite,
       headed,
@@ -352,12 +418,13 @@ export const experimental_serverChannel = async (channel: Channel) => {
       template,
       task,
       e2eFast,
+      updateSnapshots,
     )
 
     channel.emit(EVENTS.LOG, {
       suite,
       stream: 'stdout',
-      chunk: `[test-runner] ${command} ${args.join(' ')}\n[test-runner] scope=${scope} grade=${grade} template=${template || 'all'} task=${task || 'all'} e2eFast=${suite === 'e2e' ? e2eFast : 'n/a'}\n[test-runner] artifacts → ${persistRel}\n`,
+      chunk: `[test-runner] ${command} ${args.join(' ')}\n[test-runner] scope=${scope} grade=${grade} template=${template || 'all'} task=${task || 'all'} e2eFast=${suite === 'e2e' || suite === 'visual' ? e2eFast : 'n/a'} updateSnapshots=${updateSnapshots}\n[test-runner] artifacts → ${persistRel}\n`,
     })
 
     const child = spawn(command, args, {
@@ -389,7 +456,9 @@ export const experimental_serverChannel = async (channel: Channel) => {
         if (!fs.existsSync(jsonPath)) return null
         const raw = fs.readFileSync(jsonPath, 'utf8')
         const cases =
-          suite === 'e2e' ? parsePlaywrightJson(raw) : parseVitestJson(raw)
+          suite === 'e2e' || suite === 'visual'
+            ? parsePlaywrightJson(raw)
+            : parseVitestJson(raw)
         return cases.some((c) => c.status === 'fail') ? 1 : 0
       } catch {
         return null
@@ -443,10 +512,7 @@ export const experimental_serverChannel = async (channel: Channel) => {
       running.delete(suite)
 
       let resolvedCode = exitCode
-      if (
-        killedByWatchdog &&
-        (resolvedCode === null || resolvedCode !== 0)
-      ) {
+      if (killedByWatchdog && (resolvedCode === null || resolvedCode !== 0)) {
         const fromJson = exitCodeFromJson()
         if (fromJson !== null) resolvedCode = fromJson
       }
@@ -458,7 +524,9 @@ export const experimental_serverChannel = async (channel: Channel) => {
           const raw = fs.readFileSync(jsonPath, 'utf8')
           fs.writeFileSync(path.join(persistAbs, 'results.json'), raw)
           cases = withDescriptionRu(
-            suite === 'e2e' ? parsePlaywrightJson(raw) : parseVitestJson(raw),
+            suite === 'e2e' || suite === 'visual'
+              ? parsePlaywrightJson(raw)
+              : parseVitestJson(raw),
           )
           if (cases.length > 0) {
             channel.emit(EVENTS.RESULTS, { suite, cases })
@@ -473,12 +541,15 @@ export const experimental_serverChannel = async (channel: Channel) => {
       }
 
       try {
-        fs.writeFileSync(path.join(persistAbs, 'log.txt'), logAccum || '(empty)')
+        fs.writeFileSync(
+          path.join(persistAbs, 'log.txt'),
+          logAccum || '(empty)',
+        )
       } catch {
         /* ignore */
       }
 
-      if (suite === 'e2e') {
+      if (suite === 'e2e' || suite === 'visual') {
         try {
           copyTree(artifactDir, path.join(persistAbs, 'playwright'))
           const artifacts = collectArtifacts(
@@ -532,6 +603,12 @@ export const experimental_serverChannel = async (channel: Channel) => {
 
       try {
         appendHistoryRun(artifactsRoot, record)
+        if (suite === 'visual' && template) {
+          applyVisualRunToQa(artifactsRoot, record)
+          channel.emit(EVENTS.QA_LIST_RESULT, {
+            entries: readTemplateQa(artifactsRoot),
+          })
+        }
       } catch (err) {
         channel.emit(EVENTS.LOG, {
           suite,
@@ -597,7 +674,7 @@ export const experimental_serverChannel = async (channel: Channel) => {
         persistDir: persistRel,
       })
     })
-  }) as (payload: never) => void)
+  })
 
   return channel
 }

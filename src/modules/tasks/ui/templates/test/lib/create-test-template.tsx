@@ -3,13 +3,14 @@ import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Translation } from '@/types/api/task'
 
-import { getTestVariants } from './get-test-variants'
-import type { TestTask } from './types.task'
 import { TestFigures } from '../shared/test-figures'
 import { TestOptions } from '../shared/test-options'
 import { TestQuestion } from '../shared/test-question'
 import { TestSolution } from '../shared/test-solution'
 import styles from '../shared/test.module.scss'
+
+import { getTestVariants } from './get-test-variants'
+import type { TestTask } from './types.task'
 
 interface TestTemplateConfig {
   /** templateId, e.g. `test.plain`. */

@@ -2,12 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 
 import EditIcon from '@/assets/icons/canvas/edit.svg'
 
-import {
-  Button,
-  ButtonColor,
-  ButtonLayout,
-  ButtonSize,
-} from './button'
+import { Button, ButtonColor, ButtonLayout, ButtonSize } from './button'
 
 const meta = {
   title: 'UI/Button',

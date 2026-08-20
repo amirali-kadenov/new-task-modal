@@ -1,0 +1,1466 @@
+{
+  "meta": {
+    "snapshotName": "stats-2026-07-31-1785493761512",
+    "snapshotCreatedAt": "2026-07-31T10:42:45.719Z",
+    "exportedAt": "2026-08-04T06:52:58.385Z",
+    "grades": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "withSolutions": true,
+    "taskCount": 17600
+  },
+  "totalTasks": 17600,
+  "structurallyCovered": 14057,
+  "structurallyCoveredPct": "79.9",
+  "wired": 2232,
+  "wiredPct": "12.7",
+  "needNewTemplate": 3543,
+  "needNewTemplatePct": "20.1",
+  "missingTemplateCount": 61,
+  "gradeRows": [
+    {
+      "grade": 1,
+      "total": 2638,
+      "structural": 2364,
+      "structuralPct": "89.6",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 274
+    },
+    {
+      "grade": 2,
+      "total": 978,
+      "structural": 925,
+      "structuralPct": "94.6",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 53
+    },
+    {
+      "grade": 3,
+      "total": 1619,
+      "structural": 1538,
+      "structuralPct": "95.0",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 81
+    },
+    {
+      "grade": 4,
+      "total": 2239,
+      "structural": 2239,
+      "structuralPct": "100.0",
+      "wired": 2232,
+      "wiredPct": "99.7",
+      "gap": 0
+    },
+    {
+      "grade": 5,
+      "total": 2189,
+      "structural": 1806,
+      "structuralPct": "82.5",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 383
+    },
+    {
+      "grade": 6,
+      "total": 2100,
+      "structural": 1574,
+      "structuralPct": "75.0",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 526
+    },
+    {
+      "grade": 7,
+      "total": 1599,
+      "structural": 792,
+      "structuralPct": "49.5",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 807
+    },
+    {
+      "grade": 8,
+      "total": 1026,
+      "structural": 582,
+      "structuralPct": "56.7",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 444
+    },
+    {
+      "grade": 9,
+      "total": 1256,
+      "structural": 800,
+      "structuralPct": "63.7",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 456
+    },
+    {
+      "grade": 10,
+      "total": 1956,
+      "structural": 1437,
+      "structuralPct": "73.5",
+      "wired": 0,
+      "wiredPct": "0.0",
+      "gap": 519
+    }
+  ],
+  "byType": [
+    {
+      "type": "equation",
+      "total": 2478,
+      "covered": 458,
+      "uncovered": 2020,
+      "uncoveredPct": "81.5"
+    },
+    {
+      "type": "complex",
+      "total": 3365,
+      "covered": 2728,
+      "uncovered": 637,
+      "uncoveredPct": "18.9"
+    },
+    {
+      "type": "coordinatePlane",
+      "total": 455,
+      "covered": 0,
+      "uncovered": 455,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "calculateByImage",
+      "total": 133,
+      "covered": 0,
+      "uncovered": 133,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "answerCell",
+      "total": 976,
+      "covered": 891,
+      "uncovered": 85,
+      "uncoveredPct": "8.7"
+    },
+    {
+      "type": "text",
+      "total": 4843,
+      "covered": 4776,
+      "uncovered": 67,
+      "uncoveredPct": "1.4"
+    },
+    {
+      "type": "columnOperation",
+      "total": 1024,
+      "covered": 968,
+      "uncovered": 56,
+      "uncoveredPct": "5.5"
+    },
+    {
+      "type": "calculateByImageWithCell",
+      "total": 29,
+      "covered": 0,
+      "uncovered": 29,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "cubeCalculator",
+      "total": 14,
+      "covered": 0,
+      "uncovered": 14,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "coloring",
+      "total": 11,
+      "covered": 0,
+      "uncovered": 11,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "handwritingRecognition",
+      "total": 11,
+      "covered": 0,
+      "uncovered": 11,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "textInline",
+      "total": 11,
+      "covered": 0,
+      "uncovered": 11,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "matchingTask",
+      "total": 8,
+      "covered": 0,
+      "uncovered": 8,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "frequencyHistogram",
+      "total": 3,
+      "covered": 0,
+      "uncovered": 3,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "audio",
+      "total": 2,
+      "covered": 0,
+      "uncovered": 2,
+      "uncoveredPct": "100.0"
+    },
+    {
+      "type": "test",
+      "total": 1534,
+      "covered": 1533,
+      "uncovered": 1,
+      "uncoveredPct": "0.1"
+    },
+    {
+      "type": "formula",
+      "total": 1215,
+      "covered": 1215,
+      "uncovered": 0,
+      "uncoveredPct": "0.0"
+    },
+    {
+      "type": "table",
+      "total": 854,
+      "covered": 854,
+      "uncovered": 0,
+      "uncoveredPct": "0.0"
+    },
+    {
+      "type": "comparison",
+      "total": 634,
+      "covered": 634,
+      "uncovered": 0,
+      "uncoveredPct": "0.0"
+    }
+  ],
+  "difficultyBuckets": {
+    "easy": {
+      "templates": 6,
+      "tasks": 2250
+    },
+    "medium": {
+      "templates": 45,
+      "tasks": 616
+    },
+    "hard": {
+      "templates": 10,
+      "tasks": 677
+    }
+  },
+  "missingTemplates": [
+    {
+      "templateId": "equation.plain",
+      "type": "equation",
+      "count": 1791,
+      "percent": "10.2",
+      "difficulty": "easy",
+      "byGrade": {
+        "5": 195,
+        "6": 375,
+        "7": 597,
+        "8": 240,
+        "9": 210,
+        "10": 174
+      },
+      "samples": [
+        "5_1_11",
+        "5_1_11",
+        "5_1_11",
+        "5_1_58_2",
+        "5_1_1"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=1&lessonId=1511&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=1&lessonId=1511&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "coordinatePlane",
+      "type": "coordinatePlane",
+      "count": 455,
+      "percent": "2.6",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 1,
+        "5": 11,
+        "6": 69,
+        "7": 52,
+        "8": 68,
+        "9": 171,
+        "10": 83
+      },
+      "samples": [
+        "1_5_2_16",
+        "GeoTask_8_4_9",
+        "5_3_4_8",
+        "5_3_6_5",
+        "5_3_6_6"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=182&lessonId=4032&taskIndex=13",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=182&lessonId=4032&taskIndex=13&old=true"
+    },
+    {
+      "templateId": "complex.before",
+      "type": "complex",
+      "count": 294,
+      "percent": "1.7",
+      "difficulty": "easy",
+      "byGrade": {
+        "1": 20,
+        "3": 1,
+        "5": 86,
+        "6": 8,
+        "7": 38,
+        "8": 68,
+        "9": 24,
+        "10": 49
+      },
+      "samples": [
+        "1_6_11",
+        "1_6_11",
+        "1_6_11",
+        "1_6_11",
+        "1_6_11"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=151&lessonId=2582&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=151&lessonId=2582&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "calculateByImage",
+      "type": "calculateByImage",
+      "count": 133,
+      "percent": "0.8",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 110,
+        "2": 12,
+        "3": 1,
+        "5": 10
+      },
+      "samples": [
+        "1_4_7",
+        "1_4_7",
+        "1_4_7",
+        "1_4_7",
+        "1_4_7"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=103&lessonId=802&taskIndex=6",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=103&lessonId=802&taskIndex=6&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n2.before",
+      "type": "complex",
+      "count": 118,
+      "percent": "0.7",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 2,
+        "3": 5,
+        "5": 17,
+        "6": 20,
+        "7": 28,
+        "8": 9,
+        "9": 12,
+        "10": 25
+      },
+      "samples": [
+        "2_8_5_2",
+        "2_8_5_2",
+        "3_7_7_8",
+        "3_11_9",
+        "3_11_10"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=115&lessonId=944&taskIndex=2",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=115&lessonId=944&taskIndex=2&old=true"
+    },
+    {
+      "templateId": "equation.beforeAfter",
+      "type": "equation",
+      "count": 105,
+      "percent": "0.6",
+      "difficulty": "easy",
+      "byGrade": {
+        "8": 5,
+        "9": 6,
+        "10": 94
+      },
+      "samples": [
+        "8_2_6_1",
+        "8_2_6_2",
+        "8_2_6_3",
+        "8_2_6_6",
+        "8_2_6_14"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=8&chapterId=24&lessonId=441&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=8&chapterId=24&lessonId=441&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n3.beforeAfter",
+      "type": "complex",
+      "count": 55,
+      "percent": "0.3",
+      "difficulty": "medium",
+      "byGrade": {
+        "3": 6,
+        "5": 10,
+        "6": 10,
+        "7": 19,
+        "8": 6,
+        "9": 2,
+        "10": 2
+      },
+      "samples": [
+        "3_7_2_9",
+        "3_7_2_10",
+        "3_7_3_7",
+        "3_7_3_8",
+        "3_7_3_9"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=122&lessonId=2062&taskIndex=8",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=122&lessonId=2062&taskIndex=8&old=true"
+    },
+    {
+      "templateId": "equation.multi.stack.n2.before",
+      "type": "equation",
+      "count": 54,
+      "percent": "0.3",
+      "difficulty": "medium",
+      "byGrade": {
+        "6": 4,
+        "7": 15,
+        "8": 22,
+        "9": 3,
+        "10": 10
+      },
+      "samples": [
+        "6_2_131_22",
+        "6_2_131_23",
+        "6_2_131_24",
+        "6_2_131_25",
+        "7_1_2"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=6&chapterId=7&lessonId=1872&taskIndex=22",
+      "launchOldUrl": "http://localhost:8888/?grade=6&chapterId=7&lessonId=1872&taskIndex=22&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n3.before",
+      "type": "complex",
+      "count": 35,
+      "percent": "0.2",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 2,
+        "5": 12,
+        "6": 6,
+        "7": 10,
+        "8": 1,
+        "9": 3,
+        "10": 1
+      },
+      "samples": [
+        "2_2_25_6",
+        "2_2_25_7",
+        "5_2_3_4",
+        "5_2_11_4",
+        "5_2_10_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=109&lessonId=876&taskIndex=5",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=109&lessonId=876&taskIndex=5&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n4.beforeAfter",
+      "type": "complex",
+      "count": 35,
+      "percent": "0.2",
+      "difficulty": "medium",
+      "byGrade": {
+        "5": 10,
+        "6": 6,
+        "7": 5,
+        "8": 12,
+        "9": 2
+      },
+      "samples": [
+        "5_1_45_1",
+        "5_1_45_8",
+        "5_1_45_4",
+        "5_1_45_5",
+        "5_3_48_7"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=1&lessonId=1512&taskIndex=6",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=1&lessonId=1512&taskIndex=6&old=true"
+    },
+    {
+      "templateId": "equation.after",
+      "type": "equation",
+      "count": 30,
+      "percent": "0.2",
+      "difficulty": "easy",
+      "byGrade": {
+        "6": 3,
+        "10": 27
+      },
+      "samples": [
+        "6_1_1_2_1",
+        "6_1_1_2_4",
+        "6_1_1_2_6",
+        "10_2_8_1",
+        "10_2_8_2"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=6&chapterId=6&lessonId=6113&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=6&chapterId=6&lessonId=6113&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "calculateByImageWithCell",
+      "type": "calculateByImageWithCell",
+      "count": 29,
+      "percent": "0.2",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 29
+      },
+      "samples": [
+        "1_5_1_1",
+        "1_5_1_2",
+        "1_5_1_3",
+        "1_5_1_4",
+        "1_5_1_5"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=182&lessonId=4011&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=182&lessonId=4011&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "columnOperation.before",
+      "type": "columnOperation",
+      "count": 29,
+      "percent": "0.2",
+      "difficulty": "easy",
+      "byGrade": {
+        "3": 29
+      },
+      "samples": [
+        "3_9_2_1",
+        "3_9_2_1",
+        "3_9_2_1",
+        "3_9_2_1",
+        "3_9_2_1"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=124&lessonId=2091&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=124&lessonId=2091&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.stack.n3.plain",
+      "type": "answerCell",
+      "count": 28,
+      "percent": "0.2",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 15,
+        "2": 9,
+        "5": 3,
+        "6": 1
+      },
+      "samples": [
+        "1_2_2_21",
+        "1_1_10_12",
+        "1_1_12_5",
+        "1_1_14_9",
+        "1_1_26_10"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=179&lessonId=4001&taskIndex=6",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=179&lessonId=4001&taskIndex=6&old=true"
+    },
+    {
+      "templateId": "columnOperation.multi.inline.n2.before",
+      "type": "columnOperation",
+      "count": 27,
+      "percent": "0.2",
+      "difficulty": "medium",
+      "byGrade": {
+        "3": 27
+      },
+      "samples": [
+        "3_9_1_1",
+        "3_9_1_1",
+        "3_9_1_1",
+        "3_9_1_1",
+        "3_9_1_1"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=124&lessonId=2090&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=124&lessonId=2090&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n2.plain",
+      "type": "complex",
+      "count": 26,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 22,
+        "5": 2,
+        "6": 1,
+        "7": 1
+      },
+      "samples": [
+        "1_10_1_4",
+        "1_10_1_4",
+        "1_10_1_4",
+        "1_10_1_4",
+        "1_10_1_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=149&lessonId=2551&taskIndex=3",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=149&lessonId=2551&taskIndex=3&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.inline.n2.after",
+      "type": "answerCell",
+      "count": 17,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 17
+      },
+      "samples": [
+        "2_4_20_2",
+        "2_4_20_4",
+        "2_5_47_5",
+        "2_5_47_6",
+        "2_5_47_7"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=111&lessonId=900&taskIndex=21",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=111&lessonId=900&taskIndex=21&old=true"
+    },
+    {
+      "templateId": "equation.multi.stack.n2.beforeAfter",
+      "type": "equation",
+      "count": 16,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 16
+      },
+      "samples": [
+        "10_4_1_8",
+        "10_4_1_10",
+        "10_4_1_12",
+        "10_4_3_2",
+        "10_4_5_1"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=37&lessonId=680&taskIndex=7",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=37&lessonId=680&taskIndex=7&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n2.beforeAfter",
+      "type": "complex",
+      "count": 15,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "6": 6,
+        "7": 2,
+        "8": 6,
+        "10": 1
+      },
+      "samples": [
+        "6_6_13_2",
+        "6_6_13_2",
+        "6_6_13_2",
+        "6_6_13_2",
+        "6_6_13_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=6&chapterId=14&lessonId=236&taskIndex=15",
+      "launchOldUrl": "http://localhost:8888/?grade=6&chapterId=14&lessonId=236&taskIndex=15&old=true"
+    },
+    {
+      "templateId": "equation.multi.stack.n3.before",
+      "type": "equation",
+      "count": 15,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "7": 10,
+        "8": 5
+      },
+      "samples": [
+        "7_2_1_1",
+        "7_2_1_2",
+        "7_2_1_3",
+        "7_2_1_4",
+        "7_2_1_5"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=7&chapterId=18&lessonId=5021&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=7&chapterId=18&lessonId=5021&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "cubeCalculator",
+      "type": "cubeCalculator",
+      "count": 14,
+      "percent": "0.1",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 14
+      },
+      "samples": [
+        "1_8_4_1",
+        "1_8_4_2",
+        "1_8_4_3",
+        "1_8_4_4",
+        "1_8_4_5"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=185&lessonId=4067&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=185&lessonId=4067&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "text.multi.inline.n2.beforeAfter",
+      "type": "text",
+      "count": 12,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "3": 2,
+        "6": 3,
+        "7": 1,
+        "9": 2,
+        "10": 4
+      },
+      "samples": [
+        "3_5_10_8",
+        "3_5_10_8",
+        "6_5_2_1",
+        "6_5_2_2",
+        "6_5_2_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=120&lessonId=2029&taskIndex=7",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=120&lessonId=2029&taskIndex=7&old=true"
+    },
+    {
+      "templateId": "coloring",
+      "type": "coloring",
+      "count": 11,
+      "percent": "0.1",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 10,
+        "5": 1
+      },
+      "samples": [
+        "1_3_8_19",
+        "1_4_6_6",
+        "1_4_9_4",
+        "1_4_8_11",
+        "1_7_2_9"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=180&lessonId=4066&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=180&lessonId=4066&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n4.before",
+      "type": "complex",
+      "count": 11,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "5": 3,
+        "7": 3,
+        "8": 2,
+        "10": 3
+      },
+      "samples": [
+        "5_2_11_1",
+        "5_8_2_4",
+        "5_8_3_1",
+        "GeoTask_7_2_8_2",
+        "5_8_2_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=2&lessonId=118&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=2&lessonId=118&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "handwritingRecognition",
+      "type": "handwritingRecognition",
+      "count": 11,
+      "percent": "0.1",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 11
+      },
+      "samples": [
+        "1_1_81_4",
+        "1_1_91_3",
+        "1_1_10_4",
+        "1_1_11_4",
+        "1_1_14_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=193&lessonId=867&taskIndex=3",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=193&lessonId=867&taskIndex=3&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n5.beforeAfter",
+      "type": "text",
+      "count": 11,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "6": 11
+      },
+      "samples": [
+        "6_9_9_2",
+        "6_9_1_2",
+        "6_9_9_5",
+        "6_9_1_7",
+        "6_9_1_6"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=6&chapterId=11&lessonId=266&taskIndex=1",
+      "launchOldUrl": "http://localhost:8888/?grade=6&chapterId=11&lessonId=266&taskIndex=1&old=true"
+    },
+    {
+      "templateId": "textInline",
+      "type": "textInline",
+      "count": 11,
+      "percent": "0.1",
+      "difficulty": "hard",
+      "byGrade": {
+        "7": 11
+      },
+      "samples": [
+        "7_6_3_1",
+        "7_6_3_2",
+        "7_6_3_3",
+        "7_6_3_4",
+        "7_6_3_5"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=7&chapterId=22&lessonId=280&taskIndex=22",
+      "launchOldUrl": "http://localhost:8888/?grade=7&chapterId=22&lessonId=280&taskIndex=22&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n2.after",
+      "type": "complex",
+      "count": 10,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "5": 3,
+        "6": 1,
+        "7": 1
+      },
+      "samples": [
+        "2_1_2_1",
+        "2_1_2_2",
+        "1_6_6_7",
+        "2_4_20_1",
+        "3_2_2_2"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=108&lessonId=860&taskIndex=2",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=108&lessonId=860&taskIndex=2&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n2.plain",
+      "type": "text",
+      "count": 10,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 10
+      },
+      "samples": [
+        "10_6_6_4",
+        "10_6_8_3",
+        "10_6_8_4",
+        "10_6_8_8",
+        "10_6_8_9"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=39&lessonId=2485&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=39&lessonId=2485&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n3.after",
+      "type": "text",
+      "count": 10,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "3": 5,
+        "7": 5
+      },
+      "samples": [
+        "3_1_6",
+        "3_1_6",
+        "3_1_6",
+        "3_1_6",
+        "3_1_6"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=116&lessonId=951&taskIndex=12",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=116&lessonId=951&taskIndex=12&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.stack.n4.plain",
+      "type": "answerCell",
+      "count": 9,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 9
+      },
+      "samples": [
+        "1_9_10_3",
+        "1_9_10_3",
+        "1_9_10_3",
+        "1_9_10_3",
+        "1_9_10_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=107&lessonId=2620&taskIndex=8",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=107&lessonId=2620&taskIndex=8&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n3.after",
+      "type": "complex",
+      "count": 9,
+      "percent": "0.1",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 4,
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "9": 2
+      },
+      "samples": [
+        "2_2_24_5",
+        "2_2_24_6",
+        "2_2_24_6",
+        "2_2_24_7",
+        "3_2_2_8"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=109&lessonId=875&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=109&lessonId=875&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.inline.n3.after",
+      "type": "answerCell",
+      "count": 8,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 8
+      },
+      "samples": [
+        "1_11_3_1",
+        "1_11_3_2",
+        "1_11_3_3",
+        "1_11_3_4",
+        "1_11_3_1"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=149&lessonId=2695&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=149&lessonId=2695&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.inline.n3.plain",
+      "type": "answerCell",
+      "count": 8,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 2,
+        "3": 1,
+        "5": 5
+      },
+      "samples": [
+        "2_2_13_2",
+        "2_3_4_2",
+        "3_5_1_22",
+        "5_1_61_4",
+        "5_1_61_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=109&lessonId=871&taskIndex=21",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=109&lessonId=871&taskIndex=21&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.inline.n5.plain",
+      "type": "answerCell",
+      "count": 8,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "5": 8
+      },
+      "samples": [
+        "5_2_4_2",
+        "5_2_4_3",
+        "5_2_4_4",
+        "5_2_4_5",
+        "5_2_4_6"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=2&lessonId=98&taskIndex=1",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=2&lessonId=98&taskIndex=1&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n4.beforeAfter",
+      "type": "complex",
+      "count": 8,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "9": 8
+      },
+      "samples": [
+        "GeoTask_9_2_27_1",
+        "GeoTask_9_2_27_2",
+        "GeoTask_9_2_27_3",
+        "GeoTask_9_2_27_4",
+        "GeoTask_9_2_27_5"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=9&chapterId=54&lessonId=538&taskIndex=5",
+      "launchOldUrl": "http://localhost:8888/?grade=9&chapterId=54&lessonId=538&taskIndex=5&old=true"
+    },
+    {
+      "templateId": "matchingTask",
+      "type": "matchingTask",
+      "count": 8,
+      "percent": "0.0",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 7,
+        "2": 1
+      },
+      "samples": [
+        "0_2_13_1",
+        "0_2_13_1",
+        "1_6_1_10",
+        "1_6_1_10",
+        "1_7_1_11"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=181&lessonId=4017&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=181&lessonId=4017&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n4.before",
+      "type": "text",
+      "count": 7,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "9": 6,
+        "10": 1
+      },
+      "samples": [
+        "9_3_23_8",
+        "9_3_23_9",
+        "9_3_23_10",
+        "9_3_27_1",
+        "9_3_27_2"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=9&chapterId=31&lessonId=500&taskIndex=7",
+      "launchOldUrl": "http://localhost:8888/?grade=9&chapterId=31&lessonId=500&taskIndex=7&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n3.plain",
+      "type": "complex",
+      "count": 5,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 4,
+        "6": 1
+      },
+      "samples": [
+        "1_2_2_22",
+        "1_2_2_23",
+        "1_2_2_24",
+        "1_6_6_10",
+        "6_2_130_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=179&lessonId=4001&taskIndex=7",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=179&lessonId=4001&taskIndex=7&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n4.plain",
+      "type": "text",
+      "count": 5,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 5
+      },
+      "samples": [
+        "10_6_8_1",
+        "10_6_8_2",
+        "10_6_8_6",
+        "10_6_8_13",
+        "10_6_8_14"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=39&lessonId=2487&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=39&lessonId=2487&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.stack.n2.after",
+      "type": "answerCell",
+      "count": 4,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 4
+      },
+      "samples": [
+        "1_8_11_4",
+        "1_8_11_9",
+        "1_5_2_17",
+        "1_5_2_19"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=150&lessonId=2561&taskIndex=3",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=150&lessonId=2561&taskIndex=3&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n5.beforeAfter",
+      "type": "complex",
+      "count": 4,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "5": 1,
+        "7": 2,
+        "9": 1
+      },
+      "samples": [
+        "5_6_5_3",
+        "5_6_5_3",
+        "5_6_5_3",
+        "GeoTask_9_1_9_1"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=44&lessonId=334&taskIndex=16",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=44&lessonId=334&taskIndex=16&old=true"
+    },
+    {
+      "templateId": "equation.multi.stack.n4.beforeAfter",
+      "type": "equation",
+      "count": 4,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 4
+      },
+      "samples": [
+        "10_4_6_1",
+        "10_4_6_3",
+        "10_4_6_4",
+        "10_4_6_7"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=37&lessonId=684&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=37&lessonId=684&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n3.beforeAfter",
+      "type": "complex",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "7": 3
+      },
+      "samples": [
+        "GeoTask_7_3_15_1",
+        "GeoTask_7_3_15_3",
+        "GeoTask_7_3_15_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=7&chapterId=47&lessonId=562&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=7&chapterId=47&lessonId=562&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n5.before",
+      "type": "complex",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "5": 1,
+        "7": 1,
+        "10": 1
+      },
+      "samples": [
+        "5_2_11_5",
+        "7_4_2_3",
+        "10_6_4_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=2&lessonId=118&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=2&lessonId=118&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "equation.multi.inline.n2.beforeAfter",
+      "type": "equation",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 3
+      },
+      "samples": [
+        "10_4_13_6",
+        "10_4_13_7",
+        "10_4_13_8"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=37&lessonId=693&taskIndex=5",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=37&lessonId=693&taskIndex=5&old=true"
+    },
+    {
+      "templateId": "frequencyHistogram",
+      "type": "frequencyHistogram",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "hard",
+      "byGrade": {
+        "5": 3
+      },
+      "samples": [
+        "5_8_7_16",
+        "5_8_7_17",
+        "5_8_7_18"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=5&chapterId=60&lessonId=386&taskIndex=14",
+      "launchOldUrl": "http://localhost:8888/?grade=5&chapterId=60&lessonId=386&taskIndex=14&old=true"
+    },
+    {
+      "templateId": "text.multi.inline.n2.before",
+      "type": "text",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "9": 3
+      },
+      "samples": [
+        "9_3_21_12",
+        "9_3_21_13",
+        "9_3_21_14"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=9&chapterId=31&lessonId=504&taskIndex=11",
+      "launchOldUrl": "http://localhost:8888/?grade=9&chapterId=31&lessonId=504&taskIndex=11&old=true"
+    },
+    {
+      "templateId": "text.multi.inline.n3.after",
+      "type": "text",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "7": 2,
+        "10": 1
+      },
+      "samples": [
+        "GeoTask_7_3_15_5",
+        "GeoTask_7_3_15_6",
+        "10_10_2_7"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=7&chapterId=47&lessonId=562&taskIndex=8",
+      "launchOldUrl": "http://localhost:8888/?grade=7&chapterId=47&lessonId=562&taskIndex=8&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n3.plain",
+      "type": "text",
+      "count": 3,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 3
+      },
+      "samples": [
+        "10_6_8_7",
+        "10_6_8_10",
+        "10_6_8_16"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=39&lessonId=2487&taskIndex=6",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=39&lessonId=2487&taskIndex=6&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.inline.n4.plain",
+      "type": "answerCell",
+      "count": 2,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 2
+      },
+      "samples": [
+        "1_3_6_15",
+        "1_3_6_16"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=180&lessonId=4013&taskIndex=10",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=180&lessonId=4013&taskIndex=10&old=true"
+    },
+    {
+      "templateId": "audio",
+      "type": "audio",
+      "count": 2,
+      "percent": "0.0",
+      "difficulty": "hard",
+      "byGrade": {
+        "1": 2
+      },
+      "samples": [
+        "1_6_1_13",
+        "1_6_1_15"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=183&lessonId=4033&taskIndex=11",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=183&lessonId=4033&taskIndex=11&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n2.plain",
+      "type": "complex",
+      "count": 2,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "1": 2
+      },
+      "samples": [
+        "1_3_6_10",
+        "1_5_13_3"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=180&lessonId=4013&taskIndex=5",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=180&lessonId=4013&taskIndex=5&old=true"
+    },
+    {
+      "templateId": "complex.multi.inline.n4.after",
+      "type": "complex",
+      "count": 2,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "3": 1,
+        "5": 1
+      },
+      "samples": [
+        "3_2_2_1",
+        "5_4_5_5"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=118&lessonId=970&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=118&lessonId=970&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "complex.multi.stack.n3.after",
+      "type": "complex",
+      "count": 2,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 2
+      },
+      "samples": [
+        "2_8_5_4",
+        "2_8_5_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=115&lessonId=944&taskIndex=6",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=115&lessonId=944&taskIndex=6&old=true"
+    },
+    {
+      "templateId": "equation.multi.stack.n4.before",
+      "type": "equation",
+      "count": 2,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "10": 2
+      },
+      "samples": [
+        "10_7_13_1",
+        "10_8_20_25"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=10&chapterId=40&lessonId=632&taskIndex=0",
+      "launchOldUrl": "http://localhost:8888/?grade=10&chapterId=40&lessonId=632&taskIndex=0&old=true"
+    },
+    {
+      "templateId": "answerCell.multi.stack.n3.beforeAfter",
+      "type": "answerCell",
+      "count": 1,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "2": 1
+      },
+      "samples": [
+        "2_3_5_11"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=2&chapterId=156&lessonId=2639&taskIndex=10",
+      "launchOldUrl": "http://localhost:8888/?grade=2&chapterId=156&lessonId=2639&taskIndex=10&old=true"
+    },
+    {
+      "templateId": "test.after",
+      "type": "test",
+      "count": 1,
+      "percent": "0.0",
+      "difficulty": "easy",
+      "byGrade": {
+        "1": 1
+      },
+      "samples": [
+        "1_5_4_6"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=1&chapterId=182&lessonId=4031&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=1&chapterId=182&lessonId=4031&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "text.multi.inline.n4.after",
+      "type": "text",
+      "count": 1,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "3": 1
+      },
+      "samples": [
+        "3_8_9"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=3&chapterId=123&lessonId=2072&taskIndex=16",
+      "launchOldUrl": "http://localhost:8888/?grade=3&chapterId=123&lessonId=2072&taskIndex=16&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n4.beforeAfter",
+      "type": "text",
+      "count": 1,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "6": 1
+      },
+      "samples": [
+        "6_9_1_9"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=6&chapterId=11&lessonId=266&taskIndex=4",
+      "launchOldUrl": "http://localhost:8888/?grade=6&chapterId=11&lessonId=266&taskIndex=4&old=true"
+    },
+    {
+      "templateId": "text.multi.stack.n5.before",
+      "type": "text",
+      "count": 1,
+      "percent": "0.0",
+      "difficulty": "medium",
+      "byGrade": {
+        "9": 1
+      },
+      "samples": [
+        "9_3_27_4"
+      ],
+      "launchUrl": "http://localhost:8888/?grade=9&chapterId=31&lessonId=505&taskIndex=3",
+      "launchOldUrl": "http://localhost:8888/?grade=9&chapterId=31&lessonId=505&taskIndex=3&old=true"
+    }
+  ]
+}

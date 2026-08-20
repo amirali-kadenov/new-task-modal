@@ -13,3 +13,13 @@ declare global {
     }
   }
 }
+
+interface ImportMetaEnv {
+  readonly VITE_LAUNCH_BASE?: string
+  readonly VITE_STATS_STATIC?: string
+  readonly VITE_MATH_EDUCATOR_TOKEN?: string
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}

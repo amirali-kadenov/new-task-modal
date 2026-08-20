@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/ColumnOperation/multi/stack-n2-before'
 
 const meta = {
   title: 'Templates/ColumnOperation/multi/stack-n2-before/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

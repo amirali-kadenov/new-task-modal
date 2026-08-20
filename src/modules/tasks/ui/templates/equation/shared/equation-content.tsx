@@ -1,9 +1,8 @@
 import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
-import type { Translation } from '@/types/api/task'
 import { MathText } from '@/ui/math-text/math-text'
 
-import type { EquationTaskDescription } from './lib/types.task'
 import styles from './equation.module.scss'
+import type { EquationTaskDescription } from './lib/types.task'
 
 interface Props {
   description: EquationTaskDescription
@@ -12,9 +11,7 @@ interface Props {
 
 /** Equation body (`description.content`). */
 export const EquationContent = ({ description, deps }: Props) => {
-  const text = deps.global.translateTasks(
-    description.content as Translation | string,
-  )
+  const text = deps.global.translateTasks(description.content)
   if (!text.trim()) return null
 
   return (

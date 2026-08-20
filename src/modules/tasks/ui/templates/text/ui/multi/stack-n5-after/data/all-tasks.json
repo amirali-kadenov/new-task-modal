@@ -129,31 +129,31 @@
           },
           "difficulty": "x1",
           "result": "none",
+          "title": null,
           "fields": {
             "difficulty": "x1",
-            "number": 36498
+            "number": 63632
           },
-          "title": null,
           "description": {
             "with_audio": true,
             "content": {
               "with_audio_player": false,
-              "aze": "Otuz altı min dörd yüz doxsan səkki̇z ədədinin mərtəbə vahidlərini müəyyən edin.",
-              "kgz": "Отуз алты миң төрт жүз токсон сегиз санынын разряддык курамын аныктаңыз.",
-              "uzb": "O'ttiz olti ming to'rt yuz to'qson sakkiz sonining xonalar tarkibini aniqlang",
-              "eng": "Determine the place value composition of the number thirty-six thousand four hundred and ninety-eight.",
-              "rus": "Определите разрядный состав числа тридцать шесть тысяч четыреста девяносто восемь.",
-              "kaz": "Отыз алты мың төрт жүз тоқсан сегіз санының разрядтық құрамын анықтаңыз.",
+              "aze": "Altmış üç min altı yüz otuz i̇ki̇ ədədinin mərtəbə vahidlərini müəyyən edin.",
+              "kgz": "Алтымыш үч миң алты жүз отуз эки санынын разряддык курамын аныктаңыз.",
+              "uzb": "Oltmish uch ming olti yuz o'ttiz ikki sonining xonalar tarkibini aniqlang",
+              "eng": "Determine the place value composition of the number sixty-three thousand six hundred and thirty-two.",
+              "rus": "Определите разрядный состав числа шестьдесят три тысячи шестьсот тридцать два.",
+              "kaz": "Алпыс үш мың алты жүз отыз екі санының разрядтық құрамын анықтаңыз.",
               "arjd": "",
               "arsa": "",
-              "areg": "اكتب الصيغة اللفظية للعدد بصيغة الوحدات: ستة وثلاثون ألفًا وأربعمائة وثمانية وتسعون",
+              "areg": "اكتب الصيغة اللفظية للعدد بصيغة الوحدات: ثلاثة وستون ألفًا وستمائة واثنان وثلاثون",
               "module_name": "Elixir.Helpers.Translation"
             },
             "type": "text"
           },
           "type": "Elixir.Task_4_1_8",
           "position": 15,
-          "id": "b155d4cc-7a94-437c-9130-66c2f267ce5e",
+          "id": "b9752acf-92a6-4900-b184-da097410456b",
           "solution": {
             "type": "text",
             "answer": {
@@ -164,7 +164,7 @@
               "kgz": "",
               "uzb": "",
               "eng": "",
-              "rus": "3;;6;;4;;9;;8",
+              "rus": "6;;3;;6;;3;;2",
               "kaz": "",
               "school": "",
               "module_name": "Elixir.Helpers.Translation"

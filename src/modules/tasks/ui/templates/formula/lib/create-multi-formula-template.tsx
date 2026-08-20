@@ -1,5 +1,6 @@
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
@@ -10,6 +11,7 @@ import { TextAdornment } from '../../text/shared/text-adornment'
 import { FormulaDescription } from '../shared/formula-description'
 import styles from '../shared/formula.module.scss'
 import { MultiFormulaSolution } from '../shared/multi-formula-solution'
+
 import type { FormulaTask } from './types.task'
 
 interface MultiFormulaTemplateConfig {
@@ -54,7 +56,7 @@ export const createMultiFormulaTemplate = ({
       mathInput,
     })
 
-    const answerValues = answer.split(separator)
+    const answerValues = splitMultiAnswer(answer, separator)
     const inputEntries = getInlineInputEntries(
       task as unknown as Task<'formula'>,
       (value) => deps.global.translateTasks(value),

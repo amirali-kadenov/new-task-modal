@@ -33,11 +33,9 @@ const chaptersRoot = path.resolve(
 const complexTemplateTypes = [
   ['complex.plain', 'TemplateTypes.Complex.Plain'],
   ['complex.after', 'TemplateTypes.Complex.After'],
+  ['complex.after.equation', 'TemplateTypes.Complex.AfterEquation'],
   ['complex.beforeAfter', 'TemplateTypes.Complex.BeforeAfter'],
-  [
-    'complex.multi.stack.n2.after',
-    'TemplateTypes.Complex.Multi.Stack.N2After',
-  ],
+  ['complex.multi.stack.n2.after', 'TemplateTypes.Complex.Multi.Stack.N2After'],
   [
     'complex.multi.stack.n2.beforeAfter',
     'TemplateTypes.Complex.Multi.Stack.N2BeforeAfter',
@@ -148,7 +146,8 @@ for (let chapter = 1; chapter <= 12; chapter += 1) {
   const existing = fs.readFileSync(chapterPath, 'utf8')
   const claimedIds = claimedByChapter.get(chapter) ?? new Set<string>()
   const kept = extractNonComplexEntries(existing, claimedIds)
-  const grouped = byChapter.get(chapter) ?? new Map()
+  const grouped =
+    byChapter.get(chapter) ?? new Map<string, Array<number | string>>()
 
   const complexEntries = complexTemplateTypes.flatMap(
     ([templateType, expression]) => {

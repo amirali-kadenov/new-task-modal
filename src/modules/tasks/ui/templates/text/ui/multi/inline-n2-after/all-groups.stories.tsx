@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/Text/multi/inline-n2-after'
 
 const meta = {
   title: 'Templates/Text/multi/inline-n2-after/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

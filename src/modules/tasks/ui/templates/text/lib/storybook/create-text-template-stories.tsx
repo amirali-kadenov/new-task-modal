@@ -8,6 +8,7 @@ import type { TextTask } from '../types.task'
 import { OpenInTrainerCatalog } from './open-in-trainer-catalog'
 import {
   getAllTasksForGrade,
+  normalizeAllTasksFile,
   RenderTemplateAllTasks,
   type AllTasksFile,
   type TemplateAllTaskFixture,
@@ -83,6 +84,33 @@ export const pickTask = (
   fallback: TextTask,
 ): TextTask => pickGroup(groups, groupId)?.task ?? fallback
 
+/**
+ * Section-panel runner sets STORYBOOK_TEST_TASK to a structural group id
+ * (`text_2`) or an all-tasks id (`4_1_1`). Prefer env when set so Trainer
+ * Flow stories render/play the fixture for that section.
+ */
+export const resolveTrainerGroup = (
+  groups: TemplateGroupFixture[],
+  argsGroup?: string,
+): string => {
+  const env = (() => {
+    try {
+      return process.env.STORYBOOK_TEST_TASK?.trim() || undefined
+    } catch {
+      return undefined
+    }
+  })()
+  const fallback = argsGroup ?? ''
+  if (!env) return fallback
+  if (groups.some((g) => g.group === env)) return env
+  const byTask = groups.find(
+    (g) =>
+      taskIdFromType(g.task?.type) === env ||
+      getGroupTaskRefs(g).some((t) => t.id === env),
+  )
+  return byTask?.group ?? fallback
+}
+
 export const pickLaunch = (
   groups: TemplateGroupFixture[],
   groupId: string,
@@ -134,6 +162,67 @@ export const getOpenInTrainerControls = (groups: TemplateGroupFixture[]) => {
   }
 }
 
+/** Task ids for one structural group (Controls `taskId` options / fallback). */
+export const getTaskIdsForGroup = (
+  groups: TemplateGroupFixture[],
+  groupId: string,
+): string[] => getGroupTaskRefs(pickGroup(groups, groupId)).map((t) => t.id)
+
+/**
+ * Resolve the fixture shown in Default / WithSolution.
+ * Prefers `all-tasks.json` body for `taskId` when it belongs to `group`;
+ * otherwise first task of the group, then the group sample / fallback.
+ */
+export const resolveStoryTask = ({
+  groups,
+  group,
+  fallbackTask,
+  allTasks,
+  taskId,
+  grade,
+}: {
+  groups: TemplateGroupFixture[]
+  group: string
+  fallbackTask: TextTask
+  allTasks?: AllTasksFile
+  taskId?: string
+  grade?: number
+}): {
+  task: TextTask
+  launch: TrainerLaunch | undefined
+  effectiveTaskId: string
+} => {
+  const fixture = pickGroup(groups, group)
+  const refs = getGroupTaskRefs(fixture)
+  const trimmedId = taskId?.trim() || ''
+  const effectiveTaskId =
+    (trimmedId && refs.some((t) => t.id === trimmedId)
+      ? trimmedId
+      : undefined) ??
+    refs[0]?.id ??
+    ''
+
+  const normalized = allTasks ? normalizeAllTasksFile(allTasks) : undefined
+  const resolvedGrade = grade ?? normalized?.defaultGrade
+  const gradeTasks =
+    allTasks && resolvedGrade != null
+      ? getAllTasksForGrade(allTasks, resolvedGrade)
+      : []
+
+  const fromAll = effectiveTaskId
+    ? gradeTasks.find((t) => t.id === effectiveTaskId)
+    : undefined
+
+  return {
+    task: fromAll?.task ?? fixture?.task ?? fallbackTask,
+    launch:
+      pickTaskLaunch(groups, group, effectiveTaskId) ??
+      fromAll?.launch ??
+      fixture?.launch,
+    effectiveTaskId,
+  }
+}
+
 interface SharedArgs {
   Template: ComponentType<TaskComponentProps<TextTask>>
   groups: TemplateGroupFixture[]
@@ -145,6 +234,10 @@ interface SharedArgs {
   forceCalcOpen?: boolean
   /** Pad description/title so task container overflows (calc hide story). */
   longContent?: boolean
+  /** Full task catalog — enables `taskId` control for Default / WithSolution. */
+  allTasks?: AllTasksFile
+  taskId?: string
+  grade?: number
 }
 
 /** Long fixture text to force task-container scroll / calc overflow. */
@@ -188,31 +281,93 @@ export const withLongTaskContent = (task: TextTask): TextTask => {
   return { ...task, title: LONG_TASK_PARAGRAPH }
 }
 
-export const renderDefaultStory = ({
-  Template,
-  groups,
-  fallbackTask,
-  group,
-}: SharedArgs) => {
-  const launch = pickLaunch(groups, group)
-  const task = pickTask(groups, group, fallbackTask)
-  return (
-    <div>
-      <TrainerLaunchLinks launch={launch} />
-      <TextTemplateStory Template={Template} task={withoutSolution(task)} />
-    </div>
-  )
-}
+const selectStyle = {
+  fontSize: 13,
+  padding: '4px 8px',
+  borderRadius: 4,
+  border: '1px solid #d1d5db',
+  background: '#fff',
+  minWidth: 140,
+} as const
 
-export const renderWithSolutionStory = ({
+const labelStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  gap: 8,
+  fontSize: 13,
+  color: '#374151',
+} as const
+
+/**
+ * Canvas group/task selects + preview for Default / WithSolution.
+ * Local state (no useArgs); syncs from Storybook Controls via props.
+ */
+const VariantStoryView = ({
   Template,
   groups,
   fallbackTask,
   group,
-}: SharedArgs) => {
-  const task = pickTask(groups, group, fallbackTask)
-  const launch = pickLaunch(groups, group)
-  if (!task.solution) {
+  taskId,
+  allTasks,
+  grade,
+  withSolution,
+}: {
+  Template: ComponentType<TaskComponentProps<TextTask>>
+  groups: TemplateGroupFixture[]
+  fallbackTask: TextTask
+  group: string
+  taskId?: string
+  allTasks?: AllTasksFile
+  grade?: number
+  rootTitle?: string
+  withSolution: boolean
+}) => {
+  const groupIds = groups.map((g) => g.group)
+  const [selectedGroup, setSelectedGroup] = useState(() =>
+    group && groupIds.includes(group) ? group : (groupIds[0] ?? ''),
+  )
+
+  useEffect(() => {
+    if (group && groupIds.includes(group)) {
+      setSelectedGroup(group)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [group])
+
+  const refs = getGroupTaskRefs(pickGroup(groups, selectedGroup))
+  const refIdsKey = refs.map((t) => t.id).join('|')
+  const [selectedTaskId, setSelectedTaskId] = useState(
+    () =>
+      (taskId && refs.some((t) => t.id === taskId) ? taskId : undefined) ??
+      refs[0]?.id ??
+      '',
+  )
+
+  useEffect(() => {
+    const next =
+      (taskId && refs.some((t) => t.id === taskId) ? taskId : undefined) ??
+      refs[0]?.id ??
+      ''
+    setSelectedTaskId((prev) => (refs.some((t) => t.id === prev) ? prev : next))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedGroup, taskId, refIdsKey])
+
+  const { task, launch, effectiveTaskId } = resolveStoryTask({
+    groups,
+    group: selectedGroup,
+    fallbackTask,
+    allTasks,
+    taskId: selectedTaskId,
+    grade,
+  })
+
+  const selectGroup = (nextGroup: string) => {
+    setSelectedGroup(nextGroup)
+    const nextRefs = getGroupTaskRefs(pickGroup(groups, nextGroup))
+    setSelectedTaskId(nextRefs[0]?.id ?? '')
+  }
+
+  if (withSolution && !task.solution) {
     return (
       <div style={{ color: '#b91c1c', fontSize: 13 }}>
         Missing <code>task.solution</code> for selected group — regenerate
@@ -220,13 +375,104 @@ export const renderWithSolutionStory = ({
       </div>
     )
   }
+
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: 16,
+          alignItems: 'center',
+        }}
+      >
+        <label style={labelStyle}>
+          <span>Группа</span>
+          <select
+            value={selectedGroup}
+            disabled={!groupIds.length}
+            onChange={(e) => selectGroup(e.target.value)}
+            style={selectStyle}
+          >
+            {groupIds.map((id) => (
+              <option key={id} value={id}>
+                {id}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label style={labelStyle}>
+          <span>Задача</span>
+          <select
+            value={effectiveTaskId || selectedTaskId}
+            disabled={!refs.length}
+            onChange={(e) => setSelectedTaskId(e.target.value)}
+            style={selectStyle}
+          >
+            {refs.map((t) => (
+              <option key={t.id} value={t.id}>
+                {t.id}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+
       <TrainerLaunchLinks launch={launch} />
-      <TextTemplateStory Template={Template} task={task} />
+
+      <TextTemplateStory
+        Template={Template}
+        task={withSolution ? task : withoutSolution(task)}
+      />
     </div>
   )
 }
+
+export const renderDefaultStory = ({
+  Template,
+  groups,
+  fallbackTask,
+  group,
+  allTasks,
+  taskId,
+  grade,
+  rootTitle,
+}: SharedArgs) => (
+  <VariantStoryView
+    Template={Template}
+    groups={groups}
+    fallbackTask={fallbackTask}
+    group={group}
+    taskId={taskId}
+    allTasks={allTasks}
+    grade={grade}
+    rootTitle={rootTitle}
+    withSolution={false}
+  />
+)
+
+export const renderWithSolutionStory = ({
+  Template,
+  groups,
+  fallbackTask,
+  group,
+  allTasks,
+  taskId,
+  grade,
+  rootTitle,
+}: SharedArgs) => (
+  <VariantStoryView
+    Template={Template}
+    groups={groups}
+    fallbackTask={fallbackTask}
+    group={group}
+    taskId={taskId}
+    allTasks={allTasks}
+    grade={grade}
+    rootTitle={rootTitle}
+    withSolution
+  />
+)
 
 /**
  * Live-тренажёр (header + actions + калькулятор).
@@ -241,9 +487,28 @@ export const renderInTrainerStory = ({
   trainerOptions,
   forceCalcOpen,
   longContent,
+  allTasks,
+  taskId,
+  grade,
 }: SharedArgs) => {
-  const launch = pickLaunch(groups, group)
-  const picked = pickTask(groups, group, fallbackTask)
+  const resolvedGroup = resolveTrainerGroup(groups, group)
+  // `taskId` (with `allTasks` supplied) resolves an individual catalog task
+  // instead of the group's single sample — used by the trainer-parity check
+  // to snapshot every task, not just one per structural group.
+  const trimmedTaskId = taskId?.trim()
+  const { task: picked, launch } = trimmedTaskId
+    ? resolveStoryTask({
+        groups,
+        group: resolvedGroup,
+        fallbackTask,
+        allTasks,
+        taskId: trimmedTaskId,
+        grade,
+      })
+    : {
+        task: pickTask(groups, resolvedGroup, fallbackTask),
+        launch: pickLaunch(groups, resolvedGroup),
+      }
   const task = longContent ? withLongTaskContent(picked) : picked
   return (
     <div>
@@ -263,23 +528,38 @@ export const renderAllGroupsStory = ({
   groups,
   group,
   rootTitle,
-}: Omit<SharedArgs, 'fallbackTask'>) => (
-  <RenderTemplateGroups
-    Template={Template}
-    groups={filterGroups(groups, group)}
-    rootTitle={rootTitle}
-  />
-)
+}: Omit<SharedArgs, 'fallbackTask'>) => {
+  // Section-panel runner sets STORYBOOK_TEST_TASK to the structural group id
+  // (e.g. text_2). Prefer env when set so catalog smoke renders one group.
+  const envGroup = (() => {
+    try {
+      return process.env.STORYBOOK_TEST_TASK?.trim() || undefined
+    } catch {
+      return undefined
+    }
+  })()
+  const resolvedGroup = envGroup || group || ALL_GROUPS
+  return (
+    <RenderTemplateGroups
+      Template={Template}
+      groups={filterGroups(groups, resolvedGroup)}
+      rootTitle={rootTitle}
+    />
+  )
+}
 
 export const renderAllTasksStory = ({
   Template,
   tasks,
   grade,
+  taskId,
   rootTitle,
 }: {
   Template: ComponentType<TaskComponentProps<TextTask>>
   tasks: TemplateAllTaskFixture[] | AllTasksFile
   grade?: number
+  /** When set, render only this task id (visual / Storybook args). */
+  taskId?: string
   rootTitle?: string
 }) => {
   // Storybook Testing runner may set STORYBOOK_TEST_GRADE for catalog smoke.
@@ -293,10 +573,21 @@ export const renderAllTasksStory = ({
       return undefined
     }
   })()
+  const envTaskId = (() => {
+    try {
+      return process.env.STORYBOOK_TEST_TASK?.trim() || undefined
+    } catch {
+      return undefined
+    }
+  })()
   const resolvedGrade = envGrade ?? grade
-  const list = Array.isArray(tasks)
+  const resolvedTaskId = taskId?.trim() || envTaskId
+  let list = Array.isArray(tasks)
     ? tasks
     : getAllTasksForGrade(tasks, resolvedGrade)
+  if (resolvedTaskId) {
+    list = list.filter((t) => t.id === resolvedTaskId)
+  }
   return (
     <RenderTemplateAllTasks
       Template={Template}

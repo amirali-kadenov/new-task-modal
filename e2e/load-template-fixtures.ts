@@ -19,6 +19,54 @@ const TEMPLATES_ROOT = path.resolve(
   dirname,
   '../src/modules/tasks/ui/templates',
 )
+const AVAILABLE_TASKS_PATH = path.resolve(dirname, '../dist/available-tasks.js')
+
+/**
+ * Task ids present in `available-tasks` mapping (new trainer templates).
+ * Fixture task ids look like `4_2_36` (suffix after `#` in allTasks keys).
+ */
+const loadAvailableTaskIds = (): Set<string> => {
+  if (!fs.existsSync(AVAILABLE_TASKS_PATH)) {
+    throw new Error(
+      `available-tasks not found at ${AVAILABLE_TASKS_PATH}. Run pnpm build in new-task-modal first.`,
+    )
+  }
+  const source = fs.readFileSync(AVAILABLE_TASKS_PATH, 'utf8')
+  const match = source.match(/const availableTasks\s*=\s*(\{[\s\S]*?\n\});/)
+  if (!match?.[1]) {
+    throw new Error(
+      `Could not parse availableTasks from ${AVAILABLE_TASKS_PATH}`,
+    )
+  }
+  const map = JSON.parse(match[1]) as Record<string, boolean>
+  return new Set(Object.keys(map).filter((id) => map[id]))
+}
+
+/** `text/ui/after#4_2_36` → `4_2_36`; snapshot keys may be `snapshot/table#4_4_57@2161:10`. */
+const taskIdFromFixtureKey = (key: string): string | null => {
+  const hash = key.indexOf('#')
+  if (hash < 0) return null
+  let id = key.slice(hash + 1).trim()
+  const at = id.indexOf('@')
+  if (at >= 0) id = id.slice(0, at)
+  return id || null
+}
+
+/**
+ * Keep only fixtures covered by available-tasks mapping (new TaskComponent path).
+ * Groups-scope samples without `#taskId` stay (launch is assumed mapped via chapter maps).
+ * allTasks entries outside the map are dropped — they would hit renderLegacyTask.
+ */
+const filterMappedFixtures = (
+  fixtures: TemplateFixture[],
+): TemplateFixture[] => {
+  const available = loadAvailableTaskIds()
+  return fixtures.filter((fixture) => {
+    const taskId = taskIdFromFixtureKey(fixture.key)
+    if (taskId == null) return true
+    return available.has(taskId)
+  })
+}
 
 export interface TemplateFixture {
   /** Path relative to `templates`, e.g. `text/ui/multi/stack-n2-before`. */
@@ -31,8 +79,6 @@ export interface TemplateFixture {
   isMultipleChoice: boolean
   /** Catalog scope tag for Storybook Testing filters. */
   scope: 'allGroups' | 'allTasks'
-  /** When set, the spec should `test.skip` — no keyboard-typeable answer. */
-  skipReason?: string
 }
 
 type TranslationLike = Record<string, unknown>
@@ -105,15 +151,6 @@ const normalizeAnswer = (
   return stripped || null
 }
 
-/**
- * Answers that `keyboard.type` can enter into MathQuill on the live app.
- * Rejects raw LaTeX commands (anything with `\`).
- */
-const isSimpleAnswer = (answer: string): boolean => {
-  if (answer.includes('\\')) return false
-  return /^[0-9A-Za-z;;\s+>\-<.,=]+$/.test(answer)
-}
-
 const collectGroupsJsonDirs = (dir: string, acc: string[] = []): string[] => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name)
@@ -138,8 +175,7 @@ const candidatesFromGroups = (groups: GroupLike[]): Candidate[] => {
   const out: Candidate[] = []
   for (const group of groups) {
     const embedded = group.task
-    const launch =
-      group.launch ?? embedded?.launch ?? group.tasks?.[0]?.launch
+    const launch = group.launch ?? embedded?.launch ?? group.tasks?.[0]?.launch
     const answer = normalizeAnswer(embedded?.solution ?? group.solution)
     if (launch && answer) out.push({ launch, answer })
 
@@ -156,7 +192,7 @@ const candidatesFromGroups = (groups: GroupLike[]): Candidate[] => {
 const pickFixtureCandidate = (
   groups: GroupLike[],
   taskFileSolution: SolutionLike | string | null | undefined,
-): { launch: TrainerLaunch; answer: string; skipReason?: string } | null => {
+): { launch: TrainerLaunch; answer: string } | null => {
   const candidates = candidatesFromGroups(groups)
   const fallbackLaunch = groups[0]?.launch ?? groups[0]?.tasks?.[0]?.launch
   const fallbackAnswer = normalizeAnswer(taskFileSolution)
@@ -164,16 +200,7 @@ const pickFixtureCandidate = (
     candidates.push({ launch: fallbackLaunch, answer: fallbackAnswer })
   }
 
-  if (candidates.length === 0) return null
-
-  const simple = candidates.find((c) => isSimpleAnswer(c.answer))
-  if (simple) return simple
-
-  const first = candidates[0]
-  return {
-    ...first,
-    skipReason: `Answer is not keyboard-typeable in MathQuill: ${JSON.stringify(first.answer)}`,
-  }
+  return candidates[0] ?? null
 }
 
 export const loadTemplateFixtures = (): TemplateFixture[] => {
@@ -186,7 +213,10 @@ export const loadTemplateFixtures = (): TemplateFixture[] => {
 
   for (const dataDir of dataDirs) {
     const variantDir = path.dirname(dataDir)
-    const key = path.relative(TEMPLATES_ROOT, variantDir).split(path.sep).join('/')
+    const key = path
+      .relative(TEMPLATES_ROOT, variantDir)
+      .split(path.sep)
+      .join('/')
     const domain = key.split('/')[0] ?? key
 
     const groups = readJson<GroupLike[]>(path.join(dataDir, 'groups.json'))
@@ -205,7 +235,6 @@ export const loadTemplateFixtures = (): TemplateFixture[] => {
       answer: picked.answer,
       isMultipleChoice: domain === 'test',
       scope: 'allGroups',
-      ...(picked.skipReason ? { skipReason: picked.skipReason } : {}),
     })
   }
 
@@ -259,7 +288,10 @@ export const loadAllTasksFixtures = (
     if (!fs.existsSync(allTasksPath)) continue
 
     const variantDir = path.dirname(dataDir)
-    const key = path.relative(TEMPLATES_ROOT, variantDir).split(path.sep).join('/')
+    const key = path
+      .relative(TEMPLATES_ROOT, variantDir)
+      .split(path.sep)
+      .join('/')
     const domain = key.split('/')[0] ?? key
     const raw = readJson<AllTasksFile>(allTasksPath)
     const list = pickAllTasksList(raw, grade)
@@ -273,19 +305,16 @@ export const loadAllTasksFixtures = (
       const taskId = item.id?.trim()
       if (!taskId) continue
 
-      const launchGrade = launch.grade ?? (typeof grade === 'number' ? grade : 4)
-      const fixture: TemplateFixture = {
+      const launchGrade =
+        launch.grade ?? (typeof grade === 'number' ? grade : 4)
+      fixtures.push({
         key: `${key}#${taskId}`,
         domain,
         launch: { ...launch, grade: launchGrade },
         answer,
         isMultipleChoice: domain === 'test',
         scope: 'allTasks',
-      }
-      if (!isSimpleAnswer(answer)) {
-        fixture.skipReason = `Answer is not keyboard-typeable in MathQuill: ${JSON.stringify(answer)}`
-      }
-      fixtures.push(fixture)
+      })
     }
   }
 
@@ -306,10 +335,26 @@ const parseScopeFilter = (): 'all' | 'allGroups' | 'allTasks' => {
 }
 
 /**
+ * All grade-4 tasks from stats snapshot (see scripts/generate-e2e-grade4-snapshot-fixtures.mjs).
+ * Enabled via STORYBOOK_E2E_FROM_SNAPSHOT=1.
+ */
+export const loadGrade4SnapshotFixtures = (): TemplateFixture[] => {
+  const filePath = path.resolve(dirname, 'data/grade4-all-from-snapshot.json')
+  if (!fs.existsSync(filePath)) {
+    throw new Error(
+      `Missing ${filePath}. Run: node scripts/generate-e2e-grade4-snapshot-fixtures.mjs`,
+    )
+  }
+  const raw = JSON.parse(fs.readFileSync(filePath, 'utf8')) as TemplateFixture[]
+  return raw.map((f) => ({ ...f, scope: 'allTasks' as const }))
+}
+
+/**
  * Fixtures for the current Storybook Testing run (scope + grade + template + task env).
  * - all / allGroups → one sample per leaf from groups.json
  * - allTasks → every unique task in all-tasks.json for grade (or all grades)
  * - STORYBOOK_TEST_TASK → only that taskId
+ * - STORYBOOK_E2E_FROM_SNAPSHOT=1 → grade-4 fixtures from stats snapshot (~2239)
  */
 export const loadScopedTemplateFixtures = (): TemplateFixture[] => {
   const scope = parseScopeFilter()
@@ -323,14 +368,23 @@ export const loadScopedTemplateFixtures = (): TemplateFixture[] => {
   }
 
   if (scope === 'allTasks') {
-    return loadAllTasksFixtures(grade).filter((f) => matchesTemplate(f.key))
+    if (process.env.STORYBOOK_E2E_FROM_SNAPSHOT === '1') {
+      return filterMappedFixtures(
+        loadGrade4SnapshotFixtures().filter((f) => matchesTemplate(f.key)),
+      )
+    }
+    return filterMappedFixtures(
+      loadAllTasksFixtures(grade).filter((f) => matchesTemplate(f.key)),
+    )
   }
 
   // Specific task under groups/all scope: reuse all-tasks (has id + solution).
   if (taskFilter) {
-    return loadAllTasksFixtures(grade === 'all' ? 'all' : grade)
-      .filter((f) => matchesTemplate(f.key))
-      .map((f) => ({ ...f, scope: 'allGroups' as const }))
+    return filterMappedFixtures(
+      loadAllTasksFixtures(grade === 'all' ? 'all' : grade)
+        .filter((f) => matchesTemplate(f.key))
+        .map((f) => ({ ...f, scope: 'allGroups' as const })),
+    )
   }
 
   const groups = loadTemplateFixtures()
@@ -339,7 +393,7 @@ export const loadScopedTemplateFixtures = (): TemplateFixture[] => {
       ? groups
       : groups.filter((f) => (f.launch.grade ?? 4) === grade)
 
-  return filtered.filter((f) => matchesTemplate(f.key))
+  return filterMappedFixtures(filtered.filter((f) => matchesTemplate(f.key)))
 }
 
 export const TEMPLATE_FIXTURES = loadTemplateFixtures()

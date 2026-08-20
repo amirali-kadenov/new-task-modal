@@ -10,7 +10,6 @@ import {
   readTrainerChecklistProgress,
   TRAINER_CHECKLIST_CHANGE_EVENT,
 } from './trainer-checklist-storage'
-
 import styles from './trainer-progress-checklist.module.scss'
 
 export type ChecklistVariantSource = {

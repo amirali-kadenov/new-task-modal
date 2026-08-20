@@ -1,11 +1,15 @@
 /**
- * task.answerInput → templateId for complex tasks.
+ * task.answerInput (+ description for equation tables) → templateId.
  */
 
 export type ComplexAdornment = 'plain' | 'before' | 'after' | 'beforeAfter'
 
 interface ClassifiableTask {
   answerInput?: unknown
+  description?: {
+    isAnswerCellHidden?: boolean
+    parts?: Array<{ type?: number; rows?: Array<{ cells?: unknown[] }> }>
+  }
 }
 
 const isTranslationValue = (value: unknown): value is Record<string, unknown> =>
@@ -36,9 +40,24 @@ const adornmentOf = (before: unknown, after: unknown): ComplexAdornment => {
 const isMultiAnswerInput = (ai: Record<string, unknown>): boolean =>
   'inline' in ai || Object.keys(ai).some((key) => key.startsWith('input'))
 
+const hasTableAnswerCell = (
+  parts:
+    | Array<{ type?: number; rows?: Array<{ cells?: unknown[] }> }>
+    | undefined,
+): boolean => {
+  if (!parts?.length) return false
+  return parts.some((part) => {
+    if (Number(part.type) !== 120) return false
+    return (part.rows ?? []).some((row) =>
+      (row.cells ?? []).some((cell) => cell === 'answercell'),
+    )
+  })
+}
+
 /**
- * Known catalog: `complex.plain`, `complex.after`, `complex.beforeAfter`,
- * `complex.multi.stack.n2.after`, `complex.multi.stack.n2.beforeAfter`.
+ * Known catalog: `complex.plain`, `complex.after`, `complex.after.equation`,
+ * `complex.beforeAfter`, `complex.multi.stack.n2.after`,
+ * `complex.multi.stack.n2.beforeAfter`.
  */
 export const classifyComplexTemplate = (task: ClassifiableTask): string => {
   const ai = task.answerInput
@@ -60,5 +79,14 @@ export const classifyComplexTemplate = (task: ClassifiableTask): string => {
     return `complex.multi.${layout}.n${inputs.length}.${adorn}`
   }
 
-  return `complex.${adornmentOf(record.before, record.after)}`
+  const adorn = adornmentOf(record.before, record.after)
+  if (
+    adorn === 'after' &&
+    Boolean(task.description?.isAnswerCellHidden) &&
+    hasTableAnswerCell(task.description?.parts)
+  ) {
+    return 'complex.after.equation'
+  }
+
+  return `complex.${adorn}`
 }

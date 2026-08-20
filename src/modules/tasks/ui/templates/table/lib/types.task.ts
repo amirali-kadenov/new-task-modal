@@ -1,8 +1,4 @@
-import type {
-  TableRow,
-  TaskSolution,
-  Translation,
-} from '@/types/api/task'
+import type { TableRow, TaskSolution, Translation } from '@/types/api/task'
 
 /**
  * Backend payload for `description.type === 'table'` tasks.

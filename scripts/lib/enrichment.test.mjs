@@ -96,7 +96,10 @@ describe('loadEnrichmentMaps', () => {
     )
 
     const maps = loadEnrichmentMaps(dir)
-    const enriched = withEnrichment({ id: 'task-1', type: 'Elixir.Task_x' }, maps)
+    const enriched = withEnrichment(
+      { id: 'task-1', type: 'Elixir.Task_x' },
+      maps,
+    )
     expect(enriched.videoUrl).toBe('https://cdn.example/1')
     expect(enriched.hint1).toBeNull()
     expect(enriched.hint2).toBeNull()

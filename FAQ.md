@@ -141,11 +141,24 @@ pnpm lint:stylelint:fix
 
 Реальный CHTML проверяет `pnpm test:interactions` (Storybook + Chromium):
 
-- story `Templates/Text/plain` → `MathRegressions` — нет `mjx-merror`, нет сырых `\(`/`\)`, единица `дм` upright, дроби text_24 в размер прозы;
-- story `Templates/Text/after` → `MathRegressions` — то же плюс `см`/`мм` в одном шрифте, дроби text_49 в размер прозы и отсутствие служебного `||` в ответе text_67;
-- catalog smoke (All Groups) — если в DOM уже есть MathJax, нет `mjx-merror`.
+- `Templates/Text/plain/Groups` → `All` — нет `mjx-merror`, нет сырых `\(`/`\)`, единица `дм` upright, дроби text_24 в размер прозы;
+- `Templates/Text/after/Groups` → `All` — то же плюс `см`/`мм` в одном шрифте, дроби text_49 в размер прозы и отсутствие служебного `||` в ответе text_67;
+- catalog smoke на остальных All Groups — если в DOM уже есть MathJax, нет `mjx-merror`.
 
 Хелперы: `src/ui/math-text/assert-mathjax-dom.ts`.
+
+---
+
+### Почему в Storybook всё ок, а в реальном приложении баг?
+
+Storybook и реальный хост (`matheducator/reactjs_client`) — два разных рантайма с разными `deps`/API/сокетом. Storybook-тренажёр (`make-trainer-props.ts`, `text-template-trainer.tsx`) специально включает упрощённый режим (fixture-based `checkAnswer`, локальные заглушки `deps`), поэтому зелёная story не гарантирует то же поведение на реальном бэкенде.
+
+Локальный backstop — `pnpm run check:real-app` (авто через `pre-push`, once `e2e/.auth.local.ts` настроен по примеру `e2e/.auth.local.example.ts`):
+
+- если `matheducator/reactjs_client` поднят локально (`LAUNCH_BASE`, по умолчанию `http://localhost:8888`) — гоняет `e2e/trainer.e2e.spec.ts` (реальный хост+бэкенд, не мок);
+- если `test.qalan.kz` доступен — гоняет `scripts/audit-api-vs-fixtures.mjs` (сверяет фикстуры `groups.json` с живым `POST /tasks/:id/solution`).
+
+Оба пункта скипаются молча, если соответствующее окружение недоступно — хук никогда не блокирует push у тех, кто не поднял `reactjs_client`/токен локально. Ручной прогон при необходимости: `pnpm test:e2e -- e2e/trainer.e2e.spec.ts` / `pnpm test:audit`.
 
 ---
 

@@ -8,13 +8,10 @@ import {
   type TrainerCaseResult,
   type TrainerSuiteId,
 } from '../lib/run-trainer-suites'
-import {
-  getTrainerVariant,
-  TRAINER_VARIANTS,
-} from '../lib/trainer-variants'
+import { getTrainerVariant, TRAINER_VARIANTS } from '../lib/trainer-variants'
 
-import styles from './trainer-test-runner.module.scss'
 import type { TrainerPlaygroundArgs } from './trainer-playground'
+import styles from './trainer-test-runner.module.scss'
 
 type Props = TrainerPlaygroundArgs
 
@@ -194,7 +191,6 @@ export const TrainerTestRunner = ({
                   <input
                     className={styles.checkbox}
                     type="checkbox"
-                    role="checkbox"
                     checked={checked}
                     aria-checked={checked}
                     aria-disabled

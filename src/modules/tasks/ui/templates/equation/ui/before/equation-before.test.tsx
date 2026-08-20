@@ -38,7 +38,7 @@ describe('equation.before', () => {
     const content =
       typeof task.description.content === 'string'
         ? task.description.content
-        : (task.description.content as { rus?: string }).rus ?? ''
+        : ((task.description.content as { rus?: string }).rus ?? '')
     const before =
       typeof task.answerInput?.before === 'string'
         ? task.answerInput.before

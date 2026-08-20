@@ -57,6 +57,27 @@ export const vitestFilterPattern = (
   return scopePat
 }
 
+const TEMPLATES_ROOT = 'src/modules/tasks/ui/templates'
+const CATALOG_SMOKE_UNIT = 'src/modules/testing/lib/catalog-smoke.unit.test.ts'
+
+/**
+ * Positional vitest file args so section-panel runs collect only relevant files.
+ * Empty when `template` is unset (Testing hub → full project collect).
+ */
+export const vitestFileArgs = (
+  suite: 'unit' | 'interactions',
+  _scope: TestScope | undefined,
+  template: string | undefined,
+): string[] => {
+  const tmpl = template?.trim()
+  if (!tmpl) return []
+
+  if (suite === 'unit') return [CATALOG_SMOKE_UNIT]
+
+  // Section-panel Interactions → Trainer Flow stories for that template.
+  return [`${TEMPLATES_ROOT}/${tmpl}/trainer.stories.tsx`]
+}
+
 export const parseGradeEnv = (
   raw: string | undefined,
 ): TestGrade | undefined => {
@@ -95,8 +116,7 @@ export const resolveRuntimeTemplate = (): string => {
 
 /** Empty string / unset = all tasks within the selected template. */
 export const resolveRuntimeTask = (): string => {
-  const raw =
-    typeof process !== 'undefined' ? process.env[TASK_ENV] : undefined
+  const raw = typeof process !== 'undefined' ? process.env[TASK_ENV] : undefined
   return raw?.trim() ?? ''
 }
 

@@ -1,7 +1,12 @@
 import type { Decorator } from '@storybook/react-vite'
-import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from 'react'
+import {
+  useEffect,
+  useMemo,
+  useState,
+  type CSSProperties,
+  type ReactNode,
+} from 'react'
 
-import { PlayResultsPanel } from '@/testing/play-results-panel'
 import {
   createPlayScopeId,
   resetPlayResults,
@@ -9,6 +14,7 @@ import {
   type PlayCaseDef,
   type PlayCaseResult,
 } from '@/testing/play-results'
+import { PlayResultsPanel } from '@/testing/play-results-panel'
 import {
   isAutomatedInteractionRun,
   PLAY_SCOPE_ATTR,
@@ -61,9 +67,7 @@ const InteractionChrome = ({
 
   const initialDefs = useMemo<PlayCaseDef[]>(
     () =>
-      playCases?.length
-        ? playCases
-        : [{ id: 'interaction', label: storyName }],
+      playCases?.length ? playCases : [{ id: 'interaction', label: storyName }],
     [playCases, storyName],
   )
 

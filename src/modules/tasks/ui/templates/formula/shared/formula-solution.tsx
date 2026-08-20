@@ -3,15 +3,17 @@ import {
   isFormulaStringSolution,
 } from '@/modules/tasks/lib/solution-types'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
+import { SharedSolutionDescription } from '@/modules/tasks/ui/common/task-description/ui/shared-solution-description'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
+import type { Task } from '@/types/api/task'
 import { MathFormula } from '@/ui/math-text/math-formula'
 
 import { joinMathAnswers } from '../../text/lib/join-math-answers'
 import { stripMathDelimiters } from '../../text/lib/strip-math-delimiters'
 import type { FormulaTask } from '../lib/types.task'
-import { FormulaDescription } from './formula-description'
+
 import styles from './formula.module.scss'
 
 /** Solution view for single-input formula templates. */
@@ -32,7 +34,10 @@ export const FormulaSolution = ({
   return (
     <div className={styles.container}>
       <TaskTitle title={task.title} deps={deps} />
-      <FormulaDescription task={task} deps={deps} />
+      <SharedSolutionDescription
+        task={task as unknown as Task<'formula'>}
+        deps={deps}
+      />
 
       {!isFormulaOnly && (
         <>
@@ -59,7 +64,7 @@ export const FormulaSolution = ({
         />
       )}
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

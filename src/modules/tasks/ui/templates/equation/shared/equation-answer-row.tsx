@@ -4,10 +4,11 @@ import { MathInput } from '@/ui/math-input/math-input'
 import type { MathInputRef } from '@/ui/math-input/types'
 import { MathFormula } from '@/ui/math-text/math-formula'
 
+import { stripMathDelimiters } from '../../text/lib/strip-math-delimiters'
 import { TextAdornment } from '../../text/shared/text-adornment'
 
-import type { EquationAnswerInput } from './lib/types.task'
 import styles from './equation.module.scss'
+import type { EquationAnswerInput } from './lib/types.task'
 
 interface Props {
   answerInput: EquationAnswerInput | undefined
@@ -69,7 +70,7 @@ export const EquationAnswerRow = ({
         />
       ) : correctAnswer ? (
         <MathFormula className={styles.answerFormula}>
-          {correctAnswer}
+          {stripMathDelimiters(correctAnswer)}
         </MathFormula>
       ) : null}
       {after ? (

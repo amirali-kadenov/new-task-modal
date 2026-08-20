@@ -5,6 +5,7 @@ import Message from '@/assets/icons/actions/message.svg'
 import Pen from '@/assets/icons/actions/pen.svg'
 import { capitalize } from '@/lib/helpers/capitalize'
 import type { TaskModalModals } from '@/modules/task-modal/task-modal'
+import { getLivesCount } from '@/modules/task-modal/ui/content/header/lives-indicator/lib'
 import { Button, ButtonColor, ButtonLayout } from '@/ui/button/button'
 import { ButtonWithLoader } from '@/ui/button/button-with-loader'
 
@@ -26,10 +27,9 @@ interface Props {
 
 export const TaskModalActions = ({ props, refs, className, modals }: Props) => {
   const { deps } = props
-  const { activeTask, userProgress } = useAppState()
+  const { activeTask, tasks, userProgress } = useAppState()
   const answer = useStore((s) => s.answer)
   const prevAnswer = useStore((s) => s.prevAnswer)
-  const isTransitioning = useStore((s) => s.isTransitioning)
 
   const { checkAnswer, resetValues, isLoading } = useCheckAnswer({
     props,
@@ -42,28 +42,39 @@ export const TaskModalActions = ({ props, refs, className, modals }: Props) => {
     await showNextTask(userProgress)
   }
 
+  const isEmpty = isAnswerEmpty(answer, deps)
+  const isAnswerSame = answer === prevAnswer
+  const isDisabled = isEmpty || isAnswerSame
+
+  // Same "lives left" math the hearts indicator uses — `activeTask.solution`
+  // isn't a reliable signal here, the backend doesn't always populate it in
+  // the same response that exhausts `attemptsCount` (or at all, e.g. viewing
+  // the theory example with lives still remaining).
+  const showNext =
+    (activeTask.attemptsCount ?? 0) >=
+    getLivesCount({ activeTask, tasks: tasks ?? [] })
+
   useEffect(() => {
     const root = refs.root.current
     if (!root) return
 
     const handleKeyDown = async (e: KeyboardEvent) => {
-      if (e.key === 'Enter') {
-        e.preventDefault()
-        await checkAnswer()
-      }
+      if (e.key !== 'Enter') return
+      e.preventDefault()
+
+      if (isDisabled) return
+
+      await checkAnswer()
     }
 
     root.addEventListener('keydown', handleKeyDown)
     return () => {
       root.removeEventListener('keydown', handleKeyDown)
     }
-  }, [activeTask.id])
+  }, [activeTask.id, isDisabled])
 
   const { actions } = refs
   const translate = deps.global.translate
-  const isEmpty = isAnswerEmpty(answer, deps)
-  const isAnswerSame = answer === prevAnswer
-  const isDisabled = isEmpty || isAnswerSame
 
   return (
     <div className={clsx(s.container, className)} ref={actions}>
@@ -87,10 +98,10 @@ export const TaskModalActions = ({ props, refs, className, modals }: Props) => {
         <Message />
       </Button>
 
-      {activeTask.solution ? (
+      {showNext ? (
         <ButtonWithLoader
           onClick={handleShowNext}
-          isLoading={isTransitioning}
+          isLoading={false}
           className={clsx(s.button, s.primary)}
         >
           {capitalize(translate(deps.localize.next))}

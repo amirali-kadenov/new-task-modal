@@ -1,0 +1,130 @@
+[
+ {
+  "group": "answerCell_13",
+  "count": 1,
+  "launch": {
+   "grade": 4,
+   "chapterId": "137",
+   "lessonId": "2337",
+   "taskIndex": 7
+  },
+  "tasks": [
+   {
+    "id": "4_12_19_8",
+    "launch": {
+     "grade": 4,
+     "chapterId": "137",
+     "lessonId": "2337",
+     "taskIndex": 7
+    }
+   }
+  ],
+  "task": {
+   "attemptsCount": null,
+   "isPrimary": true,
+   "hasVideoUrl": true,
+   "isPenalty": false,
+   "answerInput": {
+    "input2": {
+     "svg": "",
+     "before": "",
+     "after": "",
+     "text": " ",
+     "down": "",
+     "up": "",
+     "type": 10
+    },
+    "input1": {
+     "svg": "",
+     "before": "",
+     "after": "",
+     "text": " ",
+     "down": "",
+     "up": "",
+     "type": 10
+    },
+    "inline": false,
+    "type": 20
+   },
+   "difficulty": null,
+   "result": "none",
+   "title": {
+    "with_audio_player": false,
+    "aze": "Qanunauyğunluğu müəyyən edin və boş xanalara uyğun olan ədədləri yazın.",
+    "kgz": "Закон ченемдүүлүктү аныктаңыз жана бош уячага керектүү санды жазыңыз.",
+    "uzb": "Qonuniyatni aniqlang va ketma-ketlikdagi noma'lum hadini toping.",
+    "eng": "Find the pattern and fill in the missing numbers.",
+    "rus": "Определите закономерность и запишите нужные числа в пустые ячейки.",
+    "kaz": "Заңдылықты анықтап, тізбектің жетіспейтін мүшесін анықтаңыз.",
+    "arjd": "",
+    "arsa": "",
+    "areg": "حدد النمط ثم اكتب العدد المفقود في التسلسل.",
+    "module_name": "Elixir.Helpers.Translation"
+   },
+   "fields": {
+    "number": 28
+   },
+   "description": {
+    "withAudio": true,
+    "text_before": "",
+    "text_after": "",
+    "table_before": null,
+    "is_column": false,
+    "image_before": "",
+    "answer_cell_margin": "",
+    "content": "28; 33; answercell; answercell; 48; 53; 58; 63; 68",
+    "type": "answerCell"
+   },
+   "type": "Elixir.Task_4_12_19_8",
+   "position": 7,
+   "id": "62d1dea2-637f-40d0-9cae-98e4d2e34aec",
+   "solution": {
+    "type": "formula",
+    "answer": {
+     "with_audio_player": false,
+     "aze": "",
+     "arsa": "",
+     "areg": "",
+     "kgz": "",
+     "uzb": "",
+     "eng": "",
+     "rus": "38;;43",
+     "kaz": "",
+     "school": "",
+     "module_name": "Elixir.Helpers.Translation"
+    },
+    "content": {
+     "with_audio_player": false,
+     "aze": "",
+     "arsa": "",
+     "areg": "",
+     "kgz": "",
+     "uzb": "",
+     "eng": "",
+     "rus": "",
+     "kaz": "",
+     "school": "",
+     "module_name": "Elixir.Helpers.Translation"
+    }
+   },
+   "hint1": null,
+   "hint2": null,
+   "videoId": "wvRCYd1revk",
+   "videoUrl": "https://youtube.com/embed/wvRCYd1revk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+   "videoUrlAsTranslation": {
+    "school": "https://rutube.ru/play/embed/7f6581387f74da1d317fe2046296232e?p=ZfWEpb2c6AuDuSj2oc0x7A",
+    "with_audio_player": false,
+    "aze": null,
+    "kgz": null,
+    "uzb": "https://youtube.com/embed/HKQuwJETRss?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "eng": null,
+    "rus": "https://youtube.com/embed/R7h1ssUK_TM?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "kaz": "https://youtube.com/embed/wvRCYd1revk?modestbranding=1&rel=0&iv_load_policy=3&playsinline=1",
+    "arjd": "",
+    "arsa": null,
+    "areg": null,
+    "module_name": "Elixir.Helpers.Translation"
+   }
+  }
+ }
+]

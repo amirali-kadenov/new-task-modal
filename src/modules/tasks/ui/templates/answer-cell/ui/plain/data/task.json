@@ -14,9 +14,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number": 52936
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Boş xanaya uyğun ədədi yazın.",
@@ -30,6 +27,9 @@
     "areg": "اكتب العدد المناسب في المربع الفارغ",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number": 11157
+  },
   "description": {
     "withAudio": true,
     "text_before": "",
@@ -40,22 +40,22 @@
     "answer_cell_margin": "",
     "content": {
       "with_audio_player": false,
-      "aze": "Bu answercell ədəd 52936 ədədindən sonra gəlir.",
-      "kgz": "Бул answercell сан 52936 санынан кийин келет.",
-      "uzb": "answercell soni 52936 dan keyin keladi.",
-      "eng": "answercell The number that comes after 52936.",
-      "rus": "Число answercell идет после числа 52936.",
-      "kaz": "answercell саны 52936-дан кейін келеді.",
+      "aze": "Bu answercell ədəd 11157 ədədindən sonra gəlir.",
+      "kgz": "Бул answercell сан 11157 санынан кийин келет.",
+      "uzb": "answercell soni 11157 dan keyin keladi.",
+      "eng": "answercell The number that comes after 11157.",
+      "rus": "Число answercell идет после числа 11157.",
+      "kaz": "answercell саны 11157-ден кейін келеді.",
       "arjd": "",
       "arsa": "",
-      "areg": "العدد الذي يأتي بعد 52936 هو answercell.",
+      "areg": "العدد الذي يأتي بعد 11157 هو answercell.",
       "module_name": "Elixir.Helpers.Translation"
     },
     "type": "answerCell"
   },
   "type": "Elixir.Task_4_1_66",
   "position": 26,
-  "id": "c4a941c3-2418-4a3b-b2de-6890ba43505c",
+  "id": "6393523f-2e25-499c-8036-f4c2f929b3ac",
   "solution": {
     "type": "formula",
     "answer": {
@@ -66,7 +66,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "52937",
+      "rus": "11158",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

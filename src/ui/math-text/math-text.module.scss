@@ -5,11 +5,27 @@
 .mathText {
   /* Replace Latin letters & digits */
   :global {
+    /* TeX italicizes math "identifiers" (variables) by convention — but
+       user-typed answers/labels aren't variables and shouldn't slant.
+       Force upright everywhere, regardless of which element carries the
+       italic styling. */
+    mjx-mi,
+    .TEX-I,
+    mjx-utext {
+      font-style: normal !important;
+    }
+
+    /* `--font-halvar` bakes its own `, sans-serif` fallback in (see
+       colors.scss). Chaining it into a longer stack puts that generic
+       `sans-serif` ahead of MJXZERO/MJXTEX, so the moment "Halvar Mittel"
+       can't supply a glyph the browser stops at the generic font instead of
+       falling through to MathJax's own font — must name the family
+       directly here, not via the variable. */
     .mjx-n,
     .mjx-i {
       &,
       & .TEX-I {
-        font-family: var(--font-halvar), MJXZERO, MJXTEX, sans-serif !important;
+        font-family: 'Halvar Mittel', MJXZERO, MJXTEX, sans-serif !important;
       }
     }
 
@@ -17,7 +33,7 @@
        `unknownFamily` (serif) — that beats the Halvar rule on the mjx-mi parent
        and makes units like `см` clash with the surrounding prose */
     mjx-utext {
-      font-family: var(--font-halvar), MJXZERO, sans-serif !important;
+      font-family: 'Halvar Mittel', MJXZERO, sans-serif !important;
     }
 
     /** \Gamma \Delta \Theta \Lambda \Sigma \Upsilon \Phi */
@@ -28,15 +44,23 @@
     .mjx-c3A3,
     .mjx-c3A5,
     .mjx-c3A6 {
-      font-family: var(--font-halvar), MJXZERO, MJXTEX, sans-serif !important;
+      font-family: 'Halvar Mittel', MJXZERO, MJXTEX, sans-serif !important;
     }
 
     .mjx-c31::before {
       padding-right: 0.38em;
     }
 
-    .mjx-c34::before {
-      padding-top: 0.67em;
+    /* '4' and '7' render with a baseline shift only in Safari (Halvar
+       Mittel ascent/descent resolution diverges from Chrome/Firefox,
+       which already render correctly). 0.8em confirmed by visual check
+       in Safari devtools. Scoped to Safari only via the standard
+       `-webkit-touch-callout` feature-query hack. */
+    @supports (-webkit-touch-callout: none) {
+      .mjx-c34::before,
+      .mjx-c37::before {
+        padding-top: 0.8em;
+      }
     }
 
     /* the stretched hook reaches the index spot, lift it clear of the stroke */

@@ -27,10 +27,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number2": 85605,
-    "number1": 26375
-  },
   "title": {
     "with_audio_player": false,
     "aze": "Verilmiş ifadəni ədədlərlə yazın:",
@@ -44,20 +40,24 @@
     "areg": "عبّر عن التعبير اللفظي التالي بالتعبير العددي",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number2": 91072,
+    "number1": 47599
+  },
   "description": {
     "withAudio": true,
     "type": "answerCell",
     "textBefore": {
       "with_audio_player": false,
-      "aze": "Iyirmi altı min üç yüz yetmiş beş üstəgəl səksən beş min altı yüz beş",
-      "kgz": "Жыйырма алты миң үч жүз жетимиш беш кошуу сексен беш миң алты жүз беш",
-      "uzb": "Yigirma olti ming uch yuz yetmish besh qo'shilgan sakson besh ming olti yuz besh",
-      "eng": "Twenty-six thousand three hundred and seventy-five plus eighty-five thousand six hundred and five",
-      "rus": "Двадцать шесть тысяч триста семьдесят пять плюс восемьдесят пять тысяч шестьсот пять",
-      "kaz": "Жиырма алты мың үш жүз жетпіс бес қосу сексен бес мың алты жүз бес",
+      "aze": "Qırx yeddi̇ min beş yüz doxsan doqquz üstəgəl doxsan bi̇r min yetmiş i̇ki̇",
+      "kgz": "Кырк жети миң беш жүз токсон тогуз кошуу токсон бир миң жетимиш эки",
+      "uzb": "Qirq yetti ming besh yuz to'qson to'qqiz qo'shilgan to'qson bir ming yetmish ikki",
+      "eng": "Forty-seven thousand five hundred and ninety-nine plus ninety-one thousand and seventy-two",
+      "rus": "Сорок семь тысяч пятьсот девяносто девять плюс девяносто один тысяча семьдесят два",
+      "kaz": "Қырық жеті мың бес жүз тоқсан тоғыз қосу тоқсан бір мың жетпіс екі",
       "arjd": "",
       "arsa": "",
-      "areg": "ستة وعشرون ألفًا وثلاثمائة وخمسة وسبعون زائد خمسة وثمانون ألفًا وستمائة وخمسة",
+      "areg": "سبعة وأربعون ألفًا وخمسمائة وتسعة وتسعون زائد واحد وتسعون ألفًا واثنان وسبعون",
       "module_name": "Elixir.Helpers.Translation"
     },
     "textAfter": "",
@@ -69,7 +69,7 @@
   },
   "type": "Elixir.Task_4_1_70",
   "position": 21,
-  "id": "8686d5c2-7df3-4179-92ba-c5083523c24a",
+  "id": "bc08cb6a-6e37-413b-b6fd-3d5f31030643",
   "solution": {
     "type": "formula",
     "answer": {
@@ -80,7 +80,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "26375;;85605",
+      "rus": "47599;;91072",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

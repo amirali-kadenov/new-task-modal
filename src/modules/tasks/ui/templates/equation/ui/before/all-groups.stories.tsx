@@ -19,6 +19,7 @@ const ROOT_TITLE = 'Templates/Equation/before'
 
 const meta = {
   title: 'Templates/Equation/before/Groups',
+  tags: ['!autodocs'],
   component: Template,
   args: {
     group: ALL_GROUPS,

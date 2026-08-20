@@ -49,15 +49,12 @@ const toCamelKey = (key: string): string => {
 }
 
 const normalizeValue = (value: unknown): unknown => {
-  if (Array.isArray(value)) {
-    return value.map((item) =>
-      item && typeof item === 'object' && !Array.isArray(item)
-        ? normalizeComplexPart(item as Record<string, unknown>)
-        : item,
-    )
-  }
+  // Must run before object/array walks — otherwise `module_name` becomes `moduleName`.
   if (isTranslationObject(value)) {
     return value
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => normalizeValue(item))
   }
   if (value && typeof value === 'object') {
     return normalizeComplexPart(value as Record<string, unknown>)

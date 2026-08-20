@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  @include body-small-regular;
+
+  margin-top: var(--space-24);
+  margin-bottom: var(--space-4);
+  font-weight: 400;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.formula {
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+}

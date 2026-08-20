@@ -965,32 +965,32 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 2,
-        "number2": 11094,
-        "number1": 99946
-      },
       "title": null,
+      "fields": {
+        "number3": 7,
+        "number2": 11061,
+        "number1": 99430
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Dəvə bir həftə ərzində 11094 litr su içir. Dəvə 2 həftə su içsə, 99946 litr sudan nə qədər su qalar?\n",
-          "kgz": "Төө бир жумада 11094 литр суу иче алат. Эгерде төө 2 жума суу ичсе, 99946  литр суудан канча литр суу калат?\n",
-          "uzb": "Tuya bir haftada 11094 litr suv ichadi. Tuya suvni 2 hafta davomida ichsa, 99946 l suvdan qancha qoladi?\n",
-          "eng": "A camel can drink 11094 litres of water in a week.\nHow many litres of water are left from 99946 litres of water if the camel drinks water for 2 weeks?\n",
-          "rus": "Верблюд может выпить 11094 л воды за неделю.\nСколько литров воды останется из 99946 л, если верблюд будет пить воду в течение 2 недели?\n",
-          "kaz": "Түйе бір аптада 11094 литр су іше алады.\nТүйе суды 2 апта бойы ішсе, 99946 л судан неше литр су артылып қалады?\n",
+          "aze": "Dəvə bir həftə ərzində 11061 litr su içir. Dəvə 7 həftə su içsə, 99430 litr sudan nə qədər su qalar?\n",
+          "kgz": "Төө бир жумада 11061 литр суу иче алат. Эгерде төө 7 жума суу ичсе, 99430  литр суудан канча литр суу калат?\n",
+          "uzb": "Tuya bir haftada 11061 litr suv ichadi. Tuya suvni 7 hafta davomida ichsa, 99430 l suvdan qancha qoladi?\n",
+          "eng": "A camel can drink 11061 litres of water in a week.\nHow many litres of water are left from 99430 litres of water if the camel drinks water for 7 weeks?\n",
+          "rus": "Верблюд может выпить 11061 л воды за неделю.\nСколько литров воды останется из 99430 л, если верблюд будет пить воду в течение 7 недель?\n",
+          "kaz": "Түйе бір аптада 11061 литр су іше алады.\nТүйе суды 7 апта бойы ішсе, 99430 л судан неше литр су артылып қалады?\n",
           "arjd": "",
-          "arsa": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًالترًا؟\n",
-          "areg": "يشرب الجمل 11094 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة أسبوعين أسابيع، فكم لترًا يتبقّى من 99946 لترًا؟\n",
+          "arsa": "يشرب الجمل 11061 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة 7 أسابيع أسابيع، فكم لترًا يتبقّى من 99430 لترًالترًا؟\n",
+          "areg": "يشرب الجمل 11061 لترًا لترات من الماء في الأسبوع. إذا شرب الجمل الماء لمدة 7 أسابيع أسابيع، فكم لترًا يتبقّى من 99430 لترًا؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_2_36",
       "position": 15,
-      "id": "4c36c5f6-b69b-4ff2-af2a-58e7ec9a233c",
+      "id": "88106b54-eaa0-42b6-a5bc-714d2f1e4412",
       "solution": {
         "type": "text",
         "answer": {
@@ -1001,7 +1001,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "77758",
+          "rus": "22003",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -1808,31 +1808,31 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 2,
-        "number1": 12756
-      },
       "title": null,
+      "fields": {
+        "number2": 6,
+        "number1": 12813
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Mayda bağdan 12756 kq armud və armuddan 2 dəfə çox alma yığıldı.\nMayda bağdan neçə kiloqram alma yığıldı?\n",
-          "kgz": "Май айында бактан 12756 кг алмурут, андан 2 эсе көп алма жыйналды.\nМай айында бактан канча килограмм алма жыйналды?\n",
-          "uzb": "May oyida bog'dan 12756 kg nok va undan 2 marta ko'p olma terildi.\nMay oyida bog'dan umumiy necha kilogramm olma terildi?\n",
-          "eng": "In May, 12756 kg of pears and 2 times as many apples are picked.\nHow many kilograms of apples are harvested in May?\n",
-          "rus": "В мае из сада собрали 12756 кг груш и в 2 раза больше яблок.\nСколько килограммов яблок было собрано в мае из сада?\n",
-          "kaz": "Мамыр айында бақшадан 12756 кг алмұрт және одан 2 есе артық алма жиналды.\nМамыр айында бақшадан барлығы неше килограмм алма жиналды?\n",
+          "aze": "Mayda bağdan 12813 kq armud və armuddan 6 dəfə çox alma yığıldı.\nMayda bağdan neçə kiloqram alma yığıldı?\n",
+          "kgz": "Май айында бактан 12813 кг алмурут, андан 6 эсе көп алма жыйналды.\nМай айында бактан канча килограмм алма жыйналды?\n",
+          "uzb": "May oyida bog'dan 12813 kg nok va undan 6 marta ko'p olma terildi.\nMay oyida bog'dan umumiy necha kilogramm olma terildi?\n",
+          "eng": "In May, 12813 kg of pears and 6 times as many apples are picked.\nHow many kilograms of apples are harvested in May?\n",
+          "rus": "В мае из сада собрали 12813 кг груш и в 6 раз больше яблок.\nСколько килограммов яблок было собрано в мае из сада?\n",
+          "kaz": "Мамыр айында бақшадан 12813 кг алмұрт және одан 6 есе артық алма жиналды.\nМамыр айында бақшадан барлығы неше килограмм алма жиналды?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا تم حصاد 12756 كجم من الكمثرى في شهر سبتمبر،\nوتم حصاد ضعف هذا العدد من التفاح،\nفكم كيلوجرامًا من التفاح تم حصدها في هذا الشهر؟\n",
+          "areg": "إذا تم حصاد 12813 كجم من الكمثرى في شهر سبتمبر،\nوتم حصاد 6 أضعاف هذا العدد من التفاح،\nفكم كيلوجرامًا من التفاح تم حصدها في هذا الشهر؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_2_27",
       "position": 0,
-      "id": "0705c6fd-b3b6-420d-976c-7265e6206860",
+      "id": "68b40943-a33d-4232-aedb-018abbb51bf6",
       "solution": {
         "type": "text",
         "answer": {
@@ -1843,7 +1843,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "25512",
+          "rus": "76878",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2272,10 +2272,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number2": 84,
-        "number1": 5
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Əməliyyatı yerinə yetirin və verilmiş ölçü vahidi ilə ifadə edin.",
@@ -2289,26 +2285,30 @@
         "areg": "أوجد ناتج ما يلى بوحدة القياس المطلوبة:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number2": 50,
+        "number1": 6
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "5 \\(sm^2\\) - 84 \\(mm^2\\) = \\( \\ \\) ",
-          "kgz": "5 \\(см^2\\) - 84 \\(мм^2\\) = \\( \\ \\) ",
-          "uzb": "5 \\(cm^2\\) - 84 \\(mm^2\\) = \\( \\ \\) ",
-          "eng": "5 \\(cm^2\\) - 84 \\(mm^2\\) = \\( \\ \\) ",
-          "rus": "5 \\(см^2\\) - 84 \\(мм^2\\) = \\( \\ \\) ",
-          "kaz": "5 \\(см^2\\) - 84 \\(мм^2\\) = \\( \\ \\) ",
-          "arjd": "5 \\(cm^2\\) - 84 \\(^2\\) = \\( \\ \\) ",
-          "arsa": "5 \\(سم^2\\) - 84 \\(مم^2\\) = \\( \\ \\) ",
-          "areg": "5 سم\\(^2\\) - 84 مم\\(^2\\) = \\( \\ \\) ",
+          "aze": "6 \\(sm^2\\) - 50 \\(mm^2\\) = \\( \\ \\) ",
+          "kgz": "6 \\(см^2\\) - 50 \\(мм^2\\) = \\( \\ \\) ",
+          "uzb": "6 \\(cm^2\\) - 50 \\(mm^2\\) = \\( \\ \\) ",
+          "eng": "6 \\(cm^2\\) - 50 \\(mm^2\\) = \\( \\ \\) ",
+          "rus": "6 \\(см^2\\) - 50 \\(мм^2\\) = \\( \\ \\) ",
+          "kaz": "6 \\(см^2\\) - 50 \\(мм^2\\) = \\( \\ \\) ",
+          "arjd": "6 \\(cm^2\\) - 50 \\(^2\\) = \\( \\ \\) ",
+          "arsa": "6 \\(سم^2\\) - 50 \\(مم^2\\) = \\( \\ \\) ",
+          "areg": "6 سم\\(^2\\) - 50 مم\\(^2\\) = \\( \\ \\) ",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_6_10_24",
       "position": 23,
-      "id": "6609091b-08f5-4e7c-b99a-eb6e9f08fb8d",
+      "id": "b76aed95-a0bf-4815-ae5c-7c4183bf6fb5",
       "solution": {
         "type": "text",
         "answer": {
@@ -2319,7 +2319,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "416",
+          "rus": "550",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2559,33 +2559,33 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number4": 7,
-        "number3": 3517,
-        "number2": 5,
-        "number1": 9676
-      },
       "title": null,
+      "fields": {
+        "number4": 6,
+        "number3": 3537,
+        "number2": 8,
+        "number1": 9614
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Maşın bazarından hər biri 9676 manat olan 5 maşın,\nhər biri 3517 manat olan 7 motosiklet alındı.\nÜmumi neçə manat xərcləndi?\n",
-          "kgz": "Мектептин китепканасынын фондун толуктоо үчүн ар бири 9676 сомдон 5 энциклопедия жана ар бири 3517 сомдон 7 сөздүк сатып алынган.\nКитептерди сатып алуу үчүн бардыгы канча акча кеткен?\n",
-          "uzb": "Maktab kutubxonasiga yangi kitoblar sotib olindi.\nHar biri 9676 so'mdan 5 dona ensiklopediya va 3517 so'mdan 7 dona lug'at sotib olindi.\nKitoblarni sotib olish uchun umumiy qancha so'm sarflandi?\n",
-          "eng": "To fill up the book fund of the school library, 5 encyclopedias at 9676 dollars each and 7 dictionaries at 3517 dollars each are purchased.\nHow much is spent on buying books in total?\n",
-          "rus": "Для пополнения книжного фонда школьной библиотеки было куплено 5 энциклопедий по 9676 тенге каждая и 7 словарей по 3517 тенге.\nСколько всего тенге было потрачено на покупку книг?\n",
-          "kaz": "Мектеп кітапханасының кітап қорын толықтыру үшін әрқайсысы 9676 теңгеден 5 энциклопедия және 3517 теңгеден 7 сөздік сатып алынды.\nКітаптарды сатып алу үшін барлығы неше теңге жұмсалды?\n",
+          "aze": "Maşın bazarından hər biri 9614 manat olan 8 maşın,\nhər biri 3537 manat olan 6 motosiklet alındı.\nÜmumi neçə manat xərcləndi?\n",
+          "kgz": "Мектептин китепканасынын фондун толуктоо үчүн ар бири 9614 сомдон 8 энциклопедия жана ар бири 3537 сомдон 6 сөздүк сатып алынган.\nКитептерди сатып алуу үчүн бардыгы канча акча кеткен?\n",
+          "uzb": "Maktab kutubxonasiga yangi kitoblar sotib olindi.\nHar biri 9614 so'mdan 8 dona ensiklopediya va 3537 so'mdan 6 dona lug'at sotib olindi.\nKitoblarni sotib olish uchun umumiy qancha so'm sarflandi?\n",
+          "eng": "To fill up the book fund of the school library, 8 encyclopedias at 9614 dollars each and 6 dictionaries at 3537 dollars each are purchased.\nHow much is spent on buying books in total?\n",
+          "rus": "Для пополнения книжного фонда школьной библиотеки было куплено 8 энциклопедий по 9614 тенге каждая и 6 словарей по 3537 тенге.\nСколько всего тенге было потрачено на покупку книг?\n",
+          "kaz": "Мектеп кітапханасының кітап қорын толықтыру үшін әрқайсысы 9614 теңгеден 8 энциклопедия және 3537 теңгеден 6 сөздік сатып алынды.\nКітаптарды сатып алу үшін барлығы неше теңге жұмсалды?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا قامت إدارة المدرسة بتجديد مخزون الكتب في المكتبة المدرسية، واشترت 9676 موسوعة (سعر الموسوعة الواحدة 5 جنيهات)، و7 قواميس (سعر القاموس الواحد  3517 جنيهًا)،\nفكم إجمالي عدد الجنيهات التي دفعتها إدارة المدرسة لشراء الكتب؟\n",
+          "areg": "إذا قامت إدارة المدرسة بتجديد مخزون الكتب في المكتبة المدرسية، واشترت 9614 موسوعة (سعر الموسوعة الواحدة 8 جنيهات)، و6 قواميس (سعر القاموس الواحد  3537 جنيهًا)،\nفكم إجمالي عدد الجنيهات التي دفعتها إدارة المدرسة لشراء الكتب؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_2_37",
       "position": 0,
-      "id": "f867ae93-4f5a-4b34-a4fc-3ae3a7636900",
+      "id": "413c8211-bc17-4f07-8e6e-e1f5722af0ed",
       "solution": {
         "type": "text",
         "answer": {
@@ -2596,7 +2596,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "72999",
+          "rus": "98134",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -2827,9 +2827,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 59500
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
@@ -2843,26 +2840,29 @@
         "areg": "حول إلى وحدة القياس المطلوبة:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 5300
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "59500 \\(mm^2\\) = ",
+          "aze": "5300 \\(mm^2\\) = ",
           "kgz": "",
-          "uzb": "59500 \\(mm^2\\) = ",
-          "eng": "59500 \\(mm^2\\) = ",
-          "rus": "59500 \\(мм^2\\) = ",
-          "kaz": "59500 \\(мм^2\\) = ",
+          "uzb": "5300 \\(mm^2\\) = ",
+          "eng": "5300 \\(mm^2\\) = ",
+          "rus": "5300 \\(мм^2\\) = ",
+          "kaz": "5300 \\(мм^2\\) = ",
           "arjd": "",
           "arsa": "",
-          "areg": "59500 مم\\(^2\\) = ",
+          "areg": "5300 مم\\(^2\\) = ",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_7_1_2",
       "position": 2,
-      "id": "f12fa15b-db5a-46a0-8cf0-6671ace4f3b6",
+      "id": "5ef32abc-1090-460d-b7e1-ed93ba143b4d",
       "solution": {
         "type": "text",
         "answer": {
@@ -2873,7 +2873,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "595",
+          "rus": "53",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3005,10 +3005,6 @@
       },
       "difficulty": "x1",
       "result": "none",
-      "fields": {
-        "difficulty": "x1",
-        "number": 9
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
@@ -3022,26 +3018,30 @@
         "areg": "حول إلى وحدة القياس المطلوبة:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "difficulty": "x1",
+        "number": 5
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "9 \\(sm^2\\) = ",
+          "aze": "5 \\(sm^2\\) = ",
           "kgz": "",
-          "uzb": "9 \\(cm^2\\) = ",
-          "eng": "9 \\(cm^2\\) = ",
-          "rus": "9 \\(см^2\\) = ",
-          "kaz": "9 \\(см^2\\) = ",
+          "uzb": "5 \\(cm^2\\) = ",
+          "eng": "5 \\(cm^2\\) = ",
+          "rus": "5 \\(см^2\\) = ",
+          "kaz": "5 \\(см^2\\) = ",
           "arjd": "",
           "arsa": "",
-          "areg": "9 سم\\(^2\\) = ",
+          "areg": "5 سم\\(^2\\) = ",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_7_1_1",
       "position": 0,
-      "id": "d93bfbfb-a989-422f-93db-b5359acc2874",
+      "id": "00784de9-5a62-4f20-b72c-f10aeb85c0ae",
       "solution": {
         "type": "text",
         "answer": {
@@ -3052,7 +3052,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "900",
+          "rus": "500",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3220,30 +3220,30 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 84313
-      },
       "title": null,
+      "fields": {
+        "number": 84296
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Əsgər özünə Bakıda ev almaq istəyir. Evin qiyməti 84313 manatdır.\nO, ev yiyəsinə hər birində 20000 manat olan 5 dəstə pul verir.\nEv yiyəsi ona nə qədər pul qaytarmalıdır?\n",
-          "kgz": "Нурлан Бишкекте жашайт. Ал  Москвага окууга баруу үчүн даярданууда.\nБишкектен Москвага чейин учактын билети 84313 сом турат.\nНурлан кассирге  20 000 сомдуктан 5 даана берди.  Нурланга кассир кайра канча акча кайтарып бериши керек?\n",
-          "uzb": "Temur Toshkent shahrida yashaydi. U Moskvaga o'qishga ketish uchun tayyorgarlik ko'rmoqda.\nToshkentdan Moskvagacha samolyot chiptasining narxi 84313 so'm.\nTemur sotuvchiga 20000 so'mlik 5 ta qog'oz pul berdi. Chipta sotuvchi Temurga necha so'm qaytarishi kerak?\n",
-          "eng": "Nick lives in London. He wants to drive to Moscow and decides to buy a car costing 84313 dollars.\nNick gives the cashier 5 notes of 20,000 dollars each.\nHow much money should the cashier return to Nick?\n",
-          "rus": "Николай живет в Астане. Он готовится поехать учиться в Москву. Билет на самолет из Астаны в Москву стоит 84313 тенге.\nНиколай дал кассиру 5 купюр по 20 000 тенге. Сколько тенге кассир должен вернуть Николаю?\n",
-          "kaz": "Ерлан Астана қаласында тұрады. Ол Мәскеуге оқуына кетуге дайындалып жатыр.\nАстанадан Мәскеуге дейін ұшақтың билеті 84313 теңге тұрады.\nЕрлан сатушыға 20000 теңгелік 5 қағаз ақша берді. Билет сатушы Ерланға неше теңге қайтаруы керек?\n",
+          "aze": "Əsgər özünə Bakıda ev almaq istəyir. Evin qiyməti 84296 manatdır.\nO, ev yiyəsinə hər birində 20000 manat olan 5 dəstə pul verir.\nEv yiyəsi ona nə qədər pul qaytarmalıdır?\n",
+          "kgz": "Нурлан Бишкекте жашайт. Ал  Москвага окууга баруу үчүн даярданууда.\nБишкектен Москвага чейин учактын билети 84296 сом турат.\nНурлан кассирге  20 000 сомдуктан 5 даана берди.  Нурланга кассир кайра канча акча кайтарып бериши керек?\n",
+          "uzb": "Temur Toshkent shahrida yashaydi. U Moskvaga o'qishga ketish uchun tayyorgarlik ko'rmoqda.\nToshkentdan Moskvagacha samolyot chiptasining narxi 84296 so'm.\nTemur sotuvchiga 20000 so'mlik 5 ta qog'oz pul berdi. Chipta sotuvchi Temurga necha so'm qaytarishi kerak?\n",
+          "eng": "Nick lives in London. He wants to drive to Moscow and decides to buy a car costing 84296 dollars.\nNick gives the cashier 5 notes of 20,000 dollars each.\nHow much money should the cashier return to Nick?\n",
+          "rus": "Николай живет в Астане. Он готовится поехать учиться в Москву. Билет на самолет из Астаны в Москву стоит 84296 тенге.\nНиколай дал кассиру 5 купюр по 20 000 тенге. Сколько тенге кассир должен вернуть Николаю?\n",
+          "kaz": "Ерлан Астана қаласында тұрады. Ол Мәскеуге оқуына кетуге дайындалып жатыр.\nАстанадан Мәскеуге дейін ұшақтың билеті 84296 теңге тұрады.\nЕрлан сатушыға 20000 теңгелік 5 қағаз ақша берді. Билет сатушы Ерланға неше теңге қайтаруы керек?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "ذهب موسى إلى شركة سياحية لحجز رحلة إلى مدينة شرم الشيخ سعرها 84313 جنيهًا لمدة أسبوع،\nوإذا أعطى للموظف 5 رزم من النقود (كل رزمة 20 ألف جنيه)،\nفكم جنيهًا يجب على الموظف أن يعيدها إلى موسى؟\n",
+          "areg": "ذهب موسى إلى شركة سياحية لحجز رحلة إلى مدينة شرم الشيخ سعرها 84296 جنيهًا لمدة أسبوع،\nوإذا أعطى للموظف 5 رزم من النقود (كل رزمة 20 ألف جنيه)،\nفكم جنيهًا يجب على الموظف أن يعيدها إلى موسى؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_6_7_4",
       "position": 3,
-      "id": "1a933d56-eb71-4476-b340-6cfb26fefdad",
+      "id": "c2b4c65f-a300-49e0-94c3-cd2fe400b5e8",
       "solution": {
         "type": "text",
         "answer": {
@@ -3254,7 +3254,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "15687",
+          "rus": "15704",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3377,34 +3377,34 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 423,
-        "number4": 2359,
-        "number3": 1242,
-        "number2": 1783,
-        "number1": 7585
-      },
       "title": null,
+      "fields": {
+        "number5": 424,
+        "number4": 2358,
+        "number3": 1243,
+        "number2": 1784,
+        "number1": 7591
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": " A ölkəsi şimalda və qərbdə uzunluğu 7585 km, şərqdə 1783 km, cənubda B ölkəsi ilə 1242 km, C ölkəsi ilə 2359 km və D ölkəsi ilə  423 km ümumi sərhədlərə malikdir. Sərhədlərin ümumi uzunluğu nə qədərdir?\n",
-          "kgz": "Казахстан республикасы түндүк жана батыштан  Россия менен 7585 км, чыгышта Кытай менен 1783 км, түштүктө Кыргызстан менен 1242 км, Өзбекстан менен 2359 км жана Түркмөнстан менен 423 км жалпы чек арасы бар.Чек аралардын жалпы узундугу канча?\n",
-          "uzb": "Qozog'istonning shimoli va g'arbida Rossiya bilan 7585 km, sharqida Xitoy bilan 1783 km, janubida Qirg'iziston bilan 1242 km, O'zbekiston bilan 2359 km, Turkmaniston bilan 423 km umumiy chegaralari bor.\nQozog'iston chegarasining umumiy uzunligini toping.\n",
-          "eng": "The Republic of Kazakhstan shares borders with Russia, which is 7585 km in the north and west, China, which is 1783 km in the east,\nKyrgyzstan, which is 1242 km in the south, Uzbekistan, which is 2359 km, and Turkmenistan, which is 423 km.\nWhat is the total length of all the borders?\n",
-          "rus": "На севере и западе республика N имеет общие границы с протяженностью 7585 км, на востоке 1783 км, на юге 1242 км,  2359 км и 423 км.\nКакова общая протяжённость границ?\n",
-          "kaz": "Еліміздің солтүстігі мен батысында Ресеймен 7585 км, шығысында Қытаймен 1783 км,\nоңтүстігінде Қырғызстанмен 1242 км, Өзбекстанмен 2359 км, Түркіменстанмен 423 км ортақ шекаралары бар.\nЕліміздің шекарасының жалпы ұзындығын табыңыз.\n",
+          "aze": " A ölkəsi şimalda və qərbdə uzunluğu 7591 km, şərqdə 1784 km, cənubda B ölkəsi ilə 1243 km, C ölkəsi ilə 2358 km və D ölkəsi ilə  424 km ümumi sərhədlərə malikdir. Sərhədlərin ümumi uzunluğu nə qədərdir?\n",
+          "kgz": "Казахстан республикасы түндүк жана батыштан  Россия менен 7591 км, чыгышта Кытай менен 1784 км, түштүктө Кыргызстан менен 1243 км, Өзбекстан менен 2358 км жана Түркмөнстан менен 424 км жалпы чек арасы бар.Чек аралардын жалпы узундугу канча?\n",
+          "uzb": "Qozog'istonning shimoli va g'arbida Rossiya bilan 7591 km, sharqida Xitoy bilan 1784 km, janubida Qirg'iziston bilan 1243 km, O'zbekiston bilan 2358 km, Turkmaniston bilan 424 km umumiy chegaralari bor.\nQozog'iston chegarasining umumiy uzunligini toping.\n",
+          "eng": "The Republic of Kazakhstan shares borders with Russia, which is 7591 km in the north and west, China, which is 1784 km in the east,\nKyrgyzstan, which is 1243 km in the south, Uzbekistan, which is 2358 km, and Turkmenistan, which is 424 km.\nWhat is the total length of all the borders?\n",
+          "rus": "На севере и западе республика N имеет общие границы с протяженностью 7591 км, на востоке 1784 км, на юге 1243 км,  2358 км и 424 км.\nКакова общая протяжённость границ?\n",
+          "kaz": "Еліміздің солтүстігі мен батысында Ресеймен 7591 км, шығысында Қытаймен 1784 км,\nоңтүстігінде Қырғызстанмен 1243 км, Өзбекстанмен 2358 км, Түркіменстанмен 424 км ортақ шекаралары бар.\nЕліміздің шекарасының жалпы ұзындығын табыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "تمتد حدود دولة كازاخستان بطول 7585 كم مع روسيا في الشمال والغرب، و1783 كم مع الصين في الشرق، و1242 كم مع قيرغيزستان في الجنوب، و2359 كم مع أوزبكستان، و423 كم مع تركمانستان. كم يبلغ الطول الإجمالي لحدود كازاخستان مع جميع الدول المجاورة لها.\n",
+          "areg": "تمتد حدود دولة كازاخستان بطول 7591 كم مع روسيا في الشمال والغرب، و1784 كم مع الصين في الشرق، و1243 كم مع قيرغيزستان في الجنوب، و2358 كم مع أوزبكستان، و424 كم مع تركمانستان. كم يبلغ الطول الإجمالي لحدود كازاخستان مع جميع الدول المجاورة لها.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_4_41",
       "position": 6,
-      "id": "fe8308c6-90f3-4c23-ac94-6233c69e53a8",
+      "id": "4b3485af-635c-44c9-a8b1-18431954bade",
       "solution": {
         "type": "text",
         "answer": {
@@ -3415,7 +3415,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "13392",
+          "rus": "13400",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3529,12 +3529,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number3": 9,
-        "number2": 21,
-        "number1": 268,
-        "letter": "z"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -3548,26 +3542,32 @@
         "areg": "حل المسألة بإنشاء تعبير.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number3": 6,
+        "number2": 27,
+        "number1": 265,
+        "letter": "a"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "İstixanadan 268 kq pomidor yığıldı. Pomidorlar hər birinə 21 kq olmaqla \\(z\\) qutuya qoyuldu. Nə qədər pomidor qaldı? Burada \\(z\\) = 9.\n",
-          "kgz": "Күнөсканадан 268 кг помидор жыйналды.\n\\(z\\) ящиктерге ар бирине  21 кг помидор салышты.\nКанча килограмм помидор калды? Мында\n",
-          "uzb": "Issiqxonadan 268 kg pomidor terildi va 21 kg dan \\(z\\) ta idishga solindi.\nNecha kilogramm pomidor qoldi? Bu yerda \\(z\\) = 9.\n",
-          "eng": "268 kg of tomatoes are harvested from the greenhouse. 268 kg of tomatoes are placed in \\(z\\) boxes.\nHow many kilograms of tomatoes are left? Here \\(z\\) = 9.\n",
-          "rus": "Из теплицы было собрано 268 кг помидоров. В \\(z\\) ящиков упаковали по 21 кг помидоров.\nСколько килограммов помидоров осталось? Здесь \\(z\\) = 9.\n",
-          "kaz": "Жылыжайдан 268 кг қызанақ жиналды. \\(z\\) жәшікке 21 кг-нан салынды.\nНеше килограмм қызанақ қалды? Мұндағы \\(z\\) = 9.\n",
+          "aze": "İstixanadan 265 kq pomidor yığıldı. Pomidorlar hər birinə 27 kq olmaqla \\(a\\) qutuya qoyuldu. Nə qədər pomidor qaldı? Burada \\(a\\) = 6.\n",
+          "kgz": "Күнөсканадан 265 кг помидор жыйналды.\n\\(a\\) ящиктерге ар бирине  27 кг помидор салышты.\nКанча килограмм помидор калды? Мында\n",
+          "uzb": "Issiqxonadan 265 kg pomidor terildi va 27 kg dan \\(a\\) ta idishga solindi.\nNecha kilogramm pomidor qoldi? Bu yerda \\(a\\) = 6.\n",
+          "eng": "265 kg of tomatoes are harvested from the greenhouse. 265 kg of tomatoes are placed in \\(a\\) boxes.\nHow many kilograms of tomatoes are left? Here \\(a\\) = 6.\n",
+          "rus": "Из теплицы было собрано 265 кг помидоров. В \\(a\\) ящиков упаковали по 27 кг помидоров.\nСколько килограммов помидоров осталось? Здесь \\(a\\) = 6.\n",
+          "kaz": "Жылыжайдан 265 кг қызанақ жиналды. \\(a\\) жәшікке 27 кг-нан салынды.\nНеше килограмм қызанақ қалды? Мұндағы \\(a\\) = 6.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا جمعنا من الصوبة الزراعية 268 كجم من الطماطم، ووضعنا 21 كجم في \\(z\\) صندوق،\nفكم كيلوجرامًا من الطماطم يتبقى؟ حيث 9 = \\(z\\)\n",
+          "areg": "إذا جمعنا من الصوبة الزراعية 265 كجم من الطماطم، ووضعنا 27 كجم في \\(a\\) صندوق،\nفكم كيلوجرامًا من الطماطم يتبقى؟ حيث 6 = \\(a\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_18_1",
       "position": 0,
-      "id": "46b01c67-b116-4991-b546-d9430f436baf",
+      "id": "8998c702-5786-4086-86a8-3b3caff0163b",
       "solution": {
         "type": "text",
         "answer": {
@@ -3578,7 +3578,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "79",
+          "rus": "103",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3671,9 +3671,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 71
-      },
       "title": {
         "with_audio_player": false,
         "aze": "“%” işarəsindən istifadə edərək kəsri faizlə yazın.",
@@ -3687,14 +3684,17 @@
         "areg": "اكتب الكسر في صورة نسبة مئوية باستخدام العلامة «%».",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 81
+      },
       "description": {
         "with_audio": true,
-        "content": "\\(\\dfrac{71}{100}\\) = ",
+        "content": "\\(\\dfrac{81}{100}\\) = ",
         "type": "text"
       },
       "type": "Elixir.Task_4_11_3_2",
       "position": 1,
-      "id": "e2ef84e9-9b28-421e-917a-54cdc0af379d",
+      "id": "51780599-4e7c-430e-9fdb-70b5c4b05781",
       "solution": {
         "type": "text",
         "answer": {
@@ -3705,7 +3705,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "71",
+          "rus": "81",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3792,33 +3792,33 @@
       },
       "difficulty": "x1",
       "result": "none",
+      "title": null,
       "fields": {
         "difficulty": "x1",
-        "number3": 4,
-        "number2": 5,
-        "number1": 15
+        "number3": 2,
+        "number2": 7,
+        "number1": 35
       },
-      "title": null,
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "15 mm-nin \\(\\dfrac{4}{5}\\) hissəsi nə qədərdir?",
-          "kgz": "15 миллиметрдин \\(\\dfrac{4}{5}\\) бөлүгү канчага барабар?",
-          "uzb": "15 mm ning \\(\\dfrac{4}{5}\\) qismini toping?",
-          "eng": "What is \\(\\dfrac{4}{5}\\) of 15 mm?",
-          "rus": "Чему равно \\(\\dfrac{4}{5}\\) части 15 мм?",
-          "kaz": "15 мм-дің \\(\\dfrac{4}{5}\\) бөлігі нешеге тең?",
+          "aze": "35 mm-nin \\(\\dfrac{2}{7}\\) hissəsi nə qədərdir?",
+          "kgz": "35 миллиметрдин \\(\\dfrac{2}{7}\\) бөлүгү канчага барабар?",
+          "uzb": "35 mm ning \\(\\dfrac{2}{7}\\) qismini toping?",
+          "eng": "What is \\(\\dfrac{2}{7}\\) of 35 mm?",
+          "rus": "Чему равно \\(\\dfrac{2}{7}\\) части 35 мм?",
+          "kaz": "35 мм-дің \\(\\dfrac{2}{7}\\) бөлігі нешеге тең?",
           "arjd": "",
           "arsa": "",
-          "areg": "كم يكون \\(\\dfrac{4}{5}\\) من 15 مم؟",
+          "areg": "كم يكون \\(\\dfrac{2}{7}\\) من 35 مم؟",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_11_11_6",
       "position": 11,
-      "id": "131bc598-f722-4f02-bf1b-fb1b94dc56c1",
+      "id": "af4156b6-f033-455d-be2a-45e4b33935ef",
       "solution": {
         "type": "text",
         "answer": {
@@ -3829,7 +3829,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "12",
+          "rus": "10",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -3904,9 +3904,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number": 6200
-      },
       "title": {
         "with_audio_player": false,
         "aze": "Verilmiş ölçü vahidi ilə ifadə edin.",
@@ -3920,16 +3917,19 @@
         "areg": "حوِّل إلى وحدة القياس المحددة:",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "number": 6500
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "6200 \\(m^2\\) = ",
-          "kgz": "6200 \\(м^2\\) = ",
-          "uzb": "6200 \\(m^2\\) = ",
-          "eng": "6,200 \\(m^2\\) = ",
-          "rus": "6200 \\(м^2\\) = ",
-          "kaz": "6200 \\(м^2\\) = ",
+          "aze": "6500 \\(m^2\\) = ",
+          "kgz": "6500 \\(м^2\\) = ",
+          "uzb": "6500 \\(m^2\\) = ",
+          "eng": "6,500 \\(m^2\\) = ",
+          "rus": "6500 \\(м^2\\) = ",
+          "kaz": "6500 \\(м^2\\) = ",
           "arjd": "",
           "arsa": "",
           "areg": "",
@@ -3939,7 +3939,7 @@
       },
       "type": "Elixir.Task_4_7_1_14",
       "position": 16,
-      "id": "a7ce9d49-7627-4672-9fc4-ba5d29a75ba8",
+      "id": "fff0bbaa-4277-4158-9f10-3f002edeb462",
       "solution": {
         "type": "text",
         "answer": {
@@ -3950,7 +3950,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "62",
+          "rus": "65",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4037,10 +4037,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter": "x",
-        "number": 15
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -4054,26 +4050,30 @@
         "areg": "حل المسألة بإنشاء تعبير.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter": "z",
+        "number": 7
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Uşaqlar bağda alma yığırdılar. Birlikdə \\(x\\) kq alma yığdılar.\nƏgər 15 uşaq almaları bərabər bölüşdülərsə, hər uşağın aldığı almanın miqdarını ifadə şəklində yazın.\n",
-          "kgz": "Балдар бакчада алма терип жатышты. Алар чогуу \\(x\\) кг алма чогултушту.\nЭгерде 15 бала алмаларды бирдей бөлүп алышса, анда ар бир бала алган алманын салмагын жазыңыз.\n",
-          "uzb": "Bolalar bog'dan olma terishdi. Ular birgalikda \\(x\\) kilogramm olma terishdi.\nAgar 15 nafar bolaga olmalarni teng taqsimlasa, har bir bola tergan olmani harfli ifoda ko'rinishida yozing.\n",
-          "eng": "The children pick apples in the garden. Together, they collect \\(x\\) kg of apples.\nIf 15 children divide the apples equally, write down the mass of apples that each child gets.\n",
-          "rus": "Дети собирали яблоки в саду. Вместе они собрали \\(x\\) кг яблок.\nЕсли 15 детей разделили яблоки поровну, то запишите массу яблок, которую получил каждый ребенок.\n",
-          "kaz": "Балалар бақшадан алма жинады. Олар бірігіп \\(x\\) кг алма жинады.\nЕгер алмаларды 15 бала теңдей бөліп алса, онда әр балаға бөлінген алманың массасын өрнек құрып жазыңыз.\n",
+          "aze": "Uşaqlar bağda alma yığırdılar. Birlikdə \\(z\\) kq alma yığdılar.\nƏgər 7 uşaq almaları bərabər bölüşdülərsə, hər uşağın aldığı almanın miqdarını ifadə şəklində yazın.\n",
+          "kgz": "Балдар бакчада алма терип жатышты. Алар чогуу \\(z\\) кг алма чогултушту.\nЭгерде 7 бала алмаларды бирдей бөлүп алышса, анда ар бир бала алган алманын салмагын жазыңыз.\n",
+          "uzb": "Bolalar bog'dan olma terishdi. Ular birgalikda \\(z\\) kilogramm olma terishdi.\nAgar 7 nafar bolaga olmalarni teng taqsimlasa, har bir bola tergan olmani harfli ifoda ko'rinishida yozing.\n",
+          "eng": "The children pick apples in the garden. Together, they collect \\(z\\) kg of apples.\nIf 7 children divide the apples equally, write down the mass of apples that each child gets.\n",
+          "rus": "Дети собирали яблоки в саду. Вместе они собрали \\(z\\) кг яблок.\nЕсли 7 детей разделили яблоки поровну, то запишите массу яблок, которую получил каждый ребенок.\n",
+          "kaz": "Балалар бақшадан алма жинады. Олар бірігіп \\(z\\) кг алма жинады.\nЕгер алмаларды 7 бала теңдей бөліп алса, онда әр балаға бөлінген алманың массасын өрнек құрып жазыңыз.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "قطف الأطفال بعض التفاح من المزرعة. إذا قطفوا \\(x\\) كجم من التفاح معًا،\nثم قام 15 أطفال بتقسيم إجمالي عدد التفاح على بعضهم بالتساوي، فاكتب تعبيرًا يمثل كمية التفاح التي حصل عليها كل طفل.\n",
+          "areg": "قطف الأطفال بعض التفاح من المزرعة. إذا قطفوا \\(z\\) كجم من التفاح معًا،\nثم قام 7 أطفال بتقسيم إجمالي عدد التفاح على بعضهم بالتساوي، فاكتب تعبيرًا يمثل كمية التفاح التي حصل عليها كل طفل.\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_17_4",
       "position": 3,
-      "id": "8b9240dc-66be-45fb-90c9-4a4d76a98505",
+      "id": "7f9e6dd7-c7ef-4653-b3af-7e58a9f69fa2",
       "solution": {
         "type": "text",
         "answer": {
@@ -4084,7 +4084,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "x : 15 || \\frac{x}{15}",
+          "rus": "z : 7 || \\frac{z}{7}",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4171,10 +4171,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "t",
-        "letter1": "y"
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -4188,26 +4184,30 @@
         "areg": "حل المسألة بإنشاء تعبير.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "t",
+        "letter1": "a"
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Velosipedçi \\(t\\) saat ərzində \\(y\\) km/saat sürətlə getdi.\nBu müddət ərzində hansı məsafəni qət etdi?\n",
-          "kgz": "Велосипедчен \\(t\\) саатта \\(y\\) км/саат ылдамдык менен жүрдү.\nАл бул убакытта канча аралыкты жүрдү?\n",
-          "uzb": "Velosipedchi \\(t\\) km/h tezlik bilan \\(y\\) soat yo'l yurdi.\nBu vaqt mobaynida u qancha masofani bosib o'tdi?\n",
-          "eng": "The cyclist travels for \\(t\\) hours at a speed of \\(y\\) km/h.\nWrite the distance he travels as an expression.\n",
-          "rus": "Велосипедист ехал в течение \\(t\\) часов со скоростью \\(y\\) км/ч.\nКакое расстояние он проехал за это время?\n",
-          "kaz": "Велосипедші \\(y\\) км/сағ жылдамдықпен \\(t\\) сағ жүрді.\nОл осы уақыт ішінде қанша жол жүрді?\n",
+          "aze": "Velosipedçi \\(t\\) saat ərzində \\(a\\) km/saat sürətlə getdi.\nBu müddət ərzində hansı məsafəni qət etdi?\n",
+          "kgz": "Велосипедчен \\(t\\) саатта \\(a\\) км/саат ылдамдык менен жүрдү.\nАл бул убакытта канча аралыкты жүрдү?\n",
+          "uzb": "Velosipedchi \\(t\\) km/h tezlik bilan \\(a\\) soat yo'l yurdi.\nBu vaqt mobaynida u qancha masofani bosib o'tdi?\n",
+          "eng": "The cyclist travels for \\(t\\) hours at a speed of \\(a\\) km/h.\nWrite the distance he travels as an expression.\n",
+          "rus": "Велосипедист ехал в течение \\(t\\) часов со скоростью \\(a\\) км/ч.\nКакое расстояние он проехал за это время?\n",
+          "kaz": "Велосипедші \\(a\\) км/сағ жылдамдықпен \\(t\\) сағ жүрді.\nОл осы уақыт ішінде қанша жол жүрді?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا قطع راكب الدراجة مسافة بسرعة \\(y\\) كم/ ساعة لمدة \\(t\\) ساعة، فكم المسافة التي قطعها خلال هذه الفترة؟\n",
+          "areg": "إذا قطع راكب الدراجة مسافة بسرعة \\(a\\) كم/ ساعة لمدة \\(t\\) ساعة، فكم المسافة التي قطعها خلال هذه الفترة؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_17_5",
       "position": 4,
-      "id": "dfef4a8e-e7f5-4ff3-b7f5-73e9c1d31d97",
+      "id": "7f82cb6e-b60d-45ee-b028-8e7f7848f106",
       "solution": {
         "type": "text",
         "answer": {
@@ -4218,7 +4218,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "yt",
+          "rus": "at",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4305,12 +4305,6 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "letter2": "m",
-        "letter1": "a",
-        "number2": 63,
-        "number1": 3
-      },
       "title": {
         "with_audio_player": false,
         "aze": "İfadə tərtib edərək məsələni həll edin.",
@@ -4324,26 +4318,32 @@
         "areg": "حل المسألة بإنشاء تعبير.",
         "module_name": "Elixir.Helpers.Translation"
       },
+      "fields": {
+        "letter2": "z",
+        "letter1": "x",
+        "number2": 258,
+        "number1": 3
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Avtomobil \\(m\\) km məsafəni \\(a\\) saata getdi.\nAvtomobil hansı sürətlə hərəkət etdi? Burada: \\(a\\) = 3, \\(m\\) = 63.\n",
-          "kgz": "Машина \\(m\\) км аралыкты \\(a\\) саатта өттү.\nМашина кандай ылдамдык менен жүрдү? Бул жерде: \\(a\\) = 3, \\(m\\) = 63.\n",
-          "uzb": "Mashina b soatda y km yo'l bosib o'tdi. Mashina qanday tezlikda harakat qildi?\nBu yerda: \\(a\\) = 3, \\(m\\) = 63.\n",
-          "eng": "I drive the car for \\(m\\) km in \\(a\\) hours.\nAt what speed is the car moving? Here: \\(a\\) = 3, \\(m\\) = 63.\n",
-          "rus": "Автомобиль проехал \\(m\\) км за \\(a\\) часов. С какой скоростью двигался автомобиль?\nГде: \\(a\\) = 3, \\(m\\) = 63.\n",
-          "kaz": "Автокөлік \\(a\\) сағат ішінде \\(m\\) км жол жүрді. Ол қандай жылдамдықпен қозғалған?\nМұндағы: \\(a\\) = 3, \\(m\\) = 63.\n",
+          "aze": "Avtomobil \\(z\\) km məsafəni \\(x\\) saata getdi.\nAvtomobil hansı sürətlə hərəkət etdi? Burada: \\(x\\) = 3, \\(z\\) = 258.\n",
+          "kgz": "Машина \\(z\\) км аралыкты \\(x\\) саатта өттү.\nМашина кандай ылдамдык менен жүрдү? Бул жерде: \\(x\\) = 3, \\(z\\) = 258.\n",
+          "uzb": "Mashina b soatda y km yo'l bosib o'tdi. Mashina qanday tezlikda harakat qildi?\nBu yerda: \\(x\\) = 3, \\(z\\) = 258.\n",
+          "eng": "I drive the car for \\(z\\) km in \\(x\\) hours.\nAt what speed is the car moving? Here: \\(x\\) = 3, \\(z\\) = 258.\n",
+          "rus": "Автомобиль проехал \\(z\\) км за \\(x\\) часов. С какой скоростью двигался автомобиль?\nГде: \\(x\\) = 3, \\(z\\) = 258.\n",
+          "kaz": "Автокөлік \\(x\\) сағат ішінде \\(z\\) км жол жүрді. Ол қандай жылдамдықпен қозғалған?\nМұндағы: \\(x\\) = 3, \\(z\\) = 258.\n",
           "arjd": "",
           "arsa": "",
-          "areg": "إذا قطعت السيارة مسافة \\(m\\) كم في \\(a\\) ساعة، فكم تبلغ سرعتها؟\nحيث 3=\\(a\\)، 63=\\(m\\)\n",
+          "areg": "إذا قطعت السيارة مسافة \\(z\\) كم في \\(x\\) ساعة، فكم تبلغ سرعتها؟\nحيث 3=\\(x\\)، 258=\\(z\\)\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_12_17_6",
       "position": 5,
-      "id": "3050bb35-aed4-4c73-bd06-8cf23bbb1268",
+      "id": "60874305-009a-4ab4-9d87-471824914197",
       "solution": {
         "type": "text",
         "answer": {
@@ -4354,7 +4354,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "21",
+          "rus": "86",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"
@@ -4441,35 +4441,35 @@
       },
       "difficulty": null,
       "result": "none",
-      "fields": {
-        "number5": 13,
-        "number6": 24,
-        "number4": 14,
-        "number3": 300,
-        "number2": 400,
-        "number1": 400
-      },
       "title": null,
+      "fields": {
+        "number5": 11,
+        "number6": 25,
+        "number4": 19,
+        "number3": 400,
+        "number2": 700,
+        "number1": 700
+      },
       "description": {
         "with_audio": true,
         "content": {
           "with_audio_player": false,
-          "aze": "Çiyələk üç bağ sahəsində yetişdirilirdi.\nBirinci sahədən 1 m² torpaqdan 400 qram, ikinci sahədən 400 qram, üçüncü sahədən isə 300 qram çiyələk yığılıb.\nƏgər birinci sahənin ərazisi 14 m², ikinci sahənin ərazisi 13 m², üçüncü sahənin ərazisi isə 24 m²-dirsə, neçə kq çiyələk yığılıb?\n",
-          "kgz": "Үч огороддо кулпунай өстүрүлгөн. 1 м² жер үчүн биринчи участоктон 400 г, экинчиден 400 г, үчүнчүдөн 300 г жыйналды.\nБиринчи участоктун аянты 14 м² , экинчи участоктун  аянты 13 м², ал эми үчүнчү участоктун аянты 24 м² болсо, үч участоктон канча кг кулпунай жыйналды?\n",
-          "uzb": "Uchta bog'da qulupnay o'stirildi. Har 1 m² yerga hisoblanganda birinchi bog'da 400 g, ikkinchi bog'da 400 g, uchinchi bog'da 300 g hosildorlik bo'ldi.\nAgar, birinchi bog'ning maydoni 14 m², ikkinchi bog'ning maydoni 13 m², uchinchi bog'ning maydoni 24 m² bo'lsa, umumiy necha kg qulupnay terildi?\n",
-          "eng": "Strawberries are grown on three garden plots. From each square meter, 400 g are collected from the first plot, 400 g from the second plot, and 300 g from the third plot.\nIf the area of the first plot is 14 m², the area of the second plot is 13 m², and the area of the\nthird plot is 24 m², how many kilograms of strawberries are collected in total?\n",
-          "rus": "Клубнику выращивали на трех садовых участках.\nНа 1 м² земли с первого участка собрали 400 г, со второго участка собрали 400 г, с третьего участка собрали 300 г.\nЕсли площадь первого участка 14 м², площадь второго участка 13 м², а площадь третьего участка 24 м², сколько всего кг клубники было собрано?\n",
-          "kaz": "Үш бақша алаңдарына құлпынай өсірілді.\nӘр 1 м² жерге шаққан кезде бірінші бақшада 400 г, екінші бақшада 400 г, үшінші бақшада 300 г түсім болды.\nЕгер, бірінші бақшаның ауданы 14 м², екінші бақшаның ауданы 13 м², үшінші бақшаның ауданы 24 м² болса, барлығы неше кг құлпынай жиналды?\n",
+          "aze": "Çiyələk üç bağ sahəsində yetişdirilirdi.\nBirinci sahədən 1 m² torpaqdan 700 qram, ikinci sahədən 700 qram, üçüncü sahədən isə 400 qram çiyələk yığılıb.\nƏgər birinci sahənin ərazisi 19 m², ikinci sahənin ərazisi 11 m², üçüncü sahənin ərazisi isə 25 m²-dirsə, neçə kq çiyələk yığılıb?\n",
+          "kgz": "Үч огороддо кулпунай өстүрүлгөн. 1 м² жер үчүн биринчи участоктон 700 г, экинчиден 700 г, үчүнчүдөн 400 г жыйналды.\nБиринчи участоктун аянты 19 м² , экинчи участоктун  аянты 11 м², ал эми үчүнчү участоктун аянты 25 м² болсо, үч участоктон канча кг кулпунай жыйналды?\n",
+          "uzb": "Uchta bog'da qulupnay o'stirildi. Har 1 m² yerga hisoblanganda birinchi bog'da 700 g, ikkinchi bog'da 700 g, uchinchi bog'da 400 g hosildorlik bo'ldi.\nAgar, birinchi bog'ning maydoni 19 m², ikkinchi bog'ning maydoni 11 m², uchinchi bog'ning maydoni 25 m² bo'lsa, umumiy necha kg qulupnay terildi?\n",
+          "eng": "Strawberries are grown on three garden plots. From each square meter, 700 g are collected from the first plot, 700 g from the second plot, and 400 g from the third plot.\nIf the area of the first plot is 19 m², the area of the second plot is 11 m², and the area of the\nthird plot is 25 m², how many kilograms of strawberries are collected in total?\n",
+          "rus": "Клубнику выращивали на трех садовых участках.\nНа 1 м² земли с первого участка собрали 700 г, со второго участка собрали 700 г, с третьего участка собрали 400 г.\nЕсли площадь первого участка 19 м², площадь второго участка 11 м², а площадь третьего участка 25 м², сколько всего кг клубники было собрано?\n",
+          "kaz": "Үш бақша алаңдарына құлпынай өсірілді.\nӘр 1 м² жерге шаққан кезде бірінші бақшада 700 г, екінші бақшада 700 г, үшінші бақшада 400 г түсім болды.\nЕгер, бірінші бақшаның ауданы 19 м², екінші бақшаның ауданы 11 м², үшінші бақшаның ауданы 25 м² болса, барлығы неше кг құлпынай жиналды?\n",
           "arjd": "",
           "arsa": "",
-          "areg": "زُرعت الفراولة في ثلاثة حقول، وكانت إنتاجية كل متر مربع كما يلي: 400 جرام في الحقل الأول، و400 جرام في الحقل الثاني، و300 جرام في الحقل الثالث.\nإذا كانت مساحة الحقل الأول 14 مترًا مربعًا، والحقل الثاني 13 مترًا مربعًا، والحقل الثالث 24 مترًا مربعًا، فكم كيلوجرامًا يبلغ إجمالي المحصول؟\n",
+          "areg": "زُرعت الفراولة في ثلاثة حقول، وكانت إنتاجية كل متر مربع كما يلي: 700 جرام في الحقل الأول، و700 جرام في الحقل الثاني، و400 جرام في الحقل الثالث.\nإذا كانت مساحة الحقل الأول 19 مترًا مربعًا، والحقل الثاني 11 مترًا مربعًا، والحقل الثالث 25 مترًا مربعًا، فكم كيلوجرامًا يبلغ إجمالي المحصول؟\n",
           "module_name": "Elixir.Helpers.Translation"
         },
         "type": "text"
       },
       "type": "Elixir.Task_4_10_9_18",
       "position": 16,
-      "id": "2c3408ae-6dec-4431-9228-f84bc5e34aca",
+      "id": "d9592b08-a494-4b2d-a76d-8a0af19bfed6",
       "solution": {
         "type": "text",
         "answer": {
@@ -4480,7 +4480,7 @@
           "kgz": "",
           "uzb": "",
           "eng": "",
-          "rus": "18",
+          "rus": "31",
           "kaz": "",
           "school": "",
           "module_name": "Elixir.Helpers.Translation"

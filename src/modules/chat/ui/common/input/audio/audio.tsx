@@ -51,7 +51,7 @@ export const AudioInput = ({
       await recorder.start()
 
       const audioAnalyser = recorder.getAnalyser()
-      setAnalyser(audioAnalyser as any as AnalyserNode | null)
+      setAnalyser(audioAnalyser)
       setIsRecording(true)
       setRecordingTime(0)
       timerRef.current = setInterval(() => {

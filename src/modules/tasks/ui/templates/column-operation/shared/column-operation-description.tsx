@@ -9,9 +9,9 @@ import { MathText } from '@/ui/math-text/math-text'
 import { parseDivisionCorner } from '../lib/parse-division-corner'
 import { prepareColumnOperationMath } from '../lib/prepare-column-operation-math'
 import type { ColumnOperationTask } from '../lib/types.task'
-import { DivisionCorner } from './division-corner'
 
 import styles from './column-operation.module.scss'
+import { DivisionCorner } from './division-corner'
 
 interface Props {
   task: ColumnOperationTask
@@ -19,6 +19,8 @@ interface Props {
   className?: string
   /** Solution view: show this under the division hline. */
   quotient?: string
+  /** Solution view: division-with-remainder — show under the quotient. */
+  remainder?: string
 }
 
 /**
@@ -30,6 +32,7 @@ export const ColumnOperationDescription = ({
   deps,
   className,
   quotient,
+  remainder,
 }: Props) => {
   const raw = getDescriptionTranslation(
     task as unknown as Task<'columnOperation'>,
@@ -48,6 +51,7 @@ export const ColumnOperationDescription = ({
         dividend={corner.dividend}
         divisor={corner.divisor}
         quotient={corner.quotient}
+        remainder={remainder}
       />
     )
   }

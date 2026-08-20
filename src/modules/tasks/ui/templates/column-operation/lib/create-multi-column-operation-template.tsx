@@ -1,5 +1,6 @@
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
@@ -7,10 +8,11 @@ import type { Task } from '@/types/api/task'
 import { MathInput } from '@/ui/math-input/math-input'
 
 import { TextAdornment } from '../../text/shared/text-adornment'
-import type { ColumnOperationTask } from './types.task'
 import { ColumnOperationDescription } from '../shared/column-operation-description'
 import styles from '../shared/column-operation.module.scss'
 import { MultiColumnOperationSolution } from '../shared/multi-column-operation-solution'
+
+import type { ColumnOperationTask } from './types.task'
 
 interface MultiColumnOperationTemplateConfig {
   /** templateId, e.g. `columnOperation.multi.stack.n2.before`. */
@@ -54,7 +56,7 @@ export const createMultiColumnOperationTemplate = ({
       mathInput,
     })
 
-    const answerValues = answer.split(separator)
+    const answerValues = splitMultiAnswer(answer, separator)
     const inputEntries = getInlineInputEntries(
       task as unknown as Task<'columnOperation'>,
       (value) => deps.global.translateTasks(value),

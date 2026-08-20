@@ -1,9 +1,13 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import type { PlayCaseResult } from '@/testing/play-results'
+import type { PlayCaseResult, PlayCaseStatus } from '@/testing/play-results'
 import { PlayResultsPanel } from '@/testing/play-results-panel'
 
-import { TEMPLATE_VARIANT_KEYS, getTaskIdsForTemplate } from '../lib/template-options'
+import {
+  TEMPLATE_VARIANT_KEYS,
+  getTaskIdsForTemplate,
+} from '../lib/template-options'
+import { useTemplateQa, useTemplateQaActions } from '../lib/template-qa-client'
 import {
   isAnySuiteBusy,
   isHubBusy,
@@ -36,6 +40,13 @@ const STATUS_LABEL: Record<Status, string> = {
   running: 'идёт…',
   passed: 'успех',
   failed: 'падение',
+}
+
+const suiteStatusToPlay = (status: Status): PlayCaseStatus => {
+  if (status === 'passed') return 'pass'
+  if (status === 'failed') return 'fail'
+  if (status === 'running') return 'running'
+  return 'pending'
 }
 
 type Props = {
@@ -72,26 +83,32 @@ export const TestSuiteRunner = ({
   hintWhenUnreachable,
   probeUrl,
 }: Props) => {
-  const slice = useTestRunStore(
-    useCallback((s) => s.suites[suite], [suite]),
-  )
+  const slice = useTestRunStore(useCallback((s) => s.suites[suite], [suite]))
   const runBlocked = useTestRunStore(
-    useCallback((s) => isSuiteBusy(suite, s) || isHubBusy(s) || isAnySuiteBusy(s), [suite]),
+    useCallback(
+      (s) => isSuiteBusy(suite, s) || isHubBusy(s) || isAnySuiteBusy(s),
+      [suite],
+    ),
   )
   const canStop = slice.status === 'running'
 
   const [headed, setHeaded] = useState(false)
   const [e2eFast, setE2eFast] = useState(true)
-  const [scope, setScope] = useState<TestScope>('allTasks')
+  const [scope, setScope] = useState<TestScope>(
+    suite === 'visual' ? 'all' : 'allTasks',
+  )
   const [grade, setGrade] = useState<TestGrade>(4)
   const [template, setTemplate] = useState('')
   const [task, setTask] = useState('')
   const templates = useTemplateOptions()
   const tasks = useTaskOptions(template, grade)
+  const qa = useTemplateQa(template)
+  const { markReviewed, clearReviewed } = useTemplateQaActions(template)
   const [reachable, setReachable] = useState<boolean | null>(
     probeUrl ? null : true,
   )
 
+  const showBrowserExtras = suite === 'e2e' || suite === 'visual'
   const showE2eExtras = suite === 'e2e'
   const status = slice.status
   const log = slice.log
@@ -116,12 +133,35 @@ export const TestSuiteRunner = ({
 
   const summary = useMemo(() => {
     if (cases.length === 0) return null
-    const passed = cases.filter((c: PlayCaseResult) => c.status === 'pass').length
-    const failed = cases.filter((c: PlayCaseResult) => c.status === 'fail').length
-    const running = cases.filter((c: PlayCaseResult) => c.status === 'running').length
-    const pending = cases.filter((c: PlayCaseResult) => c.status === 'pending').length
+    const passed = cases.filter(
+      (c: PlayCaseResult) => c.status === 'pass',
+    ).length
+    const failed = cases.filter(
+      (c: PlayCaseResult) => c.status === 'fail',
+    ).length
+    const running = cases.filter(
+      (c: PlayCaseResult) => c.status === 'running',
+    ).length
+    const pending = cases.filter(
+      (c: PlayCaseResult) => c.status === 'pending',
+    ).length
     return { passed, failed, running, pending, total: cases.length }
   }, [cases])
+
+  const purposeText = purpose ?? description
+
+  const checklistCases = useMemo<PlayCaseResult[]>(
+    () => [
+      {
+        id: `suite-${suite}`,
+        label,
+        status: suiteStatusToPlay(status),
+        descriptionRu: STATUS_LABEL[status],
+      },
+      ...cases.filter((c) => c.id !== `suite-${suite}`),
+    ],
+    [suite, label, status, cases],
+  )
 
   const onRun = () => {
     if (runBlocked || isHubBusy() || isAnySuiteBusy()) return
@@ -131,8 +171,28 @@ export const TestSuiteRunner = ({
       grade,
       template,
       task,
-      headed: showE2eExtras ? headed : undefined,
+      headed: showBrowserExtras ? headed : undefined,
       e2eFast: showE2eExtras ? e2eFast : undefined,
+    })
+  }
+
+  const onUpdateSnapshots = () => {
+    if (suite !== 'visual') return
+    if (runBlocked || isHubBusy() || isAnySuiteBusy()) return
+    if (!template.trim()) return
+    const taskLabel = task.trim() || 'все'
+    const ok = window.confirm(
+      `Перезаписать PNG-эталоны для ${template} (задача: ${taskLabel}, охват: ${scope})?`,
+    )
+    if (!ok) return
+    startSuiteRun({
+      suite: 'visual',
+      scope,
+      grade,
+      template,
+      task,
+      headed,
+      updateSnapshots: true,
     })
   }
 
@@ -142,7 +202,6 @@ export const TestSuiteRunner = ({
 
   const runDisabled = runBlocked || reachable === false
   const formLocked = runBlocked
-  const purposeText = purpose ?? description
 
   const images = artifacts.filter((a) => a.kind === 'image')
   const videos = artifacts.filter((a) => a.kind === 'video')
@@ -217,6 +276,45 @@ export const TestSuiteRunner = ({
               ))}
             </select>
           </label>
+          {template ? (
+            <div
+              className={styles.qaBadges}
+              title="Статус QA по выбранному шаблону"
+            >
+              <span
+                className={qa?.auto.ok ? styles.qaBadgeOk : styles.qaBadgeIdle}
+              >
+                авто {qa?.auto.ok ? '✓' : '—'}
+              </span>
+              <span
+                className={
+                  qa?.reviewed.ok ? styles.qaBadgeOk : styles.qaBadgeIdle
+                }
+              >
+                просмотрено {qa?.reviewed.ok ? '✓' : '—'}
+              </span>
+              {qa?.reviewed.ok ? (
+                <button
+                  type="button"
+                  className={styles.qaBtn}
+                  disabled={formLocked}
+                  onClick={clearReviewed}
+                >
+                  Снять просмотр
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  className={styles.qaBtn}
+                  disabled={formLocked}
+                  onClick={markReviewed}
+                  title="Пометить шаблон просмотренным после ручной проверки diff’ов"
+                >
+                  Просмотрено
+                </button>
+              )}
+            </div>
+          ) : null}
           <label className={styles.field}>
             <span className={styles.fieldLabel}>Задача</span>
             <select
@@ -238,7 +336,7 @@ export const TestSuiteRunner = ({
               ))}
             </select>
           </label>
-          {showE2eExtras && (
+          {showBrowserExtras && (
             <>
               <label className={styles.toggle}>
                 <span className={styles.fieldLabel}>Браузер</span>
@@ -252,18 +350,20 @@ export const TestSuiteRunner = ({
                   Показать окно браузера
                 </span>
               </label>
-              <label className={styles.toggle}>
-                <span className={styles.fieldLabel}>Скорость</span>
-                <span className={styles.toggleControl}>
-                  <input
-                    type="checkbox"
-                    checked={e2eFast}
-                    disabled={formLocked}
-                    onChange={(e) => setE2eFast(e.target.checked)}
-                  />
-                  Быстрый прогон
-                </span>
-              </label>
+              {showE2eExtras && (
+                <label className={styles.toggle}>
+                  <span className={styles.fieldLabel}>Скорость</span>
+                  <span className={styles.toggleControl}>
+                    <input
+                      type="checkbox"
+                      checked={e2eFast}
+                      disabled={formLocked}
+                      onChange={(e) => setE2eFast(e.target.checked)}
+                    />
+                    Быстрый прогон
+                  </span>
+                </label>
+              )}
             </>
           )}
           <div className={styles.runGroup}>
@@ -279,14 +379,31 @@ export const TestSuiteRunner = ({
                 Остановить
               </button>
             ) : (
-              <button
-                type="button"
-                className={styles.run}
-                disabled={runDisabled}
-                onClick={onRun}
-              >
-                Запустить
-              </button>
+              <>
+                <button
+                  type="button"
+                  className={styles.run}
+                  disabled={runDisabled}
+                  onClick={onRun}
+                >
+                  Запустить
+                </button>
+                {suite === 'visual' ? (
+                  <button
+                    type="button"
+                    className={styles.runSecondary}
+                    disabled={runDisabled || !template.trim()}
+                    title={
+                      template.trim()
+                        ? 'Перезаписать PNG-эталоны для выбранных фильтров'
+                        : 'Сначала выберите шаблон'
+                    }
+                    onClick={onUpdateSnapshots}
+                  >
+                    Обновить эталоны
+                  </button>
+                ) : null}
+              </>
             )}
           </div>
         </div>
@@ -296,7 +413,7 @@ export const TestSuiteRunner = ({
         <div className={styles.hint}>{hintWhenUnreachable}</div>
       )}
 
-      {showE2eExtras && headed && (
+      {showBrowserExtras && headed && (
         <div className={styles.hint}>
           Откроется отдельное окно браузера на вашем экране — так можно глазами
           увидеть, где сценарий ломается. В этой странице останутся чеклист,
@@ -323,11 +440,9 @@ export const TestSuiteRunner = ({
         </p>
       )}
 
-      {cases.length > 0 && (
-        <div className={styles.resultsWrap}>
-          <PlayResultsPanel cases={cases} header="Проверки" />
-        </div>
-      )}
+      <div className={styles.resultsWrap}>
+        <PlayResultsPanel cases={checklistCases} header="Проверки" />
+      </div>
 
       {images.length > 0 && (
         <section className={styles.artifacts}>
@@ -392,7 +507,10 @@ export const TestSuiteRunner = ({
         </section>
       )}
 
-      <details className={styles.logDetails} open={status === 'failed' || status === 'running'}>
+      <details
+        className={styles.logDetails}
+        open={status === 'failed' || status === 'running'}
+      >
         <summary>Полный лог{status === 'failed' ? ' (падение)' : ''}</summary>
         <pre className={styles.log}>{log || '—'}</pre>
       </details>

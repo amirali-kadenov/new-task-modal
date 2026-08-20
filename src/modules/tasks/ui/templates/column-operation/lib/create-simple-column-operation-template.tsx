@@ -4,10 +4,11 @@ import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import { MathInput } from '@/ui/math-input/math-input'
 
-import type { ColumnOperationTask } from './types.task'
 import { ColumnOperationDescription } from '../shared/column-operation-description'
 import { ColumnOperationSolution } from '../shared/column-operation-solution'
 import styles from '../shared/column-operation.module.scss'
+
+import type { ColumnOperationTask } from './types.task'
 
 interface SimpleColumnOperationTemplateConfig {
   /** templateId, e.g. `columnOperation.plain`. */

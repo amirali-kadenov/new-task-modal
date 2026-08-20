@@ -41,9 +41,3 @@
 .htmlPart {
   overflow-x: auto;
 }
-
-.unsupported {
-  @include caption-regular;
-
-  color: var(--text-secondary);
-}

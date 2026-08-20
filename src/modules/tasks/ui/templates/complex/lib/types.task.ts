@@ -77,12 +77,34 @@ export interface ComplexCoordinatePlanePart {
   [key: string]: unknown
 }
 
+export interface ComplexTableRow {
+  cells: unknown[]
+  colspan_list?: number[]
+  rowspan_list?: number[]
+  border_bottom?: string
+}
+
+export interface ComplexTablePart {
+  type: 120
+  rows?: ComplexTableRow[]
+  width?: string
+  tableAlign?: string
+  removeBorders?: boolean
+  removePadding?: boolean
+  padding?: string
+  marginBottom?: string
+  border?: string
+  columnHeaders?: Array<{ name?: unknown }>
+  [key: string]: unknown
+}
+
 export type ComplexPart =
   | ComplexTextPart
   | ComplexImagePart
   | ComplexNumberLinePart
   | ComplexAngleListPart
   | ComplexCoordinatePlanePart
+  | ComplexTablePart
   | { type: number; [key: string]: unknown }
 
 export interface ComplexTaskDescription {

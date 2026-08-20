@@ -1,4 +1,5 @@
 import clsx from 'clsx'
+import { useEffect } from 'react'
 import type { RefObject } from 'react'
 
 import type { CalcState } from '@/modules/task-modal/model/hooks/layout/use-calc-setup'
@@ -27,26 +28,48 @@ export const TaskModalControls = ({
   refs,
   props,
   calcState,
-  lastFocusedInput,
+  lastFocusedInput: lastFocusedInputRef,
   modals,
   isAdjusting,
 }: Props) => {
-  const { actions, calc } = refs
+  const { calc } = refs
   const { isEnabled, isOpen } = calcState
 
-  const isTaskLoaded = useStore((s) => s.isTaskLoaded)
   const setIsTaskLoaded = useStore((s) => s.setIsTaskLoaded)
 
   const handleInput = (symbol: string) => {
     const map = refs.mathInput.current
-    if (!map) return
+    if (!map || map.size === 0) return
 
-    const input = map.get(lastFocusedInput.current?.id ?? '')
-    input?.insertSymbol(symbol)
+    const focusedId = lastFocusedInputRef.current?.id ?? ''
+    const focused = focusedId ? map.get(focusedId) : undefined
+    // Fallback when auto-focus missed the field (lazy template / late MathQuill).
+    const input = focused ?? map.values().next().value
+    if (!input) return
+
+    if (!focused) {
+      const container = refs.taskContainer.current
+      const byId = input.id ? document.getElementById(input.id) : null
+      const domInput =
+        byId instanceof HTMLElement &&
+        byId.hasAttribute('data-input') &&
+        container?.contains(byId)
+          ? byId
+          : (container?.querySelector<HTMLElement>('[data-input]') ?? null)
+      if (domInput) {
+        lastFocusedInputRef.current?.classList.remove('focused')
+        lastFocusedInputRef.current = domInput
+        domInput.classList.add('focused')
+      }
+    }
+
+    input.insertSymbol(symbol)
   }
 
-  window.setLoadingFalse = () => setIsTaskLoaded(false)
-  window.setLoadingTrue = () => setIsTaskLoaded(true)
+  useEffect(() => {
+    window.setLoadingFalse = () => setIsTaskLoaded(false)
+    window.setLoadingTrue = () => setIsTaskLoaded(true)
+  }, [setIsTaskLoaded])
 
   // if (!isTaskLoaded) {
   //   return (

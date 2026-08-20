@@ -14,9 +14,6 @@
   },
   "difficulty": null,
   "result": "none",
-  "fields": {
-    "number": 3
-  },
   "title": {
     "with_audio_player": false,
     "aze": "“%” işarəsindən istifadə edərək kəsri faizlə yazın.",
@@ -30,14 +27,17 @@
     "areg": "اكتب الكسر في صورة نسبة مئوية باستخدام العلامة «%».",
     "module_name": "Elixir.Helpers.Translation"
   },
+  "fields": {
+    "number": 2
+  },
   "description": {
-    "content": "\\dfrac{3}{100} = ",
+    "content": "\\dfrac{2}{100} = ",
     "direction": "",
     "type": "formula"
   },
   "type": "Elixir.Task_4_11_3_1",
   "position": 0,
-  "id": "4e544a80-662e-48ef-925b-c8b9024605b7",
+  "id": "2432ee9d-ca2f-46b1-9c87-90b46eec5e64",
   "solution": {
     "type": "formula",
     "answer": {
@@ -48,7 +48,7 @@
       "kgz": "",
       "uzb": "",
       "eng": "",
-      "rus": "3",
+      "rus": "2",
       "kaz": "",
       "school": "",
       "module_name": "Elixir.Helpers.Translation"

@@ -4,6 +4,7 @@ import clsx from 'clsx'
 import { useCalcSetup } from '../../model/hooks/layout/use-calc-setup'
 import { useInputFocus } from '../../model/hooks/layout/use-input-focus'
 import { useTaskModalRefs } from '../../model/hooks/layout/use-refs'
+import { isCalcForceHidden } from '../../model/lib/calc-visibility-param'
 import { useAppState, useStore } from '../../model/store/task-modal-store'
 import type { TaskModalProps } from '../../model/types/props'
 import type { TaskModalModals } from '../../task-modal'
@@ -20,17 +21,19 @@ interface Props {
 }
 
 export const TaskModalContent = ({ props, modals }: Props) => {
-  const { activeTask, tasks } = useAppState()
-  const isTransitioning = useStore((s) => s.isTransitioning)
+  const { activeTask } = useAppState()
   const setAnswer = useStore((s) => s.setAnswer)
   const setIsAnswerChanged = useStore((s) => s.setIsAnswerChanged)
 
   const refs = useTaskModalRefs()
-  const calcState = useCalcSetup({
+  const rawCalcState = useCalcSetup({
     refs,
     activeTask,
     isTesting: props.hostProps.isTesting,
   })
+  const calcState = isCalcForceHidden(props.hostProps.location.search)
+    ? { ...rawCalcState, isEnabled: false, isOpen: false }
+    : rawCalcState
   const lastFocusedInput = useInputFocus({ refs, activeTask, calcState })
 
   const onChange = (value: string) => {
