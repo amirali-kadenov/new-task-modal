@@ -1,19 +1,6 @@
 import { TemplateTypes } from '../../../model/template-types.ts'
 
 const map = {
-  [TemplateTypes.ColumnOperation.Plain]: ['6_1', '7_1', '9_1', '10_1'],
-  [TemplateTypes.Comparison.Plain]: ['4_1'],
-  [TemplateTypes.Complex.Plain]: [
-    '5_1',
-    '5_2',
-    '5_3',
-    '5_4',
-    '5_5',
-    '5_6',
-    '5_7',
-    '5_8',
-  ],
-  [TemplateTypes.Test.Plain]: ['1_2'],
   [TemplateTypes.Text.After]: [
     '12_1',
     '12_2',
@@ -47,6 +34,19 @@ const map = {
     '13_5',
     '13_7',
   ],
+  [TemplateTypes.ColumnOperation.Plain]: ['10_1', '6_1', '7_1', '9_1'],
+  [TemplateTypes.Comparison.Plain]: ['4_1'],
+  [TemplateTypes.Complex.Plain]: [
+    '5_1',
+    '5_2',
+    '5_3',
+    '5_4',
+    '5_5',
+    '5_6',
+    '5_7',
+    '5_8',
+  ],
+  [TemplateTypes.Test.Plain]: ['1_2'],
 }
 
 export default map

@@ -1,32 +1,6 @@
 import { TemplateTypes } from '../../../model/template-types.ts'
 
 const map = {
-  [TemplateTypes.Complex.After]: [
-    '6_1',
-    '6_2',
-    '6_3',
-    '6_4',
-    '6_5',
-    '6_6',
-    '6_7',
-    '7_2',
-    '7_4',
-    '7_7',
-    '7_9',
-    '7_12',
-    '8_1',
-    '8_2',
-    '8_3',
-  ],
-  [TemplateTypes.Test.Plain]: [
-    '12_1',
-    '12_2',
-    '12_3',
-    '12_4',
-    '12_5',
-    '12_6',
-    '12_7',
-  ],
   [TemplateTypes.Text.After]: [
     '1_1',
     '1_2',
@@ -152,6 +126,32 @@ const map = {
   ],
   [TemplateTypes.Table.Mixed]: ['2_10', '2_8', '2_9'],
   [TemplateTypes.Table.MultiRow]: ['9_9'],
+  [TemplateTypes.Complex.After]: [
+    '6_1',
+    '6_2',
+    '6_3',
+    '6_4',
+    '6_5',
+    '6_6',
+    '6_7',
+    '7_12',
+    '7_2',
+    '7_4',
+    '7_7',
+    '7_9',
+    '8_1',
+    '8_2',
+    '8_3',
+  ],
+  [TemplateTypes.Test.Plain]: [
+    '12_1',
+    '12_2',
+    '12_3',
+    '12_4',
+    '12_5',
+    '12_6',
+    '12_7',
+  ],
 }
 
 export default map

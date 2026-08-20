@@ -1,9 +1,6 @@
 import { TemplateTypes } from '../../../model/template-types.ts'
 
 const map = {
-  [TemplateTypes.ColumnOperation.Plain]: [33, 34],
-  [TemplateTypes.Comparison.Plain]: [12],
-  [TemplateTypes.Test.Plain]: [2],
   [TemplateTypes.Text.After]: [41, 43, 44, 51, 54],
   [TemplateTypes.Text.Plain]: [
     1, 3, 4, 5, 6, 7, 8, 9, 58, 59, 60, 61, 62, 63, 64, 10, 11, 35, 36, 37, 38,
@@ -16,6 +13,9 @@ const map = {
   [TemplateTypes.Table.Grid]: [57, '57_1'],
   [TemplateTypes.Table.Inline]: [56],
   [TemplateTypes.Table.List]: [55],
+  [TemplateTypes.ColumnOperation.Plain]: [33, 34],
+  [TemplateTypes.Comparison.Plain]: [12],
+  [TemplateTypes.Test.Plain]: [2],
 }
 
 export default map
