@@ -41,6 +41,10 @@ const answerCellTemplateTypes = [
     'answerCell.multi.stack.n2.plain',
     'TemplateTypes.AnswerCell.Multi.Stack.N2Plain',
   ],
+  [
+    'answerCell.multi.stack.n2.sequence',
+    'TemplateTypes.AnswerCell.Multi.Stack.N2Sequence',
+  ],
 ] as const
 
 const latestSnapshot = fs

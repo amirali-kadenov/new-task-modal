@@ -108,8 +108,6 @@ const map = {
     '12_12',
   ],
   [TemplateTypes.Table.MultiRowSvg]: ['18_13'],
-  [TemplateTypes.AnswerCell.Plain]: ['1_17', '1_18'],
-  [TemplateTypes.AnswerCell.After]: ['1_15'],
   [TemplateTypes.Comparison.Plain]: [
     '3_1',
     '3_10',
@@ -160,6 +158,8 @@ const map = {
   [TemplateTypes.Complex.BeforeAfter]: ['18_17', '18_18', '18_19', '18_20'],
   [TemplateTypes.Complex.Multi.Stack.N2After]: ['18_16'],
   [TemplateTypes.Complex.Multi.Stack.N2BeforeAfter]: ['18_21', '18_6', '18_8'],
+  [TemplateTypes.AnswerCell.Plain]: ['1_17', '1_18'],
+  [TemplateTypes.AnswerCell.After]: ['1_15'],
 }
 
 export default map

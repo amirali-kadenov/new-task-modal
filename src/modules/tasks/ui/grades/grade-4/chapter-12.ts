@@ -94,15 +94,6 @@ const map = {
     '24_9',
     '24_10',
   ],
-  [TemplateTypes.AnswerCell.Plain]: [
-    '19_1',
-    '19_2',
-    '19_3',
-    '19_4',
-    '19_5',
-    '19_6',
-    '19_7',
-  ],
   [TemplateTypes.Comparison.Plain]: [
     '16_1',
     '16_10',
@@ -151,6 +142,16 @@ const map = {
     '23_1',
     '23_2',
   ],
+  [TemplateTypes.AnswerCell.Plain]: [
+    '19_1',
+    '19_2',
+    '19_3',
+    '19_4',
+    '19_5',
+    '19_6',
+    '19_7',
+  ],
+  [TemplateTypes.AnswerCell.Multi.Stack.N2Sequence]: ['19_8'],
 }
 
 export default map

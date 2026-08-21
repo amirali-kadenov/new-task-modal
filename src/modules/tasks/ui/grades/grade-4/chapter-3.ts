@@ -104,14 +104,6 @@ const map = {
     '5_7',
     '5_8',
   ],
-  [TemplateTypes.AnswerCell.Multi.Inline.N2Plain]: [
-    '4_10',
-    '4_11',
-    '4_12',
-    '4_7',
-    '4_8',
-    '4_9',
-  ],
   [TemplateTypes.Equation.Before]: [
     '6_1',
     '6_10',
@@ -164,6 +156,14 @@ const map = {
     '4_4',
     '4_5',
     '4_6',
+  ],
+  [TemplateTypes.AnswerCell.Multi.Inline.N2Plain]: [
+    '4_10',
+    '4_11',
+    '4_12',
+    '4_7',
+    '4_8',
+    '4_9',
   ],
 }
 

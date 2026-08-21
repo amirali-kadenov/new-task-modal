@@ -11,8 +11,6 @@ const map = {
     37, 38, 86, 87, 88, 89, 90, 41, 42, 43, 46, 47, 48, 49, 50, 51,
   ],
   [TemplateTypes.Table.Grid]: [56, '56_1'],
-  [TemplateTypes.AnswerCell.Plain]: [66, 67, 68],
-  [TemplateTypes.AnswerCell.Multi.Stack.N2Plain]: [70, 71, 72, 73],
   [TemplateTypes.ColumnOperation.Plain]: [28, 29],
   [TemplateTypes.Comparison.Plain]: [13],
   [TemplateTypes.Formula.Plain]: [
@@ -20,6 +18,8 @@ const map = {
     79, 80, 81, 82, 83,
   ],
   [TemplateTypes.Test.Plain]: [2, 69],
+  [TemplateTypes.AnswerCell.Plain]: [66, 67, 68],
+  [TemplateTypes.AnswerCell.Multi.Stack.N2Plain]: [70, 71, 72, 73],
 }
 
 export default map

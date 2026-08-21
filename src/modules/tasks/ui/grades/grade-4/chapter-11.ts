@@ -51,7 +51,6 @@ const map = {
     '20_11',
     '20_12',
   ],
-  [TemplateTypes.AnswerCell.Plain]: ['3_3', '3_4'],
   [TemplateTypes.Comparison.Plain]: [
     '18_1',
     '18_10',
@@ -93,6 +92,7 @@ const map = {
   ],
   [TemplateTypes.Formula.After]: ['3_1'],
   [TemplateTypes.Test.Plain]: ['7_1', '7_2'],
+  [TemplateTypes.AnswerCell.Plain]: ['3_3', '3_4'],
 }
 
 export default map
