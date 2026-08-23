@@ -47,6 +47,11 @@ type GapsReport = {
 
 const data = report as GapsReport
 
+function pct(part: number, total: number) {
+  if (!total) return '0.0'
+  return ((part / total) * 100).toFixed(1)
+}
+
 function formatByGrade(byGrade: Record<string, number> | undefined) {
   if (!byGrade) return '—'
   return Object.keys(byGrade)
@@ -105,6 +110,7 @@ export function GapsReportBlock() {
             <tr>
               <th>Класс</th>
               <th>Всего</th>
+              <th>% от всех задач</th>
               <th>Структурно</th>
               <th>Маппинг</th>
               <th>Gap</th>
@@ -115,6 +121,7 @@ export function GapsReportBlock() {
               <tr key={row.grade}>
                 <td>{row.grade}</td>
                 <td>{row.total}</td>
+                <td>{pct(row.total, data.totalTasks)}%</td>
                 <td>
                   {row.structural} ({row.structuralPct}%)
                 </td>
