@@ -41,7 +41,7 @@
     "export-gaps-report": "node scripts/export-gaps-report.mjs",
     "generate-available-tasks": "tsx scripts/generate-available-tasks.ts",
     "prepare": "npm run build",
-    "postinstall": "husky"
+    "postinstall": "husky || true"
   },
   "dependencies": {
     "@edtr-io/mathquill": "^0.11.0",

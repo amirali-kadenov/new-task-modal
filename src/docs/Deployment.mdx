@@ -106,19 +106,32 @@ npm start
 
 Есть два разных пути, и их легко перепутать.
 
-**Локальная разработка.** Webpack в `matheducator/reactjs_client` специально
-указывает на соседнюю папку `../../new-task-modal/dist` (и на
-`available-tasks.js` рядом). Пока этот alias включён, хост не ходит в
-скачанный из npm архив — он берёт вашу свежую сборку. Поэтому достаточно
-`pnpm build:watch` и перезагрузки страницы.
+**Локальная разработка (`npm start` / `npm run dev`).** Webpack-конфиг
+дев-сервера (`webpack.config.js`) специально указывает alias на соседнюю
+папку `../../new-task-modal/dist` (и на `available-tasks.js` рядом). Пока
+этот alias включён, хост не ходит в то, что стоит в `node_modules`, — он
+берёт вашу свежую сборку. Значение `@qalan/new-task-modal` в `package.json`
+для этого пути **не важно**: достаточно `pnpm build:watch` в `new-task-modal`
+и перезагрузки страницы, ничего в `reactjs_client` менять не нужно.
 
-**Обычный `npm install` / CI без такого alias.** Зависимость
-`@qalan/new-task-modal` ставится из архива релиза на GitHub (в
-`package-lock.json` это URL вида
-`…/releases/download/…/qalan-new-task-modal-….tgz`). Соседний `dist/` тогда
-не используется: в сборку попадает то, что скачали при установке.
+**Сборки (`npm run build`, `build_local`, `build_test`) и обычный `npm install`
+без alias.** Эти webpack-конфиги (`webpack.production.config.js`,
+`webpack.local.config.js`, `webpack.test.config.js`) alias не объявляют — они
+резолвят `@qalan/new-task-modal` как обычную зависимость из `node_modules`. В
+`matheducator/reactjs_client/package.json` эта зависимость сейчас —
 
-Скачивание с GitHub Releases — **временное** решение. Дальше нужно настроить
+```json
+"@qalan/new-task-modal": "github:amirali-kadenov/new-task-modal#2.0.0"
+```
+
+т.е. `npm install` тянет исходники по конкретному git-тегу и сам собирает их
+(`prepare` → `npm run build` в `new-task-modal`), а не соседний `dist/`. Если
+нужно проверить локальные правки `new-task-modal` именно через один из этих
+build-скриптов (не через дев-сервер) — временно верните
+`"file:../../new-task-modal"` в этой строке, перезапустите `npm install`,
+после проверки верните git-тег обратно перед коммитом.
+
+Установка с тега на GitHub — **временное** решение. Дальше нужно настроить
 доступы и публиковать / подтягивать пакет из **внутреннего** репозитория
 пакетов (корпоративный registry), а не с публичного GitHub.
 
