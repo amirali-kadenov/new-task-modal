@@ -1,8 +1,8 @@
 {
   "meta": {
-    "snapshotName": "stats-2026-07-31-1785493761512",
-    "snapshotCreatedAt": "2026-07-31T10:42:45.719Z",
-    "exportedAt": "2026-08-04T06:52:58.385Z",
+    "snapshotName": "stats-2026-08-19-1787137398323",
+    "snapshotCreatedAt": "2026-08-19T11:12:31.453Z",
+    "exportedAt": "2026-08-23T18:40:37.039Z",
     "grades": [
       1,
       2,
@@ -16,13 +16,13 @@
       10
     ],
     "withSolutions": true,
-    "taskCount": 17600
+    "taskCount": 17599
   },
-  "totalTasks": 17600,
-  "structurallyCovered": 14057,
+  "totalTasks": 17599,
+  "structurallyCovered": 14056,
   "structurallyCoveredPct": "79.9",
-  "wired": 2232,
-  "wiredPct": "12.7",
+  "wired": 2258,
+  "wiredPct": "12.8",
   "needNewTemplate": 3543,
   "needNewTemplatePct": "20.1",
   "missingTemplateCount": 61,
@@ -50,8 +50,8 @@
       "total": 1619,
       "structural": 1538,
       "structuralPct": "95.0",
-      "wired": 0,
-      "wiredPct": "0.0",
+      "wired": 3,
+      "wiredPct": "0.2",
       "gap": 81
     },
     {
@@ -59,8 +59,8 @@
       "total": 2239,
       "structural": 2239,
       "structuralPct": "100.0",
-      "wired": 2232,
-      "wiredPct": "99.7",
+      "wired": 2239,
+      "wiredPct": "100.0",
       "gap": 0
     },
     {
@@ -68,17 +68,17 @@
       "total": 2189,
       "structural": 1806,
       "structuralPct": "82.5",
-      "wired": 0,
-      "wiredPct": "0.0",
+      "wired": 10,
+      "wiredPct": "0.5",
       "gap": 383
     },
     {
       "grade": 6,
-      "total": 2100,
-      "structural": 1574,
-      "structuralPct": "75.0",
-      "wired": 0,
-      "wiredPct": "0.0",
+      "total": 2099,
+      "structural": 1573,
+      "structuralPct": "74.9",
+      "wired": 2,
+      "wiredPct": "0.1",
       "gap": 526
     },
     {
@@ -86,8 +86,8 @@
       "total": 1599,
       "structural": 792,
       "structuralPct": "49.5",
-      "wired": 0,
-      "wiredPct": "0.0",
+      "wired": 4,
+      "wiredPct": "0.3",
       "gap": 807
     },
     {
@@ -156,8 +156,8 @@
     },
     {
       "type": "text",
-      "total": 4843,
-      "covered": 4776,
+      "total": 4842,
+      "covered": 4775,
       "uncovered": 67,
       "uncoveredPct": "1.4"
     },

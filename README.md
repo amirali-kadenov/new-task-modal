@@ -48,6 +48,8 @@ TaskModalController({
 
 > **Важно**: В DOM хост-приложения должен присутствовать элемент `<div id="task-modal-wrapper"></div>`.
 
+> **Важно**: Папки [`grades/grade-3/`](./src/modules/tasks/ui/grades/grade-3/) и [`grades/grade-6/`](./src/modules/tasks/ui/grades/grade-6/) не про 3 и 6 класс — все задания в них реально показываются ученику **4 класса**. Номер папки взят из типа задания (`Task_3_7_*`, `Task_6_6_*`), не из реального класса урока. Детали — в [Gotchas & FAQ](./docs/6-troubleshooting/gotchas-and-pitfalls.md), пункт 5.
+
 ---
 
 ## 🛠️ Команды разработки
