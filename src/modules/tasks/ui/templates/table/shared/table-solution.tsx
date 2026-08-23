@@ -1,12 +1,14 @@
-import { getCorrectAnswerFromSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
+import { getCorrectMultiAnswerParts } from '@/modules/tasks/lib/get-correct-multi-answer-parts'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
+import { SharedSolutionDescription } from '@/modules/tasks/ui/common/task-description/ui/shared-solution-description'
+import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
-import { SolutionExplanation } from '@/modules/tasks/ui/common/task-solution/solution-explanation'
-import { TaskDescription } from '@/modules/tasks/ui/common/task-description/ui/task-description'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 import type { Task } from '@/types/api/task'
 import { MathText } from '@/ui/math-text/math-text'
 
+import { joinMathAnswers } from '../../text/lib/join-math-answers'
 import {
   getCellClassName,
   getInputClassName,
@@ -39,21 +41,24 @@ export const TableSolution = ({
     return (
       <>
         <TaskTitle title={task.title} deps={deps} />
-        <TaskDescription
+        <SharedSolutionDescription
           task={task as unknown as Task<'table'>}
           deps={deps}
         />
-        <SolutionExplanation solution={solution} deps={deps} />
+        <SharedSolutionBody solution={solution} deps={deps} />
       </>
     )
   }
 
   const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-  const correctValues = getCorrectAnswerFromSolution(
+  const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
+    deps.global.translateTasks(value)
+  const correctValues = getCorrectMultiAnswerParts(
     solution,
-    (value) => deps.global.translateTasks(value),
-  ).split(separator)
-  const userValues = answer.split(separator)
+    separator,
+    translate,
+  )
+  const userValues = splitMultiAnswer(answer, separator)
 
   let inputIndex = 0
 
@@ -64,14 +69,14 @@ export const TableSolution = ({
       data-mode="solution"
     >
       <TaskTitle title={task.title} deps={deps} />
-      <TaskDescription
+      <SharedSolutionDescription
         task={task as unknown as Task<'table'>}
         deps={deps}
       />
 
       <SolutionAnswerPanel
         userAnswer={userValues.join(' ; ')}
-        correctAnswer={correctValues.join(' ; ')}
+        correctAnswer={joinMathAnswers(correctValues)}
         deps={deps}
       />
 
@@ -144,7 +149,7 @@ export const TableSolution = ({
         </table>
       </div>
 
-      <SolutionExplanation solution={solution} deps={deps} />
+      <SharedSolutionBody solution={solution} deps={deps} />
     </div>
   )
 }

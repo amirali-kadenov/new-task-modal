@@ -49,7 +49,7 @@
   flex: 0 1 auto;
   width: 100%;
   min-width: 120px;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .expressionRow {
@@ -91,6 +91,10 @@
 
 .container[data-template-id='complex.plain'] .solutionRow {
   align-items: flex-start;
+}
+
+.container[data-template-id='complex.plain.center'] .solutionRow {
+  align-items: center;
 }
 
 .answerFormula {

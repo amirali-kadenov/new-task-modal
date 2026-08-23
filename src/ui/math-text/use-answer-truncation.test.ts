@@ -337,7 +337,7 @@ describe('useAnswerTruncation', () => {
     row.remove()
   })
 
-  it('converges on the true maximum fitting length via binary search, not a one-shot proportional guess', () => {
+  it('cuts once via a ratio estimate, undershooting slightly rather than searching for the exact boundary', () => {
     // Simulates non-linear width-per-character, like MathJax collapsing
     // whitespace in math mode: the first 30 characters cost 5px each, the
     // 31st (a "space") costs nothing, the rest cost 5px each again. With
@@ -353,24 +353,309 @@ describe('useAnswerTruncation', () => {
     const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
     result.current.rowRef.current = row
 
-    let steps = 0
-    let lastLength = -1
-    while (steps < 20) {
-      const currentLength = result.current.displayText.length
-      mockWidths(answer, widthFor(currentLength), 100)
+    mockWidths(answer, widthFor(text.length), 100)
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
 
-      act(() => {
-        result.current.onTypesetDone()
-        settle()
-      })
+    // A single cut lands just under the true boundary (20) -- deliberately
+    // conservative, never a multi-step search, and nowhere near collapsing
+    // toward zero the way the old buggy behavior did in production.
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText.length).toBe(19)
 
-      steps += 1
-      if (result.current.displayText.length === lastLength) break
-      lastLength = result.current.displayText.length
-    }
+    // Re-measuring against the now-shorter text confirms it's stable: it
+    // already fits, so a second cycle cuts nothing further.
+    mockWidths(answer, widthFor(result.current.displayText.length), 100)
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+    expect(result.current.displayText.length).toBe(19)
 
-    expect(result.current.displayText.length).toBe(20)
-    expect(steps).toBeLessThan(10) // binary search over 61 items: ~6 steps
+    row.remove()
+  })
+
+  it('does nothing when the row grows while already showing the full text', () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver)
+
+    const text = 'short answer'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => {
+      const hook = useAnswerTruncation(ANSWER_CLASS, text)
+      hook.rowRef.current = row
+      return hook
+    })
+    mockWidths(answer, 50, 100) // fits comfortably from the start
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+    expect(result.current.truncated).toBe(false)
+
+    const observer = FakeResizeObserver.instances.at(-1)
+    act(() => {
+      observer?.trigger(100) // baseline
+    })
+    act(() => {
+      observer?.trigger(400) // grows further -- still fits, nothing to do
+    })
+
+    expect(result.current.truncated).toBe(false)
+    expect(result.current.displayText).toBe(text)
+
+    row.remove()
+  })
+
+  it('re-truncates already-fitting text when the row shrinks narrower', () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver)
+
+    const text = 'a modest answer'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => {
+      const hook = useAnswerTruncation(ANSWER_CLASS, text)
+      hook.rowRef.current = row
+      return hook
+    })
+    mockWidths(answer, 100, 100) // fits exactly at the initial (wide) row
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+    expect(result.current.truncated).toBe(false)
+    expect(result.current.displayText).toBe(text)
+
+    const observer = FakeResizeObserver.instances.at(-1)
+    expect(observer).toBeDefined()
+
+    act(() => {
+      observer?.trigger(100) // baseline observation, no shrink yet
+    })
+    expect(result.current.truncated).toBe(false)
+
+    // Row got narrower (e.g. a calculator panel opened) -- same rendered
+    // content (scrollWidth unchanged), but less room to show it in.
+    mockWidths(answer, 100, 40)
+
+    act(() => {
+      observer?.trigger(40) // row shrank -> measured directly, no re-typeset needed
+    })
+
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText).toBe('a mod')
+
+    row.remove()
+  })
+
+  it('cuts further (never resets to full) when an already-truncated row shrinks even more', () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver)
+
+    const text = 'a very long answer that overflows the row'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => {
+      const hook = useAnswerTruncation(ANSWER_CLASS, text)
+      hook.rowRef.current = row
+      return hook
+    })
+    mockWidths(answer, 200, 100)
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+    expect(result.current.truncated).toBe(true)
+    const firstCut = result.current.displayText
+
+    const observer = FakeResizeObserver.instances.at(-1)
+    act(() => {
+      observer?.trigger(100) // baseline
+    })
+
+    // Row shrinks further -- the already-truncated content still doesn't
+    // fit the even-narrower row.
+    mockWidths(answer, 200, 40)
+    act(() => {
+      observer?.trigger(40)
+    })
+
+    // Must cut further, never reset back to the full (untruncated) text --
+    // resetting to full on a shrink was the actual cause of a real
+    // infinite loop in production: shrink -> reset to full -> content gets
+    // longer -> row grows (whenever its width tracks its own content) ->
+    // grow handler measures, finds it overflows, cuts -> row shrinks again
+    // -> shrink handler resets to full again -> forever.
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText).not.toBe(text)
+    expect(result.current.displayText.length).toBeLessThan(firstCut.length)
+
+    row.remove()
+  })
+
+  it('does not re-measure on resize noise within the rounding tolerance', () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver)
+
+    const text = 'a very long answer that overflows the row'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => {
+      const hook = useAnswerTruncation(ANSWER_CLASS, text)
+      hook.rowRef.current = row
+      return hook
+    })
+    mockWidths(answer, 200, 100)
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+    expect(result.current.truncated).toBe(true)
+    const displayTextAfterCut = result.current.displayText
+
+    const observer = FakeResizeObserver.instances.at(-1)
+    act(() => {
+      observer?.trigger(100) // baseline
+    })
+
+    // If this were actually (re-)measured it would read as fully fitting --
+    // proves the epsilon guard below, not some other reason, is what keeps
+    // it from firing.
+    mockWidths(answer, 50, 100)
+
+    act(() => {
+      observer?.trigger(101) // 1px change -- within OVERFLOW_TOLERANCE_PX
+    })
+
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText).toBe(displayTextAfterCut)
+
+    row.remove()
+  })
+
+  it('keeps \\(...\\) delimiters balanced when truncating a single math-wrapped answer', () => {
+    const text = '\\(123456789\\)' // content: "123456789" (9 chars)
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
+    result.current.rowRef.current = row
+    mockWidths(answer, 200, 100) // overflow -> ratio 0.5 -> single-shot cut to content-length 3
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText).toBe('\\(123\\)')
+
+    row.remove()
+  })
+
+  it('cuts inside a math island without stranding an unmatched delimiter', () => {
+    // content-only length: "12" (2) + " ; " (3) + "34" (2) = 7 -- the raw
+    // string (with delimiters) is 15 chars, so this only lands on the
+    // right cut point if the cut operates on content length, not raw
+    // string length.
+    const text = '\\(12\\) ; \\(34\\)'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
+    result.current.rowRef.current = row
+    mockWidths(answer, 200, 100) // overflow -> ratio 0.5 -> single-shot cut to content-length 2
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+
+    expect(result.current.truncated).toBe(true)
+    // The cut lands exactly at the end of the first island's content --
+    // still a fully-formed, balanced `\(12\)`, never a dangling `\(`.
+    expect(result.current.displayText).toBe('\\(12\\)')
+    const opens = result.current.displayText.match(/\\\(/g) ?? []
+    const closes = result.current.displayText.match(/\\\)/g) ?? []
+    expect(opens.length).toBe(closes.length)
+
+    row.remove()
+  })
+
+  it('never strands a dangling control sequence when a cut lands mid-command (plain text)', () => {
+    // Cutting "124zmaayd\frac{2}{3}" at content-length 12 would land right
+    // after "\fra" -- an incomplete control sequence MathJax renders as a
+    // red parse error (mjx-merror) instead of quietly truncating.
+    const text = '124zmaayd\\frac{2}{3}'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
+    result.current.rowRef.current = row
+    // length 20, ratio 0.7 -> estimate lands at 13, right after "\fra".
+    mockWidths(answer, 100, 70)
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText).toBe('124zmaayd')
+    expect(result.current.displayText.endsWith('\\')).toBe(false)
+    expect(/\\[a-zA-Z]*$/.test(result.current.displayText)).toBe(false)
+
+    row.remove()
+  })
+
+  it('never strands a dangling control sequence when a cut lands mid-command (inside a math island)', () => {
+    const text = '\\(124zmaayd\\frac{2}{3}\\)'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
+    result.current.rowRef.current = row
+    // content length 20, same 0.7 ratio -> estimate lands at content-length 13.
+    mockWidths(answer, 100, 70)
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+
+    expect(result.current.truncated).toBe(true)
+    expect(result.current.displayText).toBe('\\(124zmaayd\\)')
+
+    row.remove()
+  })
+
+  it('does not touch a command that legitimately ends the untruncated text', () => {
+    const text = 'x = \\pi'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
+    result.current.rowRef.current = row
+    mockWidths(answer, 50, 100) // fits -- never cut
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+
+    expect(result.current.truncated).toBe(false)
+    expect(result.current.displayText).toBe(text)
+
+    row.remove()
+  })
+
+  it('does not truncate math-wrapped text that already fits, by content length not raw string length', () => {
+    // Raw string is 15 chars including delimiters; content is only 7 -- if
+    // the search used raw length instead of content length, a clientWidth
+    // sized for content would read as overflowing here.
+    const text = '\\(12\\) ; \\(34\\)'
+    const { row, answer } = setupRow(text)
+    const { result } = renderHook(() => useAnswerTruncation(ANSWER_CLASS, text))
+    result.current.rowRef.current = row
+    mockWidths(answer, 7, 100) // fits comfortably at content-length scale
+
+    act(() => {
+      result.current.onTypesetDone()
+      settle()
+    })
+
+    expect(result.current.truncated).toBe(false)
+    expect(result.current.displayText).toBe(text)
 
     row.remove()
   })

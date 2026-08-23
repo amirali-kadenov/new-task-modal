@@ -9,6 +9,7 @@ import type { TaskDescriptionType } from '@/types/enums'
 
 import answerCellGroups from '../../../tasks/ui/templates/answer-cell/ui/after/data/groups.json'
 import groups from '../../../tasks/ui/templates/complex/ui/after-equation/data/groups.json'
+import formulaAfterGroups from '../../../tasks/ui/templates/formula/ui/after/data/groups.json'
 import formulaGroups from '../../../tasks/ui/templates/formula/ui/plain/data/groups.json'
 
 import { ChatSolutionView } from './chat-solution-view'
@@ -77,9 +78,10 @@ describe('ChatSolutionView: formula-type', () => {
 
     render(<ChatSolutionView task={task} deps={makeDeps()} answer="20" />)
 
-    // Condition renders through the mocked MathText, unwrapped/unmangled.
-    const mathTexts = screen.getAllByTestId('math-text')
-    const joined = mathTexts.map((el) => el.textContent ?? '').join(' ')
+    // Formula-type conditions render through MathFormula (which wraps
+    // content in `\(...\)` so MathJax actually typesets it), not MathText.
+    const mathFormulas = screen.getAllByTestId('math-formula')
+    const joined = mathFormulas.map((el) => el.textContent ?? '').join(' ')
     expect(joined).toMatch(/22 \\approx/)
     // No double-wrapped delimiters anywhere in the rendered output.
     expect(joined).not.toMatch(/\\\(\\\(/)
@@ -88,6 +90,28 @@ describe('ChatSolutionView: formula-type', () => {
     // Correct answer ("20") reaches the answer panel intact.
     expect(screen.getByText('Верный ответ:')).toBeInTheDocument()
     expect(screen.getAllByText(/20/).length).toBeGreaterThan(0)
+  })
+
+  it('renders \\dfrac condition through MathFormula, not the plain MathText path (formula_5)', () => {
+    const formula5 = (
+      formulaAfterGroups as unknown as Array<{ group: string; task: unknown }>
+    ).find((g) => g.group === 'formula_5')
+    expect(formula5).toBeDefined()
+
+    const task = formula5!.task as Task<TaskDescriptionType>
+
+    render(<ChatSolutionView task={task} deps={makeDeps()} answer="" />)
+
+    // \dfrac needs `\(...\)` wrapping to typeset — only MathFormula does that.
+    // The generic MathText path leaves it undelimited, so it never gets typeset.
+    const mathTexts = screen.queryAllByTestId('math-text')
+    expect(mathTexts.some((el) => el.textContent?.includes('\\dfrac'))).toBe(
+      false,
+    )
+    const mathFormulas = screen.getAllByTestId('math-formula')
+    expect(mathFormulas.some((el) => el.textContent?.includes('\\dfrac'))).toBe(
+      true,
+    )
   })
 })
 

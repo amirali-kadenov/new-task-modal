@@ -14,3 +14,17 @@ export const getTestVariants = (
     value: getTestRadioValue(index),
     label: translate(option),
   }))
+
+/**
+ * Resolve a stored letter (A/B/C…) to its display value for answer panels —
+ * just the letter itself, so the solution panel shows which option was
+ * chosen without repeating the option text.
+ */
+export const getTestOptionDisplayValue = (
+  options: RadioOption[],
+  value: string | null | undefined,
+): string => {
+  const option = options.find((item) => item.value === value)
+  if (!option) return value ?? ''
+  return option.value
+}

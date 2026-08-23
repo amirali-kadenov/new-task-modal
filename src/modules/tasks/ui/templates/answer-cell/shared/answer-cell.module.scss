@@ -32,6 +32,10 @@
   white-space: nowrap;
 }
 
+.contentRowSolution {
+  align-items: end;
+}
+
 .contentRowColumn {
   flex-flow: column nowrap;
   align-items: flex-start;
@@ -46,7 +50,7 @@
 }
 
 .segmentSolution {
-  align-items: center;
+  align-items: end;
 }
 
 .segmentInput {
@@ -65,6 +69,7 @@
   flex: 1 1 0%;
   width: 0;
   min-width: 80px;
+  margin-inline: 4px;
 }
 
 .prefix,

@@ -9,12 +9,16 @@
   @include body-medium-bold;
 
   display: flex;
-  align-items: center;
+  align-items: end;
   padding: var(--space-4) 0;
 
   :global(mjx-math) {
     font-weight: 700;
   }
+}
+
+.highlightCenter {
+  align-items: center;
 }
 
 .label {

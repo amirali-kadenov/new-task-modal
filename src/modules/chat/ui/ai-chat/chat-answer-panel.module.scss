@@ -33,11 +33,23 @@
   white-space: nowrap;
 }
 
-.answer {
+.userAnswer {
   flex: 0 1 auto;
   min-width: 0;
   overflow: hidden;
   white-space: nowrap;
+
+  :global(mjx-c) {
+    padding-right: 0.05em;
+  }
+}
+
+/* Correct answer must never be clipped — only wrap. */
+.correctAnswer {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: visible;
+  white-space: normal;
 
   :global(mjx-c) {
     padding-right: 0.05em;

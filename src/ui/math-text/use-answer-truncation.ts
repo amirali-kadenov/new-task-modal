@@ -23,11 +23,10 @@ const MATH_ISLAND = /\\\((.*?)\\\)/gs
 // scrollWidth and clientWidth are each independently rounded to the nearest
 // CSS pixel by the browser. On real devices with a fractional
 // devicePixelRatio (2.625, 2.75, ...) that rounding alone can make a layout
-// that truly fits read as 1-2px "overflowing", tripping the close-to-fitting
-// one-character cut below on text that never needed truncation (observed in
-// prod: "400" -> "40…"). Two flat pixels absorbs that rounding noise without
-// masking genuine overflow, which is always at least a full glyph's worth of
-// extra width.
+// that truly fits read as 1-2px "overflowing", tripping a needless cut on
+// text that never needed truncation (observed in prod: "400" -> "40…"). Two
+// flat pixels absorbs that rounding noise without masking genuine overflow,
+// which is always at least a full glyph's worth of extra width.
 const OVERFLOW_TOLERANCE_PX = 2
 
 interface Segment {
@@ -52,13 +51,28 @@ const parseSegments = (text: string): Segment[] => {
   return segments
 }
 
+// A cut landing right after a bare `\letters` run with nothing closing it
+// yet (no `{`, space, or other non-letter following) hands MathJax an
+// incomplete control sequence -- e.g. slicing `\frac{2}{3}` down to `\fra`
+// -- which it renders as a red parse error instead of a clean truncation.
+// Drop the whole dangling command rather than risk that: same
+// undershoot-for-safety trade-off as the ratio estimate below. Only ever
+// applied to a piece that was actually cut, never to a segment included in
+// full, so a command that legitimately ends the untruncated text (`...\pi`)
+// is never touched.
+const trimIncompleteCommand = (value: string): string =>
+  value.replace(/\\[a-zA-Z]*$/, '')
+
 const getSlicer = (
   text: string,
 ): { length: number; slice: (n: number) => string } => {
   const segments = parseSegments(text)
   const hasMath = segments.some((segment) => segment.isMath)
   if (!hasMath) {
-    return { length: text.length, slice: (n) => text.slice(0, n) }
+    return {
+      length: text.length,
+      slice: (n) => trimIncompleteCommand(text.slice(0, n)),
+    }
   }
 
   const length = segments.reduce(
@@ -72,7 +86,10 @@ const getSlicer = (
     for (const segment of segments) {
       if (remaining <= 0) break
       const take = Math.min(remaining, segment.content.length)
-      const piece = segment.content.slice(0, take)
+      let piece = segment.content.slice(0, take)
+      if (take < segment.content.length) {
+        piece = trimIncompleteCommand(piece)
+      }
       out += segment.isMath ? `\\(${piece}\\)` : piece
       remaining -= take
     }
@@ -82,6 +99,26 @@ const getSlicer = (
   return { length, slice }
 }
 
+// The answer element's own CSS (`overflow: hidden; white-space: nowrap` on
+// `answerClassName`, set by the caller) is the real safety net: it alone
+// guarantees nothing ever visually spills out of the row, from the very
+// first paint, regardless of anything below. `text-overflow: ellipsis` is
+// deliberately NOT part of that contract -- MathJax renders the answer as a
+// nested `mjx-container`, not a text node, and CSS ellipsis can't insert a
+// "…" inside an opaque nested block like that; it just silently fails to
+// show one. The "…" is always the explicit `truncated`-gated sibling the
+// caller renders, never a CSS effect.
+//
+// What this hook adds on top of that CSS clip is an exact,
+// MATH_ISLAND-safe character cut, computed with a single ratio-based
+// estimate -- deliberately not an iterative search. MathJax's rendering
+// isn't strictly linear in character count (it collapses whitespace
+// between words in math mode), so the estimate undershoots by one
+// character as a safety margin rather than assuming the ratio is exact. If
+// that single cut still doesn't fit -- rare, only for pathological
+// non-linear text -- the re-typeset it causes naturally re-triggers this
+// same measurement once more; each step strictly shortens the text, so it
+// always terminates.
 export const useAnswerTruncation = (
   answerClassName: string,
   text: string,
@@ -94,42 +131,23 @@ export const useAnswerTruncation = (
   const rowRef = useRef<HTMLDivElement>(null)
   const slicer = useMemo(() => getSlicer(text), [text])
 
-  const [visibleLength, setVisibleLength] = useState(slicer.length)
-  const visibleLengthRef = useRef(visibleLength)
+  const [displayLength, setDisplayLength] = useState(slicer.length)
+  const displayLengthRef = useRef(displayLength)
 
   useLayoutEffect(() => {
-    visibleLengthRef.current = visibleLength
-  }, [visibleLength])
+    displayLengthRef.current = displayLength
+  }, [displayLength])
 
+  // Whenever the text itself changes, start over from the full length --
+  // the CSS safety net keeps this visually correct even before the first
+  // measurement below runs.
   useLayoutEffect(() => {
-    setVisibleLength(slicer.length)
-  }, [slicer])
-
-  // Binary-search bounds for the cut/grow step below: the largest length
-  // confirmed to fit, and the smallest confirmed to overflow. `null` means
-  // "not yet known". MathJax's rendering of the answer isn't a linear
-  // function of raw character count -- confirmed live: it collapses
-  // whitespace between words in math mode, so a multi-word answer's raw
-  // character count (spaces included) systematically overstates how much
-  // visual width each character actually costs. A cut amount guessed from
-  // the overflow ratio (assuming linearity) can therefore overshoot by a
-  // lot for such text and permanently strand unused space in the row (the
-  // old code never grew back except on an external row-resize or
-  // fonts-ready signal). Binary search doesn't assume any relationship
-  // between character count and width at all; it just tests candidates and
-  // converges on the true maximum fitting length regardless of how
-  // non-linear the real rendering turns out to be.
-  const searchLowRef = useRef<number | null>(null)
-  const searchHighRef = useRef<number | null>(null)
-
-  useLayoutEffect(() => {
-    searchLowRef.current = null
-    searchHighRef.current = null
+    setDisplayLength(slicer.length)
   }, [slicer])
 
   // Guards against stacking overlapping double-rAF schedules: onInitTypeset
   // and onTypeset both fire this same callback on MathJax's first typeset
-  // (two calls land in the same tick), and every cut we make re-typesets,
+  // (two calls land in the same tick), and a cut we make re-typesets,
   // which re-fires this callback again once MathJax settles. Only one
   // "wait for a settled frame, then measure" pass may be in flight; a call
   // that arrives while one is pending is dropped, not queued.
@@ -144,6 +162,30 @@ export const useAnswerTruncation = (
     }
   }, [])
 
+  // Single measurement, single cut -- no search loop. If the current
+  // length already fits, there's nothing to do. If it overflows, the ratio
+  // of available-to-needed width estimates how many characters to drop;
+  // `- 1` is the non-linearity safety margin, and capping at `current - 1`
+  // guarantees the length strictly decreases even if the ratio rounds to
+  // no change, so repeated calls (see below) can't get stuck.
+  const measure = useCallback(() => {
+    const row = rowRef.current
+    if (!row) return
+
+    const answer = row.querySelector<HTMLElement>(`.${answerClassName}`)
+    if (!answer) return
+
+    const { scrollWidth, clientWidth } = answer
+    if (scrollWidth <= clientWidth + OVERFLOW_TOLERANCE_PX) return // fits, nothing to do
+
+    const current = displayLengthRef.current
+    if (current <= 1) return // already at the floor
+
+    const ratio = clientWidth / scrollWidth
+    const estimate = Math.min(current - 1, Math.floor(current * ratio) - 1)
+    setDisplayLength(Math.max(1, estimate))
+  }, [answerClassName])
+
   // Measurement is triggered by MathJax's own typeset-complete callback,
   // but MathJax reports "done" the instant it finishes its own DOM writes
   // -- before the browser has necessarily reflowed/painted them. Reading
@@ -155,46 +197,11 @@ export const useAnswerTruncation = (
   // its layout and paint -- has completed, so the measurement reads real,
   // settled geometry.
   //
-  // Each step re-typesets, which re-fires this callback, so the binary
-  // search above naturally converges over a handful of cycles. It only
-  // searches within what it's already tried, though — if conditions change
-  // externally (the row itself gets wider, fonts finish loading), that's
-  // handled separately below by watching for those signals and re-opening
-  // the search with a full-text offer.
+  // Cutting re-typesets, which re-fires this callback, so `measure` above
+  // runs again naturally on its own if one cut wasn't enough.
   const onTypesetDone = useCallback(() => {
     if (measurementScheduledRef.current) return
     measurementScheduledRef.current = true
-
-    const measure = () => {
-      const row = rowRef.current
-      if (!row) return
-
-      const answer = row.querySelector<HTMLElement>(`.${answerClassName}`)
-      if (!answer) return
-
-      const { scrollWidth, clientWidth } = answer
-      const current = visibleLengthRef.current
-      const fits = scrollWidth <= clientWidth + OVERFLOW_TOLERANCE_PX
-
-      if (fits) {
-        searchLowRef.current = current
-        if (current >= slicer.length) return // full text already fits
-
-        const high = searchHighRef.current ?? slicer.length
-        if (high - current <= 1) return // converged: nothing more fits
-
-        const next = Math.floor((current + high) / 2)
-        if (next <= current) return
-        setVisibleLength(next)
-      } else {
-        searchHighRef.current = current
-        if (current <= 1) return
-
-        const low = searchLowRef.current ?? 0
-        const next = Math.floor((low + current) / 2)
-        setVisibleLength(next < current ? next : current - 1)
-      }
-    }
 
     rafId1Ref.current = requestAnimationFrame(() => {
       rafId2Ref.current = requestAnimationFrame(() => {
@@ -202,15 +209,43 @@ export const useAnswerTruncation = (
         measure()
       })
     })
-  }, [answerClassName, slicer.length])
+  }, [measure])
 
-  // Recovery for the one-directional cut above: if the row's available
-  // width grows (font metrics settling, layout reflow, sidebar/calculator
-  // toggling) after a truncating measurement, re-offer the full text so
-  // onTypesetDone can re-measure and only re-cut if it's still genuinely
-  // overflowing. Watches the row, not the answer node itself — the answer
-  // node's own width changes every time we slice it, which would otherwise
-  // make this fire on our own cuts instead of on real external resizes.
+  // Re-evaluate on a one-off signal (fonts ready -- fires at most once,
+  // never in a loop): try the full text again if currently truncated
+  // (triggers a real re-render -> re-typeset -> `measure()` above cuts
+  // again if it's still genuinely overflowing), or, if already showing the
+  // full text, measure directly (`setDisplayLength(slicer.length)` would
+  // be a same-value no-op there -- React bails, nothing re-renders,
+  // nothing ever re-measures against the new metrics).
+  const reevaluateOnce = useCallback(() => {
+    if (displayLengthRef.current >= slicer.length) {
+      measure()
+    } else {
+      setDisplayLength(slicer.length)
+    }
+  }, [slicer, measure])
+
+  // Row width changing — font metrics settling, layout reflow, sidebar/
+  // calculator toggling, viewport resize. Watches the row, not the answer
+  // node itself — the answer node's own width changes every time we cut
+  // it, and in some layouts the row's own width tracks its content too, so
+  // our own cuts can and do feed back into this observer.
+  //
+  // That feedback is exactly why grow and shrink must be handled by
+  // strictly different, non-symmetric actions, not "re-evaluate either
+  // way" (that shape caused a real infinite loop: shrink-while-truncated
+  // would optimistically reset to full text -> content gets longer -> row
+  // grows -> grow handler reads "still fits? no, cut" -> row shrinks again
+  // -> shrink handler resets to full again -> forever, whenever the row's
+  // width happens to be coupled to its own content).
+  //
+  // Shrink only ever calls `measure()`, which can only ever cut *further*
+  // (never grow) -- so a shrink can never be the thing that re-triggers a
+  // grow. Grow only ever offers the full text, and only when currently
+  // truncated (a no-op otherwise) -- so once it's tried that at a given
+  // width, repeating the same width again does nothing further. Neither
+  // direction can re-arm the other, so the loop can't sustain itself.
   const lastRowWidthRef = useRef<number | null>(null)
 
   useEffect(() => {
@@ -223,60 +258,52 @@ export const useAnswerTruncation = (
 
       const lastWidth = lastRowWidthRef.current
       lastRowWidthRef.current = width
+      if (lastWidth === null) return // baseline observation only
+      if (Math.abs(width - lastWidth) <= OVERFLOW_TOLERANCE_PX) return
 
-      if (
-        lastWidth !== null &&
-        width > lastWidth &&
-        visibleLengthRef.current < slicer.length
-      ) {
-        // The row is wider now, so a length that overflowed under the old
-        // (narrower) width may fit under the new one -- that stale high
-        // bound would otherwise cap the search below what's now achievable.
-        searchHighRef.current = null
-        setVisibleLength(slicer.length)
+      if (width > lastWidth) {
+        if (displayLengthRef.current < slicer.length) {
+          setDisplayLength(slicer.length)
+        }
+      } else {
+        measure()
       }
     })
 
     observer.observe(row)
     return () => observer.disconnect()
-  }, [slicer])
+  }, [slicer, measure])
 
   // Additional, parallel recovery: fonts load async (font-display: swap,
   // see font-css.ts) so the first typeset/measurement can happen against
-  // fallback-font metrics before the real webfont's glyph widths are known
-  // — the same "measured before layout settled" risk that motivated
-  // `hookFontsReady` in stretch-tall-glyphs.ts for glyph-stretch scale. If
-  // the row's own width never changes after a premature cut (it's typically
-  // constrained by the modal layout, not its own content), the
-  // ResizeObserver above never fires, so this offers one more full-text
-  // re-check specifically on the fonts-ready signal.
+  // fallback-font metrics before the real webfont's glyph widths are known.
+  // If the row's own width never changes after a premature cut (it's
+  // typically constrained by the modal layout, not its own content), the
+  // ResizeObserver above never fires, so this re-evaluates once more
+  // specifically on the fonts-ready signal. Safe as a one-shot "try full,
+  // else measure" — unlike the ResizeObserver, this only ever runs once
+  // per mount, so it can't feed back into itself.
   useEffect(() => {
     if (typeof document === 'undefined' || !document.fonts?.ready) return
 
     let cancelled = false
     void document.fonts.ready.then(() => {
       if (cancelled) return
-      if (visibleLengthRef.current < slicer.length) {
-        // Same reasoning as the ResizeObserver recovery above: the fonts
-        // settling can change per-character widths, so a stale overflow
-        // bound from before could wrongly cap the post-settle search.
-        searchHighRef.current = null
-        setVisibleLength(slicer.length)
-      }
+      reevaluateOnce()
     })
 
     return () => {
       cancelled = true
     }
-  }, [slicer])
+  }, [reevaluateOnce])
 
   const displayText =
-    visibleLength >= slicer.length ? text : slicer.slice(visibleLength)
+    displayLength >= slicer.length ? text : slicer.slice(displayLength)
 
   return {
     rowRef,
     displayText,
-    truncated: visibleLength < slicer.length,
+    truncated: displayLength < slicer.length,
     onTypesetDone,
   }
 }

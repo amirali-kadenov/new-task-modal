@@ -16,6 +16,14 @@ import { ColumnOperationDescription } from '@/modules/tasks/ui/templates/column-
 import { classifyComplexTemplate } from '@/modules/tasks/ui/templates/complex/lib/classify-complex-template'
 import type { ComplexTaskDescription } from '@/modules/tasks/ui/templates/complex/lib/types.task'
 import { ComplexSolutionCondition } from '@/modules/tasks/ui/templates/complex/shared/complex-solution-condition'
+import type { FormulaTask } from '@/modules/tasks/ui/templates/formula/lib/types.task'
+import { FormulaDescription } from '@/modules/tasks/ui/templates/formula/shared/formula-description'
+import { getTestCorrectValue } from '@/modules/tasks/ui/templates/test/lib/get-test-correct-value'
+import {
+  getTestOptionDisplayValue,
+  getTestVariants,
+} from '@/modules/tasks/ui/templates/test/lib/get-test-variants'
+import type { TestTaskDescription } from '@/modules/tasks/ui/templates/test/lib/types.task'
 import { joinMathAnswers } from '@/modules/tasks/ui/templates/text/lib/join-math-answers'
 import { uprightMathUnits } from '@/modules/tasks/ui/templates/text/lib/upright-math-units'
 import type { Task, TaskDescriptionAnswerCell } from '@/types/api/task'
@@ -38,6 +46,13 @@ interface Props {
  * (TextSolution, EquationSolution, ...) — it reads `task.description` /
  * `task.solution` generically so one component covers every task type
  * without touching the shared per-template files.
+ *
+ * `test` is the one exception: its correct answer is stored as a letter
+ * (A/B/C…) referencing `description.variants`, not literal answer text, so
+ * it needs the same letter→variant resolution the trainer's TestSolution
+ * uses — otherwise this view shows the bare letter instead of the option
+ * text (or nothing, for tasks relying on the `description.correctAnswer`
+ * fallback).
  */
 export const ChatSolutionView = ({ task, deps, answer }: Props) => {
   const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
@@ -50,8 +65,14 @@ export const ChatSolutionView = ({ task, deps, answer }: Props) => {
     task.description?.type === deps.enums.TaskDescriptionType.Complex
   const isColumnOperation =
     task.description?.type === deps.enums.TaskDescriptionType.ColumnOperation
+  const isTest = task.description?.type === deps.enums.TaskDescriptionType.Test
+  const isFormula =
+    task.description?.type === deps.enums.TaskDescriptionType.Formula
   const complexDescription = isComplex
     ? (task.description as unknown as ComplexTaskDescription)
+    : null
+  const testDescription = isTest
+    ? (task.description as unknown as TestTaskDescription)
     : null
 
   const correctParts = getCorrectMultiAnswerParts(
@@ -59,8 +80,21 @@ export const ChatSolutionView = ({ task, deps, answer }: Props) => {
     separator,
     translate,
   )
-  const correctAnswer = joinMathAnswers(correctParts)
-  const userAnswer = splitMultiAnswer(answer, separator).join(' ; ')
+
+  const testOptions = testDescription
+    ? getTestVariants(testDescription.variants, translate)
+    : []
+  const correctAnswer = testDescription
+    ? joinMathAnswers([
+        getTestOptionDisplayValue(
+          testOptions,
+          getTestCorrectValue(testDescription, task.solution, translate),
+        ),
+      ])
+    : joinMathAnswers(correctParts)
+  const userAnswer = testDescription
+    ? getTestOptionDisplayValue(testOptions, answer)
+    : splitMultiAnswer(answer, separator).join(' ; ')
 
   const titleText = deps.global.translateTasks(task.title ?? '')
   const hasTitle = Boolean(titleText?.trim())
@@ -134,6 +168,12 @@ export const ChatSolutionView = ({ task, deps, answer }: Props) => {
               deps={deps}
               quotient={correctParts[0] || undefined}
               remainder={correctParts[1] || undefined}
+            />
+          ) : isFormula ? (
+            <FormulaDescription
+              task={task as unknown as FormulaTask}
+              deps={deps}
+              className={s.description}
             />
           ) : (
             <MathText className={s.description}>

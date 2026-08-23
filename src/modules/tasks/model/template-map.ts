@@ -271,6 +271,12 @@ export const TEMPLATE_MAP = {
         (module) => ({ default: module.ComplexPlain }),
       ),
     ),
+  [TemplateTypes.Complex.PlainCenter]: () =>
+    wrapComplex(() =>
+      import('@/modules/tasks/ui/templates/complex/ui/plain-center').then(
+        (module) => ({ default: module.ComplexPlainCenter }),
+      ),
+    ),
   [TemplateTypes.Complex.After]: () =>
     wrapComplex(() =>
       import('@/modules/tasks/ui/templates/complex/ui/after').then(
@@ -307,6 +313,12 @@ export const TEMPLATE_MAP = {
     wrapAnswerCell(() =>
       import('@/modules/tasks/ui/templates/answer-cell/ui/plain').then(
         (module) => ({ default: module.AnswerCellPlain }),
+      ),
+    ),
+  [TemplateTypes.AnswerCell.PlainCenter]: () =>
+    wrapAnswerCell(() =>
+      import('@/modules/tasks/ui/templates/answer-cell/ui/plain-center').then(
+        (module) => ({ default: module.AnswerCellPlainCenter }),
       ),
     ),
   [TemplateTypes.AnswerCell.After]: () =>

@@ -27,6 +27,7 @@ export const TemplateTypes = {
   },
   AnswerCell: {
     Plain: 'answerCell.plain',
+    PlainCenter: 'answerCell.plain.center',
     After: 'answerCell.after',
     Multi: {
       Inline: {
@@ -57,6 +58,7 @@ export const TemplateTypes = {
   },
   Complex: {
     Plain: 'complex.plain',
+    PlainCenter: 'complex.plain.center',
     After: 'complex.after',
     AfterEquation: 'complex.after.equation',
     BeforeAfter: 'complex.beforeAfter',

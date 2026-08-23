@@ -3,12 +3,14 @@ import {
   joinMultiAnswer,
   splitMultiAnswer,
 } from '@/modules/tasks/lib/multi-answer'
+import { isPlaceholderAnswer } from '@/modules/tasks/lib/solution-types'
 import type { TaskSolutionComponentProps } from '@/modules/tasks/model/types'
 import { SharedSolutionBody } from '@/modules/tasks/ui/common/task-solution/shared-solution-body'
 import { SolutionAnswerPanel } from '@/modules/tasks/ui/common/task-solution/solution-answer-panel'
 import { TaskTitle } from '@/modules/tasks/ui/common/task-title/task-title'
 
 import { joinMathAnswers } from '../../text/lib/join-math-answers'
+import { stripMathDelimiters } from '../../text/lib/strip-math-delimiters'
 import { getAnswerCellUnit } from '../lib/get-answer-cell-unit'
 import type {
   AnswerCellTask,
@@ -23,6 +25,7 @@ type Props = TaskSolutionComponentProps<AnswerCellTask> & {
   withBefore?: boolean
   withAfter?: boolean
   multi?: boolean
+  solutionAlignCenter?: boolean
 }
 
 /** Solution view for answerCell templates. */
@@ -34,6 +37,7 @@ export const AnswerCellSolution = ({
   withBefore = false,
   withAfter = false,
   multi = false,
+  solutionAlignCenter = false,
 }: Props) => {
   const translate = (value: Parameters<typeof deps.global.translateTasks>[0]) =>
     deps.global.translateTasks(value)
@@ -46,13 +50,15 @@ export const AnswerCellSolution = ({
   )
 
   const userDisplay = multi
-    ? splitMultiAnswer(answer, separator).join(' ; ')
-    : answer
+    ? splitMultiAnswer(stripMathDelimiters(answer), separator).join(' ; ')
+    : stripMathDelimiters(answer)
 
   // Backend sometimes has no structured answer for this task (placeholder
   // `\(\)` in every language) — the real value only exists as explanation
   // prose. Hide the row instead of rendering empty answercell inputs.
-  const hasCorrectAnswer = correctParts.some((part) => part.trim() !== '')
+  const hasCorrectAnswer = correctParts.some(
+    (part) => !isPlaceholderAnswer(part),
+  )
 
   const unit =
     withAfter && !multi
@@ -72,6 +78,7 @@ export const AnswerCellSolution = ({
         correctAnswer={joinMathAnswers(correctParts)}
         unit={unit}
         deps={deps}
+        alignCenter={solutionAlignCenter}
       />
 
       {hasCorrectAnswer ? (
@@ -85,6 +92,7 @@ export const AnswerCellSolution = ({
           withAfter={withAfter}
           multi={multi}
           taskType={task.type}
+          solutionAlignCenter={solutionAlignCenter}
         />
       ) : null}
 

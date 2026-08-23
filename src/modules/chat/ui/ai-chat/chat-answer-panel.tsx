@@ -1,5 +1,3 @@
-import type { ReactNode } from 'react'
-
 import type { TaskModalDependencies } from '@/modules/task-modal/model/types/props'
 import { stripMathDelimiters } from '@/modules/tasks/ui/templates/text/lib/strip-math-delimiters'
 import { TextAdornment } from '@/modules/tasks/ui/templates/text/shared/text-adornment'
@@ -22,26 +20,22 @@ interface Props {
   deps: TaskModalDependencies
 }
 
-const AnswerRow = ({
-  label,
-  text,
-  unit,
-  renderAnswer,
-}: {
-  label: string
-  text: string
-  unit?: string
-  renderAnswer: (text: string, onTypesetDone: () => void) => ReactNode
-}) => {
+/**
+ * User's (often wrong) answer — can be arbitrarily long garbage input, so
+ * it's truncated with an ellipsis instead of wrapping/overflowing the row.
+ */
+const UserAnswerRow = ({ text, unit }: { text: string; unit?: string }) => {
   const { rowRef, displayText, truncated, onTypesetDone } = useAnswerTruncation(
-    s.answer,
+    s.userAnswer,
     text,
   )
 
   return (
     <div ref={rowRef} className={s.row}>
-      <span className={s.label}>{label}</span>
-      {renderAnswer(displayText, onTypesetDone)}
+      <span className={s.label}>Ваш ответ:</span>
+      <MathFormula className={s.userAnswer} onTypeset={onTypesetDone}>
+        {displayText}
+      </MathFormula>
       {truncated && (
         <span className={s.ellipsis} aria-hidden="true">
           …
@@ -57,6 +51,27 @@ const AnswerRow = ({
     </div>
   )
 }
+
+/**
+ * Correct answer — must never be truncated, only wrap. `table_13`-style
+ * multi-cell answers (joined with `;;`) can be long enough to overflow the
+ * narrow chat bubble; clipping it would show the pupil a wrong answer.
+ */
+const CorrectAnswerRow = ({ text, unit }: { text: string; unit?: string }) => (
+  <div className={s.row}>
+    <span className={s.label}>Верный ответ:</span>
+    <MathText inline className={s.correctAnswer}>
+      {text}
+    </MathText>
+    {unit ? (
+      <TextAdornment
+        data-testid="answer-unit"
+        className={s.unit}
+        value={unit}
+      />
+    ) : null}
+  </div>
+)
 
 /**
  * Flat, icon-free answer row for the AI-chat solution bubble.
@@ -82,30 +97,10 @@ export const ChatAnswerPanel = ({
   return (
     <div className={s.container}>
       {showUser && (
-        <AnswerRow
-          label="Ваш ответ:"
-          text={stripMathDelimiters(userAnswer)}
-          unit={unit}
-          renderAnswer={(text, onTypesetDone) => (
-            <MathFormula className={s.answer} onTypeset={onTypesetDone}>
-              {text}
-            </MathFormula>
-          )}
-        />
+        <UserAnswerRow text={stripMathDelimiters(userAnswer)} unit={unit} />
       )}
 
-      {showCorrect && (
-        <AnswerRow
-          label="Верный ответ:"
-          text={correctLabel}
-          unit={unit}
-          renderAnswer={(text, onTypesetDone) => (
-            <MathText inline className={s.answer} onTypeset={onTypesetDone}>
-              {text}
-            </MathText>
-          )}
-        />
-      )}
+      {showCorrect && <CorrectAnswerRow text={correctLabel} unit={unit} />}
     </div>
   )
 }

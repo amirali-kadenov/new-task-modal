@@ -10,6 +10,13 @@ type Props = ComponentProps<typeof MathJax> & {
   inline?: boolean
 }
 
+/**
+ * `-webkit-touch-callout` (`@supports` feature-query) only reliably detects
+ * iOS Safari, not desktop macOS Safari — UA sniffing is what the rest of the
+ * codebase uses for this (see `src/ui/spoiler/spoiler.tsx`).
+ */
+const IS_SAFARI = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+
 export const MathText = ({ children, className, inline, onTypeset }: Props) => {
   const content =
     typeof children === 'string' ? normalizeFractionStyle(children) : children
@@ -21,7 +28,7 @@ export const MathText = ({ children, className, inline, onTypeset }: Props) => {
 
   return (
     <MathJax
-      className={clsx(styles.mathText, className)}
+      className={clsx(styles.mathText, IS_SAFARI && styles.safari, className)}
       inline={inline}
       onInitTypeset={handleTypeset}
       onTypeset={handleTypeset}

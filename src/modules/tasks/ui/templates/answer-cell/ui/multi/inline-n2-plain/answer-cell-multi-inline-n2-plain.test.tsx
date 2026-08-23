@@ -50,4 +50,27 @@ describe('answerCell.multi.inline.n2.plain', () => {
     expect(screen.queryByTestId('math-input')).not.toBeInTheDocument()
     expect(screen.getByText(/Правильный ответ/)).toBeInTheDocument()
   })
+
+  it('"Ваш ответ" не содержит служебные \\( \\) из wire-формата бэкенда', () => {
+    renderTemplate(
+      Template,
+      { ...task, solution: makeSolution('100;;274') },
+      { answer: '\\(124;;17\\)' },
+    )
+
+    const userAnswer = screen.getByTestId('user-answer-highlight')
+    expect(userAnswer).not.toHaveTextContent(/[\\()]/)
+    expect(userAnswer).toHaveTextContent(/124/)
+    expect(userAnswer).toHaveTextContent(/17/)
+  })
+
+  it('прячет строку с correct-ответом при "\\(\\)"-плейсхолдере (как реально шлёт Task_4_6_2_22 — solution.answer всегда `Latex.exp("")`, а не a1/a2)', () => {
+    renderTemplate(Template, {
+      ...task,
+      solution: makeSolution('\\(\\)'),
+    })
+
+    expect(screen.queryByTestId('answer-cell-row')).not.toBeInTheDocument()
+    expect(screen.queryByText(/Правильный ответ/)).not.toBeInTheDocument()
+  })
 })

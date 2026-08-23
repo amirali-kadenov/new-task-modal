@@ -50,7 +50,7 @@ export const createMultiFormulaTemplate = ({
     }
 
     const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-    const { setRef, handleChange } = getMultipleInputHandlers({
+    const { bindRef, handleChange } = getMultipleInputHandlers({
       onChange,
       separator,
       mathInput,
@@ -83,7 +83,7 @@ export const createMultiFormulaTemplate = ({
               )}
               <MathInput
                 id={key}
-                ref={setRef}
+                ref={bindRef(key)}
                 formula={answerValues[index] ?? ''}
                 onMathFieldChanged={handleChange}
                 className={styles.input}

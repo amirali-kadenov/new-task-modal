@@ -96,6 +96,7 @@ export const ComplexSolution = ({
       userAnswer={answer}
       correctAnswer={joinMathAnswers([correctAnswer])}
       deps={deps}
+      alignCenter={id === 'complex.plain.center'}
     />
   )
 

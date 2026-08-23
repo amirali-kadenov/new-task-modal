@@ -69,7 +69,7 @@ const map = {
     '18_9',
     '8_1',
   ],
-  [TemplateTypes.Complex.Plain]: ['1_1', '1_2', '1_3', '1_4'],
+  [TemplateTypes.Complex.PlainCenter]: ['1_1', '1_2', '1_3', '1_4'],
   [TemplateTypes.Complex.After]: [
     '10_1',
     '10_2',
@@ -92,7 +92,7 @@ const map = {
   ],
   [TemplateTypes.Formula.After]: ['3_1'],
   [TemplateTypes.Test.Plain]: ['7_1', '7_2'],
-  [TemplateTypes.AnswerCell.Plain]: ['3_3', '3_4'],
+  [TemplateTypes.AnswerCell.PlainCenter]: ['3_3', '3_4'],
 }
 
 export default map

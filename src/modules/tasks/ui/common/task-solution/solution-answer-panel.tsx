@@ -1,3 +1,5 @@
+import clsx from 'clsx'
+
 import CheckIcon from '@/assets/icons/check.svg'
 import CloseIcon from '@/assets/icons/close.svg'
 import { TextAdornment } from '@/modules/tasks/ui/templates/text/shared/text-adornment'
@@ -21,6 +23,8 @@ interface Props {
    */
   unit?: string
   deps: TaskModalDependencies
+  /** Center the icon/label/answer row instead of the default end-alignment. */
+  alignCenter?: boolean
 }
 
 /**
@@ -31,9 +35,11 @@ interface Props {
 const UserAnswerHighlight = ({
   text,
   unit,
+  alignCenter,
 }: {
   text: string
   unit?: string
+  alignCenter?: boolean
 }) => {
   const { rowRef, displayText, truncated, onTypesetDone } = useAnswerTruncation(
     s.userAnswer,
@@ -41,7 +47,11 @@ const UserAnswerHighlight = ({
   )
 
   return (
-    <div ref={rowRef} className={s.highlight}>
+    <div
+      ref={rowRef}
+      data-testid="user-answer-highlight"
+      className={clsx(s.highlight, alignCenter && s.highlightCenter)}
+    >
       <CloseIcon className={s.icon} />
       <span className={s.label}>Ваш ответ:</span>
       <MathFormula className={s.userAnswer} onTypeset={onTypesetDone}>
@@ -69,6 +79,7 @@ export const SolutionAnswerPanel = ({
   correctLabel,
   unit,
   deps,
+  alignCenter,
 }: Props) => {
   const showUser = Boolean(userAnswer?.trim())
   const showCorrect = Boolean(correctAnswer?.trim())
@@ -82,12 +93,18 @@ export const SolutionAnswerPanel = ({
 
   return (
     <div className={s.container}>
-      {showUser && <UserAnswerHighlight text={userAnswer} unit={unit} />}
+      {showUser && (
+        <UserAnswerHighlight
+          text={userAnswer}
+          unit={unit}
+          alignCenter={alignCenter}
+        />
+      )}
 
       {showUser && showCorrect && <hr className={s.delimeter} />}
 
       {showCorrect && (
-        <div className={s.highlight}>
+        <div className={clsx(s.highlight, alignCenter && s.highlightCenter)}>
           <CheckIcon className={s.icon} />
           <span className={s.label}>Правильный ответ:</span>
           <MathText inline className={s.answer}>

@@ -1,4 +1,5 @@
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
 import { TaskDescription } from '@/modules/tasks/ui/common/task-description/ui/task-description'
@@ -61,21 +62,17 @@ export const createTableTemplate = ({ id }: TableTemplateConfig) => {
     }
 
     const separator = deps.helpers.TaskHelper.multipleTaskAnswerSeparator
-    const { setRef, handleChange } = getMultipleInputHandlers({
+    const { bindRef, handleChange } = getMultipleInputHandlers({
       onChange,
       separator,
       mathInput,
     })
 
-    const answerValues = answer.split(separator)
+    const answerValues = splitMultiAnswer(answer, separator)
     let inputIndex = 0
 
     return (
-      <div
-        className={styles.container}
-        data-template-id={id}
-        data-mode="input"
-      >
+      <div className={styles.container} data-template-id={id} data-mode="input">
         <TaskTitle title={task.title} deps={deps} />
         <TaskDescription task={task as unknown as Task<'table'>} deps={deps} />
 
@@ -134,7 +131,7 @@ export const createTableTemplate = ({ id }: TableTemplateConfig) => {
                         {isInput ? (
                           <MathInput
                             id={`table-input-${currentInputIndex}`}
-                            ref={setRef}
+                            ref={bindRef(`table-input-${currentInputIndex}`)}
                             formula={answerValues[currentInputIndex] ?? ''}
                             onMathFieldChanged={handleChange}
                             className={getInputClassName({ id, mode: 'input' })}

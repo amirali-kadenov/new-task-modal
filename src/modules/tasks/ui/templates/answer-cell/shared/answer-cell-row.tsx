@@ -48,6 +48,8 @@ interface Props {
   taskType?: string
   /** Extra class merged onto each input cell, for templates needing a non-default width. */
   cellInputClassName?: string
+  /** Keep solution-mode content row centered instead of the default end-alignment. */
+  solutionAlignCenter?: boolean
 }
 
 const warnedAdornmentMismatches = new Set<string>()
@@ -111,6 +113,7 @@ export const AnswerCellRow = ({
   mathInputRef,
   taskType,
   cellInputClassName,
+  solutionAlignCenter = false,
 }: Props) => {
   const desc = normalizeAnswerCellDescription(
     description as unknown as Record<string, unknown>,
@@ -152,7 +155,13 @@ export const AnswerCellRow = ({
 
   return (
     <div
-      className={clsx(styles.contentRow, isColumn && styles.contentRowColumn)}
+      className={clsx(
+        styles.contentRow,
+        mode === 'solution' &&
+          !solutionAlignCenter &&
+          styles.contentRowSolution,
+        isColumn && styles.contentRowColumn,
+      )}
       data-testid="answer-cell-row"
       data-cell-count={cellCount}
     >

@@ -142,8 +142,8 @@ const map = {
     '23_1',
     '23_2',
   ],
-  [TemplateTypes.AnswerCell.Plain]: [
-    '19_1',
+  [TemplateTypes.AnswerCell.Plain]: ['19_1'],
+  [TemplateTypes.AnswerCell.PlainCenter]: [
     '19_2',
     '19_3',
     '19_4',

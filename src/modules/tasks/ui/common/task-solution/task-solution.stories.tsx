@@ -217,6 +217,100 @@ export const AnswerPanel: Story = {
   ),
 }
 
+const resizableFrameStyle: CSSProperties = {
+  resize: 'horizontal',
+  overflow: 'auto',
+  width: 375,
+  minWidth: 100,
+  maxWidth: '100%',
+  border: '1px dashed var(--border-strong, #999)',
+  borderRadius: 8,
+  padding: '12px 16px',
+  background: 'var(--bg-surface, #fff)',
+}
+
+const narrowFrameStyle: CSSProperties = {
+  ...frameStyle,
+  maxWidth: 260,
+}
+
+/** Realistic garbage-long user input, like a pupil typing a whole sentence
+ * into a numeric field. */
+const GARBAGE_USER_ANSWER =
+  'девятьсот пятьдесят три целых семь десятых и еще немного лишнего текста'
+
+/** Same shape as the reported bug: a full Russian number-reading as the
+ * correct answer, e.g. for "прочитайте число 59114". */
+const LONG_CORRECT_READING = joinMathAnswers([
+  'пятьдесят девять тысяч сто четырнадцать',
+])
+
+export const Truncation: Story = {
+  name: 'Answer truncation',
+  decorators: [withFrame()],
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Проверка обрезания ответа: длинный «ваш ответ» обрезается многоточием, длинный «правильный ответ» никогда не обрезается — переносится. Верхний блок можно тянуть за правый нижний угол, чтобы проверить, что обрезание пересчитывается и при сужении, и при расширении строки.',
+      },
+    },
+  },
+  render: () => (
+    <>
+      <div style={sectionStyle}>
+        <p style={labelStyle}>
+          Тяните за угол — проверка сужения/расширения строки
+        </p>
+        <div style={resizableFrameStyle}>
+          <SolutionAnswerPanel
+            userAnswer={GARBAGE_USER_ANSWER}
+            correctAnswer={LONG_CORRECT_READING}
+            deps={deps}
+          />
+        </div>
+      </div>
+
+      <div style={sectionStyle}>
+        <p style={labelStyle}>Короткий ответ — не должен обрезаться</p>
+        <SolutionAnswerPanel userAnswer="7" correctAnswer="12" deps={deps} />
+      </div>
+
+      <div style={sectionStyle}>
+        <p style={labelStyle}>
+          Длинный «ваш ответ» в узкой панели — обрезается многоточием
+        </p>
+        <div style={narrowFrameStyle}>
+          <SolutionAnswerPanel
+            userAnswer={GARBAGE_USER_ANSWER}
+            correctAnswer=""
+            deps={deps}
+          />
+        </div>
+      </div>
+
+      <div>
+        <p style={labelStyle}>
+          Длинный «правильный ответ» в узкой панели — переносится, не обрезается
+        </p>
+        <div style={narrowFrameStyle}>
+          <SolutionAnswerPanel
+            userAnswer=""
+            correctAnswer={LONG_CORRECT_READING}
+            deps={deps}
+          />
+        </div>
+      </div>
+    </>
+  ),
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement)
+
+    await expect(canvas.getAllByText('Ваш ответ:').at(0)).toBeVisible()
+    await expect(canvas.getAllByText('Правильный ответ:').at(0)).toBeVisible()
+  },
+}
+
 export const Explanation: Story = {
   name: 'Explanation variants',
   decorators: [withFrame()],

@@ -14,6 +14,8 @@ interface SimpleAnswerCellTemplateConfig {
   id: string
   withBefore?: boolean
   withAfter?: boolean
+  /** Keep solution-mode content row centered instead of the default end-alignment. */
+  solutionAlignCenter?: boolean
 }
 
 /** Single-answerInput answerCell template (1+ cells from content tokens). */
@@ -21,6 +23,7 @@ export const createSimpleAnswerCellTemplate = ({
   id,
   withBefore = false,
   withAfter = false,
+  solutionAlignCenter = false,
 }: SimpleAnswerCellTemplateConfig) => {
   const SimpleAnswerCellTemplate = ({
     task,
@@ -39,6 +42,7 @@ export const createSimpleAnswerCellTemplate = ({
           withBefore={withBefore}
           withAfter={withAfter}
           multi={false}
+          solutionAlignCenter={solutionAlignCenter}
         />
       )
     }
