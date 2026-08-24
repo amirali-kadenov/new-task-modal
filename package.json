@@ -39,9 +39,7 @@
     "build-storybook:prod": "node scripts/build-storybook-deploy.mjs --prod",
     "export-stats-static": "node scripts/export-stats-static.mjs",
     "export-gaps-report": "node scripts/export-gaps-report.mjs",
-    "generate-available-tasks": "tsx scripts/generate-available-tasks.ts",
-    "prepare": "npm run build",
-    "postinstall": "husky || true"
+    "generate-available-tasks": "tsx scripts/generate-available-tasks.ts"
   },
   "dependencies": {
     "@edtr-io/mathquill": "^0.11.0",
