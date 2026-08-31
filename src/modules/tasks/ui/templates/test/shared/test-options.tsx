@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 
+import { CheckboxGroup } from '@/ui/checkbox/checkbox-group'
 import {
   RadioButtonGroup,
   type RadioOption,
@@ -17,6 +18,10 @@ interface Props {
   description: TestTaskDescription
   disabled?: boolean
   readOnly?: boolean
+  /** Task admits more than one correct answer — pick with checkboxes. */
+  multiple?: boolean
+  /** Localized "pick every fitting option" line. */
+  multipleHint?: string
 }
 
 export const TestOptions = ({
@@ -27,6 +32,8 @@ export const TestOptions = ({
   description,
   disabled = false,
   readOnly = false,
+  multiple = false,
+  multipleHint,
 }: Props) => {
   const horizontal = Boolean(description.isHorizontal)
   const wrap = Boolean(description.isWrapVariants)
@@ -36,6 +43,23 @@ export const TestOptions = ({
       data-testid="test-options"
       data-layout={horizontal ? 'horizontal' : 'vertical'}
     >
+      {multiple ? (
+        <CheckboxGroup
+          className={clsx(
+            styles.radioGroup,
+            horizontal && styles.radioGroupHorizontal,
+            wrap && styles.radioGroupWrap,
+          )}
+          name={name}
+          options={options}
+          value={value}
+          onChange={onChange}
+          disabled={disabled}
+          readOnly={readOnly}
+          ariaLabel="test-options"
+          hint={multipleHint}
+        />
+      ) : (
       <RadioButtonGroup
         className={clsx(
           styles.radioGroup,
@@ -50,6 +74,7 @@ export const TestOptions = ({
         readOnly={readOnly}
         ariaLabel="test-options"
       />
+      )}
     </div>
   )
 }
