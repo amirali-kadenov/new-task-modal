@@ -1,0 +1,129 @@
+/* Mirrors radio-button.module.scss — same box, square control, tick mark. */
+
+.checkbox {
+  position: relative;
+  display: flex;
+  gap: var(--space-8);
+  align-items: center;
+  padding: var(--space-12);
+  color: var(--text-secondary);
+  cursor: pointer;
+  background-color: var(--bg-surface);
+
+  --border-color: var(--border-default);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-m);
+  transition: all 0.2s ease;
+
+  &:hover:not(.disabled, .readOnly) {
+    color: var(--text-primary);
+
+    --border-color: var(--border-strong);
+  }
+
+  &.checked {
+    color: var(--text-primary);
+    box-shadow:
+      0 0 0 5px #3176f633,
+      0 0 0 1px var(--border-focus);
+
+    --border-color: var(--border-focus);
+  }
+
+  &.disabled {
+    color: var(--text-disabled);
+    cursor: not-allowed;
+    background-color: var(--bg-disabled);
+
+    --border-color: var(--border-default);
+  }
+
+  &.readOnly {
+    cursor: default;
+  }
+}
+
+.checkboxInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  appearance: none;
+  border: 0;
+  clip-path: inset(50%);
+}
+
+/*
+ * Square, unlike the radio's circle. Shape is the only thing that tells a
+ * pupil more than one answer may be picked, so it has to differ plainly.
+ */
+.checkboxControl {
+  position: relative;
+  flex-shrink: 0;
+
+  --size: 20px;
+
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xs);
+  transition: all 0.2s ease;
+
+  &::after {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: calc(var(--size) / 4);
+    height: calc(var(--size) / 2);
+    content: '';
+    border: solid var(--bg-surface);
+    border-width: 0 2px 2px 0;
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: opacity 0.2s ease;
+  }
+}
+
+.checkbox.checked .checkboxControl {
+  background-color: var(--border-focus);
+  border-color: var(--border-focus);
+
+  &::after {
+    opacity: 1;
+  }
+}
+
+.checkboxInput:focus-visible + .checkboxControl {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.checkbox.disabled .checkboxControl {
+  background-color: var(--bg-disabled);
+  border-color: var(--border-default);
+
+  &::after {
+    border-color: var(--text-disabled);
+  }
+}
+
+.checkboxLabel {
+  @include body-medium-regular;
+
+  user-select: none;
+
+  :global(svg) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.htmlLabel {
+  align-items: flex-start;
+}
