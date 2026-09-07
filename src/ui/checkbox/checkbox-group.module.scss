@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+/*
+ * A square control alone does not say "more than one may be picked" loudly
+ * enough — the pupil has to be told. Without this line the task reads as an
+ * ordinary single-choice test and the second answer is never attempted.
+ */
+.hint {
+  @include body-small-regular;
+
+  margin-bottom: var(--space-4);
+  color: var(--text-secondary);
+}

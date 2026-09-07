@@ -2668,6 +2668,8 @@ export interface Localize {
   iDontKnow: string
   telephone: string
   checkAnswer: string
+  /** Shown above a test with more than one correct answer. */
+  pickEveryFittingOption?: string
   checkingAnswer: string
   videoExplanation: string
   phoneNumber: string

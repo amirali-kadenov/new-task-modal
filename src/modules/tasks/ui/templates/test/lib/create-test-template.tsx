@@ -12,12 +12,27 @@ import styles from '../shared/test.module.scss'
 import { getTestVariants } from './get-test-variants'
 import type { TestTask } from './types.task'
 
+/*
+ * The host dictionary has no key for this yet, so the Russian line is the
+ * fallback: a pupil facing an untranslated interface is a smaller failure
+ * than a pupil who is never told that several answers may be picked.
+ */
+const multipleHint = (deps: TaskComponentProps<TestTask>['deps']): string =>
+  deps.localize?.pickEveryFittingOption ?? 'Выберите все подходящие варианты'
+
 interface TestTemplateConfig {
   /** templateId, e.g. `test.plain`. */
   id: string
 }
 
-/** Multiple-choice test: title + question + optional figures + radios. */
+/**
+ * Multiple-choice test: title + question + optional figures + options.
+ *
+ *  arrives from the backend and decides the mechanic:
+ * radios for one correct answer, checkboxes for several. Until it was read,
+ * a task with several correct answers could not be answered at all — the
+ * pupil had one radio for four right options.
+ */
 export const createTestTemplate = ({ id }: TestTemplateConfig) => {
   const TestTemplate = ({
     task,
@@ -52,6 +67,8 @@ export const createTestTemplate = ({ id }: TestTemplateConfig) => {
           value={answer}
           onChange={onChange}
           description={task.description}
+          multiple={Boolean(task.hasMultipleAnswers)}
+          multipleHint={multipleHint(deps)}
         />
       </div>
     )
