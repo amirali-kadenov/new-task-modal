@@ -7,6 +7,60 @@ import type { ComplexCoordinatePlanePart } from '../../lib/types.task'
 import { planeLength, PlaneFigureType } from './coordinate-plane/plane-math'
 import { CoordinatePlanePart } from './coordinate-plane-part'
 
+const baseOptions = {
+  minPosition: -10,
+  maxPosition: 10,
+  tickStep: 1,
+  stepSize: 30,
+  showAxis: true,
+  showCells: true,
+  tickStepXMultiply: 1,
+  tickStepYMultiply: 1,
+  xAxisLabel: 'x',
+  yAxisLabel: 'y',
+}
+
+describe('CoordinatePlanePart fitToContent', () => {
+  const поле = (figures: unknown[]) =>
+    ({
+      type: 110,
+      showAxis: true,
+      showCells: true,
+      minPosition: -10,
+      maxPosition: 10,
+      stepSize: 30,
+      tickStep: 1,
+      figures,
+    }) as unknown as ComplexCoordinatePlanePart
+
+  /** A segment spanning one unit inside a field declared -10..10. */
+  const отрезок = [
+    { type: PlaneFigureType.LineSegment, x1: 0, y1: 0, x2: 1, y2: 0 },
+  ]
+
+  it('keeps Matheducator parity when the prop is absent', () => {
+    render(<CoordinatePlanePart part={поле(отрезок)} deps={makeDeps()} />)
+    const svg = screen.getByTestId('complex-coordinate-plane-part')
+    expect(svg.getAttribute('width')).toBe(String(planeLength(baseOptions)))
+  })
+
+  it('shrinks the canvas to the drawn figure when asked', () => {
+    render(
+      <CoordinatePlanePart part={поле(отрезок)} deps={makeDeps()} fitToContent />,
+    )
+    const svg = screen.getByTestId('complex-coordinate-plane-part')
+    const width = Number(svg.getAttribute('width'))
+    expect(width).toBeGreaterThan(0)
+    expect(width).toBeLessThan(planeLength(baseOptions))
+  })
+
+  it('keeps the declared field when nothing is drawn', () => {
+    render(<CoordinatePlanePart part={поле([])} deps={makeDeps()} fitToContent />)
+    const svg = screen.getByTestId('complex-coordinate-plane-part')
+    expect(svg.getAttribute('width')).toBe(String(planeLength(baseOptions)))
+  })
+})
+
 describe('CoordinatePlanePart Text labels', () => {
   it('uses fixed plane pixel size (ME parity, not width 100%)', () => {
     const part = {
