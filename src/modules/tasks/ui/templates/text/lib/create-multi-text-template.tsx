@@ -1,5 +1,6 @@
 import { getInlineInputEntries } from '@/modules/tasks/lib/get-inline-input-entries'
 import { getMultipleInputHandlers } from '@/modules/tasks/lib/get-multiple-input-handlers'
+import { inputWidthHint } from '@/modules/tasks/lib/input-width-hint'
 import { splitMultiAnswer } from '@/modules/tasks/lib/multi-answer'
 import { isActiveSolution } from '@/modules/tasks/lib/solution-types'
 import type { TaskComponentProps } from '@/modules/tasks/model/types'
@@ -23,6 +24,12 @@ interface MultiTextTemplateConfig {
   /** Documented input count (`input1..N`); rendering follows actual data. */
   inputCount: number
   withBefore?: boolean
+  /**
+   * Size each input to the volume of the expected answer instead of the fixed
+   * 120px. Off by default: the fixed width is what the visual baselines were
+   * recorded with, and turning this on changes them.
+   */
+  widthFromTask?: boolean
   withAfter?: boolean
   /**
    * Wrap bare `unit^n` in description/adornments for MathJax.
@@ -41,6 +48,7 @@ export const createMultiTextTemplate = ({
   layout,
   withBefore = false,
   withAfter = false,
+  widthFromTask = false,
   normalizeBareMath: shouldNormalize = false,
 }: MultiTextTemplateConfig) => {
   const MultiTextTemplate = ({
@@ -76,6 +84,13 @@ export const createMultiTextTemplate = ({
       (value) => deps.global.translateTasks(value),
     )
 
+    /* One width for the whole group: neighbouring fields of different widths
+
+       read as different in importance, not as a hint about the answer. */
+
+    const widthPx = widthFromTask ? inputWidthHint(task, 24) : null
+
+
     return (
       <div className={styles.container} data-template-id={id}>
         <TaskTitle title={task.title} deps={deps} />
@@ -105,6 +120,7 @@ export const createMultiTextTemplate = ({
                 formula={answerValues[index] ?? ''}
                 onMathFieldChanged={handleChange}
                 className={styles.input}
+                style={widthPx ? { flex: 'none', width: widthPx } : undefined}
               />
               {withAfter && after && (
                 <TextAdornment
