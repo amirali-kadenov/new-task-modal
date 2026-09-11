@@ -9,6 +9,7 @@ import {
   PlaneFigure,
 } from './coordinate-plane/plane-figures'
 import {
+  fitOptionsToContent,
   planeLength,
   type PlaneOptions,
   type PlanePoint,
@@ -17,6 +18,14 @@ import {
 interface Props {
   part: ComplexCoordinatePlanePart
   deps: TaskModalDependencies
+  /**
+   * Size the canvas to what is drawn instead of the declared coordinate field.
+   *
+   * Off by default: `planeLength` reproduces Matheducator pixel-for-pixel and
+   * that parity is covered by a test. With it on, a figure spanning half a
+   * unit inside a field declared -10..10 no longer sits in a large empty grid.
+   */
+  fitToContent?: boolean
 }
 
 const toOptions = (part: ComplexCoordinatePlanePart): PlaneOptions => ({
@@ -34,11 +43,8 @@ const toOptions = (part: ComplexCoordinatePlanePart): PlaneOptions => ({
 })
 
 /** Display-only CoordinatePlane (no click / draw for grade 4). */
-export const CoordinatePlanePart = ({ part, deps }: Props) => {
-  const options = toOptions(part)
-  const length = planeLength(options)
-  const reduce = options.reduceHeight ?? 0
-  const height = Math.max(40, length - reduce)
+export const CoordinatePlanePart = ({ part, deps, fitToContent = false }: Props) => {
+  const declared = toOptions(part)
   const translate = (value: unknown) => deps.global.translateTasks(value)
 
   const points = Array.isArray(part.points)
@@ -49,6 +55,13 @@ export const CoordinatePlanePart = ({ part, deps }: Props) => {
   const figures = Array.isArray(part.figures)
     ? (part.figures as Record<string, unknown>[])
     : []
+
+  const options = fitToContent
+    ? fitOptionsToContent(declared, points, figures)
+    : declared
+  const length = planeLength(options)
+  const reduce = options.reduceHeight ?? 0
+  const height = Math.max(40, length - reduce)
 
   return (
     <svg
